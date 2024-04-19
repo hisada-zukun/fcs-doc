@@ -2,12 +2,12 @@
 
     <link rel="stylesheet" href="_static/custom.css" type="text/css" />
 
-FCS使用マニュアル
+FCSマニュアル
 ===================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: コンテンツ:
 
    001_intro.md
    002_install.md
