@@ -8,11 +8,17 @@ FCS起動
     初回起動時、PC環境によってセキュリティソフトでブロックされることがあります
 
 .. raw:: html
-
     <table>
         <tr>
             <td>Text next to the image</td>
             <td><img src="doc/images/003_downloaded.png" alt="Image"></td>
-            
         </tr>
     </table>
+
+.. figure:: images/003_downloaded.png 
+
+Testing the image
+
+.. figure:: doc/images/003_downloaded.png
+
+Testing full path
