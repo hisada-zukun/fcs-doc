@@ -11,7 +11,8 @@ FCS起動
 
     <table>
         <tr>
-            <td><img src="images/003_downloaded.png" alt="Image"></td>
             <td>Text next to the image</td>
+            <td><img src="doc\images\003_downloaded.png" alt="Image"></td>
+            
         </tr>
     </table>
