@@ -11,6 +11,6 @@ FCS使用マニュアル
 
    001_intro.md
    002_install.md
-   003_launch.rst
+   003_launch.md
    .. some-feature.md
    .. another-feature.md
