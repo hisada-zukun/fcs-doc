@@ -12,5 +12,6 @@ FCS使用マニュアル
    001_intro.md
    002_install.md
    003_launch.md
+   004_session.md
    .. some-feature.md
    .. another-feature.md

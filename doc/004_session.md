@@ -4,7 +4,6 @@ FCS起動後、「session」と呼ばれるプロジェクトファイルにア�
 「New...（新規作成）またはOpen（開く）」を実行します。
 
 
-
 #### メニューバー：FCSの作業データを置きたい場所を指定 
 
 File -> Session  
@@ -17,6 +16,12 @@ File -> Session
 - Quit：FCSを終了する
 
 
+#### Create new Sessionで作成されるフォルダ構造
+赤枠：Project Folderで作成されるフォルダ  
+青枠：Actorで作成されるフォルダ  
+緑枠：Characterで作成されるフォルダ  
+.lock：共同作業を防止するロックファイル
+fcs_session.yaml：sessionをSaveした後に作成されるファイル  
 
 
 Settingを変更できます
