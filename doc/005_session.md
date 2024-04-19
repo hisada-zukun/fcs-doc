@@ -1,5 +1,4 @@
-## 作業フロー
-**Session作成もしくはオープン**  
+## Session作成もしくはオープン
 FCS起動後、「session」と呼ばれるプロジェクトファイルにアクセスするため
 「New...（新規作成）またはOpen（開く）」を実行します。
 
@@ -19,7 +18,7 @@ Browse ボタンでFCSの作業データフォルダを格納する場所
 ＝Project Folder
 を指定するためウィンドウを起動
 
-###### Drive　ボタンで
+##### Drive　ボタンで
 1. 作業者PC環境のローカルネットワークドライブを表示  
 2. Project Folderを作成したい場所を選択
 3. OK  
@@ -37,14 +36,16 @@ close
 - Setting：UIやMayaでの出力物等の設定を確認・変更する。詳細は後述
 - Quit：FCSを終了する
 
-#### 
-
 #### Create new Sessionで作成されるフォルダ構造
 赤枠：Project Folderで作成されるフォルダ  
 青枠：Actorで作成されるフォルダ  
 緑枠：Characterで作成されるフォルダ  
 .lock：共同作業を防止するロックファイル
 fcs_session.yaml：sessionをSaveした後に作成されるファイル  
+
+
+#### 既存のSessionを開く
+
 
 
 Settingを変更できます
