@@ -1,7 +1,6 @@
-.. Example documentation master file, created by
-   sphinx-quickstart on Sat Sep 23 20:35:12 2023.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. raw:: html
+
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
 
 FCS使用マニュアル
 ===================================

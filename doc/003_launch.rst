@@ -1,24 +1,17 @@
+.. raw:: html
+
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+
 ===========
 FCS起動
 ===========
 
-任意の場所に保存したFCS_v○○.exeをダブルクリックし起動する
+
+.. list-table:: 
+    
+
+   * - .. image:: images/003_downloaded.png
+     - 任意の場所に保存したFCS_v.exeをダブルクリックし起動する
 
 .. note::
     初回起動時、PC環境によってセキュリティソフトでブロックされることがあります
-
-.. raw:: html
-    <table>
-        <tr>
-            <td>Text next to the image</td>
-            <td><img src="doc/images/003_downloaded.png" alt="Image"></td>
-        </tr>
-    </table>
-
-.. figure:: images/003_downloaded.png 
-
-Testing the image
-
-.. figure:: doc/images/003_downloaded.png
-
-Testing full path
