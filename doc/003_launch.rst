@@ -6,12 +6,15 @@
 FCS起動
 ===========
 
+.. figure:: images/003_downloaded.png
+    :width: 50%
+    :align: left
 
-.. list-table:: 
-    
+    任意の場所に保存したFCS_v.exeをダブルクリックし起動する
 
-   * - .. image:: images/003_downloaded.png
-     - 任意の場所に保存したFCS_v.exeをダブルクリックし起動する
 
 .. note::
+
     初回起動時、PC環境によってセキュリティソフトでブロックされることがあります
+
+Test
