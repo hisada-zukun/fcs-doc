@@ -7,7 +7,6 @@ FCS起動
 ===========
 
 .. figure:: images/003_downloaded.png
-    :width: 50%
     :align: left
 
     任意の場所に保存したFCS_v.exeをダブルクリックし起動する
@@ -17,4 +16,16 @@ FCS起動
 
     初回起動時、PC環境によってセキュリティソフトでブロックされることがあります
 
-Test
+ライセンスの入力
+------------------------------------
+
+.. figure:: images/003_license_key.png
+    :align: left
+
+    FCS初回起動時ライセンスキーの入力を求められるので
+    New Licenseにライセンスキーを入力し、
+    Update
+
+
+
+
