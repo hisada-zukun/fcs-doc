@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'FCS Manual'
+project = 'FCS Manual v1.5.16'
 copyright = 'workshop participant'
 author = 'Zukun'
 release = '1.5.16'
