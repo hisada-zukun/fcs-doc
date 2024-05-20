@@ -46,11 +46,10 @@ fcs_session.yaml：sessionをSaveした後に作成されるファイル
 
 #### 既存のSessionを開く
 
-
-
 Settingを変更できます
 
 ```{warning}
 変更したsettingsは、FCS再起動後に反映されます
 ```
+きどうが終わりました。
 
