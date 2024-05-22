@@ -14,5 +14,4 @@ FCSマニュアル
    003_launch.md
    004_overview.md
    005_session.md
-   .. some-feature.md
-   .. another-feature.md
+   099_faq.md
