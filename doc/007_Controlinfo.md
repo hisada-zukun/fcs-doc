@@ -35,12 +35,80 @@ lower：口・顎・頬等を動かすコントローラー（青）
 
 
 ### Upperの登録方法 
+Mayaでupperに登録したいコントローラーを選択し
+
+FCSに戻り
+・Add selected
+★ Add selectedを押しても何も表示されない場合、モジュールのインストールを行っていない可能性があります。
+
+Mayaで選択したコントローラーが「controller」に表示されるので
+・select All（=全選択）でupperに登録したいコントローラーを選択
+※null＝Regionが未指定
+
+今回はupperに登録したいので
+・Upper
+を選択
+
+Regionにupperと表示されたら登録完了！
 
 ### Gazeの登録方法
+Mayaで
+・gazeに登録したいコントローラーを選択し
+
+・Add selected
+
+Upperの下にAdd selectedで追加したコントローラーが表示されます
+
+・右上のall▼のタブを選択し、null▼に変更する
+Upperに登録したものを非表示にし、先程追加したコントローラーのみ表示させる
+
+★ allのままだと　upperも表示されているためselect Allするとupperも選択される。
+間違って全選択してしまった場合はUnselect Allで選択解除可能。
+
+nullにすることで登録されていない項目が絞り込まれるのでUpperと同様に
+・select All（=全選択）
+で✅を入れ
+※手動でも✅できますが、数が多い時には手間になります
+
+・gaze
+※対応するRegionを登録
+★ nullで絞り込んでいるのでRegionを登録すると非表示になります
+
+allに戻すとすべて表示されます
+ 再表示したい場合の例なので、すべて登録するまでnullのままでも問題ありません。また、登録したRegionで絞り込むこともできます。
+
 
 ### Eyelidの登録方法
+同様に
+・ eyelidに登録したいコントローラーを選択し
+
+・ Add selected
+
+登録済みのコントローラーの下に追加したコントローラーが表示されます
+
+・ 右上のall▼のタブを選択し、null▼に変更する
+★nullから変更していない場合はこの手順はスキップ
+
+・ select All
+
+・ eyelid
+
 
 ### Lowerの登録方法
+Mayaでupperに登録したい コントローラーを選択し
+lowerに登録したいコントローラーをAdd selected→All select→lower
+
+・Add selected
+登録済みのコントローラーの下に追加したコントローラーが表示されます
+
+・select All
+
+・Lower
+
+Upper/Lower/Gaze/Eyelidをすべて登録し終えたら
+・save
+
+※未登録状態のものがあるとSave出来ません
 
 ### トラブルシューティング
 
