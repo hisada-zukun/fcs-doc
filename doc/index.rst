@@ -14,3 +14,9 @@ FCSマニュアル
    003_launch.md
    004_overview.md
    005_session.md
+   006_maya.md
+   007_Controlinfo.md
+   008_profile.md
+   009_Solver.md
+   099_faq.md
+  
