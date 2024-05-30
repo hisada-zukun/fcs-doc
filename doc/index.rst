@@ -19,5 +19,6 @@ FCSマニュアル
    008_profile.md
    009_Solver.md
    010_アニメーション.md
+   011_トラブルシューティング.md
    099_faq.md
   
