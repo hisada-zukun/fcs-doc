@@ -55,4 +55,3 @@ Settingを変更できます
 
 テストを開始します。
 
-![](images/natu.jpg)
