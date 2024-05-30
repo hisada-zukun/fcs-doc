@@ -18,5 +18,6 @@ FCSマニュアル
    007_Controlinfo.md
    008_profile.md
    009_Solver.md
+   010_アニメーション.md
    099_faq.md
   
