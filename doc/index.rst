@@ -15,4 +15,5 @@ FCSマニュアル
    004_overview.md
    005_session.md
    006_maya.md
+   007_Controlinfo.md
    099_faq.md
