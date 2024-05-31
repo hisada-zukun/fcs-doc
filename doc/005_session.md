@@ -116,7 +116,7 @@ Actorフォルダ直下にcharacterフォルダが作成されます
 ![](images/image23.png)
 
 
-#### MayaSceneの設定
+#### ④MayaSceneの設定
 
 MayaSceneデータのパスを指定します
  例：
