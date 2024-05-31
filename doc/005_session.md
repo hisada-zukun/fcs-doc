@@ -102,7 +102,7 @@ Create new characterFolderを起動
 Create
 ![](images/image14.png)
 
-```{waning}
+```{warning}
 ★Mayaシーン名に含まれていないと読み込みエラーが出ます
 例：
 〇　Mayaシーン「FCS_MetaHuman_prj_v04.ma」
@@ -191,7 +191,7 @@ fcs_session.yamlは
 ### seesionを開く際の注意
 
 
-```{warnig}
+```{warning}
 sessionの新規作成/Open後、続けて別なsession作成や起動は出来ません
 別なsessionを開きたい場合は、現在のsessionを終了し、再起動後開きなおしてください
 ```
