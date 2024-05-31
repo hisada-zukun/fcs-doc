@@ -7,7 +7,7 @@
 ★数値表記ではなく　True/False表記のものが紛れ込んでいると正常に動作しなくなるためRemoveをしてください
 ```
 
-![](images/image38.png)
+![](images/image37.png)
 一覧
 - all▼：all/upper/lower/gaze/eyelid/null　指定した項目（部位の区分）を絞り込んで表示
 - Add selected：選択したコントローラーを登録
@@ -22,8 +22,11 @@
 
 - save：controller Infoを登録。Regionが4項目登録されていないと実行できない。
 
-controllerの登録
-★！！必須！！ ・全てのRegionの登録
+## controllerの登録
+
+```{warning}
+★！！必須！！ 
+・全てのRegionの登録
 例：upper→gaze→eyelid→Lower 
 ※Lowerは設定数が多いので今回の例では後回しにしています
 
@@ -37,53 +40,72 @@ lower：口・顎・頬等を動かすコントローラー（青）
 ・eyelidに登録するのか 
 ・lowerに登録するのか 
 規則を固めてから登録を行うと後々楽です。
-
+![](images/image64.png)
+```
 
 ### Upperの登録方法 
+
 Mayaでupperに登録したいコントローラーを選択し
+![](images/image36.png)
 
 FCSに戻り
 ・Add selected
+
+```{warning}
 ★ Add selectedを押しても何も表示されない場合、モジュールのインストールを行っていない可能性があります。
+```
+
+![](images/image38.png)
+
 
 Mayaで選択したコントローラーが「controller」に表示されるので
 ・select All（=全選択）でupperに登録したいコントローラーを選択
 ※null＝Regionが未指定
+![](images/image46.png)
 
 今回はupperに登録したいので
 ・Upper
 を選択
+![](images/image44.png)
 
 Regionにupperと表示されたら登録完了！
 
 ### Gazeの登録方法
+
 Mayaで
 ・gazeに登録したいコントローラーを選択し
+![](images/image47.png)
 
 ・Add selected
-
 Upperの下にAdd selectedで追加したコントローラーが表示されます
+![](images/image42.png)
 
 ・右上のall▼のタブを選択し、null▼に変更する
 Upperに登録したものを非表示にし、先程追加したコントローラーのみ表示させる
+![](images/image43.png)
 
+```{note}
 ★ allのままだと　upperも表示されているためselect Allするとupperも選択される。
 間違って全選択してしまった場合はUnselect Allで選択解除可能。
+```
 
 nullにすることで登録されていない項目が絞り込まれるのでUpperと同様に
 ・select All（=全選択）
 で✅を入れ
 ※手動でも✅できますが、数が多い時には手間になります
+![](images/image51.png)
 
 ・gaze
 ※対応するRegionを登録
 ★ nullで絞り込んでいるのでRegionを登録すると非表示になります
+
 
 allに戻すとすべて表示されます
  再表示したい場合の例なので、すべて登録するまでnullのままでも問題ありません。また、登録したRegionで絞り込むこともできます。
 
 
 ### Eyelidの登録方法
+
 同様に
 ・ eyelidに登録したいコントローラーを選択し
 
@@ -100,6 +122,7 @@ allに戻すとすべて表示されます
 
 
 ### Lowerの登録方法
+
 Mayaでupperに登録したい コントローラーを選択し
 lowerに登録したいコントローラーをAdd selected→All select→lower
 
@@ -122,6 +145,7 @@ Upper/Lower/Gaze/Eyelidをすべて登録し終えたら
 で削除
 
 ### トラブルシューティング
+
 ・Add selectでコントローラーの追加ができない　
 SyncでMayaと連動しない
 
