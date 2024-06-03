@@ -58,7 +58,6 @@ Create
 
 問題なく作成できたら画像のポップアップが出ます
 ![](images/image21.png)
-Close
 
 エクスプローラーで
 「Facial」「FCS」のフォルダが作成されます
