@@ -11,7 +11,7 @@ Facial\RecDataフォルダに解析したい動画を保存しておくことを
 ```
 
 #### 解析動画を開く方法
-Videosウィンドウを表示し
+Videosウィンドウを表示し  
 ・import
 ![](images/image71.png)
 
@@ -21,7 +21,8 @@ select Videoウィンドウが出るので
 ![](images/image75.png)
 
 ```{note}
-★create sessionで作成されたProject Folder内に解析したい動画を保存していない場合はDrivesからパスをたどってください
+★create sessionで作成されたProject Folder内に解析したい動画を保存していない場合  
+Drivesからパスをたどってください
 ```
 
 ・解析したい動画を選択し  
@@ -207,9 +208,8 @@ Maya上でリアルタイムに表情を調整することができる
 解析結果の精度が低下してしまう可能性があります
 ```
 
-他の部位も同様に
-・▼Filterを  
-all▼→絞り込みたい項目  
+他の部位も同様に  
+・▼Filterをall▼→絞り込みたい項目  
 に変更
 ![](images/image93.png)
 
@@ -221,8 +221,7 @@ all▼→絞り込みたい項目
 
 該当するコントローラーの数値を調整する  
 Maya上で表情が作られる  
-思い通りの表情が完成したら  
-Nameを任意の名前に変更し
+思い通りの表情が完成したらNameを任意の名前に変更し
 ![](images/image86.png)
 ```{note}
 ★名前は必ずしも変更する必要はありません。
