@@ -40,7 +40,7 @@ lower：口・顎・頬等を動かすコントローラー（青）
 ・eyelidに登録するのか 
 ・lowerに登録するのか 
 規則を固めてから登録を行うと後々楽です。
-![](images/image64.png)
+![](images/image64.jpg)
 ```
 
 ### Upperの登録方法 
@@ -97,55 +97,77 @@ nullにすることで登録されていない項目が絞り込まれるのでU
 
 ・gaze
 ※対応するRegionを登録
+```{note}
 ★ nullで絞り込んでいるのでRegionを登録すると非表示になります
+```
+![](images/image48.png)
 
 
 allに戻すとすべて表示されます
- 再表示したい場合の例なので、すべて登録するまでnullのままでも問題ありません。また、登録したRegionで絞り込むこともできます。
 
+```{note}
+再表示したい場合の例なので、すべて登録するまでnullのままでも問題ありません。また、登録したRegionで絞り込むこともできます。
+```
 
 ### Eyelidの登録方法
 
 同様に
 ・ eyelidに登録したいコントローラーを選択し
+![](images/image49.png)
 
 ・ Add selected
-
 登録済みのコントローラーの下に追加したコントローラーが表示されます
+![](images/image69.png)
 
 ・ 右上のall▼のタブを選択し、null▼に変更する
+```{note}
 ★nullから変更していない場合はこの手順はスキップ
+```
+![](images/image53.png)
 
 ・ select All
+![](images/image51.png)
 
 ・ eyelid
-
+![](images/image52.png)
 
 ### Lowerの登録方法
 
 Mayaでupperに登録したい コントローラーを選択し
 lowerに登録したいコントローラーをAdd selected→All select→lower
+![](images/image60.png)
 
 ・Add selected
 登録済みのコントローラーの下に追加したコントローラーが表示されます
+![](images/image61.png)
 
 ・select All
+![](images/image58.png)
 
 ・Lower
+![](images/image54.png)
 
 Upper/Lower/Gaze/Eyelidをすべて登録し終えたら
 ・save
+![](images/image63.png)
 
+```{warning}
 ※未登録状態のものがあるとSave出来ません
+```
 
+```{note}
 ★セーブできない場合
 登録すべきものか確認後
 ・削除したい項目に✅→Remove
+![](images/image66.png)
 ・▼Advenced　Remove empty
+![](images/image65.png)
 で削除
+```
 
 ### トラブルシューティング
 
+```{warning}
 ・Add selectでコントローラーの追加ができない　
 SyncでMayaと連動しない
 
@@ -153,8 +175,8 @@ SyncでMayaと連動しない
 このような現象が起こります。
 
 ・モジュールのインストールを行ったか
-・インストールしたバージョンがMayaシーンと一致しているか
-確認してください。
+・インストールしたバージョンがMayaシーンと一致しているか確認してください。
+```
 
 ### コントローラーの登録順番を変える場合
 SyncでMayaと連動しない
@@ -162,16 +184,19 @@ L/R　blinkが離れていて不便なので
 blinkを上下（隣接するよう）に並べたい
 
 ・並び替えたいコントローラーをドラッグ
+![](images/image55.png)
 
 ドラッグしたまま
 ・コントローラー名の上でドロップ
 
 blinkが隣接
+![](images/image59.png)
 
 変更内容をSaveした状態まで戻したい場合は
 ・Reset
 controller info登録時の順番に戻る
+![](images/image76.png)
 
 作業しやすいように並び替えたら
 ・Save
-
+![](images/image68.png)
