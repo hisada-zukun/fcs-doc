@@ -269,21 +269,32 @@ Galleryの情報を基にProfileの表情を解析してくれる機能。
 
 いくつかProfileを登録したら
 ・SolverでTrain/Load
+![](images/image195.png)
+
+```{note}
 ★Profileの変更や追加を行った場合はTrain
 Profileの変更がない場合はLoad
+```
 
 VideoTimelineウィンドウの
 ・スライダーを動かし 表情の登録を行いたいフレームで止め
 ・+を押す
 Galleryに指定したフレームの画像が追加され
 Editorウインドウに選択した画像が表示される
+![](images/image211.png)
 
+```{note}
 ★追加してからTrainでも可能 必ずTrain/Loadを行ってから実行
+```
 
 ・Predict実行
 valueの数値が変動し
+![](images/image212.png)
 
 MayaにPredict結果が出る
 調整し、登録できる内容になったら
+![](images/image129.png)
+
 
 ・Save
+![](images/image203.png)
