@@ -56,9 +56,9 @@ Project Folderに指定した場所が反映されていたら
 Create
 ![](images/image17.png)
 
-問題なく作成できたら画像のポップアップが出ます  
-close
+問題なく作成できたら画像のポップアップが出ます
 ![](images/image21.png)
+Close
 
 エクスプローラーで
 「Facial」「FCS」のフォルダが作成されます
