@@ -42,8 +42,9 @@ lower：口・顎・頬等を動かすコントローラー（青）
 ・eyelidに登録するのか 
 ・lowerに登録するのか 
 規則を固めてから登録を行うと後々楽です。  
-![](images/image64.jpg)
 ```
+![](images/image64.jpg)
+
 
 ### Upperの登録方法 
 
