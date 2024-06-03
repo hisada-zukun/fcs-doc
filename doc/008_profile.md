@@ -12,21 +12,31 @@
 #### 解析動画を開く方法
 Videosウィンドウを表示し
 ・import
+![](images/image71.png)
 
 select Videoウィンドウが出るので
 ・動画が保存されているフォルダを選択
- 例：D:\sample\MetaNagaki\Facial\RecDataに保存しているので
- Facial　を選択
+例：D:\sample\MetaNagaki\Facial\RecDataに保存しているので Facial　を選択
+![](images/image75.png)
+
+```{note}
 ★create sessionで作成されたProject Folder内に解析したい動画を保存していない場合はDrivesからパスをたどってください
+```
 
 ・解析したい動画を選択し
-★ Shift+クリックで複数同時にimportできます
+![](images/image67.png)
 
+```{note}
+★ Shift+クリックで複数同時にimportできます
+```
 ・OK
 
 Videosウィンドウに解析したい動画が表示されます
+![](images/image72.png)
 
 #### Timelineの画面説明
+
+![](images/image74.png)
 - Timeline：バーを左右に動かし、ビデオを手動で再生させる
 - |< />|：1フレーム前/次に移動する
 - >/||：動画再生/一時停止（再生すると一時停止ボタンが表示される）
@@ -38,18 +48,24 @@ Videosウィンドウに解析したい動画が表示されます
 - Video：Video playerに表示されている動画名
 
 #### Edit Profileの画面説明
+
+![](images/image79.png)
 - Sync：✅Mayaと連動させる
 - Neutral：✅デフォルトの表情として必ず1つ登録する。
-- Enabled：✅解析する素材として使用する\☐ 使用しない
+- Enabled：✅解析する素材として使用する\☐ 使用しない  
+
 ▼Region
-- Upper/Lower/Gaze/Eyelid：✅調整した情報を登録する
+- Upper/Lower/Gaze/Eyelid：✅調整した情報を登録する  
+
 ▼Utils
 - To Maya：FCS上で操作した値（情報）をMayaへ送る
 - From Maya：Mayaで操作した値（情報）をFCSへ送る
 - Predict：画像から表情を解析し　Mayaの3Dモデルに反映する機能
-- □Landmark：部位の頂点情報
+- □Landmark：部位の頂点情報  
+
 ▼Filter　all/upper/lower/gaze/eyelid：選択した項目でコントローラーを絞り込む
-- []：入力した文字でコントローラーを絞り込む
+- []：入力した文字でコントローラーを絞り込む  
+
 ▼Reset：入力した情報を削除する
 - Name：Profileとして登録する名前
 - Save：変更した情報を保存する
@@ -59,37 +75,50 @@ Videosウィンドウに解析したい動画が表示されます
 
 ### Profileの作成
 様々な表情のプロファイルが増えると解析の精度があがります
+![](images/image81.png)
 
 解析したい動画を読み込み
 ・開いた動画(ファイル名)の上で右クリックし
 ・Open
+![](images/image88.png)
 
 Video playerに動画が表示される
+![](images/image78.png)
+
+
 
 #### Neutralの登録方法
 VideoTimelineウィンドウの
-
 ・スライダーを動かし
 表情の登録を行いたいフレームで止め
-
 ・+を押す
 
+![](images/image80.png)
+
 Galleryに指定したフレームの画像が追加される
+
+```{note}
 ★ 値が0（未登録）のProfileは赤枠
+```
 
 Neutral＝3Dモデルのデフォルトの表情なので数値の変更は行わず
 ・Neutralに✅
 ・任意の名前に変更し
 ・Save
+![](images/image87.png)
 
+```{note}
 ★ Neutralの登録が完了すると緑になります
+```
 
 #### Mayaで表情を登録する場合
 【Neutral以外の表情】
 VideoTimelineウィンドウのスライダーを動かし表情の登録を行いたいフレームで止め+を押す
 Galleryに指定したフレームの画像が追加される
 
+```{note}
 ★ 値が0（未登録）のProfileは赤枠
+```
 
 プロファイルの画像を左クリックでEditerを開けます
 
