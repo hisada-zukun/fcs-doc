@@ -116,6 +116,7 @@ Neutral＝3Dモデルのデフォルトの表情なので数値の変更は行�
 VideoTimelineウィンドウのスライダーを動かし表情の登録を行いたいフレームで止め+を押す
 Galleryに指定したフレームの画像が追加される
 
+![](images/image94.png)
 ```{note}
 ★ 値が0（未登録）のProfileは赤枠
 ```
@@ -123,96 +124,146 @@ Galleryに指定したフレームの画像が追加される
 プロファイルの画像を左クリックでEditerを開けます
 
 ・Mayaで表情を調節し
+![](images/image90.png)
 
 ・FromMaya　でMaya上で調整した値を抽出
+![](images/image91.png)
  
 Mayaでの調整情報がFCSに反映される
+
+```{note}
 ★ コントローラーの登録忘れがあった場合は再度開いたときに作成した表情と異なる場合があります
 その際は、再度登録し忘れたコントローラーを登録しプロファイルの再登録を行ってください
-
+```
  
 ・Nameを任意の名前に変更し
-・Save
+![](images/image86.png)
+```{note}
+★名前は必ずしも変更する必要はありません。
+```
 
+・Save
+![](images/image87.png)
+
+```{warning}
 Neutral以外の表情の場合はNeutralの✅をはずす
+```
 
 #### FCS上で表情を登録する場合
+
 VideoTimelineウィンドウの
 ・スライダーを動かし 表情の登録を行いたいフレームで止め
 ・+を押す
+![](images/image85.png)
 
 Editorウインドウに選択した画像が表示される
+![](images/image92.png)
 
 
-#### SyncでFCSとMayaを連動させて登録する場合
+```{warning}
 Syncに✅を入れていない場合はProfileの自動情報共有が行われないためMaya上は1つ前に登録した表情のままになっている
+```
+![](images/image83.png)
 
+```{note}
 ★Syncに✅を入れた状態で開きなおすと デフォルトの表情(登録されている表情)に
 ★既に✅している場合はスキップ
+```
 
 ・To Maya　で現在のProfileの数値情報をMayaに送る
+![](images/image96.png)
 
 全て0なのでデフォルトの表情に
+![](images/image99.png)
 
 絞り込みたい項目（文字含む）のみ表示される
+![](images/image93.png)
 
-絞り込みたい項目（文字含む）のみ表示される
+![](images/image106.png)
+
+#### SyncでFCSとMayaを連動させて登録する場合
 
 Syncに✅を入れ　Mayaと連動させる
+![](images/image102.png)
 
+```{note}
 ★既に✅している場合はスキップ
+```
 
 ・ダブルクリックで入力モードに切り替え　数値を入力
 ・ドラッグスクロールで値を調整
+![](images/image106.png)
 
 Maya上でリアルタイムに表情を調整することができる
+![](images/image111.png)
 
+```{note}
 目を閉じる、薄目のプロファイルで黒目が見えないものは登録する際にGazeの✅を外してください
+```
 
+```{warning}
 解析結果の精度が低下してしまう可能性があります
+```
 
 他の部位も同様に
 ・▼Filterを　all▼→絞り込みたい項目　に変更
+![](images/image93.png)
 
 例：今回は眉のぎゅっと絞る動きを作りたいのでupperを選択
 目線の動きを付けたい場合は　Gaze
 口や鼻などの動きを付けたい場合は　Lower
 で絞り込む
+![](images/image102.png)
 
 該当するコントローラーの数値を調整する
 Maya上で表情が作られる
 思い通りの表情が完成したら
 Name　を任意の名前に変更し
+![](images/image86.png)
+```{note}
+★名前は必ずしも変更する必要はありません。
+```
 
 Save
 ★赤枠が消えれば登録完了
+![](images/image87.png)
 
 #### 作成したProfileをコピー＆ペーストする場合
+
 ・コピー元のProfileを作成し
 ・Save
+![](images/image87.png)
 
 Mayaの調整データ例
+![](images/image95.png)
 
 コピー先の作成
 ・スライダーを動かし 表情の登録を行いたいフレームで止め
 ・+を押す
 
 Editorウィンドウにコピー先の情報を表示した状態に
+![](images/image94.png)
 
 ※数値が入っていないのでMaya側はデフォルトの表情
+![](images/image99.png)
 
 ・コピー元の画像上で右クリック
 ・Override
 でコピー元の数値が入力され
+![](images/image208.png)
 
 Maya上でも表情が反映される
+![](images/image108.png)
 
 調整が必要であれば調整を行い
+![](images/image103.png)
 
 ・任意の名前に変更し
 ・Save
+![](images/image87.png)
 
 #### PredictでProfileを作成する場合
+
 Galleryの情報を基にProfileの表情を解析してくれる機能。
 動画全体を解析するわけではないので注意。
 
