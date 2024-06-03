@@ -42,7 +42,7 @@ lower：口・顎・頬等を動かすコントローラー（青）
 ・eyelidに登録するのか 
 ・lowerに登録するのか 
 規則を固めてから登録を行うと後々楽です。  
-![](images/image64.png)
+![](images/image64.jpg)
 ```
 
 ### Upperの登録方法 
@@ -50,7 +50,7 @@ lower：口・顎・頬等を動かすコントローラー（青）
 Mayaでupperに登録したいコントローラーを選択し
 ![](images/image36.png)
 
-FCSに戻り
+FCSに戻り  
 ・Add selected
 
 ```{warning}
@@ -65,9 +65,8 @@ Mayaで選択したコントローラーが「controller」に表示されるの
 ※null＝Regionが未指定
 ![](images/image46.png)
 
-今回はupperに登録したいので
-・Upper
-を選択
+今回はupperに登録したいので  
+・Upperを選択
 ![](images/image44.png)
 
 Regionにupperと表示されたら登録完了！
@@ -75,7 +74,7 @@ Regionにupperと表示されたら登録完了！
 
 ### Gazeの登録方法
 
-Mayaで
+Mayaで  
 ・gazeに登録したいコントローラーを選択し
 ![](images/image47.png)
 
@@ -83,7 +82,7 @@ Mayaで
 Upperの下にAdd selectedで追加したコントローラーが表示されます
 ![](images/image42.png)
 
-・右上のall▼のタブを選択し、null▼に変更する
+・右上のall▼のタブを選択し、null▼に変更する  
 Upperに登録したものを非表示にし、先程追加したコントローラーのみ表示させる
 ![](images/image43.png)
 
@@ -92,13 +91,12 @@ Upperに登録したものを非表示にし、先程追加したコントロー
 間違って全選択してしまった場合はUnselect Allで選択解除可能。
 ```
 
-nullにすることで登録されていない項目が絞り込まれるのでUpperと同様に
-・select All（=全選択）
-で✅を入れ
+nullにすることで登録されていない項目が絞り込まれるのでUpperと同様に  
+・select All（=全選択）で✅を入れます  
 ※手動でも✅できますが、数が多い時には手間になります
 ![](images/image51.png)
 
-・gaze
+・gaze  
 ※対応するRegionを登録
 ```{note}
 ★ nullで絞り込んでいるのでRegionを登録すると非表示になります
@@ -114,7 +112,7 @@ allに戻すとすべて表示されます
 
 ### Eyelidの登録方法
 
-同様に
+同様に  
 ・ eyelidに登録したいコントローラーを選択し
 ![](images/image49.png)
 
@@ -136,7 +134,7 @@ allに戻すとすべて表示されます
 
 ### Lowerの登録方法
 
-Mayaでupperに登録したい コントローラーを選択し
+Mayaでupperに登録したい コントローラーを選択し  
 lowerに登録したいコントローラーをAdd selected→All select→lower
 ![](images/image60.png)
 
@@ -150,7 +148,7 @@ lowerに登録したいコントローラーをAdd selected→All select→lower
 ・Lower
 ![](images/image54.png)
 
-Upper/Lower/Gaze/Eyelidをすべて登録し終えたら
+Upper/Lower/Gaze/Eyelidをすべて登録し終えたら  
 ・save
 ![](images/image63.png)
 
@@ -182,9 +180,8 @@ SyncでMayaと連動しない
 ```
 
 ### コントローラーの登録順番を変える場合
-SyncでMayaと連動しない
-L/R　blinkが離れていて不便なので
-blinkを上下（隣接するよう）に並べたい
+SyncでMayaと連動しない  
+L/R　blinkが離れていて不便なのでblinkを上下（隣接するよう）に並べたい
 
 ・並び替えたいコントローラーをドラッグ
 ![](images/image55.png)
@@ -195,11 +192,11 @@ blinkを上下（隣接するよう）に並べたい
 blinkが隣接
 ![](images/image59.png)
 
-変更内容をSaveした状態まで戻したい場合は
-・Reset
+変更内容をSaveした状態まで戻したい場合は  
+・Reset  
 controller info登録時の順番に戻る
 ![](images/image76.png)
 
-作業しやすいように並び替えたら
+作業しやすいように並び替えたら  
 ・Save
 ![](images/image68.png)
