@@ -87,7 +87,6 @@ Create
 ![](images/image22.png)
 
 問題なく作成できたら画像のポップアップが出ます  
-close
 ![](images/image21.png)
 
 エクスプローラーで
@@ -130,16 +129,16 @@ MayaSceneデータのパスを指定します
 #### ⑤MayaBaseの設定
 
 workspace.melがある場所(Mayaシーンのプロジェクト設定で登録している場所)を指定します  
- 例：D:\sample\MetaNagaki\Facial\Assets
+例：D:\sample\MetaNagaki\Facial\Assets  
 ![](images/image27.png)
 
 
 指定した場所が反映されていたら  
- Save
+Save  
 ![](images/image35.png)
 
 エクスプローラーでcharacterフォルダ直下に  
-fcs_session.yaml(FCSファイル)が作成される
+fcs_session.yaml(FCSファイル)が作成される  
 ![](images/image30.png)
 
 ```{note}
