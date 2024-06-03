@@ -6,7 +6,8 @@
 
 ![](images/image77.png)
 ```{note}
-★デフォルトでは create sessionで作成されたProject Folder が開かれるのでFacial\RecDataフォルダに解析したい動画を保存しておくことを推奨します （必須ではありません）
+★デフォルトでは create sessionで作成されたProject Folderが開かれるので  
+Facial\RecDataフォルダに解析したい動画を保存しておくことを推奨します （必須ではありません）
 ```
 
 #### 解析動画を開く方法
@@ -14,16 +15,16 @@ Videosウィンドウを表示し
 ・import
 ![](images/image71.png)
 
-select Videoウィンドウが出るので
-・動画が保存されているフォルダを選択
-例：D:\sample\MetaNagaki\Facial\RecDataに保存しているので Facial　を選択
+select Videoウィンドウが出るので  
+・動画が保存されているフォルダを選択  
+例：D:\sample\MetaNagaki\Facial\RecDataに保存しているのでFacialを選択  
 ![](images/image75.png)
 
 ```{note}
 ★create sessionで作成されたProject Folder内に解析したい動画を保存していない場合はDrivesからパスをたどってください
 ```
 
-・解析したい動画を選択し
+・解析したい動画を選択し  
 ![](images/image67.png)
 
 ```{note}
@@ -77,8 +78,8 @@ Videosウィンドウに解析したい動画が表示されます
 様々な表情のプロファイルが増えると解析の精度があがります
 ![](images/image81.png)
 
-解析したい動画を読み込み
-・開いた動画(ファイル名)の上で右クリックし
+解析したい動画を読み込み  
+・開いた動画(ファイル名)の上で右クリックし  
 ・Open
 ![](images/image88.png)
 
@@ -88,9 +89,9 @@ Video playerに動画が表示される
 
 
 #### Neutralの登録方法
-VideoTimelineウィンドウの
+VideoTimelineウィンドウの  
 ・スライダーを動かし
-表情の登録を行いたいフレームで止め
+表情の登録を行いたいフレームで止め  
 ・+を押す
 
 ![](images/image80.png)
@@ -101,9 +102,9 @@ Galleryに指定したフレームの画像が追加される
 ★ 値が0（未登録）のProfileは赤枠
 ```
 
-Neutral＝3Dモデルのデフォルトの表情なので数値の変更は行わず
-・Neutralに✅
-・任意の名前に変更し
+Neutral＝3Dモデルのデフォルトの表情なので数値の変更は行わず  
+・Neutralに✅  
+・任意の名前に変更し  
 ・Save
 ![](images/image87.png)
 
@@ -113,7 +114,7 @@ Neutral＝3Dモデルのデフォルトの表情なので数値の変更は行�
 
 #### Mayaで表情を登録する場合
 【Neutral以外の表情】
-VideoTimelineウィンドウのスライダーを動かし表情の登録を行いたいフレームで止め+を押す
+VideoTimelineウィンドウのスライダーを動かし表情の登録を行いたいフレームで止め+を押す  
 Galleryに指定したフレームの画像が追加される
 
 ![](images/image94.png)
@@ -126,7 +127,7 @@ Galleryに指定したフレームの画像が追加される
 ・Mayaで表情を調節し
 ![](images/image90.png)
 
-・FromMaya　でMaya上で調整した値を抽出
+・FromMayaでMaya上で調整した値を抽出
 ![](images/image91.png)
  
 Mayaでの調整情報がFCSに反映される
@@ -151,8 +152,8 @@ Neutral以外の表情の場合はNeutralの✅をはずす
 
 #### FCS上で表情を登録する場合
 
-VideoTimelineウィンドウの
-・スライダーを動かし 表情の登録を行いたいフレームで止め
+VideoTimelineウィンドウの  
+・スライダーを動かし 表情の登録を行いたいフレームで止め  
 ・+を押す
 ![](images/image85.png)
 
@@ -170,7 +171,7 @@ Syncに✅を入れていない場合はProfileの自動情報共有が行われ
 ★既に✅している場合はスキップ
 ```
 
-・To Maya　で現在のProfileの数値情報をMayaに送る
+・To Mayaで現在のProfileの数値情報をMayaに送る
 ![](images/image96.png)
 
 全て0なのでデフォルトの表情に
@@ -183,14 +184,15 @@ Syncに✅を入れていない場合はProfileの自動情報共有が行われ
 
 #### SyncでFCSとMayaを連動させて登録する場合
 
-Syncに✅を入れ　Mayaと連動させる
+Syncに✅を入れ  
+Mayaと連動させる
 ![](images/image102.png)
 
 ```{note}
 ★既に✅している場合はスキップ
 ```
 
-・ダブルクリックで入力モードに切り替え　数値を入力
+・ダブルクリックで入力モードに切り替え、数値を入力  
 ・ドラッグスクロールで値を調整
 ![](images/image106.png)
 
@@ -206,31 +208,33 @@ Maya上でリアルタイムに表情を調整することができる
 ```
 
 他の部位も同様に
-・▼Filterを　all▼→絞り込みたい項目　に変更
+・▼Filterを  
+all▼→絞り込みたい項目  
+に変更
 ![](images/image93.png)
 
-例：今回は眉のぎゅっと絞る動きを作りたいのでupperを選択
-目線の動きを付けたい場合は　Gaze
-口や鼻などの動きを付けたい場合は　Lower
+例：今回は眉のぎゅっと絞る動きを作りたいのでupperを選択  
+目線の動きを付けたい場合は　Gaze  
+口や鼻などの動きを付けたい場合は　Lower  
 で絞り込む
 ![](images/image102.png)
 
-該当するコントローラーの数値を調整する
-Maya上で表情が作られる
-思い通りの表情が完成したら
-Name　を任意の名前に変更し
+該当するコントローラーの数値を調整する  
+Maya上で表情が作られる  
+思い通りの表情が完成したら  
+Nameを任意の名前に変更し
 ![](images/image86.png)
 ```{note}
 ★名前は必ずしも変更する必要はありません。
 ```
 
-Save
+Save  
 ★赤枠が消えれば登録完了
 ![](images/image87.png)
 
 #### 作成したProfileをコピー＆ペーストする場合
 
-・コピー元のProfileを作成し
+・コピー元のProfileを作成し  
 ・Save
 ![](images/image87.png)
 
@@ -238,7 +242,7 @@ Mayaの調整データ例
 ![](images/image95.png)
 
 コピー先の作成
-・スライダーを動かし 表情の登録を行いたいフレームで止め
+・スライダーを動かし 表情の登録を行いたいフレームで止め  
 ・+を押す
 
 Editorウィンドウにコピー先の情報を表示した状態に
@@ -247,7 +251,7 @@ Editorウィンドウにコピー先の情報を表示した状態に
 ※数値が入っていないのでMaya側はデフォルトの表情
 ![](images/image99.png)
 
-・コピー元の画像上で右クリック
+・コピー元の画像上で右クリック  
 ・Override
 でコピー元の数値が入力され
 ![](images/image208.png)
@@ -258,16 +262,16 @@ Maya上でも表情が反映される
 調整が必要であれば調整を行い
 ![](images/image103.png)
 
-・任意の名前に変更し
+・任意の名前に変更し  
 ・Save
 ![](images/image87.png)
 
 #### PredictでProfileを作成する場合
 
-Galleryの情報を基にProfileの表情を解析してくれる機能。
-動画全体を解析するわけではないので注意。
+Galleryの情報を基にProfileの表情を解析してくれる機能  
+動画全体を解析するわけではないので注意
 
-いくつかProfileを登録したら
+いくつかProfileを登録したら  
 ・SolverでTrain/Load
 ![](images/image195.png)
 
@@ -276,10 +280,10 @@ Galleryの情報を基にProfileの表情を解析してくれる機能。
 Profileの変更がない場合はLoad
 ```
 
-VideoTimelineウィンドウの
-・スライダーを動かし 表情の登録を行いたいフレームで止め
-・+を押す
-Galleryに指定したフレームの画像が追加され
+VideoTimelineウィンドウの  
+・スライダーを動かし 表情の登録を行いたいフレームで止め  
+・+を押す  
+Galleryに指定したフレームの画像が追加され  
 Editorウインドウに選択した画像が表示される
 ![](images/image211.png)
 
@@ -287,11 +291,11 @@ Editorウインドウに選択した画像が表示される
 ★追加してからTrainでも可能 必ずTrain/Loadを行ってから実行
 ```
 
-・Predict実行
+・Predict実行  
 valueの数値が変動し
 ![](images/image212.png)
 
-MayaにPredict結果が出る
+MayaにPredict結果が出る  
 調整し、登録できる内容になったら
 ![](images/image129.png)
 
