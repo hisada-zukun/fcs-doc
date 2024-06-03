@@ -168,7 +168,7 @@ fcs_session.yaml(FCSファイル)が作成される
 
 ・FileSession▶Open▶Openで  
 Open Sessionウィンドウが開かれたら  
-・Drivesを押す
+・Drivesを押す  
 ![](images/image33.png)
 
 ローカルとネットワークドライブが表示されるので  
