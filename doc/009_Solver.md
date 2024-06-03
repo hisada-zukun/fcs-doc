@@ -3,6 +3,7 @@
 ### Solverの画面説明
 登録したProfileの情報を取得します。
 出力を行う際には必ずこの作業が必要です。
+![](images/image189.png)
 
 ▼Global
 - ✅Fisheye：魚眼レンズでの撮影の際は✅/広角レンズでの撮影の場合は外す  
@@ -23,6 +24,7 @@
 Fisheye　の✅状況について選択
 魚眼レンズを使用して撮影した動画では fisheyeに✅
 広角レンズで撮影した動画では✅を外します。
+![](images/image202.png)
 
 Total Variation（アニメーションキーを滑らかにする機能）の 強さ（Log Weight） 回数（Reps）を調整（任意）
 ※
@@ -30,28 +32,39 @@ Total Variation（アニメーションキーを滑らかにする機能）の �
 ・Train
 Trainした日付や作業者名、
 Profile登録数などが表示されていればOK
+![](images/image195.png)
 
 ### Profileを追加・削除・編集していない場合
 読み込みたい項目の上で
 ・右クリック→Load
+![](images/image206.png)
 
+```{note}
 ★Trainする度にログが増えるので
 同じ内容のものはLoadするようにしましょう
+```
 
 ### 異なるSmootie値を一括出力する場合
 ・出力したいtrainログに✅
 
 続きは複数データを出力する場合へ
+```{note}
 ★全て選択する際は赤枠のボタンを選択すると全選択できる
+```
+![](images/image199.png)
+
 
 ### Solverの削除方法
 【1つだけ削除したい場合】
 Trainログの上で
 ・右クリック→Delete
+![](images/image198.png)
 
 【複数のTrainログを削除したい場合】
 ・削除したいログに✅を入れ
 ・Delete
+![](images/image196.png)
 
 削除情報がポップアップするので
 ・Close
+![](images/image192.png)
