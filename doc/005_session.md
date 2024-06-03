@@ -32,7 +32,7 @@ FCS起動後、「session」と呼ばれるプロジェクトファイルにア�
 ![](images/image9.png)
 File▶Session▶New…を選択
 
-![](images/image16.png)
+![](images/image16.png)  
 ①Project Folder：FCSの作業データを置きたい場所を指定   
 ②Actor：モーションキャプチャアクター名   
 ③character：3Dモデルのキャラクター名  
