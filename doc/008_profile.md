@@ -3,6 +3,7 @@
 ### Profileの作成の前に...
 ・解析したい動画を Facial\RecDataフォルダに移動する  
 ![](images/image62.png)
+
 ![](images/image77.png)
 ```{note}
 ★デフォルトでは create sessionで作成されたProject Folder が開かれるのでFacial\RecDataフォルダに解析したい動画を保存しておくことを推奨します （必須ではありません）
