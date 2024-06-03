@@ -1,7 +1,7 @@
 ## Solverの設定方法
 
 ### Solverの画面説明
-登録したProfileの情報を取得します。
+登録したProfileの情報を取得します。  
 出力を行う際には必ずこの作業が必要です。
 ![](images/image189.png)
 
@@ -20,18 +20,17 @@
 
 ### Profileを追加・削除・編集した/train履歴がない場合
 
-▼Global　を開き
-Fisheye　の✅状況について選択
-魚眼レンズを使用して撮影した動画では fisheyeに✅
+▼Globalを開き  
+Fisheyeの✅状況について選択  
+魚眼レンズを使用して撮影した動画ではfisheyeに✅  
 広角レンズで撮影した動画では✅を外します。
 ![](images/image202.png)
 
-Total Variation（アニメーションキーを滑らかにする機能）の 強さ（Log Weight） 回数（Reps）を調整（任意）
-※
+Total Variation（アニメーションキーを滑らかにする機能）の強さ（Log Weight）回数（Reps）を調整（任意）
+
 
 ・Train
-Trainした日付や作業者名、
-Profile登録数などが表示されていればOK
+Trainした日付や作業者名、Profile登録数などが表示されていればOK
 ![](images/image195.png)
 
 ### Profileを追加・削除・編集していない場合
@@ -56,15 +55,15 @@ Profile登録数などが表示されていればOK
 
 ### Solverの削除方法
 【1つだけ削除したい場合】
-Trainログの上で
+Trainログの上で  
 ・右クリック→Delete
 ![](images/image198.png)
 
-【複数のTrainログを削除したい場合】
-・削除したいログに✅を入れ
+【複数のTrainログを削除したい場合】  
+・削除したいログに✅を入れ  
 ・Delete
 ![](images/image196.png)
 
-削除情報がポップアップするので
+削除情報がポップアップするので  
 ・Close
 ![](images/image192.png)

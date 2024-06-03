@@ -2,15 +2,18 @@
 
 ### Profileの作成の前に...
 ・解析したい動画を Facial\RecDataフォルダに移動する
-★デフォルトでは create sessionで作成されたProject Folder が開かれるのでFacial\RecDataフォルダに解析したい動画を保存しておくことを推奨します （必須ではありません）
+```{note}  
+★デフォルトでは create sessionで作成されたProject Folder が開かれるので  
+Facial\RecDataフォルダに解析したい動画を保存しておくことを推奨します （必須ではありません）
+```
 
 #### 解析動画を開く方法
-Videosウィンドウを表示し
+Videosウィンドウを表示し  
 ・import
 
-select Videoウィンドウが出るので
-・動画が保存されているフォルダを選択
- 例：D:\sample\MetaNagaki\Facial\RecDataに保存しているので
+select Videoウィンドウが出るので  
+・動画が保存されているフォルダを選択  
+例：D:\sample\MetaNagaki\Facial\RecDataに保存しているので
  Facial　を選択
 ★create sessionで作成されたProject Folder内に解析したい動画を保存していない場合はDrivesからパスをたどってください
 
