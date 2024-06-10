@@ -24,7 +24,7 @@ select All/Unselect All：controller上に表示されているコントロー�
   
   save：controller Infoを登録。Regionが4項目登録されていないと実行できない。
 
-## controllerの登録
+### controllerの登録
 
 ```{warning}
 ★！！必須！！ 
@@ -46,7 +46,7 @@ lower：口・顎・頬等を動かすコントローラー（青）
 ![](images/image64.jpg)
 
 
-### Upperの登録方法 
+#### Upperの登録方法 
 
 Mayaでupperに登録したいコントローラーを選択し
 ![](images/image36.png)
@@ -73,7 +73,7 @@ Mayaで選択したコントローラーが「controller」に表示されるの
 Regionにupperと表示されたら登録完了！
 
 
-### Gazeの登録方法
+#### Gazeの登録方法
 
 Mayaで  
 ・gazeに登録したいコントローラーを選択し
@@ -111,7 +111,7 @@ allに戻すとすべて表示されます
 再表示したい場合の例なので、すべて登録するまでnullのままでも問題ありません。また、登録したRegionで絞り込むこともできます。
 ```
 
-### Eyelidの登録方法
+#### Eyelidの登録方法
 
 同様に  
 ・ eyelidに登録したいコントローラーを選択し
@@ -133,7 +133,7 @@ allに戻すとすべて表示されます
 ・ eyelid
 ![](images/image52.png)
 
-### Lowerの登録方法
+#### Lowerの登録方法
 
 Mayaでupperに登録したい コントローラーを選択し  
 lowerに登録したいコントローラーをAdd selected→All select→lower
