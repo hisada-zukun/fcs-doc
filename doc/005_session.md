@@ -2,6 +2,10 @@
 FCS起動後、「session」と呼ばれるプロジェクトファイルにアクセスするため
 「New...（新規作成）またはOpen（開く）」を実行します。
 
+```{note}
+ここでsessionに関わる設定を行うことで、Mayaを別途操作することなくFCS上のボタンでスムーズに作業を開始することができます。
+```
+
 ### Create new Sessionで作成されるフォルダ構造
 赤枠：Project Folderで作成されるフォルダ
 青枠：Actorで作成されるフォルダ
@@ -29,35 +33,34 @@ FCS起動後、「session」と呼ばれるプロジェクトファイルにア�
 【エクスプローラー】  
 エクスプローラー/Maya/FCSフォルダにアップ
 
-![](images/image9.png)
+![](images/S001.png)
 File▶Session▶New…を選択
 
-![](images/image16.png)  
+![](images/S002.png)  
 ①Project Folder：FCSの作業データを置きたい場所を指定   
 ②Actor：モーションキャプチャアクター名   
 ③character：3Dモデルのキャラクター名  
 ④Maya scene：3DモデルのMayaシーンへのパス  
-⑤MayaBase：Assets、workspace.melがあるフォルダへのパス
+⑤Maya Base：Assets、workspace.melがあるフォルダへのパス  
+⑥Maya Ver：sceneで指定したデータを作成したバージョンを指定
 
 #### ①Project Folderの設定
 
 Browseボタンで
 FCSの作業データフォルダを格納する場所  
 ＝Project Folder
-を指定するためウィンドウを起動
-![](images/image18.png)
-
+を指定するためウィンドウを起動  
 Driveボタンで作業者PC環境のローカルネットワークドライブを表示  
-Project Folderを作成したい場所を選択したら
-OK
-![](images/image15.png)
+Project Folderを作成したい場所を選択したら  
+フォルダーを選択
+![](images/S003.png)
 
 Project Folderに指定した場所が反映されていたら  
 Create
-![](images/image17.png)
+![](images/S004.png)
 
 問題なく作成できたら画像のポップアップが出ます
-![](images/image21.png)
+![](images/S005.png)
 
 エクスプローラーで
 「Facial」「FCS」のフォルダが作成されます
@@ -66,8 +69,7 @@ Create
 ```{note}
 ★Project Folder作成後
 ・AssetsフォルダへMayaのデータ
-・RecDataフォルダへ解析に使用する動画素材
-を移動しておくことを推奨します
+・RecDataフォルダへ解析に使用する動画素材を移動しておくことを推奨します  
 ※別の場所に保存していてもアクセスできます
 ```
 ![](images/image13.png)
@@ -80,14 +82,18 @@ Create
 Create new actor folderを起動
 
 「actor」で登録したい名前を入力
- 「actor」＝モーションキャプチャアクター名  
- ※半角英数字で入力
+「actor」＝モーションキャプチャアクター名  
+
+```{warning}
+※半角英数字で入力
+```
 
 Create
-![](images/image22.png)
+![](images/S006.png)
 
 問題なく作成できたら画像のポップアップが出ます  
-![](images/image21.png)
+close
+![](images/S007.png)
 
 エクスプローラーで
 FCSフォルダ直下に入力した名前のフォルダが作成されます
@@ -101,14 +107,14 @@ Create new characterFolderを起動
 「character」で登録したい名前を入力
 
 Create
-![](images/image14.png)
+![](images/S008.png)
 
 ```{warning}
-★Mayaシーン名に含まれていないと読み込みエラーが出ます  
+★④で指定するMayaシーン名に含まれていないと読み込みエラーが出ます  
 例：
-〇　Mayaシーン「FCS_MetaHuman_prj_v04.ma」
-　　character「MetaHuman」
-✖　Mayaシーン「FCS_MetaHuman_prj_v04.ma」
+〇　Mayaシーン「FCS_MetaHuman_prj_v04.ma」  
+　　character「MetaHuman」  
+✖　Mayaシーン「FCS_MetaHuman_prj_v04.ma」  
 　　character「Alexander」
 ```
 
@@ -119,23 +125,36 @@ Actorフォルダ直下にcharacterフォルダが作成されます
 
 #### ④MayaSceneの設定
 
-MayaSceneデータのパスを指定します  
- 例：  
- ◎D:\sample\MetaNagaki\Facial\Assets\scenes\MetaNagaki.ma    
- ×D:\FCS_テスト\MataNagaki…\MetaNagaki★テスト用.ma
-![](images/image20.png)
+MayaSceneデータのパスを指定します
+
+```{warning}
+★半角英数字のみのファイル名でないとエラーになります  
+例：  
+〇　D:\sample\MetaNagaki\Facial\Assets\scenes\MetaNagaki.ma  
+✖　D:\FCS_テスト\MataNagaki…\MetaNagaki★テスト用.ma  
+```
+![](images/S009.png)
 
 
 #### ⑤MayaBaseの設定
 
 workspace.melがある場所(Mayaシーンのプロジェクト設定で登録している場所)を指定します  
+```{warning}
+FCS上でポップアップするウィンドウにはworkspace.melが表示されません  
+```
 例：D:\sample\MetaNagaki\Facial\Assets  
-![](images/image27.png)
+![](images/S010.png)
 
+
+#### ⑥Maya Verの設定
+
+④で設定したsceneを作成したMayaのバージョンを指定
+![](images/S011.png)
 
 指定した場所が反映されていたら  
 Save  
-![](images/image35.png)
+![](images/S012.png)
+
 
 エクスプローラーでcharacterフォルダ直下に  
 fcs_session.yaml(FCSファイル)が作成される  
@@ -153,42 +172,45 @@ fcs_session.yaml(FCSファイル)が作成される
 　・FCSで起動時にポップアップでOK
 　・.lockファイルをエクスプローラーで削除
 ```
-フォルダの作成がうまくいかない場合→トラブルシューティング（へのリンク）をご確認ください
 
 ### 既にsessionが作成されている場合
 
 ・FileSession▶Open▶Open
 もしくは吹き出し部分の 履歴に最近使用したsessionが表示されていれば  
-・FileSessionOpen該当のパス （その場合は↓の手順はなし）を選択
+FileSessionOpen該当のパス （その場合は↓の手順はなし）を選択
 ![](images/image24.png)
 
 ```{note}
 （上記でファイルが開けた場合は↓の手順はなし）
 ```
 
-・FileSession▶Open▶Openで  
+・File▶Session▶Open▶Openで  
 Open Sessionウィンドウが開かれたら  
-・Drivesを押す  
-![](images/image33.png)
-
 ローカルとネットワークドライブが表示されるので  
-・「新規作成」で作成したデータが保存されているドライブを選択  
-例：D:\sample\MetaNagaki…に作成した場合 [Dir]D:を選択  
-Dir＝Directory  
-・fcs_session.yaml ファイルがあるフォルダまで開き、OKを押す
-![](images/image26.png)
+
+・fcs_session.yaml ファイルがあるフォルダまで開き、開くを押す
+![](images/S013.png)
 
 ```{note}
 ★※FileNameの fcs_session.yaml は 
-元々入力されているので入力や選択はしなくてもOK
-```
+元々入力されているので入力や選択はしなくてもOK  
 例：D:\sample\MetaNagaki\FCS\Nagaki\MetaNagaki
-
+```
 
 ### seesionを開く際の注意
 
+#### sessionの同時起動について
 
 ```{warning}
-sessionの新規作成/Open後、続けて別のsession作成や起動は出来ません
+sessionの新規作成/Open後、続けて別のsession作成や起動は出来ません  
 別のsessionを開きたい場合は、現在のsessionを終了し、再起動後開きなおしてください
 ```
+
+#### ⑥Maya Verの設定をしても反映されない場合
+
+session作成時に設定した項目は File▶Session▶info で確認することができます  
+![](images/S014.png)
+
+New Sessionで設定したMaya Verがinfoで反映されていない場合は、info画面のMaya versionを右クリックし、Editから変更ができます
+![](images/S015.png)
+![](images/S016.png)
