@@ -30,9 +30,6 @@ FCS起動後、「session」と呼ばれるプロジェクトファイルにア�
 
 ### sessionの新規作成   
 
-【エクスプローラー】  
-エクスプローラー/Maya/FCSフォルダにアップ
-
 ![](images/S001.png)
 File▶Session▶New…を選択
 
