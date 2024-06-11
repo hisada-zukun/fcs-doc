@@ -12,7 +12,7 @@ FCS起動後、「session」と呼ばれるプロジェクトファイルにア�
 緑枠：Characterで作成されるフォルダ
 .lock/fcs_session.yaml：sessionをSaveした後に作成されるファイル
 ![](images/image6.png)
-　📁Facial：動画やMayaシーンデータ等素材を保存する場所  
+📁Facial：動画やMayaシーンデータ等素材を保存する場所  
 　📁Assets：Mayaのプロジェクトファイル（Assets以下）を保存する場所。  
 　📁RecData：ROM体操やFCSで解析したい動画を保存する場所。  
 　📁Scene：アニメーション出力時のデフォルト出力先。  
