@@ -70,6 +70,7 @@ Create
 ※別の場所に保存していてもアクセスできます
 ```
 ![](images/image13.png)
+
 ![](images/image39.png)
 
 
@@ -108,7 +109,7 @@ Create
 
 ```{warning}
 ★④で指定するMayaシーン名に含まれていないと読み込みエラーが出ます  
-例：
+例：  
 〇　Mayaシーン「FCS_MetaHuman_prj_v04.ma」  
 　　character「MetaHuman」  
 ✖　Mayaシーン「FCS_MetaHuman_prj_v04.ma」  
@@ -164,10 +165,9 @@ fcs_session.yaml(FCSファイル)が作成される
 ```
 
 ```{note}
-★ 不正に終了した場合は.lockが残ってしまうため、
-　　強制終了などで正常に終了できなかった場合は
-　・FCSで起動時にポップアップでOK
-　・.lockファイルをエクスプローラーで削除
+★ 不正に終了した場合は.lockが残ってしまうため、強制終了などで正常に終了できなかった場合は  
+・FCSで起動時にポップアップでOK  
+・.lockファイルをエクスプローラーで削除
 ```
 
 ### 既にsessionが作成されている場合
