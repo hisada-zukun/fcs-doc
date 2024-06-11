@@ -12,13 +12,12 @@ FCS起動後、「session」と呼ばれるプロジェクトファイルにア�
 緑枠：Characterで作成されるフォルダ
 .lock/fcs_session.yaml：sessionをSaveした後に作成されるファイル
 ![](images/image6.png)
-
-📁Facial：動画やMayaシーンデータ等素材を保存する場所  
+　📁Facial：動画やMayaシーンデータ等素材を保存する場所  
 　📁Assets：Mayaのプロジェクトファイル（Assets以下）を保存する場所。  
 　📁RecData：FCSで解析したい動画を保存する場所。  
 　📁Scene：アニメーション出力時のデフォルト出力先。  
 　📁SetData：アニメーション出力で「audio」を選択した場合にはwavファイルが、  
-　　　　　　「Frame」「Landmark Frame」を選択した場合は連番画像が作成され、保存される。  
+　　「Frame」「Landmark Frame」を選択した場合は連番画像が作成され、保存される。  
 
 📁FCS：解析に使用するデータが保存されるプロジェクトフォルダ。  
 　📁Actor：Actorで作成したフォルダ。Actorで入力した名前が表記される。  
