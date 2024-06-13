@@ -9,8 +9,7 @@
 ![](images/M001.png)  
 OpenScene：Mayaシーンを起動  
 Launch：Mayaを起動   
-Sync：✅Mayaと連動させる  
-Custom：？？？？？？？？？？？？  
+Sync：✅Mayaと連動させる   
 
 
 ・Maya▶Launch▶Mayaバージョンの選択でMayaを起動  
