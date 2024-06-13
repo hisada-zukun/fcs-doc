@@ -17,8 +17,8 @@ FCSマニュアル
    006_maya.md
    007_Controlinfo.md
    008_profile.md
-   009_Solver.md
-   010_アニメーション.md
+   009_アニメーション.md 
+   010_Solver.md
    011_トラブルシューティング.md
    012_用語集.md
    013_チュートリアル(スターターキット) .md
