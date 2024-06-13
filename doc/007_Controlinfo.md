@@ -1,4 +1,4 @@
-## Contorol Infoの登録方法
+## Contorollerの登録
 
 ・Window▶Controllerでコントローラーを登録します  
 　Region、最大値最小値を登録できます
