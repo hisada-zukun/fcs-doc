@@ -283,7 +283,20 @@ Regionのgaze/lowerの✅を外す
 
 Save
 
+### トラブルシューティング
 
+#### ＋キーを押してもGalleryにProfileが追加されない場合
+＋キーを押してもGalleryにProfileが追加されない場合  
+Galleryの表示ウィンドウが小さいケースが考えられます。
+![](images/P027.png)
 
+その場合は、Galleryウィンドウの◀▶をクリックすると追加したprofileが表示されます。
+![](images/P028.png)
 
-
+```{note}
+FCSでは同一フレームのprofileは重複で追加されないようになっています。  
+重複した場合、Logウィンドウで  
+WARNIG:Frame ○○ already has a Profile associated with it  
+と表示されます。  
+```
+![](images/P029.png)
