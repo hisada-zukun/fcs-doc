@@ -15,7 +15,7 @@
 - Reps：回数。回数が多いほど滑らかに、少ないほど荒くなる。
 
 ▼Post processing
-- ✅Enforce annotation：Galleryで指定されたフレームについて出力アニメーションが絶対そうなるように上書きする。
+- ✅Enforce annotation：出力アニメーションのうち、Galleryで指定されたフレームを上書きする。
 - No Clamp mode：クランプなし
 - Hard Clamp mode：最大最小値でアニメーションをクランプする
 - Soft Clamp mdoe：最大最小値でアニメーションをクランプした上、スムージングかける
