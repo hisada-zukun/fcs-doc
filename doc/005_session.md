@@ -103,13 +103,15 @@ Project Folder作成後
 
 #### ④MayaSceneの設定
 
-MayaSceneデータのパスを指定します。
+Browseボタンをクリックし、MayaSceneを指定するためウィンドウを起動します。  
+・MayaSceneデータのパスを指定
 ![](images/S009.png)
 
 
 #### ⑤MayaBaseの設定
 
-workspace.melがある場所(Mayaシーンのプロジェクト設定で登録している場所)を指定します。  
+Browseボタンをクリックし、MayaBaseを指定するためウィンドウを起動します。  
+・workspace.melがある場所(Mayaシーンのプロジェクト設定で登録している場所)を指定  
 ```{warning}
 FCS上でポップアップするウィンドウにはworkspace.melが表示されません  
 ``` 
