@@ -29,35 +29,34 @@ FCS起動後、Sessionデータへアクセスするため
 　📄.lock：競合を防ぐためのロックファイル。起動時/終了時に自動で作成/消去される。  
 　📄 fcs_session.yaml：session情報を保存しているファイル
 
-### sessionの新規作成   
+### Sessionの新規作成   
 
+・File▶Session▶New…を選択
 ![](images/S001.png)
-File▶Session▶New…を選択
 
 ![](images/S002.png)  
 ①Project Folder：FCSの作業データを置きたい場所を指定   
 ②Actor：モーションキャプチャアクター名   
-③character：3Dモデルのキャラクター名  
-④Maya scene：3DモデルのMayaシーンへのパス  
+③Character：3Dモデルのキャラクター名  
+④Maya Scene：3DモデルのMayaシーンへのパス  
 ⑤Maya Base：Assets、workspace.melがあるフォルダへのパス  
 ⑥Maya Ver：sceneで指定したデータを作成したバージョンを指定
 
 #### ①Project Folderの設定
 
-Browseボタンをクリックし、Project Folderを指定するためウィンドウを起動  
-FCSのデータを保存したい任意のフォルダを選択
+Browseボタンをクリックし、Project Folderを指定するためウィンドウを起動します。  
+・FCSのデータを保存したい任意のフォルダを選択
 ![](images/S003.png)
 
 Project Folderに指定した場所が反映されていたら  
-Create
+・Create
 ![](images/S004.png)
 
-問題なく作成できたら画像のポップアップが出ます  
-close
+問題なく作成できたら画像のポップアップが出ます。  
+・close
 ![](images/F001.png)
 
-エクスプローラーで
-「Facial」「FCS」のフォルダが作成されます
+エクスプローラーで「Facial」「FCS」のフォルダが作成されます。
 ![](images/F003.png)
 
 ```{note}
@@ -74,70 +73,64 @@ Project Folder作成後
 
 #### ②Acterの設定
 
-「+」でactorFolderを作成するための
-Create new actor folderを起動
+「+」でActorFolderを作成するためのCreate new actor folderを起動します。
 
-「actor」で登録したい名前を入力
-「actor」＝モーションキャプチャアクター名  
+・「Actor」で登録したい名前を入力  
+・「Actor」＝モーションキャプチャアクター名  
 
-Create
+・Create
 ![](images/S006.png)
 
-問題なく作成できたら画像のポップアップが出ます  
-close
+問題なく作成できたら画像のポップアップが出ます。  
+・close
 ![](images/F006.png)
 
-エクスプローラーで
-Project Folderフォルダ直下に入力した名前のフォルダが作成されます
+エクスプローラーでProject Folderフォルダ直下に入力したActerフォルダが作成されます。
 ![](images/F007.png)
 
 
 #### ③Characterの設定
 
-「+」でcharacterFolderを作成するための
-Create new characterFolderを起動
-「character」で登録したい名前を入力
+「+」でcharacterFolderを作成するためのCreate new character Folderを起動します。  
+・「Character」で登録したい名前を入力
 
-Create
+・Create
 ![](images/S008.png)
 
-エクスプローラーで
-Actorフォルダ直下にcharacterフォルダが作成されます
+エクスプローラーでActorフォルダ直下に入力したCharacterフォルダが作成されます。
 ![](images/F008.png)
 
 
 #### ④MayaSceneの設定
 
-MayaSceneデータのパスを指定します
+MayaSceneデータのパスを指定します。
 ![](images/S009.png)
 
 
 #### ⑤MayaBaseの設定
 
-workspace.melがある場所(Mayaシーンのプロジェクト設定で登録している場所)を指定します  
+workspace.melがある場所(Mayaシーンのプロジェクト設定で登録している場所)を指定します。  
 ```{warning}
 FCS上でポップアップするウィンドウにはworkspace.melが表示されません  
-```
-例：D:\sample\MetaNagaki\Facial\Assets  
+``` 
 ![](images/S010.png)
 
 
-#### ⑥Maya Verの設定
+#### ⑥MayaVerの設定
 
-④で設定したsceneを作成したMayaのバージョンを指定
+・④で設定したsceneを作成したMayaのバージョンを指定
 ![](images/S011.png)
 
 指定した場所が反映されていたら  
-Save  
+・Save  
 ![](images/S012.png)
 
 
-エクスプローラーでcharacterフォルダ直下に  
-fcs_session.yaml(FCSファイル)が作成される  
+エクスプローラーでcharacterフォルダ直下にfcs_session.yaml(FCSファイル)が作成されます。  
 ![](images/F009.png)
 
 ```{note}
-★.lockファイルは
+.lockファイルは
 作業中にほかの人からのアクセスを防ぐためのもので
 正常に終了した際には自動で削除されます
 ```
@@ -148,31 +141,30 @@ FCSの起動時にポップアップから削除するか、
 .lockファイルをエクスプローラーで直接削除してください。
 ```
 
-### 既にsessionが作成されている場合
+### 既にSessionが作成されている場合
 
 #### 履歴から開く場合
 
-・FileSession▶Open
+・File▶Session▶Open
 既にSessionを起動している場合、履歴が最大５つまで表示されます。  
-作業したいデータをクリック
+・作業したいデータをクリック
 ![](images/F010.png)
 
 #### fcs_session.yamlファイルから開く場合
 
-・File▶Session▶Open▶Openで  
-Open Sessionウィンドウが開かれたら  
-ローカルとネットワークドライブが表示されるので  
+・File▶Session▶Open▶Open  
+OpenSessionウィンドウが開かれたらローカルとネットワークドライブが表示されます。  
 
 ・fcs_session.yaml ファイルがあるフォルダまで開き、開くを押す
 ![](images/S017.png)
 
-### seesionを開く際の注意
+### Seesionを開く際の注意
 
-#### sessionの同時起動について
+#### Sessionの同時起動について
 
 ```{warning}
-sessionの新規作成/Open後、続けて別のsession作成や起動は出来ません  
-別のsessionを開きたい場合は、現在のsessionを終了し、再起動後開きなおしてください
+Sessionの新規作成/Open後、続けて別のSession作成や起動は出来ません  
+別のSessionを開きたい場合は、現在のSessionを終了し、再起動後開きなおしてください
 ```
 
 #### ⑥Maya Verの設定をしても反映されない場合
@@ -180,7 +172,7 @@ sessionの新規作成/Open後、続けて別のsession作成や起動は出来�
 session作成時に設定した項目は File▶Session▶info で確認することができます  
 ![](images/S014.png)
 
-New Sessionで設定したMaya Verがinfoで反映されていない場合は、info画面のMaya versionを右クリックし、Editから変更ができます
+NewSessionで設定したMayaVerがinfoで反映されていない場合は、info画面のMayaVersionを右クリックし、Editから変更ができます
 ![](images/S015.png)
 ![](images/S016.png)
 
