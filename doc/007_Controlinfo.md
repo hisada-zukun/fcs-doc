@@ -1,19 +1,26 @@
 ## Contorollerの登録
 
-・Window▶Controllerでコントローラーを登録します  
-　Region、最大値最小値を登録できます
+Window▶ControllerでConrollerウィンドウが起動します。  
+Contollerウィンドウでは、接続しているMayaSceneのコントローラーリグを登録することができます。
+
+FCSでは顔のパーツ区分のことをRegionと呼びます。  
+アニメーション解析のため、upper、eyelid、gaze、lowerにそれぞれコントローラーリグを１つ以上登録してください。  
+
+また、コントローラーリグの登録時にRegionの最大値最小値も登録できます。
 ![](images/C001.png)
 
 
 ```{note}
-★最大値最小値は自動で入力されますが、値があまりにも大きすぎる場合は調整を行って下さい  
-★数値表記ではなく　True/False表記のものが紛れ込んでいると正常に動作しなくなるためRemoveをしてください
+最大値最小値は自動で入力されますが、値があまりにも大きすぎる場合は調整を行って下さい  
+```
+```{warning}
+数値ではない(True/False)アトリビュートがあると正常に動作しないため、登録から除外してください。
 ```
 
 ![](images/C002.png)
 
 一覧  
-all▼：all/upper/lower/gaze/eyelid/null　指定した項目（部位の区分）を絞り込んで表示  
+all▼：all/upper//eyelid/gaze/lower/null　指定した項目（部位の区分）を絞り込んで表示  
 
 Maya  
 Add selected：選択したコントローラーを登録  
@@ -32,24 +39,6 @@ Reset：Saveされているデータの状態に戻す
  save：controller Infoを登録。
 
 ### controllerの登録
-
-```{warning}
-★！！必須！！ 
-・全てのRegionの登録が必要です  
-・Regionが4項目登録されていないとsaveできないようになっています  
-　upper：眉を動かすコントローラー（赤）  
-　eyelid：まぶたを動かすコントローラー（黄）  
-　gaze：眼球・目線を動かすコントローラー（緑）  
-　lower：口・顎・頬等を動かすコントローラー（青）  
-
-★一例ですが頬の動きと共にまぶたが動く仕組みの3Dモデルもあるので、
-その場合  
-・eyelidに登録するのか  
-・lowerに登録するのか  
-規則を固めてから登録を行うと後々楽です。  
-```
-![](images/image64.jpg)
-
 
 #### upperの登録方法 
 

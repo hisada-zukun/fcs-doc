@@ -13,12 +13,13 @@ Sync：✅Mayaと連動させる
 
 
 ・Maya▶Launch▶Mayaバージョンの選択でMayaを起動  
-例：D:\sample\MetaNagaki\Facial\Assets\scenes\MetaNagaki.maのバージョンはMaya2020なので2020を選択
+例：マニュアルでキャラクターデータを作成したMayaのバージョンはMaya2020なので2020を選択
 ![](images/M002.png)
 
 ```{note}
-・Launchをクリックすることでsession作成時に設定したMaya Sceneが自動で起動します  
-・Mayaバージョンの誤クリックを防ぐため、session作成時に設定したMaya vesion以外はクリックできないように、ブラックアウトしています
+・Launchをクリックすることでsession作成時に設定したMayaSceneが自動で起動します  
+・OpenSceneをクリックすると、設定したMayaSceneを開き直すことができます  
+・Mayaバージョンの誤クリックを防ぐため、session作成時に設定したMayaVersion以外はクリックできないように、ブラックアウトしています
 ```
 
 ```{warning}

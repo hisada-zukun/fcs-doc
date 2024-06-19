@@ -164,7 +164,7 @@ Open Sessionウィンドウが開かれたら
 ローカルとネットワークドライブが表示されるので  
 
 ・fcs_session.yaml ファイルがあるフォルダまで開き、開くを押す
-![](images/S013.png)
+![](images/S017.png)
 
 ### seesionを開く際の注意
 
@@ -183,3 +183,6 @@ session作成時に設定した項目は File▶Session▶info で確認する�
 New Sessionで設定したMaya Verがinfoで反映されていない場合は、info画面のMaya versionを右クリックし、Editから変更ができます
 ![](images/S015.png)
 ![](images/S016.png)
+
+設定変更後  
+save

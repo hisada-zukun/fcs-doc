@@ -1,18 +1,11 @@
 ## Profileの作成
 
 ### Profileの作成の前に...
-・解析したい動画を Facial\RecDataフォルダに移動する  
-![](images/image62.png)
-
-![](images/image77.png)
-```{note}
-★デフォルトでは create sessionで作成されたProject Folderが開かれるので  
-Facial\RecDataフォルダに解析したい動画を保存しておくことを推奨します （必須ではありません）
-```
 
 #### 解析動画を開く方法
 
-・Window▶Videosで解析したいウィンドウを表示します
+Window▶VideosでVideosウィンドウが開きます。  
+Videosウィンドウでは解析したい動画を開いたり、インポートすることができます。
 ![](images/P001.png)
 
 ・import
@@ -84,7 +77,7 @@ Name：Profileとして登録する名前
 
 Save：変更した情報を保存する
 
-画像部分：Timelineから+で追加した画像（ GalleryからEditしたもの）が表示される
+画像部分：Timelineから+で追加した画像（GalleryからEditしたもの）が表示される
 
 コントローラー（画像右側）：Controller Infoで登録したコントローラーが表示される
 
@@ -108,7 +101,7 @@ ROM体操の表情については、スターターキットをご参照くだ�
 
 #### 解析したい動画の読み込み方法  
 
-・開いた動画(ファイル名)の上で右クリックし  
+・開いた動画ファイル名の上で右クリックし  
 ・Open
 ![](images/P005.png)
 
