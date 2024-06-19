@@ -14,17 +14,20 @@
 
 ### ライセンスの入力
 
-![](images/003_license_key.png)  
-FCS初回起動時ライセンスキーの入力を求められるのでNew Licenseにライセンスキーを入力しUpdate
+FCS初回起動時ライセンスキーの入力を求められるので  
+・New Licenseにライセンスキーを入力  
+・Update  
+![](images/L001.png)  
 
 ライセンス認証完了後FCSを操作できるようになります。
 
 
 ### ライセンスの更新
 
-FCSを起動後、ライセンスの期限切れだった場合
-
-![](images/○○○.png)
+FCSを起動後、ライセンスの期限切れだった場合にはLicenseInfoがポップするため  
+・新しいライセンスキーをNew Licenseに入力  
+・Update
+![](images/L002.png)
 
 ```{note}
 Updateを押しても正常に動作しない場合があります。   
