@@ -1,9 +1,11 @@
 ## Session作成もしくはオープン
-FCS起動後、「session」と呼ばれるプロジェクトファイルにアクセスするため
-「New...（新規作成）またはOpen（開く）」を実行します。
+FCSではアクター情報、キャラクター情報、Mayaシーン情報とその解析データを紐づけたファイルのことを「Session」と呼びます。  
+
+FCS起動後、Sessionデータへアクセスするため
+「New...（新規作成）」または「Open（開く）」を実行します。
 
 ```{note}
-ここでsessionに関わる設定を行うことで、Mayaを別途操作することなくFCS上のボタンでスムーズに作業を開始することができます。
+初めにSessionに関わる設定を行うことで、Mayaを別途操作することなくFCS上のボタンでスムーズに作業を開始することができます。
 ```
 
 ### Create new Sessionで作成されるフォルダ構造
@@ -42,13 +44,8 @@ File▶Session▶New…を選択
 
 #### ①Project Folderの設定
 
-Browseボタンで
-FCSの作業データフォルダを格納する場所  
-＝Project Folder
-を指定するためウィンドウを起動  
-Driveボタンで作業者PC環境のローカルネットワークドライブを表示  
-Project Folderを作成したい場所を選択したら  
-フォルダーを選択
+Browseボタンをクリックし、Project Folderを指定するためウィンドウを起動  
+FCSのデータを保存したい任意のフォルダを選択
 ![](images/S003.png)
 
 Project Folderに指定した場所が反映されていたら  
@@ -63,10 +60,11 @@ Create
 ![](images/image25.png)
 
 ```{note}
-★Project Folder作成後
-・AssetsフォルダへMayaのデータ
-・RecDataフォルダへ解析に使用する動画素材を移動しておくことを推奨します  
-※別の場所に保存していてもアクセスできます
+Project Folder作成後  
+・Project Folder(任意で選択したフォルダ)▶Facial▶Assetsフォルダに紐付けるMayaシーンを  
+・Project Folder(任意で選択したフォルダ)▶Facial▶Recdataフォルダに
+解析したい動画を移動しておくことを推奨します。  
+※別の場所に保存していてもアクセスできます。
 ```
 ![](images/image13.png)
 
@@ -81,10 +79,6 @@ Create new actor folderを起動
 「actor」で登録したい名前を入力
 「actor」＝モーションキャプチャアクター名  
 
-```{warning}
-※半角英数字で入力
-```
-
 Create
 ![](images/S006.png)
 
@@ -93,7 +87,7 @@ close
 ![](images/S007.png)
 
 エクスプローラーで
-FCSフォルダ直下に入力した名前のフォルダが作成されます
+Project Folderフォルダ直下に入力した名前のフォルダが作成されます
 ![](images/image29.png)
 
 
