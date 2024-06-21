@@ -61,9 +61,8 @@ Project Folderに指定した場所が反映されていたら
 
 ```{note}
 Project Folder作成後  
-・Project Folder▶Facial▶Assetsフォルダに紐付けるMayaシーンを  
-・Project Folder▶Facial▶Recdataフォルダに解析したい動画を
-移動しておくことを推奨します。  
+・Project Folder▶Facial▶Assetsフォルダに紐付けるMayaシーンを、  
+・Project Folder▶Facial▶Recdataフォルダに解析したい動画を移動しておくことを推奨します。  
 ※別の場所に保存していてもアクセスできます。
 ```
 ![](images/F004.png)
@@ -145,20 +144,20 @@ FCSの起動時にポップアップから削除するか、
 
 ### 既にSessionが作成されている場合
 
-履歴またはfcs_session.yaml ファイルからSessionを開いてください。 
+履歴またはfcs_session.yamlファイルからSessionを開いてください。 
 
 #### 履歴から開く場合
 
 ・以前にSessionを起動している場合、 File▶Session▶Openの下に履歴が表示されます。  
-・作業したいデータをクリック
+・作業したいデータをクリックしてください。
 ![](images/F010.png)
 
 #### fcs_session.yamlファイルから開く場合
 
-・File▶Session▶Open▶Open  
+・File▶Session▶Open▶Open...  
 OpenSessionウィンドウが開かれたらローカルとネットワークドライブが表示されます。  
 
-・fcs_session.yaml ファイルがあるフォルダまで開き、開くを押す
+・fcs_session.yaml ファイルがあるフォルダまで開き、開くを押してください。
 ![](images/S017.png)
 
 ### Seesionを開く際の注意
