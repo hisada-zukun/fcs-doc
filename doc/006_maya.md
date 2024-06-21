@@ -1,4 +1,4 @@
-## Mayaの起動
+## Mayaの起動  
 
 ```{warning}
 FCSとMayaを接続するためには、必ずFCSのメニューからMayaを起動する必要があります。  
@@ -20,8 +20,8 @@ Sync：✅Mayaと連動させる
 ・Mayaバージョンの誤クリックを防ぐため、Session作成時に設定したMayaVersion以外はクリックできないように、ブラックアウトしています。
 ```
 
-
-## Launchで指定したMayaバージョンが開けない場合  
+  
+# Launchで指定したMayaバージョンが開けない場合  
 
 session作成時に設定した項目は File▶Session▶info で確認することができます。  
 ![](images/S014.png)
