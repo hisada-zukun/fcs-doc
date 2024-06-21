@@ -111,7 +111,7 @@ Browseボタンをクリックし、MayaSceneを指定するためウィンド�
 
 Browseボタンをクリックし、MayaBaseを指定するためウィンドウを起動します。  
 ・workspace.melがある場所(Mayaシーンのプロジェクト設定で登録している場所)を指定  
-```{warning}
+```{attention}
 FCS上でポップアップするウィンドウにはworkspace.melが表示されません  
 ``` 
 ![](images/S010.png)
