@@ -20,6 +20,7 @@ Sync：✅Mayaと連動させる
 ・Mayaバージョンの誤クリックを防ぐため、Session作成時に設定したMayaVersion以外はクリックできないように、ブラックアウトしています。
 ```
 
+  
 ### トラブルシューティング  
 
 #### Launchで指定したMayaバージョンが開けない場合  
@@ -31,6 +32,6 @@ New Sessionで設定したMaya Verがinfoで反映されていない場合は、
 ![](images/S015.png)
 ![](images/S016.png)
   
-```{note}
+```{hint}
 設定の変更後は必ずSaveボタンを押してください
 ```
