@@ -148,8 +148,8 @@ FCSの起動時にポップアップから削除するか、
 
 #### 履歴から開く場合
 
-・以前にSessionを起動している場合、 File▶Session▶Openの下に履歴が表示されます。  
-・作業したいデータをクリックしてください。
+以前にSessionを起動している場合、File▶Session▶Openの下に履歴が表示されます。  
+・作業したいデータをクリック
 ![](images/F010.png)
 
 #### fcs_session.yamlファイルから開く場合
@@ -157,7 +157,7 @@ FCSの起動時にポップアップから削除するか、
 ・File▶Session▶Open▶Open...  
 OpenSessionウィンドウが開かれたらローカルとネットワークドライブが表示されます。  
 
-・fcs_session.yaml ファイルがあるフォルダまで開き、開くを押してください。
+・Characterフォルダ直下にあるfcs_session.yamlファイルを選択し、開く
 ![](images/S017.png)
 
 ### Seesionを開く際の注意
@@ -177,6 +177,4 @@ session作成時に設定した項目は File▶Session▶info で確認する�
 NewSessionで設定したMayaVerがinfoで反映されていない場合は、info画面のMayaVersionを右クリックし、Editから変更ができます
 ![](images/S015.png)
 ![](images/S016.png)
-
-設定変更後  
-save
+設定の変更後は必ずSaveボタンを押してください
