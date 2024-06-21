@@ -8,12 +8,12 @@ FCS起動後、Sessionデータへアクセスするため
 初めにSessionに関わる設定を行うことで、Mayaを別途操作することなくFCS上のボタンでスムーズに作業を開始することができます。
 ```
 
-### Create new Sessionで作成されるフォルダ構造
-赤枠：Project Folderで作成されるフォルダ
-青枠：Actorで作成されるフォルダ
-緑枠：Characterで作成されるフォルダ
-.lock/fcs_session.yaml：sessionをSaveした後に作成されるファイル
-![](images/image6.png)
+### Create new Sessionで作成されるフォルダ構造<br>
+赤枠：Project Folderで作成されるフォルダ<br>
+青枠：Actorで作成されるフォルダ<br>
+緑枠：Characterで作成されるフォルダ<br>
+.lock/fcs_session.yaml：sessionをSaveした後に作成されるファイル<br>
+![](images/folder.jpg)
 📁Facial：動画やMayaシーンデータ等素材を保存する場所  
 　📁Assets：Mayaのプロジェクトファイル（Assets以下）を保存する場所。  
 　📁RecData：ROM体操やFCSで解析したい動画を保存する場所。  
@@ -150,7 +150,7 @@ FCSの起動時にポップアップから削除するか、
 
 以前にSessionを起動している場合、File▶Session▶Openの下に履歴が表示されます。  
 ・作業したいデータをクリック
-![](images/F010.png)
+![](images/P16_Session_log.PNG)
 
 #### fcs_session.yamlファイルから開く場合
 
