@@ -10,10 +10,8 @@ Launch：Maya+Mayaシーンを起動
 Sync：✅Mayaと連動させる   
   
 ```{note}
-OpenSceneをクリックすると、設定したMayaSceneを開き直すことができます。  
-```
-```{note}
-Launchをクリックすると、session作成時に設定したMayaSceneが自動で起動します。  
+・OpenSceneをクリックすると、設定したMayaSceneを開き直すことができます  
+・Launchをクリックすると、session作成時に設定したMayaSceneが自動で起動します  
 ```
   
 
