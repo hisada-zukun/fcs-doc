@@ -21,7 +21,7 @@ Sync：✅Mayaと連動させる
 ```
 
 
-##Launchで指定したMayaバージョンが開けない場合  
+## Launchで指定したMayaバージョンが開けない場合  
 
 session作成時に設定した項目は File▶Session▶info で確認することができます。  
 ![](images/S014.png)
