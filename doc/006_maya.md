@@ -21,7 +21,7 @@ Sync：✅Mayaと連動させる
 ```
 
   
-# Launchで指定したMayaバージョンが開けない場合  
+### Launchで指定したMayaバージョンが開けない場合  
 
 session作成時に設定した項目は File▶Session▶info で確認することができます。  
 ![](images/S014.png)
@@ -29,4 +29,7 @@ session作成時に設定した項目は File▶Session▶info で確認する�
 New Sessionで設定したMaya Verがinfoで反映されていない場合は、info画面のMayaVersionを右クリックし、Editから変更ができます。
 ![](images/S015.png)
 ![](images/S016.png)
-
+  
+```{note}
+設定の変更後は必ずSaveボタンを押してください
+```
