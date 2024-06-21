@@ -61,9 +61,9 @@ Project Folderに指定した場所が反映されていたら
 
 ```{note}
 Project Folder作成後  
-・Project Folder(任意で選択したフォルダ)▶Facial▶Assetsフォルダに紐付けるMayaシーンを  
-・Project Folder(任意で選択したフォルダ)▶Facial▶Recdataフォルダに
-解析したい動画を移動しておくことを推奨します。  
+・Project Folder▶Facial▶Assetsフォルダに紐付けるMayaシーンを  
+・Project Folder▶Facial▶Recdataフォルダに解析したい動画を
+移動しておくことを推奨します。  
 ※別の場所に保存していてもアクセスできます。
 ```
 ![](images/F004.png)
