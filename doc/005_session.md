@@ -177,6 +177,7 @@ session作成時に設定した項目は File▶Session▶info で確認する�
 NewSessionで設定したMayaVerがinfoで反映されていない場合は、info画面のMayaVersionを右クリックし、Editから変更ができます
 ![](images/S015.png)
 ![](images/S016.png)
-```{note}
+
+```{attention}
 設定の変更後は必ずSaveボタンを押してください
 ```
