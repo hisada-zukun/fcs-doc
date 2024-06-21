@@ -8,25 +8,25 @@ FCS起動後、Sessionデータへアクセスするため
 初めにSessionに関わる設定を行うことで、Mayaを別途操作することなくFCS上のボタンでスムーズに作業を開始することができます。
 ```
 
-### Create new Sessionで作成されるフォルダ構造<br>
+### Create new Sessionで作成されるフォルダ構造
 赤枠：Project Folderで作成されるフォルダ<br>
 青枠：Actorで作成されるフォルダ<br>
 緑枠：Characterで作成されるフォルダ<br>
 .lock/fcs_session.yaml：sessionをSaveした後に作成されるファイル<br>
 ![](images/folder.jpg)
 📁Facial：動画やMayaシーンデータ等素材を保存する場所  
-　📁Assets：Mayaのプロジェクトファイル（Assets以下）を保存する場所。  
-　📁RecData：ROM体操やFCSで解析したい動画を保存する場所。  
-　📁Scene：アニメーション出力時のデフォルト出力先。  
+　📁Assets：Mayaのプロジェクトファイル（Assets以下）を保存する場所  
+　📁RecData：ROM体操やFCSで解析したい動画を保存する場所  
+　📁Scene：アニメーション出力時のデフォルト出力先  
 　📁SetData：アニメーション出力で「audio」を選択した場合にはwavファイルが、  
-　　「Frame」「Landmark Frame」を選択した場合は連番画像が作成され、保存される。  
+　　「Frame」「Landmark Frame」を選択した場合は連番画像が作成され、保存される  
 
-📁FCS：解析に使用するデータが保存されるプロジェクトフォルダ。  
-　📁Actor：Actorで作成したフォルダ。Actorで入力した名前が表記される。  
-　📁Character：Characterで作成したフォルダ。Characterで入力した名前が表記される。  
+📁FCS：解析に使用するデータが保存されるプロジェクトフォルダ  
+　📁Actor：Actorで作成したフォルダ。Actorで入力した名前が表記される  
+　📁Character：Characterで作成したフォルダ。Characterで入力した名前が表記される  
 　📁RetargetData（IMG/PARAM）：作成したProfileの編集データ（画像や数値情報）が保存される  
 　📁VideoData：解析する動画のキャッシュが保存される  
-　📄.lock：競合を防ぐためのロックファイル。起動時/終了時に自動で作成/消去される。  
+　📄.lock：競合を防ぐためのロックファイル。起動時/終了時に自動で作成/消去される  
 　📄 fcs_session.yaml：session情報を保存しているファイル
 
 ### Sessionの新規作成   
@@ -48,11 +48,11 @@ Browseボタンをクリックし、Project Folderを指定するためウィン
 ・FCSのデータを保存したい任意のフォルダを選択
 ![](images/S003.png)
 
-Project Folderに指定した場所が反映されていたら  
+Project Folderを作成します。 
 ・Create
 ![](images/S004.png)
 
-問題なく作成できたら画像のポップアップが出ます。  
+問題なく作成できたらポップアップが表示されます。  
 ・close
 ![](images/F001.png)
 
@@ -80,7 +80,7 @@ Project Folder作成後
 ・Create
 ![](images/S006.png)
 
-問題なく作成できたら画像のポップアップが出ます。  
+問題なく作成できたらポップアップが表示されます。  
 ・close
 ![](images/F006.png)
 
@@ -122,7 +122,7 @@ FCS上でポップアップするウィンドウにはworkspace.melが表示さ�
 ・④で設定したsceneを作成したMayaのバージョンを指定
 ![](images/S011.png)
 
-指定した場所が反映されていたら  
+全て入力を終えたらSaveボタンを押してください。  
 ・Save  
 ![](images/S012.png)
 
@@ -132,8 +132,8 @@ FCS上でポップアップするウィンドウにはworkspace.melが表示さ�
 
 ```{note}
 .lockファイルは
-作業中にほかの人からのアクセスを防ぐためのもので
-正常に終了した際には自動で削除されます
+作業中にほかの人からのアクセスを防ぐためのものです。  
+正常に終了した際には自動で削除されます。
 ```
 
 ```{note}
@@ -141,6 +141,7 @@ FCS上でポップアップするウィンドウにはworkspace.melが表示さ�
 FCSの起動時にポップアップから削除するか、  
 .lockファイルをエクスプローラーで直接削除してください。
 ```
+<br>
 
 ### 既にSessionが作成されている場合
 
@@ -160,21 +161,23 @@ OpenSessionウィンドウが開かれたらローカルとネットワークド
 ・Characterフォルダ直下にあるfcs_session.yamlファイルを選択し、開く
 ![](images/S017.png)
 
+<br>
+
 ### Seesionを開く際の注意
 
 #### Sessionの同時起動について
 
 ```{warning}
-Sessionの新規作成/Open後、続けて別のSession作成や起動は出来ません  
-別のSessionを開きたい場合は、現在のSessionを終了し、再起動後開きなおしてください
+Sessionの新規作成/Open後、続けて別のSession作成や起動は出来ません。  
+別のSessionを開きたい場合は、現在のSessionを終了し、FCSの再起動後開きなおしてください。
 ```
 
 #### ⑥Maya Verの設定をしても反映されない場合
 
-session作成時に設定した項目は File▶Session▶info で確認することができます  
+session作成時に設定した項目は File▶Session▶info で確認することができます。
 ![](images/S014.png)
 
-NewSessionで設定したMayaVerがinfoで反映されていない場合は、info画面のMayaVersionを右クリックし、Editから変更ができます
+NewSessionで設定したMayaVerがinfoで反映されていない場合は、info画面のMayaVersionを右クリックし、Editから変更ができます。
 ![](images/S015.png)
 ![](images/S016.png)
 
