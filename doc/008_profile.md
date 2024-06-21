@@ -6,7 +6,7 @@
 
 Window▶VideosでVideosウィンドウが開きます。  
 Videosウィンドウでは解析したい動画を開いたり、インポートすることができます。
-![](images/P001.png)
+![](images/P26_VideosWindow.PNG)
 
 ・import
 ![](images/P002.png)
@@ -16,7 +16,7 @@ Videosウィンドウでは解析したい動画を開いたり、インポー�
 ![](images/P003.png)
 
 ```{note}
-★Shift+クリックで複数同時にimportできます。
+Shift+クリックで複数同時にimportできます。
 ```
 
 Videosウィンドウに解析したい動画が表示されます。
@@ -117,7 +117,7 @@ VideoTimelineウィンドウの
 ![](images/P009.png)
 
 ```{note}
-★ 値が0（未登録）のProfileは赤枠
+値が0（未登録）のProfileは赤枠
 ```
 
 #### Neutralの表情の登録
@@ -132,7 +132,7 @@ Neutralで登録するProfileは、3Dモデルのデフォルトの表情なの�
 ![](images/P010.png)
 
 ```{note}
-★ NeutralのProfileは登録が完了すると緑になります。
+NeutralのProfileは登録が完了すると緑になります。
 ```
 ![](images/P011.png)
 
@@ -142,7 +142,7 @@ Neutralで登録するProfileは、3Dモデルのデフォルトの表情なの�
 Galleryに指定したフレームの画像が追加されます。
 ![](images/P012.png)
 ```{note}
-★ 値が0（未登録）のProfileは赤枠
+値が0（未登録）のProfileは赤枠
 ```
 ・追加した赤色の画像をクリックし、Editor画面に表示されている画像が同じであることを確認
 ![](images/P013.png)
