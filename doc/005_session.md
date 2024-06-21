@@ -145,12 +145,11 @@ FCSの起動時にポップアップから削除するか、
 
 ### 既にSessionが作成されている場合
 
-履歴またはfcs_session.yaml ファイルからSessionを開いてください。
+履歴またはfcs_session.yaml ファイルからSessionを開いてください。 
 
 #### 履歴から開く場合
 
-・File▶Session▶Open
-以前にSessionを起動している場合、履歴が表示されます。  
+・以前にSessionを起動している場合、 File▶Session▶Openの下に履歴が表示されます。  
 ・作業したいデータをクリック
 ![](images/F010.png)
 
