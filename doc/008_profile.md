@@ -26,13 +26,14 @@ Videosウィンドウに解析したい動画が表示されます。
 
 ![](images/P019.png)
 - Timeline：バーを左右に動かし、ビデオを手動で再生させる
-- ＞：動画の再生・停止をする
-- |＜/＞|：1フレーム前/次に移動する
-- ≪/≫：動画再生/一時停止（再生すると一時停止ボタンが表示される）
-- +：現在のフレームのデータをGalleryに追加する。
-- [0]：現在のフレーム数。ダブルクリックで数値入力が可能。指定のフレームへの移動も可能。
-- Sync：✅でTimeline操作状況をMayaのTimeSliderと一致させる。
-- Scale：が小さくなるほどプレビューが鮮明に、が大きくなるほど荒くなります
+- [0][20130]：ビデオの縮尺を変更できる。
+- [7967]：現在のフレーム数
+- |< >|：1フレーム
+- << >>：登録したprofileにジャンプする
+- ＞ ||：動画の再生・停止（再生すると一時停止ボタンが表示される）
+- 1:2▼：表示する動画の解像度を変更する（Scaleが小さくなるほどプレビューが鮮明に、大きくなるほど荒くなる）
+- Sync：✅でTimeline操作状況をMayaのTimeSliderと一致させる
+- EveryFrame/Realtime：再生速度を変更する
 - Video：Video playerに表示されている動画名
 
 #### Editorの画面説明
@@ -61,11 +62,11 @@ Controller▼
 - Upper/Eyelid/Gaze/Lower：✅調整した情報を登録する  
 
 ▼Utils
-- To Maya：FCS上で操作した値（情報）をMayaへ送る
-- From Maya：Mayaで操作した値（情報）をFCSへ送る
-- Predict：画像から表情を解析し　Mayaの3Dモデルに反映する機能
+- To Maya：FCS上で操作した値をMayaへ送る
+- From Maya：Mayaで操作した値をFCSへ送る
+- Predict：画像から表情を解析し、Mayaの3Dモデルに反映する機能
 
-LM：LandMark（部位の頂点情報）を表示する  
+LM：LandMarkを表示する  
 
 ▼Filter
 - ▼all/Upper/Eyelid/Gaze/Lower：選択した項目でコントローラーを絞り込む
@@ -77,9 +78,9 @@ Name：Profileとして登録する名前
 
 Save：変更した情報を保存する
 
-画像部分：Timelineから+で追加した画像（GalleryからEditしたもの）が表示される
+画像部分：Timelineから+で追加した画像が表示される
 
-コントローラー（画像右側）：Controller Infoで登録したコントローラーが表示される
+コントローラー：Controller Infoで登録したコントローラーが表示される
 
 #### Galleryの画面説明
 
@@ -97,6 +98,9 @@ Save：変更した情報を保存する
 ```{note}
 ROM体操と呼ばれる約50個のProfileの作成をオススメしています
 ROM体操の表情については、スターターキットをご参照ください
+```
+```{note}
+profileには基本的に全てのRegionの登録を推奨します
 ```
 
 #### 解析したい動画の読み込み方法  
@@ -123,9 +127,7 @@ VideoTimelineウィンドウの
 #### Neutralの表情の登録
 
 Neutral表情とは、アクターの表情筋に力が入っていないナチュラルな表情のことです。  
-セッション内で必ず一つNeutral表情を設定してください。
-
-Neutralで登録するProfileは、3Dモデルのデフォルトの表情なので数値の変更は行わず  
+セッション内で必ず一つNeutral表情を設定してください。 
 ・Neutralに✅  
 ・任意の名前に変更  
 ・Save
@@ -249,9 +251,6 @@ MayaにPredict結果が出るので、
 ```{warning}
 目を閉じる、薄目のプロファイルで黒目が見えないものは登録する際にGazeの✅を外してください  
 解析結果の精度が低下してしまう可能性があります  
-
-顔を登録する際に  
-upper/eyelid/gaze/lowerの4つのRegionで使用していないコントローラーの登録を外すことで解析時のノイズを減らすことができます
 ```
 
 例：眉のぎゅっと絞る動きを作りたい時には
@@ -272,11 +271,11 @@ upper/eyelid/gaze/lowerの4つのRegionで使用していないコントロー�
 Galleryの表示ウィンドウが小さいケースが考えられます。
 ![](images/P027.png)
 
-その場合は、Galleryウィンドウの◀▶をクリックすると追加したProfileが表示されます。
+その場合、Galleryウィンドウの◀▶をクリックすると追加したProfileが表示されます。
 ![](images/P028.png)
 
 ```{note}
-FCSでは同一フレームのProfileは重複で追加されないようになっています。  
+FCSでは同一フレームのProfileは重複して追加されないようになっています。  
 重複した場合、Logウィンドウで  
 WARNIG:Frame ○○ already has a Profile associated with it  
 と表示されます。  
