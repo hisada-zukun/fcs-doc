@@ -85,7 +85,31 @@ Save：変更した情報を保存する
 #### Galleryの画面説明
 
 ![](images/P008.png)
-作成したProfileが表示されるウィンドウ  
+作成したProfileが表示されるウィンドウ
+
+◀▶：1列に表示するprofileの数を変更する。◀を押すと少なく、▶を押すと多くなる。最小3、最大10。
+Count:○○：登録しているprofileの総数
+
+All▼：該当する項目を絞り込む
+- All：すべてのprofileを表示する
+- Enabled：解析に使用するprofileを表示する。Enabledに✅を入れて登録したprofileが対象となる。
+- Disabled：解析に使用しないprofileを表示する。Enabledに✅を入れず登録したprofileが対象となる。
+- Default：数値がdefaultのprofileを表示する。
+- Not Default：数値がdefaultではないprofileを表示する。
+- Neutral：Neutralにチェックを入れて登録したprofileを表示する。
+- （Region）Enabled：該当する（Region）に✅を入れて登録したprofileを表示する。
+- （Region）Disabled：該当する（Region）に✅を入れず登録したprofileを表示する。
+
+Sync timeline✅：登録したprofileと同じ動画を開いた状態でprofileを選択すると、該当するフレームにジャンプする。
+▼▲：ソートの昇順 降順を変更する
+
+Video▼：ソート機能
+- Video：profileのName順にソート
+- Created At：profileを作成した日時で順にソート
+- Saved At：saveした日時で順にソート
+- （controller名）：該当する（controller）に登録した数値でソート
+  
+ピックアップした画像
 - 緑：Neutralで登録したProfile
 - 赤：登録（save）していないProfile
 - 白：登録（save）済のProfile
