@@ -2,7 +2,7 @@
 
 ## FCS起動
 
-![](images/003_downloaded.png)
+![](images/003_downloaded.PNG)
 任意の場所に保存した「exeファイル」をダブルクリックし起動してください。  
 インストール不要なプログラムになります。
 
