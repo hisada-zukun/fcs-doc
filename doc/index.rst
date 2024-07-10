@@ -19,8 +19,10 @@ FCSマニュアル
    008_profile.md
    009_アニメーション.md 
    010_Solver.md
-   011_よくある質問.md
-   012_用語集.md
-   013_スターターキット.md
-   099_faq.md
+   011_export.md
+   096_support.md
+   097_用語集.md
+   098_スターターキット.md
+   099_よくある質問.md
+..    099_faq.md
   
