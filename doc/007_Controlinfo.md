@@ -24,7 +24,7 @@ all▼：all/Upper/Eyelid/Gaze/Lower/null　指定した項目（部位の区分
 
 Maya  
 Add selected：選択したコントローラーを登録  
-Sync：✅数値操作をMayaと連動する/✅解除 Mayaと連動しない  
+Sync：✅数値操作をMayaと連動する
 
 Selected  
 Upper/Eyelid/Gaze/Lower：Region　部位の区分ごとにコントローラーを登録  
