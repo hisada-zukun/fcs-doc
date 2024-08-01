@@ -40,7 +40,7 @@ FCS起動後、Sessionデータへアクセスするため
 ③Character：3Dモデルのキャラクター名  
 ④Maya Scene：3DモデルのMayaシーンへのパス  
 ⑤Maya Base：Assets、workspace.melがあるフォルダへのパス  
-⑥Maya Ver：sceneで指定したデータを作成したバージョンを指定
+⑥Maya Ver：3Dモデルを作成したMayaのバージョンを指定
 
 #### ①Project Folderの設定
 
@@ -48,8 +48,9 @@ Browseボタンをクリックし、Project Folderを指定するためウィン
 ・FCSのデータを保存したい任意のフォルダを選択
 ![](images/S003.png)
 
-Project Folderを作成します。 
+Project Folderを作成します。  
 ・Create
+
 ![](images/S004.png)
 
 問題なく作成できたらポップアップが表示されます。  
@@ -72,9 +73,9 @@ Project Folder作成後
 
 #### ②Acterの設定
 
-「+」でActorFolderを作成するためのCreate new actor folderを起動します。
+「+」ボタンをクリックし、ActorFolderを作成するための 「Create new actor folder」ウィンドウを起動します。
 
-・「Actor」で登録したい名前を入力  
+・「Actor Name」に登録したい名前を入力  
 ・「Actor」＝モーションキャプチャアクター名  
 
 ・Create
@@ -90,8 +91,8 @@ Project Folder作成後
 
 #### ③Characterの設定
 
-「+」でcharacterFolderを作成するためのCreate new character Folderを起動します。  
-・「Character」で登録したい名前を入力
+「+」ボタンをクリックし、characterFolderを作成するための「Create new character Folder」ウィンドウを起動します。  
+・「Character Name」の入力欄に登録したい名前を入力
 
 ・Create
 ![](images/S008.png)
@@ -172,7 +173,7 @@ Sessionの新規作成/Open後、続けて別のSession作成や起動は出来�
 別のSessionを開きたい場合は、現在のSessionを終了し、FCSの再起動後開きなおしてください。
 ```
 
-#### ⑥Maya Verの設定をしても反映されない場合
+#### 「⑥Maya Verの設定」をしても反映されない場合
 
 session作成時に設定した項目は File▶Session▶info で確認することができます。
 ![](images/S014.png)
