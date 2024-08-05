@@ -304,7 +304,7 @@ MayaにPredict結果が出るので、
 解析する動画は、必ず1動画1profile以上作成するようにしてください
 Profileを作成していない場合解析結果の精度が低下してしまう可能性があります 
 ```
-Videosウィンドウの「Profiles」を参照してください  
+Videosウィンドウの「Profiles」をご参照ください    
 ![](images/P026-02.png)
 
 
