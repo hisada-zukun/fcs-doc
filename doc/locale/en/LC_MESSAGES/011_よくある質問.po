@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS 24.07 Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS 24.07 Manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-02 02:09+0900\n"
+"PO-Revision-Date: 2024-07-29 15:49+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: ../../011_よくある質問.md:1
+msgid "よくある質問（FAQ）"
+msgstr "Frequently Asked Questions (FAQs)"
+
+#: ../../011_よくある質問.md:3
+msgid "FCSを使うにあたって"
+msgstr "About using FCS"
+
+#: ../../011_よくある質問.md:8
+msgid "**ネット接続は必須です。ライセンス情報の定期的なチェックにインターネットが必要です。   Wi-Fi接続も可能ですが、有線接続を推奨しています。**"
+msgstr "**Internet connection is required since FCS needs to process periodic checks of license information. You can use Wi-Fi connection, but we recommend using a wired connection instead.**"
+
+#: ../../011_よくある質問.md:17
+msgid "**最低スペック：   CPU：Intel Core™ i5-9400F   GPU：-    メモリー：DDR4 16GB以上   推奨スペック：   CPU：Intel Core™ i7-13700K   GPU：Nvidia RTX 3080   メモリー：DDR4 128GB以上**"
+msgstr "Minimum specs:    CPU: Intel Core™ i5-9400F   GPU: - GPU: - GPU: - GPU: - GPU: - GPU: - GPU   Memory: DDR4 16GB or higher   Recommended specs:   CPU: Intel Core™ i7-13700K   GPU: Nvidia RTX 3080   Memory: DDR4 128GB or more"
+
+#: ../../011_よくある質問.md:33
+msgid "**専用のカメラは不要です。   市販のカメラ（Gopro、iPhone、Androidなど）を使用できます。固定カメラやヘッドマウントカメラも問題ありません。   ご購入前に30日の無償トライアルライセンスで動作確認をおすすめします。**"
+msgstr "**No, a dedicated camera is not required.   Commercially available cameras (Gopro, iPhone, Android, etc.) are usable. You can also use fixed and head-mounted cameras. We recommend users to test the operation during the free 30-day trial licensing period.**"
+
+#: ../../011_よくある質問.md:44
+msgid "**現時点では対応していませんが、将来的には対応する予定です。（※2024年6月現在）**"
+msgstr "**At this time, we do not support MacOS, but we will support in the future. (*As of June 2024)"
+
+#: ../../011_よくある質問.md:53
+msgid "**Mayaが必要です。（Maya 2020/2022/2023に対応※2024年6月現在）**"
+msgstr "**You’re required to have Maya 2020, 2022 or 2023 version (As of June, 2024)**"
+
+#: ../../011_よくある質問.md:56
+msgid "<br><br>"
+msgstr "<br><br>"
+
+#: ../../011_よくある質問.md:58
+msgid "FCSの機能について"
+msgstr "Functions of FCS"
+
+#: ../../011_よくある質問.md:63
+msgid "**FCSはオートトラッキングを搭載しているため、アクターにマーカーを付ける必要はありません。**"
+msgstr "**FCS is equipped with auto-tracking, so there is no need to put markers on actors.**"
+
+#: ../../011_よくある質問.md:72
+msgid "**オートトラッキングのため、ランドマークのズレは修正できません。**"
+msgstr "**FCS is equipped with auto-tracking, so there is no need to put markers on actors.**"
+
+#: ../../011_よくある質問.md:81
+msgid "**舌のトラッキングには対応していません。**"
+msgstr "**Tongue tracking is not supported.**"
+
+#: ../../011_よくある質問.md:89
+msgid "**FCSはモーフだけでなくスケルトンにも対応しています。**"
+msgstr "**FCS is compatible with skeletons in addition to morphing.**"
+
+#: ../../011_よくある質問.md:97
+msgid "**同じリグであればできます。   Exportで新しいセッションファイルを作成していただき、紐付けるMayaファイルを変更してください。**"
+msgstr "**Yes, as long as they are the same rig.   Please create a new session file in Export and change the Maya file to be linked.**"
+
+#: ../../011_よくある質問.md:107
+msgid "**プロジェクトファイルを一度設定すれば、FCSからMayaをワンクリックで起動できます。**"
+msgstr "**Once the project file is set up, you can launch Maya  from FCS with a single click.**"
+
+#: ../../011_よくある質問.md:115
+msgid "**現時点ではできませんが、将来的には対応する予定です。（※2024年6月現在）**"
+msgstr "**Live character animation is not supported at this time (as of June 2024), but will be supported in the future.**"
+
+#: ../../011_よくある質問.md:124
+msgid "**ProfileにはROM体操が必須ではありませんが、精度向上のために追加することをおすすめします。**"
+msgstr "**ROM is not mandatory for Profile, but we recommend adding them to improve accuracy.**"
+
+#: ../../011_よくある質問.md:133
+msgid "**その際はMayaで手動でポート解放してください。   Maya起動後、以下のコマンドをスクリプトエディター(Mel)に入力してください。     ```commandPort -stp \"python\" -n \":42069\"```   Mayaを起動するスクリプトに同じコマンドをテクニカル担当者様に追加していただければ同じ挙動ができるようになります。     すでにポート42069が使われていた際、Settingsでポートを変更できるようになっております。**"
+msgstr "**Please manually release ports in Maya. After starting Maya, enter the following command into the script editor (Mel).    commandPort -stp “python” -n “:42069”   If you add the same command in the script of Maya, you will be able to operate Maya in the same way.   If port 42069 is already used, you can change the port in Settings.**"
+
+#: ../../011_よくある質問.md:145
+msgid "**手順書以外のコントローラーリグでもUpper/eyelid/gaze/lowerに分類できる場合、任意で追加できます。**"
+msgstr "**You can add controller rigs as long as you can classify them under Upper/eyelid/gaze/lower.**"
+
+#: ../../011_よくある質問.md:153
+msgid "**コントローラーのあるリグであれば基本的に対応しています。   ブレンドシェイプやジョイントでもコントローラー登録とアニメーション出力が可能です。**"
+msgstr "**Any rig with a controller is supported. You can also register blendshapes and joints in the controller and output animation.**"
+
+#: ../../011_よくある質問.md:162
+msgid "**画角が同じであれば撮影場所が変わっても問題ありません。   Profileのピックアップを追加することで対応できます。**"
+msgstr "**It’s OK to change the shooting location as long as the angle of view is the same. You can add a pickup to the Profile.**"
+
+#: ../../011_よくある質問.md:172
+msgid "**極端に解像度の低い（480P以下）、または画質が悪いもの（照明が極めて暗い）を除き、動画の画質はオートトラッキング精度への影響が少ないです。**"
+msgstr "**Video quality doesn’t have much effect on auto-tracking accuracy except for extremely low resolution (480P or lower) or poor quality (extremely dark lighting).**"
+
+#: ../../011_よくある質問.md:181
+msgid "**できれば明るい場所で撮影してください。また、アクションシーンなどではフレームレートの高いカメラでモーションブラーの少ない撮影を心がけていただければ問題ありません。**"
+msgstr "**If possible, please shoot in bright locations. Also, for action scenes, etc., there is no problem as long as you use a camera with a high frame rate and shoot with less motion blur.**"
+
+#: ../../011_よくある質問.md:189
+msgid "**FCSの File▶Setting にて各種項目を変更できます。   変更した内容は、再起動後に反映されるため、再起動が必要です。** ![](images/Set001.png)"
+msgstr "**You can change setting of each item in FCS at File▶Setting    The changes will take effect after a restart, so a restart is required.**"
+
+#: ../../011_よくある質問.md:195
+msgid "ライセンスについて"
+msgstr "About Licenses"
+
+#: ../../011_よくある質問.md:200
+msgid "**できません。ただし、同時に起動しなければ複数台のPCで作業可能です。**"
+msgstr "**No, but you can work on multiple PCs as long as they are not started at the same time.**"
+
+#: ../../011_よくある質問.md:208
+msgid "**年間サブスクリプションは40万円（税抜き）です。2024年12月末までに購入される方には、1ライセンスにつきもう1ライセンスが無償で付与されます。**"
+msgstr "**The annual subscription is 400,000 yen (excluding tax). For each license purchased by the end of December 2024, another license will be granted free of charge.**"
+
+#: ../../011_よくある質問.md:216
+msgid "**購入後、自動的に契約更新は行われません。サブスクリプション終了1ヵ月前にFCSソフト内でポップアップが表示され、更新を希望する場合は弊社担当者にご連絡いただく必要があります。**"
+msgstr "**No, your subscription will not be automatically renewed after purchase. A pop-up window will appear in the FCS one month prior to the end of your subscription. Please contact us if you wish to renew.**"
+
+#: ../../011_よくある質問.md:224
+msgid "**特別な操作は必要ありません。サブスクリプション終了期間までは使用できますが、終了後は使用できなくなります。**"
+msgstr "**You don’t need to do anything on your end. You can use the software until the end of the subscription period, and after the subscription ends, it will automatically expire.**"
+
+#: ../../011_よくある質問.md:232
+msgid "**年間でのサブスクリプション契約のため、途中解約での返金はありません。**"
+msgstr "**No. As this is an annual subscription contract, there are no refunds for mid-term cancellations.**"
+
+#: ../../011_よくある質問.md:240
+msgid "**トライアルは30日間お試しいただけます。   詳細は[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。**"
+msgstr "**Trials are available for 30 days.   For more information, please contact us from the HELTEC website.**"
+
+#: ../../011_よくある質問.md:249
+msgid "**トライアル版から製品版への移行には別途購入手続きが必要です。   詳細は[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。**"
+msgstr "**No. A separate purchase procedure is required to move from the trial version to the full version.   For details, please contact us from the HELTEC website.**"
+
+#: ../../011_よくある質問.md:258
+msgid "**ライセンス情報をチェックするサーバーに問題が生じている状況です。   サーバー側での対応が必要ですので、[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からご連絡ください。**"
+msgstr "**There is a problem with the server checking license information.   Please contact us from the HELTEC homepage. We will take care of the issue on our end.**"

@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS 24.07 Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS 24.07 Manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-02 02:09+0900\n"
+"PO-Revision-Date: 2024-07-27 18:55+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: ../../006_maya.md:1
+msgid "Mayaの起動"
+msgstr "How to launch Maya"
+
+#: ../../006_maya.md:4
+msgid "FCSとMayaを接続するためには、必ずFCSのメニューからMayaを起動する必要があります。"
+msgstr "To connect FCS and Maya, please launch Maya from the FCS menu."
+
+#: ../../006_maya.md:7
+msgid "![](images/M001.png)   OpenScene：Mayaシーンを起動   Launch：Maya+Mayaシーンを起動    Sync：✅Mayaと連動させる"
+msgstr "![](images/M001.png)   OpenScene: Launch Maya scene  Launch: Launch Maya+Maya scene  Sync: ✅ Link with Maya"
+
+#: ../../006_maya.md:13
+msgid "・OpenSceneをクリックすると、設定したMayaSceneを開き直すことができます   ・Launchをクリックすると、session作成時に設定したMayaSceneが自動で起動します"
+msgstr ""
+"・Click OpenScene to reopen the MayaScene that you already set up   \n"
+"・Clicking Launch will automatically launch the MayaScene that was set when creating the session."
+
+#: ../../006_maya.md:18
+msgid "・Maya▶Launch▶Mayaバージョンの選択でMayaを起動   例：今回キャラクターデータを作成したMayaのバージョンはMaya2020なので2020を選択しています。 ![](images/M002.png)"
+msgstr ""
+"・Maya▶Launch▶Select Maya version   \n"
+"Example: If the version of Maya which was used to create a character is Maya 2020, you will need to select “2020”. ![](images/M002.png)"
+
+#: ../../006_maya.md:23
+msgid "Mayaバージョンの誤クリックを防ぐため、Session作成時に設定したMayaVersion以外はクリックできないように、ブラックアウトしています。"
+msgstr "To prevent accidental clicks on Maya versions, we have blacked out the Maya version so that you cannot click on anything other than the Maya version that was set at the time of creating a Session."
+
+#: ../../006_maya.md:26
+msgid "トラブルシューティング"
+msgstr "Troubleshooting"
+
+#: ../../006_maya.md:28
+msgid "Launchで指定したMayaバージョンが開けない場合"
+msgstr "If you cannot open Maya version which was selected to launch a Session"
+
+#: ../../006_maya.md:30
+msgid "session作成時に設定した項目は File▶Session▶info で確認することができます。   ![](images/S014.png)"
+msgstr "You can check the setup details when creating the session under File▶Session▶info.   ![](images/S014.png)"
+
+#: ../../006_maya.md:33
+msgid "New Sessionで設定したMaya Verがinfoで反映されていない場合は、info画面のMayaVersionを右クリックし、Editから変更ができます。 ![](images/S015.png) ![](images/S016.png)"
+msgstr "If the Maya version in New Session is not reflected in the info screen, right-click on Maya Version in the info screen and change it from Edit."
+
+#: ../../006_maya.md:38
+msgid "設定の変更後は必ずSaveボタンを押してください"
+msgstr "Please click the Save button after changing settings."

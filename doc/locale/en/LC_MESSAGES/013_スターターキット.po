@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS 24.07 Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS 24.07 Manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-02 02:09+0900\n"
+"PO-Revision-Date: 2024-07-29 16:33+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: ../../013_スターターキット.md:1
+msgid "FCSスターターキット"
+msgstr "FCS Starter Kit"
+
+#: ../../013_スターターキット.md:2
+msgid "FCS製品版のご購入、体験版のトライアル申し込みをされた方は、FCSスターターキットをご利用いただくことができます。   FCSスターターキットを使用することで、フェイシャルキャプチャー動画解析・3Dモデルへのアニメーション出力・ゲームエンジンによるレンダリング確認まで、フェイシャルキャプチャーを用いたCG映像制作工程を通してFCSをご体験いただけます。"
+msgstr "We offer FCS Starter Kit to customers who have purchased the FCS product version or applied for a trial version. By using the FCS Starter Kit, you can experience FCS through the process of creating CG images using facial capture, including analysis of facial capture video, output of animation to 3D models, and confirmation of rendering by a game engine."
+
+#: ../../013_スターターキット.md:5
+msgid "FCSスターターキットのコンテンツ一覧"
+msgstr "FCS Starter Kit Contents List"
+
+#: ../../013_スターターキット.md:6
+msgid "FCSスターターキットには、以下のコンテンツが含まれています。"
+msgstr "The FCS Starter Kit includes the following contents:"
+
+#: ../../013_スターターキット.md:8
+msgid "![](images/013_image001.PNG)"
+msgstr "![](images/013_image001.PNG)"
+
+#: ../../013_スターターキット.md:10
+msgid "Mayaの3Dモデルデータ"
+msgstr "Maya 3D model data"
+
+#: ../../013_スターターキット.md:11
+msgid "フェイシャルROM体操の表情一覧PDF"
+msgstr "List of facial expressions for Facial ROM  in PDF"
+
+#: ../../013_スターターキット.md:12
+msgid "フェイシャルROM体操動画"
+msgstr "Reference video of facial ROM"
+
+#: ../../013_スターターキット.md:13
+msgid "動画解析・アニメーション出力用のサンプル動画"
+msgstr "Sample videos for video analysis and animation output"
+
+#: ../../013_スターターキット.md:14
+msgid "Profile作成済みのFCS Sessionデータ"
+msgstr "FCS Session data for created profiles"
+
+#: ../../013_スターターキット.md:17
+msgid "一部コンテンツのご利用には、サードパーティー製のゲームエンジン・プラグインを別途ご用意いただく必要がある場合があります。"
+msgstr "Some content may require third-party game engine plug-ins."
+
+#: ../../013_スターターキット.md:20
+msgid "1. Mayaの3Dモデルデータ"
+msgstr "1. 3D model data in Maya"
+
+#: ../../013_スターターキット.md:21
+msgid "DIGITAL NAGAKI"
+msgstr "DIGITAL NAGAKI"
+
+#: ../../013_スターターキット.md:23
+msgid "![](images/013_DIGITALNAGAKI.png)"
+msgstr "![](images/013_DIGITALNAGAKI.png)"
+
+#: ../../013_スターターキット.md:25
+msgid "DIGITAL NAGAKIとは、ツークン研究所のデジタルヒューマン技術（実在の人物をCGで再現する技術）と、Unreal Engineを開発するEpic Games社が提供するMetaHuman（デジタルヒューマン作成ツール）を組み合わせて制作された3Dモデルです。   MetaHumanに関する詳細は、Epic Games社が提供する[MetaHuman紹介ホームページ](https://www.unrealengine.com/ja/metahuman)をご確認ください。"
+msgstr "DIGITAL NAGAKI is a 3D model created by combining Zukun Laboraroty’s digital human technology (technology to reproduce real people in CG) and MetaHuman (digital human creation tool) provided by Epic Games, the developer of the Unreal Engine. For more information on MetaHuman, please refer to the MetaHuman introduction website provided by Epic Games (https://www.unrealengine.com/ja/metahuman)."
+
+#: ../../013_スターターキット.md:28
+msgid "DIGITAL NAGAKIは、MetaHuman標準のフェイシャルコントローラを使ってアニメーションさせることができます。   MetaHumanフェイシャルコントローラの使い方は、Epic Games社が提供する[こちらのYouTube解説動画](https://www.youtube.com/watch?v=GEpH3o44_58)をご確認ください。"
+msgstr "With DIGITAL NAGAKI, we can animate models using the MetaHuman  facial controller. For more information on how to use the MetaHuman facial controller, please check this YouTube instructional video provided by Epic Games(https://www.youtube.com/watch?v=GEpH3o44_58)."
+
+#: ../../013_スターターキット.md:32
+msgid "DIGITAL NAGAKIをご利用される際は、Unreal Engineでの確認・レンダリングが前提となります。   事前にUnreal Engineのインストール、確認用プロジェクトの作成をお願いいたします。   Unreal Engineに関する詳細は、Epic Games社が提供する[Unreal Engine紹介ホームページ](https://www.unrealengine.com/ja)をご確認ください。"
+msgstr "When using DIGITAL NAGAKI, confirmation/rendering with Unreal Engine will be required. Please install the Unreal Engine and create a project for testing before using DIGITAL NAGAKI. For more details on the Unreal Engine, please refer to the website provided by Epic Games (https://www.unrealengine.com/ja)."
+
+#: ../../013_スターターキット.md:38
+msgid "Mayaでのレンダリングや、Unity Technologies社が開発するUnityでのご利用はできませんのでご注意ください。   現在、Unityでもご利用可能なMayaデータを準備しておりますので、今しばらくお待ちください。"
+msgstr "Please note that we cannot render data in  Maya or use it with Unity developed by Unity Technologies, Inc. We are currently working on creating Maya data that can be used in Unity."
+
+#: ../../013_スターターキット.md:42
+msgid "2. フェイシャルROM体操の表情一覧PDF"
+msgstr "2. Reference video of facial ROM"
+
+#: ../../013_スターターキット.md:43
+msgid "フェイシャルキャプチャーによる動画解析では、撮影された人物が取り得る表情の強度的な限界を知ることで、動画解析の効率性を高めることができます。   眉や目、口などといった顔の各パーツの可動域（= ROM：**R**ange **O**f **M**otion）取得を目的とした一連の表情パターンのことを、フェイシャルROM体操と呼びます。   本スターターキットでは、ツークン研究所がフェイシャルキャプチャー撮影で実際に使用している、約50パターンの表情リストをPDF化して同梱しています。"
+msgstr "For video analysis using facial capture, we can increase the efficiency of analysis by knowing the limits of facial expressions of the subject.   A series of facial expression patterns aimed at acquiring the range of motion of facial parts such as eyebrows, eyes, and mouth are called facial ROM.   This starter kit includes a PDF file containing a list of approximately 50 facial expression patterns that Zukun Laboratory uses for facial capture photography."
+
+#: ../../013_スターターキット.md:47
+msgid "3. フェイシャルROM体操動画"
+msgstr "3. Video of facial ROM"
+
+#: ../../013_スターターキット.md:48
+msgid "フェイシャルROM体操を収録した動画です。   FCSに読み込ませてご利用ください。"
+msgstr "This is a video containing facial ROM.   Please load it into FCS for use."
+
+#: ../../013_スターターキット.md:51
+msgid "4. 動画解析・アニメーション出力用のサンプル動画"
+msgstr "4. Sample videos for video analysis and animation output"
+
+#: ../../013_スターターキット.md:52
+msgid "動画解析で使用するサンプル動画です。   FCSに読み込ませてご利用ください。"
+msgstr "This is a sample video for  video analysis.   Please load them into FCS for use. "
+
+#: ../../013_スターターキット.md:55
+msgid "5. Profile作成済みのFCS Sessionデータ"
+msgstr "5. FCS Session data for created profiles"
+
+#: ../../013_スターターキット.md:56
+msgid "約50程度のProfileが実際に作成してある、FCS Sessionデータです。   FCSを使用して動画解析をする際の参考としてお使いください。"
+msgstr "This is FCS Session data with about 50 profiles already created.   Please use this data as a reference for video analysis using FCS."
