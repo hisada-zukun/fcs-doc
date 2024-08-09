@@ -30,9 +30,9 @@ os.environ["pages_root"] = "https://zukunfcs.github.io/fcs-doc"
 if Path("./pages").exists():
     rmtree(Path("./pages"))
 build_doc("latest", "jp", "main")
-move_dir("./_build/html/", "./pages/jp")
+move_dir("./_build/html/", "./pages/jp/html")
 build_doc("latest", "en", "main")
-move_dir("./_build/html/", "./pages/en")
+move_dir("./_build/html/", "./pages/en/html")
 
 
 # reading the yaml file
@@ -44,7 +44,9 @@ for version, details in docs.items():
 	tag = details.get('tag', '')
 	for language in details.get('languages', []): 
 		build_doc(version, language, version)
-		move_dir("./_build/html/", "./pages/"+version+'/'+language+'/')
+		move_dir("./_build/html/", "./pages/"+version+'/'+language+'/html/')
+if Path("./_build").exists():
+    rmtree(Path("./_build"))
 
 move_dir("./pages", "./_build")
   
