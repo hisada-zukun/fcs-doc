@@ -27,9 +27,9 @@ os.environ["pages_root"] = "https://zukunfcs.github.io/fcs-doc"
 
 # manually the main branch build in the current supported languages
 build_doc("latest", "jp", "main")
-move_dir("./_build/html/", "../pages/")
+move_dir("./_build/html/", "../pages/jp")
 build_doc("latest", "en", "main")
-move_dir("./_build/html/", "../pages/en/")
+move_dir("./_build/html/", "../pages/en")
 
 # reading the yaml file
 with open("versions.yaml", "r") as yaml_file:

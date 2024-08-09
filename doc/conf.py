@@ -13,7 +13,7 @@ copyright = 'TOEI Zukun'
 author = 'Zukun'
 
 
-build_all_docs = os.environ.get("build_all_docs")
+build_all_docs = os.environ.get("build_all_docs", True)
 pages_root = os.environ.get("pages_root", "")
 build_pdf = os.environ.get("build_pdf", )
 
@@ -85,14 +85,14 @@ if build_all_docs is not None:
 
 
     if (current_version == 'latest'):
-        html_context['languages'].append(['jp', pages_root])
-        html_context['languages'].append(['en', pages_root+'/en'])
+        html_context['languages'].append(['jp', pages_root + '/jp'])
+        html_context['languages'].append(['en', pages_root])
     # and we append all versions and langauges accordingly 
     # we treat t he main branch as latest 
     if (current_language == 'en'):  
-        html_context['versions'].append(['latest', pages_root + '/en'])
-    if (current_language == 'jp'):
         html_context['versions'].append(['latest', pages_root])
+    if (current_language == 'jp'):
+        html_context['versions'].append(['latest', pages_root + '/jp'])
 
     # and loop over all other versions from our yaml file
     # to set versions and languages
@@ -105,3 +105,4 @@ if build_all_docs is not None:
 
     for version, details in docs.items():
         html_context['versions'].append([version, pages_root+'/'+version+'/'+current_language])
+    

@@ -377,7 +377,7 @@ msgstr "・Excute Predict   Displayed value will change. ![](images/P021.png)"
 
 #: ../../008_profile.md:241
 msgid "MayaにPredict結果が出るので、   調整が必要な場合は調整し、登録できる内容になったら ![](images/P022.png)"
-msgstr "Predict results will be displayed in Maya.    If necessary, make adjustments, and when the contents are ready to be registered [](images/P022.png)"
+msgstr "Predict results will be displayed in Maya.    If necessary, make adjustments, and when the contents are ready to be registered! [](images/P022.png)"
 
 #: ../../008_profile.md:245
 msgid "・Save ![](images/P023.png)"
