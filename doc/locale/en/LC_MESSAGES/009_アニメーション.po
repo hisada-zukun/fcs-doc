@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../009_アニメーション.md:1
 msgid "アニメーションの出力方法"
-msgstr "How to output animation"
+msgstr "Output animation"
 
 #: ../../009_アニメーション.md:4
 msgid "解析する動画が広角レンズを使って撮影されている場合、Solverの設定変更が必要です。   詳しくはSolverの詳細設定ページをご確認ください。"
@@ -103,7 +103,7 @@ msgstr "Start process: start outputting animation"
 
 #: ../../009_アニメーション.md:32
 msgid "単体のアニメーション出力方法"
-msgstr "How to output an animation"
+msgstr "Output animation from one video"
 
 #: ../../009_アニメーション.md:34 ../../009_アニメーション.md:90
 msgid "Videoウィンドウで"
@@ -197,7 +197,7 @@ msgstr "Start process: start outputting animation"
 
 #: ../../009_アニメーション.md:88
 msgid "複数のアニメーション出力方法"
-msgstr "How to output animations for multiple expressions"
+msgstr "Output animation from multiple videos in batch"
 
 #: ../../009_アニメーション.md:91
 #, fuzzy

@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../007_Controlinfo.md:1
 msgid "Contorollerの登録"
-msgstr "How to register controller"
+msgstr "Register controller"
 
 #: ../../007_Controlinfo.md:3
 msgid ""
@@ -106,11 +106,11 @@ msgstr "Save: register controller Info."
 
 #: ../../007_Controlinfo.md:41
 msgid "Controllerの登録"
-msgstr "How to register controller"
+msgstr "Registering controller"
 
 #: ../../007_Controlinfo.md:43
 msgid "Upperの登録方法"
-msgstr "How to register Upper"
+msgstr "Registering Upper"
 
 #: ../../007_Controlinfo.md:45
 #, fuzzy
@@ -159,7 +159,7 @@ msgstr ""
 
 #: ../../007_Controlinfo.md:62
 msgid "Eyelidの登録方法"
-msgstr "How to register Eyelid"
+msgstr "Registering Eyelid"
 
 #: ../../007_Controlinfo.md:64
 #, fuzzy
@@ -234,7 +234,7 @@ msgstr ""
 
 #: ../../007_Controlinfo.md:99
 msgid "gazeの登録方法"
-msgstr "How to register gaze"
+msgstr "Registering gaze"
 
 #: ../../007_Controlinfo.md:101 ../../007_Controlinfo.md:126
 msgid "同様に"
@@ -277,7 +277,7 @@ msgstr " - gaze ![](images/C014.png)"
 
 #: ../../007_Controlinfo.md:124
 msgid "lowerの登録方法"
-msgstr "How to register Lower"
+msgstr "Registering Lower"
 
 #: ../../007_Controlinfo.md:127
 #, fuzzy

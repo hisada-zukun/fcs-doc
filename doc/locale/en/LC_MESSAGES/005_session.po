@@ -359,7 +359,7 @@ msgstr "Open Session from history or fcs_session.yaml file."
 
 #: ../../005_session.md:151
 msgid "履歴から開く場合"
-msgstr "How to open Session from history "
+msgstr "Open Session from history "
 
 #: ../../005_session.md:153
 #, fuzzy
@@ -375,7 +375,7 @@ msgstr ""
 
 #: ../../005_session.md:157
 msgid "fcs_session.yamlファイルから開く場合"
-msgstr "How to open Session from fcs_session.yaml file"
+msgstr "Open Session from fcs_session.yaml file"
 
 #: ../../005_session.md:159
 #, fuzzy
@@ -397,7 +397,7 @@ msgstr "Cautions regarding opening a Session"
 
 #: ../../005_session.md:169
 msgid "Sessionの同時起動について"
-msgstr "How to startup multiple sessions concurrently"
+msgstr "Startup multiple sessions concurrently"
 
 #: ../../005_session.md:172
 msgid ""

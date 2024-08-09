@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../008_profile.md:1 ../../008_profile.md:120
 msgid "Profileの作成"
-msgstr "How to create a profile"
+msgstr "Create a profile"
 
 #: ../../008_profile.md:3
 msgid "Profileの作成の前に..."
@@ -30,7 +30,7 @@ msgstr "Before creating a profile…"
 
 #: ../../008_profile.md:5
 msgid "解析動画を開く方法"
-msgstr "How to open an analysis video"
+msgstr "Open an analysis video"
 
 #: ../../008_profile.md:7
 msgid ""
@@ -69,7 +69,7 @@ msgstr ""
 
 #: ../../008_profile.md:25
 msgid "Timelineの画面説明"
-msgstr "How to use timeline"
+msgstr "Timeline"
 
 #: ../../008_profile.md:27
 msgid "![](images/P019.png)"
@@ -123,7 +123,7 @@ msgstr "Video: video name displayed in the video player"
 
 #: ../../008_profile.md:39
 msgid "Editorの画面説明"
-msgstr "How to use Editor"
+msgstr "Editor"
 
 #: ../../008_profile.md:41
 msgid "![](images/P007.png) No Sync▼"
@@ -239,7 +239,7 @@ msgstr "Controller: controllers registered in Controller Info are displayed"
 
 #: ../../008_profile.md:85
 msgid "Galleryの画面説明"
-msgstr "How to view Gallery"
+msgstr "Gallery"
 
 #: ../../008_profile.md:87
 msgid "![](images/P008.png) 作成したProfileが表示されるウィンドウ"
@@ -364,7 +364,7 @@ msgstr ""
 
 #: ../../008_profile.md:136
 msgid "解析したい動画の読み込み方法"
-msgstr "How to load the video you want to analyze:"
+msgstr "Load the video you want to analyze:"
 
 #: ../../008_profile.md:138
 msgid "開いた動画ファイル名の上で右クリック"
@@ -381,7 +381,7 @@ msgstr "Video is displayed in Video Player ![](images/P006.png)"
 
 #: ../../008_profile.md:145
 msgid "Profileの追加方法"
-msgstr "How to add Profile:"
+msgstr "Adding Profile:"
 
 #: ../../008_profile.md:147
 msgid "VideoTimelineウィンドウの"
@@ -414,7 +414,7 @@ msgstr "Profiles with a value of 0 (unregistered) are displayed in red."
 
 #: ../../008_profile.md:157
 msgid "Neutralの表情の登録"
-msgstr "How to register Neutral facial expressions"
+msgstr "Registering Neutral facial expressions"
 
 #: ../../008_profile.md:159
 #, fuzzy
@@ -450,7 +450,7 @@ msgstr "![](images/P011.png)"
 
 #: ../../008_profile.md:172
 msgid "Mayaで表情を調整する場合"
-msgstr "How to adjust facial expressions in Maya"
+msgstr "Adjust facial expressions in Maya"
 
 #: ../../008_profile.md:174 ../../008_profile.md:209 ../../008_profile.md:260
 #, fuzzy
