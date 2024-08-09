@@ -38,6 +38,8 @@ html_static_path = ['_static']
 latex_engine = 'lualatex'
 current_language = os.environ.get("current_language")
 current_version = os.environ.get("current_version")
+version = current_version
+release = current_version
 
 latex_documents = [
   ('index', 'fcs_manual.tex', f'FCS Manaul {current_version}', 'TOEI Zukun', f'Manual {current_language}'),
