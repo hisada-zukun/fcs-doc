@@ -8,11 +8,11 @@ Window▶VideosでVideosウィンドウが開きます。
 Videosウィンドウでは解析したい動画を開いたり、インポートすることができます。
 ![](images/P26_VideosWindow.PNG)
 
-・import
+ - import
 ![](images/P002.png)
 
 ウィンドウがポップアップされるので  
-・解析したい動画をクリックし開く
+ - 解析したい動画をクリックし開く
 ![](images/P003.png)
 
 ```{note}
@@ -30,9 +30,9 @@ Videosウィンドウに解析したい動画が表示されます。
 - [7967]：現在のフレーム数
 - |< >|：1フレーム前/後に移動する
 - << >>：登録したprofileにジャンプする
-- ＞ ||：動画の再生・停止（再生すると一時停止ボタンが表示される）
+- ＞ ||：動画の再生 - 停止（再生すると一時停止ボタンが表示される）
 - 1:2▼：表示する動画の解像度を変更する（Scaleが小さくなるほどプレビューが鮮明に、大きくなるほど荒くなる）
-- Sync：✅でTimeline操作状況をMayaのTimeSliderと一致させる
+- Sync：- [x] でTimeline操作状況をMayaのTimeSliderと一致させる
 - EveryFrame/Realtime：再生速度を変更する
 - Video：Video playerに表示されている動画名
 
@@ -46,20 +46,20 @@ No Sync▼
 - No Sync：FCSとMayaを連動させない
 
 ```{note}
-本ページではProfileの追加手順・編集手順について記載しております  
+本ページではProfileの追加手順 - 編集手順について記載しております  
 Mayaをベースに表情を調整するのか、FCSをベースに表情を調整するのかは任意で使い分けることができますが、  
 最初は「Both」での使用をオススメします。
 ```
 
-Neutral：✅デフォルトの表情として必ず1つ登録する  
-Enabled：✅解析する素材として使用する  
+Neutral：- [x] デフォルトの表情として必ず1つ登録する  
+Enabled：- [x] 解析する素材として使用する  
 
 Controller▼
 - Controller：コントローラー表示が名前になる
 - Value：コントローラー表示が数字になる 
 
 ▼Region
-- Upper/Eyelid/Gaze/Lower：✅調整した情報を登録する  
+- Upper/Eyelid/Gaze/Lower：- [x] 調整した情報を登録する  
 
 ▼Utils
 - To Maya：FCS上で操作した値をMayaへ送る
@@ -92,15 +92,15 @@ Count:○○：登録しているprofileの総数
 
 All▼：該当する項目を絞り込む
 - All：すべてのprofileを表示する
-- Enabled：解析に使用するprofileを表示する。Enabledに✅を入れて登録したprofileが対象となる。
-- Disabled：解析に使用しないprofileを表示する。Enabledに✅を入れず登録したprofileが対象となる。
+- Enabled：解析に使用するprofileを表示する。Enabledに- [x] を入れて登録したprofileが対象となる。
+- Disabled：解析に使用しないprofileを表示する。Enabledに- [x] を入れず登録したprofileが対象となる。
 - Default：数値がdefaultのprofileを表示する。
 - Not Default：数値がdefaultではないprofileを表示する。
 - Neutral：Neutralにチェックを入れて登録したprofileを表示する。
-- （Region）Enabled：該当する（Region）に✅を入れて登録したprofileを表示する。
-- （Region）Disabled：該当する（Region）に✅を入れず登録したprofileを表示する。
+- （Region）Enabled：該当する（Region）に- [x] を入れて登録したprofileを表示する。
+- （Region）Disabled：該当する（Region）に- [x] を入れず登録したprofileを表示する。
 
-Sync timeline✅：登録したprofileと同じ動画を開いた状態でprofileを選択すると、該当するフレームにジャンプする。
+Sync timeline- [x] ：登録したprofileと同じ動画を開いた状態でprofileを選択すると、該当するフレームにジャンプする。
 ▼▲：ソートの昇順 降順を変更する
 
 Video▼：ソート機能
@@ -110,10 +110,10 @@ Video▼：ソート機能
 - （controller名）：該当する（controller）に登録した数値でソート
   
 ピックアップした画像
-- 緑：「Neutral」に✅を入れて登録したProfile  
+- 緑：「Neutral」に- [x] を入れて登録したProfile  
 - 赤：数値がデフォルト状態/未編集のProfile  
 - 青：選択中（編集中）のprofile  
-- 黒：「Enabled」の✅を外し、「Disabled」で登録したprofile  
+- 黒：「Enabled」の- [x] を外し、「Disabled」で登録したprofile  
 - 白：リターゲット後、登録したprofile  
 
 
@@ -135,8 +135,8 @@ profileには基本的に全てのRegionの登録を推奨していますが
 
 #### 解析したい動画の読み込み方法  
 
-・開いた動画ファイル名の上で右クリック  
-・Open
+ - 開いた動画ファイル名の上で右クリック  
+ - Open
 ![](images/P005.png)
 
 VideoPlayerに動画が表示されます。
@@ -145,9 +145,9 @@ VideoPlayerに動画が表示されます。
 #### Profileの追加方法
 
 VideoTimelineウィンドウの  
-・スライダーを動かし表情の登録を行いたいフレームで止め  
-・+を押す  
-・Galleryに指定したフレームの画像が追加される
+ - スライダーを動かし表情の登録を行いたいフレームで止め  
+ - +を押す  
+ - Galleryに指定したフレームの画像が追加される
 ![](images/P009.png)
 
 ```{note}
@@ -159,9 +159,9 @@ VideoTimelineウィンドウの
 Neutral表情とは、アクターの表情筋に力が入っていないナチュラルな表情のことです。  
 セッション内で必ず一つNeutral表情を設定してください。 
 
-・Neutralに✅  
-・任意の名前に変更  
-・Save
+ - Neutralに- [x]   
+ - 任意の名前に変更  
+ - Save
 ![](images/P010.png)
 
 ```{note}
@@ -171,20 +171,20 @@ NeutralのProfileは登録が完了すると緑になります。
 
 #### Mayaで表情を調整する場合
 
-・VideoTimelineウィンドウのスライダーを動かし表情の登録を行いたいフレームで止め+を押す
+ - VideoTimelineウィンドウのスライダーを動かし表情の登録を行いたいフレームで止め+を押す
   
 Galleryに指定したフレームの画像が追加されます。
 ![](images/P012.png)
 ```{note}
 値が0（未登録）のProfileは赤枠
 ```
-・追加した赤色の画像をクリックし、Editor画面に表示されている画像が同じであることを確認
+ - 追加した赤色の画像をクリックし、Editor画面に表示されている画像が同じであることを確認
 ![](images/P013.png)
 
-・Mayaのコントローラーリグで、追加したアクターの表情と同じになるようにキャラクターの表情を調節
+ - Mayaのコントローラーリグで、追加したアクターの表情と同じになるようにキャラクターの表情を調節
 ![](images/image90.png)
 
-・From Mayaをクリック
+ - From Mayaをクリック
 ![](images/P014.png)
 Mayaでの調整情報がFCSに反映されます。
 
@@ -197,8 +197,8 @@ Syncのプルダウンで「From Maya at save」もしくは「Both」にして�
 その際は、再度登録し忘れたコントローラーを登録しプロファイルの再登録を行ってください。
 ```
  
-・Nameを任意の名前に変更
-・Save
+ - Nameを任意の名前に変更
+ - Save
 ![](images/P015.png)
 ```{note}
 名前は必ずしも変更する必要はありません。
@@ -206,14 +206,14 @@ Syncのプルダウンで「From Maya at save」もしくは「Both」にして�
 
 #### FCS上で表情を調整する場合
 
-・VideoTimelineウィンドウのスライダーを動かし表情の登録を行いたいフレームで止め+を押す
+ - VideoTimelineウィンドウのスライダーを動かし表情の登録を行いたいフレームで止め+を押す
  
 Galleryに指定したフレームの画像が追加されます。
 ![](images/P012.png)
 ```{note}
 値が0（未登録）のProfileは赤枠
 ```
-・追加した赤色の画像をクリックし、Editor画面に表示されている画像が同じであることを確認
+ - 追加した赤色の画像をクリックし、Editor画面に表示されている画像が同じであることを確認
 ![](images/P013.png)
 
 ```{warning}
@@ -225,10 +225,10 @@ Syncが「No Sync」の場合はProfileの自動情報共有が行われない�
 Syncを「Both」にした状態で開きなおすと デフォルトの表情になります。  
 既にしている場合はスキップ
 ```
-・Mayaのコントローラーリグで、追加したアクターの表情が同じになるようにキャラクターの表情を調節
+ - Mayaのコントローラーリグで、追加したアクターの表情が同じになるようにキャラクターの表情を調節
 ![](images/P020.png)
 
-・To Mayaをクリック
+ - To Mayaをクリック
 ![](images/P016.png)
 
 ```{note}
@@ -240,7 +240,7 @@ FCSで調整した内容がMayaに反映されます。
 
 ```{note}
 絞り込みたい項目（文字含む）のみ表示されるようにするには…
-・▼Filterから搾りたい項目をクリック
+ - ▼Filterから搾りたい項目をクリック
 ```
 ![](images/P018.png)
 
@@ -265,10 +265,10 @@ Galleryに指定したフレームの画像が追加される
 値が0（未登録）のProfileは赤枠
 ```
 
-・追加した赤色の画像をクリックし、Editor画面に表示されている画像が同じであることを確認
+ - 追加した赤色の画像をクリックし、Editor画面に表示されている画像が同じであることを確認
 ![](images/P013.png)
 
-・Predict実行  
+ - Predict実行  
 valueの数値が変動します。
 ![](images/P021.png)
 
@@ -276,7 +276,7 @@ MayaにPredict結果が出るので、
 調整が必要な場合は調整し、登録できる内容になったら
 ![](images/P022.png)
 
-・Save
+ - Save
 ![](images/P023.png)
 
 
@@ -284,20 +284,20 @@ MayaにPredict結果が出るので、
 
 #### 目を閉じる/薄目の時のGaze登録について
 ```{warning}
-目を閉じる、薄目のプロファイルで黒目が見えないものは登録する際にGazeの✅を外してください  
+目を閉じる、薄目のプロファイルで黒目が見えないものは登録する際にGazeの- [x] を外してください  
 解析結果の精度が低下してしまう可能性があります  
 ```
 
 例：眉のぎゅっと絞る動きを作りたい時には
 ![](images/P024.png)
 
-・表情を調整した上で
+ - 表情を調整した上で
 ![](images/P025.png)
 
-・Regionのgaze/lowerの✅を外す
+ - Regionのgaze/lowerの- [x] を外す
 ![](images/P026.png)
 
-・Save
+ - Save
 
 #### 解析結果が好ましくない場合
 ```{warning}
@@ -309,8 +309,8 @@ Videosウィンドウの「Profiles」をご参照ください
 
 
 「Profiles」が表示されない場合  
-・メニューバー上部で右クリック  
-・「Profiles」に✅を入れる  
+ - メニューバー上部で右クリック  
+ - 「Profiles」に- [x] を入れる  
 ![](images/P026-03.png)
 
 ### トラブルシューティング

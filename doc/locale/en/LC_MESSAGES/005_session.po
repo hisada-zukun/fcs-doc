@@ -1,0 +1,468 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS 24.07 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS 24.07 Manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-09 15:18+0900\n"
+"PO-Revision-Date: 2024-07-27 18:48+0900\n"
+"Last-Translator: \n"
+"Language: en\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../005_session.md:1
+msgid "Session作成もしくはオープン"
+msgstr "Create or open a Session"
+
+#: ../../005_session.md:2
+msgid "FCSではアクター情報、キャラクター情報、Mayaシーン情報とその解析データを紐づけたファイルのことを「Session」と呼びます。"
+msgstr ""
+"In FCS, a file that links actor information, character information, Maya "
+"scene information, and analysis data is called a “Session.”"
+
+#: ../../005_session.md:4
+msgid "FCS起動後、Sessionデータへアクセスするため 「New...（新規作成）」または「Open（開く）」を実行します。"
+msgstr ""
+"After starting FCS, go to “New…(Create new Session)” or “Open” to access "
+"the Session data."
+
+#: ../../005_session.md:8
+msgid "初めにSessionに関わる設定を行うことで、Mayaを別途操作することなくFCS上のボタンでスムーズに作業を開始することができます。"
+msgstr ""
+"By settings details for a Session at the beginning, you can start working"
+" with the buttons on FCS without having to operate Maya separately."
+
+#: ../../005_session.md:11
+msgid "Create new Sessionで作成されるフォルダ構造"
+msgstr "Folder structure created by Create new Session"
+
+#: ../../005_session.md:12
+msgid ""
+"赤枠：Project Folderで作成されるフォルダ<br> 青枠：Actorで作成されるフォルダ<br> "
+"緑枠：Characterで作成されるフォルダ<br> "
+".lock/fcs_session.yaml：sessionをSaveした後に作成されるファイル<br> "
+"![](images/folder.jpg)"
+msgstr ""
+"Red: Folders created when setting up a new project<br> Blue: Folders "
+"created when setting up a new actor<br> Green: Folders created when "
+"setting up a new character<br> .lock/fcs_session.yaml: File create after "
+"setting up a new session<br> ![](images/folder.jpg)"
+
+#: ../../005_session.md:17
+msgid ""
+"Facial：動画やMayaシーンデータ等素材を保存する場所   　- "
+"Assets：Mayaのプロジェクトファイル（Assets以下）を保存する場所   　- "
+"RecData：ROM体操やFCSで解析したい動画を保存する場所   　- Scene：アニメーション出力時のデフォルト出力先   　- "
+"SetData：アニメーション出力で「audio」を選択した場合にはwavファイルが、   　　「Frame」「Landmark "
+"Frame」を選択した場合は連番画像が作成され、保存される"
+msgstr ""
+"Facial: folder to save materials (i.e., HMC videos and Maya scene data)"
+"  \n"
+" - Assets: folder to save Maya project file (containing assets)  \n"
+" - RecData: folder to save the videos you want to analyze with ROM and "
+"FCS  \n"
+" - Scene: default output destination for animation output  \n"
+" - SetData：For animation output, wave files will be saved when you select"
+" `audio`. Sequential numbered image files will be created and saved when "
+"you select “frame” or `landmark frame'."
+
+#: ../../005_session.md:24
+#, fuzzy
+msgid ""
+"FCS：解析に使用するデータが保存されるプロジェクトフォルダ   　- "
+"Actor：Actorで作成したフォルダ。Actorで入力した名前が表記される   　- "
+"Character：Characterで作成したフォルダ。Characterで入力した名前が表記される   　- "
+"RetargetData（IMG/PARAM）：作成したProfileの編集データ（画像や数値情報）が保存される   　- "
+"VideoData：解析する動画のキャッシュが保存される   　- "
+".lock：競合を防ぐためのロックファイル。起動時/終了時に自動で作成/消去される   　-  "
+"fcs_session.yaml：session情報を保存しているファイル"
+msgstr ""
+"FCS: project folder where data used for analysis is saved   - Actor: "
+"folder created with Actor. The name entered in Actor is displayed.  \n"
+" -  - Character: Folder created with Character. The name entered in "
+"Character is displayed.  \n"
+" - RetargetData (IMG/PARAM): Edited data (images and character controller"
+" values) of the created Profile is saved  \n"
+" - VideoData: cache of the video to be analyzed is saved   - .lock：lock "
+"file to prevent the same project being opened by multiple users   　-  "
+"fcs_session.yaml：File that saves session information"
+
+#: ../../005_session.md:32
+msgid "Sessionの新規作成"
+msgstr "Creating a new Session "
+
+#: ../../005_session.md:34
+#, fuzzy
+msgid "File▶Session▶New…を選択 ![](images/S001.png)"
+msgstr " - Select File▶Session▶New…![](images/S001.png)"
+
+#: ../../005_session.md:37
+msgid ""
+"![](images/S002.png)   ①Project Folder：FCSの作業データを置きたい場所を指定    "
+"②Actor：モーションキャプチャアクター名    ③Character：3Dモデルのキャラクター名   ④Maya "
+"Scene：3DモデルのMayaシーンへのパス   ⑤Maya Base：Assets、workspace.melがあるフォルダへのパス   "
+"⑥Maya Ver：3Dモデルを作成したMayaのバージョンを指定"
+msgstr ""
+"![](images/S002.png)   1. Project Folder: Select the location where you "
+"want to save the FCS project data   \n"
+" 2. Actor: Motion capture actor name   \n"
+"3. Character: 3D model character name   \n"
+" 4. Maya Scene: Path to the 3D model Maya scene   \n"
+" 5. Maya Base: Path to the folder where Assets and workspace.mel are "
+"located  \n"
+"6. Maya Ver: Select the version of the data created in the scene"
+
+#: ../../005_session.md:45
+msgid "①Project Folderの設定"
+msgstr "①Project Folder settings"
+
+#: ../../005_session.md:47
+#, fuzzy
+msgid "Browseボタンをクリックし、Project Folderを指定するためウィンドウを起動します。"
+msgstr ""
+"Click the Browse button to launch a window for selecting the project "
+"folder.    - Select any folder where you want to save FCS "
+"data![](images/S003.png)"
+
+#: ../../005_session.md:48
+msgid "FCSのデータを保存したい任意のフォルダを選択 ![](images/S003.png)"
+msgstr ""
+
+#: ../../005_session.md:51
+#, fuzzy
+msgid "Project Folderを作成します。"
+msgstr "①Project Folder settings"
+
+#: ../../005_session.md:52
+msgid "Create"
+msgstr ""
+
+#: ../../005_session.md:54
+#, fuzzy
+msgid "![](images/S004.png)"
+msgstr "![](images/F004.png)"
+
+#: ../../005_session.md:56 ../../005_session.md:84
+#, fuzzy
+msgid "問題なく作成できたらポップアップが表示されます。"
+msgstr "A pop-up will appear after the folder is created.    - close"
+
+#: ../../005_session.md:57
+#, fuzzy
+msgid "close ![](images/F001.png)"
+msgstr "![](images/S010.png)"
+
+#: ../../005_session.md:60
+msgid "エクスプローラーで「Facial」「FCS」のフォルダが作成されます。 ![](images/F003.png)"
+msgstr ""
+"Folders for “Facial” and “FCS” will be created in "
+"Explorer.![](images/F003.png)"
+
+#: ../../005_session.md:64
+#, fuzzy
+msgid "Project Folder作成後"
+msgstr "①Project Folder settings"
+
+#: ../../005_session.md:65
+msgid "Project Folder▶Facial▶Assetsフォルダに紐付けるMayaシーンを、"
+msgstr ""
+
+#: ../../005_session.md:66
+#, fuzzy
+msgid ""
+"Project Folder▶Facial▶Recdataフォルダに解析したい動画を移動しておくことを推奨します。   "
+"※別の場所に保存していてもアクセスできます。"
+msgstr ""
+"After creating a Project Folder, we recommend you move the following data"
+" to the folder as below:   \n"
+" - Maya scene that you want to link to: Project Folder▶Facial▶Assets    -"
+" Video that you want to analyze: Project Folder▶Facial▶Recdata \n"
+"   *You can access the data saved in different folders."
+
+#: ../../005_session.md:69
+msgid "![](images/F004.png)"
+msgstr "![](images/F004.png)"
+
+#: ../../005_session.md:71
+msgid "![](images/F005.png)"
+msgstr "![](images/F005.png)"
+
+# 日本語のソーステキストがActerとなっております。Acter⇨Actorへ変更しますか？
+#: ../../005_session.md:74
+#, fuzzy
+msgid "②Acterの設定"
+msgstr "②Setting Actor"
+
+#: ../../005_session.md:76
+#, fuzzy
+msgid "「+」ボタンをクリックし、ActorFolderを作成するための 「Create new actor folder」ウィンドウを起動します。"
+msgstr "Click “+” and launch “Create new actor folder” to create an Actor Folder."
+
+#: ../../005_session.md:78
+msgid "「Actor Name」に登録したい名前を入力"
+msgstr ""
+
+#: ../../005_session.md:79
+msgid "「Actor」＝モーションキャプチャアクター名"
+msgstr ""
+
+#: ../../005_session.md:81
+#, fuzzy
+msgid "Create ![](images/S006.png)"
+msgstr " - Create ![](images/S006.png)"
+
+#: ../../005_session.md:85
+#, fuzzy
+msgid "close ![](images/F006.png)"
+msgstr "![](images/S010.png)"
+
+# ソーステキスト：Acterフォルダ⇨Actorフォルダと変更しますか？
+#: ../../005_session.md:88
+#, fuzzy
+msgid "エクスプローラーでProject Folderフォルダ直下に入力したActerフォルダが作成されます。 ![](images/F007.png)"
+msgstr ""
+"The Actor folder you entered will be created directly under the Project "
+"Folder folder in Explorer. ![](images/F007.png)"
+
+#: ../../005_session.md:92
+msgid "③Characterの設定"
+msgstr "③Setting Character"
+
+#: ../../005_session.md:94
+#, fuzzy
+msgid ""
+"「+」ボタンをクリックし、characterFolderを作成するための「Create new character "
+"Folder」ウィンドウを起動します。"
+msgstr "Click “+” and launch “Create new actor folder” to create an Actor Folder."
+
+#: ../../005_session.md:95
+msgid "「Character Name」の入力欄に登録したい名前を入力"
+msgstr ""
+
+#: ../../005_session.md:97
+#, fuzzy
+msgid "Create ![](images/S008.png)"
+msgstr " - Create ![](images/S008.png)"
+
+#: ../../005_session.md:100
+msgid "エクスプローラーでActorフォルダ直下に入力したCharacterフォルダが作成されます。 ![](images/F008.png)"
+msgstr ""
+"The Character folder you entered will be created directly under the Actor"
+" folder in Explorer. ![](images/F008.png)"
+
+#: ../../005_session.md:104
+msgid "④MayaSceneの設定"
+msgstr "④Setting Maya Scene"
+
+#: ../../005_session.md:106
+#, fuzzy
+msgid "Browseボタンをクリックし、MayaSceneを指定するためウィンドウを起動します。"
+msgstr ""
+"Click the Browse button to launch a window for selecting the project "
+"folder.    - Select any folder where you want to save FCS "
+"data![](images/S003.png)"
+
+#: ../../005_session.md:107
+#, fuzzy
+msgid "MayaSceneデータのパスを指定 ![](images/S009.png)"
+msgstr "![](images/S010.png)"
+
+#: ../../005_session.md:111
+msgid "⑤MayaBaseの設定"
+msgstr "⑤Setting Maya Base"
+
+#: ../../005_session.md:113
+#, fuzzy
+msgid "Browseボタンをクリックし、MayaBaseを指定するためウィンドウを起動します。"
+msgstr ""
+"Click the Browse button to launch a window for selecting the project "
+"folder.    - Select any folder where you want to save FCS "
+"data![](images/S003.png)"
+
+#: ../../005_session.md:114
+#, fuzzy
+msgid "workspace.melがある場所(Mayaシーンのプロジェクト設定で登録している場所)を指定"
+msgstr ""
+"Click the Browse button to launch a window to select a Maya base.    - "
+"Select the location where workspace.mel is located (the location "
+"registered in the Maya scene project settings)"
+
+#: ../../005_session.md:116
+msgid "FCS上でポップアップするウィンドウにはworkspace.melが表示されません"
+msgstr "“workspace.mel” is not displayed in the popup window in FCS"
+
+#: ../../005_session.md:118
+msgid "![](images/S010.png)"
+msgstr "![](images/S010.png)"
+
+#: ../../005_session.md:121
+msgid "⑥MayaVerの設定"
+msgstr "⑥Setting Maya Ver"
+
+#: ../../005_session.md:123
+#, fuzzy
+msgid "④で設定したsceneを作成したMayaのバージョンを指定 ![](images/S011.png)"
+msgstr ""
+" - Select the version of Maya that was used to create the scene in "
+"④![](images/S011.png)"
+
+#: ../../005_session.md:126
+msgid "全て入力を終えたらSaveボタンを押してください。"
+msgstr ""
+
+#: ../../005_session.md:127
+#, fuzzy
+msgid "Save   ![](images/S012.png)"
+msgstr "![](images/S010.png)"
+
+#: ../../005_session.md:131
+msgid ""
+"エクスプローラーでcharacterフォルダ直下にfcs_session.yaml(FCSファイル)が作成されます。   "
+"![](images/F009.png)"
+msgstr ""
+"fcs_session.yaml (FCS file) will be created directly under the character "
+"folder in Explorer.   ![](images/F009.png)"
+
+#: ../../005_session.md:135
+msgid ".lockファイルは 作業中にほかの人からのアクセスを防ぐためのものです。   正常に終了した際には自動で削除されます。"
+msgstr ""
+"The .lock file is used to prevent others from accessing the file while "
+"you are working on it.   They are automatically deleted when you finish "
+"your work properly."
+
+#: ../../005_session.md:141
+msgid ""
+"不正に終了するなどして.lockファイルが残ってしまった場合、   FCSの起動時にポップアップから削除するか、   "
+".lockファイルをエクスプローラーで直接削除してください。"
+msgstr ""
+"If the .lock file remains because of incorrect shut down, etc, please "
+"delete the file from the popup when you are starting FCS or delete the "
+"file directly in Explorer."
+
+#: ../../005_session.md:147
+msgid "既にSessionが作成されている場合"
+msgstr "If a Session has already been created"
+
+#: ../../005_session.md:149
+msgid "履歴またはfcs_session.yamlファイルからSessionを開いてください。"
+msgstr "Open Session from history or fcs_session.yaml file."
+
+#: ../../005_session.md:151
+msgid "履歴から開く場合"
+msgstr "How to open Session from history "
+
+#: ../../005_session.md:153
+#, fuzzy
+msgid "以前にSessionを起動している場合、File▶Session▶Openの下に履歴が表示されます。"
+msgstr ""
+"If you have started the Session before, the history will be displayed "
+"under File▶Session▶Open.   \n"
+" - Click on the data you want to work with.![](images/P16_Session_log.PNG)"
+
+#: ../../005_session.md:154
+msgid "作業したいデータをクリック ![](images/P16_Session_log.PNG)"
+msgstr ""
+
+#: ../../005_session.md:157
+msgid "fcs_session.yamlファイルから開く場合"
+msgstr "How to open Session from fcs_session.yaml file"
+
+#: ../../005_session.md:159
+#, fuzzy
+msgid "File▶Session▶Open▶Open...   OpenSessionウィンドウが開かれたらローカルとネットワークドライブが表示されます。"
+msgstr ""
+" - File▶Session▶Open▶Open…   After you open the Open Session window, "
+"local and network drives will be displayed."
+
+#: ../../005_session.md:162
+#, fuzzy
+msgid "Characterフォルダ直下にあるfcs_session.yamlファイルを選択し、開く ![](images/S017.png)"
+msgstr ""
+" - Select and open the fcs_session.yaml file located directly under the "
+"Character folder.![](images/S017.png)"
+
+#: ../../005_session.md:167
+msgid "Seesionを開く際の注意"
+msgstr "Cautions regarding opening a Session"
+
+#: ../../005_session.md:169
+msgid "Sessionの同時起動について"
+msgstr "How to startup multiple sessions concurrently"
+
+#: ../../005_session.md:172
+msgid ""
+"Sessionの新規作成/Open後、続けて別のSession作成や起動は出来ません。   "
+"別のSessionを開きたい場合は、現在のSessionを終了し、FCSの再起動後開きなおしてください。"
+msgstr ""
+"While creating/opening a new Session, you cannot create or start another "
+"Session.   To open another session, close the current session, restart "
+"FCS, and reopen it."
+
+#: ../../005_session.md:176
+#, fuzzy
+msgid "「⑥Maya Verの設定」をしても反映されない場合"
+msgstr "If Maya Ver setting is not reflected"
+
+#: ../../005_session.md:178
+msgid "session作成時に設定した項目は File▶Session▶info で確認することができます。 ![](images/S014.png)"
+msgstr ""
+"You can check the setting details when you create the session under "
+"File▶Session▶info. ![](images/S014.png)"
+
+#: ../../005_session.md:181
+msgid ""
+"NewSessionで設定したMayaVerがinfoで反映されていない場合は、info画面のMayaVersionを右クリックし、Editから変更ができます。"
+" ![](images/S015.png) ![](images/S016.png)"
+msgstr ""
+"If the MayaVersion setting in NewSession is not reflected in info, right-"
+"click MayaVersion on the info screen and select Edit so that you can edit"
+" the details.![](images/S015.png) ![](images/S016.png)"
+
+#: ../../005_session.md:186
+msgid "設定の変更後は必ずSaveボタンを押してください"
+msgstr "Please click the Save button after changing settings."
+
+#~ msgid "問題なく作成できたらポップアップが表示されます。    - close ![](images/F001.png)"
+#~ msgstr "A pop-up will appear after the folder is created.    - close"
+
+#~ msgid " - 「Actor Name」に登録したい名前を入力    - 「Actor」＝モーションキャプチャアクター名"
+#~ msgstr ""
+#~ " - Enter the name you want "
+#~ "to register in “Actor”    - “Actor” "
+#~ "= Motion capture actor name"
+
+#~ msgid ""
+#~ "「+」ボタンをクリックし、characterFolderを作成するための「Create new character"
+#~ " Folder」ウィンドウを起動します。    - 「Character "
+#~ "Name」の入力欄に登録したい名前を入力"
+#~ msgstr ""
+#~ "Click “+” and launch Create new "
+#~ "character Folder to create a character"
+#~ " Folder.    - Enter the name you "
+#~ "want to register in “Character”"
+
+#~ msgid ""
+#~ "Browseボタンをクリックし、MayaSceneを指定するためウィンドウを起動します。    - "
+#~ "MayaSceneデータのパスを指定 ![](images/S009.png)"
+#~ msgstr ""
+#~ "Click the Browse button to launch "
+#~ "a window to select the Maya scene."
+#~ "    - Select the path of Maya "
+#~ "scene data![](images/S009.png)"
+
+#~ msgid "全て入力を終えたらSaveボタンを押してください。    - Save   ![](images/S012.png)"
+#~ msgstr ""
+#~ "After filling up all the necessary "
+#~ "details, click the Save button.    - "
+#~ "Save   ![](images/S012.png)"
+

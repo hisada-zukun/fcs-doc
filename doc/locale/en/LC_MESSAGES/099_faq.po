@@ -1,0 +1,213 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS 24.07 Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS 24.07 Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-09 14:56+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../099_faq.md:6
+msgid "FAQ"
+msgstr ""
+
+#: ../../099_faq.md:7
+msgid "[FAQ](#faq)"
+msgstr ""
+
+#: ../../099_faq.md:8
+msgid "[Camera/Footage](#camerafootage)"
+msgstr ""
+
+#: ../../099_faq.md:9
+msgid ""
+"[Does FCS require marker on the actor footage?](#does-fcs-require-marker-"
+"on-the-actor-footage)"
+msgstr ""
+
+#: ../../099_faq.md:10
+msgid "[Does FCS support my camera?](#does-fcs-support-my-camera)"
+msgstr ""
+
+#: ../../099_faq.md:11
+msgid "[Maya](#maya)"
+msgstr ""
+
+#: ../../099_faq.md:12
+msgid ""
+"[I need to launch Maya from some custom launchers](#i-need-to-launch-"
+"maya-from-some-custom-launchers)"
+msgstr ""
+
+#: ../../099_faq.md:13
+msgid ""
+"[The UI won't let me launch the correct version of maya](#the-ui-wont-"
+"let-me-launch-the-correct-version-of-maya)"
+msgstr ""
+
+#: ../../099_faq.md:14
+msgid ""
+"[My Maya is installed in a different location](#my-maya-is-installed-in-a"
+"-different-location)"
+msgstr ""
+
+#: ../../099_faq.md:15
+msgid "[Does FCS support my character?](#does-fcs-support-my-character)"
+msgstr ""
+
+#: ../../099_faq.md:16
+msgid "[Performance](#performance)"
+msgstr ""
+
+#: ../../099_faq.md:17
+msgid "[Video playback is too slow](#video-playback-is-too-slow)"
+msgstr ""
+
+#: ../../099_faq.md:18
+msgid "[Privacy](#privacy)"
+msgstr ""
+
+#: ../../099_faq.md:19
+msgid ""
+"[Why does FCS always require an active internet connection?](#why-does-"
+"fcs-always-require-an-active-internet-connection)"
+msgstr ""
+
+#: ../../099_faq.md:20
+msgid ""
+"[Does FCS upload my character or actor footage for any reason?](#does-"
+"fcs-upload-my-character-or-actor-footage-for-any-reason)"
+msgstr ""
+
+#: ../../099_faq.md:22
+msgid "Camera/Footage"
+msgstr ""
+
+#: ../../099_faq.md:23
+msgid "Does FCS require marker on the actor footage?"
+msgstr ""
+
+#: ../../099_faq.md:24
+msgid ""
+"No. FCS does not require a marker on the actor footage. It is recommended"
+" against in fact."
+msgstr ""
+
+#: ../../099_faq.md:26
+msgid "Does FCS support my camera?"
+msgstr ""
+
+#: ../../099_faq.md:27
+msgid ""
+"FCS supports most head mounted and fixed cameras.  If you are using a "
+"non-fisheye lens camera, please uncheck solver/global/fisheye."
+msgstr ""
+
+#: ../../099_faq.md:30
+msgid "Maya"
+msgstr ""
+
+#: ../../099_faq.md:31
+msgid "I need to launch Maya from some custom launchers"
+msgstr ""
+
+#: ../../099_faq.md:32
+msgid ""
+"If you were not able to launch Maya from within FCS. You can achieve the "
+"same result using the command below.   ```commandPort -stp \"python\" -n "
+"\":42069\"``` Paste the command in script editor (mel) to open a command "
+"port which allows communication between FCS and Maya.  Consider putting "
+"the command above in your launcher to always allow communication with "
+"FCS. You can also adjust the port used in Settings/Maya."
+msgstr ""
+
+#: ../../099_faq.md:37
+msgid "The UI won't let me launch the correct version of maya"
+msgstr ""
+
+#: ../../099_faq.md:38
+msgid ""
+"Go to File -> Session -> Info and review the current maya version "
+"designated to the session. To edit the associated verion, please right "
+"click on the current version, and edit."
+msgstr ""
+
+#: ../../099_faq.md:40
+msgid "My Maya is installed in a different location"
+msgstr ""
+
+#: ../../099_faq.md:41
+msgid ""
+"Go to settings -> Maya -> Install dir to edit the path to the autodesk "
+"folder."
+msgstr ""
+
+#: ../../099_faq.md:43
+msgid "Does FCS support my character?"
+msgstr ""
+
+#: ../../099_faq.md:44
+msgid ""
+"As long as it has a controller attached.  Blendshapes and joints tend to "
+"work too, if you have a character that doesn't work, please contact us."
+msgstr ""
+
+#: ../../099_faq.md:47
+msgid "Performance"
+msgstr ""
+
+#: ../../099_faq.md:48
+msgid "Video playback is too slow"
+msgstr ""
+
+#: ../../099_faq.md:49
+msgid ""
+"You can change the resolution of the playback video by adjusting the "
+"\"Scale\" dropdown at the timeline window, a lower scale will result in "
+"faster playback."
+msgstr ""
+
+#: ../../099_faq.md:53
+msgid "Privacy"
+msgstr ""
+
+#: ../../099_faq.md:54
+msgid "Why does FCS always require an active internet connection?"
+msgstr ""
+
+#: ../../099_faq.md:55
+msgid "FCS requires an active internet connection for validating the license."
+msgstr ""
+
+#: ../../099_faq.md:57
+msgid "Does FCS upload my character or actor footage for any reason?"
+msgstr ""
+
+#: ../../099_faq.md:58
+msgid "No. Your character model and video footage is never uploaded anywhere."
+msgstr ""
+
+#~ msgid ""
+#~ "[Does FCS upload my character or "
+#~ "actor footage for ?](#does-fcs-"
+#~ "upload-my-character-or-actor-footage-"
+#~ "for-)"
+#~ msgstr ""
+
+#~ msgid "As long as it has a controller attached."
+#~ msgstr ""
+
+#~ msgid "Does FCS upload my character or actor footage for ?"
+#~ msgstr ""
+
