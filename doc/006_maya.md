@@ -7,7 +7,7 @@ FCSとMayaを接続するためには、必ずFCSのメニューからMayaを起
 ![](images/M001.png)  
 OpenScene：Mayaシーンを開く  
 Launch：Mayaの起動+Mayaシーンを開く   
-Sync：✅FCS上での操作をMayaと連動させる   
+Sync：- [x] FCS上での操作をMayaと連動させる   
   
 ```{note}
 ・OpenSceneをクリックすると、設定したMayaSceneを開き直すことができます  
