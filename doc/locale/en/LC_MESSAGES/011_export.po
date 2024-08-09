@@ -21,63 +21,65 @@ msgstr ""
 
 #: ../../011_export.md:2
 msgid "エクスポート"
-msgstr ""
+msgstr "Export"
 
 #: ../../011_export.md:3
 msgid "FCSでは作業されたセッションを出力することができます。 主に以下の際にご活用いただけます。"
-msgstr ""
+msgstr "Exporting FCS session, useful for"
 
 #: ../../011_export.md:5
 msgid "FCSで作成されたプロジェクトをアーカイブや共有する際に、キャッシュなど共有に必要のないデータを除いて手早く共有する"
-msgstr ""
+msgstr "Sharing between team memebers and achieving"
 
 #: ../../011_export.md:6
 msgid "同じアクターのProfileから、別のキャラクターの表情を制作する"
-msgstr ""
+msgstr "Creating multiple characters from the same actor profiles"
 
 #: ../../011_export.md:7
 msgid "同じキャラクターの別役者の表情を制作する"
-msgstr ""
+msgstr "Creating a new session of an existing character with a different actor"
 
 #: ../../011_export.md:10
 msgid "エクスポート手順"
-msgstr ""
+msgstr "Steps"
 
 #: ../../011_export.md:11
 msgid "出力したいセッションをロードします"
-msgstr ""
+msgstr "Load the session for export"
 
 #: ../../011_export.md:13
 msgid "File/SessionからExportを選択する ![](images\\export\\menu_bar.jpg)"
-msgstr ""
+msgstr "File/Session/Export ![](images\\export\\menu_bar.jpg)"
 
 #: ../../011_export.md:16
 msgid "出力先をプロジェクトフォルダーとして指定 ![](images\\export\\export_window.jpg)"
-msgstr ""
+msgstr "Select the output project folder ![](images\\export\\export_window.jpg)"
 
 #: ../../011_export.md:19
 msgid "Actor: アクター名を新しく指定する"
-msgstr ""
+msgstr "Actor: Select new actor name"
 
 #: ../../011_export.md:20 ../../011_export.md:23
 msgid "アーカイブの場合はそのままでも問題ありません"
-msgstr ""
+msgstr "If you were to achieve this you can leave this as is"
 
 #: ../../011_export.md:22
 msgid "Character: キャラクター名を新しく指定する"
-msgstr ""
+msgstr "Character: New character name"
 
 #: ../../011_export.md:25
 msgid "Profile: 現在のセッションのプロフィールを出力かどうかを指定"
-msgstr ""
+msgstr "Profile: Whether to include all profiles"
 
 #: ../../011_export.md:27
 msgid ""
 "Videos: 出力先にビデオデータをコピーするかを指定する   Assets: "
 "出力先にFacial/Assetsのフォルダーをコピーするかを指定する"
 msgstr ""
+"Videos: Copy the videos   Assets: "
+"Copy the Maya asset folder "
 
 #: ../../011_export.md:29
 msgid "Exportボタンを押して出力する"
-msgstr ""
+msgstr "Press Exporth"
 

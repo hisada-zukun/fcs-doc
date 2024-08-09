@@ -21,17 +21,20 @@ msgstr ""
 
 #: ../../099_よくある質問.md:1
 msgid "よくある質問（FAQ）"
-msgstr ""
+msgstr "Frequently Asked Question"
 
 #: ../../099_よくある質問.md:3
 msgid "FCSを使うにあたって"
-msgstr ""
+msgstr "Using FCS"
 
 #: ../../099_よくある質問.md:8
 msgid ""
 "**ネット接続は必須です。ライセンス情報の定期的なチェックにインターネットが必要です。   Wi-"
 "Fi接続も可能ですが、有線接続を推奨しています。**"
 msgstr ""
+"**FCS requires constant internet access for checking the validity of the license.    "
+"WiFi should work but we recommend using wired internet.**"
+
 
 #: ../../099_よくある質問.md:17
 msgid ""
@@ -45,14 +48,18 @@ msgid ""
 "市販のカメラ（Gopro、iPhone、Androidなど）を使用できます。固定カメラやヘッドマウントカメラも問題ありません。   "
 "ご購入前に30日の無償トライアルライセンスで動作確認をおすすめします。**"
 msgstr ""
+"**No specific camera is required   "
+"Commercial cameras (i.e., Gopro, iPhone) would work, both table mounted or head mounted.   "
+"You can test your own footage with our 30 days free trials. (No credit card required.) **"
+
 
 #: ../../099_よくある質問.md:44
 msgid "**現時点では対応していませんが、将来的には対応する予定です。（※2024年6月現在）**"
-msgstr ""
+msgstr "**Not currently supported**"
 
 #: ../../099_よくある質問.md:53
 msgid "**Mayaが必要です。（Maya 2018/2020/2022/2023/2024に対応）**"
-msgstr ""
+msgstr "**Maya is required. (Maya 2018/2020/2022/2023/2024に対応)**"
 
 #: ../../099_よくある質問.md:56 ../../099_よくある質問.md:208
 msgid "<br><br>"
@@ -60,7 +67,7 @@ msgstr ""
 
 #: ../../099_よくある質問.md:58
 msgid "FCSの機能について"
-msgstr ""
+msgstr "Features"
 
 #: ../../099_よくある質問.md:63
 msgid "**FCSはオートトラッキングを搭載しているため、アクターにマーカーを付ける必要はありません。**"

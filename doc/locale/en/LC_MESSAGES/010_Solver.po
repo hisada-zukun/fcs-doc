@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../010_Solver.md:1
 msgid "Solverの詳細設定（細かな調整が必要な方向け）"
-msgstr "How to set Solver ( advanced settings for detailed adjustments)"
+msgstr "Solver (advanced settings for detailed adjustments)"
 
 #: ../../010_Solver.md:2
 #, fuzzy
@@ -30,13 +30,13 @@ msgid ""
 "本ページは、おもに解析したアニメーション出力結果を更に細かく調整したい方向けのページになります。   "
 "必要に応じて、各種設定を自由にカスタマイズすることが可能です。"
 msgstr ""
-"This page is for users who want to further fine-tune the analyzed "
+"For users who want to further fine-tune the analyzed "
 "animation output results. You can freely customize various settings as "
 "needed."
 
 #: ../../010_Solver.md:5
 msgid "Solverの画面説明"
-msgstr "Solver screen explanation"
+msgstr "Solver"
 
 #: ../../010_Solver.md:6
 msgid "![](images/Sol001.png)"
@@ -50,7 +50,7 @@ msgstr "▼Global: allows you to change the settings for analysis."
 #, fuzzy
 msgid "[x] Fisheye：チェックを入れると、魚眼レンズで撮影された動画を解析する仕様に最適化される"
 msgstr ""
-"✅Fisheye: check this box to optimize for analyzing videos shot with a "
+"[x] Fisheye: check this box to optimize for analyzing videos shot with a "
 "fisheye lens."
 
 #: ../../010_Solver.md:11
@@ -69,8 +69,7 @@ msgstr ""
 #: ../../010_Solver.md:15
 msgid "Smoothing：スムージング処理の有無（基本的には有りを推奨）"
 msgstr ""
-"Smoothing: whether smoothing processing is applied or not ( “Yes” is "
-"recommended)."
+"Smoothing: whether smoothing processing is applied or not (Default to True)."
 
 #: ../../010_Solver.md:16
 msgid "Weight：一回あたりのスムージング処理の強度   　　　　数値が大きいほどスムージング処理が強くかかる（アニメーションカーブが滑らかになる）"
