@@ -77,31 +77,27 @@ if build_all_docs:
     # and empty languages and versions for now
     html_context = {
         'current_language' : current_language,
-        'languages' : ['ja', 'en'],
+        'languages' : [],
         'current_version' : current_version,
-        'versions' : ['24.07'],
+        'versions' : [],
     }
 
-
-    if (current_version == 'latest'):
-        html_context['languages'].append(['jp', pages_root + '/jp'])
-        html_context['languages'].append(['en', pages_root])
-    # and we append all versions and langauges accordingly 
-    # we treat t he main branch as latest 
-    if (current_language == 'en'):  
-        html_context['versions'].append(['latest', pages_root])
-    if (current_language == 'jp'):
-        html_context['versions'].append(['latest', pages_root + '/jp'])
-
-    # and loop over all other versions from our yaml file
-    # to set versions and languages
     with open("versions.yaml", "r") as yaml_file:
         docs = yaml.safe_load(yaml_file)
-    print(f'docs: {docs} {current_version}')
-    if (current_version != 'latest'):
+
+    if (current_version == 'latest'):
+        html_context['languages'].append(['jp', pages_root + '/latest/jp'])
+        html_context['languages'].append(['en', pages_root + '/latest/en'])
+    else:
         for language in docs[current_version].get('languages', []):
             html_context['languages'].append([language, pages_root+'/'+current_version+'/'+language])
 
+        
+    html_context['versions'].append(['latest', pages_root + '/latest/en'])
+    html_context['versions'].append(['latest', pages_root + '/latest/jp'])
     for version, details in docs.items():
         html_context['versions'].append([version, pages_root+'/'+version+'/'+current_language])
+    
+    # print(f'html_context: {html_context}')
+    # exit()
     

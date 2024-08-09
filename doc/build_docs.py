@@ -29,10 +29,13 @@ os.environ["pages_root"] = "https://zukunfcs.github.io/fcs-doc"
 # manually the main branch build in the current supported languages
 if Path("./pages").exists():
     rmtree(Path("./pages"))
+if Path("./_build").exists():
+    rmtree(Path("./_build"))
+
 build_doc("latest", "jp", "main")
-move_dir("./_build/html/", "./pages/jp/html")
+move_dir("./_build/html/", "./pages/latest/jp")
 build_doc("latest", "en", "main")
-move_dir("./_build/html/", "./pages/en/html")
+move_dir("./_build/html/", "./pages/latest/en")
 
 
 # reading the yaml file
@@ -44,10 +47,9 @@ for version, details in docs.items():
 	tag = details.get('tag', '')
 	for language in details.get('languages', []): 
 		build_doc(version, language, version)
-		move_dir("./_build/html/", "./pages/"+version+'/'+language+'/html/')
-if Path("./_build").exists():
-    rmtree(Path("./_build"))
-
-move_dir("./pages", "./_build")
-  
-  
+		move_dir("./_build/html/", "./pages/"+version+'/'+language + '/')
+build_dir = Path("./_build")
+rmtree(build_dir)
+build_dir.mkdir(exist_ok=True, parents=True)
+subprocess.run("mv ./pages _build/html", shell=True)
+subprocess.run("cp ../src/index.html _build/html/index.html", shell=True)
