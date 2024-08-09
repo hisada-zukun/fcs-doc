@@ -23,7 +23,7 @@ msgid "FCSスターターキット"
 msgstr "FCS Starter Kit"
 
 #: ../../013_スターターキット.md:2
-msgid "FCS製品版のご購入、体験版のトライアル申し込みをされた方は、FCSスターターキットをご利用いただくことができます。   FCSスターターキットを使用することで、フェイシャルキャプチャー動画解析・3Dモデルへのアニメーション出力・ゲームエンジンによるレンダリング確認まで、フェイシャルキャプチャーを用いたCG映像制作工程を通してFCSをご体験いただけます。"
+msgid "FCS製品版のご購入、体験版のトライアル申し込みをされた方は、FCSスターターキットをご利用いただくことができます。   FCSスターターキットを使用することで、フェイシャルキャプチャー動画解析 - 3Dモデルへのアニメーション出力 - ゲームエンジンによるレンダリング確認まで、フェイシャルキャプチャーを用いたCG映像制作工程を通してFCSをご体験いただけます。"
 msgstr "We offer FCS Starter Kit to customers who have purchased the FCS product version or applied for a trial version. By using the FCS Starter Kit, you can experience FCS through the process of creating CG images using facial capture, including analysis of facial capture video, output of animation to 3D models, and confirmation of rendering by a game engine."
 
 #: ../../013_スターターキット.md:5
@@ -51,7 +51,7 @@ msgid "フェイシャルROM体操動画"
 msgstr "Reference video of facial ROM"
 
 #: ../../013_スターターキット.md:13
-msgid "動画解析・アニメーション出力用のサンプル動画"
+msgid "動画解析 - アニメーション出力用のサンプル動画"
 msgstr "Sample videos for video analysis and animation output"
 
 #: ../../013_スターターキット.md:14
@@ -59,7 +59,7 @@ msgid "Profile作成済みのFCS Sessionデータ"
 msgstr "FCS Session data for created profiles"
 
 #: ../../013_スターターキット.md:17
-msgid "一部コンテンツのご利用には、サードパーティー製のゲームエンジン・プラグインを別途ご用意いただく必要がある場合があります。"
+msgid "一部コンテンツのご利用には、サードパーティー製のゲームエンジン - プラグインを別途ご用意いただく必要がある場合があります。"
 msgstr "Some content may require third-party game engine plug-ins."
 
 #: ../../013_スターターキット.md:20
@@ -83,7 +83,7 @@ msgid "DIGITAL NAGAKIは、MetaHuman標準のフェイシャルコントロー�
 msgstr "With DIGITAL NAGAKI, we can animate models using the MetaHuman  facial controller. For more information on how to use the MetaHuman facial controller, please check this YouTube instructional video provided by Epic Games(https://www.youtube.com/watch?v=GEpH3o44_58)."
 
 #: ../../013_スターターキット.md:32
-msgid "DIGITAL NAGAKIをご利用される際は、Unreal Engineでの確認・レンダリングが前提となります。   事前にUnreal Engineのインストール、確認用プロジェクトの作成をお願いいたします。   Unreal Engineに関する詳細は、Epic Games社が提供する[Unreal Engine紹介ホームページ](https://www.unrealengine.com/ja)をご確認ください。"
+msgid "DIGITAL NAGAKIをご利用される際は、Unreal Engineでの確認 - レンダリングが前提となります。   事前にUnreal Engineのインストール、確認用プロジェクトの作成をお願いいたします。   Unreal Engineに関する詳細は、Epic Games社が提供する[Unreal Engine紹介ホームページ](https://www.unrealengine.com/ja)をご確認ください。"
 msgstr "When using DIGITAL NAGAKI, confirmation/rendering with Unreal Engine will be required. Please install the Unreal Engine and create a project for testing before using DIGITAL NAGAKI. For more details on the Unreal Engine, please refer to the website provided by Epic Games (https://www.unrealengine.com/ja)."
 
 #: ../../013_スターターキット.md:38
@@ -107,7 +107,7 @@ msgid "フェイシャルROM体操を収録した動画です。   FCSに読み�
 msgstr "This is a video containing facial ROM.   Please load it into FCS for use."
 
 #: ../../013_スターターキット.md:51
-msgid "4. 動画解析・アニメーション出力用のサンプル動画"
+msgid "4. 動画解析 - アニメーション出力用のサンプル動画"
 msgstr "4. Sample videos for video analysis and animation output"
 
 #: ../../013_スターターキット.md:52

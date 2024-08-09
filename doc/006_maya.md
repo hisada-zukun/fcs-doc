@@ -5,17 +5,17 @@ FCSとMayaを接続するためには、必ずFCSのメニューからMayaを起
 ```
 
 ![](images/M001.png)  
-OpenScene：Mayaシーンを開く  
+Open Scene：Mayaシーンを開く  
 Launch：Mayaの起動+Mayaシーンを開く   
-Sync：- [x] FCS上での操作をMayaと連動させる   
+Sync：FCS上での操作をMayaと連動させる   
   
 ```{note}
-・OpenSceneをクリックすると、設定したMayaSceneを開き直すことができます  
-・Launchをクリックすると、session作成時に設定したMayaSceneが自動で起動します  
+ - Open Sceneをクリックすると、設定したMayaSceneを開き直すことができます  
+ - Launchをクリックすると、session作成時に設定したMayaSceneが自動で起動します  
 ```
   
 
-・Maya▶Launch▶Mayaバージョンの選択でMayaを起動  
+ - Maya▶Launch▶Mayaバージョンの選択でMayaを起動  
 例：今回キャラクターデータを作成したMayaのバージョンはMaya2020なので2020を選択しています。
 ![](images/M002.png)
   

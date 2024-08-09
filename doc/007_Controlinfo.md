@@ -33,7 +33,7 @@ select All/Unselect All：controller上に表示されているコントロー�
 
 ▼Advanced  
 Remove empty：Regionが登録されていないコントローラー(null)を削除する  
-Delete all：追加・登録したコントローラー情報をすべて削除する  
+Delete all：追加 - 登録したコントローラー情報をすべて削除する  
 Reset：Saveされているデータの状態に戻す
 
 save：controller Infoを登録。
@@ -42,34 +42,34 @@ save：controller Infoを登録。
 
 #### Upperの登録方法 
 
-・MayaでUpperに登録したいコントローラーを選択
+ - MayaでUpperに登録したいコントローラーを選択
 ![](images/image36.png)
 
 FCSに戻り  
-・Add selected
+ - Add selected
 ![](images/C003.png)
 
 Mayaで選択したコントローラーが「Controller」に表示されるので  
-・select All（=全選択）でUpperに登録したいコントローラーを選択  
+ - select All（=全選択）でUpperに登録したいコントローラーを選択  
 ※null＝Regionが未指定
 ![](images/C004.png)
 
 今回はUpperに登録したいので  
-・Upperを選択  
+ - Upperを選択  
 RegionにUpperと表示されたら登録できます。
 ![](images/C005.png)
 
 #### Eyelidの登録方法
 
-・MayaでEyelidに登録したいコントローラーを選択
+ - MayaでEyelidに登録したいコントローラーを選択
 ![](images/image49.png)
 
 FCSに戻り  
-・Add selected  
+ - Add selected  
 Upperの下にAdd selectedで追加したコントローラーが表示されます。
 ![](images/C006.png)
 
-・右上のall▼のタブを選択し、null▼に変更する  
+ - 右上のall▼のタブを選択し、null▼に変更する  
 Upperに登録したものを非表示にし、未登録のコントローラーのみ表示させることができます。
 ![](images/C007.png)
 
@@ -79,10 +79,10 @@ allのままだとUpperも表示されているため、select AllするとUpper
 ```
 
 nullにすることで登録されていない項目が絞り込まれるのでUpperと同様に  
-・select All（=全選択）でEyelidに登録したいコントローラーを選択    
+ - select All（=全選択）でEyelidに登録したいコントローラーを選択    
 ![](images/C008.png)
 
-・Eyelidを選択  
+ - Eyelidを選択  
 ![](images/C009.png)
 ```{note}
 nullで絞り込んでいるのでRegionを登録すると非表示になります。
@@ -99,23 +99,23 @@ allに戻すとすべて表示されます。
 #### gazeの登録方法
 
 同様に  
-・gazeに登録したいコントローラーを選択し
+ - gazeに登録したいコントローラーを選択し
 ![](images/image47.png)
 
-・Add selected
+ - Add selected
 登録済みのコントローラーの下に追加したコントローラーが表示されます。
 ![](images/C011.png)
 
-・右上のall▼のタブを選択し、null▼に変更
+ - 右上のall▼のタブを選択し、null▼に変更
 ```{note}
 nullから変更していない場合はこの手順はスキップ
 ```
 ![](images/C012.png)
 
-・select All
+ - select All
 ![](images/C013.png)
 
-・gaze
+ - gaze
 ![](images/C014.png)
 ```{note}
 nullで絞り込んでいるのでRegionを登録すると非表示になります。
@@ -124,26 +124,26 @@ nullで絞り込んでいるのでRegionを登録すると非表示になりま�
 #### lowerの登録方法
 
 同様に  
-・Mayaでlowerに登録したいコントローラーを選択  
+ - Mayaでlowerに登録したいコントローラーを選択  
 ![](images/image60.png)
 
-・Add selected
+ - Add selected
 ```{note}
 前段でnullで絞り込んでいるのでnullのみが表示されます
 ```
 ![](images/C015.png)
 
-・select All
+ - select All
 ![](images/C016.png)
 
-・lower
+ - lower
 ![](images/C017.png)
 ```{note}
 nullで絞り込んでいるのでRegionを登録すると非表示になります
 ```
 
 Upper/Eyelid/Gaze/Lowerをすべて登録し終えたら  
-・save
+ - save
 ![](images/C018.png)
 
 ```{warning}
@@ -155,9 +155,9 @@ Upper/Eyelid/Gaze/Lowerをすべて登録し終えたら
 #### セーブできない場合
 
 登録すべきものか確認後  
-・削除したい項目に- [x] →Remove  
+ - 削除したい項目に- [x] →Remove  
 ![](images/C019.png)
-・nullのままのコントローラーを一括削除
+ - nullのままのコントローラーを一括削除
 ![](images/C020.png)
 
 #### マニュアル以外のコントローラーを登録したい場合
@@ -179,10 +179,10 @@ Upper/Eyelid/Gaze/Lowerをすべて登録し終えたら
 ```
 #### コントローラーの登録順番を戻したい場合
  
-・Reset  
+ - Reset  
 controller info登録時の順番に戻ります。
 ![](images/C021.png)
 
 作業しやすいように並び替えたら  
-・Save
+ - Save
 ![](images/C018.png)

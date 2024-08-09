@@ -31,7 +31,7 @@ FCS起動後、Sessionデータへアクセスするため
 
 ### Sessionの新規作成   
 
-・File▶Session▶New…を選択
+ - File▶Session▶New…を選択
 ![](images/S001.png)
 
 ![](images/S002.png)  
@@ -45,16 +45,16 @@ FCS起動後、Sessionデータへアクセスするため
 #### ①Project Folderの設定
 
 Browseボタンをクリックし、Project Folderを指定するためウィンドウを起動します。  
-・FCSのデータを保存したい任意のフォルダを選択
+- FCSのデータを保存したい任意のフォルダを選択
 ![](images/S003.png)
 
 Project Folderを作成します。  
-・Create
+- Create
 
 ![](images/S004.png)
 
 問題なく作成できたらポップアップが表示されます。  
-・close
+- close
 ![](images/F001.png)
 
 エクスプローラーで「Facial」「FCS」のフォルダが作成されます。
@@ -62,8 +62,8 @@ Project Folderを作成します。
 
 ```{note}
 Project Folder作成後  
-・Project Folder▶Facial▶Assetsフォルダに紐付けるMayaシーンを、  
-・Project Folder▶Facial▶Recdataフォルダに解析したい動画を移動しておくことを推奨します。  
+ - Project Folder▶Facial▶Assetsフォルダに紐付けるMayaシーンを、  
+ - Project Folder▶Facial▶Recdataフォルダに解析したい動画を移動しておくことを推奨します。  
 ※別の場所に保存していてもアクセスできます。
 ```
 ![](images/F004.png)
@@ -75,14 +75,14 @@ Project Folder作成後
 
 「+」ボタンをクリックし、ActorFolderを作成するための 「Create new actor folder」ウィンドウを起動します。
 
-・「Actor Name」に登録したい名前を入力  
-・「Actor」＝モーションキャプチャアクター名  
+ - 「Actor Name」に登録したい名前を入力  
+ - 「Actor」＝モーションキャプチャアクター名  
 
-・Create
+ - Create
 ![](images/S006.png)
 
 問題なく作成できたらポップアップが表示されます。  
-・close
+ - close
 ![](images/F006.png)
 
 エクスプローラーでProject Folderフォルダ直下に入力したActerフォルダが作成されます。
@@ -92,9 +92,9 @@ Project Folder作成後
 #### ③Characterの設定
 
 「+」ボタンをクリックし、characterFolderを作成するための「Create new character Folder」ウィンドウを起動します。  
-・「Character Name」の入力欄に登録したい名前を入力
+ - 「Character Name」の入力欄に登録したい名前を入力
 
-・Create
+ - Create
 ![](images/S008.png)
 
 エクスプローラーでActorフォルダ直下に入力したCharacterフォルダが作成されます。
@@ -104,14 +104,14 @@ Project Folder作成後
 #### ④MayaSceneの設定
 
 Browseボタンをクリックし、MayaSceneを指定するためウィンドウを起動します。  
-・MayaSceneデータのパスを指定
+ - MayaSceneデータのパスを指定
 ![](images/S009.png)
 
 
 #### ⑤MayaBaseの設定
 
 Browseボタンをクリックし、MayaBaseを指定するためウィンドウを起動します。  
-・workspace.melがある場所(Mayaシーンのプロジェクト設定で登録している場所)を指定  
+ - workspace.melがある場所(Mayaシーンのプロジェクト設定で登録している場所)を指定  
 ```{attention}
 FCS上でポップアップするウィンドウにはworkspace.melが表示されません  
 ``` 
@@ -120,11 +120,11 @@ FCS上でポップアップするウィンドウにはworkspace.melが表示さ�
 
 #### ⑥MayaVerの設定
 
-・④で設定したsceneを作成したMayaのバージョンを指定
+ - ④で設定したsceneを作成したMayaのバージョンを指定
 ![](images/S011.png)
 
 全て入力を終えたらSaveボタンを押してください。  
-・Save  
+ - Save  
 ![](images/S012.png)
 
 
@@ -151,15 +151,15 @@ FCSの起動時にポップアップから削除するか、
 #### 履歴から開く場合
 
 以前にSessionを起動している場合、File▶Session▶Openの下に履歴が表示されます。  
-・作業したいデータをクリック
+ - 作業したいデータをクリック
 ![](images/P16_Session_log.PNG)
 
 #### fcs_session.yamlファイルから開く場合
 
-・File▶Session▶Open▶Open...  
+ - File▶Session▶Open▶Open...  
 OpenSessionウィンドウが開かれたらローカルとネットワークドライブが表示されます。  
 
-・Characterフォルダ直下にあるfcs_session.yamlファイルを選択し、開く
+ - Characterフォルダ直下にあるfcs_session.yamlファイルを選択し、開く
 ![](images/S017.png)
 
 <br>

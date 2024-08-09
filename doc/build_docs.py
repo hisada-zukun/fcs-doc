@@ -1,7 +1,8 @@
 import os
 import subprocess
 import yaml
-
+from pathlib import Path
+from shutil import rmtree
 # a single build step, which keeps conf.py and versions.yaml at the main branch
 # in generall we use environment variables to pass values to conf.py, see below
 # and runs the build as we did locally
@@ -26,6 +27,8 @@ os.environ["build_all_docs"] = str(True)
 os.environ["pages_root"] = "https://zukunfcs.github.io/fcs-doc" 
 
 # manually the main branch build in the current supported languages
+if Path("../pages").exists():
+    rmtree(Path("../pages"))
 build_doc("latest", "jp", "main")
 move_dir("./_build/html/", "../pages/jp")
 build_doc("latest", "en", "main")
@@ -39,5 +42,6 @@ with open("versions.yaml", "r") as yaml_file:
 for version, details in docs.items():
 	tag = details.get('tag', '')
 	for language in details.get('languages', []): 
+		
 		build_doc(version, language, version)
 		move_dir("./_build/html/", "../pages/"+version+'/'+language+'/')

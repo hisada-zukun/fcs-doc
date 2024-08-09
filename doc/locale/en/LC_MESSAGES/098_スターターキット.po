@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-09 13:29+0900\n"
+"POT-Creation-Date: 2024-08-09 15:18+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -26,7 +26,8 @@ msgstr ""
 #: ../../098_スターターキット.md:2
 msgid ""
 "FCS製品版のご購入、体験版のトライアル申し込みをされた方は、FCSスターターキットをご利用いただくことができます。   "
-"FCSスターターキットを使用することで、フェイシャルキャプチャー動画解析・3Dモデルへのアニメーション出力・ゲームエンジンによるレンダリング確認まで、フェイシャルキャプチャーを用いたCG映像制作工程を通してFCSをご体験いただけます。"
+"FCSスターターキットを使用することで、フェイシャルキャプチャー動画解析 - 3Dモデルへのアニメーション出力 - "
+"ゲームエンジンによるレンダリング確認まで、フェイシャルキャプチャーを用いたCG映像制作工程を通してFCSをご体験いただけます。"
 msgstr ""
 
 #: ../../098_スターターキット.md:5
@@ -54,7 +55,7 @@ msgid "フェイシャルROM体操動画"
 msgstr ""
 
 #: ../../098_スターターキット.md:13
-msgid "動画解析・アニメーション出力用のサンプル動画"
+msgid "動画解析 - アニメーション出力用のサンプル動画"
 msgstr ""
 
 #: ../../098_スターターキット.md:14
@@ -62,7 +63,7 @@ msgid "Profile作成済みのFCS Session参考例データ"
 msgstr ""
 
 #: ../../098_スターターキット.md:17
-msgid "一部コンテンツのご利用には、サードパーティー製のゲームエンジン・プラグインを別途ご用意いただく必要がある場合があります。"
+msgid "一部コンテンツのご利用には、サードパーティー製のゲームエンジン - プラグインを別途ご用意いただく必要がある場合があります。"
 msgstr ""
 
 #: ../../098_スターターキット.md:20
@@ -103,7 +104,7 @@ msgstr ""
 
 #: ../../098_スターターキット.md:36
 msgid ""
-"DIGITAL NAGAKIをご利用される際は、Unreal Engineでの確認・レンダリングが前提となります。   事前にUnreal "
+"DIGITAL NAGAKIをご利用される際は、Unreal Engineでの確認 - レンダリングが前提となります。   事前にUnreal "
 "Engineのインストール、確認用プロジェクトの作成をお願いいたします。   Unreal Engineに関する詳細は、Epic "
 "Games社が提供する[Unreal "
 "Engine紹介ホームページ](https://www.unrealengine.com/ja)をご確認ください。"
@@ -112,7 +113,7 @@ msgstr ""
 #: ../../098_スターターキット.md:42
 msgid ""
 "Mayaでのレンダリングや、Unity*でのご利用はできませんのでご注意ください。   *<span style=\"font-"
-"size:75%;\">Unity Technologies社が開発・提供するゲームエンジン</span>"
+"size:75%;\">Unity Technologies社が開発 - 提供するゲームエンジン</span>"
 msgstr ""
 
 #: ../../098_スターターキット.md:46
@@ -127,8 +128,8 @@ msgstr ""
 msgid ""
 "NIKE SHIKINOとは、ツークン研究所が制作したオリジナルのセルルック3Dモデルです。   モデルの顔にはApple "
 "ARKit*に準拠したブレンドシェイプが設定されており、各ターゲットシェイプの数値を変えることでアニメーションさせることができます。   "
-"*<span style=\"font-"
-"size:75%;\">Apple社が開発・提供するARフレームワークであり、フェイストラッキングシステムには52パターンの表情ターゲットシェイプが採用されている</span>"
+"*<span style=\"font-size:75%;\">Apple社が開発 - "
+"提供するARフレームワークであり、フェイストラッキングシステムには52パターンの表情ターゲットシェイプが採用されている</span>"
 msgstr ""
 
 #: ../../098_スターターキット.md:54
@@ -158,7 +159,7 @@ msgid "フェイシャルROM体操を収録した動画です。   FCSに読み�
 msgstr ""
 
 #: ../../098_スターターキット.md:66
-msgid "4. 動画解析・アニメーション出力用のサンプル動画"
+msgid "4. 動画解析 - アニメーション出力用のサンプル動画"
 msgstr ""
 
 #: ../../098_スターターキット.md:67
@@ -166,9 +167,13 @@ msgid "動画解析で使用するサンプル動画です。   FCSに読み込�
 msgstr ""
 
 #: ../../098_スターターキット.md:73
+msgid "DIGITAL NAGAKI：FCS紹介動画"
+msgstr ""
+
+#: ../../098_スターターキット.md:74
 msgid ""
-"・DIGITAL NAGAKI：FCS紹介動画   ・NIKE SHIKINO：感情の異なる、全9種類のセリフ動画*（セリフ自体は全て同一です）"
-"     *<span style=\"font-size:75%;\">株式会社モーションアクター・Mao様のご協力を得て収録</span>"
+"NIKE SHIKINO：感情の異なる、全9種類のセリフ動画*（セリフ自体は全て同一です）   *<span style=\"font-"
+"size:75%;\">株式会社モーションアクター - Mao様のご協力を得て収録</span>"
 msgstr ""
 
 #: ../../098_スターターキット.md:79
@@ -191,7 +196,7 @@ msgstr ""
 
 #: ../../098_スターターキット.md:88
 msgid ""
-"参考例データでは、解析に使用する各データ（スターターキットコンテンツ1・3・4と同一内容）が、予め作成されたFCS "
+"参考例データでは、解析に使用する各データ（スターターキットコンテンツ1 - 3 - 4と同一内容）が、予め作成されたFCS "
 "Sessionフォルダ構造内に置かれています。   FCS "
 "Sessionフォルダ構造の詳細については、[Session作成もしくはオープンページ](https://zukunfcs.github.io"
 "/fcs-doc/005_session.html)をご確認ください。 <br>"
@@ -205,7 +210,7 @@ msgstr ""
 
 #: ../../098_スターターキット.md:98
 msgid ""
-"Mayaデータについては、FCS上でMaya Sceneパス・Maya Baseパスそれぞれの再設定が必要です。   "
+"Mayaデータについては、FCS上でMaya Sceneパス - Maya Baseパスそれぞれの再設定が必要です。   "
 "どちらのパスも以下の手順で同様に再設定ができます。 <br>"
 msgstr ""
 
@@ -238,4 +243,11 @@ msgstr ""
 #: ../../098_スターターキット.md:122
 msgid "![](images/013_movieImport.png)"
 msgstr ""
+
+#~ msgid ""
+#~ " - DIGITAL NAGAKI：FCS紹介動画    - NIKE "
+#~ "SHIKINO：感情の異なる、全9種類のセリフ動画*（セリフ自体は全て同一です）     *<span style"
+#~ "=\"font-size:75%;\">株式会社モーションアクター - "
+#~ "Mao様のご協力を得て収録</span>"
+#~ msgstr ""
 

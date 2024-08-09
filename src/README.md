@@ -1,14 +1,11 @@
 # Build locally
-
+If you require an offline manaul please feel free to build it yourself. 
 
 ## HTML
 
 
 
 ## PDF
-pip install rst2pdf
-
-PDF
 
 
 
@@ -18,3 +15,4 @@ PDF
 cd doc
 make gettext
 sphinx-intl update -p _build/gettext -l en
+```

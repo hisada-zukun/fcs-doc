@@ -13,7 +13,7 @@ copyright = 'TOEI Zukun'
 author = 'Zukun'
 
 
-build_all_docs = os.environ.get("build_all_docs", True)
+build_all_docs = os.environ.get("build_all_docs", False)
 pages_root = os.environ.get("pages_root", "")
 build_pdf = os.environ.get("build_pdf", )
 
@@ -65,11 +65,10 @@ locale_dirs = ['locale/']
 gettext_compact = False
 
 # get the environment variable build_all_docs and pages_root
-
 # if not there, we dont call this
 
 
-if build_all_docs is not None:
+if build_all_docs:
     # we get the current language and version
     current_language = os.environ.get("current_language")
     current_version = os.environ.get("current_version")
@@ -98,7 +97,7 @@ if build_all_docs is not None:
     # to set versions and languages
     with open("versions.yaml", "r") as yaml_file:
         docs = yaml.safe_load(yaml_file)
-
+    print(f'docs: {docs} {current_version}')
     if (current_version != 'latest'):
         for language in docs[current_version].get('languages', []):
             html_context['languages'].append([language, pages_root+'/'+current_version+'/'+language])
