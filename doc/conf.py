@@ -90,7 +90,4 @@ if build_all_docs:
     # html_context['versions'].append(['latest', pages_root + '/latest/en'])
     for version, details in docs.items():
         html_context['versions'].append([version, pages_root+'/'+version+'/'+current_language])
-    
-    print(f'html_context: {html_context}')
-    exit()
-    
+        
