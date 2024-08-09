@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../098_スターターキット.md:1
 msgid "FCSスターターキット"
-msgstr ""
+msgstr "FCS Starter Kit"
 
 #: ../../098_スターターキット.md:2
 msgid ""

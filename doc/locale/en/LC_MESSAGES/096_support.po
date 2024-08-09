@@ -21,23 +21,24 @@ msgstr ""
 
 #: ../../096_support.md:1
 msgid "サポート"
-msgstr ""
+msgstr "Support"
 
 #: ../../096_support.md:3
 msgid ""
 "サポートは[HELTECホームページ](https://sensing.heltec.co.jp/contact/)にご連絡ください。   "
 "その際に、以下の情報を添えてください。"
 msgstr ""
+"Please contact [Heltec](https://sensing.heltec.co.jp/contact/) for support."
+"Please include the following information."
 
 #: ../../096_support.md:6
 msgid "使用されたFCSライセンスキー"
-msgstr ""
+msgstr "FCS License key used"
 
 #: ../../096_support.md:7
 msgid "[エクスポート](#export-header-target)されたFCSフォルダー"
-msgstr ""
+msgstr "[Exported FCS Project folder](#export-header-target)"
 
 #: ../../096_support.md:8
 msgid "(できれば)Mayaシーンデータ"
-msgstr ""
-
+msgstr "(If possible) Maya data files"

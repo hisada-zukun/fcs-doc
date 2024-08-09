@@ -1,3 +1,8 @@
+"latest":
+  tag: 'latest'  
+  languages: 
+    - "jp"
+    - "en"
 "24.07":
   tag: '24.07'  
   languages: 

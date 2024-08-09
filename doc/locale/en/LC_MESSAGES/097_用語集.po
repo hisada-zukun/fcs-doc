@@ -25,39 +25,39 @@ msgstr ""
 
 #: ../../097_用語集.md:3
 msgid "LM（ランドマーク）"
-msgstr ""
+msgstr "Landmark"
 
 #: ../../097_用語集.md:5
 msgid "顔の各点の位置情報"
-msgstr ""
+msgstr "Facial landmark"
 
 #: ../../097_用語集.md:7
 msgid "Region（リージョン）"
-msgstr ""
+msgstr "Region"
 
 #: ../../097_用語集.md:9
-msgid "コントローラのアトリビュートがupper / lower / eye / eyelidのどれに該当するかの情報"
-msgstr ""
+msgid "コントローラのアトリビュートがupper / lower / gaze / eyelidのどれに該当するかの情報"
+msgstr "The appropriate region which the controller belongs to (upper / lower / eye / eyelid)"
 
 #: ../../097_用語集.md:11
 msgid "upper：眉周りの動き"
-msgstr ""
+msgstr "upper: forehead, eyebrow"
 
 #: ../../097_用語集.md:13
 msgid "lower：鼻、頬、口周りの動き"
-msgstr ""
+msgstr "lower: nose, cheek, mouth"
 
 #: ../../097_用語集.md:15
-msgid "eye：UIではgaze表記、目線の動き"
-msgstr ""
+msgid "gaze：UIではgaze表記、目線の動き"
+msgstr "Gaze: eyeball directions"
 
 #: ../../097_用語集.md:17
 msgid "eyelid：まぶたの動き"
-msgstr ""
+msgstr "eyelid: eyelid"
 
 #: ../../097_用語集.md:19
 msgid "Retarget（リターゲット）"
-msgstr ""
+msgstr "Retarget"
 
 #: ../../097_用語集.md:21
 msgid "ピックアップしたフレームの表情を登録すること、またはリターゲットしたデータのこと"
