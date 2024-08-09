@@ -34,6 +34,7 @@ move_dir("./_build/html/", "../pages/jp")
 build_doc("latest", "en", "main")
 move_dir("./_build/html/", "../pages/en")
 
+
 # reading the yaml file
 with open("versions.yaml", "r") as yaml_file:
 	docs = yaml.safe_load(yaml_file)
