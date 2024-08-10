@@ -1,3 +1,4 @@
 doc/_build/
 doc/pages/
 doc/locale/en/LC_MESSAGES/*.mo
+.DS_Store
