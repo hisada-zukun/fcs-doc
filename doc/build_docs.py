@@ -3,7 +3,7 @@ import subprocess
 import yaml
 from pathlib import Path
 from shutil import rmtree, move
-subprocess.run("git fetch --all", shell=True)
+
 # a single build step, which keeps conf.py and versions.yaml at the main branch
 # in generall we use environment variables to pass values to conf.py, see below
 # and runs the build as we did locally
@@ -14,6 +14,7 @@ def build_doc(version, language, tag=None, ):
 	os.environ["current_language"] = language
 	subprocess.run("git reset --hard", shell=True)
 	subprocess.run("git clean -fd", shell=True)  # Remove untracked files
+	subprocess.run("git fetch --all --tags", shell=True)  # Remove untracked files
 	if version == 'latest':
 		subprocess.run("git checkout main", shell=True)
 	else:
