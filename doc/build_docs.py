@@ -12,14 +12,14 @@ def build_doc(version, language, tag=None, ):
 		assert tag is not None
 	os.environ["current_version"] = version
 	os.environ["current_language"] = language
-	
+	subprocess.run("git reset --hard", shell=True)
+	subprocess.run("git clean -fd", shell=True)  # Remove untracked files
 	if version == 'latest':
 		subprocess.run("git checkout main", shell=True)
 	else:
 		subprocess.run("git checkout " + tag, shell=True)
-		subprocess.run("git checkout main -- conf.py", shell=True)
-		subprocess.run("git checkout main -- versions.yaml", shell=True)
-		subprocess.run("git checkout main -- .gitignore", shell=True)
+		for filename in ['conf.py', 'versions.yaml', '../.gitignore', 'build_docs.py']:
+			subprocess.run(f"git checkout main -- {filename}", shell=True)
 	os.environ['SPHINXOPTS'] = "-D language='{}'".format(language)
 	subprocess.run("make html", shell=True)
 	move('_build/html', f'pages/{version}/{language}')
