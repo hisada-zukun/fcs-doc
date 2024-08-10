@@ -2,7 +2,7 @@ import os
 import subprocess
 import yaml
 from pathlib import Path
-from shutil import rmtree
+from shutil import rmtree, move
 subprocess.run("git fetch --all", shell=True)
 # a single build step, which keeps conf.py and versions.yaml at the main branch
 # in generall we use environment variables to pass values to conf.py, see below
@@ -19,14 +19,14 @@ def build_doc(version, language, tag=None, ):
 		subprocess.run("git checkout " + tag, shell=True)
 		subprocess.run("git checkout main -- conf.py", shell=True)
 		subprocess.run("git checkout main -- versions.yaml", shell=True)
+		subprocess.run("git checkout main -- .gitignore", shell=True)
 	os.environ['SPHINXOPTS'] = "-D language='{}'".format(language)
 	subprocess.run("make html", shell=True)
+	move('_build/html', f'pages/{version}/{language}')
+
 
 # a move dir method because we run multiple builds and bring the html folders to a 
 # location which we then push to github pages
-def move_dir(src, dst):
-	subprocess.run(["mkdir", "-p", dst])
-	subprocess.run("mv "+src+'* ' + dst, shell=True)
 
 # to separate a single local build from all builds we have a flag, see conf.py
 os.environ["build_all_docs"] = str(True)
@@ -39,10 +39,7 @@ if Path("./_build").exists():
     rmtree(Path("./_build"))
 
 build_doc("latest", "jp", "main")
-move_dir("./_build/html/", "./pages/latest/jp")
 build_doc("latest", "en", "main")
-move_dir("./_build/html/", "./pages/latest/en")
-
 
 # reading the yaml file
 with open("versions.yaml", "r") as yaml_file:
@@ -54,7 +51,6 @@ for version, details in docs.items():
 	for language in details.get('languages', []): 
 		subprocess.run("rm -rf locale/en/LC_MESSAGES/*.mo", shell=True)
 		build_doc(version, language, version)
-		move_dir("./_build/html/", "./pages/"+version+'/'+language + '/')
 		
 
 build_dir = Path("./_build")
