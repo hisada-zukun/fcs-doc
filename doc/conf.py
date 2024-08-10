@@ -16,7 +16,7 @@ author = 'Zukun'
 build_all_docs = os.environ.get("build_all_docs", False)
 pages_root = os.environ.get("pages_root", "")
 build_pdf = os.environ.get("build_pdf", )
-
+suppress_warnings = ["myst.header"]
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
@@ -36,8 +36,8 @@ html_static_path = ['_static']
 
 # -- Options for PDF output -------------------------------------------------
 latex_engine = 'lualatex'
-current_language = os.environ.get("current_language")
-current_version = os.environ.get("current_version")
+current_language = os.environ.get("current_language", "jp")
+current_version = os.environ.get("current_version", "latest")
 version = current_version
 release = current_version
 
