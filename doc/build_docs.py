@@ -3,20 +3,20 @@ import subprocess
 import yaml
 from pathlib import Path
 from shutil import rmtree
+subprocess.run("git fetch --all", shell=True)
 # a single build step, which keeps conf.py and versions.yaml at the main branch
 # in generall we use environment variables to pass values to conf.py, see below
 # and runs the build as we did locally
 def build_doc(version, language, tag, ):
 	os.environ["current_version"] = version
 	os.environ["current_language"] = language
-	# if version == 'latest':
-	# 	subprocess.run("git checkout main", shell=True)
-	# else:
-	# 	subprocess.run("git checkout " + tag, shell=True)
-	# 	subprocess.run("git checkout main -- conf.py", shell=True)
-	# 	subprocess.run("git checkout main -- versions.yaml", shell=True)
-  
-	# subprocess.run("doxygen Doxyfile", shell=True)
+	
+	if version == 'latest':
+		subprocess.run("git checkout main", shell=True)
+	else:
+		subprocess.run("git checkout " + tag, shell=True)
+		subprocess.run("git checkout main -- conf.py", shell=True)
+		subprocess.run("git checkout main -- versions.yaml", shell=True)
 	os.environ['SPHINXOPTS'] = "-D language='{}'".format(language)
 	subprocess.run("make html", shell=True)
 
