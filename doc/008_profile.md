@@ -39,7 +39,7 @@ Videosウィンドウに解析したい動画が表示されます。
 #### Editorの画面説明
 
 ![](images/P007.png)
-No Sync▼
+Sync:
 - To Maya：登録されているprofile情報をMayaに転送する
 - From Maya at save：saveする際にMaya上での調整データを取得しFCSに反映する
 - Both：FCSとMayaを双方向で連動させる
@@ -51,15 +51,15 @@ Mayaをベースに表情を調整するのか、FCSをベースに表情を調�
 最初は「Both」での使用をオススメします。
 ```
 
-Neutral：- [x] デフォルトの表情として必ず1つ登録する  
-Enabled：- [x] 解析する素材として使用する  
+Neutral：デフォルトの表情として必ず1つ登録する  
+Enabled：解析する素材として使用する  
 
 Controller▼
 - Controller：コントローラー表示が名前になる
 - Value：コントローラー表示が数字になる 
 
 ▼Region
-- Upper/Eyelid/Gaze/Lower：- [x] 調整した情報を登録する  
+- Upper/Eyelid/Gaze/Lower：調整した情報を登録する  
 
 ▼Utils
 - To Maya：FCS上で操作した値をMayaへ送る

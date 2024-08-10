@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS 24.07 Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-09 15:18+0900\n"
+"POT-Creation-Date: 2024-08-10 12:56+0900\n"
 "PO-Revision-Date: 2024-07-27 22:52+0900\n"
 "Last-Translator: \n"
 "Language: en\n"
@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../../008_profile.md:1 ../../008_profile.md:120
 msgid "Profileの作成"
-msgstr "Create a profile"
+msgstr "Creating profiles"
 
 #: ../../008_profile.md:3
 msgid "Profileの作成の前に..."
-msgstr "Before creating a profile…"
+msgstr "Before creating profiles..."
 
 #: ../../008_profile.md:5
 msgid "解析動画を開く方法"
@@ -48,14 +48,12 @@ msgstr " - import ![](images/P002.png)"
 
 #: ../../008_profile.md:14
 msgid "ウィンドウがポップアップされるので"
-msgstr ""
+msgstr "A popup will appear"
 
 #: ../../008_profile.md:15
 #, fuzzy
 msgid "解析したい動画をクリックし開く ![](images/P003.png)"
-msgstr ""
-"A window will pop up.   Click on the video you want to analyze and open "
-"it. ![](images/P003.png)"
+msgstr "Click on the footage to import ![](images/P003.png)"
 
 #: ../../008_profile.md:19
 msgid "Shift+クリックで複数同時にimportできます。"
@@ -126,7 +124,8 @@ msgid "Editorの画面説明"
 msgstr "Editor"
 
 #: ../../008_profile.md:41
-msgid "![](images/P007.png) No Sync▼"
+#, fuzzy
+msgid "![](images/P007.png) Sync:"
 msgstr "![](images/P007.png) No Sync▼"
 
 #: ../../008_profile.md:43
@@ -157,9 +156,9 @@ msgstr ""
 
 #: ../../008_profile.md:54
 #, fuzzy
-msgid "Neutral：- [x] デフォルトの表情として必ず1つ登録する   Enabled：- [x] 解析する素材として使用する"
+msgid "Neutral：デフォルトの表情として必ず1つ登録する   Enabled：解析する素材として使用する"
 msgstr ""
-"Neutral: ✅Always register one as a default expression   Enabled：✅Use as "
+"Neutral: Always register one as a default expression   Enabled：Use as "
 "material to analyze/□Do not use"
 
 #: ../../008_profile.md:57
@@ -180,8 +179,8 @@ msgstr "▼Region"
 
 #: ../../008_profile.md:62
 #, fuzzy
-msgid "Upper/Eyelid/Gaze/Lower：- [x] 調整した情報を登録する"
-msgstr "Upper/Eyelid/Gaze/Lower：✅Register adjusted information"
+msgid "Upper/Eyelid/Gaze/Lower：調整した情報を登録する"
+msgstr "Upper/Eyelid/Gaze/Lower：Register adjusted information"
 
 #: ../../008_profile.md:64
 msgid "▼Utils"
@@ -203,7 +202,7 @@ msgstr ""
 
 #: ../../008_profile.md:69
 msgid "LM：LandMarkを表示する"
-msgstr "LM: display LandMark"
+msgstr "LM: display Landmark"
 
 #: ../../008_profile.md:71
 msgid "▼Filter"
