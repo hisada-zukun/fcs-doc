@@ -11,10 +11,10 @@ FCSでは作業されたセッションを出力することができます。
 1. 出力したいセッションをロードします
   
 2. File/SessionからExportを選択する
-  ![](images\export\menu_bar.jpg)  
+  ![](images/menu_bar.jpg)  
 
 1. 出力先をプロジェクトフォルダーとして指定
-  ![](images\export\export_window.jpg)  
+  ![](images/export_window.jpg)  
 
    Actor: アクター名を新しく指定する  
    - アーカイブの場合はそのままでも問題ありません  

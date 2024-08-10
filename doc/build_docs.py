@@ -7,7 +7,9 @@ subprocess.run("git fetch --all", shell=True)
 # a single build step, which keeps conf.py and versions.yaml at the main branch
 # in generall we use environment variables to pass values to conf.py, see below
 # and runs the build as we did locally
-def build_doc(version, language, tag, ):
+def build_doc(version, language, tag=None, ):
+	if version is not 'latest':
+		assert tag is not None
 	os.environ["current_version"] = version
 	os.environ["current_language"] = language
 	
@@ -50,8 +52,11 @@ with open("versions.yaml", "r") as yaml_file:
 for version, details in docs.items():
 	tag = details.get('tag', '')
 	for language in details.get('languages', []): 
+		subprocess.run("rm -rf locale/en/LC_MESSAGES/*.mo", shell=True)
 		build_doc(version, language, version)
 		move_dir("./_build/html/", "./pages/"+version+'/'+language + '/')
+		
+
 build_dir = Path("./_build")
 rmtree(build_dir)
 build_dir.mkdir(exist_ok=True, parents=True)
