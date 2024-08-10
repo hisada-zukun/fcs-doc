@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-09 13:29+0900\n"
+"POT-Creation-Date: 2024-08-10 12:11+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -48,11 +48,13 @@ msgid "出力したいセッションをロードします"
 msgstr "Load the session for export"
 
 #: ../../011_export.md:13
-msgid "File/SessionからExportを選択する ![](images\\export\\menu_bar.jpg)"
+#, fuzzy
+msgid "File/SessionからExportを選択する ![](images/menu_bar.jpg)"
 msgstr "File/Session/Export ![](images\\export\\menu_bar.jpg)"
 
 #: ../../011_export.md:16
-msgid "出力先をプロジェクトフォルダーとして指定 ![](images\\export\\export_window.jpg)"
+#, fuzzy
+msgid "出力先をプロジェクトフォルダーとして指定 ![](images/export_window.jpg)"
 msgstr "Select the output project folder ![](images\\export\\export_window.jpg)"
 
 #: ../../011_export.md:19
@@ -75,9 +77,7 @@ msgstr "Profile: Whether to include all profiles"
 msgid ""
 "Videos: 出力先にビデオデータをコピーするかを指定する   Assets: "
 "出力先にFacial/Assetsのフォルダーをコピーするかを指定する"
-msgstr ""
-"Videos: Copy the videos   Assets: "
-"Copy the Maya asset folder "
+msgstr "Videos: Copy the videos   Assets: Copy the Maya asset folder "
 
 #: ../../011_export.md:29
 msgid "Exportボタンを押して出力する"

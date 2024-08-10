@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-09 13:29+0900\n"
+"POT-Creation-Date: 2024-08-10 12:11+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -36,8 +36,11 @@ msgid "Region（リージョン）"
 msgstr "Region"
 
 #: ../../097_用語集.md:9
-msgid "コントローラのアトリビュートがupper / lower / gaze / eyelidのどれに該当するかの情報"
-msgstr "The appropriate region which the controller belongs to (upper / lower / eye / eyelid)"
+#, fuzzy
+msgid "コントローラのアトリビュートがupper / lower / eye / eyelidのどれに該当するかの情報"
+msgstr ""
+"The appropriate region which the controller belongs to (upper / lower / "
+"eye / eyelid)"
 
 #: ../../097_用語集.md:11
 msgid "upper：眉周りの動き"
@@ -48,7 +51,8 @@ msgid "lower：鼻、頬、口周りの動き"
 msgstr "lower: nose, cheek, mouth"
 
 #: ../../097_用語集.md:15
-msgid "gaze：UIではgaze表記、目線の動き"
+#, fuzzy
+msgid "eye：UIではgaze表記、目線の動き"
 msgstr "Gaze: eyeball directions"
 
 #: ../../097_用語集.md:17

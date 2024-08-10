@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS 24.07 Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-09 15:18+0900\n"
+"POT-Creation-Date: 2024-08-10 12:11+0900\n"
 "PO-Revision-Date: 2024-07-27 18:48+0900\n"
 "Last-Translator: \n"
 "Language: en\n"
@@ -103,7 +103,7 @@ msgstr "Creating a new Session"
 
 #: ../../005_session.md:34
 #, fuzzy
-msgid "File▶Session▶New… ![](images/S001.png)"
+msgid "File▶Session▶New…を選択 ![](images/S001.png)"
 msgstr "Select File▶Session▶New… ![](images/S001.png)"
 
 #: ../../005_session.md:37
@@ -362,7 +362,9 @@ msgstr "Open Session from history "
 #: ../../005_session.md:153
 #, fuzzy
 msgid "以前にSessionを起動している場合、File▶Session▶Openの下に履歴が表示されます。"
-msgstr "If you have started the Session before, the history will be displayed under File▶Session▶Open."
+msgstr ""
+"If you have started the Session before, the history will be displayed "
+"under File▶Session▶Open."
 
 #: ../../005_session.md:154
 msgid "作業したいデータをクリック ![](images/P16_Session_log.PNG)"
