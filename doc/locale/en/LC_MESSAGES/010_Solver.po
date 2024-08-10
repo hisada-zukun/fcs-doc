@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS 24.07 Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-09 14:56+0900\n"
+"POT-Creation-Date: 2024-08-10 16:54+0900\n"
 "PO-Revision-Date: 2024-07-28 23:43+0900\n"
 "Last-Translator: \n"
 "Language: en\n"
@@ -30,9 +30,8 @@ msgid ""
 "本ページは、おもに解析したアニメーション出力結果を更に細かく調整したい方向けのページになります。   "
 "必要に応じて、各種設定を自由にカスタマイズすることが可能です。"
 msgstr ""
-"For users who want to further fine-tune the analyzed "
-"animation output results. You can freely customize various settings as "
-"needed."
+"For users who want to further fine-tune the analyzed animation output "
+"results. You can freely customize various settings as needed."
 
 #: ../../010_Solver.md:5
 msgid "Solverの画面説明"
@@ -60,7 +59,8 @@ msgstr ""
 "checkbox when analyzing videos shot with a wide-angle lens."
 
 #: ../../010_Solver.md:14
-msgid "▼Smoothing：アニメーション出力時にスムージング処理をかける設定を変更できます。各Regionごとに個別に変更可能です。"
+#, fuzzy
+msgid "Smoothing：アニメーション出力時にスムージング処理をかける設定を変更できます。各Regionごとに個別に変更可能です。"
 msgstr ""
 "▼Smoothing: allows you to change the settings for applying smoothing "
 "processing during animation output. Each region can be changed "
@@ -69,16 +69,19 @@ msgstr ""
 #: ../../010_Solver.md:15
 msgid "Smoothing：スムージング処理の有無（基本的には有りを推奨）"
 msgstr ""
-"Smoothing: whether smoothing processing is applied or not (Default to True)."
+"Smoothing: whether smoothing processing is applied or not (Default to "
+"True)."
 
 #: ../../010_Solver.md:16
-msgid "Weight：一回あたりのスムージング処理の強度   　　　　数値が大きいほどスムージング処理が強くかかる（アニメーションカーブが滑らかになる）"
+#, fuzzy
+msgid "Weight：一回あたりのスムージング処理の強度   数値が大きいほどスムージング処理が強くかかる（アニメーションカーブが滑らかになる）"
 msgstr ""
 "Weight: strength of the smoothing process per output.　　　　The higher the "
 "value, the stronger the smoothing process (smoother animation curves)."
 
 #: ../../010_Solver.md:18
-msgid "Reps：スムージング処理の回数   　　　回数を多くするほどアニメーションカーブが滑らかになる"
+#, fuzzy
+msgid "Reps：スムージング処理の回数   回数を多くするほどアニメーションカーブが滑らかになる"
 msgstr ""
 "Reps: number of times the smoothing process is applied.　　　The higher the "
 "number, the smoother the animation curve."
@@ -92,12 +95,11 @@ msgstr ""
 #: ../../010_Solver.md:22
 #, fuzzy
 msgid ""
-"[x] Enforce "
+"Enforce "
 "annotation：アニメーション出力範囲内にProfileを作成したフレームが含まれる場合、チェックを入れると解析による予測値よりもリターゲット値を優先する"
 msgstr ""
-"✅Enforce annotation: if the animation output range includes frames which "
-"you have created a profile, mark this checkbox and give priority to "
-"retarget values rather than predictions based on analysis."
+"Enforce "
+"annotation: Overwrite frames in the predicted animation with values provided in the gallery when available."
 
 #: ../../010_Solver.md:23
 msgid "Clamp mode：クランプ処理の設定を切り替える"
@@ -109,16 +111,16 @@ msgstr "No Clamp: no clamp processing"
 
 #: ../../010_Solver.md:25
 msgid ""
-"Hard "
-"Clamp：アニメーションカーブを、Controllerウィンドウで設定した最大値 - 最小値でクランプする（クランプされた範囲のスムージング処理なし）"
+"Hard Clamp：アニメーションカーブを、Controllerウィンドウで設定した最大値 - "
+"最小値でクランプする（クランプされた範囲のスムージング処理なし）"
 msgstr ""
 "Hard Clamp: clamps the animation curve to the maximum and minimum values "
 "set in the Controller window (no smoothing of the clamped area)."
 
 #: ../../010_Solver.md:26
 msgid ""
-"Soft "
-"Clamp：アニメーションカーブを、Controllerウィンドウで設定した最大値 - 最小値でクランプする（クランプされた範囲のスムージング処理あり）"
+"Soft Clamp：アニメーションカーブを、Controllerウィンドウで設定した最大値 - "
+"最小値でクランプする（クランプされた範囲のスムージング処理あり）"
 msgstr ""
 "Soft Clamp: clamps the animation curve at the maximum and minimum values "
 "set in the Controller window (with smoothing of the clamped range)."
