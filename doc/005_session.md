@@ -71,7 +71,7 @@ Project Folder作成後
 ![](images/F005.png)
 
 
-#### ②Acterの設定
+#### ②Actorの設定
 
 「+」ボタンをクリックし、ActorFolderを作成するための 「Create new actor folder」ウィンドウを起動します。
 

@@ -1,2 +1,3 @@
 _build/
 pages/
+doc/locale/en/LC_MESSAGES/*.mo

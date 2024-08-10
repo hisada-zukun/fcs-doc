@@ -99,12 +99,12 @@ msgstr ""
 
 #: ../../005_session.md:32
 msgid "Sessionの新規作成"
-msgstr "Creating a new Session "
+msgstr "Creating a new Session"
 
 #: ../../005_session.md:34
 #, fuzzy
-msgid "File▶Session▶New…を選択 ![](images/S001.png)"
-msgstr " - Select File▶Session▶New…![](images/S001.png)"
+msgid "File▶Session▶New… ![](images/S001.png)"
+msgstr "Select File▶Session▶New… ![](images/S001.png)"
 
 #: ../../005_session.md:37
 msgid ""
@@ -141,7 +141,7 @@ msgstr ""
 #: ../../005_session.md:51
 #, fuzzy
 msgid "Project Folderを作成します。"
-msgstr "①Project Folder settings"
+msgstr "Create Project Folder"
 
 #: ../../005_session.md:52
 msgid "Create"
@@ -155,27 +155,25 @@ msgstr "![](images/F004.png)"
 #: ../../005_session.md:56 ../../005_session.md:84
 #, fuzzy
 msgid "問題なく作成できたらポップアップが表示されます。"
-msgstr "A pop-up will appear after the folder is created.    - close"
+msgstr "A pop-up will appear after the folder is created."
 
 #: ../../005_session.md:57
 #, fuzzy
 msgid "close ![](images/F001.png)"
-msgstr "![](images/S010.png)"
+msgstr "close ![](images/S010.png)"
 
 #: ../../005_session.md:60
 msgid "エクスプローラーで「Facial」「FCS」のフォルダが作成されます。 ![](images/F003.png)"
-msgstr ""
-"Folders for “Facial” and “FCS” will be created in "
-"Explorer.![](images/F003.png)"
+msgstr "`Facial` and `FCS` folders will be created. ![](images/F003.png)"
 
 #: ../../005_session.md:64
 #, fuzzy
 msgid "Project Folder作成後"
-msgstr "①Project Folder settings"
+msgstr "After creating Project Folder"
 
 #: ../../005_session.md:65
 msgid "Project Folder▶Facial▶Assetsフォルダに紐付けるMayaシーンを、"
-msgstr ""
+msgstr "Put Maya scene at Project Folder▶Facial▶Assets folder"
 
 #: ../../005_session.md:66
 #, fuzzy
@@ -200,8 +198,8 @@ msgstr "![](images/F005.png)"
 # 日本語のソーステキストがActerとなっております。Acter⇨Actorへ変更しますか？
 #: ../../005_session.md:74
 #, fuzzy
-msgid "②Acterの設定"
-msgstr "②Setting Actor"
+msgid "②Actorの設定"
+msgstr "2. Actor settings"
 
 #: ../../005_session.md:76
 #, fuzzy
@@ -210,21 +208,21 @@ msgstr "Click “+” and launch “Create new actor folder” to create an Acto
 
 #: ../../005_session.md:78
 msgid "「Actor Name」に登録したい名前を入力"
-msgstr ""
+msgstr "Input `Actor name`"
 
 #: ../../005_session.md:79
 msgid "「Actor」＝モーションキャプチャアクター名"
-msgstr ""
+msgstr "`Actor`: name of the facial motion actor"
 
 #: ../../005_session.md:81
 #, fuzzy
 msgid "Create ![](images/S006.png)"
-msgstr " - Create ![](images/S006.png)"
+msgstr "Create ![](images/S006.png)"
 
 #: ../../005_session.md:85
 #, fuzzy
 msgid "close ![](images/F006.png)"
-msgstr "![](images/S010.png)"
+msgstr "close ![](images/S010.png)"
 
 # ソーステキスト：Acterフォルダ⇨Actorフォルダと変更しますか？
 #: ../../005_session.md:88
@@ -364,14 +362,11 @@ msgstr "Open Session from history "
 #: ../../005_session.md:153
 #, fuzzy
 msgid "以前にSessionを起動している場合、File▶Session▶Openの下に履歴が表示されます。"
-msgstr ""
-"If you have started the Session before, the history will be displayed "
-"under File▶Session▶Open.   \n"
-" - Click on the data you want to work with.![](images/P16_Session_log.PNG)"
+msgstr "If you have started the Session before, the history will be displayed under File▶Session▶Open."
 
 #: ../../005_session.md:154
 msgid "作業したいデータをクリック ![](images/P16_Session_log.PNG)"
-msgstr ""
+msgstr "Click on the session to work on ![](images/P16_Session_log.PNG)"
 
 #: ../../005_session.md:157
 msgid "fcs_session.yamlファイルから開く場合"
