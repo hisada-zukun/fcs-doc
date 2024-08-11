@@ -17,6 +17,7 @@ build_all_docs = os.environ.get("build_all_docs", False)
 pages_root = os.environ.get("pages_root", "")
 build_pdf = os.environ.get("build_pdf", )
 suppress_warnings = ["myst.header"]
+
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
@@ -26,7 +27,10 @@ if build_pdf:
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-
+current_language = os.environ.get("current_language", "jp")
+current_version = os.environ.get("current_version", "latest")
+version = current_version
+release = current_version
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
@@ -36,10 +40,6 @@ html_static_path = ['_static']
 
 # -- Options for PDF output -------------------------------------------------
 latex_engine = 'lualatex'
-current_language = os.environ.get("current_language", "jp")
-current_version = os.environ.get("current_version", "latest")
-version = current_version
-release = current_version
 
 latex_documents = [
   ('index', 'fcs_manual.tex', f'FCS Manaul {current_version}', 'TOEI Zukun', f'Manual {current_language}'),
@@ -70,11 +70,7 @@ gettext_compact = False
 # if not there, we dont call this
 
 
-if build_all_docs:
-    # we get the current language and version
-    current_language = os.environ.get("current_language")
-    current_version = os.environ.get("current_version")
-
+if build_all_docs and build_all_docs == 'True':
     # we set the html_context wit current language and version 
     # and empty languages and versions for now
     html_context = {
@@ -90,6 +86,6 @@ if build_all_docs:
     for language in docs[current_version].get('languages', []):
         html_context['languages'].append([language, pages_root+'/'+current_version+'/'+language])        
     # html_context['versions'].append(['latest', pages_root + '/latest/en'])
-    for version, details in docs.items():
-        html_context['versions'].append([version, pages_root+'/'+version+'/'+current_language])
+    for _version, details in docs.items():
+        html_context['versions'].append([_version, pages_root+'/'+_version+'/'+current_language])
         
