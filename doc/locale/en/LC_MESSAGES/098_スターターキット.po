@@ -29,58 +29,61 @@ msgid ""
 "FCSスターターキットを使用することで、フェイシャルキャプチャー動画解析 - 3Dモデルへのアニメーション出力 - "
 "ゲームエンジンによるレンダリング確認まで、フェイシャルキャプチャーを用いたCG映像制作工程を通してFCSをご体験いただけます。"
 msgstr ""
+"FCS comes with a starter kit for all trial and licensed users. "
+"With the starter kit you should be able to create 3D facial animation,"
+"and experience the entire workflow using FCS."
 
 #: ../../098_スターターキット.md:5
 msgid "FCSスターターキットのコンテンツ一覧"
-msgstr ""
+msgstr "Content of FCS Starter Kit"
 
 #: ../../098_スターターキット.md:6
 msgid "FCSスターターキットには、以下のコンテンツが含まれています。"
-msgstr ""
+msgstr "FCS Starter Kit includes the following:"
 
 #: ../../098_スターターキット.md:8
 msgid "![](images/013_image001.PNG)"
-msgstr ""
+msgstr "![](images/013_image001.PNG)"
 
 #: ../../098_スターターキット.md:10
 msgid "Mayaの3Dモデルデータ"
-msgstr ""
+msgstr "3D model in Maya"
 
 #: ../../098_スターターキット.md:11
 msgid "フェイシャルROM体操の表情一覧PDF"
-msgstr ""
+msgstr "PDF including the recommended Range of Motion (ROM)"
 
 #: ../../098_スターターキット.md:12
 msgid "フェイシャルROM体操動画"
-msgstr ""
+msgstr "Facial ROM animation"
 
 #: ../../098_スターターキット.md:13
 msgid "動画解析 - アニメーション出力用のサンプル動画"
-msgstr ""
+msgstr "Sample video for generating facial animation"
 
 #: ../../098_スターターキット.md:14
 msgid "Profile作成済みのFCS Session参考例データ"
-msgstr ""
+msgstr "Sample FCS session with retargetted data"
 
 #: ../../098_スターターキット.md:17
 msgid "一部コンテンツのご利用には、サードパーティー製のゲームエンジン - プラグインを別途ご用意いただく必要がある場合があります。"
-msgstr ""
+msgstr "Some of the content requires external plugins rendering"
 
 #: ../../098_スターターキット.md:20
 msgid "1. Mayaの3Dモデルデータ"
-msgstr ""
+msgstr "1. 3D model in Maya"
 
 #: ../../098_スターターキット.md:21
 msgid "Mayaの3Dモデルデータフォルダには、以下の2種類のモデルデータが含まれています。"
-msgstr ""
+msgstr "Maya folder contains the following 2 models"
 
 #: ../../098_スターターキット.md:23
 msgid "DIGITAL NAGAKI"
-msgstr ""
+msgstr "DIGITAL NAGAKI"
 
 #: ../../098_スターターキット.md:25
 msgid "![](images/013_DIGITALNAGAKI.png)"
-msgstr ""
+msgstr "![](images/013_DIGITALNAGAKI.png)"
 
 #: ../../098_スターターキット.md:27
 msgid ""
@@ -90,6 +93,12 @@ msgid ""
 "MetaHumanに関する詳細は、Epic "
 "Games社が提供する[MetaHuman紹介ホームページ](https://www.unrealengine.com/ja/metahuman)をご確認ください。"
 msgstr ""
+"DIGITAL NAGAKI is our digital human model created based on Unreal"
+"Engine MetaHuman"
+"For more information about MetaHuman, please refer to"
+"Epic Games [MetaHuman](https://www.unrealengine.com/ja/metahuman)"
+
+
 
 #: ../../098_スターターキット.md:30
 msgid ""
@@ -97,10 +106,13 @@ msgid ""
 "MetaHumanフェイシャルコントローラの使い方は、Epic "
 "Games社が提供する[こちらのYouTube解説動画](https://www.youtube.com/watch?v=GEpH3o44_58)をご確認ください。"
 msgstr ""
+"DIGITAL NAGAKI uses the MetaHuman control rig."
+"Please refer to Epic"
+"Games [Youtube channel](https://www.youtube.com/watch?v=GEpH3o44_58) if you require more information."
 
 #: ../../098_スターターキット.md:33
 msgid "ご利用の際には、同梱されているreadme.txtを必ずお読みください。"
-msgstr ""
+msgstr "Please read the readme.txt included in your starter kit"
 
 #: ../../098_スターターキット.md:36
 msgid ""
@@ -115,6 +127,8 @@ msgid ""
 "Mayaでのレンダリングや、Unity*でのご利用はできませんのでご注意ください。   *<span style=\"font-"
 "size:75%;\">Unity Technologies社が開発 - 提供するゲームエンジン</span>"
 msgstr ""
+"You cannot use render this rig in Maya or Unity* as per the Epic games license. *<span style=\"font-"
+"size:75%;\">Game engine created by Unity Technologies</span>"
 
 #: ../../098_スターターキット.md:46
 msgid "NIKE SHIKINO"
@@ -243,11 +257,3 @@ msgstr ""
 #: ../../098_スターターキット.md:122
 msgid "![](images/013_movieImport.png)"
 msgstr ""
-
-#~ msgid ""
-#~ " - DIGITAL NAGAKI：FCS紹介動画    - NIKE "
-#~ "SHIKINO：感情の異なる、全9種類のセリフ動画*（セリフ自体は全て同一です）     *<span style"
-#~ "=\"font-size:75%;\">株式会社モーションアクター - "
-#~ "Mao様のご協力を得て収録</span>"
-#~ msgstr ""
-
