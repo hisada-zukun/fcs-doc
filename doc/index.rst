@@ -20,6 +20,7 @@ FCSマニュアル
    009_アニメーション.md 
    010_Solver.md
    011_export.md
+   012_auto_pickup.md
    096_support.md
    097_用語集.md
    098_スターターキット.md
