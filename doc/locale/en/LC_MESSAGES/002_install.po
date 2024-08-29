@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../002_install.md:1
 msgid "事前準備"
-msgstr "Pre-set up"
+msgstr "Prerequisite"
 
 #: ../../002_install.md:3
 msgid "FCSは、以下スペックのPCで利用することができます。"
@@ -42,7 +42,7 @@ msgstr ""
 
 #: ../../002_install.md:16
 msgid "**事前インストール**"
-msgstr "**Prior installation**"
+msgstr "**Software**"
 
 #: ../../002_install.md:17
 msgid "必須"
