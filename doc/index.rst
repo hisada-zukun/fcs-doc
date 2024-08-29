@@ -12,6 +12,7 @@ FCSマニュアル
    000_release_note.md
    001_intro.md
    002_install.md
+   013_install_fcs.md
    003_overview.md
    004_launch.md
    005_session.md
