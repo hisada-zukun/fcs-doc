@@ -8,7 +8,8 @@ FCSマニュアル
 .. toctree::
    :maxdepth: 2
    :caption: コンテンツ:
-
+   
+   000_release_note.md
    001_intro.md
    002_install.md
    003_overview.md
