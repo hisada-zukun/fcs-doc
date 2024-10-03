@@ -29,7 +29,7 @@ Sync：☑ 数値操作をMayaと連動する
 Selected  
 Upper/Eyelid/Gaze/Lower：Region　部位の区分ごとにコントローラーを登録  
 Remove：☑ を入れたコントローラーを削除する  
-select All/Unselect All：controller上に表示されているコントローラーすべてに- [x] /- [x] 解除 
+select All/Unselect All：controller上に表示されているコントローラーすべてに ☑ / ☑ 解除 
 
 ▼Advanced  
 Remove empty：Regionが登録されていないコントローラー(null)を削除する  
