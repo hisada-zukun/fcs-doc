@@ -8,58 +8,114 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-11 12:30+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2024-10-10 16:25+0900\n"
+"PO-Revision-Date: 2024-09-26 22:02+0900\n"
+"Last-Translator: \n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.16.0\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../095_roadmap.md:1
 msgid "開発ロードマップ"
-msgstr ""
+msgstr "development roadmap"
 
 #: ../../095_roadmap.md:2
-msgid "FCSは継続開発中のソフトであり、開発のロードマップの一部を以下に公開しております。あくまでも参考用で、将来のソフトに対する機能の実装を保証するものではございません。また、リストの順番は実装の優先順位を示すものではございません、ご了承ください。"
-msgstr ""
-
-#: ../../095_roadmap.md:4
+#, fuzzy
 msgid ""
-"また、機能要望の受付も行っており、メールなどでご連絡ください。   "
-"一定以上のライセンスを購入していただく、もしくは別途料金で御社のパイプラインに最適化するなどのビルドを作成することも可能ですので、個別にご連絡ください。"
+"FCSは継続開発中のソフトです。ロードマップの一部を以下に公開しております。   "
+"これらは将来のソフトに対する機能の実装を保証するものではなく、実装の優先順位を示すものではございません。ご了承ください。"
 msgstr ""
+"FCS is software currently under ongoing development, and we have "
+"published part of the development roadmap below. Please note that this is"
+" for reference only and does not guarantee the implementation of the "
+"features in future software updates. Additionally, the order of the list "
+"does not reflect the priority of implementation. Thank you for your "
+"understanding."
 
-#: ../../095_roadmap.md:7
-msgid "Linuxビルド    Mayaが利用できるLinuxバージョン（distro）に対するFCSビルド"
-msgstr ""
-
-#: ../../095_roadmap.md:10
+#: ../../095_roadmap.md:5
 msgid ""
-"リアルタイム動画生成    リアルタイムでアニメーション出力プログラム作成    サンプルエンジンコード(Unity, Unreal, "
-"Motion Builder)作成"
+"機能要望の受付も行っております。御社のパイプラインに最適化したビルドを作成することも可能[^1]ですので、   "
+"質問・要望・不具合などありましたら[HELTECホームページ](https://sensing.heltec.co.jp/product"
+"/zukun-lab/fcs/)までご連絡ください。"
 msgstr ""
 
-#: ../../095_roadmap.md:14
-msgid "自動ピックアップ機能    動画から自動的に適切な画像をGalleryに追加する機能追加"
+#: ../../095_roadmap.md:11
+msgid "リアルタイム動画生成     リアルタイムでのアニメーション解析・出力プログラムの作成 <br>"
 msgstr ""
 
-#: ../../095_roadmap.md:17
-msgid "ランドマーク検出器の改善   ツークン所持の撮影デバイスライトステージで高品質データによるランドマーク検出器改善"
+#: ../../095_roadmap.md:15
+msgid "サンプルエンジンコードの作成     (Unity, Unreal Engine, Motion Builder) <br>"
 msgstr ""
 
-#: ../../095_roadmap.md:20
-msgid "自動リターゲット機能搭載     アルゴリズムによる任意のリグに対し、大まかなリターゲットを自動的に行う機能を追加"
+#: ../../095_roadmap.md:19
+#, fuzzy
+msgid ""
+"ランドマーク検出器の改善    ツークン研究所の所持するスキャンシステム「LightStage」の高品質データを用いたランドマーク検出器の改善"
+"   <br>"
 msgstr ""
+"Landmark Detector Improvement      Improving the landmark detector using "
+"high-quality data from Zukun’s proprietary shooting device and light "
+"stage."
 
 #: ../../095_roadmap.md:23
-msgid "処理の高速化"
+#, fuzzy
+msgid "自動リターゲット機能の搭載      任意のリグに対し、大まかなリターゲットを自動的に行う機能を追加   <br>"
+msgstr ""
+"Equipped with automatic retargeting functions      An algorithm adds the "
+"capability to automatically perform rough retargeting on any rig"
+
+#: ../../095_roadmap.md:27
+#, fuzzy
+msgid "処理の高速化   <br>"
+msgstr "Accelerated processing"
+
+#: ../../095_roadmap.md:30
+#, fuzzy
+msgid "Unreal Engineによるリターゲットへの対応    現在のFCSにおけるMaya機能をUnreal Engineにも対応"
+msgstr ""
+"Retargeting support with Unreal Engine     Extending the Maya features in"
+" FCS to Unreal Engine"
+
+#: ../../095_roadmap.md:7
+msgid "一定数以上のライセンス購入などの条件・追加料金が発生する場合がございます。 <br> <br>"
 msgstr ""
 
-#: ../../095_roadmap.md:25
-msgid "Unreal Engineによるリターゲット対応   今FCSにおけるMayaの機能をUnreal Engineにも対応"
-msgstr ""
+#~ msgid ""
+#~ "また、機能要望の受付も行っており、メールなどでご連絡ください。   "
+#~ "一定以上のライセンスを購入していただく、もしくは別途料金で御社のパイプラインに最適化するなどのビルドを作成することも可能ですので、個別にご連絡ください。"
+#~ msgstr ""
+#~ "We are also accepting feature requests,"
+#~ " so please feel free to contact "
+#~ "us via email. It is also possible"
+#~ " to create builds optimized for your"
+#~ " pipeline, either by purchasing a "
+#~ "certain level of license or for an"
+#~ " additional fee. Please contact us "
+#~ "individually for more details."
+
+#~ msgid "Linuxビルド    Mayaが利用できるLinuxバージョン（distro）に対するFCSビルド"
+#~ msgstr ""
+#~ "Linux Build     FCS builds for Linux "
+#~ "versions (distros) that support Maya."
+
+#~ msgid ""
+#~ "リアルタイム動画生成    リアルタイムでアニメーション出力プログラム作成    "
+#~ "サンプルエンジンコード(Unity, Unreal, Motion Builder)作成"
+#~ msgstr ""
+#~ "Real-time Video Generation     Creation "
+#~ "of a program for real-time "
+#~ "animation output.    Development of sample "
+#~ "engine code (Unity, Unreal, Motion "
+#~ "Builder)."
+
+#~ msgid "自動ピックアップ機能    動画から自動的に適切な画像をGalleryに追加する機能追加"
+#~ msgstr ""
+#~ "Automatic Pickup Feature      Addition of "
+#~ "a function that automatically selects "
+#~ "and adds appropriate images from videos"
+#~ " to the Gallery."
 

@@ -6,18 +6,19 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: FCS Manual \n"
+"Project-Id-Version: FCS Manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-09 15:18+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
+"PO-Revision-Date: 2024-09-26 23:05+0900\n"
+"Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.9.1\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../../099_よくある質問.md:1
 msgid "よくある質問（FAQ）"
@@ -29,176 +30,229 @@ msgstr "Using FCS"
 
 #: ../../099_よくある質問.md:8
 msgid ""
-"**ネット接続は必須です。ライセンス情報の定期的なチェックにインターネットが必要です。   Wi-"
-"Fi接続も可能ですが、有線接続を推奨しています。**"
+"**ネット接続は必須です。ライセンス情報の定期的なチェックにインターネットが必要です。   Wi-Fi接続"
+"も可能ですが、有線接続を推奨しています。**"
 msgstr ""
-"**FCS requires constant internet access for checking the validity of the license.    "
-"WiFi should work but we recommend using wired internet.**"
-
+"**FCS requires constant internet access for checking the validity of the license.    WiFi should "
+"work but we recommend using wired internet.**"
 
 #: ../../099_よくある質問.md:17
 msgid ""
-"**最低スペック：   CPU：Intel Core i5-9400F   GPU：-    メモリー：DDR4 16GB以上   推奨スペック："
-"   CPU：Intel Core i7-13700K   GPU：Nvidia RTX 3080   メモリー：DDR4 128GB以上**"
+"**最低スペック：   CPU：Intel Core i5-9400F   GPU：-    メモリー：DDR4 16GB以上   推奨スペッ"
+"ク：   CPU：Intel Core i7-13700K   GPU：Nvidia RTX 3080   メモリー：DDR4 128GB以上**"
 msgstr ""
+"**Minimum Specs:   CPU: Intel Core i5-9400F    GPU: -   Memory: DDR4 16GB or more     "
+"Recommended Specs:     CPU: Intel Core i7-13700K    GPU: Nvidia RTX 3080    Memory: DDR4 128GB "
+"or more"
 
 #: ../../099_よくある質問.md:33
 msgid ""
-"**専用のカメラは不要です。   "
-"市販のカメラ（Gopro、iPhone、Androidなど）を使用できます。固定カメラやヘッドマウントカメラも問題ありません。   "
-"ご購入前に30日の無償トライアルライセンスで動作確認をおすすめします。**"
+"**専用のカメラは不要です。   市販のカメラ（Gopro、iPhone、Androidなど）を使用できます。固定カメラ"
+"やヘッドマウントカメラも問題ありません。   ご購入前に30日の無償トライアルライセンスで動作確認をお"
+"すすめします。**"
 msgstr ""
-"**No specific camera is required   "
-"Commercial cameras (i.e., Gopro, iPhone) would work, both table mounted or head mounted.   "
-"You can test your own footage with our 30 days free trials. (No credit card required.) **"
-
+"**No specific camera is required   Commercial cameras (i.e., Gopro, iPhone) would work, both "
+"table mounted or head mounted.   You can test your own footage with our 30 days free trials. (No "
+"credit card required.) **"
 
 #: ../../099_よくある質問.md:44
 msgid "**現時点では対応していませんが、将来的には対応する予定です。（※2024年6月現在）**"
-msgstr "**Not currently supported**"
+msgstr ""
+"**It is not supported at this time, but it is planned to be supported in the future. (As of June "
+"2024)**"
 
 #: ../../099_よくある質問.md:53
 msgid "**Mayaが必要です。（Maya 2018/2020/2022/2023/2024に対応）**"
-msgstr "**Maya is required. (Maya 2018/2020/2022/2023/2024に対応)**"
+msgstr "**Maya is required. (Compatible with Maya 2018/2020/2022/2023/2024)**"
 
 #: ../../099_よくある質問.md:56 ../../099_よくある質問.md:208
 msgid "<br><br>"
-msgstr ""
+msgstr "<br><br>"
 
 #: ../../099_よくある質問.md:58
 msgid "FCSの機能について"
-msgstr "Features"
+msgstr "FCS features"
 
 #: ../../099_よくある質問.md:63
 msgid "**FCSはオートトラッキングを搭載しているため、アクターにマーカーを付ける必要はありません。**"
 msgstr ""
+"**Since FCS is equipped with auto-tracking, there is no need to apply markers to the actor.**"
 
 #: ../../099_よくある質問.md:72
 msgid "**オートトラッキングのため、ランドマークのズレは修正できません。**"
-msgstr ""
+msgstr "**Due to auto-tracking, landmark misalignment cannot be corrected.**"
 
 #: ../../099_よくある質問.md:81
 msgid "**舌のトラッキングには対応していません。**"
-msgstr ""
+msgstr "**Tongue tracking is not supported.**"
 
 #: ../../099_よくある質問.md:89
 msgid "**FCSはモーフだけでなくスケルトンにも対応しています。**"
-msgstr ""
+msgstr "**FCS supports not only morphs but also skeletons.**"
 
 #: ../../099_よくある質問.md:97
-msgid "**同じリグであればできます。   Exportで新しいセッションファイルを作成していただき、紐付けるMayaファイルを変更してください。**"
+msgid ""
+"**同じリグであればできます。   Exportで新しいセッションファイルを作成していただき、紐付けるMaya"
+"ファイルを変更してください。**"
 msgstr ""
+"**It is possible if it’s the same rig. Please create a new session file through Export, and "
+"change the Maya file you want to link.**"
 
 #: ../../099_よくある質問.md:107
 msgid "**プロジェクトファイルを一度設定すれば、FCSからMayaをワンクリックで起動できます。**"
-msgstr ""
+msgstr "**Once the project file is set up, you can launch Maya with a single click from FCS.**"
 
 #: ../../099_よくある質問.md:115
 msgid "**現時点ではできませんが、将来的には対応する予定です。（※2024年6月現在）**"
 msgstr ""
+"**It is not possible at this time, but we plan to provide support in the future. (As of June "
+"2024)**"
 
 #: ../../099_よくある質問.md:124
-msgid "**ProfileにはROM体操が必須ではありませんが、精度向上のために追加することをおすすめします。**"
+msgid ""
+"**ProfileにはROM体操が必須ではありませんが、精度向上のために追加することをおすすめします。**"
 msgstr ""
+"**While ROM is not mandatory for the profile, it is recommended to add it for improved accuracy."
+"**"
 
 #: ../../099_よくある質問.md:133
 msgid ""
-"**その際はMayaで手動でポート解放してください。   Maya起動後、以下のコマンドをスクリプトエディター(Mel)に入力してください。"
-"     ```commandPort -stp \"python\" -n \":42069\"```   "
-"Mayaを起動するスクリプトに同じコマンドをテクニカル担当者様に追加していただければ同じ挙動ができるようになります。     "
-"すでにポート42069が使われていた際、Settingsでポートを変更できるようになっております。**"
+"**その際はMayaで手動でポート解放してください。   Maya起動後、以下のコマンドをスクリプトエディター"
+"(Mel)に入力してください。     ```commandPort -stp \"python\" -n \":42069\"```   Mayaを起動するス"
+"クリプトに同じコマンドをテクニカル担当者様に追加していただければ同じ挙動ができるようになりま"
+"す。     すでにポート42069が使われていた際、Settingsでポートを変更できるようになっております。**"
 msgstr ""
+"**In that case, please manually open the port in Maya. After launching Maya, enter the following "
+"command in the script editor (Mel): commandPort -stp “python” -n “:42069” If you ask your "
+"technical staff to add the same command to the script that launches Maya, you will achieve the "
+"same behavior. If port 42069 is already in use, you can change the port in Settings.**"
 
 #: ../../099_よくある質問.md:145
-msgid "**手順書以外のコントローラーリグでもUpper/eyelid/gaze/lowerに分類できる場合、任意で追加できます。**"
+msgid ""
+"**手順書以外のコントローラーリグでもUpper/eyelid/gaze/lowerに分類できる場合、任意で追加できます。"
+"**"
 msgstr ""
+"**If the controller rig other than the instruction manual can be categorized as Upper/eyelid/"
+"gaze/lower, it can be added optionally.**"
 
 #: ../../099_よくある質問.md:153
 msgid ""
-"**コントローラーのあるリグであれば基本的に対応しています。   "
-"ブレンドシェイプやジョイントでもコントローラー登録とアニメーション出力が可能です。**"
+"**コントローラーのあるリグであれば基本的に対応しています。   ブレンドシェイプやジョイントでもコン"
+"トローラー登録とアニメーション出力が可能です。**"
 msgstr ""
+"**It generally supports rigs with controllers. Blend shapes and joints can also be registered as "
+"controllers and allow for animation output.**"
 
 #: ../../099_よくある質問.md:162
-msgid "**画角が同じであれば撮影場所が変わっても問題ありません。   Profileのピックアップを追加することで対応できます。**"
+msgid ""
+"**画角が同じであれば撮影場所が変わっても問題ありません。   Profileのピックアップを追加することで"
+"対応できます。**"
 msgstr ""
+"**As long as the angle of view is the same, it is not a problem if the shooting location "
+"changes. You can accommodate this by adding a pickup in the profile.**"
 
 #: ../../099_よくある質問.md:172
-msgid "**極端に解像度の低い（480P以下）、または画質が悪いもの（照明が極めて暗い）を除き、動画の画質はオートトラッキング精度への影響が少ないです。**"
+msgid ""
+"**極端に解像度の低い（480P以下）、または画質が悪いもの（照明が極めて暗い）を除き、動画の画質は"
+"オートトラッキング精度への影響が少ないです。**"
 msgstr ""
+"**Except for extremely low resolution (below 480P) or poor quality (extremely dark lighting) "
+"videos, the quality of the video has little impact on auto-tracking accuracy.**"
 
 #: ../../099_よくある質問.md:181
-msgid "**できれば明るい場所で撮影してください。また、アクションシーンなどではフレームレートの高いカメラでモーションブラーの少ない撮影を心がけていただければ問題ありません。**"
+msgid ""
+"**できれば明るい場所で撮影してください。また、アクションシーンなどではフレームレートの高いカメラ"
+"でモーションブラーの少ない撮影を心がけていただければ問題ありません。**"
 msgstr ""
+"**If possible, please shoot in a well-lit area. Additionally, for action scenes, it is advisable "
+"to use a high frame rate camera to minimize motion blur, but this is not a problem.**"
 
 #: ../../099_よくある質問.md:189
 msgid ""
-"**FCSの File▶Setting にて各種項目を変更できます。   変更した内容は、再起動後に反映されるため、再起動が必要です。** "
-"![](images/Set001.png)"
+"**FCSの File▶Setting にて各種項目を変更できます。   変更した内容は、再起動後に反映されるため、再"
+"起動が必要です。** ![](images/Set001.png)"
 msgstr ""
+"**You can change various items in FCS under File ▶ Settings. Changes will be reflected after "
+"restarting, so a restart is required."
 
 #: ../../099_よくある質問.md:199
 msgid "**FCSの View▶Layout にて登録時のレイアウト情報を保存できます。**"
-msgstr ""
+msgstr "**You can save the layout information at registration in FCS under View ▶ Layout.**"
 
 #: ../../099_よくある質問.md:201
 msgid "View▶Layout▶Save current　で　「Layout Registration」ウィンドウを起動<br>"
-msgstr ""
+msgstr "Activate the “Layout Registration” window by selecting View ▶ Layout ▶ Save Current.<br>"
 
 #: ../../099_よくある質問.md:202
 msgid "「Layout Name」を入力し<br>"
-msgstr ""
+msgstr "Enter the “Layout Name”<br>"
 
 #: ../../099_よくある質問.md:203
 msgid "Save<br> で登録することができます ![](images/Layout_02_Open-Save.png)"
-msgstr ""
+msgstr "You can register by clicking Save<br>![](images/Layout_02_Open-Save.png)"
 
 #: ../../099_よくある質問.md:210
 msgid "ライセンスについて"
-msgstr ""
+msgstr "Regarding license "
 
 #: ../../099_よくある質問.md:215
 msgid "**できません。ただし、同時に起動しなければ複数台のPCで作業可能です。**"
 msgstr ""
+"**No, it is not possible. However, you can work on multiple PCs as long as they are not launched "
+"simultaneously.**"
 
 #: ../../099_よくある質問.md:223
-msgid "**年間サブスクリプションは40万円（税抜き）です。2024年12月末までに購入される方には、1ライセンスにつきもう1ライセンスが無償で付与されます。**"
+msgid ""
+"**年間サブスクリプションは40万円（税抜き）です。2024年12月末までに購入される方には、1ライセンスに"
+"つきもう1ライセンスが無償で付与されます。**"
 msgstr ""
+"**The annual subscription is 400,000 yen (excluding tax). For those who purchase by the end of "
+"December 2024, an additional license will be granted free of charge for each license purchased.**"
 
 #: ../../099_よくある質問.md:231
-msgid "**購入後、自動的に契約更新は行われません。サブスクリプション終了1ヵ月前にFCSソフト内でポップアップが表示され、更新を希望する場合は弊社担当者にご連絡いただく必要があります。**"
+msgid ""
+"**購入後、自動的に契約更新は行われません。サブスクリプション終了1ヵ月前にFCSソフト内でポップアッ"
+"プが表示され、更新を希望する場合は弊社担当者にご連絡いただく必要があります。**"
 msgstr ""
+"**After purchase, the contract will not automatically renew. A popup will appear in the FCS "
+"software one month before the subscription ends, and if you wish to renew, you will need to "
+"contact our representative.**"
 
 #: ../../099_よくある質問.md:239
-msgid "**特別な操作は必要ありません。サブスクリプション終了期間までは使用できますが、終了後は使用できなくなります。**"
+msgid ""
+"**特別な操作は必要ありません。サブスクリプション終了期間までは使用できますが、終了後は使用できな"
+"くなります。**"
 msgstr ""
+"**No special actions are required. You can use it until the subscription period ends, but it "
+"will no longer be usable afterward.**"
 
 #: ../../099_よくある質問.md:247
 msgid "**年間でのサブスクリプション契約のため、途中解約での返金はありません。**"
 msgstr ""
+"**Since it is an annual subscription contract, there are no refunds for early cancellation.**"
 
 #: ../../099_よくある質問.md:255
 msgid ""
-"**トライアルは30日間お試しいただけます。   "
-"詳細は[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。**"
+"**トライアルは30日間お試しいただけます。   詳細は[HELTECホームページ](https://sensing.heltec.co."
+"jp/contact/)からお問い合わせください。**"
 msgstr ""
+"**You can try the trial for 30 days. For more details, please contact us through the [HELTEC "
+"webpage].(https://sensing.heltec.co.jp/contact/)**"
 
 #: ../../099_よくある質問.md:264
 msgid ""
-"**トライアル版から製品版への移行には別途購入手続きが必要です。   "
-"詳細は[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。**"
+"**トライアル版から製品版への移行には別途購入手続きが必要です。   詳細は[HELTECホームページ]"
+"(https://sensing.heltec.co.jp/contact/)からお問い合わせください。**"
 msgstr ""
+"**A separate purchase process is required to transition from the trial version to the full "
+"version. For more details, please contact us through the [HELTEC website].(https://sensing."
+"heltec.co.jp/contact/)**"
 
 #: ../../099_よくある質問.md:273
 msgid ""
-"**ライセンス情報をチェックするサーバーに問題が生じている状況です。   "
-"サーバー側での対応が必要ですので、[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からご連絡ください。**"
+"**ライセンス情報をチェックするサーバーに問題が生じている状況です。   サーバー側での対応が必要です"
+"ので、[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からご連絡ください。**"
 msgstr ""
-
-#~ msgid ""
-#~ " - View▶Layout▶Save current　で　「Layout"
-#~ " Registration」ウィンドウを起動<br>  - 「Layout "
-#~ "Name」を入力し<br>  - Save<br> で登録することができます "
-#~ "![](images/Layout_02_Open-Save.png)"
-#~ msgstr ""
-
+"**There is an issue with the server that checks the license information. Since action is "
+"required on the server side, please contact us through the [HELTEC website].(https://sensing."
+"heltec.co.jp/contact/)**"

@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS 24.07 Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-10 12:56+0900\n"
-"PO-Revision-Date: 2024-07-27 22:52+0900\n"
+"POT-Creation-Date: 2024-10-10 16:25+0900\n"
+"PO-Revision-Date: 2024-09-25 07:24+0900\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -18,7 +18,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../008_profile.md:1 ../../008_profile.md:120
 msgid "Profileの作成"
@@ -42,18 +42,16 @@ msgstr ""
 "window, you can open and import the video you want to analyze"
 
 #: ../../008_profile.md:11
-#, fuzzy
 msgid "import ![](images/P002.png)"
-msgstr " - import ![](images/P002.png)"
+msgstr "import ![](images/P002.png)"
 
 #: ../../008_profile.md:14
 msgid "ウィンドウがポップアップされるので"
 msgstr "A popup will appear"
 
 #: ../../008_profile.md:15
-#, fuzzy
 msgid "解析したい動画をクリックし開く ![](images/P003.png)"
-msgstr "Click on the footage to import ![](images/P003.png)"
+msgstr "Click to open the video you want to analyze ![](images/P003.png)"
 
 #: ../../008_profile.md:19
 msgid "Shift+クリックで複数同時にimportできます。"
@@ -86,9 +84,8 @@ msgid "[7967]：現在のフレーム数"
 msgstr "[7967]： current frame count"
 
 #: ../../008_profile.md:31
-#, fuzzy
 msgid "|< >|：1フレーム前/後に移動する"
-msgstr "|< >|：1 frame"
+msgstr "|< >|: Move 1 frame backward/forward."
 
 #: ../../008_profile.md:32
 msgid "<< >>：登録したprofileにジャンプする"
@@ -106,10 +103,10 @@ msgstr ""
 
 #: ../../008_profile.md:35
 #, fuzzy
-msgid "Sync：- [x] でTimeline操作状況をMayaのTimeSliderと一致させる"
+msgid "Sync：☑ でTimeline操作状況をMayaのTimeSliderと一致させる"
 msgstr ""
-"Sync: match the timeline operation status with Maya’s TimeSlider by "
-"clicking ✅"
+"Sync: With - [x], synchronize the timeline operations with Maya’s "
+"TimeSlider."
 
 #: ../../008_profile.md:36
 msgid "EveryFrame/Realtime：再生速度を変更する"
@@ -121,20 +118,21 @@ msgstr "Video: video name displayed in the video player"
 
 #: ../../008_profile.md:39
 msgid "Editorの画面説明"
-msgstr "Editor"
+msgstr "Explanation of the Editor screen"
 
 #: ../../008_profile.md:41
-#, fuzzy
 msgid "![](images/P007.png) Sync:"
-msgstr "![](images/P007.png) No Sync▼"
+msgstr "![](images/P007.png) No Sync▼:"
 
 #: ../../008_profile.md:43
 msgid "To Maya：登録されているprofile情報をMayaに転送する"
-msgstr ""
+msgstr "To Maya: Transfer the registered profile information to Maya."
 
 #: ../../008_profile.md:44
 msgid "From Maya at save：saveする際にMaya上での調整データを取得しFCSに反映する"
 msgstr ""
+"From Maya at save: When saving, retrieve the adjustment data from Maya "
+"and reflect it in FCS."
 
 #: ../../008_profile.md:45
 msgid "Both：FCSとMayaを双方向で連動させる"
@@ -155,11 +153,10 @@ msgstr ""
 "using Both for the first time."
 
 #: ../../008_profile.md:54
-#, fuzzy
 msgid "Neutral：デフォルトの表情として必ず1つ登録する   Enabled：解析する素材として使用する"
 msgstr ""
 "Neutral: Always register one as a default expression   Enabled：Use as "
-"material to analyze/□Do not use"
+"material to analyze"
 
 #: ../../008_profile.md:57
 msgid "Controller▼"
@@ -178,7 +175,6 @@ msgid "▼Region"
 msgstr "▼Region"
 
 #: ../../008_profile.md:62
-#, fuzzy
 msgid "Upper/Eyelid/Gaze/Lower：調整した情報を登録する"
 msgstr "Upper/Eyelid/Gaze/Lower：Register adjusted information"
 
@@ -249,105 +245,129 @@ msgid ""
 "◀▶：1列に表示するprofileの数を変更する。◀を押すと少なく、▶を押すと多くなる。最小3、最大10。 "
 "Count:○○：登録しているprofileの総数"
 msgstr ""
+"◀▶: Change the number of profiles displayed in a single column. Press ◀ "
+"to decrease and ▶ to increase. The minimum is 3, and the maximum is 10. "
+"Count: ○○: The total number of registered profiles."
 
 #: ../../008_profile.md:93
 msgid "All▼：該当する項目を絞り込む"
-msgstr ""
+msgstr "All ▼: Filter the relevant items."
 
 #: ../../008_profile.md:94
 msgid "All：すべてのprofileを表示する"
-msgstr ""
+msgstr "All:  Display all profiles"
 
 #: ../../008_profile.md:95
-msgid "Enabled：解析に使用するprofileを表示する。Enabledに- [x] を入れて登録したprofileが対象となる。"
+#, fuzzy
+msgid "Enabled：解析に使用するprofileを表示する。Enabledに ☑ を入れて登録したprofileが対象となる。"
 msgstr ""
+"Enabled: Display profiles used for analysis. Profiles with a check in the"
+" Enabled box - [x] will be targeted."
 
 #: ../../008_profile.md:96
-msgid "Disabled：解析に使用しないprofileを表示する。Enabledに- [x] を入れず登録したprofileが対象となる。"
+#, fuzzy
+msgid "Disabled：解析に使用しないprofileを表示する。Enabledに ☑ を入れず登録したprofileが対象となる。"
 msgstr ""
+"Disabled: Display profiles not used for analysis. Profiles registered "
+"without a check in the Enabled box - [x] will be targeted."
 
 #: ../../008_profile.md:97
 msgid "Default：数値がdefaultのprofileを表示する。"
-msgstr ""
+msgstr "Default: Display profiles with default values."
 
 #: ../../008_profile.md:98
 msgid "Not Default：数値がdefaultではないprofileを表示する。"
-msgstr ""
+msgstr "Not Default: Display profiles with values that are not set to default."
 
 #: ../../008_profile.md:99
 msgid "Neutral：Neutralにチェックを入れて登録したprofileを表示する。"
-msgstr ""
+msgstr "Neutral: Display profiles registered with the Neutral box checked."
 
 #: ../../008_profile.md:100
-msgid "（Region）Enabled：該当する（Region）に- [x] を入れて登録したprofileを表示する。"
+#, fuzzy
+msgid "（Region）Enabled：該当する（Region）に ☑ を入れて登録したprofileを表示する。"
 msgstr ""
+"(Region) Enabled: Display profiles registered with a check in the "
+"(Region) Enabled box - [x]."
 
 #: ../../008_profile.md:101
-msgid "（Region）Disabled：該当する（Region）に- [x] を入れず登録したprofileを表示する。"
+#, fuzzy
+msgid "（Region）Disabled：該当する（Region）に ☑ を入れず登録したprofileを表示する。"
 msgstr ""
+"(Region) Disabled: Display profiles registered without a check in the "
+"(Region) Disabled box - [x]."
 
 #: ../../008_profile.md:103
+#, fuzzy
 msgid ""
-"Sync timeline- [x] ：登録したprofileと同じ動画を開いた状態でprofileを選択すると、該当するフレームにジャンプする。"
-" ▼▲：ソートの昇順 降順を変更する"
+"Sync timeline ☑ ：登録したprofileと同じ動画を開いた状態でprofileを選択すると、該当するフレームにジャンプする。 "
+"▼▲：ソートの昇順 降順を変更する"
 msgstr ""
+"Sync timeline - [x]: When a profile is selected while the same video as "
+"the registered profile is open, it will jump to the corresponding frame. "
+"▼▲: Change the sort order between ascending and descending."
 
 #: ../../008_profile.md:106
 msgid "Video▼：ソート機能"
-msgstr ""
+msgstr "Video ▼: Sorting function."
 
 #: ../../008_profile.md:107
 msgid "Video：profileのName順にソート"
-msgstr ""
+msgstr "Video: Sort profiles by Name."
 
 #: ../../008_profile.md:108
 msgid "Created At：profileを作成した日時で順にソート"
-msgstr ""
+msgstr "Created At: Sort profiles in order of creation date and time."
 
 #: ../../008_profile.md:109
 msgid "Saved At：saveした日時で順にソート"
-msgstr ""
+msgstr "Saved At: Sort profiles in order of the date and time they were saved."
 
 #: ../../008_profile.md:110
 msgid "（controller名）：該当する（controller）に登録した数値でソート"
 msgstr ""
+"(controller name): Sort by the values registered for the corresponding "
+"controller."
 
 #: ../../008_profile.md:112
 msgid "ピックアップした画像"
-msgstr ""
+msgstr "Selected images"
 
 #: ../../008_profile.md:113
 #, fuzzy
-msgid "緑：「Neutral」に- [x] を入れて登録したProfile"
-msgstr "Green: profile registered with Neutral"
+msgid "緑：「Neutral」に ☑ を入れて登録したProfile"
+msgstr "Green: Profile registered with the “Neutral” box checked - [x]."
 
 #: ../../008_profile.md:114
 msgid "赤：数値がデフォルト状態/未編集のProfile"
-msgstr ""
+msgstr "Red: Profile with default or unedited values."
 
 #: ../../008_profile.md:115
 msgid "青：選択中（編集中）のprofile"
-msgstr ""
+msgstr "Blue: Currently selected (being edited) profile."
 
 #: ../../008_profile.md:116
-msgid "黒：「Enabled」の- [x] を外し、「Disabled」で登録したprofile"
+#, fuzzy
+msgid "黒：「Enabled」の ☑ を外し、「Disabled」で登録したprofile"
 msgstr ""
+"Black: Profile registered with the “Enabled” box unchecked - [x] and "
+"marked as “Disabled.”"
 
 #: ../../008_profile.md:117
 msgid "白：リターゲット後、登録したprofile"
-msgstr ""
+msgstr "White: Profile registered after retargeting."
 
 #: ../../008_profile.md:122
-#, fuzzy
 msgid ""
 "様々な表示のProfileを追加することで解析の精度が上がっていきます。   "
 "単純に数が多ければ良いわけではなく、似た表情のProfileに対し、コントローラーの数字が違ってしまった場合、ノイズになってしまうため注意が必要です。"
 " また、解析する動画毎にProfileを1つ以上作成する必要があります。"
 msgstr ""
-"Adding profiles of various expressions will increase the accuracy of the "
-"analysis. (Note that adding a large number of profiles does not simply "
-"increase the accuracy. If the values in the registered controllers are "
-"incorrect, it will come out as noise.)"
+"By adding various profiles, the accuracy of the analysis improves. "
+"However, simply increasing the number of profiles is not enough. If the "
+"controller values differ for similar expressions, it can introduce noise,"
+" so attention must be paid. Additionally, you need to create at least one"
+" profile for each video being analyzed."
 
 #: ../../008_profile.md:127
 msgid "ROM体操と呼ばれる約50個のProfileの作成をオススメしています ROM体操の表情については、スターターキットをご参照ください"
@@ -360,6 +380,9 @@ msgid ""
 "profileには基本的に全てのRegionの登録を推奨していますが 一部例外があります。 「Profileを作成するときの注意点 "
 "目を閉じる/薄目の時のGaze登録について」をご参照ください"
 msgstr ""
+"It is generally recommended to register all regions in a profile, but "
+"there are some exceptions. Please refer to “Note: When Creating Profiles:"
+" Gaze Registration for Closed or Half-Closed Eyes.”"
 
 #: ../../008_profile.md:136
 msgid "解析したい動画の読み込み方法"
@@ -367,12 +390,11 @@ msgstr "Load the video you want to analyze:"
 
 #: ../../008_profile.md:138
 msgid "開いた動画ファイル名の上で右クリック"
-msgstr ""
+msgstr "Right-click on the name of the opened video file."
 
 #: ../../008_profile.md:139
-#, fuzzy
 msgid "Open ![](images/P005.png)"
-msgstr "![](images/P029.png)"
+msgstr "Open ![](images/P005.png)"
 
 #: ../../008_profile.md:142
 msgid "VideoPlayerに動画が表示されます。 ![](images/P006.png)"
@@ -384,27 +406,23 @@ msgstr "Adding Profile:"
 
 #: ../../008_profile.md:147
 msgid "VideoTimelineウィンドウの"
-msgstr ""
+msgstr "On the VideoTimeline window, "
 
 #: ../../008_profile.md:148
-#, fuzzy
 msgid "スライダーを動かし表情の登録を行いたいフレームで止め"
 msgstr ""
-" - Move the slider on Video Timeline window and stop at the frame where "
-"you want to register a facial expression in the Video and click +.    The"
-" image of the specified frame will be added to the Gallery."
+"move the slider and stop at the frame where you want to register the "
+"expression."
 
 #: ../../008_profile.md:149
 msgid "+を押す"
-msgstr ""
+msgstr "press +"
 
 #: ../../008_profile.md:150
-#, fuzzy
 msgid "Galleryに指定したフレームの画像が追加される ![](images/P009.png)"
 msgstr ""
-" - Move the slider on Video Timeline window and stop at the frame where "
-"you want to register a facial expression in the Video and click +.    The"
-" image of the specified frame will be added to the Gallery."
+"An image of the specified frame will be added to the Gallery. "
+"![](images/P009.png)"
 
 #: ../../008_profile.md:154 ../../008_profile.md:179 ../../008_profile.md:214
 #: ../../008_profile.md:265
@@ -416,28 +434,26 @@ msgid "Neutralの表情の登録"
 msgstr "Registering Neutral facial expressions"
 
 #: ../../008_profile.md:159
-#, fuzzy
 msgid ""
 "Neutral表情とは、アクターの表情筋に力が入っていないナチュラルな表情のことです。   "
 "セッション内で必ず一つNeutral表情を設定してください。"
 msgstr ""
-"A Neutral facial expression is a natural state the actor’s face is in "
-"when muscles are not strained.   \n"
-"Make sure to set one Neutral facial expression in the session.   Mark "
-"Neutral ✅   Change to any name    - Save ![](images/P010.png)"
+"A neutral expression refers to a natural expression where the actor’s "
+"facial muscles are relaxed. Be sure to set at least one neutral "
+"expression within each session."
 
 #: ../../008_profile.md:162
-msgid "Neutralに- [x]"
-msgstr ""
+#, fuzzy
+msgid "Neutralに ☑"
+msgstr "Check the box for Neutral - [x]"
 
 #: ../../008_profile.md:163
 msgid "任意の名前に変更"
-msgstr ""
+msgstr "Change the name to anything you like."
 
 #: ../../008_profile.md:164
-#, fuzzy
 msgid "Save ![](images/P010.png)"
-msgstr "![](images/P019.png)"
+msgstr "Save ![](images/P010.png)"
 
 #: ../../008_profile.md:168
 msgid "NeutralのProfileは登録が完了すると緑になります。"
@@ -452,27 +468,24 @@ msgid "Mayaで表情を調整する場合"
 msgstr "Adjust facial expressions in Maya"
 
 #: ../../008_profile.md:174 ../../008_profile.md:209 ../../008_profile.md:260
-#, fuzzy
 msgid "VideoTimelineウィンドウのスライダーを動かし表情の登録を行いたいフレームで止め+を押す"
 msgstr ""
-" - Move the slider on Video Timeline window and stop at the frame where "
-"you want to register a facial expression in the Video and click +.    The"
-" image of the specified frame will be added to the Gallery."
+"Move the slider on the VideoTimeline window, stop at the frame where you "
+"want to register the expression, and press the “+” button."
 
 #: ../../008_profile.md:176 ../../008_profile.md:211
-#, fuzzy
 msgid "Galleryに指定したフレームの画像が追加されます。 ![](images/P012.png)"
-msgstr "Video is displayed in Video Player ![](images/P006.png)"
+msgstr ""
+"An image of the specified frame will be added to the "
+"Gallery.![](images/P012.png)"
 
 #: ../../008_profile.md:181 ../../008_profile.md:216 ../../008_profile.md:268
-#, fuzzy
 msgid "追加した赤色の画像をクリックし、Editor画面に表示されている画像が同じであることを確認 ![](images/P013.png)"
 msgstr ""
-"Click on the added image in red and check if it matches with the image "
-"displayed in the Editor screen.![](images/P013.png)"
+"Click on the added red image and confirm that the image displayed in the "
+"Editor screen matches.![](images/P013.png)"
 
 #: ../../008_profile.md:184
-#, fuzzy
 msgid "Mayaのコントローラーリグで、追加したアクターの表情と同じになるようにキャラクターの表情を調節 ![](images/image90.png)"
 msgstr ""
 "By using a controller rig on Maya, adjust the facial expressions of "
@@ -480,11 +493,10 @@ msgstr ""
 "actor.![](images/image90.png)"
 
 #: ../../008_profile.md:187
-#, fuzzy
 msgid "From Mayaをクリック ![](images/P014.png) Mayaでの調整情報がFCSに反映されます。"
 msgstr ""
-" - Click From Maya ![](images/P014.png)The adjustment information in Maya"
-" is reflected in FCS."
+"Click From Maya ![](images/P014.png)The adjustment information in Maya is"
+" reflected in FCS."
 
 #: ../../008_profile.md:192
 msgid "Syncのプルダウンで「From Maya at save」もしくは「Both」にしている場合は、調整した数値が自動で同期されます。"
@@ -503,12 +515,11 @@ msgstr ""
 
 #: ../../008_profile.md:200
 msgid "Nameを任意の名前に変更"
-msgstr ""
+msgstr "Change the name to anything you like."
 
 #: ../../008_profile.md:201
-#, fuzzy
 msgid "Save ![](images/P015.png)"
-msgstr "![](images/P019.png)"
+msgstr "Save ![](images/P015.png)"
 
 #: ../../008_profile.md:204
 msgid "名前は必ずしも変更する必要はありません。"
@@ -536,16 +547,15 @@ msgstr ""
 "the default look.  Skip this process if it’s already set."
 
 #: ../../008_profile.md:228
-#, fuzzy
 msgid "Mayaのコントローラーリグで、追加したアクターの表情が同じになるようにキャラクターの表情を調節 ![](images/P020.png)"
 msgstr ""
-" - By using a controller rig on Maya, adjust the facial expressions of "
-"the character to match with the added expressions of the actor."
+"By using a controller rig on Maya, adjust the facial expressions of the "
+"character to match with the added expressions of the "
+"actor.![](images/P020.png)"
 
 #: ../../008_profile.md:231
-#, fuzzy
 msgid "To Mayaをクリック ![](images/P016.png)"
-msgstr " - Click “To Maya” ![](images/P016.png)"
+msgstr "Click “To Maya” ![](images/P016.png)"
 
 #: ../../008_profile.md:235
 msgid "Syncのプルダウンで「To Maya」もしくは「Both」にしている場合は、調整した数値が自動で同期されます。"
@@ -558,15 +568,12 @@ msgid "FCSで調整した内容がMayaに反映されます。 ![](images/P017.p
 msgstr "Adjustments made in FCS are reflected in Maya. ![](images/P017.png)"
 
 #: ../../008_profile.md:242
-#, fuzzy
 msgid "絞り込みたい項目（文字含む）のみ表示されるようにするには…"
-msgstr ""
-"To display only the selected items (including text)…  - Click on the item"
-" you want to show from the ▼Filter"
+msgstr "To display only the items (including text) you want to filter…"
 
 #: ../../008_profile.md:243
 msgid "▼Filterから搾りたい項目をクリック"
-msgstr ""
+msgstr "Click on the item you want to filter from ▼Filter."
 
 #: ../../008_profile.md:245
 msgid "![](images/P018.png)"
@@ -595,17 +602,14 @@ msgstr ""
 "Also note that it does not analyze the entire video."
 
 #: ../../008_profile.md:262
-#, fuzzy
 msgid "Galleryに指定したフレームの画像が追加される ![](images/P012.png)"
 msgstr ""
-" - Move the slider on Video Timeline window and stop at the frame where "
-"you want to register a facial expression in the Video and click +.    The"
-" image of the specified frame will be added to the Gallery."
+"An image of the specified frame will be added to the Gallery. "
+"![](images/P012.png)"
 
 #: ../../008_profile.md:271
-#, fuzzy
 msgid "Predict実行   valueの数値が変動します。 ![](images/P021.png)"
-msgstr " - Excute Predict   Displayed value will change. ![](images/P021.png)"
+msgstr "Execute Predict: The value numbers will fluctuate. ![](images/P021.png)"
 
 #: ../../008_profile.md:275
 msgid "MayaにPredict結果が出るので、   調整が必要な場合は調整し、登録できる内容になったら ![](images/P022.png)"
@@ -615,9 +619,8 @@ msgstr ""
 "[](images/P022.png)"
 
 #: ../../008_profile.md:279
-#, fuzzy
 msgid "Save ![](images/P023.png)"
-msgstr " - Save ![](images/P023.png)"
+msgstr "Save ![](images/P023.png)"
 
 #: ../../008_profile.md:283
 msgid "Profileを作成するときの注意点"
@@ -625,17 +628,15 @@ msgstr "Notes on creating a profile"
 
 #: ../../008_profile.md:285
 msgid "目を閉じる/薄目の時のGaze登録について"
-msgstr ""
+msgstr "Regarding Gaze registration for closed or half-closed eyes."
 
 #: ../../008_profile.md:287
 #, fuzzy
-msgid ""
-"目を閉じる、薄目のプロファイルで黒目が見えないものは登録する際にGazeの- [x] を外してください   "
-"解析結果の精度が低下してしまう可能性があります"
+msgid "目を閉じる、薄目のプロファイルで黒目が見えないものは登録する際にGazeの ☑ を外してください   解析結果の精度が低下してしまう可能性があります"
 msgstr ""
-"Please remove the Gaze ✅ option when registering a profile with closed "
-"eyes or dimmed eyes that do not show colored parts of eyes. If you don’t,"
-" the accuracy of the analysis results may be reduced."
+"For profiles where the eyes are closed or half-closed and the pupils are "
+"not visible, please uncheck the Gaze box - [x] when registering. "
+"Otherwise, it may lower the accuracy of the analysis results."
 
 #: ../../008_profile.md:291
 msgid "例：眉のぎゅっと絞る動きを作りたい時には ![](images/P024.png)"
@@ -644,44 +645,49 @@ msgstr ""
 "![](images/P024.png)"
 
 #: ../../008_profile.md:294
-#, fuzzy
 msgid "表情を調整した上で ![](images/P025.png)"
-msgstr " - Adjust the facial expressions![](images/P025.png)"
+msgstr "Adjust the facial expressions![](images/P025.png)"
 
 #: ../../008_profile.md:297
 #, fuzzy
-msgid "Regionのgaze/lowerの- [x] を外す ![](images/P026.png)"
-msgstr " - Remove ✅ in gaze/lower in Region![](images/P026.png)"
+msgid "Regionのgaze/lowerの ☑ を外す ![](images/P026.png)"
+msgstr "Uncheck the - [x] box in gaze/lower in Region![](images/P026.png)"
 
 #: ../../008_profile.md:300
 msgid "Save"
-msgstr ""
+msgstr "Save"
 
 #: ../../008_profile.md:302
 msgid "解析結果が好ましくない場合"
-msgstr ""
+msgstr "If the analysis results are not ideal."
 
 #: ../../008_profile.md:304
 msgid ""
 "解析する動画は、必ず1動画1profile以上作成するようにしてください "
 "Profileを作成していない場合、精度が十分ではない解析結果が出力される可能性があります"
 msgstr ""
+"Please make sure to create at least one profile for each video you "
+"analyze. If no profile is created, the analysis results may not be "
+"accurate."
 
 #: ../../008_profile.md:307
 msgid "Videosウィンドウの「Profiles」をご参照ください     ![](images/P026-02.png)"
 msgstr ""
+"Please refer to “Profiles” in the Videos window.     "
+"![](images/P026-02.png)"
 
 #: ../../008_profile.md:311
 msgid "「Profiles」が表示されない場合"
-msgstr ""
+msgstr "If “Profiles” is not displayed."
 
 #: ../../008_profile.md:312
 msgid "メニューバー上部で右クリック"
-msgstr ""
+msgstr "Right-click on the top of the menu bar."
 
 #: ../../008_profile.md:313
-msgid "「Profiles」に- [x] を入れる   ![](images/P026-03.png)"
-msgstr ""
+#, fuzzy
+msgid "「Profiles」に ☑ を入れる   ![](images/P026-03.png)"
+msgstr "Check the - [x] box for “Profiles”   ![](images/P026-03.png)"
 
 #: ../../008_profile.md:316
 msgid "トラブルシューティング"
@@ -689,15 +695,15 @@ msgstr "Troubleshooting"
 
 #: ../../008_profile.md:318
 msgid "＋キーを押してもGalleryにProfileが追加されない場合"
-msgstr "＋If a Profile is not added to Gallery after pressing the + key"
+msgstr "If a Profile is not added to Gallery after pressing the + key"
 
 #: ../../008_profile.md:319
 msgid ""
 "＋キーを押してもGalleryにProfileが追加されない場合   Galleryの表示ウィンドウが小さいケースが考えられます。 "
 "![](images/P027.png)"
 msgstr ""
-"＋If a Profile is not added to Gallery after pressing the + key   The "
-"Gallery display window may be too small."
+"If a Profile is not added to Gallery after pressing the + key   The "
+"Gallery display window may be too small.  ![](images/P027.png)"
 
 #: ../../008_profile.md:323
 msgid "その場合、Galleryウィンドウの◀▶をクリックすると追加したProfileが表示されます。 ![](images/P028.png)"
@@ -782,9 +788,4 @@ msgstr "![](images/P029.png)"
 
 #~ msgid " - Save"
 #~ msgstr " - Save"
-
-#~ msgid ""
-#~ "「Profiles」が表示されない場合    - メニューバー上部で右クリック    - "
-#~ "「Profiles」に- [x] を入れる   ![](images/P026-03.png)"
-#~ msgstr ""
 

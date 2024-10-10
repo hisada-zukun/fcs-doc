@@ -8,238 +8,477 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-11 12:30+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2024-10-10 16:25+0900\n"
+"PO-Revision-Date: 2024-09-21 04:00+0900\n"
+"Last-Translator: \n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.16.0\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../000_release_note.md:1
-msgid "FCS 24.10.01"
-msgstr ""
-
-#: ../../000_release_note.md:2
-msgid "リリース日: 2024/08/29"
+msgid "リリースノート"
 msgstr ""
 
 #: ../../000_release_note.md:3
-msgid "リリースバージョン: 24.10.01"
-msgstr ""
+#, fuzzy
+msgid "FCS 24.10.03"
+msgstr "FCS 24.10.01"
 
 #: ../../000_release_note.md:4
-msgid "リリースステージ: Beta"
-msgstr ""
+#, fuzzy
+msgid "リリース日: 2024/09/25"
+msgstr "Release date: 2024/08/29"
 
-#: ../../000_release_note.md:7
+#: ../../000_release_note.md:5
+#, fuzzy
+msgid "リリースバージョン: 24.10.03"
+msgstr "Release version: 24.10.01"
+
+#: ../../000_release_note.md:6
+#, fuzzy
+msgid "リリースステージ: Stable"
+msgstr "Release version: Beta"
+
+#: ../../000_release_note.md:8 ../../000_release_note.md:34
+#: ../../000_release_note.md:76
 msgid "概要"
+msgstr "Overview"
+
+#: ../../000_release_note.md:9 ../../000_release_note.md:14
+msgid "Gallery機能修正"
 msgstr ""
 
-#: ../../000_release_note.md:8
+#: ../../000_release_note.md:10 ../../000_release_note.md:18
+#, fuzzy
+msgid "インストーラ修正"
+msgstr "Installation"
+
+#: ../../000_release_note.md:11
+#, fuzzy
+msgid "その他修正"
+msgstr "Others"
+
+#: ../../000_release_note.md:13 ../../000_release_note.md:45
+#: ../../000_release_note.md:100
+msgid "詳細"
+msgstr "Details"
+
+#: ../../000_release_note.md:15
+msgid "Syncにチェックが入っている状態でResetボタンを押すとMayaにも反映されるようになりました"
+msgstr ""
+
+#: ../../000_release_note.md:16
+msgid "Editorにて、To Mayaなどの際にDisabledになっているリージョンの値は送信しないようになりました"
+msgstr ""
+
+#: ../../000_release_note.md:19
+msgid "デフォルトのインストール先をCドライブに変更しました"
+msgstr ""
+
+#: ../../000_release_note.md:20
+msgid "インストーラのアイコンを変更しました"
+msgstr ""
+
+#: ../../000_release_note.md:21
+msgid "インストーラが日本語・英語両方に対応しました"
+msgstr ""
+
+#: ../../000_release_note.md:23 ../../000_release_note.md:144
+msgid "その他"
+msgstr "Others"
+
+#: ../../000_release_note.md:24
+msgid "コントローラーをリネームする際にアプリが落ちてしまう問題を修正しました"
+msgstr ""
+
+#: ../../000_release_note.md:25
+msgid "スムージングが適用されていない問題を修正しました（24.10.01）"
+msgstr ""
+
+#: ../../000_release_note.md:26
+msgid "Prioritize Profileの動作を修正しました"
+msgstr ""
+
+#: ../../000_release_note.md:29
+#, fuzzy
+msgid "FCS 24.10.02"
+msgstr "FCS 24.10.01"
+
+#: ../../000_release_note.md:30
+#, fuzzy
+msgid "リリース日: 2024/09/09"
+msgstr "Release date: 2024/08/29"
+
+#: ../../000_release_note.md:31
+#, fuzzy
+msgid "リリースバージョン: 24.10.02"
+msgstr "Release version: 24.10.01"
+
+#: ../../000_release_note.md:32 ../../000_release_note.md:73
+msgid "リリースステージ: Beta"
+msgstr "Release version: Beta"
+
+#: ../../000_release_note.md:35
+msgid "Galleryのフィルタリング機能強化    プロフィールの一括変更や削除ができるようになりました"
+msgstr ""
+
+#: ../../000_release_note.md:37
+msgid "EditorのLMの表示がONの場合、別のプロフィールを開いてもONの状態のままにしました（計算済みの場合のみ）"
+msgstr ""
+
+#: ../../000_release_note.md:38
+msgid "Editorのコントローラー値を変更する箇所の表示方式を変更しました"
+msgstr ""
+
+#: ../../000_release_note.md:39
+msgid "Galleryの表示方式を改善しました"
+msgstr ""
+
+#: ../../000_release_note.md:40
+msgid "プロフィール優先機能(Prioritize Profile)を追加しました"
+msgstr ""
+
+#: ../../000_release_note.md:41
+msgid "コントローラーの名前を一括変更する機能を追加しました"
+msgstr ""
+
+#: ../../000_release_note.md:42 ../../000_release_note.md:61
+msgid "ビデオ再生の速度を向上させました"
+msgstr ""
+
+#: ../../000_release_note.md:43
+msgid "リアルタイム版への出力機能を追加しました"
+msgstr ""
+
+#: ../../000_release_note.md:46
+msgid "Galleryのフィルタリング"
+msgstr ""
+
+#: ../../000_release_note.md:47
+msgid "動画名、各Regionの状態などでフィルタリングする機能、一括リージョンON/OFF・一括削除などの機能を追加しました"
+msgstr ""
+
+#: ../../000_release_note.md:49
+msgid "Editorのコントローラー値の表示方式"
+msgstr ""
+
+#: ../../000_release_note.md:50
+msgid "Ctrl＋クリックで数値を入力"
+msgstr ""
+
+#: ../../000_release_note.md:51
+msgid "カーソルに合わせて数値が設定されるようになりました"
+msgstr ""
+
+#: ../../000_release_note.md:53
+msgid "プロフィール優先機能"
+msgstr ""
+
+#: ../../000_release_note.md:54
+msgid "FCSから出力されたアニメーションに関して、プロファイルが存在するフレームにおいて表情を厳密に一致させる機能を追加しました"
+msgstr ""
+
+#: ../../000_release_note.md:55
+msgid "有効化するにはSolver/Post-processing/Prioritize ProfileをONにしてください"
+msgstr ""
+
+#: ../../000_release_note.md:57
+msgid "コントローラーの名前を一括変更"
+msgstr ""
+
+#: ../../000_release_note.md:58
+msgid "Controller Infoでコントローラーを選択し、Renameを押すと、コントローラーのリネームができるようになりました"
+msgstr ""
+
+#: ../../000_release_note.md:59
+msgid "名前の変更に伴い、Galleryで登録されたデータも変更するようになります"
+msgstr ""
+
+#: ../../000_release_note.md:62
+msgid "動画をメモリーにコピーすることにより、HDDなどのストレージ媒体より早く再生できるようになります"
+msgstr ""
+
+#: ../../000_release_note.md:63
+msgid "デフォルトで有効になります"
+msgstr ""
+
+#: ../../000_release_note.md:64
+msgid "メモリーに余裕があれば開いた動画（5本まで）をメモリーに保存することができます、複数の動画を同時に編集してもメモリーにキャッシュするようになります"
+msgstr ""
+
+#: ../../000_release_note.md:66
+msgid "リアルタイム版への出力機能"
+msgstr ""
+
+#: ../../000_release_note.md:67
+msgid "Solver/ExportでFCSで作成されたソルバーが出力されます"
+msgstr ""
+
+#: ../../000_release_note.md:68
+msgid "リアルタイムサーバ（準備中）に読み込むとFCSでオフライン出力に近いクオリティーのアニメーションがリアルタイムで出力できるようになります"
+msgstr ""
+
+#: ../../000_release_note.md:70
+msgid "FCS 24.10.01"
+msgstr "FCS 24.10.01"
+
+#: ../../000_release_note.md:71
+msgid "リリース日: 2024/08/29"
+msgstr "Release date: 2024/08/29"
+
+#: ../../000_release_note.md:72
+msgid "リリースバージョン: 24.10.01"
+msgstr "Release version: 24.10.01"
+
+#: ../../000_release_note.md:77
 msgid "マニュアル関連"
-msgstr ""
+msgstr "User guide and manual"
 
-#: ../../000_release_note.md:9
-msgid "24.07, 24.10など、バージョンごとマニュアルが確認できるようになりました"
-msgstr ""
+#: ../../000_release_note.md:78
+#, fuzzy
+msgid "24.07, 24.10など、バージョンごとのマニュアルが確認できるようになりました"
+msgstr "You can now view the manual for each version, such as 24.07 and 24.10."
 
-#: ../../000_release_note.md:10
+#: ../../000_release_note.md:79
 msgid ""
 "[English manual](https://zukunfcs.github.io/fcs-doc/24.10/en/index.html) "
 "(draft) now available"
 msgstr ""
+"[English manual](https://zukunfcs.github.io/fcs-doc/24.10/en/index.html) "
+"(draft) now available"
 
-#: ../../000_release_note.md:12
+#: ../../000_release_note.md:81
 msgid "セットアップ"
-msgstr ""
+msgstr "Setup"
 
-#: ../../000_release_note.md:13
-msgid "インストーラーができるようになりました"
-msgstr ""
+#: ../../000_release_note.md:82
+#, fuzzy
+msgid "インストーラーからインストールができるようになりました"
+msgstr "The installer is now available."
 
-#: ../../000_release_note.md:14
+#: ../../000_release_note.md:83
 msgid "ffmpegがシステムにインストールされていない場合、自動的にダウンロードできるようになりました"
 msgstr ""
+"If ffmpeg is not installed on your system, you can now download it "
+"automatically."
 
-#: ../../000_release_note.md:16
+#: ../../000_release_note.md:85
 msgid "Auto Pickup α"
-msgstr ""
+msgstr "Auto Pickup α"
 
-#: ../../000_release_note.md:17
+#: ../../000_release_note.md:86
 msgid ""
 "[動画から特定のフレームを自動的にGalleryに追加する機能を実装しました。](https://zukunfcs.github.io/fcs-"
 "doc/latest/en/012_auto_pickup.html)"
 msgstr ""
+"[We have implemented a feature that automatically adds specific frames "
+"from a video to the Gallery.](https://zukunfcs.github.io/fcs-"
+"doc/latest/en/012_auto_pickup.html)"
 
-#: ../../000_release_note.md:19 ../../000_release_note.md:64
+#: ../../000_release_note.md:88 ../../000_release_note.md:132
 msgid "自動更新"
-msgstr ""
+msgstr "Automatic Update"
 
-#: ../../000_release_note.md:20
-msgid "新しいバージョンが発行された際に、FCSのUIから更新内容の表示およびダウンロードできるようになりました。"
+#: ../../000_release_note.md:89
+#, fuzzy
+msgid "新しいバージョンが発行された際に、FCSのUIから更新内容の表示およびダウンロードができるようになりました"
 msgstr ""
+"When a new version is released, the update details can now be viewed and "
+"downloaded from the UI in FCS."
 
-#: ../../000_release_note.md:22 ../../000_release_note.md:72
+#: ../../000_release_note.md:91 ../../000_release_note.md:140
 msgid "Linuxサポート"
-msgstr ""
+msgstr "Linux support"
 
-#: ../../000_release_note.md:23
-msgid "実験的Linuxサポートを始めました"
-msgstr ""
+#: ../../000_release_note.md:92
+#, fuzzy
+msgid "実験的にLinuxサポートを始めました"
+msgstr "We have started offering Linux support on a trial basis."
 
-#: ../../000_release_note.md:25
+#: ../../000_release_note.md:94
 msgid "アップデート注意"
-msgstr ""
+msgstr "Important notes regarding the update"
 
-#: ../../000_release_note.md:26
-msgid "以下のバージョンを使用しこれからアップデートする方に関しては以下の事項を注意していただければと思います。"
+#: ../../000_release_note.md:95
+#, fuzzy
+msgid "以下のバージョンを使用しこれからアップデートする方は以下の事項に注意していただければと思います"
 msgstr ""
+"For users of the version listed below who are planning to update, please "
+"take note of the following points."
 
-#: ../../000_release_note.md:28
+#: ../../000_release_note.md:97
 msgid "24.07    特になし"
-msgstr ""
+msgstr "24.07 no change"
 
-#: ../../000_release_note.md:31
-msgid "詳細"
-msgstr ""
-
-#: ../../000_release_note.md:32
+#: ../../000_release_note.md:101
 msgid "マニュアル"
-msgstr ""
+msgstr "Manual"
 
-#: ../../000_release_note.md:33
-msgid "マニュアルサイトに日本語、英語バージョンを作成しました、左下で切り替えられます"
+#: ../../000_release_note.md:102
+#, fuzzy
+msgid "マニュアルサイトが日本語・英語に対応しました、左下で切り替えられます"
 msgstr ""
+"We have created Japanese and English versions of the manual site. You can"
+" switch between them at the bottom left."
 
-#: ../../000_release_note.md:34
-msgid "FCSソフトから開く際にはソフトに対応するバージョンを自動的に開くようになります"
+#: ../../000_release_note.md:103
+#, fuzzy
+msgid "FCSソフトから開く際にはソフトに対応するバージョンが自動で開くようになります"
 msgstr ""
+"When opening from the FCS software, the version corresponding to the "
+"software will now open automatically."
 
-#: ../../000_release_note.md:37
+#: ../../000_release_note.md:105
 msgid "インストール"
-msgstr ""
+msgstr "Installation"
 
-#: ../../000_release_note.md:38
-msgid "ビルド方式にThemidaに変更しました、その際に、バーチャルマシン（VM）やデバッガーとの共同使用が対象外になりました。環境によって利用できなくなった方はご連絡ください。"
+#: ../../000_release_note.md:106
+#, fuzzy
+msgid "ビルド方式をThemidaに変更しました。その際に、バーチャルマシン（VM）やデバッガーとの共同使用が対象外になりました。環境によって利用できなくなった方はご連絡ください。"
 msgstr ""
+"We have switched the build method to Themida, and as a result, the use of"
+" virtual machines (VM) and debuggers is no longer supported. If you are "
+"unable to use the software due to your environment, please contact us."
 
-#: ../../000_release_note.md:39
-msgid "インストーラーを追加しました、デフォルトではC:\\FCSで作成されるようになります。インストール先のフォルダの書き込み権限が必要になりますので、書き込み権限のないフォルダに入れると問題が発生します。"
+#: ../../000_release_note.md:107
+#, fuzzy
+msgid "インストーラーを追加しました。デフォルトではC:\\FCSで作成されるようになります。インストール先フォルダの書き込み権限が必要になりますので、書き込み権限のないフォルダに入れると問題が発生します。"
 msgstr ""
+"We have added an installer, and by default, it will be created in "
+"C:\\FCS. Write permissions are required for the installation folder, so "
+"placing it in a folder without write permissions may cause issues."
 
-#: ../../000_release_note.md:41
+#: ../../000_release_note.md:109
 msgid "FFMPEG"
-msgstr ""
+msgstr "FFMPEG"
 
-#: ../../000_release_note.md:42
+#: ../../000_release_note.md:110
+#, fuzzy
 msgid ""
 "起動時に、ffmpegがシステムパスに存在しないとき、自動的に[github](https://github.com/BtbN/FFmpeg-"
-"Builds/)からダウンロードするようになっております。"
+"Builds/)からダウンロードするようになっています。"
 msgstr ""
+"During startup, if ffmpeg is not found in the system path, it will "
+"automatically download from [github](https://github.com/BtbN/FFmpeg-"
+"Builds/)"
 
-#: ../../000_release_note.md:43
+#: ../../000_release_note.md:111
 msgid "Githubへの接続ができないお客様は手動でffmpegをインストールし、pathに追加するようにお願いいたします。"
 msgstr ""
+"For customers who are unable to connect to GitHub, please manually "
+"install ffmpeg and add it to the system path."
 
-#: ../../000_release_note.md:45
+#: ../../000_release_note.md:113
 msgid "ユーザインタフェース"
-msgstr ""
+msgstr "User Interface"
 
-#: ../../000_release_note.md:46
+#: ../../000_release_note.md:114
 msgid "ビデオ名をダブルクリックで開けるようになりました"
-msgstr ""
+msgstr "You can now open video files by double-clicking on the video name."
 
-#: ../../000_release_note.md:47
+#: ../../000_release_note.md:115
 msgid "プログラム終了時のタブのレイアウトが保存されるようになりました"
-msgstr ""
+msgstr "The tab layout is now saved upon exiting the program."
 
-#: ../../000_release_note.md:48
+#: ../../000_release_note.md:116
 msgid "FCS初回起動時のタブのレイアウトを整理しました"
-msgstr ""
+msgstr "The tab layout has been organized upon the first launch of FCS."
 
-#: ../../000_release_note.md:49
-msgid "タイムラインのドラッグする際に、範囲からカーソルをずらしても動くようになりました"
-msgstr ""
+#: ../../000_release_note.md:117
+#, fuzzy
+msgid "タイムラインをドラッグする際に、範囲からカーソルをずらしても動くようになりました"
+msgstr "You can now drag the timeline even if the cursor moves outside the range."
 
-#: ../../000_release_note.md:50
-msgid "一部のUIから選択できる項目がプログラム終了されても保存されるようになりました"
+#: ../../000_release_note.md:118
+#, fuzzy
+msgid "一部のUIから選択できる項目がプログラムを終了しても保存されるようになりました"
 msgstr ""
+"Selected items from certain UI elements are now saved even after the "
+"program is closed."
 
-#: ../../000_release_note.md:51
+#: ../../000_release_note.md:119
 msgid "UIの日本語訳を更新しました"
-msgstr ""
+msgstr "The Japanese translation of the UI has been updated."
 
-#: ../../000_release_note.md:52
-msgid "キーボードショットを修飾キーに対応させました"
-msgstr ""
+#: ../../000_release_note.md:120
+#, fuzzy
+msgid "キーボードショートカットを修飾キーに対応させました"
+msgstr "Keyboard shortcuts now support modifier keys."
 
-#: ../../000_release_note.md:53
-msgid "一部の機能にキーボードショットを対応させました"
-msgstr ""
+#: ../../000_release_note.md:121
+#, fuzzy
+msgid "一部の機能にキーボードショートカットを対応させました"
+msgstr "Keyboard shortcuts have been enabled for some functions."
 
-#: ../../000_release_note.md:54
+#: ../../000_release_note.md:122
 msgid "Profile保存"
-msgstr ""
+msgstr "Save Profile"
 
-#: ../../000_release_note.md:55
+#: ../../000_release_note.md:123
 msgid "Profileから動画を開く"
-msgstr ""
+msgstr "Open video from Profile"
 
-#: ../../000_release_note.md:56
+#: ../../000_release_note.md:124
 msgid "Editorの値をMayaへ送信 (To Maya)"
-msgstr ""
+msgstr "Send the values from the Editor to Maya (To Maya)."
 
-#: ../../000_release_note.md:57
+#: ../../000_release_note.md:125
 msgid "Mayaからリグの値を受信 (From Maya)"
-msgstr ""
+msgstr "Receive rig values from Maya"
 
-#: ../../000_release_note.md:58
+#: ../../000_release_note.md:126
 msgid "レイアウトの変更"
-msgstr ""
+msgstr "Change layouts"
 
-#: ../../000_release_note.md:59
-msgid "Enforce AnnotationをPrioritize Profileへ名称変更"
-msgstr ""
+#: ../../000_release_note.md:127
+#, fuzzy
+msgid "Enforce AnnotationをPrioritize Profileへ名称変更しました"
+msgstr "The name “Enforce Annotation” has been changed to “Prioritize Profile.”"
 
-#: ../../000_release_note.md:61
+#: ../../000_release_note.md:129
 msgid "Maya"
-msgstr ""
+msgstr "Maya"
 
-#: ../../000_release_note.md:62
+#: ../../000_release_note.md:130
 msgid "FCSからmayaへ送信する際に、Disabledされたリージョンを送信しなくなりました"
-msgstr ""
+msgstr "When sending data from FCS to Maya, disabled regions are no longer sent."
 
-#: ../../000_release_note.md:65
+#: ../../000_release_note.md:133
 msgid "プログラム起動時に、新しいアップデータを検出するようになりました"
-msgstr ""
+msgstr "The program now detects new updates upon startup."
 
-#: ../../000_release_note.md:66
+#: ../../000_release_note.md:134
 msgid "アップデートに関しては以下の設定がSettingsウィンドウから変更できます"
-msgstr ""
+msgstr "Settings related to updates can be modified from the Settings window."
 
-#: ../../000_release_note.md:67
+#: ../../000_release_note.md:135
+#, fuzzy
 msgid ""
 "Update channel: All | Patch | None   "
-"すべてのアップデート、もしくはバグ修正のみ保守アップデートのみ、またはアップデートしないことが選択できます"
+"すべてをアップデートする、もしくはバグ修正（保守アップデート）のみ、またはアップデートしないことが選択できます"
 msgstr ""
+"You can choose to receive all updates, only maintenance updates for bug "
+"fixes, or no updates."
 
-#: ../../000_release_note.md:69
+#: ../../000_release_note.md:137
 msgid "Use Beta 安定しない機能を含めたベータ版の利用ができるようになります"
 msgstr ""
+"Use Beta: Enables the option to use the beta version, which includes "
+"unstable features."
 
-#: ../../000_release_note.md:73
-msgid "Fedora 8にて、FCS対応させました。   ご興味のある方はご連絡ください。"
-msgstr ""
+#: ../../000_release_note.md:141
+#, fuzzy
+msgid "Fedora 8にて、FCSを対応させました。   ご興味のある方はご連絡ください。"
+msgstr "FCS is now supported on Fedora 8. Please contact us if you are interested."
 
-#: ../../000_release_note.md:76
-msgid "その他"
+#: ../../000_release_note.md:145
+#, fuzzy
+msgid "プログラムデータの保存先を`$USER/.fcs/Cortado`から`$USER/.fcs/Cortado/$version`に変更しました"
 msgstr ""
-
-#: ../../000_release_note.md:77
-msgid "プログラムデータの保存先が`$USER/.fcs/Cortado`から`$USER/.fcs/Cortado/$version`**に変更しました**"
-msgstr ""
+"The program data storage location has been changed from "
+"$USER/.fcs/Cortado to $USER/.fcs/Cortado/$version."
 

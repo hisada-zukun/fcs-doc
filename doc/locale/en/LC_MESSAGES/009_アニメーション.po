@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS 24.07 Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-09 15:18+0900\n"
-"PO-Revision-Date: 2024-07-28 22:59+0900\n"
+"POT-Creation-Date: 2024-10-10 16:25+0900\n"
+"PO-Revision-Date: 2024-09-25 10:56+0900\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
@@ -18,7 +18,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../009_アニメーション.md:1
 msgid "アニメーションの出力方法"
@@ -45,13 +45,13 @@ msgstr "![](images/A001.png) ▼Process"
 
 #: ../../009_アニメーション.md:15 ../../009_アニメーション.md:82
 #, fuzzy
-msgid "[x] Reprocess：作成したProfile情報を読み取る"
-msgstr "✅Reprocess: read the created Profile information"
+msgid "☑ Reprocess：作成したProfile情報を読み取る"
+msgstr "[x] Reprocess: read the created Profile information"
 
 #: ../../009_アニメーション.md:17
 #, fuzzy
-msgid "基本的に- [x] を付けることをオススメします。"
-msgstr "Our recommendations are marked with a ✅"
+msgid "基本的に ☑ を付けることをオススメします。"
+msgstr "Our recommendations are marked with a -[x]"
 
 #: ../../009_アニメーション.md:20
 msgid "Upload Options"
@@ -59,29 +59,29 @@ msgstr "Upload Options"
 
 #: ../../009_アニメーション.md:21 ../../009_アニメーション.md:74
 #, fuzzy
-msgid "[x] Animation：アニメーションデータを生成、Mayaに反映"
-msgstr "✅Animation: generate animation data and reflect it in Maya"
+msgid "☑ Animation：アニメーションデータを生成、Mayaに反映"
+msgstr "[x] Animation: generate animation data and reflect it in Maya"
 
 #: ../../009_アニメーション.md:22 ../../009_アニメーション.md:75
 #, fuzzy
-msgid "[x] Audio：解析する動画の音声データをMayaに反映"
+msgid "☑ Audio：解析する動画の音声データをMayaに反映"
 msgstr ""
-"✅Audio: generate audio data of the video to be analyzed and reflect it in"
-" Maya"
+"[x] Audio: generate audio data of the video to be analyzed and reflect it"
+" in Maya"
 
 #: ../../009_アニメーション.md:23 ../../009_アニメーション.md:76
 #, fuzzy
-msgid "[x] Frames：解析する動画の連番画像を生成、Mayaのイメージプレーン上に反映"
+msgid "☑ Frames：解析する動画の連番画像を生成、Mayaのイメージプレーン上に反映"
 msgstr ""
-"✅Frames: generate sequentially numbered images of the video to be "
+"[x] Frames: generate sequentially numbered images of the video to be "
 "analyzed and reflect them on Maya’s image plane."
 
 #: ../../009_アニメーション.md:24 ../../009_アニメーション.md:77
 #, fuzzy
-msgid "[x] Landmark Frames：顔の動きをオートトラッキングする連番画像を生成、Mayaのイメージプレーン上に反映"
+msgid "☑ Landmark Frames：顔の動きをオートトラッキングする連番画像を生成、Mayaのイメージプレーン上に反映"
 msgstr ""
-"✅ Landmark Frames: generate a series of numbered images for auto-tracking"
-" facial movements and reflect them on image plane of Maya."
+"[x] Landmark Frames: generate a series of numbered images for auto-"
+"tracking facial movements and reflect them on image plane of Maya."
 
 #: ../../009_アニメーション.md:26
 msgid "Export Options"
@@ -89,13 +89,13 @@ msgstr "Export Options"
 
 #: ../../009_アニメーション.md:27 ../../009_アニメーション.md:78
 #, fuzzy
-msgid "[x] Playblast：出力されたアニメーションをmov形式の動画で出力、保存する"
-msgstr "✅Playblast: output and save the output animation in mov format video"
+msgid "☑ Playblast：出力されたアニメーションをmov形式の動画で出力、保存する"
+msgstr "[x] Playblast: output and save the output animation in mov format video"
 
 #: ../../009_アニメーション.md:28 ../../009_アニメーション.md:79
 #, fuzzy
-msgid "[x] Scene：出力されたMayaシーンを自動で保存する"
-msgstr "✅Scene: save the output Maya scene automatically"
+msgid "☑ Scene：出力されたMayaシーンを自動で保存する"
+msgstr "[x] Scene: save the output Maya scene automatically"
 
 #: ../../009_アニメーション.md:30
 msgid "Start process：アニメーションの出力を開始する"
@@ -119,20 +119,19 @@ msgstr ""
 
 #: ../../009_アニメーション.md:38
 #, fuzzy
-msgid "該当する項目に- [x] を入れ   ![](images/A002.png)"
-msgstr " - Start ![](images/A009.png)"
+msgid "該当する項目に ☑ を入れ   ![](images/A002.png)"
+msgstr "Check the box - [x] for the relevant item ![](images/A009.png)"
 
 #: ../../009_アニメーション.md:41
-#, fuzzy
 msgid "Start process ![](images/A004.png)"
-msgstr " - Start process ![](images/A004.png)"
+msgstr "Start process ![](images/A004.png)"
 
 #: ../../009_アニメーション.md:45
 #, fuzzy
-msgid "解析結果を見てから再度調整を行いたい場合はPlayblastやSceneの- [x] を外しておくと時間短縮できます。"
+msgid "解析結果を見てから再度調整を行いたい場合はPlayblastやSceneの ☑ を外しておくと時間短縮できます。"
 msgstr ""
 "If you want to make adjustments after viewing the analysis results, "
-"remove the ✅ buttons from Playblast and Scene so you can shorten the "
+"remove the - [x  buttons from Playblast and Scene so you can shorten the "
 "processing time."
 
 #: ../../009_アニメーション.md:47
@@ -140,30 +139,28 @@ msgid "![](images/A003.png)"
 msgstr "![](images/A003.png)"
 
 #: ../../009_アニメーション.md:49
-#, fuzzy
 msgid "初回出力時は時間がかかるため待機 ![](images/A005.png)"
 msgstr ""
-" - The initial output will take longer than usual. Please wait until it’s"
-" completed. ![](images/A005.png)"
+" The initial output will take longer than usual. Please wait until it’s "
+"completed. ![](images/A005.png)"
 
 #: ../../009_アニメーション.md:52
 #, fuzzy
 msgid ""
-"Mayaシーン上に- [x] を入れた項目が反映されていく   　タイムスライダーに音声データ   　イメージプレーンに連番画像   　"
+"Mayaシーン上に ☑ を入れた項目が反映されていく   　タイムスライダーに音声データ   　イメージプレーンに連番画像   　"
 "アニメーションデータ の順で反映される   　アニメーションデータ反映時はスライダーが動く   ![](images/image133.png)"
 msgstr ""
-" - The item with ✅ is reflected on the Maya scene.   　\n"
-"　Audio data in the time slider   　Sequentially numbered images on the "
-"image plane   　\n"
-"　Animation data is reflected in this order   　\n"
-"　Slider moves when animation data is reflected.   ![](images/image133.png)"
+"The items with -[x] are reflected on the Maya scene.   　Audio data in the"
+" time slider   　Sequentially numbered images on the image plane   　"
+"Animation data is reflected in this order   　Slider moves when animation "
+"data is reflected.   ![](images/image133.png)"
 
 #: ../../009_アニメーション.md:60
 #, fuzzy
-msgid "【playblastやsceneに- [x] していた場合】   出力が完了したらエクスプローラーがポップアップします。"
+msgid "【playblastやsceneに ☑ していた場合】   出力が完了したらエクスプローラーがポップアップします。"
 msgstr ""
-"【If you are selecting playblast or scene with✅】   Explorer window will "
-"pop up when output is complete."
+"【If you are selecting playblast or scene with- [x]】   Explorer window "
+"will pop up when output is complete."
 
 #: ../../009_アニメーション.md:63
 msgid "![](images/image127.png)"
@@ -201,13 +198,12 @@ msgstr "Output animation from multiple videos in batch"
 
 #: ../../009_アニメーション.md:91
 #, fuzzy
-msgid "解析/出力したい動画名の左側の- [x] をつける ![](images/A007.png)"
+msgid "解析/出力したい動画名の左側の ☑ をつける ![](images/A007.png)"
 msgstr ""
-"In the video window    - Click on the ✅ to the left of the name of the "
-"video you want to analyze/output.![](images/A007.png)"
+"Click on the- [x] to the left of the name of the video you want to "
+"analyze/output.![](images/A007.png)"
 
 #: ../../009_アニメーション.md:94
-#, fuzzy
 msgid "Processorウインドウを開く ![](images/A008.png) <br>"
 msgstr "Open Processor window![](images/A008.png) <br>"
 
@@ -216,15 +212,13 @@ msgid "![](images/P37_processorWindow.PNG)"
 msgstr "![](images/P37_processorWindow.PNG)"
 
 #: ../../009_アニメーション.md:100
-msgid "該当する項目に- [x] を入れ"
-msgstr ""
+#, fuzzy
+msgid "該当する項目に ☑ を入れ"
+msgstr "Check the box - [x] for the relevant item."
 
 #: ../../009_アニメーション.md:101
-#, fuzzy
 msgid "Output Filename を任意の名前に変更"
-msgstr ""
-"Output Filename: name of the output data. You can change the file to any "
-"name."
+msgstr "Change the Output Filename to any desired name."
 
 #: ../../009_アニメーション.md:103
 msgid "{solver} → solverの名前"
@@ -258,9 +252,8 @@ msgstr ""
 "{video} is selected, the imported video name will be used as a file name."
 
 #: ../../009_アニメーション.md:112
-#, fuzzy
 msgid "Start ![](images/A009.png)"
-msgstr " - Start ![](images/A009.png)"
+msgstr "Start ![](images/A009.png)"
 
 #: ../../009_アニメーション.md:115
 msgid "出力が完了したらエクスプローラーがポップアップします。 ![](images/image136.png)"

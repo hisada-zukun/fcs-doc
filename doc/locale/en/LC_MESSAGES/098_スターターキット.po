@@ -6,18 +6,18 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: FCS Manual \n"
+"Project-Id-Version: FCS Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-09 15:18+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2024-10-10 16:25+0900\n"
+"PO-Revision-Date: 2024-09-18 02:57+0900\n"
+"Last-Translator: \n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../098_スターターキット.md:1
 msgid "FCSスターターキット"
@@ -29,9 +29,9 @@ msgid ""
 "FCSスターターキットを使用することで、フェイシャルキャプチャー動画解析 - 3Dモデルへのアニメーション出力 - "
 "ゲームエンジンによるレンダリング確認まで、フェイシャルキャプチャーを用いたCG映像制作工程を通してFCSをご体験いただけます。"
 msgstr ""
-"FCS comes with a starter kit for all trial and licensed users. "
-"With the starter kit you should be able to create 3D facial animation,"
-"and experience the entire workflow using FCS."
+"FCS comes with a starter kit for all trial and licensed users. With the "
+"starter kit you should be able to create 3D facial animation, and "
+"experience the entire workflow using FCS."
 
 #: ../../098_スターターキット.md:5
 msgid "FCSスターターキットのコンテンツ一覧"
@@ -93,12 +93,9 @@ msgid ""
 "MetaHumanに関する詳細は、Epic "
 "Games社が提供する[MetaHuman紹介ホームページ](https://www.unrealengine.com/ja/metahuman)をご確認ください。"
 msgstr ""
-"DIGITAL NAGAKI is our digital human model created based on Unreal"
-"Engine MetaHuman"
-"For more information about MetaHuman, please refer to"
-"Epic Games [MetaHuman](https://www.unrealengine.com/ja/metahuman)"
-
-
+"DIGITAL NAGAKI is our digital human model created based on UnrealEngine "
+"MetaHumanFor more information about MetaHuman, please refer toEpic Games "
+"[MetaHuman](https://www.unrealengine.com/ja/metahuman)"
 
 #: ../../098_スターターキット.md:30
 msgid ""
@@ -106,9 +103,9 @@ msgid ""
 "MetaHumanフェイシャルコントローラの使い方は、Epic "
 "Games社が提供する[こちらのYouTube解説動画](https://www.youtube.com/watch?v=GEpH3o44_58)をご確認ください。"
 msgstr ""
-"DIGITAL NAGAKI uses the MetaHuman control rig."
-"Please refer to Epic"
-"Games [Youtube channel](https://www.youtube.com/watch?v=GEpH3o44_58) if you require more information."
+"DIGITAL NAGAKI uses the MetaHuman control rig.Please refer to EpicGames "
+"[Youtube channel](https://www.youtube.com/watch?v=GEpH3o44_58) if you "
+"require more information."
 
 #: ../../098_スターターキット.md:33
 msgid "ご利用の際には、同梱されているreadme.txtを必ずお読みください。"
@@ -127,16 +124,17 @@ msgid ""
 "Mayaでのレンダリングや、Unity*でのご利用はできませんのでご注意ください。   *<span style=\"font-"
 "size:75%;\">Unity Technologies社が開発 - 提供するゲームエンジン</span>"
 msgstr ""
-"You cannot use render this rig in Maya or Unity* as per the Epic games license. *<span style=\"font-"
-"size:75%;\">Game engine created by Unity Technologies</span>"
+"You cannot use render this rig in Maya or Unity* as per the Epic games "
+"license. *<span style=\"font-size:75%;\">Game engine created by Unity "
+"Technologies</span>"
 
 #: ../../098_スターターキット.md:46
 msgid "NIKE SHIKINO"
-msgstr ""
+msgstr "NIKE SHIKINO"
 
 #: ../../098_スターターキット.md:48
 msgid "![](images/013_NIKESHIKINO.png)"
-msgstr ""
+msgstr "![](images/013_NIKESHIKINO.png)"
 
 #: ../../098_スターターキット.md:50
 msgid ""
@@ -145,16 +143,24 @@ msgid ""
 "*<span style=\"font-size:75%;\">Apple社が開発 - "
 "提供するARフレームワークであり、フェイストラッキングシステムには52パターンの表情ターゲットシェイプが採用されている</span>"
 msgstr ""
+"NIKE SHIKINO is an original cel-shaded 3D model created by Zukun "
+"Laboratory. The model’s face is equipped with blend shapes that conform "
+"to Apple ARKit standards, allowing for animation by changing the values "
+"of each target shape   *<span style=“font-size:75%;”>Developed and "
+"provided by Apple, this AR framework adopts 52 expression target shapes "
+"in its facial tracking system.</span>"
 
 #: ../../098_スターターキット.md:54
 msgid ""
 "NIKE SHIKINOは、MayaやUnreal Engine、Unityでのご利用が可能です。   "
 "ご利用の際には、同梱されているreadme.txtを必ずお読みください。"
 msgstr ""
+"NIKE SHIKINO is compatible with Maya, Unreal Engine, and Unity.\n"
+"Please make sure to read the included readme.txt file before use."
 
 #: ../../098_スターターキット.md:57
 msgid "2. フェイシャルROM体操の表情一覧PDF"
-msgstr ""
+msgstr "2. List of Facial ROM Expressions (PDF)"
 
 #: ../../098_スターターキット.md:58
 msgid ""
@@ -163,36 +169,54 @@ msgid ""
 "**M**otion）取得を目的とした一連の表情パターンのことを、フェイシャルROM体操と呼びます。   "
 "本スターターキットでは、ツークン研究所がフェイシャルキャプチャー撮影で実際に使用している、約50パターンの表情リストをPDF化して同梱しています。"
 msgstr ""
+"In video analysis using facial capture, we can improve the efficiency of "
+"analysis by understanding the intensity limits of the expressions that "
+"the recorded person can make. The series of expression patterns aimed at "
+"capturing the range of motion (ROM: Range of Motion) of various facial "
+"parts, such as the eyebrows, eyes, and mouth, is called Facial ROM "
+"Exercises. In this starter kit, we have included a PDF containing a list "
+"of approximately 50 expression patterns that Zukun Laboratory actually "
+"uses in our facial capture recordings."
 
+# 3. Facial ROM Exercise Video としますか？「Facial ROM体操（ROM
+# Exercise）」の英語訳が一般的ではないと思いましたので現状はFacial ROM Videoとしています
 #: ../../098_スターターキット.md:62
 msgid "3. フェイシャルROM体操動画"
-msgstr ""
+msgstr "3. Facial ROM Video"
 
 #: ../../098_スターターキット.md:63
 msgid "フェイシャルROM体操を収録した動画です。   FCSに読み込ませてご利用ください。"
 msgstr ""
+"This is a video featuring Facial ROM patterns. Please import it into FCS "
+"for use."
 
 #: ../../098_スターターキット.md:66
 msgid "4. 動画解析 - アニメーション出力用のサンプル動画"
-msgstr ""
+msgstr "4. Video Analysis - Sample Video for Animation Output"
 
 #: ../../098_スターターキット.md:67
 msgid "動画解析で使用するサンプル動画です。   FCSに読み込ませてご利用ください。"
 msgstr ""
+"This is a sample video used for video analysis. Please import it into FCS"
+" for use."
 
 #: ../../098_スターターキット.md:73
 msgid "DIGITAL NAGAKI：FCS紹介動画"
-msgstr ""
+msgstr "DIGITAL NAGAKI: FCS Introduction Video"
 
 #: ../../098_スターターキット.md:74
 msgid ""
 "NIKE SHIKINO：感情の異なる、全9種類のセリフ動画*（セリフ自体は全て同一です）   *<span style=\"font-"
 "size:75%;\">株式会社モーションアクター - Mao様のご協力を得て収録</span>"
 msgstr ""
+"NIKE SHIKINO: A total of 9 different emotion-based dialogue videos (the "
+"dialogue itself is the same in all videos)\n"
+"*<span style=“font-size:75%;”>Recorded with the cooperation of Mao from "
+"Motion Actor Co., Ltd. </span>"
 
 #: ../../098_スターターキット.md:79
 msgid "5. Profile作成済みのFCS Session参考例データ"
-msgstr ""
+msgstr "5. Sample Data of an FCS Session with Created Profiles"
 
 #: ../../098_スターターキット.md:80
 msgid ""
@@ -200,33 +224,57 @@ msgid ""
 "   "
 "どちらもフェイシャルROM体操動画から約50程度のProfileが既に作成済みのため、サンプル動画を読み込んでProfile作成をしていただくことで、ゼロからSessionを作成することなくFCSをご体験いただけます。"
 msgstr ""
+"Here’s the revised translation without the word “exercise”: This is the "
+"FCS session data for DIGITAL NAGAKI & NIKE SHIKINO, created as reference "
+"examples for trying out video analysis. Both include approximately 50 "
+"profiles already created from the Facial ROM videos, allowing you to "
+"experience FCS without needing to start a session from scratch. By "
+"loading the sample video, you can create profiles directly."
 
 #: ../../098_スターターキット.md:84
+#, fuzzy
 msgid ""
 "Profile作成をしなくても解析自体は可能ですが、それだけでは精度が十分ではないため、サンプル動画内からも最低1以上のProfile作成が必要です。"
 "   Profileの具体的な作成方法については、[Profileの作成ページ](https://zukunfcs.github.io/fcs-"
-"doc/008_profile.html)をご確認ください。"
+"doc/latest/jp/008_profile.html#profile)をご確認ください。"
 msgstr ""
+"Although you can perform video analysis without creating profiles, the "
+"accuracy will not be sufficient. To improve accuracy, you need to create "
+"at least one profile from the sample video. For detailed instructions on "
+"how to create profiles, please refer to the Profile Creation Page."
 
 #: ../../098_スターターキット.md:88
+#, fuzzy
 msgid ""
 "参考例データでは、解析に使用する各データ（スターターキットコンテンツ1 - 3 - 4と同一内容）が、予め作成されたFCS "
 "Sessionフォルダ構造内に置かれています。   FCS "
 "Sessionフォルダ構造の詳細については、[Session作成もしくはオープンページ](https://zukunfcs.github.io"
-"/fcs-doc/005_session.html)をご確認ください。 <br>"
+"/fcs-doc/latest/jp/005_session.html#session)をご確認ください。 <br>"
 msgstr ""
+"In the sample data, each piece of data used for analysis (the same "
+"content as in Starter Kit Contents 1, 3, and 4) is already placed within "
+"a pre-made FCS session folder structure. For more details on the FCS "
+"session folder structure, please refer to the Session Creation or Opening"
+" Page(https://zukunfcs.github.io/fcs-doc/005_session.html).<br>"
 
 #: ../../098_スターターキット.md:92
 msgid ""
 "ダウンロードいただいた直後では、Mayaデータやサンプル動画のパスが異なるため再設定が必要です。   "
 "Mayaデータのパス再設定方法、サンプル動画のインポート方法については下記の手順を参考にしてください。"
 msgstr ""
+"Upon downloading, the paths for the Maya data and sample videos will be "
+"different, so they need to be reconfigured.\n"
+"Please refer to the following steps for how to reconfigure the Maya data "
+"paths and import the sample videos."
 
 #: ../../098_スターターキット.md:98
 msgid ""
 "Mayaデータについては、FCS上でMaya Sceneパス - Maya Baseパスそれぞれの再設定が必要です。   "
 "どちらのパスも以下の手順で同様に再設定ができます。 <br>"
 msgstr ""
+"For the Maya data, both the Maya Scene path and the Maya Base path need "
+"to be reconfigured in FCS. You can reconfigure both paths using the same "
+"steps outlined below.<br>"
 
 #: ../../098_スターターキット.md:102
 msgid ""
@@ -236,16 +284,25 @@ msgid ""
 "Sessionフォルダ構造内の該当ファイルを選択して、開くボタンをクリックする   "
 "⑤．Changeウインドウ内のパスが変更されたことを確認した後、Saveボタンをクリックする"
 msgstr ""
+"① After launching FCS and opening the session, go to File ▶ Session ▶ "
+"Info to open the Info window.    ② Right-click in the field where the "
+"current path is displayed, then click the Edit button.   ③ In the Change "
+"window, click the Browse button to open the file dialog.  ④ Select the "
+"relevant file within the FCS session folder structure and click the Open "
+"button.   ⑤ After confirming that the path has been updated in the Change"
+" window, click the Save button."
 
 #: ../../098_スターターキット.md:108
 msgid ""
 "![](images/013_mayaDataRepath_01.png) "
 "![](images/013_mayaDataRepath_02.png)"
 msgstr ""
+"![](images/013_mayaDataRepath_01.png) "
+"![](images/013_mayaDataRepath_02.png)"
 
 #: ../../098_スターターキット.md:115
 msgid "サンプル動画は、以下の手順でインポートできます。 <br>"
-msgstr ""
+msgstr "You can import the sample video by following the steps below.<br>"
 
 #: ../../098_スターターキット.md:118
 msgid ""
@@ -253,7 +310,12 @@ msgid ""
 "②．Importボタンをクリックして、ファイルダイアログを起動する   ③．FCS "
 "Sessionフォルダ構造内の該当ファイルを選択し、開くボタンをクリックする"
 msgstr ""
+"① After launching FCS and opening the session, open the Videos window.   "
+"② Click the Import button to open the file dialog.   ③ Select the "
+"relevant file within the FCS session folder structure and click the Open "
+"button."
 
 #: ../../098_スターターキット.md:122
 msgid "![](images/013_movieImport.png)"
-msgstr ""
+msgstr "![](images/013_movieImport.png)"
+

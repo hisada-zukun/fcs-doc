@@ -9,75 +9,103 @@ msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-11 12:30+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
+"PO-Revision-Date: 2024-09-25 13:45+0900\n"
+"Last-Translator: \n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../../013_install_fcs.md:1
 msgid "FCSのインストール"
-msgstr ""
+msgstr "Installation of FCS"
 
 #: ../../013_install_fcs.md:3
 msgid "FCSは、インストーラーを使用してインストールします。"
-msgstr ""
+msgstr "FCS is installed using an installer."
 
 #: ../../013_install_fcs.md:5
 msgid "**インストールの手順**"
-msgstr ""
+msgstr "**Installation procedure**"
 
 #: ../../013_install_fcs.md:6
-msgid "インストーラーで使用する言語を設定します。   ![](images/install_01.png)<br><br>"
+msgid ""
+"インストーラーで使用する言語を設定します。   ![](images/install_01."
+"png)<br><br>"
 msgstr ""
+"Set the language to be used in the installer.  ![](images/install_01."
+"png)<br><br>"
 
 #: ../../013_install_fcs.md:9
 msgid "インストールを開始します。 ![](images/install_02.png)<br><br>"
-msgstr ""
+msgstr "Start installation.  ![](images/install_02.png)<br><br>"
 
 #: ../../013_install_fcs.md:12
 msgid "使用許諾契約書に同意します。   ![](images/install_03.png)<br><br>"
 msgstr ""
+"Agree to the End User License Agreement.   ![](images/install_03.png)<br><br>"
 
 #: ../../013_install_fcs.md:15
 msgid ""
-"インストール先を指定します。   デフォルトは、C:\\TOEI\\FCS_\"version\"です。   "
-"変更する場合は、パスを記入、または参照から選択してください。   ![](images/install_04.png)<br><br>"
+"インストール先を指定します。   デフォルトは、C:\\TOEI\\FCS_\"version\"で"
+"す。   変更する場合は、パスを記入、または参照から選択してください。   ![]"
+"(images/install_04.png)<br><br>"
 msgstr ""
+"Specify the installation destination. The default is C:"
+"\\TOEI\\FCS_”version”. If you want to change it, either enter the path "
+"manually or select it via Browse.  ![](images/install_04.png)<br><br>"
 
 #: ../../013_install_fcs.md:20
 msgid ""
-"スタートメニューフォルダを指定します。   デフォルトはFCSです。   変更する場合は、フォルダ名を記入、または参照から選択してください。   "
-"![](images/install_05.png)<br><br>"
+"スタートメニューフォルダを指定します。   デフォルトはFCSです。   変更する場合"
+"は、フォルダ名を記入、または参照から選択してください。   ![](images/"
+"install_05.png)<br><br>"
 msgstr ""
+"Specify the Start Menu folder. The default is FCS. If you wish to change it, "
+"either enter the folder name manually or select it via Browse.   ![](images/"
+"install_05.png)<br><br>"
 
 #: ../../013_install_fcs.md:25
-msgid "デスクトップアイコンを作成する場合は、チェックを入れてください。 ![](images/install_06.png)<br><br>"
+msgid ""
+"デスクトップアイコンを作成する場合は、チェックを入れてください。 ![](images/"
+"install_06.png)<br><br>"
 msgstr ""
+"If you want to create a desktop icon, please check the box. ![](images/"
+"install_06.png)<br><br>"
 
 #: ../../013_install_fcs.md:28
-msgid "インストールを設定の確認し、問題がなければインストールしてください。   ![](images/install_07.png)<br><br>"
+msgid ""
+"インストールを設定の確認し、問題がなければインストールしてください。   ![]"
+"(images/install_07.png)<br><br>"
 msgstr ""
+"Review the installation settings, and if there are no issues, proceed with "
+"the installation.  ![](images/install_07.png)<br><br>"
 
 #: ../../013_install_fcs.md:31
-msgid "完了後、すぐ起動する場合は、チェックを入れてください。   ![](images/install_08.png)<br><br>"
+msgid ""
+"完了後、すぐ起動する場合は、チェックを入れてください。   ![](images/"
+"install_08.png)<br><br>"
 msgstr ""
+"If you want to launch the program immediately after installation, please "
+"check the box.   ![](images/install_08.png)<br><br>"
 
 #: ../../013_install_fcs.md:35
 msgid "**アンインストールの手順**"
-msgstr ""
+msgstr "**Uninstallation Procedure**"
 
 #: ../../013_install_fcs.md:36
 msgid ""
-"スタートメニューから、uninstall_FCS_\"version\"を実行します。   "
-"![](images/uninstall_01.png)<br><br>"
+"スタートメニューから、uninstall_FCS_\"version\"を実行します。   ![](images/"
+"uninstall_01.png)<br><br>"
 msgstr ""
+"From the Start menu, run uninstall_FCS_”version.”   ![](images/uninstall_01."
+"png)<br><br>"
 
 #: ../../013_install_fcs.md:39
 msgid "問題がなければOKを選択します。   ![](images/uninstall_02.png)<br><br>"
 msgstr ""
-
+"If there are no issues, select OK.   ![](images/uninstall_02.png)<br><br>"
