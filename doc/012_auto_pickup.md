@@ -1,30 +1,29 @@
-# Auto pickup (experimental) 
-FCS introduces a new way to select frames for retargetting from video effectively with little to no human supervision. 
-This allows you to get the most out of FCS with the least effort. 
+# オートピックアップ（ベータ版）
+FCSは、ビデオからリターゲット用のフレームを自動で効率的に選択する機能を導入しました。この機能により、ほぼ人の作業を要さずに最小限の労力でFCSを最大限に活用できます。
 
 ```{attention}
-This feature is currently in beta and we expect it would break for particular cases. We welcome feedback from the community regarding the implementation.  
+この機能は現在ベータ版であり、特定のケースでは正常に動作しない可能性があります。実装に関するフィードバックを皆様から頂けると幸いです。
 ```
 
-### How to use Auto Pickup 
-Auto pickup window can be opened by right clicking on the video in the Video tab. 
+### オートピックアップの使い方
+ビデオタブで動画を右クリックするとオートピックアップウィンドウが開きます。
 
 ![](images/012_auto_profiles.jpg)
 
-This should bring up the auto profile window. 
+これにより、オートプロファイルウィンドウが表示されます。  
 ![](images/012_auto_profile_window.jpg)
 
-This window allows you to automatically select frames from the video. After confirming the video is correctly selected, you are provided with a couple options regarding what kind of frames you would like to pick up from the video. 
+このウィンドウでは、動画から自動的にフレームを選択できます。動画が正しく選択されていることを確認した後、どの種類のフレームをピックアップするかについて、複数の選択肢が表示されます。
 
 ### Selection method
-Currently, two methods are implemented to allow you to select frames, based on the type of video, `General` and `ROM`, for slightly different use case.    
+現在、2つの方法が実装されており、動画の種類に応じてフレームを選択できます。用途に合わせて`General`と`ROM`が選択可能です。
 
-**General** is designed for using on any video. It will looks for frame that is a good representation of the overall facial expression as it appears in the video.
+**General** は、あらゆる動画で使用できるように設計されています。動画内で顔の表情全体が分かりやすく映っているフレームを自動的に検索します。
 
-Inside *General* you can decide any number of profiles that you would like to add from the video, the algorithm will look at the entire video, and look for facial expression(s) that can overall represent the video.  
+*General*では、動画から追加したいプロファイルの数を自由に設定できます。アルゴリズムは動画全体を分析し、その動画内で写っている顔の表情を自動的に検索します。
 
-**ROM** looks for video frames that match that the specific facial expressions as included in the ROM.pdf included with starter kit. 
+**ROM**は、スターターキットに同梱されているPDF一覧表（ROM.pdf）に載っている顔の表情と一致する動画のフレームを自動的に検索します。
 
-In the *ROM* method, you can choose what exact facial expression that you are looking for inside the video. The algorithm will look for the closest match inside the video. 
+*ROM* メソッドでは、動画内で探したい顔の表情を選択できます。アルゴリズムは動画内で最も近い一致を検索します。
 
-In the future we will release another version where custom ROM sequence can used. 
+今後、カスタムROMシーケンスを使用できるバージョンをリリース予定です。

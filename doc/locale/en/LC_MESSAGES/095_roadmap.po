@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../095_roadmap.md:1
 msgid "開発ロードマップ"
-msgstr "development roadmap"
+msgstr "Development roadmap"
 
 #: ../../095_roadmap.md:2
 #, fuzzy
@@ -29,9 +29,9 @@ msgid ""
 "FCSは継続開発中のソフトです。ロードマップの一部を以下に公開しております。   "
 "これらは将来のソフトに対する機能の実装を保証するものではなく、実装の優先順位を示すものではございません。ご了承ください。"
 msgstr ""
-"FCS is software currently under ongoing development, and we have "
-"published part of the development roadmap below. Please note that this is"
-" for reference only and does not guarantee the implementation of the "
+"FCS is currently under active development, and we have "
+"published part of the development roadmap below. Please note that this should"
+"only be used for reference and does not guarantee the implementation of the specific"
 "features in future software updates. Additionally, the order of the list "
 "does not reflect the priority of implementation. Thank you for your "
 "understanding."
