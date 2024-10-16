@@ -466,19 +466,18 @@ msgstr ""
 
 #: ../../000_release_note.md:137
 msgid "Use Beta 安定しない機能を含めたベータ版の利用ができるようになります"
-msgstr ""
-"Use Beta: Enables the option to use the beta version, which includes "
+msgstr "Use Beta: Enables the option to use the beta version, which includes "
 "unstable features."
 
 #: ../../000_release_note.md:141
 #, fuzzy
-msgid "Fedora 8にて、FCSを対応させました。   ご興味のある方はご連絡ください。"
+msgid "FCSがFedora 8に対応しました。   ご興味のある方はご連絡ください。"
 msgstr "FCS is now supported on Fedora 8. Please contact us if you are interested."
 
 #: ../../000_release_note.md:145
 #, fuzzy
 msgid "プログラムデータの保存先を`$USER/.fcs/Cortado`から`$USER/.fcs/Cortado/$version`に変更しました"
-msgstr ""
-"The program data storage location has been changed from "
+""
+msgstr "The program data storage location has been changed from "
 "$USER/.fcs/Cortado to $USER/.fcs/Cortado/$version."
 
