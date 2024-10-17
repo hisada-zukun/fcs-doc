@@ -59,14 +59,18 @@ msgid "出力したいセッションをロード"
 msgstr "Load the session for export"
 
 #: ../../011_export.md:13
-msgid "File/SessionからExportを選択する ![](images/menu_bar.jpg)"
-msgstr "Select Export from File/Session/Export ![](images\\export\\menu_bar.jpg)"
+msgid "File/SessionからExportを選択する"
+"![](images/menu_bar.jpg)"
+msgstr "Select Export from File/Session/Export"
+"![](images\\export\\menu_bar.jpg)"
 
 #: ../../011_export.md:16
 msgid ""
-"出力先をプロジェクトフォルダーとして指定 ![](images/export_window.jpg)"
+"出力先をプロジェクトフォルダーとして指定"
+"![](images/export_window.jpg)"
 msgstr ""
-"Specify the output destination as the project folder ![](images\\export\\export_window.jpg)"
+"Specify the output destination as the project folder"
+"![](images\\export\\export_window.jpg)"
 
 #: ../../011_export.md:19
 msgid "Actor： アクター名を新しく指定する"
