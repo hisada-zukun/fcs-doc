@@ -24,21 +24,20 @@ msgid "エクスポート"
 msgstr "Export"
 
 #: ../../011_export.md:3
-#, fuzzy
 msgid ""
 "FCSでは作業したセッションを出力することができます。"
 msgstr ""
 "In FCS, you can export the session you have worked on. "
 
 #: ../../011_export.md:
-#, fuzzy
 msgid ""
 "主に以下の際にご活用いただけます。"
 msgstr ""
 "It can mainly be used in the following cases:"
 
 #: ../../011_export.md:5
-msgid "FCSで作成されたプロジェクトをアーカイブや共有する際に、キャッシュなど共有に必要のないデータを除いて手早く共有する"
+msgid ""
+"FCSのセッションをアーカイブ化や共有する際、キャッシュなどの共有に必要ないデータを除いて手早く共有する"
 msgstr ""
 "When archiving or sharing a project created in FCS, you can quickly share"
 " it by excluding unnecessary data such as cache files."
@@ -60,7 +59,7 @@ msgid "出力したいセッションをロード"
 msgstr "Load the session for export"
 
 #: ../../011_export.md:13
-msgid "File/SessionからExportを選択する 
+msgid "File/SessionからExportを選択する"
 msgstr "Select Export from File/Session/Export"
 
 msgid "![](images/menu_bar.jpg)"
@@ -88,7 +87,7 @@ msgid "Character： キャラクター名を新しく指定する"
 msgstr "Character: New character name"
 
 #: ../../011_export.md:25
-msgid "Profile： 現在のセッションのプロファイルを出力するかどうかを指定"
+msgid "Profile: 現在のセッションのプロファイルを出力するかどうかを指定"
 msgstr "Profile: Specify whether to export the profile of the current session."
 
 #: ../../011_export.md:27
