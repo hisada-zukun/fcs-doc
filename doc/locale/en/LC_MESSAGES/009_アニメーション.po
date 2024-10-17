@@ -139,7 +139,7 @@ msgstr ""
 
 #: ../../009_アニメーション.md:52
 msgid ""
-"Mayaシーン上に ☑ を入れた項目が反映されていく ![](images/image133.png)"
+"Mayaシーン上に ☑ を入れた項目が反映されていく"
 msgstr ""
 "The items with ☑ are reflected on the Maya scene. "
 
@@ -149,7 +149,7 @@ msgstr "Audio data in the time slider"
 msgid "イメージプレーンに連番画像 "
 msgstr "Sequentially numbered images on the image plane"
 
-"アニメーションデータ の順で反映される"
+msgid "アニメーションデータ の順で反映される"
 msgstr "Animation data is reflected in this order"
 
 msgid "アニメーションデータ反映時はスライダーが動く ![](images/image133.png)"
