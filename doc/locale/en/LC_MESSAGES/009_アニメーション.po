@@ -102,8 +102,11 @@ msgid "Videoウィンドウで"
 msgstr "In the Video window"
 
 #: ../../009_アニメーション.md:35
-msgid "解析/出力したい動画名の上で右クリック    画像のメニューが表示されるので"
-msgstr "Right-click on the name of the video　you want to analyze/output.    The menu shown in the image will appear."
+msgid "解析/出力したい動画名の上で右クリック"
+msgstr "Right-click on the name of the video　you want to analyze/output." 
+
+msgid "画像のメニューが表示されるので"
+msgstr "The menu shown in the image will appear."
 
 #: ../../009_アニメーション.md:37
 msgid "▼Process　を選択"
@@ -136,19 +139,31 @@ msgstr ""
 
 #: ../../009_アニメーション.md:52
 msgid ""
-"Mayaシーン上に ☑ を入れた項目が反映されていく   　タイムスライダーに音声データ   　イメージプレーンに連番画像   　"
-"アニメーションデータ の順で反映される   　アニメーションデータ反映時はスライダーが動く   ![](images/image133.png)"
+"Mayaシーン上に ☑ を入れた項目が反映されていく ![](images/image133.png)"
 msgstr ""
-"The items with ☑ are reflected on the Maya scene.   　Audio data in the"
-" time slider   　Sequentially numbered images on the image plane   　"
-"Animation data is reflected in this order   　Slider moves when animation "
-"data is reflected.   ![](images/image133.png)"
+"The items with ☑ are reflected on the Maya scene. "
+
+msgid "タイムスライダーに音声データ"
+msgstr "Audio data in the time slider"
+
+msgid "イメージプレーンに連番画像 "
+msgstr "Sequentially numbered images on the image plane"
+
+"アニメーションデータ の順で反映される"
+msgstr "Animation data is reflected in this order"
+
+msgid "アニメーションデータ反映時はスライダーが動く ![](images/image133.png)"
+msgstr "Slider moves when animation data is reflected. ![](images/image133.png)"
+
 
 #: ../../009_アニメーション.md:60
-msgid "【playblastやsceneに ☑ していた場合】   出力が完了したらエクスプローラーがポップアップします。"
+msgid ""
+"【playblastやsceneに ☑ していた場合】"
 msgstr ""
-"【If you are selecting playblast or scene with ☑】   Explorer window "
-"will pop up when output is complete."
+"【If you are selecting playblast or scene with ☑】"
+
+msgid "出力が完了したらエクスプローラーがポップアップします。"
+msgstr "Explorer window will pop up when output is complete."
 
 #: ../../009_アニメーション.md:63
 msgid "![](images/image127.png)"
