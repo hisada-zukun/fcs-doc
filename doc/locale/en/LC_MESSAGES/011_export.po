@@ -23,7 +23,7 @@ msgstr ""
 msgid "エクスポート"
 msgstr "Export"
 
-#: ../../011_export.md:3
+#: ../../011_export.md:4
 msgid ""
 "FCSでは作業したセッションを出力することができます。"
 msgstr ""
@@ -87,16 +87,16 @@ msgid "Character： キャラクター名を新しく指定する"
 msgstr "Character: New character name"
 
 #: ../../011_export.md:25
-msgid "Profile: 現在のセッションのプロファイルを出力するかどうかを指定"
+msgid "Profile： 現在のセッションのプロファイルを出力するかどうかを指定"
 msgstr "Profile: Specify whether to export the profile of the current session."
 
 #: ../../011_export.md:27
 msgid "Videos： 出力先にビデオデータをコピーするかを指定"
-msgstr ""
+msgstr "Videos: Specify whether to copy the video data to the output destination."
 
 #: ../../011_export.md:29
 msgid "Assets： 出力先にFacial/Assetsのフォルダーをコピーするかを指定"
-msgstr ""
+msgstr "Assets: Specify whether to copy the Facial/Assets folder to the output destination."
 
 #: ../../011_export.md:31
 msgid "Exportボタンを押して出力"
