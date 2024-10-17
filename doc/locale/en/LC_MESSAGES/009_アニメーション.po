@@ -99,15 +99,15 @@ msgstr "Output animation from one video"
 
 #: ../../009_アニメーション.md:34 ../../009_アニメーション.md:90
 msgid "Videoウィンドウで"
-msgstr ""
+msgstr "In the Video window"
 
 #: ../../009_アニメーション.md:35
 msgid "解析/出力したい動画名の上で右クリック    画像のメニューが表示されるので"
-msgstr ""
+msgstr "Right-click on the name of the video　you want to analyze/output.    The menu shown in the image will appear."
 
 #: ../../009_アニメーション.md:37
 msgid "▼Process　を選択"
-msgstr ""
+msgstr "Select ▼Process."
 
 #: ../../009_アニメーション.md:38
 msgid "該当する項目に ☑ を入れ   ![](images/A002.png)"
