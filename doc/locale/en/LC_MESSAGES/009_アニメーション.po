@@ -232,10 +232,12 @@ msgstr "{actor} → actor name"
 
 #: ../../009_アニメーション.md:109
 #, python-format
-msgid "{%Y%m%d}, {%H%M%S} → 年月日、時間分秒   {video}のみにするとimportした動画名で出力される"
+msgid "{%Y%m%d}, {%H%M%S} → 年月日、時間分秒"
 msgstr ""
 "{%Y%m%d}, {%H%M%S} → year, month, date, hour, minute, second   If only "
-"{video} is selected, the imported video name will be used as a file name."
+
+msgid "{video}のみにするとimportした動画名で出力される"
+msgstr "{video} is selected, the imported video name will be used as a file name."
 
 #: ../../009_アニメーション.md:112
 msgid "Start ![](images/A009.png)"
