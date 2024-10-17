@@ -32,8 +32,10 @@ msgstr ""
 "FCS introduces a new way to select frames for retargetting from video effectively with little to no human supervision."
 
 #: ../../012_auto_pickup.md:3
-msgid "これにより、作業者の負担がより軽減され、最小限の労力で最大限にFCSを活用できるようになります。"
-msgstr "This allows you to get the most out of FCS with the least effort."
+msgid ""
+"これにより、作業者の負担がより軽減され、最小限の労力で最大限にFCSを活用できるようになります。"
+msgstr ""
+"This allows you to get the most out of FCS with the least effort."
 
 
 #: ../../012_auto_pickup.md:6
@@ -69,18 +71,17 @@ msgstr ""
 "This should bring up the auto profile window. "
 " ![](images/012_auto_profile_window.jpg)"
 
-
 #: ../../012_auto_pickup.md:17
 msgid ""
 "このウィンドウでは、動画から自動的にフレームを選択できます。"
-"ここでは、動画のパスが正しく選択されているかどうか確認し、どのようなフレームをピックア"
-"ップするかについてオプションを設定してください。"
 msgstr ""
 "This window allows you to automatically select frames from the video. "
-"After confirming the video is correctly selected, you are provided with "
+
+#: ../../012_auto_pickup.md:20
+msgid "ここでは、動画のパスが正しく選択されているかどうか確認し、どのようなフレームをピックアップするかについてオプションを設定してください。"
+msgstr "After confirming the video is correctly selected, you are provided with "
 "a couple options regarding what kind of frames you would like to pick up "
 "from the video."
-
 
 #: ../../012_auto_pickup.md:19
 msgid "ピックアップの方法について"
