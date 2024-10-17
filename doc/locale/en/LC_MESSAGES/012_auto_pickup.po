@@ -28,12 +28,13 @@ msgstr "Auto pickup (experimental)"
 #: ../../012_auto_pickup.md:2
 msgid ""
 "FCSは、読み込んだ動画内の適切なフレームを自動でピックアップする機能を導入しました。"
-"これにより、作業者の負担がより軽減され、最小限の労力で最大限にFCSを活用できるようにな"
-"ります。"
 msgstr ""
-"FCS introduces a new way to select frames for retargetting from video "
-"effectively with little to no human supervision.  This allows you to get "
-"the most out of FCS with the least effort."
+"FCS introduces a new way to select frames for retargetting from video effectively with little to no human supervision."
+
+#: ../../012_auto_pickup.md:3
+msgid "これにより、作業者の負担がより軽減され、最小限の労力で最大限にFCSを活用できるようになります。"
+msgstr "This allows you to get the most out of FCS with the least effort."
+
 
 #: ../../012_auto_pickup.md:6
 msgid ""
