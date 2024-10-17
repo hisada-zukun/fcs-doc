@@ -25,10 +25,17 @@ msgstr "Export"
 
 #: ../../011_export.md:3
 #, fuzzy
-msgid "FCSでは作業したセッションを出力することができます。   主に以下の際にご活用いただけます。"
+msgid ""
+"FCSでは作業したセッションを出力することができます。"
 msgstr ""
-"In FCS, you can export the session you have worked on. It can mainly be "
-"used in the following cases:"
+"In FCS, you can export the session you have worked on. "
+
+#: ../../011_export.md:
+#, fuzzy
+msgid ""
+"主に以下の際にご活用いただけます。"
+msgstr ""
+"It can mainly be used in the following cases:"
 
 #: ../../011_export.md:5
 msgid "FCSで作成されたプロジェクトをアーカイブや共有する際に、キャッシュなど共有に必要のないデータを除いて手早く共有する"
@@ -41,7 +48,6 @@ msgid "同じアクターのProfileから、別のキャラクターの表情を
 msgstr "Creating multiple characters from the same actor profiles"
 
 #: ../../011_export.md:7
-#, fuzzy
 msgid "同じキャラクターの表情を、別アクターで制作する"
 msgstr "Creating a new session of an existing character with a different actor"
 
@@ -50,37 +56,38 @@ msgid "エクスポート手順"
 msgstr "Export Procedure"
 
 #: ../../011_export.md:11
-#, fuzzy
 msgid "出力したいセッションをロード"
 msgstr "Load the session for export"
 
 #: ../../011_export.md:13
-msgid "File/SessionからExportを選択する ![](images/menu_bar.jpg)"
-msgstr "Select Export from File/Session/Export ![](images\\export\\menu_bar.jpg)"
+msgid "File/SessionからExportを選択する 
+msgstr "Select Export from File/Session/Export"
+
+msgid "![](images/menu_bar.jpg)"
+msgstr "![](images\\export\\menu_bar.jpg)"
 
 #: ../../011_export.md:16
-msgid "出力先をプロジェクトフォルダーとして指定 ![](images/export_window.jpg)"
+msgid ""
+"出力先をプロジェクトフォルダーとして指定"
 msgstr ""
 "Specify the output destination as the project folder "
-"![](images\\export\\export_window.jpg)"
+
+msgid "![](images/export_window.jpg)"
+msgstr "![](images\\export\\export_window.jpg)"
 
 #: ../../011_export.md:19
-#, fuzzy
 msgid "Actor： アクター名を新しく指定する"
 msgstr "Actor: Select new actor name"
 
 #: ../../011_export.md:20 ../../011_export.md:23
-#, fuzzy
 msgid "アーカイブ化の場合はそのままでも問題ありません"
 msgstr "If you were to achieve this you can leave this as is"
 
 #: ../../011_export.md:22
-#, fuzzy
 msgid "Character： キャラクター名を新しく指定する"
 msgstr "Character: New character name"
 
 #: ../../011_export.md:25
-#, fuzzy
 msgid "Profile： 現在のセッションのプロファイルを出力するかどうかを指定"
 msgstr "Profile: Specify whether to export the profile of the current session."
 
@@ -93,7 +100,6 @@ msgid "Assets： 出力先にFacial/Assetsのフォルダーをコピーする�
 msgstr ""
 
 #: ../../011_export.md:31
-#, fuzzy
 msgid "Exportボタンを押して出力"
 msgstr "Press the Export button to output."
 
