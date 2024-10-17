@@ -102,22 +102,18 @@ msgstr ""
 #: ../../012_auto_pickup.md:22
 msgid ""
 "**General** は、どのような動画でも使用できるように設計されています。動画内で顔の表情全体が明瞭に映っているフレームを自動的に抽出します。"
-"*General*では、選択した動画へ追加したいプロファイルの数を自由に設定できます。動画全体を分析し、指定した数の表情を自動的にピックアップします。"
 msgstr ""
 "**General** is designed for using on any video. It will looks for frame "
 "that is a good representation of the overall facial expression as it "
 "appears in the video."
+
+#: ../../012_auto_pickup.md:24
+msgid ""
+"*General*では、選択した動画へ追加したいプロファイルの数を自由に設定できます。動画全体を分析し、指定した数の表情を自動的にピックアップします。"
+msgstr ""
 "Inside *General* you can decide any number of profiles that you would "
 "like to add from the video, the algorithm will look at the entire video, "
 "and look for facial expression(s) that can overall represent the video."
-
-#: ../../012_auto_pickup.md:24
-#msgid ""
-#"*General*では、選択した動画へ追加したいプロファイルの数を自由に設定できます。動画全体を分析し、指定した数の表情を自動的にピックアップします。"
-#msgstr ""
-#"Inside *General* you can decide any number of profiles that you would "
-#"like to add from the video, the algorithm will look at the entire video, "
-#"and look for facial expression(s) that can overall represent the video."
 
 #: ../../012_auto_pickup.md:26
 msgid ""
@@ -125,7 +121,6 @@ msgid ""
 msgstr ""
 "**ROM** looks for video frames that match that the specific facial "
 "expressions as included in the ROM.pdf included with starter kit."
-
 
 #: ../../012_auto_pickup.md:28
 msgid ""
