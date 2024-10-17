@@ -48,7 +48,7 @@ msgstr "▼Global: allows you to change the settings for analysis."
 msgid ""
 "☑ Fisheye：チェックを入れると、魚眼レンズで撮影された動画を解析する仕様に最適化される"
 msgstr ""
-"[x] Fisheye: check this box to optimize for analyzing videos shot with a "
+"☑ Fisheye: check this box to optimize for analyzing videos shot with a "
 "fisheye lens."
 
 #: ../../010_Solver.md:11
