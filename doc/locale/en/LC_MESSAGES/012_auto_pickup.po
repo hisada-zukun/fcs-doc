@@ -101,8 +101,7 @@ msgstr ""
 # The source text is “It will looks for frame” but the correct form is “It will look for frame”. 
 #: ../../012_auto_pickup.md:22
 msgid ""
-"**General** は、どのような動画でも使用できるように設計されています。動画内で顔の表情全体が"
-"明瞭に映っているフレームを自動的に抽出します。"
+"**General** は、どのような動画でも使用できるように設計されています。動画内で顔の表情全体が明瞭に映っているフレームを自動的に抽出します。"
 msgstr ""
 "**General** is designed for using on any video. It will looks for frame "
 "that is a good representation of the overall facial expression as it "
@@ -111,8 +110,7 @@ msgstr ""
 
 #: ../../012_auto_pickup.md:24
 msgid ""
-"*General*では、選択した動画へ追加したいプロファイルの数を自由に設定できます。動画全体を分"
-"析し、指定した数の表情を自動的にピックアップします。"
+"*General*では、選択した動画へ追加したいプロファイルの数を自由に設定できます。動画全体を分析し、指定した数の表情を自動的にピックアップします。"
 msgstr ""
 "Inside *General* you can decide any number of profiles that you would "
 "like to add from the video, the algorithm will look at the entire video, "
@@ -120,8 +118,7 @@ msgstr ""
 
 #: ../../012_auto_pickup.md:26
 msgid ""
-"**ROM**は、スターターキットに同梱されているPDF一覧表（ROM.pdf）に載っている顔の表情と一"
-"致する動画のフレームを自動的に抽出します。"
+"**ROM**は、スターターキットに同梱されているPDF一覧表（ROM.pdf）に載っている顔の表情と一致する動画のフレームを自動的に抽出します。"
 msgstr ""
 "**ROM** looks for video frames that match that the specific facial "
 "expressions as included in the ROM.pdf included with starter kit."
@@ -129,8 +126,7 @@ msgstr ""
 
 #: ../../012_auto_pickup.md:28
 msgid ""
-"*ROM* では、動画内で探したいROMの表情をチェックボックスで選択できます。選択した表情を"
-"元に、動画内で最も近い表情のフレームをピックアップします。"
+"*ROM* では、動画内で探したいROMの表情をチェックボックスで選択できます。選択した表情を元に、動画内で最も近い表情のフレームをピックアップします。"
 msgstr ""
 "In the *ROM* method, you can choose what exact facial expression that "
 "you are looking for inside the video. The algorithm will look for the "
