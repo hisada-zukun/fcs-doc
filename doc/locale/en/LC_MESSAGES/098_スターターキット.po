@@ -70,8 +70,8 @@ msgid "一部コンテンツのご利用には、サードパーティー製の�
 msgstr "Some of the content requires external plugins rendering"
 
 #: ../../098_スターターキット.md:20
-msgid "Mayaの3Dモデルデータ"
-msgstr "3D model in Maya"
+msgid "1. Mayaの3Dモデルデータ"
+msgstr "1. 3D model in Maya"
 
 #: ../../098_スターターキット.md:21
 msgid "Mayaの3Dモデルデータフォルダには、以下の2種類のモデルデータが含まれています。"
@@ -193,8 +193,11 @@ msgstr ""
 "for use."
 
 #: ../../098_スターターキット.md:66
-msgid "動画解析 - アニメーション出力用のサンプル動画"
-msgstr "Video Analysis - Sample Video for Animation Output"
+msgid "4. 動画解析 - アニメーション出力用のサンプル動画"
+msgstr "4. Video Analysis - Sample Video for Animation Output"
+
+msgid "サンプル動画の内容について"
+msgstr ""
 
 #: ../../098_スターターキット.md:67
 msgid "動画解析で使用するサンプル動画です。   FCSに読み込ませてご利用ください。"
@@ -217,8 +220,8 @@ msgstr ""
 "Motion Actor Co., Ltd. </span>"
 
 #: ../../098_スターターキット.md:79
-msgid "Profile作成済みのFCS Session参考例データ"
-msgstr "Sample Data of an FCS Session with Created Profiles"
+msgid "5. Profile作成済みのFCS Session参考例データ"
+msgstr "5. Sample Data of an FCS Session with Created Profiles"
 
 #: ../../098_スターターキット.md:80
 msgid ""
@@ -267,6 +270,9 @@ msgstr ""
 "Please refer to the following steps for how to reconfigure the Maya data "
 "paths and import the sample videos."
 
+msgid "Mayaデータのパス再設定方法"
+msgstr ""
+
 #: ../../098_スターターキット.md:98
 msgid ""
 "Mayaデータについては、FCS上でMaya Sceneパス - Maya Baseパスそれぞれの再設定が必要です。   "
@@ -299,6 +305,9 @@ msgid ""
 msgstr ""
 "![](images/013_mayaDataRepath_01.png) "
 "![](images/013_mayaDataRepath_02.png)"
+
+msgid "サンプル動画のインポート方法"
+msgstr ""
 
 #: ../../098_スターターキット.md:115
 msgid "サンプル動画は、以下の手順でインポートできます。 <br>"
