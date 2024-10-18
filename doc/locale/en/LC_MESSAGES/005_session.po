@@ -60,54 +60,56 @@ msgstr ""
 
 #: ../../005_session.md:17
 msgid "Facial：動画やMayaシーンデータ等素材を保存する場所"
-msgstr ""
+msgstr Facial: folder to save materials (i.e., HMC videos and Maya scene data)"
 
 #: ../../005_session.md:18
 msgid "Assets：Mayaのプロジェクトファイル（Assets以下）を保存する場所"
-msgstr ""
+msgstr "Assets: folder to save Maya project file (containing assets)"
 
 #: ../../005_session.md:19
 msgid "RecData：ROM体操やFCSで解析したい動画を保存する場所"
-msgstr ""
+msgstr "RecData: folder to save the videos you want to analyze with ROM and FCS"
 
 #: ../../005_session.md:20
 msgid "Scene：アニメーション出力時のデフォルト出力先"
-msgstr ""
+msgstr "Scene: default output destination for animation output"
 
 #: ../../005_session.md:21
 msgid ""
 "SetData：アニメーション出力で「audio」を選択した場合にはwavファイルが、   　　「Frame」「Landmark "
 "Frame」を選択した場合は連番画像が作成され、保存される"
 msgstr ""
+"SetData：For animation output, wave files will be saved when you select `audio`."
+"Sequential numbered image files will be created and saved when you select “frame” or `landmark frame'."
 
 #: ../../005_session.md:24
 msgid "FCS：解析に使用するデータが保存されるプロジェクトフォルダ"
-msgstr ""
+msgstr "FCS: project folder where data used for analysis is saved"
 
 #: ../../005_session.md:25
 msgid "Actor：Actorで作成したフォルダ。Actorで入力した名前が表記される"
-msgstr ""
+msgstr "Actor: folder created with Actor. The name entered in Actor is displayed."
 
 #: ../../005_session.md:26
 msgid "Character：Characterで作成したフォルダ。Characterで入力した名前が表記される"
-msgstr ""
+msgstr ""Character: Folder created with Character. The name entered in Character is displayed."
 
 #: ../../005_session.md:27
 msgid "RetargetData（IMG/PARAM）：作成したProfileの編集データ（画像や数値情報）が保存される"
-msgstr ""
+msgstr "RetargetData (IMG/PARAM): Edited data (images and character controller values) of the created Profile is saved"
 
 #: ../../005_session.md:28
 msgid "VideoData：解析する動画のキャッシュが保存される"
-msgstr ""
+msgstr "VideoData: cache of the video to be analyzed is saved"
 
 #: ../../005_session.md:29
 msgid ".lock：競合を防ぐためのロックファイル。起動時/終了時に自動で作成/消去される"
-msgstr ""
+msgstr ".lock：lock file to prevent the same project being opened by multiple users"
 
 #: ../../005_session.md:30
 #, fuzzy
 msgid "fcs_session.yaml：session情報を保存しているファイル"
-msgstr "Open Session from fcs_session.yaml file"
+msgstr "fcs_session.yaml：File that saves session information"
 
 #: ../../005_session.md:32
 msgid "Sessionの新規作成"
