@@ -55,7 +55,7 @@ msgstr "Load the session for export"
 
 #: ../../011_export.md:17
 #, fuzzy
-msgid "File/SessionからExportを選択する ![](images/menu_bar.jpg)"
+msgid "File/SessionからExportを選択 ![](images/menu_bar.jpg)"
 msgstr "Select Export from File/Session ![](images/menu_bar.jpg)"
 
 #: ../../011_export.md:20
