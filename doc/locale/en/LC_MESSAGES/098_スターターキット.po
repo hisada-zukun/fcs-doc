@@ -70,8 +70,8 @@ msgid "一部コンテンツのご利用には、サードパーティー製の�
 msgstr "Some of the content requires external plugins rendering"
 
 #: ../../098_スターターキット.md:20
-msgid "1 Mayaの3Dモデルデータ"
-msgstr "1 3D model in Maya"
+msgid "1. Mayaの3Dモデルデータ"
+msgstr "1. 3D model in Maya"
 
 #: ../../098_スターターキット.md:21
 msgid "Mayaの3Dモデルデータフォルダには、以下の2種類のモデルデータが含まれています。"
@@ -161,8 +161,8 @@ msgstr ""
 "Please make sure to read the included readme.txt file before use."
 
 #: ../../098_スターターキット.md:57
-msgid "2 フェイシャルROM体操の表情一覧PDF"
-msgstr "2 List of Facial ROM Expressions (PDF)"
+msgid "2. フェイシャルROM体操の表情一覧PDF"
+msgstr "2. List of Facial ROM Expressions (PDF)"
 
 #: ../../098_スターターキット.md:58
 msgid ""
@@ -183,8 +183,8 @@ msgstr ""
 # 3. Facial ROM Exercise Video としますか？「Facial ROM体操（ROM
 # Exercise）」の英語訳が一般的ではないと思いましたので現状はFacial ROM Videoとしています
 #: ../../098_スターターキット.md:62
-msgid "3 フェイシャルROM体操動画"
-msgstr "3 Facial ROM Video"
+msgid "3. フェイシャルROM体操動画"
+msgstr "3. Facial ROM Video"
 
 #: ../../098_スターターキット.md:63
 msgid "フェイシャルROM体操を収録した動画です。   FCSに読み込ませてご利用ください。"
@@ -193,8 +193,8 @@ msgstr ""
 "for use."
 
 #: ../../098_スターターキット.md:66
-msgid "4 動画解析 - アニメーション出力用のサンプル動画"
-msgstr "4 Video Analysis - Sample Video for Animation Output"
+msgid "4. 動画解析 - アニメーション出力用のサンプル動画"
+msgstr "4. Video Analysis - Sample Video for Animation Output"
 
 msgid "サンプル動画の内容について"
 msgstr ""
@@ -220,8 +220,8 @@ msgstr ""
 "Motion Actor Co., Ltd. </span>"
 
 #: ../../098_スターターキット.md:79
-msgid "5 Profile作成済みのFCS Session参考例データ"
-msgstr "5 Sample Data of an FCS Session with Created Profiles"
+msgid "5. Profile作成済みのFCS Session参考例データ"
+msgstr "5. Sample Data of an FCS Session with Created Profiles"
 
 #: ../../098_スターターキット.md:80
 msgid ""
