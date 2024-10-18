@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS 24.07 Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-18 09:08+0900\n"
+"POT-Creation-Date: 2024-10-18 10:21+0900\n"
 "PO-Revision-Date: 2024-09-25 10:56+0900\n"
 "Last-Translator: \n"
 "Language: en\n"
@@ -159,7 +159,7 @@ msgstr "Audio data in the time slider"
 
 #: ../../009_アニメーション.md:58
 #, fuzzy
-msgid "イメージプレーンに連番画"
+msgid "イメージプレーンに連番画像"
 msgstr "Sequentially numbered images on the image plane"
 
 #: ../../009_アニメーション.md:59

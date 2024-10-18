@@ -9,16 +9,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS 24.07 Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-10 16:25+0900\n"
+"POT-Creation-Date: 2024-10-18 10:21+0900\n"
 "PO-Revision-Date: 2024-09-25 07:24+0900\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../008_profile.md:1 ../../008_profile.md:120
 msgid "Profileの作成"
@@ -103,9 +103,7 @@ msgstr ""
 
 #: ../../008_profile.md:35
 msgid "Sync：☑ でTimeline操作状況をMayaのTimeSliderと一致させる"
-msgstr ""
-"Sync: With ☑, synchronize the timeline operations with Maya’s "
-"TimeSlider."
+msgstr "Sync: With ☑, synchronize the timeline operations with Maya’s TimeSlider."
 
 #: ../../008_profile.md:36
 msgid "EveryFrame/Realtime：再生速度を変更する"
@@ -299,9 +297,9 @@ msgid ""
 "Sync timeline ☑ ：登録したprofileと同じ動画を開いた状態でprofileを選択すると、該当するフレームにジャンプする。 "
 "▼▲：ソートの昇順 降順を変更する"
 msgstr ""
-"Sync timeline ☑: When a profile is selected while the same video as "
-"the registered profile is open, it will jump to the corresponding frame. "
-"▼▲: Change the sort order between ascending and descending."
+"Sync timeline ☑: When a profile is selected while the same video as the "
+"registered profile is open, it will jump to the corresponding frame. ▼▲: "
+"Change the sort order between ascending and descending."
 
 #: ../../008_profile.md:106
 msgid "Video▼：ソート機能"
@@ -344,8 +342,8 @@ msgstr "Blue: Currently selected (being edited) profile."
 #: ../../008_profile.md:116
 msgid "黒：「Enabled」の ☑ を外し、「Disabled」で登録したprofile"
 msgstr ""
-"Black: Profile registered with the “Enabled” box unchecked ☑ and "
-"marked as “Disabled.”"
+"Black: Profile registered with the “Enabled” box unchecked ☑ and marked "
+"as “Disabled.”"
 
 #: ../../008_profile.md:117
 msgid "白：リターゲット後、登録したprofile"
@@ -627,8 +625,8 @@ msgstr "Regarding Gaze registration for closed or half-closed eyes."
 msgid "目を閉じる、薄目のプロファイルで黒目が見えないものは登録する際にGazeの ☑ を外してください   解析結果の精度が低下してしまう可能性があります"
 msgstr ""
 "For profiles where the eyes are closed or half-closed and the pupils are "
-"not visible, please uncheck the Gaze box ☑ when registering. "
-"Otherwise, it may lower the accuracy of the analysis results."
+"not visible, please uncheck the Gaze box ☑ when registering. Otherwise, "
+"it may lower the accuracy of the analysis results."
 
 #: ../../008_profile.md:291
 msgid "例：眉のぎゅっと絞る動きを作りたい時には ![](images/P024.png)"
@@ -637,13 +635,13 @@ msgstr ""
 "![](images/P024.png)"
 
 #: ../../008_profile.md:294
-msgid "表情を調整した上で"
-"![](images/P025.png)"
-msgstr "Adjust the facial expressions"
-"![](images/P025.png)"
+#, fuzzy
+msgid "表情を調整した上で ![](images/P025.png)"
+msgstr "Adjust the facial expressions![](images/P025.png)"
 
 #: ../../008_profile.md:297
-msgid "Regionのgaze/lowerの ☑ を外す![](images/P026.png)"
+#, fuzzy
+msgid "Regionのgaze/lowerの ☑ を外す ![](images/P026.png)"
 msgstr "Uncheck the ☑ box in gaze/lower in Region![](images/P026.png)"
 
 #: ../../008_profile.md:300
