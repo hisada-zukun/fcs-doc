@@ -102,10 +102,9 @@ msgstr ""
 " the clearer the preview; the larger the Scale, the rougher the preview)"
 
 #: ../../008_profile.md:35
-#, fuzzy
 msgid "Sync：☑ でTimeline操作状況をMayaのTimeSliderと一致させる"
 msgstr ""
-"Sync: With - [x], synchronize the timeline operations with Maya’s "
+"Sync: With ☑, synchronize the timeline operations with Maya’s "
 "TimeSlider."
 
 #: ../../008_profile.md:36
@@ -284,26 +283,23 @@ msgid "Neutral：Neutralにチェックを入れて登録したprofileを表示�
 msgstr "Neutral: Display profiles registered with the Neutral box checked."
 
 #: ../../008_profile.md:100
-#, fuzzy
 msgid "（Region）Enabled：該当する（Region）に ☑ を入れて登録したprofileを表示する。"
 msgstr ""
 "(Region) Enabled: Display profiles registered with a check in the "
-"(Region) Enabled box - [x]."
+"(Region) Enabled box ☑."
 
 #: ../../008_profile.md:101
-#, fuzzy
 msgid "（Region）Disabled：該当する（Region）に ☑ を入れず登録したprofileを表示する。"
 msgstr ""
 "(Region) Disabled: Display profiles registered without a check in the "
-"(Region) Disabled box - [x]."
+"(Region) Disabled box ☑."
 
 #: ../../008_profile.md:103
-#, fuzzy
 msgid ""
 "Sync timeline ☑ ：登録したprofileと同じ動画を開いた状態でprofileを選択すると、該当するフレームにジャンプする。 "
 "▼▲：ソートの昇順 降順を変更する"
 msgstr ""
-"Sync timeline - [x]: When a profile is selected while the same video as "
+"Sync timeline ☑: When a profile is selected while the same video as "
 "the registered profile is open, it will jump to the corresponding frame. "
 "▼▲: Change the sort order between ascending and descending."
 
@@ -334,9 +330,8 @@ msgid "ピックアップした画像"
 msgstr "Selected images"
 
 #: ../../008_profile.md:113
-#, fuzzy
 msgid "緑：「Neutral」に ☑ を入れて登録したProfile"
-msgstr "Green: Profile registered with the “Neutral” box checked - [x]."
+msgstr "Green: Profile registered with the “Neutral” box checked ☑."
 
 #: ../../008_profile.md:114
 msgid "赤：数値がデフォルト状態/未編集のProfile"
@@ -347,10 +342,9 @@ msgid "青：選択中（編集中）のprofile"
 msgstr "Blue: Currently selected (being edited) profile."
 
 #: ../../008_profile.md:116
-#, fuzzy
 msgid "黒：「Enabled」の ☑ を外し、「Disabled」で登録したprofile"
 msgstr ""
-"Black: Profile registered with the “Enabled” box unchecked - [x] and "
+"Black: Profile registered with the “Enabled” box unchecked ☑ and "
 "marked as “Disabled.”"
 
 #: ../../008_profile.md:117
@@ -443,9 +437,8 @@ msgstr ""
 "expression within each session."
 
 #: ../../008_profile.md:162
-#, fuzzy
 msgid "Neutralに ☑"
-msgstr "Check the box for Neutral - [x]"
+msgstr "Check the box for Neutral ☑"
 
 #: ../../008_profile.md:163
 msgid "任意の名前に変更"
@@ -631,11 +624,10 @@ msgid "目を閉じる/薄目の時のGaze登録について"
 msgstr "Regarding Gaze registration for closed or half-closed eyes."
 
 #: ../../008_profile.md:287
-#, fuzzy
 msgid "目を閉じる、薄目のプロファイルで黒目が見えないものは登録する際にGazeの ☑ を外してください   解析結果の精度が低下してしまう可能性があります"
 msgstr ""
 "For profiles where the eyes are closed or half-closed and the pupils are "
-"not visible, please uncheck the Gaze box - [x] when registering. "
+"not visible, please uncheck the Gaze box ☑ when registering. "
 "Otherwise, it may lower the accuracy of the analysis results."
 
 #: ../../008_profile.md:291
@@ -645,13 +637,14 @@ msgstr ""
 "![](images/P024.png)"
 
 #: ../../008_profile.md:294
-msgid "表情を調整した上で ![](images/P025.png)"
-msgstr "Adjust the facial expressions![](images/P025.png)"
+msgid "表情を調整した上で"
+"![](images/P025.png)"
+msgstr "Adjust the facial expressions"
+"![](images/P025.png)"
 
 #: ../../008_profile.md:297
-#, fuzzy
-msgid "Regionのgaze/lowerの ☑ を外す ![](images/P026.png)"
-msgstr "Uncheck the - [x] box in gaze/lower in Region![](images/P026.png)"
+msgid "Regionのgaze/lowerの ☑ を外す![](images/P026.png)"
+msgstr "Uncheck the ☑ box in gaze/lower in Region![](images/P026.png)"
 
 #: ../../008_profile.md:300
 msgid "Save"
