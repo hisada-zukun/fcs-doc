@@ -296,7 +296,7 @@ msgstr ""
 
 #: ../../008_profile.md:103
 msgid ""
-"Sync timeline ☑ ：登録したprofileと同じ動画を開いた状態でprofileを選択すると、該当するフレームにジャンプする。 "
+"Sync timeline ☑ ：登録したprofileと同じ動画を開いた状態でprofileを選択すると、該当するフレームにジャンプする。"
 msgstr ""
 "Sync timeline ☑: When a profile is selected while the same video as the "
 "registered profile is open, it will jump to the corresponding frame."
