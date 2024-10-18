@@ -328,7 +328,7 @@ msgid "登録すべきものか確認後"
 msgstr "After confirming what needs to be registered"
 
 #: ../../007_Controlinfo.md:158
-msgid "削除したい項目に ☑ →Remove   ![](images/C019.png)"
+msgid "削除したい項目に ☑ →Remove"
 msgstr "For the item you want to delete, check the box ☑ → Remove"
 
 #: ../../007_Controlinfo.md:160
