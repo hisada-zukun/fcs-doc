@@ -8,93 +8,88 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-10 16:25+0900\n"
+"POT-Creation-Date: 2024-10-18 09:08+0900\n"
 "PO-Revision-Date: 2024-09-25 13:33+0900\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../011_export.md:2
 msgid "エクスポート"
 msgstr "Export"
 
 #: ../../011_export.md:4
-msgid ""
-"FCSでは作業したセッションを出力することができます。"
-msgstr ""
-"In FCS, you can export the session you have worked on. "
+msgid "FCSでは作業したセッションを出力することができます。"
+msgstr "In FCS, you can export the session you have worked on. "
 
-#: ../../011_export.md:
-msgid ""
-"主に以下の際にご活用いただけます。"
-msgstr ""
-"It can mainly be used in the following cases:"
+#: ../../011_export.md:6
+msgid "主に以下の際にご活用いただけます。"
+msgstr "It can mainly be used in the following cases:"
 
-#: ../../011_export.md:5
-msgid ""
-"FCSのセッションをアーカイブ化や共有する際、キャッシュなどの共有に必要ないデータを除いて手早く共有する"
+#: ../../011_export.md:8
+msgid "FCSのセッションをアーカイブ化や共有する際、キャッシュなどの共有に必要ないデータを除いて手早く共有する"
 msgstr ""
 "When archiving or sharing a project created in FCS, you can quickly share"
 " it by excluding unnecessary data such as cache files."
 
-#: ../../011_export.md:6
+#: ../../011_export.md:9
 msgid "同じアクターのProfileから、別のキャラクターの表情を制作する"
 msgstr "Creating multiple characters from the same actor profiles"
 
-#: ../../011_export.md:7
+#: ../../011_export.md:10
 msgid "同じキャラクターの表情を、別アクターで制作する"
 msgstr "Creating a new session of an existing character with a different actor"
 
-#: ../../011_export.md:10
+#: ../../011_export.md:13
 msgid "エクスポート手順"
 msgstr "Export Procedure"
 
-#: ../../011_export.md:11
+#: ../../011_export.md:15
 msgid "出力したいセッションをロード"
 msgstr "Load the session for export"
 
-#: ../../011_export.md:13
-msgid "File/SessionからExportを選択する"
-"![](images/menu_bar.jpg)"
-msgstr "Select Export from File/Session/Export"
-"![](images\\export\\menu_bar.jpg)"
+#: ../../011_export.md:17
+#, fuzzy
+msgid "File/SessionからExportを選択する ![](images/menu_bar.jpg)"
+msgstr "Select Export from File/Session/Export ![](images\\export\\menu_bar.jpg)"
 
-#: ../../011_export.md:16
-msgid ""
-"出力先をプロジェクトフォルダーとして指定"
-"![](images/export_window.jpg)"
+#: ../../011_export.md:20
+#, fuzzy
+msgid "出力先をプロジェクトフォルダーとして指定 ![](images/export_window.jpg)"
 msgstr ""
-"Specify the output destination as the project folder"
-"![](images\\export\\export_window.jpg)"
+"Specify the output destination as the project "
+"folder ![](images\\export\\export_window.jpg)"
 
-#: ../../011_export.md:19
+#: ../../011_export.md:23
 msgid "Actor： アクター名を新しく指定する"
 msgstr "Actor: Select new actor name"
 
-#: ../../011_export.md:20 ../../011_export.md:23
+#: ../../011_export.md:24 ../../011_export.md:26
 msgid "アーカイブ化の場合はそのままでも問題ありません"
 msgstr "If you were to achieve this you can leave this as is"
 
-#: ../../011_export.md:22
+#: ../../011_export.md:25
 msgid "Character： キャラクター名を新しく指定する"
 msgstr "Character: New character name"
 
-#: ../../011_export.md:25
+#: ../../011_export.md:27
 msgid "Profile： 現在のセッションのプロファイルを出力するかどうかを指定"
 msgstr "Profile: Specify whether to export the profile of the current session."
 
-#: ../../011_export.md:27
+#: ../../011_export.md:28
 msgid "Videos： 出力先にビデオデータをコピーするかを指定"
 msgstr "Videos: Specify whether to copy the video data to the output destination."
 
 #: ../../011_export.md:29
 msgid "Assets： 出力先にFacial/Assetsのフォルダーをコピーするかを指定"
-msgstr "Assets: Specify whether to copy the Facial/Assets folder to the output destination."
+msgstr ""
+"Assets: Specify whether to copy the Facial/Assets folder to the output "
+"destination."
 
 #: ../../011_export.md:31
 msgid "Exportボタンを押して出力"
