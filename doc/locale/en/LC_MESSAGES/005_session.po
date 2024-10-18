@@ -107,7 +107,6 @@ msgid ".lock：競合を防ぐためのロックファイル。起動時/終了�
 msgstr ".lock：lock file to prevent the same project being opened by multiple users"
 
 #: ../../005_session.md:30
-#, fuzzy
 msgid "fcs_session.yaml：session情報を保存しているファイル"
 msgstr "fcs_session.yaml：File that saves session information"
 
