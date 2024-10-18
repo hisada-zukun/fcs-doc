@@ -150,10 +150,13 @@ msgstr ""
 "using Both for the first time."
 
 #: ../../008_profile.md:54
-msgid "Neutral：デフォルトの表情として必ず1つ登録する   Enabled：解析する素材として使用する"
+msgid ""
+"Neutral：デフォルトの表情として必ず1つ登録する"
 msgstr ""
-"Neutral: Always register one as a default expression   Enabled：Use as "
-"material to analyze"
+"Neutral: Always register one as a default expression"
+
+msgid " Enabled：解析する素材として使用する"
+msgstr "Enabled：Use as material to analyze"
 
 #: ../../008_profile.md:57
 msgid "Controller▼"
