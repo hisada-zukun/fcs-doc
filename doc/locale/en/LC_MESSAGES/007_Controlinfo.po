@@ -72,32 +72,39 @@ msgstr ""
 
 #: ../../007_Controlinfo.md:25
 msgid ""
-"Maya   Add selected：選択したコントローラーを登録"
+"Maya"
 msgstr ""
-"Maya   Add selected: Register the selected controller"
+"Maya"
+
+msgid "Add selected：選択したコントローラーを登録"
+msgstr "Add selected: Register the selected controller"
 
 msgid "Sync：☑ 数値操作をMayaと連動する"
 msgstr "Sync: ☑ sync numerical operations with Maya"
 
 #: ../../007_Controlinfo.md:29
 msgid ""
-"Selected   Upper/Eyelid/Gaze/Lower：Region　部位の区分ごとにコントローラーを登録   Remove：☑ "
-"を入れたコントローラーを削除する   select All/Unselect All：controller上に表示されているコントローラーすべてに"
-" ☑ / ☑ 解除"
+"Upper/Eyelid/Gaze/Lower：Region　部位の区分ごとにコントローラーを登録"
 msgstr ""
-"Selected   Upper/Eyelid/Gaze/Lower: Region Register controller for each "
-"part segment   Remove: delete the selected controller with ☑ Select "
-"All/Unselect All: Check/uncheck ☑ for all controllers displayed on "
-"the controller."
+"Upper/Eyelid/Gaze/Lower: Region Register controller for each part segment"
+
+msgid "Remove：☑ を入れたコントローラーを削除する"
+msgstr "Remove: delete the selected controller with ☑"
+
+msgid "select All/Unselect All：controller上に表示されているコントローラーすべてに ☑ / ☑ 解除"
+msgstr "Select All/Unselect All: Check/uncheck ☑ for all controllers displayed on the controller."
 
 #: ../../007_Controlinfo.md:34
 msgid ""
-"▼Advanced   Remove empty：Regionが登録されていないコントローラー(null)を削除する   Delete "
-"all：追加 - 登録したコントローラー情報をすべて削除する   Reset：Saveされているデータの状態に戻す"
+"Remove empty：Regionが登録されていないコントローラー(null)を削除する"
 msgstr ""
-"▼Advanced   Remove empty: delete a controller that does not have any "
-"regions registered (null)   Delete all: delete all the added/registered "
-"controller information   Reset: revert to the latest saved data"
+"Remove empty: delete a controller that does not have any regions registered (null)"
+
+msgid "Reset：Saveされているデータの状態に戻す"
+msgstr "Reset: revert to the latest saved data"
+
+msgid "Delete all：追加 - 登録したコントローラー情報をすべて削除する"
+msgstr "Delete all: delete all the added/registered controller information"
 
 #: ../../007_Controlinfo.md:39
 msgid "save：controller Infoを登録。"
