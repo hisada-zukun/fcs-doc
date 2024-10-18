@@ -24,7 +24,6 @@ msgid "開発ロードマップ"
 msgstr "Development roadmap"
 
 #: ../../095_roadmap.md:2
-#, fuzzy
 msgid ""
 "FCSは継続開発中のソフトです。ロードマップの一部を以下に公開しております。   "
 "これらは将来のソフトに対する機能の実装を保証するものではなく、実装の優先順位を示すものではございません。ご了承ください。"
@@ -41,18 +40,19 @@ msgid ""
 "機能要望の受付も行っております。御社のパイプラインに最適化したビルドを作成することも可能[^1]ですので、   "
 "質問・要望・不具合などありましたら[HELTECホームページ](https://sensing.heltec.co.jp/product"
 "/zukun-lab/fcs/)までご連絡ください。"
-msgstr ""
+msgstr "We are also accepting feature requests, so please feel free to contact us via email."
+"It is also possible to create builds optimized for your pipeline, either by purchasing a certain level of license or for an additional fee."
+"Please contact [us](https://sensing.heltec.co.jp/product/zukun-lab/fcs/) individually for more details."
 
 #: ../../095_roadmap.md:11
 msgid "リアルタイム動画生成     リアルタイムでのアニメーション解析・出力プログラムの作成 <br>"
-msgstr ""
+msgstr "Real-time Video Generation     Creation of a program for real-time animation output."
 
 #: ../../095_roadmap.md:15
 msgid "サンプルエンジンコードの作成     (Unity, Unreal Engine, Motion Builder) <br>"
-msgstr ""
+msgstr "Development of sample engine code (Unity, Unreal Engine, Motion Builder)."
 
 #: ../../095_roadmap.md:19
-#, fuzzy
 msgid ""
 "ランドマーク検出器の改善    ツークン研究所の所持するスキャンシステム「LightStage」の高品質データを用いたランドマーク検出器の改善"
 "   <br>"
@@ -62,19 +62,16 @@ msgstr ""
 "stage."
 
 #: ../../095_roadmap.md:23
-#, fuzzy
 msgid "自動リターゲット機能の搭載      任意のリグに対し、大まかなリターゲットを自動的に行う機能を追加   <br>"
 msgstr ""
 "Equipped with automatic retargeting functions      An algorithm adds the "
 "capability to automatically perform rough retargeting on any rig"
 
 #: ../../095_roadmap.md:27
-#, fuzzy
 msgid "処理の高速化   <br>"
 msgstr "Accelerated processing"
 
 #: ../../095_roadmap.md:30
-#, fuzzy
 msgid "Unreal Engineによるリターゲットへの対応    現在のFCSにおけるMaya機能をUnreal Engineにも対応"
 msgstr ""
 "Retargeting support with Unreal Engine     Extending the Maya features in"
