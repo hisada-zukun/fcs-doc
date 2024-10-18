@@ -40,7 +40,9 @@ msgid ""
 "FCS を使用すると、ヘッドマウントカメラ・定点カメラで撮影された動画を読み取り、解析したアニメーションを 3D "
 "キャラクターに転送することができます。   "
 "ブレンドシェイプ・ジョイントを問わず、コントローラーのあるリグであれば基本的に対応しており、デフォルメキャラクター・フォトリアルなキャラクターどちらにもご利用いただけます。"
-msgstr ""
+msgstr "From photo-realistic avatars to cell-look characters, FCS provides an uniformed solution to create high quality facial animation."
+"By associating facial expressions of the character and the actor ("Retargeting") , FCS accurately recreate even the most subtle facial expressions such as gaze direction."
+"Supports most head mounted cameras as well as fixed cameras."
 
 #: ../../001_intro.md:10
 msgid "このドキュメントでは、「FCS」の仕組みと使用方法を説明します。"
