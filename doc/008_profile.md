@@ -97,6 +97,7 @@ All▼：該当する項目を絞り込む
 - （Region）Disabled：該当する（Region）に ☑ を入れず登録したprofileを表示する。
 
 Sync timeline ☑ ：登録したprofileと同じ動画を開いた状態でprofileを選択すると、該当するフレームにジャンプする。
+
 ▼▲：ソートの昇順 降順を変更する
 
 Video▼：ソート機能
