@@ -255,18 +255,17 @@ msgid "All：すべてのprofileを表示する"
 msgstr "All:  Display all profiles"
 
 #: ../../008_profile.md:95
-#, fuzzy
 msgid "Enabled：解析に使用するprofileを表示する。Enabledに ☑ を入れて登録したprofileが対象となる。"
 msgstr ""
 "Enabled: Display profiles used for analysis. Profiles with a check in the"
-" Enabled box - [x] will be targeted."
+" Enabled box ☑ will be targeted."
 
 #: ../../008_profile.md:96
-#, fuzzy
-msgid "Disabled：解析に使用しないprofileを表示する。Enabledに ☑ を入れず登録したprofileが対象となる。"
+msgid ""
+"Disabled：解析に使用しないprofileを表示する。Enabledに ☑ を入れずに登録したprofileが対象となる。"
 msgstr ""
 "Disabled: Display profiles not used for analysis. Profiles registered "
-"without a check in the Enabled box - [x] will be targeted."
+"without a check in the Enabled box ☑ will be targeted."
 
 #: ../../008_profile.md:97
 msgid "Default：数値がdefaultのprofileを表示する。"
@@ -635,12 +634,10 @@ msgstr ""
 "![](images/P024.png)"
 
 #: ../../008_profile.md:294
-#, fuzzy
 msgid "表情を調整した上で ![](images/P025.png)"
 msgstr "Adjust the facial expressions![](images/P025.png)"
 
 #: ../../008_profile.md:297
-#, fuzzy
 msgid "Regionのgaze/lowerの ☑ を外す ![](images/P026.png)"
 msgstr "Uncheck the ☑ box in gaze/lower in Region![](images/P026.png)"
 
