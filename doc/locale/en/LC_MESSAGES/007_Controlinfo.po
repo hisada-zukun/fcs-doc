@@ -71,10 +71,13 @@ msgstr ""
 " you want to display."
 
 #: ../../007_Controlinfo.md:25
-msgid "Maya   Add selected：選択したコントローラーを登録   Sync：☑ 数値操作をMayaと連動する"
+msgid ""
+"Maya   Add selected：選択したコントローラーを登録"
 msgstr ""
-"Maya   Add selected: Register the selected controller   Sync: ☑ sync "
-"numerical operations with Maya "
+"Maya   Add selected: Register the selected controller"
+
+msgid "Sync：☑ 数値操作をMayaと連動する"
+msgstr "Sync: ☑ sync numerical operations with Maya"
 
 #: ../../007_Controlinfo.md:29
 msgid ""
