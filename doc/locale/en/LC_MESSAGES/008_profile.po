@@ -297,11 +297,14 @@ msgstr ""
 #: ../../008_profile.md:103
 msgid ""
 "Sync timeline ☑ ：登録したprofileと同じ動画を開いた状態でprofileを選択すると、該当するフレームにジャンプする。 "
-"▼▲：ソートの昇順 降順を変更する"
 msgstr ""
 "Sync timeline ☑: When a profile is selected while the same video as the "
-"registered profile is open, it will jump to the corresponding frame. ▼▲: "
-"Change the sort order between ascending and descending."
+"registered profile is open, it will jump to the corresponding frame."
+
+msgid ""
+"▼▲：ソートの昇順 降順を変更する"
+msgstr ""
+"▼▲: Change the sort order between ascending and descending."
 
 #: ../../008_profile.md:106
 msgid "Video▼：ソート機能"
