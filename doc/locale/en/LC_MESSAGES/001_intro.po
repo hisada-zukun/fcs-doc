@@ -25,7 +25,6 @@ msgid "FCSとは"
 msgstr "What is FCS?"
 
 #: ../../001_intro.md:2
-#, fuzzy
 msgid ""
 "FCSとは、デジタルヒューマン研究（DHP研究）で培ったアルゴリズムを採用した、   新たなフェイシャルキャプチャーシステム（**F**acial"
 " **C**apture **S**ystem）です。   "
@@ -34,8 +33,7 @@ msgstr ""
 "FCS is a new facial capture system that adopted algorithms cultivated by "
 "digital human research (DHP research). Equipped with an auto-tracking "
 "function, it shortens the time required for facial tracking and reduces "
-"the burden of the user. In this instruction manual, you can learn about "
-"FCS and how it works."
+"the burden of the user."
 
 #: ../../001_intro.md:7
 msgid ""
@@ -46,7 +44,7 @@ msgstr ""
 
 #: ../../001_intro.md:10
 msgid "このドキュメントでは、「FCS」の仕組みと使用方法を説明します。"
-msgstr ""
+msgstr " In this instruction manual, you can learn about FCS and how it works."
 
 #: ../../001_intro.md:12
 msgid "ヘルプとサポート"
