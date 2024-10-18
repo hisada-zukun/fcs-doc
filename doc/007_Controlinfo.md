@@ -22,21 +22,21 @@ FCSでは顔のパーツ区分のことをRegionと呼びます。
 一覧  
 all▼：all/Upper/Eyelid/Gaze/Lower/null　指定した項目（部位の区分）を絞り込んで表示  
 
-Maya
-- Add selected：選択したコントローラーを登録
-- Sync：☑ 数値操作をMayaと連動する
+- Maya
+  - Add selected：選択したコントローラーを登録
+  - Sync：☑ 数値操作をMayaと連動する
 
-Selected
-- Upper/Eyelid/Gaze/Lower：Region　部位の区分ごとにコントローラーを登録
-- Remove：☑ を入れたコントローラーを削除する
-- select All/Unselect All：controller上に表示されているコントローラーすべてに ☑ / ☑ 解除 
+- Selected
+  - Upper/Eyelid/Gaze/Lower：Region　部位の区分ごとにコントローラーを登録
+  - Remove：☑ を入れたコントローラーを削除する
+  - select All/Unselect All：controller上に表示されているコントローラーすべてに ☑ / ☑ 解除 
 
-▼Advanced
-- Remove empty：Regionが登録されていないコントローラー(null)を削除する
-- Delete all：追加 - 登録したコントローラー情報をすべて削除する
-- Reset：Saveされているデータの状態に戻す
+- ▼Advanced
+  - Remove empty：Regionが登録されていないコントローラー(null)を削除する
+  - Delete all：追加 - 登録したコントローラー情報をすべて削除する
+  - Reset：Saveされているデータの状態に戻す
 
-save：controller Infoを登録。
+- save：controller Infoを登録。
 
 ### Controllerの登録
 
