@@ -70,8 +70,8 @@ msgid "一部コンテンツのご利用には、サードパーティー製の�
 msgstr "Some of the content requires external plugins rendering"
 
 #: ../../098_スターターキット.md:20
-msgid "1. Mayaの3Dモデルデータ"
-msgstr "1. 3D model in Maya"
+msgid "Mayaの3Dモデルデータ"
+msgstr "3D model in Maya"
 
 #: ../../098_スターターキット.md:21
 msgid "Mayaの3Dモデルデータフォルダには、以下の2種類のモデルデータが含まれています。"
@@ -117,7 +117,9 @@ msgid ""
 "Engineのインストール、確認用プロジェクトの作成をお願いいたします。   Unreal Engineに関する詳細は、Epic "
 "Games社が提供する[Unreal "
 "Engine紹介ホームページ](https://www.unrealengine.com/ja)をご確認ください。"
-msgstr ""
+msgstr "When using DIGITAL NAGAKI, confirmation/rendering with Unreal Engine will be required."
+"Please install the Unreal Engine and create a project for testing before using DIGITAL NAGAKI."
+"For more details on the Unreal Engine, please refer to the website provided by Epic Games (https://www.unrealengine.com/en-US)."
 
 #: ../../098_スターターキット.md:42
 msgid ""
@@ -191,8 +193,8 @@ msgstr ""
 "for use."
 
 #: ../../098_スターターキット.md:66
-msgid "4. 動画解析 - アニメーション出力用のサンプル動画"
-msgstr "4. Video Analysis - Sample Video for Animation Output"
+msgid "動画解析 - アニメーション出力用のサンプル動画"
+msgstr "Video Analysis - Sample Video for Animation Output"
 
 #: ../../098_スターターキット.md:67
 msgid "動画解析で使用するサンプル動画です。   FCSに読み込ませてご利用ください。"
@@ -215,8 +217,8 @@ msgstr ""
 "Motion Actor Co., Ltd. </span>"
 
 #: ../../098_スターターキット.md:79
-msgid "5. Profile作成済みのFCS Session参考例データ"
-msgstr "5. Sample Data of an FCS Session with Created Profiles"
+msgid "Profile作成済みのFCS Session参考例データ"
+msgstr "Sample Data of an FCS Session with Created Profiles"
 
 #: ../../098_スターターキット.md:80
 msgid ""
@@ -232,7 +234,6 @@ msgstr ""
 "loading the sample video, you can create profiles directly."
 
 #: ../../098_スターターキット.md:84
-#, fuzzy
 msgid ""
 "Profile作成をしなくても解析自体は可能ですが、それだけでは精度が十分ではないため、サンプル動画内からも最低1以上のProfile作成が必要です。"
 "   Profileの具体的な作成方法については、[Profileの作成ページ](https://zukunfcs.github.io/fcs-"
@@ -244,7 +245,6 @@ msgstr ""
 "how to create profiles, please refer to the Profile Creation Page."
 
 #: ../../098_スターターキット.md:88
-#, fuzzy
 msgid ""
 "参考例データでは、解析に使用する各データ（スターターキットコンテンツ1 - 3 - 4と同一内容）が、予め作成されたFCS "
 "Sessionフォルダ構造内に置かれています。   FCS "
