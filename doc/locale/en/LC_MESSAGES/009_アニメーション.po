@@ -124,7 +124,6 @@ msgid "該当する項目に ☑ を入れ"
 msgstr "Check the box ☑ for the relevant item."
 
 #: ../../009_アニメーション.md:43
-#, fuzzy
 msgid "![](images/A002.png)"
 msgstr "![](images/A003.png)"
 
@@ -158,7 +157,6 @@ msgid "タイムスライダーに音声データ"
 msgstr "Audio data in the time slider"
 
 #: ../../009_アニメーション.md:58
-#, fuzzy
 msgid "イメージプレーンに連番画像"
 msgstr "Sequentially numbered images on the image plane"
 
