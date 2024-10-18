@@ -55,13 +55,12 @@ msgstr "Load the session for export"
 
 #: ../../011_export.md:17
 #, fuzzy
-msgid "File/SessionからExportを選択する"
-msgstr "Select Export from File/Session"
+msgid "File/SessionからExportを選択する ![](images/menu_bar.jpg)"
+msgstr "Select Export from File/Session ![](images/menu_bar.jpg)"
 
 #: ../../011_export.md:20
-#, fuzzy
-msgid "出力先をプロジェクトフォルダーとして指定"
-msgstr "Select the output destination"
+msgid "出力先をプロジェクトフォルダーとして指定 ![](images/export_window.jpg)"
+msgstr "Select output destination ![](images/export_window.jpg)"
 
 #: ../../011_export.md:23
 msgid "Actor： アクター名を新しく指定する"
