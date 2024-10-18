@@ -673,9 +673,8 @@ msgid "メニューバー上部で右クリック"
 msgstr "Right-click on the top of the menu bar."
 
 #: ../../008_profile.md:313
-#, fuzzy
 msgid "「Profiles」に ☑ を入れる   ![](images/P026-03.png)"
-msgstr "Check the - [x] box for “Profiles”   ![](images/P026-03.png)"
+msgstr "Check the ☑ box for “Profiles”   ![](images/P026-03.png)"
 
 #: ../../008_profile.md:316
 msgid "トラブルシューティング"
