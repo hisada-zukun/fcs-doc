@@ -21,7 +21,7 @@ FCSマニュアル
    008_profile.md
    009_アニメーション.md 
    010_Solver.md
-   011_export.md
+   011_export.rst
    012_auto_pickup.md
    095_roadmap.md
    096_support.md

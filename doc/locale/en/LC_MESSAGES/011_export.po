@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-18 09:08+0900\n"
+"POT-Creation-Date: 2024-10-18 10:21+0900\n"
 "PO-Revision-Date: 2024-09-25 13:33+0900\n"
 "Last-Translator: \n"
 "Language: en\n"
@@ -55,40 +55,41 @@ msgstr "Load the session for export"
 
 #: ../../011_export.md:17
 #, fuzzy
-msgid "File SessionからExportを選択 ![](images/menu_bar.jpg)"
+msgid "File/SessionからExportを選択 <br> ![](images/menu_bar.jpg)"
 msgstr "Select Export from File/Session ![](images/menu_bar.jpg)"
 
-#: ../../011_export.md:20
-msgid "出力先をプロジェクトフォルダーとして指定 ![](images/export_window.jpg)"
+#: ../../011_export.md:21
+#, fuzzy
+msgid "出力先をプロジェクトフォルダーとして指定 <br> ![](images/export_window.jpg)"
 msgstr "Select output destination ![](images/export_window.jpg)"
 
-#: ../../011_export.md:23
+#: ../../011_export.md:25
 msgid "Actor： アクター名を新しく指定する"
 msgstr "Actor: Select new actor name"
 
-#: ../../011_export.md:24 ../../011_export.md:26
+#: ../../011_export.md:26 ../../011_export.md:28
 msgid "アーカイブ化の場合はそのままでも問題ありません"
 msgstr "If you were to achieve this you can leave this as is"
 
-#: ../../011_export.md:25
+#: ../../011_export.md:27
 msgid "Character： キャラクター名を新しく指定する"
 msgstr "Character: New character name"
 
-#: ../../011_export.md:27
+#: ../../011_export.md:29
 msgid "Profile： 現在のセッションのプロファイルを出力するかどうかを指定"
 msgstr "Profile: Specify whether to export the profile of the current session."
 
-#: ../../011_export.md:28
+#: ../../011_export.md:30
 msgid "Videos： 出力先にビデオデータをコピーするかを指定"
 msgstr "Videos: Specify whether to copy the video data to the output destination."
 
-#: ../../011_export.md:29
+#: ../../011_export.md:31
 msgid "Assets： 出力先にFacial/Assetsのフォルダーをコピーするかを指定"
 msgstr ""
 "Assets: Specify whether to copy the Facial/Assets folder to the output "
 "destination."
 
-#: ../../011_export.md:31
+#: ../../011_export.md:33
 msgid "Exportボタンを押して出力"
 msgstr "Press the Export button to output."
 
