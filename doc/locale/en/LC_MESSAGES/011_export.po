@@ -55,15 +55,13 @@ msgstr "Load the session for export"
 
 #: ../../011_export.md:17
 #, fuzzy
-msgid "File/SessionからExportを選択する ![](images/menu_bar.jpg)"
-msgstr "Select Export from File/Session/Export ![](images\\export\\menu_bar.jpg)"
+msgid "File/SessionからExportを選択する"
+msgstr "Select Export from File/Session"
 
 #: ../../011_export.md:20
 #, fuzzy
-msgid "出力先をプロジェクトフォルダーとして指定 ![](images/export_window.jpg)"
-msgstr ""
-"Specify the output destination as the project "
-"folder ![](images\\export\\export_window.jpg)"
+msgid "出力先をプロジェクトフォルダーとして指定"
+msgstr "Select the output destination"
 
 #: ../../011_export.md:23
 msgid "Actor： アクター名を新しく指定する"
@@ -104,4 +102,10 @@ msgstr "Press the Export button to output."
 #~ " Assets: Specify whether to copy the"
 #~ " Facial/Assets folder to the output "
 #~ "destination."
+
+#~ msgid "出力先をプロジェクトフォルダーとして指定"
+#~ msgstr "Select the output destination"
+
+#~ msgid "![](images/menu_bar.jpg)"
+#~ msgstr "![](images/menu_bar.jpg)"
 
