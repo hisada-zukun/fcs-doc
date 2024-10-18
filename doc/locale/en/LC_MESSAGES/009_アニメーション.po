@@ -146,15 +146,17 @@ msgstr ""
 msgid "タイムスライダーに音声データ"
 msgstr "Audio data in the time slider"
 
-msgid "イメージプレーンに連番画像 "
+msgid "イメージプレーンに連番画像"
 msgstr "Sequentially numbered images on the image plane"
 
 msgid "アニメーションデータ の順で反映される"
 msgstr "Animation data is reflected in this order"
 
-msgid "アニメーションデータ反映時はスライダーが動く ![](images/image133.png)"
-msgstr "Slider moves when animation data is reflected. ![](images/image133.png)"
+msgid "アニメーションデータ反映時はスライダーが動く"
+msgstr "Slider moves when animation data is reflected."
 
+msgid "![](images/image133.png)"
+msgstr "![](images/image133.png)"
 
 #: ../../009_アニメーション.md:60
 msgid ""
