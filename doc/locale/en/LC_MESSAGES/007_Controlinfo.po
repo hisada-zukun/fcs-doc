@@ -71,22 +71,20 @@ msgstr ""
 " you want to display."
 
 #: ../../007_Controlinfo.md:25
-#, fuzzy
 msgid "Maya   Add selected：選択したコントローラーを登録   Sync：☑ 数値操作をMayaと連動する"
 msgstr ""
-"Maya   Add selected: Register the selected controller   Sync: - [x] sync "
+"Maya   Add selected: Register the selected controller   Sync: ☑ sync "
 "numerical operations with Maya "
 
 #: ../../007_Controlinfo.md:29
-#, fuzzy
 msgid ""
 "Selected   Upper/Eyelid/Gaze/Lower：Region　部位の区分ごとにコントローラーを登録   Remove：☑ "
 "を入れたコントローラーを削除する   select All/Unselect All：controller上に表示されているコントローラーすべてに"
 " ☑ / ☑ 解除"
 msgstr ""
 "Selected   Upper/Eyelid/Gaze/Lower: Region Register controller for each "
-"part segment   Remove: delete the selected controller with - [x] Select "
-"All/Unselect All: Check/uncheck - [x] for all controllers displayed on "
+"part segment   Remove: delete the selected controller with ☑ Select "
+"All/Unselect All: Check/uncheck ☑ for all controllers displayed on "
 "the controller."
 
 #: ../../007_Controlinfo.md:34
@@ -320,9 +318,8 @@ msgid "登録すべきものか確認後"
 msgstr "After confirming what needs to be registered"
 
 #: ../../007_Controlinfo.md:158
-#, fuzzy
 msgid "削除したい項目に ☑ →Remove   ![](images/C019.png)"
-msgstr "For the item you want to delete, check the box - [x] → Remove"
+msgstr "For the item you want to delete, check the box ☑ → Remove"
 
 #: ../../007_Controlinfo.md:160
 msgid "nullのままのコントローラーを一括削除 ![](images/C020.png)"
