@@ -51,8 +51,8 @@ Mayaをベースに表情を調整するのか、FCSをベースに表情を調�
 最初は「Both」での使用をオススメします。
 ```
 
-Neutral：デフォルトの表情として必ず1つ登録する  
-Enabled：解析する素材として使用する  
+- Neutral：デフォルトの表情として必ず1つ登録する  
+- Enabled：解析する素材として使用する  
 
 Controller▼
 - Controller：コントローラー表示が名前になる
@@ -73,14 +73,10 @@ LM：LandMarkを表示する
 - [ ]：入力した文字でコントローラーを絞り込む  
 
 ▼Reset：入力した情報を削除する
-
-Name：Profileとして登録する名前
-
-Save：変更した情報を保存する
-
-画像部分：Timelineから+で追加した画像が表示される
-
-コントローラー：Controller Infoで登録したコントローラーが表示される
+- Name：Profileとして登録する名前
+- Save：変更した情報を保存する
+- 画像部分：Timelineから+で追加した画像が表示される
+- コントローラー：Controller Infoで登録したコントローラーが表示される
 
 #### Galleryの画面説明
 
@@ -93,7 +89,7 @@ Count:○○：登録しているprofileの総数
 All▼：該当する項目を絞り込む
 - All：すべてのprofileを表示する
 - Enabled：解析に使用するprofileを表示する。Enabledに ☑ を入れて登録したprofileが対象となる。
-- Disabled：解析に使用しないprofileを表示する。Enabledに ☑ を入れず登録したprofileが対象となる。
+- Disabled：解析に使用しないprofileを表示する。Enabledに ☑ を入れずに登録したprofileが対象となる。
 - Default：数値がdefaultのprofileを表示する。
 - Not Default：数値がdefaultではないprofileを表示する。
 - Neutral：Neutralにチェックを入れて登録したprofileを表示する。
