@@ -15,14 +15,14 @@ FCSでは作業したセッションを出力することができます。
 エクスポート手順
 ==================================
 
-1. **出力したいセッションをロード**
+1. 出力したいセッションをロード
 
-2. **File/SessionからExportを選択**
+2. File/SessionからExportを選択
 
    .. image:: images/menu_bar.jpg
       :align: right
 
-3. **出力先をプロジェクトフォルダーとして指定**
+3. 出力先をプロジェクトフォルダーとして指定
 
    .. image:: images/export_window.jpg
       :align: right
@@ -35,4 +35,4 @@ FCSでは作業したセッションを出力することができます。
    - **Videos**: 出力先にビデオデータをコピーするかを指定
    - **Assets**: 出力先にFacial/Assetsのフォルダーをコピーするかを指定
 
-4. **Exportボタンを押して出力**
+4. Exportボタンを押して出力

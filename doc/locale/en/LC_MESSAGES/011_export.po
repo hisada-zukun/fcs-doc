@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-18 10:32+0900\n"
+"POT-Creation-Date: 2024-10-18 10:41+0900\n"
 "PO-Revision-Date: 2024-09-25 13:33+0900\n"
 "Last-Translator: \n"
 "Language: en\n"
@@ -51,21 +51,25 @@ msgstr "Export Procedure"
 
 #: ../../011_export.rst:18
 #, fuzzy
-msgid "**出力したいセッションをロード**"
-msgstr "**Load the session for export**"
+msgid "出力したいセッションをロード"
+msgstr "Load the session for export"
 
 #: ../../011_export.rst:20
-msgid "**File/SessionからExportを選択**"
+#, fuzzy
+msgid "File/SessionからExportを選択"
 msgstr "Select Export under File/Session"
 
 #: ../../011_export.rst:25
-msgid "**出力先をプロジェクトフォルダーとして指定**"
-msgstr "**Select output destination**"
+#, fuzzy
+msgid "出力先をプロジェクトフォルダーとして指定"
+msgstr "Select output destination"
 
 #: ../../011_export.rst:30
 #, fuzzy
 msgid "**Actor**: アクター名を新しく指定する - アーカイブ化の場合はそのままでも問題ありません"
-msgstr "**Actor**: Specify a new actor name, if you just want to archive the session you can leave this as is."
+msgstr ""
+"**Actor**: Specify a new actor name, if you just want to archive the "
+"session you can leave this as is."
 
 #: ../../011_export.rst:32
 #, fuzzy
@@ -80,19 +84,21 @@ msgstr "**Profile**: Specify whether to export the profile of the current sessio
 #: ../../011_export.rst:35
 #, fuzzy
 msgid "**Videos**: 出力先にビデオデータをコピーするかを指定"
-msgstr "**Videos**: Specify whether to copy the video data to the output destination."
+msgstr ""
+"**Videos**: Specify whether to copy the video data to the output "
+"destination."
 
 #: ../../011_export.rst:36
 #, fuzzy
 msgid "**Assets**: 出力先にFacial/Assetsのフォルダーをコピーするかを指定"
 msgstr ""
-"**Assets**: Specify whether to copy the Facial/Assets folder to the output "
-"destination."
+"**Assets**: Specify whether to copy the Facial/Assets folder to the "
+"output destination."
 
 #: ../../011_export.rst:38
 #, fuzzy
-msgid "**Exportボタンを押して出力**"
-msgstr "**Press the Export button to output.**"
+msgid "Exportボタンを押して出力"
+msgstr "Press the Export button to output"
 
 #~ msgid ""
 #~ "Videos: 出力先にビデオデータをコピーするかを指定する   Assets: "
