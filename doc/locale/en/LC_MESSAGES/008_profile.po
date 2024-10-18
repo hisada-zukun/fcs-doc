@@ -155,7 +155,7 @@ msgid ""
 msgstr ""
 "Neutral: Always register one as a default expression"
 
-msgid " Enabled：解析する素材として使用する"
+msgid "Enabled：解析する素材として使用する"
 msgstr "Enabled：Use as material to analyze"
 
 #: ../../008_profile.md:57
