@@ -29,7 +29,7 @@ msgstr "Landmark"
 
 #: ../../097_用語集.md:4
 msgid "顔の各点の位置情報"
-msgstr "Location information for each point on a face"
+msgstr "Location information for each point on a face (Facial landmark)"
 
 #: ../../097_用語集.md:6
 msgid "Pick up（ピックアップ）"
