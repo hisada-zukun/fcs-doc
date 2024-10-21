@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../097_用語集.md:1
 msgid "用語集"
-msgstr ""
+msgstr "Glossary of terms"
 
 #: ../../097_用語集.md:3
 msgid "LM（ランドマーク）"
@@ -29,11 +29,11 @@ msgstr "Landmark"
 
 #: ../../097_用語集.md:4
 msgid "顔の各点の位置情報"
-msgstr "Facial landmark"
+msgstr "Location information for each point on a face"
 
 #: ../../097_用語集.md:6
 msgid "Pick up（ピックアップ）"
-msgstr ""
+msgstr "Pickup"
 
 #: ../../097_用語集.md:7
 msgid "表情出力の計算に含めたいフレームを抽出すること、またはピックアップしたデータのこと"
@@ -41,11 +41,11 @@ msgstr ""
 
 #: ../../097_用語集.md:9
 msgid "Profile（プロファイル）"
-msgstr ""
+msgstr "Profile"
 
 #: ../../097_用語集.md:10
-#, fuzzy
-msgid "動画からピックアップしたフレーム情報とリターゲットした表情の組み合わせのこと"
+msgid ""
+"動画からピックアップしたフレーム情報とリターゲットした表情の組み合わせのこと"
 msgstr ""
 "Registering the expressions of the selected frames, or the retargeted "
 "data."
@@ -55,18 +55,19 @@ msgid "Region（リージョン）"
 msgstr "Region"
 
 #: ../../097_用語集.md:13
-msgid "コントローラのアトリビュートがupper / lower / eye / eyelidのどれに該当するかの情報"
+msgid ""
+"コントローラのアトリビュートがupper / lower / eye / eyelidのどれに該当するかの情報"
 msgstr ""
 "Information about which attribute of the controller corresponds to upper,"
 " lower, eye, or eyelid."
 
 #: ../../097_用語集.md:15
 msgid "upper：眉周りの動き"
-msgstr "upper: forehead, eyebrow"
+msgstr "upper: movement around the forehead and eyebrows "
 
 #: ../../097_用語集.md:17
 msgid "lower：鼻、頬、口周りの動き"
-msgstr "lower: nose, cheek, mouth"
+msgstr "lower: movement around the nose, cheeks, and mouth"
 
 #: ../../097_用語集.md:19
 msgid "eye：UIではgaze表記、目線の動き"
@@ -74,14 +75,13 @@ msgstr "eye: Labeled as “gaze” in the UI, representing eye movement."
 
 #: ../../097_用語集.md:21
 msgid "eyelid：まぶたの動き"
-msgstr "eyelid: eyelid"
+msgstr "movement of eyelids"
 
 #: ../../097_用語集.md:23
 msgid "Retarget（リターゲット）"
 msgstr "Retarget"
 
 #: ../../097_用語集.md:24
-#, fuzzy
 msgid "ピックアップしたフレームに対応する表情を登録すること、またはリターゲットしたデータのこと"
 msgstr ""
 "Registering the expressions of the selected frames, or the retargeted "
@@ -89,7 +89,7 @@ msgstr ""
 
 #: ../../097_用語集.md:26
 msgid "Session(セッション)"
-msgstr ""
+msgstr "Session"
 
 #: ../../097_用語集.md:27
 msgid "アクター情報、キャラクター情報、Mayaシーン情報とその解析データを紐づけたファイルのこと"
@@ -97,41 +97,41 @@ msgstr ""
 
 #: ../../097_用語集.md:30
 msgid "Window(ウィンドウ)"
-msgstr ""
+msgstr "Window"
 
 #: ../../097_用語集.md:31
 msgid "Videos(ビデオウィンドウ)"
-msgstr ""
+msgstr "Videos"
 
 #: ../../097_用語集.md:32
 msgid "Processor(プロセッサーウィンドウ)"
-msgstr ""
+msgstr "Processor"
 
 #: ../../097_用語集.md:33
 msgid "Controllers(コントローラーウィンドウ)"
-msgstr ""
+msgstr "Controllers"
 
 #: ../../097_用語集.md:34
 msgid "Profiles"
-msgstr ""
+msgstr "Profiles"
 
 #: ../../097_用語集.md:35
 msgid "Gallery(ギャラリーウィンドウ)"
-msgstr ""
+msgstr "Gallery"
 
 #: ../../097_用語集.md:36
 msgid "Editor(エディターウィンドウ)"
-msgstr ""
+msgstr "Editor"
 
 #: ../../097_用語集.md:37
 msgid "Solver(ソルバーウィンドウ)"
-msgstr ""
+msgstr "Solver"
 
 #: ../../097_用語集.md:38
 msgid "Log(ログウィンドウ)"
-msgstr ""
+msgstr "Log"
 
 #: ../../097_用語集.md:39
 msgid "TimeLine(タイムラインウィンドウ)"
-msgstr ""
+msgstr "TimeLine"
 
