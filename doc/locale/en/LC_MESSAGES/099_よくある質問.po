@@ -62,7 +62,7 @@ msgid ""
 msgstr ""
 "**No specific camera is required   Commercial cameras (i.e., Gopro, iPhone) would work, both "
 "table mounted or head mounted.   You can test your own footage with our 30 days free trials. (No "
-"credit card required.) **"
+"credit card required.)**"
 
 msgid "Q：MacOSには対応していますか？"
 msgstr ""
