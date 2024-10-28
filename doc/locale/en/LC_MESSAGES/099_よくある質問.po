@@ -29,7 +29,7 @@ msgid "FCSを使うにあたって"
 msgstr "Using FCS"
 
 msgid "Q：FCS操作時にインターネット接続は必要ですか？"
-msgstr ""
+msgstr "Q: Is an Internet connection required when operating the FCS?"
 
 #: ../../099_よくある質問.md:8
 msgid ""
@@ -40,7 +40,7 @@ msgstr ""
 "work but we recommend using wired internet.**"
 
 msgid "Q：PCのスペックの決まりはありますか？ "
-msgstr ""
+msgstr "Q: Are there any specific requirements for PC specifications?"
 
 #: ../../099_よくある質問.md:17
 msgid ""
@@ -57,7 +57,7 @@ msgstr ""
 "Memory: DDR4 128GB or more**"
 
 msgid "Q：専用のヘッドマウントカメラは必要ですか？  "
-msgstr ""
+msgstr "Q: Is a dedicated head-mounted camera required?"
 
 #: ../../099_よくある質問.md:33
 msgid ""
@@ -70,7 +70,7 @@ msgstr ""
 "You can test your own footage with our 30 days free trials. (No credit card required.)**"
 
 msgid "Q：MacOSには対応していますか？"
-msgstr ""
+msgstr "Q: Is MacOS supported?"
 
 #: ../../099_よくある質問.md:44
 msgid "**現時点では対応していませんが、将来的には対応する予定です。（※2024年6月現在）**"
@@ -79,7 +79,7 @@ msgstr ""
 "2024)**"
 
 msgid "Q：FCSを使用するにあたって、何か別のソフトは必要になりますか？ "
-msgstr ""
+msgstr "Q: Is any additional software required to use the FCS?"
 
 
 #: ../../099_よくある質問.md:53
@@ -95,7 +95,7 @@ msgid "FCSの機能について"
 msgstr "FCS features"
 
 msgid "Q：FCSは撮影の際、アクターにマーカーを付ける必要はありますか？  "
-msgstr "Does FCS require marker on the actor footage?"
+msgstr "Q: Does FCS require marker on the actor footage?"
 
 #: ../../099_よくある質問.md:63
 msgid "**FCSはオートトラッキングを搭載しているため、アクターにマーカーを付ける必要はありません。**"
@@ -103,28 +103,28 @@ msgstr ""
 "**Since FCS is equipped with auto-tracking, there is no need to apply markers to the actor.**"
 
 msgid "Q：ランドマークがズレた際に修正できますか？    "
-msgstr ""
+msgstr "Q: Can the landmarks be corrected if they are misaligned?"
 
 #: ../../099_よくある質問.md:72
 msgid "**オートトラッキングのため、ランドマークのズレは修正できません。**"
 msgstr "**Due to auto-tracking, landmark misalignment cannot be corrected.**"
 
 msgid "Q：舌のトラッキングはできますか？  "
-msgstr ""
+msgstr "Q: Is tongue tracking possible?"
 
 #: ../../099_よくある質問.md:81
 msgid "**舌のトラッキングには対応していません。**"
 msgstr "**Tongue tracking is not supported.**"
 
 msgid "Q：モーフではなくスケルトンにも対応していますか？  "
-msgstr ""
+msgstr "Q: Does it support skeletons as well as morphs?"
 
 #: ../../099_よくある質問.md:89
 msgid "**FCSはモーフだけでなくスケルトンにも対応しています。**"
 msgstr "**FCS supports not only morphs but also skeletons.**"
 
 msgid "Q：同じ役者が複数キャラクターを担当しているのですが、Profileの使い回しができますか？  "
-msgstr ""
+msgstr "Q: The same actor is playing multiple characters. is it possible to reuse their profile?"
 
 #: ../../099_よくある質問.md:97
 msgid ""
@@ -135,14 +135,14 @@ msgstr ""
 "change the Maya file you want to link.**"
 
 msgid "Q：Mayaを別途、起動する必要はありますか？  "
-msgstr ""
+msgstr "Q: Is it necessary to launch Maya separately?"
 
 #: ../../099_よくある質問.md:107
 msgid "**プロジェクトファイルを一度設定すれば、FCSからMayaをワンクリックで起動できます。**"
 msgstr "**Once the project file is set up, you can launch Maya with a single click from FCS.**"
 
 msgid "Q：ライブキャラクターアニメーションはできますか？  "
-msgstr ""
+msgstr "Q: Is live character animation possible?"
 
 #: ../../099_よくある質問.md:115
 msgid "**現時点ではできませんが、将来的には対応する予定です。（※2024年6月現在）**"
@@ -151,7 +151,7 @@ msgstr ""
 "2024)**"
 
 msgid "Q：Profileには、ROM体操は必須ですか？  "
-msgstr ""
+msgstr "Q: Is ROM required for the profile?"
 
 #: ../../099_よくある質問.md:124
 msgid ""
@@ -161,7 +161,7 @@ msgstr ""
 "**"
 
 msgid "Q：プラグインなどの関係上、Mayaを別途で起動させる必要がありますが、どうしたらよろしいでしょうか？  "
-msgstr ""
+msgstr "Q: Due to plugin requirements, it is necessary to launch Maya separately. How should I proceed?"
 
 #: ../../099_よくある質問.md:133
 msgid ""
@@ -176,7 +176,7 @@ msgstr ""
 "same behavior. If port 42069 is already in use, you can change the port in Settings.**"
 
 msgid "Q：マニュアル以外のコントローラーリグを追加することはできますか？ "
-msgstr ""
+msgstr "Q: Is it possible to add controller rigs other than those in the manual?"
 
 #: ../../099_よくある質問.md:145
 msgid ""
@@ -187,7 +187,7 @@ msgstr ""
 "gaze/lower, it can be added optionally.**"
 
 msgid "Q：Metahuman以外のコントローラーリグにも対応していますか？  "
-msgstr ""
+msgstr "Q: Does it support controller rigs other than Metahuman?"
 
 #: ../../099_よくある質問.md:153
 msgid ""
@@ -198,7 +198,7 @@ msgstr ""
 "controllers and allow for animation output.**"
 
 msgid "Q：解析動画に関して、画角が同じであれば撮影場所が変わっても問題ありませんか？   "
-msgstr ""
+msgstr "Q: Regarding analysis videos, is it okay if the filming location changes as long as the angle of view remains the same?"
 
 #: ../../099_よくある質問.md:162
 msgid ""
@@ -210,7 +210,8 @@ msgstr ""
 
 msgid "Q：動画の画質(フルHDと4Kなど)が変わると、オートトラッキング精度に影響がありますか？  "
 "そのほかに影響が出るところはありますか？推奨はありますか？   "
-msgstr ""
+msgstr "Q: Does a change in video quality (e.g., Full HD and 4K) affect auto-tracking accuracy? "
+"Are there any other areas that may be impacted? Do you have any recommendations?"
 
 #: ../../099_よくある質問.md:172
 msgid ""
@@ -222,7 +223,8 @@ msgstr ""
 
 msgid "Q：動画のリフレッシュレート(60fpsと120fpsなど)が変わると、オートトラッキング精度に影響がありますか？  "
 "そのほかに影響が出るところはありますか？推奨はありますか？  "
-msgstr ""
+msgstr "Q: Does a change in video refresh rate (e.g., 60fps or 120fps) affect auto-tracking accuracy? "
+"Are there any other areas that might be impacted? Do you have any recommendations?"
 
 #: ../../099_よくある質問.md:181
 msgid ""
@@ -233,7 +235,7 @@ msgstr ""
 "to use a high frame rate camera to minimize motion blur, but this is not a problem.**"
 
 msgid "Q：再起動が必要な場合はありますか？  "
-msgstr ""
+msgstr "Q: Are there situations where a restart is required?"
 
 #: ../../099_よくある質問.md:189
 msgid ""
@@ -244,7 +246,7 @@ msgstr ""
 "restarting, so a restart is required."
 
 msgid "Q：レイアウトの登録はできますか？  "
-msgstr ""
+msgstr "Q: Is it possible to save layouts?"
 
 #: ../../099_よくある質問.md:199
 msgid "**FCSの View▶Layout にて登録時のレイアウト情報を保存できます。**"
@@ -267,7 +269,7 @@ msgid "ライセンスについて"
 msgstr "Regarding license "
 
 msgid ">Q：1ライセンスの場合、2台のPCで同時作業できますか？  "
-msgstr ""
+msgstr "Q: With a single license, is it possible to work on two PCs at the same time?"
 
 #: ../../099_よくある質問.md:215
 msgid "**できません。ただし、同時に起動しなければ複数台のPCで作業可能です。**"
@@ -276,7 +278,7 @@ msgstr ""
 "simultaneously.**"
 
 msgid "Q：金額はいくらですか？  "
-msgstr ""
+msgstr "Q: How much does the subscription cost?"
 
 #: ../../099_よくある質問.md:223
 msgid ""
@@ -287,7 +289,7 @@ msgstr ""
 "December 2024, an additional license will be granted free of charge for each license purchased.**"
 
 msgid "Q：購入後に自動的に契約更新になりますか？  "
-msgstr ""
+msgstr "Q: Will the subscription automatically renew after purchase?"
 
 #: ../../099_よくある質問.md:231
 msgid ""
@@ -299,7 +301,7 @@ msgstr ""
 "contact our representative.**"
 
 msgid "Q：更新をやめたいときはどうすればいいですか？  "
-msgstr ""
+msgstr "Q: What should I do if I don’t want to renew the subscription?"
 
 #: ../../099_よくある質問.md:239
 msgid ""
@@ -310,7 +312,7 @@ msgstr ""
 "will no longer be usable afterward.**"
 
 msgid "Q：6か月で使用をやめたいときに、返金はありますか？  "
-msgstr ""
+msgstr "Q: If I want to stop using it after 6 months, will there be a refund?"
 
 #: ../../099_よくある質問.md:247
 msgid "**年間でのサブスクリプション契約のため、途中解約での返金はありません。**"
@@ -318,7 +320,7 @@ msgstr ""
 "**Since it is an annual subscription contract, there are no refunds for early cancellation.**"
 
 msgid "Q：トライアルはどのくらいの期間、使用できますか？  "
-msgstr ""
+msgstr "Q: How long can I use the trial version?"
 
 #: ../../099_よくある質問.md:255
 msgid ""
@@ -329,7 +331,7 @@ msgstr ""
 "webpage].(https://sensing.heltec.co.jp/contact/)**"
 
 msgid "Q：トライアル後に自動的に契約更新になりますか？  "
-msgstr ""
+msgstr "Q: Will the subscription automatically renew after the trial?"
 
 #: ../../099_よくある質問.md:264
 msgid ""
@@ -341,7 +343,7 @@ msgstr ""
 "heltec.co.jp/contact/)**"
 
 msgid "Q："Internal Server Error"というメッセージが表示されてFCSを使用できません。どうしたら良いですか？  "
-msgstr ""
+msgstr "Q: "Internal Server Error" message pops up, and I cannot use the FCS. What should I do?"
 
 #: ../../099_よくある質問.md:273
 msgid ""
