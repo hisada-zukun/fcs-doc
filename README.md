@@ -8,12 +8,12 @@ If you require an offline manaul please feel free to build it yourself.
 ### HTML
 ```
 cd doc
-python build_docs.y
+python build_docs.py
 ```
 You should find all documents in `doc/_build/html` after the script finishes. 
 
-
 ### PDF
+
 
 
 ----
