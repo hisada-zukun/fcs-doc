@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Manual latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-28 12:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../011_export.rst:4
+msgid "エクスポート"
+msgstr ""
+
+#: ../../011_export.rst:6
+msgid "FCSでは作業したセッションを出力することができます。"
+msgstr ""
+
+#: ../../011_export.rst:8
+msgid "主に以下の際にご活用いただけます。"
+msgstr ""
+
+#: ../../011_export.rst:10
+msgid "FCSのセッションをアーカイブ化や共有する際、キャッシュなどの共有に必要ないデータを除いて手早く共有する"
+msgstr ""
+
+#: ../../011_export.rst:11
+msgid "同じアクターのProfileから、別のキャラクターの表情を制作する"
+msgstr ""
+
+#: ../../011_export.rst:12
+msgid "同じキャラクターの表情を、別アクターで制作する"
+msgstr ""
+
+#: ../../011_export.rst:16
+msgid "エクスポート手順"
+msgstr ""
+
+#: ../../011_export.rst:18
+msgid "出力したいセッションをロード"
+msgstr ""
+
+#: ../../011_export.rst:20
+msgid "File/SessionからExportを選択"
+msgstr ""
+
+#: ../../011_export.rst:25
+msgid "出力先をプロジェクトフォルダーとして指定"
+msgstr ""
+
+#: ../../011_export.rst:30
+msgid "**Actor**: アクター名を新しく指定する - アーカイブ化の場合はそのままでも問題ありません"
+msgstr ""
+
+#: ../../011_export.rst:32
+msgid "**Character**: キャラクター名を新しく指定する - アーカイブ化の場合はそのままでも問題ありません"
+msgstr ""
+
+#: ../../011_export.rst:34
+msgid "**Profile**: 現在のセッションのプロファイルを出力するかどうかを指定"
+msgstr ""
+
+#: ../../011_export.rst:35
+msgid "**Videos**: 出力先にビデオデータをコピーするかを指定"
+msgstr ""
+
+#: ../../011_export.rst:36
+msgid "**Assets**: 出力先にFacial/Assetsのフォルダーをコピーするかを指定"
+msgstr ""
+
+#: ../../011_export.rst:38
+msgid "Exportボタンを押して出力"
+msgstr ""
+

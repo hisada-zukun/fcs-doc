@@ -1,0 +1,350 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Manual latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-28 12:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../005_session.md:1
+msgid "Session作成もしくはオープン"
+msgstr ""
+
+#: ../../005_session.md:2
+msgid "FCSではアクター情報、キャラクター情報、Mayaシーン情報とその解析データを紐づけたファイルのことを「Session」と呼びます。"
+msgstr ""
+
+#: ../../005_session.md:4
+msgid "FCS起動後、Sessionデータへアクセスするため 「New...（新規作成）」または「Open（開く）」を実行します。"
+msgstr ""
+
+#: ../../005_session.md:8
+msgid "初めにSessionに関わる設定を行うことで、Mayaを別途操作することなくFCS上のボタンでスムーズに作業を開始することができます。"
+msgstr ""
+
+#: ../../005_session.md:11
+msgid "Create new Sessionで作成されるフォルダ構造"
+msgstr ""
+
+#: ../../005_session.md:12
+msgid ""
+"赤枠：Project Folderで作成されるフォルダ<br> 青枠：Actorで作成されるフォルダ<br> "
+"緑枠：Characterで作成されるフォルダ<br> "
+".lock/fcs_session.yaml：sessionをSaveした後に作成されるファイル<br> "
+"![](images/folder.jpg)"
+msgstr ""
+
+#: ../../005_session.md:17
+msgid "Facial：動画やMayaシーンデータ等素材を保存する場所"
+msgstr ""
+
+#: ../../005_session.md:18
+msgid "Assets：Mayaのプロジェクトファイル（Assets以下）を保存する場所"
+msgstr ""
+
+#: ../../005_session.md:19
+msgid "RecData：ROM体操やFCSで解析したい動画を保存する場所"
+msgstr ""
+
+#: ../../005_session.md:20
+msgid "Scene：アニメーション出力時のデフォルト出力先"
+msgstr ""
+
+#: ../../005_session.md:21
+msgid ""
+"SetData：アニメーション出力で「audio」を選択した場合にはwavファイルが、   　　「Frame」「Landmark "
+"Frame」を選択した場合は連番画像が作成され、保存される"
+msgstr ""
+
+#: ../../005_session.md:24
+msgid "FCS：解析に使用するデータが保存されるプロジェクトフォルダ"
+msgstr ""
+
+#: ../../005_session.md:25
+msgid "Actor：Actorで作成したフォルダ。Actorで入力した名前が表記される"
+msgstr ""
+
+#: ../../005_session.md:26
+msgid "Character：Characterで作成したフォルダ。Characterで入力した名前が表記される"
+msgstr ""
+
+#: ../../005_session.md:27
+msgid "RetargetData（IMG/PARAM）：作成したProfileの編集データ（画像や数値情報）が保存される"
+msgstr ""
+
+#: ../../005_session.md:28
+msgid "VideoData：解析する動画のキャッシュが保存される"
+msgstr ""
+
+#: ../../005_session.md:29
+msgid ".lock：競合を防ぐためのロックファイル。起動時/終了時に自動で作成/消去される"
+msgstr ""
+
+#: ../../005_session.md:30
+msgid "fcs_session.yaml：session情報を保存しているファイル"
+msgstr ""
+
+#: ../../005_session.md:32
+msgid "Sessionの新規作成"
+msgstr ""
+
+#: ../../005_session.md:34
+msgid "File▶Session▶New…を選択 ![](images/S001.png)"
+msgstr ""
+
+#: ../../005_session.md:37
+msgid ""
+"![](images/S002.png)   ①Project Folder：FCSの作業データを置きたい場所を指定    "
+"②Actor：モーションキャプチャアクター名    ③Character：3Dモデルのキャラクター名   ④Maya "
+"Scene：3DモデルのMayaシーンへのパス   ⑤Maya Base：Assets、workspace.melがあるフォルダへのパス   "
+"⑥Maya Ver：3Dモデルを作成したMayaのバージョンを指定"
+msgstr ""
+
+#: ../../005_session.md:45
+msgid "①Project Folderの設定"
+msgstr ""
+
+#: ../../005_session.md:47
+msgid "Browseボタンをクリックし、Project Folderを指定するためウィンドウを起動します。"
+msgstr ""
+
+#: ../../005_session.md:48
+msgid "FCSのデータを保存したい任意のフォルダを選択 ![](images/S003.png)"
+msgstr ""
+
+#: ../../005_session.md:51
+msgid "Project Folderを作成します。"
+msgstr ""
+
+#: ../../005_session.md:52
+msgid "Create"
+msgstr ""
+
+#: ../../005_session.md:54
+msgid "![](images/S004.png)"
+msgstr ""
+
+#: ../../005_session.md:56 ../../005_session.md:84
+msgid "問題なく作成できたらポップアップが表示されます。"
+msgstr ""
+
+#: ../../005_session.md:57
+msgid "close ![](images/F001.png)"
+msgstr ""
+
+#: ../../005_session.md:60
+msgid "エクスプローラーで「Facial」「FCS」のフォルダが作成されます。 ![](images/F003.png)"
+msgstr ""
+
+#: ../../005_session.md:64
+msgid "Project Folder作成後"
+msgstr ""
+
+#: ../../005_session.md:65
+msgid "Project Folder▶Facial▶Assetsフォルダに紐付けるMayaシーンを、"
+msgstr ""
+
+#: ../../005_session.md:66
+msgid ""
+"Project Folder▶Facial▶Recdataフォルダに解析したい動画を移動しておくことを推奨します。   "
+"※別の場所に保存していてもアクセスできます。"
+msgstr ""
+
+#: ../../005_session.md:69
+msgid "![](images/F004.png)"
+msgstr ""
+
+#: ../../005_session.md:71
+msgid "![](images/F005.png)"
+msgstr ""
+
+#: ../../005_session.md:74
+msgid "②Actorの設定"
+msgstr ""
+
+#: ../../005_session.md:76
+msgid "「+」ボタンをクリックし、ActorFolderを作成するための 「Create new actor folder」ウィンドウを起動します。"
+msgstr ""
+
+#: ../../005_session.md:78
+msgid "「Actor Name」に登録したい名前を入力"
+msgstr ""
+
+#: ../../005_session.md:79
+msgid "「Actor」＝モーションキャプチャアクター名"
+msgstr ""
+
+#: ../../005_session.md:81
+msgid "Create ![](images/S006.png)"
+msgstr ""
+
+#: ../../005_session.md:85
+msgid "close ![](images/F006.png)"
+msgstr ""
+
+#: ../../005_session.md:88
+msgid "エクスプローラーでProject Folderフォルダ直下に入力したActerフォルダが作成されます。 ![](images/F007.png)"
+msgstr ""
+
+#: ../../005_session.md:92
+msgid "③Characterの設定"
+msgstr ""
+
+#: ../../005_session.md:94
+msgid ""
+"「+」ボタンをクリックし、characterFolderを作成するための「Create new character "
+"Folder」ウィンドウを起動します。"
+msgstr ""
+
+#: ../../005_session.md:95
+msgid "「Character Name」の入力欄に登録したい名前を入力"
+msgstr ""
+
+#: ../../005_session.md:97
+msgid "Create ![](images/S008.png)"
+msgstr ""
+
+#: ../../005_session.md:100
+msgid "エクスプローラーでActorフォルダ直下に入力したCharacterフォルダが作成されます。 ![](images/F008.png)"
+msgstr ""
+
+#: ../../005_session.md:104
+msgid "④MayaSceneの設定"
+msgstr ""
+
+#: ../../005_session.md:106
+msgid "Browseボタンをクリックし、MayaSceneを指定するためウィンドウを起動します。"
+msgstr ""
+
+#: ../../005_session.md:107
+msgid "MayaSceneデータのパスを指定 ![](images/S009.png)"
+msgstr ""
+
+#: ../../005_session.md:111
+msgid "⑤MayaBaseの設定"
+msgstr ""
+
+#: ../../005_session.md:113
+msgid "Browseボタンをクリックし、MayaBaseを指定するためウィンドウを起動します。"
+msgstr ""
+
+#: ../../005_session.md:114
+msgid "workspace.melがある場所(Mayaシーンのプロジェクト設定で登録している場所)を指定"
+msgstr ""
+
+#: ../../005_session.md:116
+msgid "FCS上でポップアップするウィンドウにはworkspace.melが表示されません"
+msgstr ""
+
+#: ../../005_session.md:118
+msgid "![](images/S010.png)"
+msgstr ""
+
+#: ../../005_session.md:121
+msgid "⑥MayaVerの設定"
+msgstr ""
+
+#: ../../005_session.md:123
+msgid "④で設定したsceneを作成したMayaのバージョンを指定 ![](images/S011.png)"
+msgstr ""
+
+#: ../../005_session.md:126
+msgid "全て入力を終えたらSaveボタンを押してください。"
+msgstr ""
+
+#: ../../005_session.md:127
+msgid "Save   ![](images/S012.png)"
+msgstr ""
+
+#: ../../005_session.md:131
+msgid ""
+"エクスプローラーでcharacterフォルダ直下にfcs_session.yaml(FCSファイル)が作成されます。   "
+"![](images/F009.png)"
+msgstr ""
+
+#: ../../005_session.md:135
+msgid ".lockファイルは 作業中にほかの人からのアクセスを防ぐためのものです。   正常に終了した際には自動で削除されます。"
+msgstr ""
+
+#: ../../005_session.md:141
+msgid ""
+"不正に終了するなどして.lockファイルが残ってしまった場合、   FCSの起動時にポップアップから削除するか、   "
+".lockファイルをエクスプローラーで直接削除してください。"
+msgstr ""
+
+#: ../../005_session.md:147
+msgid "既にSessionが作成されている場合"
+msgstr ""
+
+#: ../../005_session.md:149
+msgid "履歴またはfcs_session.yamlファイルからSessionを開いてください。"
+msgstr ""
+
+#: ../../005_session.md:151
+msgid "履歴から開く場合"
+msgstr ""
+
+#: ../../005_session.md:153
+msgid "以前にSessionを起動している場合、File▶Session▶Openの下に履歴が表示されます。"
+msgstr ""
+
+#: ../../005_session.md:154
+msgid "作業したいデータをクリック ![](images/P16_Session_log.PNG)"
+msgstr ""
+
+#: ../../005_session.md:157
+msgid "fcs_session.yamlファイルから開く場合"
+msgstr ""
+
+#: ../../005_session.md:159
+msgid "File▶Session▶Open▶Open...   OpenSessionウィンドウが開かれたらローカルとネットワークドライブが表示されます。"
+msgstr ""
+
+#: ../../005_session.md:162
+msgid "Characterフォルダ直下にあるfcs_session.yamlファイルを選択し、開く ![](images/S017.png)"
+msgstr ""
+
+#: ../../005_session.md:167
+msgid "Seesionを開く際の注意"
+msgstr ""
+
+#: ../../005_session.md:169
+msgid "Sessionの同時起動について"
+msgstr ""
+
+#: ../../005_session.md:172
+msgid ""
+"Sessionの新規作成/Open後、続けて別のSession作成や起動は出来ません。   "
+"別のSessionを開きたい場合は、現在のSessionを終了し、FCSの再起動後開きなおしてください。"
+msgstr ""
+
+#: ../../005_session.md:176
+msgid "「⑥Maya Verの設定」をしても反映されない場合"
+msgstr ""
+
+#: ../../005_session.md:178
+msgid "session作成時に設定した項目は File▶Session▶info で確認することができます。 ![](images/S014.png)"
+msgstr ""
+
+#: ../../005_session.md:181
+msgid ""
+"NewSessionで設定したMayaVerがinfoで反映されていない場合は、info画面のMayaVersionを右クリックし、Editから変更ができます。"
+" ![](images/S015.png) ![](images/S016.png)"
+msgstr ""
+
+#: ../../005_session.md:186
+msgid "設定の変更後は必ずSaveボタンを押してください"
+msgstr ""
+

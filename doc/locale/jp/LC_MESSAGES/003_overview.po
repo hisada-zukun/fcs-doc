@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Manual latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-28 12:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../003_overview.md:1
+msgid "作業フロー"
+msgstr ""
+
+#: ../../003_overview.md:2
+msgid "FCS起動"
+msgstr ""
+
+#: ../../003_overview.md:3
+msgid "Session作成もしくはオープン"
+msgstr ""
+
+#: ../../003_overview.md:4
+msgid "Mayaの起動"
+msgstr ""
+
+#: ../../003_overview.md:5
+msgid "Controllerの登録"
+msgstr ""
+
+#: ../../003_overview.md:6
+msgid "Profileの作成"
+msgstr ""
+
+#: ../../003_overview.md:7
+msgid "アニメーションの出力"
+msgstr ""
+
+#: ../../003_overview.md:11
+msgid "FCSで使用するファイルやフォルダ名は全て半角英数字にしてください。"
+msgstr ""
+

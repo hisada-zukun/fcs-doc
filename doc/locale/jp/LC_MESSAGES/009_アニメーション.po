@@ -1,0 +1,253 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Manual latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-28 12:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../009_アニメーション.md:1
+msgid "アニメーションの出力方法"
+msgstr ""
+
+#: ../../009_アニメーション.md:4
+msgid "解析する動画が広角レンズを使って撮影されている場合、Solverの設定変更が必要です。   詳しくはSolverの詳細設定ページをご確認ください。"
+msgstr ""
+
+#: ../../009_アニメーション.md:8
+msgid "単体のアニメーション出力"
+msgstr ""
+
+#: ../../009_アニメーション.md:10 ../../009_アニメーション.md:74
+msgid "出力画面説明"
+msgstr ""
+
+#: ../../009_アニメーション.md:12
+msgid "![](images/A001.png)"
+msgstr ""
+
+#: ../../009_アニメーション.md:14
+msgid "▼Process"
+msgstr ""
+
+#: ../../009_アニメーション.md:16 ../../009_アニメーション.md:88
+msgid "☑ Reprocess：作成したProfile情報を読み取る"
+msgstr ""
+
+#: ../../009_アニメーション.md:19
+msgid "基本的に ☑ を付けることをオススメします。"
+msgstr ""
+
+#: ../../009_アニメーション.md:22
+msgid "Upload Options"
+msgstr ""
+
+#: ../../009_アニメーション.md:23 ../../009_アニメーション.md:80
+msgid "☑ Animation：アニメーションデータを生成、Mayaに反映"
+msgstr ""
+
+#: ../../009_アニメーション.md:24 ../../009_アニメーション.md:81
+msgid "☑ Audio：解析する動画の音声データをMayaに反映"
+msgstr ""
+
+#: ../../009_アニメーション.md:25 ../../009_アニメーション.md:82
+msgid "☑ Frames：解析する動画の連番画像を生成、Mayaのイメージプレーン上に反映"
+msgstr ""
+
+#: ../../009_アニメーション.md:26 ../../009_アニメーション.md:83
+msgid "☑ Landmark Frames：顔の動きをオートトラッキングする連番画像を生成、Mayaのイメージプレーン上に反映"
+msgstr ""
+
+#: ../../009_アニメーション.md:28
+msgid "Export Options"
+msgstr ""
+
+#: ../../009_アニメーション.md:29 ../../009_アニメーション.md:84
+msgid "☑ Playblast：出力されたアニメーションをmov形式の動画で出力、保存する"
+msgstr ""
+
+#: ../../009_アニメーション.md:30 ../../009_アニメーション.md:85
+msgid "☑ Scene：出力されたMayaシーンを自動で保存する"
+msgstr ""
+
+#: ../../009_アニメーション.md:32
+msgid "Start process：アニメーションの出力を開始する"
+msgstr ""
+
+#: ../../009_アニメーション.md:34
+msgid "単体のアニメーション出力方法"
+msgstr ""
+
+#: ../../009_アニメーション.md:36 ../../009_アニメーション.md:96
+msgid "Videoウィンドウで"
+msgstr ""
+
+#: ../../009_アニメーション.md:37
+msgid "解析/出力したい動画名の上で右クリック"
+msgstr ""
+
+#: ../../009_アニメーション.md:39
+msgid "画像のメニューが表示されるので"
+msgstr ""
+
+#: ../../009_アニメーション.md:40
+msgid "▼Process　を選択"
+msgstr ""
+
+#: ../../009_アニメーション.md:41 ../../009_アニメーション.md:107
+msgid "該当する項目に ☑ を入れ"
+msgstr ""
+
+#: ../../009_アニメーション.md:43
+msgid "![](images/A002.png)"
+msgstr ""
+
+#: ../../009_アニメーション.md:45
+msgid "Start process ![](images/A004.png)"
+msgstr ""
+
+#: ../../009_アニメーション.md:49
+msgid "解析結果を見てから再度調整を行いたい場合はPlayblastやSceneの ☑ を外しておくと時間短縮できます。"
+msgstr ""
+
+#: ../../009_アニメーション.md:51
+msgid "![](images/A003.png)"
+msgstr ""
+
+#: ../../009_アニメーション.md:53
+msgid "初回出力時は時間がかかるため待機 ![](images/A005.png)"
+msgstr ""
+
+#: ../../009_アニメーション.md:56
+msgid "Mayaシーン上に ☑ を入れた項目が反映されていく"
+msgstr ""
+
+#: ../../009_アニメーション.md:57
+msgid "タイムスライダーに音声データ"
+msgstr ""
+
+#: ../../009_アニメーション.md:58
+msgid "イメージプレーンに連番画像"
+msgstr ""
+
+#: ../../009_アニメーション.md:59
+msgid "アニメーションデータ の順で反映される"
+msgstr ""
+
+#: ../../009_アニメーション.md:60
+msgid "アニメーションデータ反映時はスライダーが動く"
+msgstr ""
+
+#: ../../009_アニメーション.md:62
+msgid "![](images/image133.png)"
+msgstr ""
+
+#: ../../009_アニメーション.md:65
+msgid "【playblastやsceneに ☑ していた場合】"
+msgstr ""
+
+#: ../../009_アニメーション.md:67
+msgid "出力が完了したらエクスプローラーがポップアップします。"
+msgstr ""
+
+#: ../../009_アニメーション.md:69
+msgid "![](images/image127.png)"
+msgstr ""
+
+#: ../../009_アニメーション.md:72
+msgid "複数のアニメーション出力"
+msgstr ""
+
+#: ../../009_アニメーション.md:76
+msgid "![](images/A006.png) Output Folder：出力先を指定"
+msgstr ""
+
+#: ../../009_アニメーション.md:79
+msgid "Output Targets"
+msgstr ""
+
+#: ../../009_アニメーション.md:87
+msgid "Advenced"
+msgstr ""
+
+#: ../../009_アニメーション.md:90
+msgid "Output Filename：出力されるデータ名。任意の名前に変更可能"
+msgstr ""
+
+#: ../../009_アニメーション.md:92
+msgid "Start：アニメーションの出力を開始する"
+msgstr ""
+
+#: ../../009_アニメーション.md:94
+msgid "複数のアニメーション出力方法"
+msgstr ""
+
+#: ../../009_アニメーション.md:98
+msgid "解析/出力したい動画名の左側の ☑ をつける ![](images/A007.png)"
+msgstr ""
+
+#: ../../009_アニメーション.md:101
+msgid "Processorウインドウを開く ![](images/A008.png) <br>"
+msgstr ""
+
+#: ../../009_アニメーション.md:105
+msgid "![](images/P37_processorWindow.PNG)"
+msgstr ""
+
+#: ../../009_アニメーション.md:108
+msgid "Output Filename を任意の名前に変更"
+msgstr ""
+
+#: ../../009_アニメーション.md:110
+msgid "{solver} → solverの名前"
+msgstr ""
+
+#: ../../009_アニメーション.md:111
+msgid "{video} → ビデオのファイル名"
+msgstr ""
+
+#: ../../009_アニメーション.md:112
+msgid "{user} → windows ユーザ名"
+msgstr ""
+
+#: ../../009_アニメーション.md:113
+msgid "{project} → 案件フォルダ名"
+msgstr ""
+
+#: ../../009_アニメーション.md:114
+msgid "{chara} → キャラクター名"
+msgstr ""
+
+#: ../../009_アニメーション.md:115
+msgid "{actor} → 役者名"
+msgstr ""
+
+#: ../../009_アニメーション.md:116
+#, python-format
+msgid "{%Y%m%d}, {%H%M%S} → 年月日、時間分秒"
+msgstr ""
+
+#: ../../009_アニメーション.md:118
+msgid "{video}のみにするとimportした動画名で出力される"
+msgstr ""
+
+#: ../../009_アニメーション.md:120
+msgid "Start ![](images/A009.png)"
+msgstr ""
+
+#: ../../009_アニメーション.md:123
+msgid "出力が完了したらエクスプローラーがポップアップします。 ![](images/image136.png)"
+msgstr ""
+

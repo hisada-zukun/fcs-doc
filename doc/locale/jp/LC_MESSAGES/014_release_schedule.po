@@ -1,0 +1,228 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Manual latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-28 12:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../014_release_schedule.md:1
+msgid "Release Schedule"
+msgstr ""
+
+#: ../../014_release_schedule.md:2
+msgid ""
+"FCS follows a quarterly release schedule, on January, April, July, and "
+"October.  Each major version released is supported either for 3 months "
+"(standard) or 1 year for Long-term Support(LTS).  Once released a major "
+"version will receive no update beside bug fixes that come as minor "
+"version updates (i.e., 24.07.02~)"
+msgstr ""
+
+#: ../../014_release_schedule.md:6
+msgid "Schedule"
+msgstr ""
+
+#: ../../014_release_schedule.md:7
+msgid "![](images/fcs_release_timeline.jpg)"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "Major Version"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "Timeframe"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "Support period"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "24.07 LTS"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "2024/07"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "1 year"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "24.10"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "2024/10"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "3 months"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "25.01 Preview"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "2024/12"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "None"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "25.01"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "2025/01"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "25.04 Preview"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "2025/03"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "25.04"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "2025/04"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "25.07 Preview"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "2025/06"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "25.07 LTS"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "2025/07"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "25.10 Preview"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "25.10"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "2025/10"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "26.01 Preview"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "2025/12"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "26.01"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "2026/01"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "26.04 Preview"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "2026/03"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "26.04"
+msgstr ""
+
+#: ../../014_release_schedule.md
+msgid "2026/04"
+msgstr ""
+
+#: ../../014_release_schedule.md:26
+msgid "Upgrading FCS"
+msgstr ""
+
+#: ../../014_release_schedule.md:27
+msgid "Standard vs LTS vs Preview"
+msgstr ""
+
+#: ../../014_release_schedule.md:28
+msgid ""
+"The main difference between standard and LTS version lies in the support "
+"period, 3 months vs 1 year. During support period we will issue critical "
+"bug fixes to the version once fixed. LTS is recommended if the current "
+"supported LTS version meets all your requirements and you work on "
+"projects that last for longer than the standard supported period.   "
+"Preview versions provides a glimpse of upcoming features of new version "
+"of FCS and provide a chance to provide feedback to the developers. It is "
+"where we release non-critical bug fixes and are subject to constant "
+"changes and no support is guaranteed, you should never use the preview "
+"version without making backup of the data. You should only use the "
+"preview if and only if you some specific features and you understand the "
+"risk."
+msgstr ""
+
+#: ../../014_release_schedule.md:33
+msgid "Compatibility"
+msgstr ""
+
+#: ../../014_release_schedule.md:34
+msgid ""
+"FCS Sessions are forward compatible unless explicit noted otherwise, "
+"however backward compatibility is not always guaranteed especially across"
+" major version (e.g., 24.07, 24.10). That means, you can open FCS "
+"sessions created in a previous version of FCS with newer versions of FCS."
+" However, once opened in a newer version, you might not be able to open "
+"the session in an older version of FCS anymore. Hence it is critical for "
+"you to backup your files before moving to a newer version of FCS.  We try"
+" to keep session backward compatible as much as possible within a major "
+"version (e.g., across 24.07.01~24.07.10) however there is no guarantee.  "
+"In case of using the same FCS session with others, it is critical for you"
+" to ensure that your team use the same minor version of FCS."
+msgstr ""
+
+#: ../../014_release_schedule.md:38
+msgid "Steps to upgrade"
+msgstr ""
+
+#: ../../014_release_schedule.md:39
+msgid "[Export your data](#export-header-target)."
+msgstr ""
+
+#: ../../014_release_schedule.md:40
+msgid "Open the exported data using the newly downloaded version of FCS."
+msgstr ""
+

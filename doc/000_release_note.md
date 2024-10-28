@@ -5,7 +5,7 @@
 - Stage: Stable
 
 ### !Cannot be downgraded!
-** Once opened in this version, your FCS session will not be abled to downgraded to a previous version of FCS, including FCS 24.10.05.** We strongly recommend you to backup your files before using the update.
+** Once opened in this version, your FCS session will not be abled to downgraded to a previous version of FCS, including FCS 24.10.05. ** We strongly recommend you to backup your files before using the update.
 
 
 ### Overview
@@ -15,25 +15,6 @@
 
 #### Fixed animation timeline off by 1 frame
 Fixed a bug where the first frame of a video is used twice (i.e., the 99th frame is presented as the 100th frame). All previously created profiles are all off by one frame, which will be fixed once imported using the new version of FCS. However, it also means that it will be incorrect if the fixed profile is imported back to a previous version of FCS. Therefore, once imported to the new version, it is not possible to downgrade to use the previous version. 
-
-
-### ！ダウングレードできません！
-**このバージョンで作成または開いたセッションを24.10.05を含む、以前のバージョンを開くことができません。
-ご注意ください。**
-アップデートされる前に、プロジェクトフォルダーをバックアップすることを強く推奨いたします。
-
-
-### 概要
-1. 動画表示が１フレームずれていることを修正しました
-2. ソフト起動時の最適化
-3. ログ方式の改善
-
-#### 動画表示が１フレームずれていることを修正しました
-Video/Playerの０フレームが重複して出力されていたことを修正いたしました。 （１００フレーム目が９９フレーム目として表示されていました）  
-Profileのフレームカウントも1フレームずれていました。
-そのため、以前のバージョンンで作成されたセッションについては、現バージョンで開くことにより、自動的に修正されるようになります。
-ただし、修正されたものに関しては、以前のバージョン（24.10.05を含む）で開くことができなるなりました。
-お手数をおかけしまして、大変申し訳ございません。
 
 
 ## FCS 24.10.05
@@ -143,7 +124,7 @@ Profileのフレームカウントも1フレームずれていました。
 #### Improved video playback speed
 1. Added a feature to use RAM to speed up video playback, mostly useful for legacy computers.
 2. Default to enabled. 
-3. You are store a maximum of 5 videos to your memory if it allows.
+3. You can store a maximum of 5 videos to your memory if it allows.
 
 #### Added a solver export feature for real time use 
 1. Export a solver file using Solver/Export.
