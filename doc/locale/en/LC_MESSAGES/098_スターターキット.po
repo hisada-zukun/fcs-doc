@@ -197,7 +197,7 @@ msgid "4: 動画解析 - アニメーション出力用のサンプル動画"
 msgstr "4: Video Analysis - Sample Video for Animation Output"
 
 msgid "サンプル動画の内容について"
-msgstr ""
+msgstr "Content of Sample Video"
 
 #: ../../098_スターターキット.md:67
 msgid "動画解析で使用するサンプル動画です。   FCSに読み込ませてご利用ください。"
@@ -271,7 +271,7 @@ msgstr ""
 "paths and import the sample videos."
 
 msgid "Mayaデータのパス再設定方法"
-msgstr ""
+msgstr "How to Reset Paths for Maya Data"
 
 #: ../../098_スターターキット.md:98
 msgid ""
@@ -307,7 +307,7 @@ msgstr ""
 "![](images/013_mayaDataRepath_02.png)"
 
 msgid "サンプル動画のインポート方法"
-msgstr ""
+msgstr "How to Import Sample Video"
 
 #: ../../098_スターターキット.md:115
 msgid "サンプル動画は、以下の手順でインポートできます。 <br>"
