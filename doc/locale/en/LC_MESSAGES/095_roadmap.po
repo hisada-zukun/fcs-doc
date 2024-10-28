@@ -40,9 +40,9 @@ msgid ""
 "機能要望の受付も行っております。御社のパイプラインに最適化したビルドを作成することも可能[^1]ですので、   "
 "質問・要望・不具合などありましたら[HELTECホームページ](https://sensing.heltec.co.jp/product"
 "/zukun-lab/fcs/)までご連絡ください。"
-msgstr "We are also accepting feature requests, so please feel free to contact us via email."
-"It is also possible to create builds optimized for your pipeline, either by purchasing a certain level of license or for an additional fee."
-"Please contact [us](https://sensing.heltec.co.jp/product/zukun-lab/fcs/) individually for more details."
+msgstr ""
+"We’re happy to take feature requests and can even customize builds to fit your company’s pipeline.[^1] "
+"If you have any questions, requests, or issues, feel free to contact us on the [HELTEC website](https://sensing.heltec.co.jp/product/zukun-lab/fcs/)."
 
 #: ../../095_roadmap.md:11
 msgid "リアルタイム動画生成     リアルタイムでのアニメーション解析・出力プログラムの作成 <br>"
@@ -79,7 +79,7 @@ msgstr ""
 
 #: ../../095_roadmap.md:7
 msgid "一定数以上のライセンス購入などの条件・追加料金が発生する場合がございます。 <br> <br>"
-msgstr " "
+msgstr "Additional conditions or fees may apply, which may include the need to purchase a minimum number of licenses."
 
 #~ msgid ""
 #~ "また、機能要望の受付も行っており、メールなどでご連絡ください。   "
