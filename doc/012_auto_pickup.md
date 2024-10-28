@@ -11,11 +11,17 @@ FCSは、読み込んだ動画内の適切なフレームを自動でピック�
 ### オートピックアップ機能の使い方
 オートピックアップ機能はVideosウィンドウの動画名右クリックメニューから起動できます。
 
-![](images/012_auto_profiles.jpg)
+```{figure} images/012_auto_profiles.jpg
+:width: 80%
+:align: center
+```
 
 Auto profileボタンを押すとオートプロファイルウィンドウが表示されます。
 
-![](images/012_auto_profile_window.jpg)
+```{figure} images/012_auto_profile_window.jpg
+:width: 80%
+:align: center
+```
 
 このウィンドウでは、動画から自動的にフレームを選択できます。
 

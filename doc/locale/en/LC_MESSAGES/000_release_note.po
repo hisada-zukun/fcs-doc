@@ -1,0 +1,496 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-10-28 16:14+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../000_release_note.md:1
+msgid "Release Note"
+msgstr ""
+
+#: ../../000_release_note.md:2
+msgid "FCS 24.10.06"
+msgstr ""
+
+#: ../../000_release_note.md:3
+msgid "Date: 2024/10/16"
+msgstr ""
+
+#: ../../000_release_note.md:4
+msgid "Version: 24.10.06"
+msgstr ""
+
+#: ../../000_release_note.md:5 ../../000_release_note.md:23
+#: ../../000_release_note.md:34 ../../000_release_note.md:42
+msgid "Stage: Stable"
+msgstr ""
+
+#: ../../000_release_note.md:7
+msgid "!Cannot be downgraded!"
+msgstr ""
+
+#: ../../000_release_note.md:8
+msgid ""
+"** Once opened in this version, your FCS session will not be abled to "
+"downgraded to a previous version of FCS, including FCS 24.10.05. ** We "
+"strongly recommend you to backup your files before using the update."
+msgstr ""
+
+#: ../../000_release_note.md:11 ../../000_release_note.md:25
+#: ../../000_release_note.md:36 ../../000_release_note.md:44
+#: ../../000_release_note.md:69 ../../000_release_note.md:108
+msgid "Overview"
+msgstr ""
+
+#: ../../000_release_note.md:12 ../../000_release_note.md:16
+msgid "Fixed animation timeline off by 1 frame"
+msgstr ""
+
+#: ../../000_release_note.md:13
+msgid "Optimized launch spped"
+msgstr ""
+
+#: ../../000_release_note.md:14
+msgid "Improved logging"
+msgstr ""
+
+#: ../../000_release_note.md:17
+msgid ""
+"Fixed a bug where the first frame of a video is used twice (i.e., the "
+"99th frame is presented as the 100th frame). All previously created "
+"profiles are all off by one frame, which will be fixed once imported "
+"using the new version of FCS. However, it also means that it will be "
+"incorrect if the fixed profile is imported back to a previous version of "
+"FCS. Therefore, once imported to the new version, it is not possible to "
+"downgrade to use the previous version."
+msgstr ""
+
+#: ../../000_release_note.md:20
+msgid "FCS 24.10.05"
+msgstr ""
+
+#: ../../000_release_note.md:21
+msgid "Date: 2024/10/11"
+msgstr ""
+
+#: ../../000_release_note.md:22
+msgid "Version: 24.10.05"
+msgstr ""
+
+#: ../../000_release_note.md:26
+msgid "Fixed a bug where video is not cached when opened for viewing"
+msgstr ""
+
+#: ../../000_release_note.md:27
+msgid ""
+"Fixed a bug where the auto profile assigns the wrong name to the profile "
+"in ROM mode"
+msgstr ""
+
+#: ../../000_release_note.md:28
+msgid "Added a new feature for exported solver for real-time use"
+msgstr ""
+
+#: ../../000_release_note.md:29
+msgid "Added a warning sign for invalid controller info."
+msgstr ""
+
+#: ../../000_release_note.md:31
+msgid "FCS 24.10.04"
+msgstr ""
+
+#: ../../000_release_note.md:32
+msgid "Date: 2024/10/07"
+msgstr ""
+
+#: ../../000_release_note.md:33
+msgid "Version: 24.10.04"
+msgstr ""
+
+#: ../../000_release_note.md:37
+msgid ""
+"Fixed a bug where landmark frame output crashes the application under "
+"specific circumstances."
+msgstr ""
+
+#: ../../000_release_note.md:39
+msgid "FCS 24.10.03"
+msgstr ""
+
+#: ../../000_release_note.md:40
+msgid "Date: 2024/09/25"
+msgstr ""
+
+#: ../../000_release_note.md:41
+msgid "Version: 24.10.03"
+msgstr ""
+
+#: ../../000_release_note.md:45 ../../000_release_note.md:50
+msgid "Fixed gallery issues"
+msgstr ""
+
+#: ../../000_release_note.md:46 ../../000_release_note.md:54
+msgid "Fixed installer issues"
+msgstr ""
+
+#: ../../000_release_note.md:47 ../../000_release_note.md:161
+msgid "Misc."
+msgstr ""
+
+#: ../../000_release_note.md:49 ../../000_release_note.md:78
+#: ../../000_release_note.md:121
+msgid "Detail"
+msgstr ""
+
+#: ../../000_release_note.md:51
+msgid "Fixed an issue where reset on FCS UI doesn't get send to Maya"
+msgstr ""
+
+#: ../../000_release_note.md:52
+msgid "Fixed a bug where disabled regions' values are still sent to Maya"
+msgstr ""
+
+#: ../../000_release_note.md:55
+msgid "Changed the default install path to C drive"
+msgstr ""
+
+#: ../../000_release_note.md:56
+msgid "Updated the installer icon"
+msgstr ""
+
+#: ../../000_release_note.md:57
+msgid "Added Japanese support"
+msgstr ""
+
+#: ../../000_release_note.md:59
+msgid "Misc"
+msgstr ""
+
+#: ../../000_release_note.md:60
+msgid "Fixed a bug where controller rename triggers app crashes"
+msgstr ""
+
+#: ../../000_release_note.md:61
+msgid "Fixed a bug where smoothing is not applied （Fixed in 24.10.01）"
+msgstr ""
+
+#: ../../000_release_note.md:62
+msgid "Fixed Prioritize Profile"
+msgstr ""
+
+#: ../../000_release_note.md:64
+msgid "FCS 24.10.02"
+msgstr ""
+
+#: ../../000_release_note.md:65
+msgid "Date: 2024/09/09"
+msgstr ""
+
+#: ../../000_release_note.md:66
+msgid "Version: 24.10.02"
+msgstr ""
+
+#: ../../000_release_note.md:67 ../../000_release_note.md:106
+msgid "Stage: Beta"
+msgstr ""
+
+#: ../../000_release_note.md:70 ../../000_release_note.md:79
+msgid "Improved filtering feature in Gallery, allowing batch edit/delete"
+msgstr ""
+
+#: ../../000_release_note.md:71
+msgid ""
+"Fixed a bug where editor landmark preview is turned off when opening a "
+"new profile."
+msgstr ""
+
+#: ../../000_release_note.md:72 ../../000_release_note.md:82
+msgid "Fixed a bug where the cursor position does not exactly move to"
+msgstr ""
+
+#: ../../000_release_note.md:73
+msgid "Optimized gallery render speed"
+msgstr ""
+
+#: ../../000_release_note.md:74
+msgid "Added Prioritize Profile"
+msgstr ""
+
+#: ../../000_release_note.md:75
+msgid "Added a feature to batch rename all controllers"
+msgstr ""
+
+#: ../../000_release_note.md:76 ../../000_release_note.md:94
+msgid "Improved video playback speed"
+msgstr ""
+
+#: ../../000_release_note.md:80
+msgid "Add filtering by region, video name etc."
+msgstr ""
+
+#: ../../000_release_note.md:83
+msgid "Ctrl + Left mouse button click to enter value directly"
+msgstr ""
+
+#: ../../000_release_note.md:84
+msgid "Cursor position will translate to the value of the slider"
+msgstr ""
+
+#: ../../000_release_note.md:86
+msgid "Prioritize Profile"
+msgstr ""
+
+#: ../../000_release_note.md:87
+msgid "Added a feature to match the output animation with the defined profiles."
+msgstr ""
+
+#: ../../000_release_note.md:88
+msgid "Enabled by checking Solver/Post-processing/Prioritize Profile"
+msgstr ""
+
+#: ../../000_release_note.md:90
+msgid "Batch rename controller"
+msgstr ""
+
+#: ../../000_release_note.md:91
+msgid ""
+"Select controllers in Controller Info to rename, useful for adding "
+"prefix/suffix etc."
+msgstr ""
+
+#: ../../000_release_note.md:92
+msgid "The change will propagate to the profiles previously created."
+msgstr ""
+
+#: ../../000_release_note.md:95
+msgid ""
+"Added a feature to use RAM to speed up video playback, mostly useful for "
+"legacy computers."
+msgstr ""
+
+#: ../../000_release_note.md:96
+msgid "Default to enabled."
+msgstr ""
+
+#: ../../000_release_note.md:97
+msgid "You can store a maximum of 5 videos to your memory if it allows."
+msgstr ""
+
+#: ../../000_release_note.md:99
+msgid "Added a solver export feature for real time use"
+msgstr ""
+
+#: ../../000_release_note.md:100
+msgid "Export a solver file using Solver/Export."
+msgstr ""
+
+#: ../../000_release_note.md:101
+msgid ""
+"Import the file into the real time application (WIP) for view your "
+"character moving in real-time"
+msgstr ""
+
+#: ../../000_release_note.md:103
+msgid "FCS 24.10.01"
+msgstr ""
+
+#: ../../000_release_note.md:104
+msgid "Date: 2024/08/29"
+msgstr ""
+
+#: ../../000_release_note.md:105
+msgid "Version: 24.10.01"
+msgstr ""
+
+#: ../../000_release_note.md:109
+msgid "Added a language and version switcher for the manual (left bottom)"
+msgstr ""
+
+#: ../../000_release_note.md:110
+msgid ""
+"[English manual](https://zukunfcs.github.io/fcs-doc/24.10/en/index.html) "
+"(draft) now available"
+msgstr ""
+
+#: ../../000_release_note.md:111
+msgid "Added experimental linux support"
+msgstr ""
+
+#: ../../000_release_note.md:112
+msgid "Added an installer for FCS"
+msgstr ""
+
+#: ../../000_release_note.md:113
+msgid "Added a feature to download ffmpeg if it doesn't exist on the user system."
+msgstr ""
+
+#: ../../000_release_note.md:114
+msgid ""
+"[Added a feature to automatically generate profile from "
+"video](https://zukunfcs.github.io/fcs-doc/latest/en/012_auto_pickup.html)"
+msgstr ""
+
+#: ../../000_release_note.md:115
+msgid "Added UI elements and download for the new version."
+msgstr ""
+
+#: ../../000_release_note.md:117
+msgid "Info for upgrading from a previous version"
+msgstr ""
+
+#: ../../000_release_note.md:118
+msgid "You can safely open your session from 24.07."
+msgstr ""
+
+#: ../../000_release_note.md:123
+msgid "Installer"
+msgstr ""
+
+#: ../../000_release_note.md:124
+msgid ""
+"Changed build method to Themida. Using virtual machine and debugger "
+"together with FCS is unsupported. If you need to allow these for specific"
+" reason please contact us."
+msgstr ""
+
+#: ../../000_release_note.md:125
+msgid ""
+"Added installer, default installation path is C:\\FCS. Please ensure the "
+"program has write access to the folder."
+msgstr ""
+
+#: ../../000_release_note.md:127
+msgid "FFMPEG"
+msgstr ""
+
+#: ../../000_release_note.md:128
+msgid ""
+"Pull ffmpeg directly from [github](https://github.com/BtbN/FFmpeg-"
+"Builds/) if it doesn't exist in the user system."
+msgstr ""
+
+#: ../../000_release_note.md:129
+msgid ""
+"If you cannot connect to github please directly install ffmpeg and add it"
+" to path."
+msgstr ""
+
+#: ../../000_release_note.md:131
+msgid "UI"
+msgstr ""
+
+#: ../../000_release_note.md:132
+msgid "You can now open and view a video using double click"
+msgstr ""
+
+#: ../../000_release_note.md:133
+msgid "Fixed a bug where the layout is not retained"
+msgstr ""
+
+#: ../../000_release_note.md:134
+msgid "Fixed the initial layout of FCS when first launch in a new computer"
+msgstr ""
+
+#: ../../000_release_note.md:135
+msgid "Added timeline drag"
+msgstr ""
+
+#: ../../000_release_note.md:136
+msgid ""
+"Added a feature to retain user interface states so it persist between "
+"program launches."
+msgstr ""
+
+#: ../../000_release_note.md:137
+msgid "Updated japanese translations"
+msgstr ""
+
+#: ../../000_release_note.md:138
+msgid "Added support for modifier keys"
+msgstr ""
+
+#: ../../000_release_note.md:139
+msgid "Added support for shortcut keys"
+msgstr ""
+
+#: ../../000_release_note.md:140
+msgid "Save profile"
+msgstr ""
+
+#: ../../000_release_note.md:141
+msgid "Open Profile from video"
+msgstr ""
+
+#: ../../000_release_note.md:142
+msgid "Send value from Editor to Maya (To Maya)"
+msgstr ""
+
+#: ../../000_release_note.md:143
+msgid "Receive controller value from Maya (From Maya)"
+msgstr ""
+
+#: ../../000_release_note.md:144
+msgid "Change layout"
+msgstr ""
+
+#: ../../000_release_note.md:145
+msgid "Renamed Enforce Annotation to Prioritize Profile"
+msgstr ""
+
+#: ../../000_release_note.md:147
+msgid "Maya"
+msgstr ""
+
+#: ../../000_release_note.md:148
+msgid "Disabled region values are not sent from FCS to maya"
+msgstr ""
+
+#: ../../000_release_note.md:150
+msgid "Updater"
+msgstr ""
+
+#: ../../000_release_note.md:151
+msgid "Added a new feature to check for new updates"
+msgstr ""
+
+#: ../../000_release_note.md:152
+msgid "Update settings are as follow"
+msgstr ""
+
+#: ../../000_release_note.md:153
+msgid ""
+"Update channel: All | Patch | None   Decide what kind of updates are "
+"checked for."
+msgstr ""
+
+#: ../../000_release_note.md:155
+msgid "Use Beta Use the unstable build."
+msgstr ""
+
+#: ../../000_release_note.md:158
+msgid "Linux Support"
+msgstr ""
+
+#: ../../000_release_note.md:159
+msgid "FCS supports Fedora 8 now, please contact us if you are interested."
+msgstr ""
+
+#: ../../000_release_note.md:162
+msgid ""
+"Program data location is changed from `$USER/.fcs/Cortado` to "
+"`$USER/.fcs/Cortado/$version`."
+msgstr ""
+

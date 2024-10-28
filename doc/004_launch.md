@@ -2,9 +2,11 @@
 
 ## FCS起動
 
-![](images/003_downloaded.PNG)
-
-ランチャーの指示に沿って、FCSをインストールしてください。
+```{figure} images/003_downloaded.PNG
+:width: 80%
+:align: center
+```
+This session assumes that FCS is already installed in the system. If not please follow [the instruction](#install-fcs-target).
 
 
 ```{note}
@@ -17,7 +19,10 @@
 FCS初回起動時ライセンスキーの入力を求められます。  
  - New Licenseにライセンスキーを入力  
  - Update  
-![](images/L001.png)  
+```{figure} images/L001.png
+:width: 80%
+:align: center
+```
 
 ライセンス認証完了後FCSを操作できるようになります。
 
@@ -27,7 +32,11 @@ FCS初回起動時ライセンスキーの入力を求められます。
 FCSを起動後、ライセンスの期限切れだった場合にはLicenseInfoがポップします。  
  - 新しいライセンスキーをNew Licenseに入力  
  - Update
-![](images/L002.png)
+```{figure} images/L001.png
+:width: 80%
+:align: center
+```
+
 
 ```{note}
 Updateを押しても正常に動作しない場合があります。   

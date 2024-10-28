@@ -9,17 +9,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS 24.07 Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-11 12:30+0900\n"
+"POT-Creation-Date: 2024-10-28 17:47+0900\n"
 "PO-Revision-Date: 2024-09-21 21:06+0900\n"
 "Last-Translator: \n"
-"Language-Team: \n"
 "Language: en\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
-"X-Generator: Poedit 3.4.4\n"
 
 #: ../../002_install.md:1
 msgid "事前準備"
@@ -29,54 +28,77 @@ msgstr "Prerequisite"
 msgid "FCSは、以下スペックのPCで利用することができます。"
 msgstr "FCS is compatible with computers with the following specifications."
 
-#: ../../002_install.md:6
-msgid ""
-"**必要スペック**    CPU：Intel Core i5-9400F   GPU：-    メモリー：DDR4 "
-"16GB以上"
+#: ../../002_install.md
+msgid "必要スペック"
+msgstr "Requirement"
+
+#: ../../002_install.md
+msgid "推奨スペック"
+msgstr "Recommendation"
+
+#: ../../002_install.md
+msgid "CPU"
 msgstr ""
-"**Required**  \n"
-" CPU：Intel Core i5-9400F  \n"
-" GPU：-    \n"
-" RAM：DDR4 16GB or above"
+
+#: ../../002_install.md
+msgid "Intel Core i5-9400F"
+msgstr ""
+
+#: ../../002_install.md
+msgid "Intel Core i7-13700K"
+msgstr ""
+
+#: ../../002_install.md
+msgid "GPU"
+msgstr ""
+
+#: ../../002_install.md
+msgid "-"
+msgstr ""
+
+#: ../../002_install.md
+msgid "Nvidia RTX 3080"
+msgstr ""
+
+#: ../../002_install.md
+msgid "メモリー"
+msgstr "System Memory"
+
+#: ../../002_install.md
+msgid "DDR4 16GB+"
+msgstr ""
+
+#: ../../002_install.md
+msgid "DDR5 64GB+"
+msgstr ""
 
 #: ../../002_install.md:11
-msgid ""
-"**推奨スペック**   CPU：Intel Core i7-13700K   GPU：Nvidia RTX 3080   メモ"
-"リー：DDR4 128GB以上"
-msgstr ""
-"**Recommended**   \n"
-" CPU：Intel Core i7-13700K   \n"
-" GPU：Nvidia RTX 3080     \n"
-" RAM：DDR4 128GB or above"
-
-#: ../../002_install.md:16
 msgid "**事前インストール**"
 msgstr "**Software**"
 
-#: ../../002_install.md:17
+#: ../../002_install.md:12
 msgid "必須"
 msgstr "Required"
 
-#: ../../002_install.md:18
+#: ../../002_install.md:13
 msgid "Maya (対応バージョン　2018, 2020, 2022, 2023, 2024)"
 msgstr "Maya (Compatible with: 2018, 2020, 2022, 2023, 2024)"
 
-#: ../../002_install.md:21
+#: ../../002_install.md:16
 msgid "推奨"
 msgstr "Recommendation"
 
-#: ../../002_install.md:22
+#: ../../002_install.md:17
 msgid "Nvidia　CUDA/CuDNN"
 msgstr "Nvidia CUDA/CuDNN"
 
-#: ../../002_install.md:24
+#: ../../002_install.md:19
 msgid ""
-"**ライセンス**   FCSを使用するためには、ライセンスキーが必要です。   ま"
-"た、一ヶ月無料のトライアルライセンスもご用意がございます。   [HELTECホーム"
-"ページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。"
+"**ライセンス**   FCSを使用するためには、ライセンスキーが必要です。   また、一ヶ月無料のトライアルライセンスもご用意がございます。"
+"   [HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。"
 msgstr ""
-"**License**    Obtaining a license key is required to use FCS. We offer "
-"a  one-month free trial license. If you’re interested, please contact us "
+"**License**    Obtaining a license key is required to use FCS. We offer a"
+"  one-month free trial license. If you’re interested, please contact us "
 "from the HELTEC website."
 
 #~ msgid "**必要スペック**"
@@ -85,13 +107,38 @@ msgstr ""
 #~ msgid "ffmpeg"
 #~ msgstr "ffmpeg"
 
-#~ msgid ""
-#~ "コマンドラインでffmpegコマンドが使用可能であることを確認してください。"
+#~ msgid "コマンドラインでffmpegコマンドが使用可能であることを確認してください。"
 #~ msgstr "Make sure the ffmpeg command is usable on the command line."
 
-#~ msgid ""
-#~ "インストールしても使えない場合、環境変数を修正したうえ、パソコンの再起"
-#~ "動してください。"
+#~ msgid "インストールしても使えない場合、環境変数を修正したうえ、パソコンの再起動してください。"
 #~ msgstr ""
-#~ "If the ffmpeg command is not usable after installation, please correct "
-#~ "the environment variables and restart your computer."
+#~ "If the ffmpeg command is not "
+#~ "usable after installation, please correct "
+#~ "the environment variables and restart "
+#~ "your computer."
+
+#~ msgid "**必要スペック**    CPU：Intel Core i5-9400F   GPU：-    メモリー：DDR4 16GB以上"
+#~ msgstr ""
+#~ "**Required**  \n"
+#~ " CPU：Intel Core i5-9400F  \n"
+#~ " GPU：-    \n"
+#~ " RAM：DDR4 16GB or above"
+
+#~ msgid ""
+#~ "**推奨スペック**   CPU：Intel Core i7-13700K   "
+#~ "GPU：Nvidia RTX 3080   メモリー：DDR4 128GB以上"
+#~ msgstr ""
+#~ "**Recommended**   \n"
+#~ " CPU：Intel Core i7-13700K   \n"
+#~ " GPU：Nvidia RTX 3080     \n"
+#~ " RAM：DDR4 128GB or above"
+
+#~ msgid "CPU：Intel Core i7-13700K"
+#~ msgstr ""
+
+#~ msgid "DDR4 16GB以上"
+#~ msgstr ""
+
+#~ msgid "DDR5 64GB以上"
+#~ msgstr ""
+

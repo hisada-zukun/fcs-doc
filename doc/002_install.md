@@ -2,16 +2,11 @@
 
 FCSは、以下スペックのPCで利用することができます。
 
-
-**必要スペック**   
-CPU：Intel Core i5-9400F  
-GPU：-   
-メモリー：DDR4 16GB以上  
-
-**推奨スペック**  
-CPU：Intel Core i7-13700K  
-GPU：Nvidia RTX 3080  
-メモリー：DDR4 128GB以上
+|  |必要スペック|推奨スペック|
+|:-------------|:--------------:|:-------------:|
+|CPU| Intel Core i5-9400F  | Intel Core i7-13700K  |
+|GPU| - |  Nvidia RTX 3080  |
+|メモリー| DDR4 16GB+ | DDR5 64GB+|
 
 **事前インストール**
 - 必須  

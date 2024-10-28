@@ -187,10 +187,10 @@ msgstr ""
 
 #~ msgid ""
 #~ "**FCSの File&rarr;Setting にて各種項目を変更できます。   "
-#~ "変更した内容は、再起動後に反映されるため、再起動が必要です。** ```{image} "
+#~ "変更した内容は、再起動後に反映されるため、再起動が必要です。** ```{figure} "
 #~ "images/Set001.pn"
 #~ msgstr ""
 
-#~ msgid "Save<br> で登録することができます ```{image} images/Layout_02_Open-Save.pn"
+#~ msgid "Save<br> で登録することができます ```{figure} images/Layout_02_Open-Save.pn"
 #~ msgstr ""
 

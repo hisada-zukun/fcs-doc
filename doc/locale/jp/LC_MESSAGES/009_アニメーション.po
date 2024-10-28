@@ -223,42 +223,42 @@ msgstr ""
 msgid "Start"
 msgstr ""
 
-#~ msgid "```{image} images/A001.pn"
+#~ msgid "```{figure} images/A001.pn"
 #~ msgstr ""
 
-#~ msgid "```{image} images/A002.pn"
+#~ msgid "```{figure} images/A002.pn"
 #~ msgstr ""
 
-#~ msgid "Start process ```{image} images/A004.pn"
+#~ msgid "Start process ```{figure} images/A004.pn"
 #~ msgstr ""
 
-#~ msgid "```{image} images/A003.pn"
+#~ msgid "```{figure} images/A003.pn"
 #~ msgstr ""
 
-#~ msgid "初回出力時は時間がかかるため待機 ```{image} images/A005.pn"
+#~ msgid "初回出力時は時間がかかるため待機 ```{figure} images/A005.pn"
 #~ msgstr ""
 
-#~ msgid "```{image} images/image133.pn"
+#~ msgid "```{figure} images/image133.pn"
 #~ msgstr ""
 
-#~ msgid "```{image} images/image127.pn"
+#~ msgid "```{figure} images/image127.pn"
 #~ msgstr ""
 
-#~ msgid "```{image} images/A006.pn"
+#~ msgid "```{figure} images/A006.pn"
 #~ msgstr ""
 
-#~ msgid "解析/出力したい動画名の左側の ☑ をつける ```{image} images/A007.pn"
+#~ msgid "解析/出力したい動画名の左側の ☑ をつける ```{figure} images/A007.pn"
 #~ msgstr ""
 
-#~ msgid "Processorウインドウを開く ```{image} images/A008.pn"
+#~ msgid "Processorウインドウを開く ```{figure} images/A008.pn"
 #~ msgstr ""
 
-#~ msgid "```{image} images/P37_processorWindow.PN"
+#~ msgid "```{figure} images/P37_processorWindow.PN"
 #~ msgstr ""
 
-#~ msgid "Start ```{image} images/A009.pn"
+#~ msgid "Start ```{figure} images/A009.pn"
 #~ msgstr ""
 
-#~ msgid "出力が完了したらエクスプローラーがポップアップします。 ```{image} images/image136.pn"
+#~ msgid "出力が完了したらエクスプローラーがポップアップします。 ```{figure} images/image136.pn"
 #~ msgstr ""
 

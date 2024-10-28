@@ -306,7 +306,7 @@ msgid "session作成時に設定した項目は File&rarr;Session&rarr;info で�
 msgstr ""
 
 #: ../../005_session.md:247
-msgid "NewSessionで設定したMayaVerがinfoで反映されていない場合は、info画面のMayaVersionを右クリックし、Editから変更ができます。"
+msgid "New Sessionで設定したMayaVerがinfoで反映されていない場合は、info画面のMaya Versionを右クリックし、Editから変更ができます。"
 msgstr ""
 
 #: ../../005_session.md:258
@@ -316,87 +316,87 @@ msgstr ""
 #~ msgid ""
 #~ "赤枠：Project Folderで作成されるフォルダ<br> 青枠：Actorで作成されるフォルダ<br> "
 #~ "緑枠：Characterで作成されるフォルダ<br> "
-#~ ".lock/fcs_session.yaml：sessionをSaveした後に作成されるファイル<br> ```{image}"
+#~ ".lock/fcs_session.yaml：sessionをSaveした後に作成されるファイル<br> ```{figure}"
 #~ " images/folder.jp"
 #~ msgstr ""
 
-#~ msgid "File&rarr;Session&rarr;New…を選択 ```{image} images/S001.pn"
+#~ msgid "File&rarr;Session&rarr;New…を選択 ```{figure} images/S001.pn"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "```{image} images/S002.pn②Actor：モーションキャプチャアクター名    "
+#~ "```{figure} images/S002.pn②Actor：モーションキャプチャアクター名    "
 #~ "③Character：3Dモデルのキャラクター名   ④Maya Scene：3DモデルのMayaシーンへのパス"
 #~ "   ⑤Maya Base：Assets、workspace.melがあるフォルダへのパス   ⑥Maya"
 #~ " Ver：3Dモデルを作成したMayaのバージョンを指定"
 #~ msgstr ""
 
-#~ msgid "FCSのデータを保存したい任意のフォルダを選択 ```{image} images/S003.pn"
+#~ msgid "FCSのデータを保存したい任意のフォルダを選択 ```{figure} images/S003.pn"
 #~ msgstr ""
 
-#~ msgid "```{image} images/S004.pn"
+#~ msgid "```{figure} images/S004.pn"
 #~ msgstr ""
 
-#~ msgid "close ```{image} images/F001.pn"
+#~ msgid "close ```{figure} images/F001.pn"
 #~ msgstr ""
 
-#~ msgid "エクスプローラーで「Facial」「FCS」のフォルダが作成されます。 ```{image} images/F003.pn"
+#~ msgid "エクスプローラーで「Facial」「FCS」のフォルダが作成されます。 ```{figure} images/F003.pn"
 #~ msgstr ""
 
-#~ msgid "```{image} images/F004.pn"
+#~ msgid "```{figure} images/F004.pn"
 #~ msgstr ""
 
-#~ msgid "```{image} images/F005.pn"
+#~ msgid "```{figure} images/F005.pn"
 #~ msgstr ""
 
-#~ msgid "Create ```{image} images/S006.pn"
+#~ msgid "Create ```{figure} images/S006.pn"
 #~ msgstr ""
 
-#~ msgid "close ```{image} images/F006.pn"
+#~ msgid "close ```{figure} images/F006.pn"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "エクスプローラーでProject Folderフォルダ直下に入力したActerフォルダが作成されます。 "
-#~ "```{image} images/F007.pn"
+#~ "```{figure} images/F007.pn"
 #~ msgstr ""
 
-#~ msgid "Create ```{image} images/S008.pn"
+#~ msgid "Create ```{figure} images/S008.pn"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "エクスプローラーでActorフォルダ直下に入力したCharacterフォルダが作成されます。 ```{image} "
+#~ "エクスプローラーでActorフォルダ直下に入力したCharacterフォルダが作成されます。 ```{figure} "
 #~ "images/F008.pn"
 #~ msgstr ""
 
-#~ msgid "MayaSceneデータのパスを指定 ```{image} images/S009.pn"
+#~ msgid "MayaSceneデータのパスを指定 ```{figure} images/S009.pn"
 #~ msgstr ""
 
-#~ msgid "```{image} images/S010.pn"
+#~ msgid "```{figure} images/S010.pn"
 #~ msgstr ""
 
-#~ msgid "④で設定したsceneを作成したMayaのバージョンを指定 ```{image} images/S011.pn"
+#~ msgid "④で設定したsceneを作成したMayaのバージョンを指定 ```{figure} images/S011.pn"
 #~ msgstr ""
 
-#~ msgid "Save   ```{image} images/S012.pn"
+#~ msgid "Save   ```{figure} images/S012.pn"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "エクスプローラーでcharacterフォルダ直下にfcs_session.yaml(FCSファイル)が作成されます。   "
-#~ "```{image} images/F009.pn"
+#~ "```{figure} images/F009.pn"
 #~ msgstr ""
 
-#~ msgid "作業したいデータをクリック ```{image} images/P16_Session_log.PN"
+#~ msgid "作業したいデータをクリック ```{figure} images/P16_Session_log.PN"
 #~ msgstr ""
 
-#~ msgid "Characterフォルダ直下にあるfcs_session.yamlファイルを選択し、開く ```{image} images/S017.pn"
+#~ msgid "Characterフォルダ直下にあるfcs_session.yamlファイルを選択し、開く ```{figure} images/S017.pn"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "session作成時に設定した項目は File&rarr;Session&rarr;info で確認することができます。 "
-#~ "```{image} images/S014.pn"
+#~ "```{figure} images/S014.pn"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "NewSessionで設定したMayaVerがinfoで反映されていない場合は、info画面のMayaVersionを右クリックし、Editから変更ができます。"
-#~ " ```{image} images/S015.pn"
+#~ "New Sessionで設定したMayaVerがinfoで反映されていない場合は、info画面のMaya Versionを右クリックし、Editから変更ができます。"
+#~ " ```{figure} images/S015.pn"
 #~ msgstr ""
 

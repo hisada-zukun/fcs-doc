@@ -24,6 +24,7 @@ suppress_warnings = ["myst.header"]
 extensions = ['myst_parser', 'sphinx_rtd_theme', ]
 if build_pdf:
     extensions.append('rst2pdf.pdfbuilder')
+    extensions.append('sphinx.ext.autodoc')
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
@@ -39,7 +40,7 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 # -- Options for PDF output -------------------------------------------------
-latex_engine = 'lualatex'
+latex_engine = 'pdflatex'
 
 latex_documents = [
   ('index', 'fcs_manual.tex', f'FCS Manaul {current_version}', 'TOEI Zukun', f'Manual {current_language}'),
@@ -54,6 +55,11 @@ latex_elements = {
 
     # Additional stuff for the LaTeX preamble.
     'preamble': r'''
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{sphinx}
+\let\Oldincludegraphics\includegraphics
+\renewcommand{\includegraphics}[2][]{\begin{figure}[H]\centering\Oldincludegraphics[width=\textwidth,keepaspectratio]{#2}\end{figure}}
 \usepackage{luatexja-fontspec}
 \setmainjfont{IPAexMincho}
 ''',    

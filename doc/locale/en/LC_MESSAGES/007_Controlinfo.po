@@ -9,16 +9,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS 24.07 Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-10 16:25+0900\n"
+"POT-Creation-Date: 2024-10-28 19:26+0900\n"
 "PO-Revision-Date: 2024-09-25 08:06+0900\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../007_Controlinfo.md:1
 msgid "Contorollerの登録"
@@ -26,10 +26,10 @@ msgstr "Register controller"
 
 #: ../../007_Controlinfo.md:3
 msgid ""
-"Window▶ControllerでConrollerウィンドウが起動します。   "
+"Window&rarr;ControllerでConrollerウィンドウが起動します。   "
 "Contollerウィンドウでは、接続しているMayaSceneのコントローラーリグを登録することができます。"
 msgstr ""
-"Launch controller window from Window▶Controller   \n"
+"Launch controller window from Window&rarr;Controller   \n"
 "In the controller window, you can register the controller rig of Maya "
 "Scene that you are connected to."
 
@@ -43,146 +43,146 @@ msgstr ""
 "“eyelid”, “gaze” and “lower”."
 
 #: ../../007_Controlinfo.md:9
-msgid "また、コントローラーリグの登録時にRegionの最大値最小値も登録できます。 ![](images/C001.png)"
+msgid "また、コントローラーリグの登録時にRegionの最大値最小値も登録できます。"
 msgstr ""
 "You can register the maximum and minimum values ​​of Region when "
-"registering the controller rig.![](images/C001.png)"
+"registering the controller rig."
 
 #: ../../007_Controlinfo.md:14
+#, fuzzy
+msgid "Window&rarr;ControllerでConrollerウィンドウが起動します。"
+msgstr ""
+"Launch controller window from Window&rarr;Controller   \n"
+"In the controller window, you can register the controller rig of Maya "
+"Scene that you are connected to."
+
+#: ../../007_Controlinfo.md:19
 msgid "最大値最小値は自動で入力されますが、値があまりにも大きすぎる場合は調整を行って下さい。"
 msgstr ""
 "The maximum and minimum values will be automatically entered, but if the "
 "values ​​are too large, please adjust them."
 
-#: ../../007_Controlinfo.md:17
+#: ../../007_Controlinfo.md:22
 msgid "数値ではない(True/False)アトリビュートがあると正常に動作しないため、登録から除外してください。"
 msgstr ""
 "Please exclude non-numeric attributes from registration. If there is a "
 "non-numeric (True/False) attribute, FCS will not work properly."
 
-#: ../../007_Controlinfo.md:20
-msgid "![](images/C002.png)"
-msgstr "![](images/C002.png)"
-
-#: ../../007_Controlinfo.md:22
+#: ../../007_Controlinfo.md:30
 msgid "一覧   all▼：all/Upper/Eyelid/Gaze/Lower/null　指定した項目（部位の区分）を絞り込んで表示"
 msgstr ""
 "all▼: all/Upper/Eyelid/Gaze/Lower/null   Select items (part segment) that"
 " you want to display."
 
-#: ../../007_Controlinfo.md:25
-msgid ""
-"Maya"
-msgstr ""
-"Maya"
+#: ../../007_Controlinfo.md:33
+msgid "Maya"
+msgstr "Maya"
 
+#: ../../007_Controlinfo.md:34
 msgid "Add selected：選択したコントローラーを登録"
 msgstr "Add selected: Register the selected controller"
 
+#: ../../007_Controlinfo.md:35
 msgid "Sync：☑ 数値操作をMayaと連動する"
 msgstr "Sync: ☑ sync numerical operations with Maya"
 
-#: ../../007_Controlinfo.md:29
-msgid ""
-"Upper/Eyelid/Gaze/Lower：Region　部位の区分ごとにコントローラーを登録"
-msgstr ""
-"Upper/Eyelid/Gaze/Lower: Region Register controller for each part segment"
+#: ../../007_Controlinfo.md:37
+#, fuzzy
+msgid "Selected"
+msgstr "Add selected"
 
+#: ../../007_Controlinfo.md:38
+msgid "Upper/Eyelid/Gaze/Lower：Region　部位の区分ごとにコントローラーを登録"
+msgstr "Upper/Eyelid/Gaze/Lower: Region Register controller for each part segment"
+
+#: ../../007_Controlinfo.md:39
 msgid "Remove：☑ を入れたコントローラーを削除する"
 msgstr "Remove: delete the selected controller with ☑"
 
+#: ../../007_Controlinfo.md:40
 msgid "select All/Unselect All：controller上に表示されているコントローラーすべてに ☑ / ☑ 解除"
-msgstr "Select All/Unselect All: Check/uncheck ☑ for all controllers displayed on the controller."
-
-#: ../../007_Controlinfo.md:34
-msgid ""
-"Remove empty：Regionが登録されていないコントローラー(null)を削除する"
 msgstr ""
-"Remove empty: delete a controller that does not have any regions registered (null)"
+"Select All/Unselect All: Check/uncheck ☑ for all controllers displayed on"
+" the controller."
 
-msgid "Reset：Saveされているデータの状態に戻す"
-msgstr "Reset: revert to the latest saved data"
+#: ../../007_Controlinfo.md:42
+msgid "▼Advanced"
+msgstr ""
 
+#: ../../007_Controlinfo.md:43
+msgid "Remove empty：Regionが登録されていないコントローラー(null)を削除する"
+msgstr ""
+"Remove empty: delete a controller that does not have any regions "
+"registered (null)"
+
+#: ../../007_Controlinfo.md:44
 msgid "Delete all：追加 - 登録したコントローラー情報をすべて削除する"
 msgstr "Delete all: delete all the added/registered controller information"
 
-#: ../../007_Controlinfo.md:39
+#: ../../007_Controlinfo.md:45
+msgid "Reset：Saveされているデータの状態に戻す"
+msgstr "Reset: revert to the latest saved data"
+
+#: ../../007_Controlinfo.md:47
 msgid "save：controller Infoを登録。"
 msgstr "Save: register controller Info."
 
-#: ../../007_Controlinfo.md:41
+#: ../../007_Controlinfo.md:49
 msgid "Controllerの登録"
 msgstr "Registering controller"
 
-#: ../../007_Controlinfo.md:43
+#: ../../007_Controlinfo.md:51
 msgid "Upperの登録方法"
 msgstr "Registering Upper"
 
-#: ../../007_Controlinfo.md:45
-msgid "MayaでUpperに登録したいコントローラーを選択 ![](images/image36.png)"
-msgstr ""
-"Select the controllers that you want to register in Upper on "
-"Maya![](images/image36.png)"
+#: ../../007_Controlinfo.md:57
+msgid "MayaでUpperに登録したいコントローラーを選択"
+msgstr "Select the controllers that you want to register in Upper on Maya"
 
-#: ../../007_Controlinfo.md:48 ../../007_Controlinfo.md:67
-msgid "FCSに戻り"
-msgstr "Go back to FCS"
+#: ../../007_Controlinfo.md:64 ../../007_Controlinfo.md:204
+msgid "Add selected"
+msgstr "Add selected"
 
-#: ../../007_Controlinfo.md:49
-msgid "Add selected ![](images/C003.png)"
-msgstr "Add selected![](images/C003.png)"
-
-#: ../../007_Controlinfo.md:52
+#: ../../007_Controlinfo.md:67
 msgid "Mayaで選択したコントローラーが「Controller」に表示されるので"
 msgstr "The controller selected in Maya will be displayed under “Controller”. "
 
-#: ../../007_Controlinfo.md:53
-msgid ""
-"select All（=全選択）でUpperに登録したいコントローラーを選択   ※null＝Regionが未指定 "
-"![](images/C004.png)"
+#: ../../007_Controlinfo.md:73
+msgid "select All（=全選択）でUpperに登録したいコントローラーを選択    ※null＝Regionが未指定"
 msgstr ""
-"Select the controller you want to register in Upper with “select All”  "
-"*null=Region not specified![](images/C004.png)"
+"Select the controller you want to register in Upper with “select All”. "
+"*null=Region not specified"
 
-#: ../../007_Controlinfo.md:57
+#: ../../007_Controlinfo.md:77
 msgid "今回はUpperに登録したいので"
 msgstr "If we want to register a controller for Upper, "
 
-#: ../../007_Controlinfo.md:58
-msgid "Upperを選択   RegionにUpperと表示されたら登録できます。 ![](images/C005.png)"
+#: ../../007_Controlinfo.md:82
+msgid "Upperを選択   RegionにUpperと表示されたら登録できます。"
 msgstr ""
 "Select Upper.  Once “Upper” is displayed under Region, registration is "
-"complete.![](images/C005.png)"
+"complete.```{figure} images/C005.pn"
 
-#: ../../007_Controlinfo.md:62
+#: ../../007_Controlinfo.md:86
 msgid "Eyelidの登録方法"
 msgstr "Registering Eyelid"
 
-#: ../../007_Controlinfo.md:64
-msgid "MayaでEyelidに登録したいコントローラーを選択 ![](images/image49.png)"
-msgstr ""
-"Select the controllers that you want to register in Eyelid on "
-"Maya![](images/image49.png)"
+#: ../../007_Controlinfo.md:92
+msgid "MayaでEyelidに登録したいコントローラーを選択"
+msgstr "Select the controllers that you want to register in Eyelid on Maya"
 
-#: ../../007_Controlinfo.md:68
-msgid ""
-"Add selected   Upperの下にAdd selectedで追加したコントローラーが表示されます。 "
-"![](images/C006.png)"
-msgstr ""
-"Go back to FCS    - Add selected   \n"
-"The controller selected in “Add selected” will be displayed under "
-"“Upper”. ![](images/C006.png)"
+#: ../../007_Controlinfo.md:99
+msgid "Add selected   Upperの下にAdd selectedで追加したコントローラーが表示されます。"
+msgstr "The controller selected in “Add selected” will be displayed under Upper"
 
-#: ../../007_Controlinfo.md:72
-msgid ""
-"右上のall▼のタブを選択し、null▼に変更する   Upperに登録したものを非表示にし、未登録のコントローラーのみ表示させることができます。"
-" ![](images/C007.png)"
+#: ../../007_Controlinfo.md:107
+msgid "右上のall▼のタブを選択し、null▼に変更する   Upperに登録したものを非表示にし、未登録のコントローラーのみ表示させることができます。"
 msgstr ""
 "Select the all▼ tab on the top right and change it to null▼   \n"
 "You can hide the controllers registered in Upper in order to display "
-"controllers that are not registered yet. ![](images/C007.png)"
+"controllers that are not registered yet."
 
-#: ../../007_Controlinfo.md:77
+#: ../../007_Controlinfo.md:112
 msgid ""
 "allのままだとUpperも表示されているため、select AllするとUpperも選択されてしまいます。   "
 "間違って全選択してしまった場合はUnselect Allで選択解除が可能です。"
@@ -190,230 +190,259 @@ msgstr ""
 "If you are selecting Select All, Upper will be included in the display. "
 "You can clear the selection by clicking Unselect All."
 
-#: ../../007_Controlinfo.md:81
-msgid "nullにすることで登録されていない項目が絞り込まれるのでUpperと同様に"
-msgstr ""
-"By setting it as “null”, segment parts that are not registered will be "
-"displayed."
-
-#: ../../007_Controlinfo.md:82
-msgid "select All（=全選択）でEyelidに登録したいコントローラーを選択     ![](images/C008.png)"
+#: ../../007_Controlinfo.md:120
+msgid ""
+"nullにすることで登録されていない項目が絞り込まれるのでUpperと同様に、Select "
+"All（=全選択）でEyelidに登録したいコントローラーを選択"
 msgstr ""
 "Select the controller you want to register to Eyelid by clicking Select "
-"All (=select all)     ![](images/C008.png)"
+"All (=select all)     ```{figure} images/C008.pn"
 
-#: ../../007_Controlinfo.md:85
-msgid "Eyelidを選択   ![](images/C009.png)"
-msgstr "Select Eyelid   ![](images/C009.png)"
+#: ../../007_Controlinfo.md:127
+msgid "Eyelidを選択"
+msgstr "Registering Eyelid"
 
-#: ../../007_Controlinfo.md:88 ../../007_Controlinfo.md:121
+#: ../../007_Controlinfo.md:131 ../../007_Controlinfo.md:186
 msgid "nullで絞り込んでいるのでRegionを登録すると非表示になります。"
 msgstr ""
 "Since this is set as “null”, the segment part will not be displayed once "
 "it is registered for a Region."
 
-#: ../../007_Controlinfo.md:91
-msgid "allに戻すとすべて表示されます。 ![](images/C010.png)"
+#: ../../007_Controlinfo.md:134
+msgid "allに戻すとすべて表示されます。"
 msgstr ""
-"If you select the all tab, all segment parts will be displayed again. "
-"![](images/C010.png)"
 
-#: ../../007_Controlinfo.md:95
+#: ../../007_Controlinfo.md:141
 msgid "再表示したい場合の例なので、すべて登録するまでnullのままでも問題ありません。   また、登録したRegionで絞り込むこともできます。"
 msgstr ""
 "This is a demonstration of how to re-display all segment parts, so you "
 "can keep the setting under “null” until all controllers are registered. "
 "You can also narrow down the display by selecting registered Region."
 
-#: ../../007_Controlinfo.md:99
+#: ../../007_Controlinfo.md:145
 msgid "gazeの登録方法"
 msgstr "Registering gaze"
 
-#: ../../007_Controlinfo.md:101 ../../007_Controlinfo.md:126
-msgid "同様に"
-msgstr "In the same way, "
+#: ../../007_Controlinfo.md:152
+msgid "同様に、gazeに登録したいコントローラーを選択し"
+msgstr "Select the controllers that you want to register in Upper on Maya"
 
-#: ../../007_Controlinfo.md:102
-msgid "gazeに登録したいコントローラーを選択し ![](images/image47.png)"
-msgstr ""
-"Select the controllers you want to register for gaze "
-"![](images/image47.png)"
-
-#: ../../007_Controlinfo.md:105
-msgid "Add selected 登録済みのコントローラーの下に追加したコントローラーが表示されます。 ![](images/C011.png)"
+#: ../../007_Controlinfo.md:159
+msgid "Add selectedで登録済みのコントローラーの下に追加したコントローラーが表示されます。"
 msgstr ""
 "Add selected: the added controller will be displayed under the registered"
-" controllers. ![](images/C011.png)"
+" controllers."
 
-#: ../../007_Controlinfo.md:109
+#: ../../007_Controlinfo.md:166
 msgid "右上のall▼のタブを選択し、null▼に変更"
 msgstr "Select the all▼ tab on the top right window and change it to null▼"
 
-#: ../../007_Controlinfo.md:111
-msgid "nullから変更していない場合はこの手順はスキップ"
-msgstr "Skip this step if your setting is under “null”"
+#: ../../007_Controlinfo.md:174 ../../007_Controlinfo.md:211
+#, fuzzy
+msgid "Select All"
+msgstr "Add selected"
 
-#: ../../007_Controlinfo.md:113
-msgid "![](images/C012.png)"
-msgstr "![](images/C012.png)"
+#: ../../007_Controlinfo.md:182
+msgid "gaze"
+msgstr "Registering gaze"
 
-#: ../../007_Controlinfo.md:115
-msgid "select All ![](images/C013.png)"
-msgstr "select All ![](images/C013.png)"
-
-#: ../../007_Controlinfo.md:118
-msgid "gaze ![](images/C014.png)"
-msgstr "gaze ![](images/C014.png)"
-
-#: ../../007_Controlinfo.md:124
+#: ../../007_Controlinfo.md:189
 msgid "lowerの登録方法"
 msgstr "Registering Lower"
 
-#: ../../007_Controlinfo.md:127
-msgid "Mayaでlowerに登録したいコントローラーを選択   ![](images/image60.png)"
-msgstr ""
-"Select the controllers you want to register in Lower on Maya   "
-"![](images/image60.png)"
+#: ../../007_Controlinfo.md:194
+msgid "Mayaでlowerに登録したいコントローラーを選択"
+msgstr "Select the controllers you want to register in Lower on Maya"
 
-#: ../../007_Controlinfo.md:130
-msgid "Add selected"
-msgstr "Add selected"
-
-#: ../../007_Controlinfo.md:132
+#: ../../007_Controlinfo.md:198
 msgid "前段でnullで絞り込んでいるのでnullのみが表示されます"
 msgstr ""
 "Since this was set under “null” in the previous step, only nulls are "
 "displayed."
 
-#: ../../007_Controlinfo.md:134
-msgid "![](images/C015.png)"
-msgstr "![](images/C015.png)"
+#: ../../007_Controlinfo.md:217
+msgid "lower"
+msgstr "Registering Lower"
 
-#: ../../007_Controlinfo.md:136
-msgid "select All ![](images/C016.png)"
-msgstr "select All ![](images/C016.png)"
-
-#: ../../007_Controlinfo.md:139
-msgid "lower ![](images/C017.png)"
-msgstr "lower ![](images/C017.png)"
-
-#: ../../007_Controlinfo.md:142
+#: ../../007_Controlinfo.md:221
 msgid "nullで絞り込んでいるのでRegionを登録すると非表示になります"
 msgstr ""
 "Since this is set under “null”, your selection will be hidden once you "
 "register it for Region."
 
-#: ../../007_Controlinfo.md:145
+#: ../../007_Controlinfo.md:224
 msgid "Upper/Eyelid/Gaze/Lowerをすべて登録し終えたら"
 msgstr "Register all the controllers for Upper/Eyelid/Gaze/Lower"
 
-#: ../../007_Controlinfo.md:146
-msgid "save ![](images/C018.png)"
-msgstr "save ![](images/C018.png)"
+#: ../../007_Controlinfo.md:229 ../../007_Controlinfo.md:279
+msgid "Save"
+msgstr ""
 
-#: ../../007_Controlinfo.md:150
+#: ../../007_Controlinfo.md:233
 msgid "未登録状態のものがあるとSave出来ません"
 msgstr "If there are unregistered items, they cannot be saved."
 
-#: ../../007_Controlinfo.md:153
+#: ../../007_Controlinfo.md:236
 msgid "トラブルシューティング"
 msgstr "Troubleshooting"
 
-#: ../../007_Controlinfo.md:155
+#: ../../007_Controlinfo.md:238
 msgid "セーブできない場合"
 msgstr "If you cannot save"
 
-#: ../../007_Controlinfo.md:157
+#: ../../007_Controlinfo.md:239
 msgid "登録すべきものか確認後"
 msgstr "After confirming what needs to be registered"
 
-#: ../../007_Controlinfo.md:158
-msgid "削除したい項目に ☑ →Remove"
-msgstr "For the item you want to delete, check the box ☑ → Remove"
+#: ../../007_Controlinfo.md:244
+msgid "削除したい項目に ☑ &rarr; Remove"
+msgstr "For the item you want to delete, check the box ☑ &rarr; Remove"
 
-msgid "![](images/C019.png)"
-msgstr ![](images/C019.png)"
-
-#: ../../007_Controlinfo.md:160
+#: ../../007_Controlinfo.md:252
 msgid "nullのままのコントローラーを一括削除"
 msgstr "Bulk delete controllers that remain null."
 
-msgid "![](images/C020.png)"
-msgstr ![](images/C020.png)"
-
-#: ../../007_Controlinfo.md:163
+#: ../../007_Controlinfo.md:255
 msgid "マニュアル以外のコントローラーを登録したい場合"
 msgstr ""
 "If you want to register a controller other than what’s in this user’s "
 "guide"
 
-#: ../../007_Controlinfo.md:164
-msgid ""
-"本マニュアルでは、UnrealEngineのMetahumanを使用していますが、   "
-"別の3DCG作成ソフトで作成したものでも、各部位に連携できるコントローラーリグがあれば対応可能です。   "
-"また、必要最低限のコントローラーのみを登録していますので、   任意で登録するコントローラーを増やすことができます。"
+#: ../../007_Controlinfo.md:256
+msgid "本マニュアルでは、UnrealEngineのMetahumanを使用していますが、別の3DCG作成ソフトで作成したものでも、各部位に連携できるコントローラーリグがあれば対応可能です。また、必要最低限のコントローラーのみを登録していますので、任意で登録するコントローラーを増やすことができます。"
 msgstr ""
-"In this user’s guide, we are using UnrealEngine Metahuman , but any "
+"In this user’s guide, we are using UnrealEngine Metahuman, but any "
 "controller created in other 3DCG creation software is also usable as long"
 " as you have a controller rig that can link each part. Only the minimum "
 "necessary controllers are registered as a default setting. You can add as"
 " many controllers as you want to register."
 
-#: ../../007_Controlinfo.md:170
+#: ../../007_Controlinfo.md:259
 msgid "Add selectでコントローラーの追加ができない場合"
 msgstr "If you cannot add a controller with Add select"
 
-#: ../../007_Controlinfo.md:172
+#: ../../007_Controlinfo.md:261
 msgid "設定したMayaバージョンとsceneを作成したMayaバージョンが一致しているか確認してください。"
 msgstr ""
 "Please make sure the version of Maya matches with the setting when you "
 "created Maya Scene."
 
-#: ../../007_Controlinfo.md:174
+#: ../../007_Controlinfo.md:263
 msgid "コントローラーの登録順番を変えたい場合"
 msgstr "If you want to change the registration order of controllers"
 
-#: ../../007_Controlinfo.md:176
+#: ../../007_Controlinfo.md:265
 msgid "例：L/R　blinkが離れていて不便なのでblinkを上下（隣接するよう）に並べたい"
 msgstr ""
 "Example: L/R blinks are registered far to each other and it’s not "
 "convenient to use since I wan to line blink vertically (adjacent)."
 
-#: ../../007_Controlinfo.md:178
+#: ../../007_Controlinfo.md:267
 msgid "並び替えたいコントローラーをドラッグしドロップで順番を変更できます。"
 msgstr "You can change the order of controllers by drag and drop."
 
-#: ../../007_Controlinfo.md:180
+#: ../../007_Controlinfo.md:269
 msgid "コントローラーの登録順番を戻したい場合"
 msgstr "If you want to revert the registration order of controllers"
 
-#: ../../007_Controlinfo.md:182
-msgid "Reset   controller info登録時の順番に戻ります。 ![](images/C021.png)"
+#: ../../007_Controlinfo.md:271
+msgid "Reset   controller info登録時の順番に戻ります。"
 msgstr ""
-"Reset   It will revert to the order when it was registered. "
-"![](images/C021.png)"
+"Reset   It will revert to the order when it was registered. ```{figure} "
+"images/C021.pn"
 
-#: ../../007_Controlinfo.md:186
+#: ../../007_Controlinfo.md:278
 msgid "作業しやすいように並び替えたら"
 msgstr "After rearranging to make it easier to work, "
 
-#: ../../007_Controlinfo.md:187
-msgid "Save ![](images/C018.png)"
-msgstr "Save ![](images/C018.png)"
-
 #~ msgid ""
 #~ "登録すべきものか確認後    - 削除したい項目に- [x] →Remove   "
-#~ "![](images/C019.png)  - nullのままのコントローラーを一括削除 "
-#~ "![](images/C020.png)"
+#~ "```{figure} images/C019.pn```{figure} images/C020.pn"
 #~ msgstr ""
 #~ "Check items you want to register   "
 #~ "- Mark items you want to delete"
-#~ " ✅→Remove   ![](images/C019.png)\n"
-#~ " - Delete all the controllers set as null![](images/C020.png)"
+#~ " ✅→Remove   ```{figure} images/C019.pn - "
+#~ "Delete all the controllers set as "
+#~ "null```{figure} images/C020.pn"
 
-#~ msgid "作業しやすいように並び替えたら    - Save ![](images/C018.png)"
+#~ msgid "作業しやすいように並び替えたら    - Save ```{figure} images/C018.pn"
 #~ msgstr ""
 #~ "Change the orders of controllers to "
 #~ "make it easier to work with    -"
-#~ " Save ![](images/C018.png)"
+#~ " Save ```{figure} images/C018.pn"
+
+#~ msgid "```{figure} images/C002.pn"
+#~ msgstr "```{figure} images/C002.pn"
+
+#~ msgid "Add selected ```{figure} images/C003.pn"
+#~ msgstr "Add selected```{figure} images/C003.pn"
+
+#~ msgid "Eyelidを選択   ```{figure} images/C009.pn"
+#~ msgstr "Select Eyelid   ```{figure} images/C009.pn"
+
+#~ msgid "allに戻すとすべて表示されます。 ```{figure} images/C010.pn"
+#~ msgstr ""
+#~ "If you select the all tab, all "
+#~ "segment parts will be displayed again."
+#~ " ```{figure} images/C010.pn"
+
+#~ msgid "gazeに登録したいコントローラーを選択し ```{figure} images/image47.pn"
+#~ msgstr ""
+#~ "Select the controllers you want to "
+#~ "register for gaze ```{figure} "
+#~ "images/image47.pn"
+
+#~ msgid "```{figure} images/C012.pn"
+#~ msgstr "```{figure} images/C012.pn"
+
+#~ msgid "select All ```{figure} images/C013.pn"
+#~ msgstr "select All ```{figure} images/C013.pn"
+
+#~ msgid "gaze ```{figure} images/C014.pn"
+#~ msgstr "gaze ```{figure} images/C014.pn"
+
+#~ msgid "```{figure} images/C015.pn"
+#~ msgstr "```{figure} images/C015.pn"
+
+#~ msgid "select All ```{figure} images/C016.pn"
+#~ msgstr "select All ```{figure} images/C016.pn"
+
+#~ msgid "lower ```{figure} images/C017.pn"
+#~ msgstr "lower ```{figure} images/C017.pn"
+
+#~ msgid "save ```{figure} images/C018.pn"
+#~ msgstr "save ```{figure} images/C018.pn"
+
+#~ msgid "```{figure} images/C019.pn"
+#~ msgstr "``{image} images/C019.pn"
+
+#~ msgid "```{figure} images/C020.pn"
+#~ msgstr "``{image} images/C020.pn"
+
+#~ msgid "Save ```{figure} images/C018.pn"
+#~ msgstr "Save ```{figure} images/C018.pn"
+
+#~ msgid "FCSに戻り"
+#~ msgstr "Return to FCS"
+
+#~ msgid "nullにすることで登録されていない項目が絞り込まれるのでUpperと同様に"
+#~ msgstr ""
+#~ "By setting it as “null”, segment "
+#~ "partws that are not registered will "
+#~ "be displayed."
+
+#~ msgid "gazeに登録したいコントローラーを選択し"
+#~ msgstr ""
+
+#~ msgid "nullから変更していない場合はこの手順はスキップ"
+#~ msgstr "Skip this step if your setting is under “null”"
+
+#~ msgid "select All"
+#~ msgstr ""
+
+#~ msgid "同様に"
+#~ msgstr "In the same way, "
+
+#~ msgid "save"
+#~ msgstr ""
 

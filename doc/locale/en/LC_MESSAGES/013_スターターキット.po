@@ -35,8 +35,14 @@ msgid "FCSスターターキットには、以下のコンテンツが含まれ�
 msgstr "The FCS Starter Kit includes the following contents:"
 
 #: ../../013_スターターキット.md:8
-msgid "![](images/013_image001.PNG)"
-msgstr "![](images/013_image001.PNG)"
+msgid "```{figure} images/013_image001.PNG
+:width: 80%
+:align: center
+```"
+msgstr "```{figure} images/013_image001.PNG
+:width: 80%
+:align: center
+```"
 
 #: ../../013_スターターキット.md:10
 msgid "Mayaの3Dモデルデータ"
@@ -71,8 +77,14 @@ msgid "DIGITAL NAGAKI"
 msgstr "DIGITAL NAGAKI"
 
 #: ../../013_スターターキット.md:23
-msgid "![](images/013_DIGITALNAGAKI.png)"
-msgstr "![](images/013_DIGITALNAGAKI.png)"
+msgid "```{figure} images/013_DIGITALNAGAKI.png
+:width: 80%
+:align: center
+```"
+msgstr "```{figure} images/013_DIGITALNAGAKI.png
+:width: 80%
+:align: center
+```"
 
 #: ../../013_スターターキット.md:25
 msgid "DIGITAL NAGAKIとは、ツークン研究所のデジタルヒューマン技術（実在の人物をCGで再現する技術）と、Unreal Engineを開発するEpic Games社が提供するMetaHuman（デジタルヒューマン作成ツール）を組み合わせて制作された3Dモデルです。   MetaHumanに関する詳細は、Epic Games社が提供する[MetaHuman紹介ホームページ](https://www.unrealengine.com/ja/metahuman)をご確認ください。"

@@ -84,9 +84,9 @@ msgstr ""
 msgid "今後、独自のROMに基づく表情をピックアップできるバージョンをリリース予定です。"
 msgstr ""
 
-#~ msgid "```{image} images/012_auto_profiles.jp"
+#~ msgid "```{figure} images/012_auto_profiles.jp"
 #~ msgstr ""
 
-#~ msgid "```{image} images/012_auto_profile_window.jp"
+#~ msgid "```{figure} images/012_auto_profile_window.jp"
 #~ msgstr ""
 

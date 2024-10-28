@@ -9,16 +9,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS 24.07 Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-10 16:25+0900\n"
+"POT-Creation-Date: 2024-10-28 16:14+0900\n"
 "PO-Revision-Date: 2024-09-25 10:59+0900\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../010_Solver.md:1
 msgid "Solverの詳細設定（細かな調整が必要な方向け）"
@@ -36,59 +36,54 @@ msgstr ""
 msgid "Solverの画面説明"
 msgstr "Solver"
 
-#: ../../010_Solver.md:6
-msgid "![](images/Sol001.png)"
-msgstr "![](images/Sol001.png)"
-
-#: ../../010_Solver.md:8
+#: ../../010_Solver.md:12
 msgid "▼Global：解析時の設定を変更できます。"
 msgstr "▼Global: allows you to change the settings for analysis."
 
-#: ../../010_Solver.md:9
-msgid ""
-"☑ Fisheye：チェックを入れると、魚眼レンズで撮影された動画を解析する仕様に最適化される"
+#: ../../010_Solver.md:13
+msgid "☑ Fisheye：チェックを入れると、魚眼レンズで撮影された動画を解析する仕様に最適化される"
 msgstr ""
 "☑ Fisheye: check this box to optimize for analyzing videos shot with a "
 "fisheye lens."
 
-#: ../../010_Solver.md:11
+#: ../../010_Solver.md:16
 msgid "デフォルト設定ではチェックが入っているため、広角レンズで撮影された動画を解析する際はチェックを外してください。"
 msgstr ""
 "The checkbox is already marked in a default setting. Please unmark this "
 "checkbox when analyzing videos shot with a wide-angle lens."
 
-#: ../../010_Solver.md:14
+#: ../../010_Solver.md:19
 msgid "Smoothing：アニメーション出力時にスムージング処理をかける設定を変更できます。各Regionごとに個別に変更可能です。"
 msgstr ""
 "▼Smoothing: allows you to change the settings for applying smoothing "
 "processing during animation output. Each region can be changed "
 "individually."
 
-#: ../../010_Solver.md:15
+#: ../../010_Solver.md:20
 msgid "Smoothing：スムージング処理の有無（基本的には有りを推奨）"
 msgstr ""
 "Smoothing: whether smoothing processing is applied or not (Default to "
 "True)."
 
-#: ../../010_Solver.md:16
+#: ../../010_Solver.md:21
 msgid "Weight：一回あたりのスムージング処理の強度   数値が大きいほどスムージング処理が強くかかる（アニメーションカーブが滑らかになる）"
 msgstr ""
 "Weight: strength of the smoothing process per output. The higher the "
 "value, the stronger the smoothing process (smoother animation curves)."
 
-#: ../../010_Solver.md:18
+#: ../../010_Solver.md:23
 msgid "Reps：スムージング処理の回数   回数を多くするほどアニメーションカーブが滑らかになる"
 msgstr ""
 "Reps: number of times the smoothing process is applied. The higher the "
 "number, the smoother the animation curve."
 
-#: ../../010_Solver.md:21
+#: ../../010_Solver.md:26
 msgid "▼Post processing：アニメーション出力時にクランプ処理をかける設定などを変更できます。"
 msgstr ""
 "▼Post processing: allows you to change settings such as clamp processing "
 "during animation output."
 
-#: ../../010_Solver.md:22
+#: ../../010_Solver.md:27
 msgid ""
 "Enforce "
 "annotation：アニメーション出力範囲内にProfileを作成したフレームが含まれる場合、チェックを入れると解析による予測値よりもリターゲット値を優先する"
@@ -97,15 +92,15 @@ msgstr ""
 " the animation output range, checking this option will prioritize the "
 "retargeted values over the predicted values from the analysis."
 
-#: ../../010_Solver.md:23
+#: ../../010_Solver.md:28
 msgid "Clamp mode：クランプ処理の設定を切り替える"
 msgstr "Clamp mode: toggles clamp processing settings."
 
-#: ../../010_Solver.md:24
+#: ../../010_Solver.md:29
 msgid "No Clamp：クランプ処理なし"
 msgstr "No Clamp: no clamp processing"
 
-#: ../../010_Solver.md:25
+#: ../../010_Solver.md:30
 msgid ""
 "Hard Clamp：アニメーションカーブを、Controllerウィンドウで設定した最大値 - "
 "最小値でクランプする（クランプされた範囲のスムージング処理なし）"
@@ -113,7 +108,7 @@ msgstr ""
 "Hard Clamp: clamps the animation curve to the maximum and minimum values "
 "set in the Controller window (no smoothing of the clamped area)."
 
-#: ../../010_Solver.md:26
+#: ../../010_Solver.md:31
 msgid ""
 "Soft Clamp：アニメーションカーブを、Controllerウィンドウで設定した最大値 - "
 "最小値でクランプする（クランプされた範囲のスムージング処理あり）"
@@ -121,7 +116,7 @@ msgstr ""
 "Soft Clamp: clamps the animation curve at the maximum and minimum values "
 "set in the Controller window (with smoothing of the clamped range)."
 
-#: ../../010_Solver.md:28
+#: ../../010_Solver.md:33
 msgid ""
 "Train：ユーザーが変更した設定を参照し、Solverを再構築します。   Delete "
 "cache：変更前の設定による解析キャッシュを削除します。"
@@ -129,4 +124,7 @@ msgstr ""
 "Train: refer to the settings changed by the user and rebuild the Solver."
 "   Delete cache: deletes the analysis cache according to the settings "
 "before the change."
+
+#~ msgid "```{figure} images/Sol001.pn"
+#~ msgstr "```{figure} images/Sol001.pn"
 

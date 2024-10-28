@@ -221,20 +221,20 @@ msgid ""
 "Sessionフォルダ構造内の該当ファイルを選択し、開くボタンをクリックする"
 msgstr ""
 
-#~ msgid "```{image} images/013_image001.PN"
+#~ msgid "```{figure} images/013_image001.PN"
 #~ msgstr ""
 
-#~ msgid "```{image} images/013_DIGITALNAGAKI.pn"
+#~ msgid "```{figure} images/013_DIGITALNAGAKI.pn"
 #~ msgstr ""
 
-#~ msgid "```{image} images/013_NIKESHIKINO.pn"
+#~ msgid "```{figure} images/013_NIKESHIKINO.pn"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "```{image} images/013_mayaDataRepath_01.pn```{image} "
+#~ "```{figure} images/013_mayaDataRepath_01.pn```{figure} "
 #~ "images/013_mayaDataRepath_02.pn"
 #~ msgstr ""
 
-#~ msgid "```{image} images/013_movieImport.pn"
+#~ msgid "```{figure} images/013_movieImport.pn"
 #~ msgstr ""
 

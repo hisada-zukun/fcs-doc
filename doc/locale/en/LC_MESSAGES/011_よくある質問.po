@@ -111,8 +111,11 @@ msgid "**できれば明るい場所で撮影してください。また、ア�
 msgstr "**If possible, please shoot in bright locations. Also, for action scenes, etc., there is no problem as long as you use a camera with a high frame rate and shoot with less motion blur.**"
 
 #: ../../011_よくある質問.md:189
-msgid "**FCSの File▶Setting にて各種項目を変更できます。   変更した内容は、再起動後に反映されるため、再起動が必要です。** ![](images/Set001.png)"
-msgstr "**You can change setting of each item in FCS at File▶Setting    The changes will take effect after a restart, so a restart is required.**"
+msgid "**FCSの File&rarr;Setting にて各種項目を変更できます。   変更した内容は、再起動後に反映されるため、再起動が必要です。** ```{figure} images/Set001.png
+:width: 80%
+:align: center
+```"
+msgstr "**You can change setting of each item in FCS at File&rarr;Setting    The changes will take effect after a restart, so a restart is required.**"
 
 #: ../../011_よくある質問.md:195
 msgid "ライセンスについて"

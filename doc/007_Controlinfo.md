@@ -1,13 +1,18 @@
 ## Contorollerの登録
 
-Window▶ControllerでConrollerウィンドウが起動します。  
+Window&rarr;ControllerでConrollerウィンドウが起動します。  
 Contollerウィンドウでは、接続しているMayaSceneのコントローラーリグを登録することができます。
 
 FCSでは顔のパーツ区分のことをRegionと呼びます。  
 アニメーション解析のため、Upper、Eyelid、Gaze、Lowerにそれぞれコントローラーリグを１つ以上登録してください。  
 
 また、コントローラーリグの登録時にRegionの最大値最小値も登録できます。
-![](images/C001.png)
+```{figure} images/C001.png
+:width: 80%
+:align: center
+
+Window&rarr;ControllerでConrollerウィンドウが起動します。  
+```
 
 
 ```{note}
@@ -17,7 +22,10 @@ FCSでは顔のパーツ区分のことをRegionと呼びます。
 数値ではない(True/False)アトリビュートがあると正常に動作しないため、登録から除外してください。
 ```
 
-![](images/C002.png)
+```{figure} images/C002.png
+:width: 80%
+:align: center
+```
 
 一覧  
 all▼：all/Upper/Eyelid/Gaze/Lower/null　指定した項目（部位の区分）を絞り込んで表示  
@@ -42,54 +50,92 @@ all▼：all/Upper/Eyelid/Gaze/Lower/null　指定した項目（部位の区分
 
 #### Upperの登録方法 
 
- - MayaでUpperに登録したいコントローラーを選択
-![](images/image36.png)
+```{figure} images/image36.png
+:width: 80%
+:align: center
 
-FCSに戻り  
- - Add selected
-![](images/C003.png)
+MayaでUpperに登録したいコントローラーを選択
+```
+
+```{figure} images/C003.png
+:width: 80%
+:align: center
+
+Add selected
+```
 
 Mayaで選択したコントローラーが「Controller」に表示されるので  
- - select All（=全選択）でUpperに登録したいコントローラーを選択  
+
+```{figure} images/C004.png
+:width: 80%
+:align: center
+
+select All（=全選択）でUpperに登録したいコントローラーを選択   
 ※null＝Regionが未指定
-![](images/C004.png)
+```
 
 今回はUpperに登録したいので  
- - Upperを選択  
+```{figure} images/C005.png
+:width: 80%
+:align: center
+
+Upperを選択  
 RegionにUpperと表示されたら登録できます。
-![](images/C005.png)
+```
 
 #### Eyelidの登録方法
 
- - MayaでEyelidに登録したいコントローラーを選択
-![](images/image49.png)
+```{figure} images/image49.png
+:width: 80%
+:align: center
 
-FCSに戻り  
- - Add selected  
+MayaでEyelidに登録したいコントローラーを選択
+```
+
+```{figure} images/C006.png
+:width: 80%
+:align: center
+
+Add selected  
 Upperの下にAdd selectedで追加したコントローラーが表示されます。
-![](images/C006.png)
+```
 
- - 右上のall▼のタブを選択し、null▼に変更する  
+```{figure} images/C007.png
+:width: 80%
+:align: center
+
+右上のall▼のタブを選択し、null▼に変更する  
 Upperに登録したものを非表示にし、未登録のコントローラーのみ表示させることができます。
-![](images/C007.png)
+```
 
 ```{note}
 allのままだとUpperも表示されているため、select AllするとUpperも選択されてしまいます。  
 間違って全選択してしまった場合はUnselect Allで選択解除が可能です。
 ```
 
-nullにすることで登録されていない項目が絞り込まれるのでUpperと同様に  
- - select All（=全選択）でEyelidに登録したいコントローラーを選択    
-![](images/C008.png)
+```{figure} images/C008.png
+:width: 80%
+:align: center
 
- - Eyelidを選択  
-![](images/C009.png)
+nullにすることで登録されていない項目が絞り込まれるのでUpperと同様に、Select All（=全選択）でEyelidに登録したいコントローラーを選択    
+```
+
+```{figure} images/C009.png
+:width: 80%
+:align: center
+
+Eyelidを選択  
+```
+
 ```{note}
 nullで絞り込んでいるのでRegionを登録すると非表示になります。
 ```
 
 allに戻すとすべて表示されます。
-![](images/C010.png)
+```{figure} images/C010.png
+:width: 80%
+:align: center
+```
 
 ```{note}
 再表示したい場合の例なので、すべて登録するまでnullのままでも問題ありません。  
@@ -98,53 +144,90 @@ allに戻すとすべて表示されます。
 
 #### gazeの登録方法
 
-同様に  
- - gazeに登録したいコントローラーを選択し
-![](images/image47.png)
 
- - Add selected
-登録済みのコントローラーの下に追加したコントローラーが表示されます。
-![](images/C011.png)
+```{figure} images/image47.png
+:width: 80%
+:align: center
 
- - 右上のall▼のタブを選択し、null▼に変更
-```{note}
-nullから変更していない場合はこの手順はスキップ
+同様に、gazeに登録したいコントローラーを選択し
 ```
-![](images/C012.png)
 
- - select All
-![](images/C013.png)
+```{figure} images/C011.png
+:width: 80%
+:align: center
 
- - gaze
-![](images/C014.png)
+Add selectedで登録済みのコントローラーの下に追加したコントローラーが表示されます。
+```
+
+```{figure} images/C012.png
+:width: 80%
+:align: center
+
+右上のall▼のタブを選択し、null▼に変更
+```
+
+
+```{figure} images/C013.png
+:width: 80%
+:align: center
+
+Select All
+```
+
+
+```{figure} images/C014.png
+:width: 80%
+:align: center
+
+gaze
+```
+
 ```{note}
 nullで絞り込んでいるのでRegionを登録すると非表示になります。
 ```
 
 #### lowerの登録方法
+```{figure} images/image60.png
+:width: 80%
+:align: center
 
-同様に  
- - Mayaでlowerに登録したいコントローラーを選択  
-![](images/image60.png)
+Mayaでlowerに登録したいコントローラーを選択  
+```
 
- - Add selected
 ```{note}
 前段でnullで絞り込んでいるのでnullのみが表示されます
 ```
-![](images/C015.png)
+```{figure} images/C015.png
+:width: 80%
+:align: center
 
- - select All
-![](images/C016.png)
+Add selected
+```
 
- - lower
-![](images/C017.png)
+```{figure} images/C016.png
+:width: 80%
+:align: center
+
+Select All
+```
+```{figure} images/C017.png
+:width: 80%
+:align: center
+
+lower
+```
+
 ```{note}
 nullで絞り込んでいるのでRegionを登録すると非表示になります
 ```
 
 Upper/Eyelid/Gaze/Lowerをすべて登録し終えたら  
- - save
-![](images/C018.png)
+```{figure} images/C018.png
+:width: 80%
+:align: center
+
+Save
+```
 
 ```{warning}
 未登録状態のものがあるとSave出来ません
@@ -153,18 +236,24 @@ Upper/Eyelid/Gaze/Lowerをすべて登録し終えたら
 ### トラブルシューティング
 
 #### セーブできない場合
-
 登録すべきものか確認後
-- 削除したい項目に ☑ →Remove
-![](images/C019.png)
-- nullのままのコントローラーを一括削除
-![](images/C020.png)
+```{figure} images/C019.png
+:width: 80%
+:align: center
+
+削除したい項目に ☑ &rarr; Remove
+```
+
+
+```{figure} images/C020.png
+:width: 80%
+:align: center
+
+nullのままのコントローラーを一括削除
+```
 
 #### マニュアル以外のコントローラーを登録したい場合
-本マニュアルでは、UnrealEngineのMetahumanを使用していますが、  
-別の3DCG作成ソフトで作成したものでも、各部位に連携できるコントローラーリグがあれば対応可能です。  
-また、必要最低限のコントローラーのみを登録していますので、  
-任意で登録するコントローラーを増やすことができます。
+本マニュアルでは、UnrealEngineのMetahumanを使用していますが、別の3DCG作成ソフトで作成したものでも、各部位に連携できるコントローラーリグがあれば対応可能です。また、必要最低限のコントローラーのみを登録していますので、任意で登録するコントローラーを増やすことができます。
 
 
 #### Add selectでコントローラーの追加ができない場合
@@ -181,8 +270,16 @@ Upper/Eyelid/Gaze/Lowerをすべて登録し終えたら
  
  - Reset  
 controller info登録時の順番に戻ります。
-![](images/C021.png)
+```{figure} images/C021.png
+:width: 80%
+:align: center
+```
 
 作業しやすいように並び替えたら  
- - Save
-![](images/C018.png)
+ - 
+```{figure} images/C018.png
+:width: 80%
+:align: center
+
+Save
+```

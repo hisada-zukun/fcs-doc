@@ -96,6 +96,6 @@ msgid ""
 "cache：変更前の設定による解析キャッシュを削除します。"
 msgstr ""
 
-#~ msgid "```{image} images/Sol001.pn"
+#~ msgid "```{figure} images/Sol001.pn"
 #~ msgstr ""
 

@@ -76,38 +76,38 @@ msgstr ""
 msgid "問題がなければOKを選択します。"
 msgstr ""
 
-#~ msgid "インストールを開始します。 ```{image} images/install_02.pn"
+#~ msgid "インストールを開始します。 ```{figure} images/install_02.pn"
 #~ msgstr ""
 
-#~ msgid "使用許諾契約書に同意します。   ```{image} images/install_03.pn"
+#~ msgid "使用許諾契約書に同意します。   ```{figure} images/install_03.pn"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "インストール先を指定します。   デフォルトは、C:\\TOEI\\FCS_\"version\"です。   "
-#~ "変更する場合は、パスを記入、または参照から選択してください。   ```{image} "
+#~ "変更する場合は、パスを記入、または参照から選択してください。   ```{figure} "
 #~ "images/install_04.pn"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "スタートメニューフォルダを指定します。   デフォルトはFCSです。   "
-#~ "変更する場合は、フォルダ名を記入、または参照から選択してください。   ```{image} "
+#~ "変更する場合は、フォルダ名を記入、または参照から選択してください。   ```{figure} "
 #~ "images/install_05.pn"
 #~ msgstr ""
 
-#~ msgid "デスクトップアイコンを作成する場合は、チェックを入れてください。 ```{image} images/install_06.pn"
+#~ msgid "デスクトップアイコンを作成する場合は、チェックを入れてください。 ```{figure} images/install_06.pn"
 #~ msgstr ""
 
-#~ msgid "インストールを設定の確認し、問題がなければインストールしてください。   ```{image} images/install_07.pn"
+#~ msgid "インストールを設定の確認し、問題がなければインストールしてください。   ```{figure} images/install_07.pn"
 #~ msgstr ""
 
-#~ msgid "完了後、すぐ起動する場合は、チェックを入れてください。   ```{image} images/install_08.pn"
+#~ msgid "完了後、すぐ起動する場合は、チェックを入れてください。   ```{figure} images/install_08.pn"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "スタートメニューから、uninstall_FCS_\"version\"を実行します。   ```{image} "
+#~ "スタートメニューから、uninstall_FCS_\"version\"を実行します。   ```{figure} "
 #~ "images/uninstall_01.pn"
 #~ msgstr ""
 
-#~ msgid "問題がなければOKを選択します。   ```{image} images/uninstall_02.pn"
+#~ msgid "問題がなければOKを選択します。   ```{figure} images/uninstall_02.pn"
 #~ msgstr ""
 

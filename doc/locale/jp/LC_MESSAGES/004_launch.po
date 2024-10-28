@@ -70,12 +70,12 @@ msgid ""
 "その際には、[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。"
 msgstr ""
 
-#~ msgid "```{image} images/003_downloaded.PN"
+#~ msgid "```{figure} images/003_downloaded.PN"
 #~ msgstr ""
 
-#~ msgid "Update   ```{image} images/L001.pn"
+#~ msgid "Update   ```{figure} images/L001.pn"
 #~ msgstr ""
 
-#~ msgid "Update ```{image} images/L002.pn"
+#~ msgid "Update ```{figure} images/L002.pn"
 #~ msgstr ""
 

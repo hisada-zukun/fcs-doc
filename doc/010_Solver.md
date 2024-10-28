@@ -4,7 +4,10 @@
 
 ### Solverの画面説明
 
-![](images/Sol001.png)
+```{figure} images/Sol001.png
+:width: 80%
+:align: center
+```
 
 ▼Global：解析時の設定を変更できます。
 - ☑ Fisheye：チェックを入れると、魚眼レンズで撮影された動画を解析する仕様に最適化される

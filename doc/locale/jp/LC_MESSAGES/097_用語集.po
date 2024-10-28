@@ -134,27 +134,27 @@ msgstr ""
 msgid "TimeLine(タイムラインウィンドウ)"
 msgstr ""
 
-#~ msgid "```{image} images/097_Videos.pn"
+#~ msgid "```{figure} images/097_Videos.pn"
 #~ msgstr ""
 
-#~ msgid "```{image} images/097_Processor.PN"
+#~ msgid "```{figure} images/097_Processor.PN"
 #~ msgstr ""
 
-#~ msgid "```{image} images/097_Controllers.pn"
+#~ msgid "```{figure} images/097_Controllers.pn"
 #~ msgstr ""
 
-#~ msgid "```{image} images/097_Gallery.PN"
+#~ msgid "```{figure} images/097_Gallery.PN"
 #~ msgstr ""
 
-#~ msgid "```{image} images/097_Editor.PN"
+#~ msgid "```{figure} images/097_Editor.PN"
 #~ msgstr ""
 
-#~ msgid "```{image} images/097_Solver.pn"
+#~ msgid "```{figure} images/097_Solver.pn"
 #~ msgstr ""
 
-#~ msgid "```{image} images/097_Log.pn"
+#~ msgid "```{figure} images/097_Log.pn"
 #~ msgstr ""
 
-#~ msgid "```{image} images/097_TimeLine.pn"
+#~ msgid "```{figure} images/097_TimeLine.pn"
 #~ msgstr ""
 

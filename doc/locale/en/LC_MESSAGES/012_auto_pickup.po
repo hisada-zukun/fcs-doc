@@ -8,130 +8,114 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-11 12:31+0900\n"
+"POT-Creation-Date: 2024-10-28 16:14+0900\n"
 "PO-Revision-Date: 2024-09-19 06:49+0900\n"
 "Last-Translator: \n"
-"Language-Team: en <LL@li.org>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
-"X-Generator: Poedit 3.4.4\n"
 
 #: ../../012_auto_pickup.md:1
 msgid "オートピックアップ（ベータ版）"
 msgstr "Auto pickup (experimental)"
 
-
 #: ../../012_auto_pickup.md:2
-msgid ""
-"FCSは、読み込んだ動画内の適切なフレームを自動でピックアップする機能を導入しました。"
+msgid "FCSは、読み込んだ動画内の適切なフレームを自動でピックアップする機能を導入しました。"
 msgstr ""
-"FCS introduces a new way to select frames for retargetting from video effectively with little to no human supervision."
+"FCS introduces a new way to select frames for retargetting from video "
+"effectively with little to no human supervision."
 
-#: ../../012_auto_pickup.md:3
-msgid ""
-"これにより、作業者の負担がより軽減され、最小限の労力で最大限にFCSを活用できるようになります。"
-msgstr ""
-"This allows you to get the most out of FCS with the least effort."
+#: ../../012_auto_pickup.md:4
+msgid "これにより、作業者の負担がより軽減され、最小限の労力で最大限にFCSを活用できるようになります。"
+msgstr "This allows you to get the most out of FCS with the least effort."
 
-
-#: ../../012_auto_pickup.md:6
-msgid ""
-"この機能は現在開発中のベータ版であり、正常に動作しない場合があります。ご使用中の不具合やご意見などのフィードバックを皆様から頂けますと幸いです。"
+#: ../../012_auto_pickup.md:7
+msgid "この機能は現在開発中のベータ版であり、正常に動作しない場合があります。ご使用中の不具合やご意見などのフィードバックを皆様から頂けますと幸いです。"
 msgstr ""
 "This feature is currently in beta and we expect it would break for "
 "particular cases. We welcome feedback from the community regarding the "
 "implementation."
 
-
-#: ../../012_auto_pickup.md:9
+#: ../../012_auto_pickup.md:11
 msgid "オートピックアップ機能の使い方"
 msgstr "How to use Auto Pickup"
 
-
-#: ../../012_auto_pickup.md:10
-msgid ""
-"オートピックアップ機能はVideosウィンドウの動画名右クリックメニューから起動できます。"
-msgstr ""
-"Auto pickup window can be opened by right clicking on the video in the Video tab."
-
-
 #: ../../012_auto_pickup.md:12
-msgid "![](images/012_auto_profiles.jpg)"
-msgstr "![](images/012_auto_profiles.jpg)"
-
-#: ../../012_auto_pickup.md:14
-msgid ""
-"Auto profileボタンを押すとオートプロファイルウィンドウが表示されます。"
+msgid "オートピックアップ機能はVideosウィンドウの動画名右クリックメニューから起動できます。"
 msgstr ""
-"This should bring up the auto profile window. "
-
-#: ../../012_auto_pickup.md:16
-msgid "![](images/012_auto_profile_window.jpg)"
-msgstr "![](images/012_auto_profile_window.jpg)"
-
-#: ../../012_auto_pickup.md:18
-msgid ""
-"このウィンドウでは、動画から自動的にフレームを選択できます。"
-msgstr ""
-"This window allows you to automatically select frames from the video. "
-
-#: ../../012_auto_pickup.md:20
-msgid "ここでは、動画のパスが正しく選択されているかどうか確認し、どのようなフレームをピックアップするかについてオプションを設定してください。"
-msgstr "After confirming the video is correctly selected, you are provided with "
-"a couple options regarding what kind of frames you would like to pick up "
-"from the video."
+"Auto pickup window can be opened by right clicking on the video in the "
+"Video tab."
 
 #: ../../012_auto_pickup.md:19
+msgid "Auto profileボタンを押すとオートプロファイルウィンドウが表示されます。"
+msgstr "This should bring up the auto profile window. "
+
+#: ../../012_auto_pickup.md:26
+msgid "このウィンドウでは、動画から自動的にフレームを選択できます。"
+msgstr "This window allows you to automatically select frames from the video. "
+
+#: ../../012_auto_pickup.md:28
+msgid "ここでは、動画のパスが正しく選択されているかどうか確認し、どのようなフレームをピックアップするかについてオプションを設定してください。"
+msgstr ""
+"After confirming the video is correctly selected, you are provided with a"
+" couple options regarding what kind of frames you would like to pick up "
+"from the video."
+
+#: ../../012_auto_pickup.md:31
 msgid "ピックアップの方法について"
 msgstr "Selection method"
 
-#: ../../012_auto_pickup.md:20
-msgid ""
-"現在、オートプロファイルには2つのフレーム抽出モードが実装されています。用途に合わせて"
-"「General」と「ROM」で切り替え可能です。"
+#: ../../012_auto_pickup.md:32
+msgid "現在、オートプロファイルには2つのフレーム抽出モードが実装されています。用途に合わせて「General」と「ROM」で切り替え可能です。"
 msgstr ""
 "Currently, two methods are implemented to allow you to select frames, "
 "based on the type of video, `General` and `ROM`, for slightly different "
 "use case."
 
-# The source text is “It will looks for frame” but the correct form is “It will look for frame”. 
-#: ../../012_auto_pickup.md:22
-msgid ""
-"**General** は、どのような動画でも使用できるように設計されています。動画内で顔の表情全体が明瞭に映っているフレームを自動的に抽出します。"
+# The source text is “It will looks for frame” but the correct form is “It
+# will look for frame”.
+#: ../../012_auto_pickup.md:34
+msgid "**General** は、どのような動画でも使用できるように設計されています。動画内で顔の表情全体が明瞭に映っているフレームを自動的に抽出します。"
 msgstr ""
 "**General** is designed for using on any video. It will looks for frame "
 "that is a good representation of the overall facial expression as it "
 "appears in the video."
 
-#: ../../012_auto_pickup.md:24
-msgid ""
-"*General*では、選択した動画へ追加したいプロファイルの数を自由に設定できます。動画全体を分析し、指定した数の表情を自動的にピックアップします。"
+#: ../../012_auto_pickup.md:36
+msgid "*General*では、選択した動画へ追加したいプロファイルの数を自由に設定できます。動画全体を分析し、指定した数の表情を自動的にピックアップします。"
 msgstr ""
 "Inside *General* you can decide any number of profiles that you would "
 "like to add from the video, the algorithm will look at the entire video, "
 "and look for facial expression(s) that can overall represent the video."
 
-#: ../../012_auto_pickup.md:26
-msgid ""
-"**ROM**は、スターターキットに同梱されているPDF一覧表（ROM.pdf）に載っている顔の表情と一致する動画のフレームを自動的に抽出します。"
+#: ../../012_auto_pickup.md:40
+msgid "**ROM**は、スターターキットに同梱されているPDF一覧表（ROM.pdf）に載っている顔の表情と一致する動画のフレームを自動的に抽出します。"
 msgstr ""
 "**ROM** looks for video frames that match that the specific facial "
 "expressions as included in the ROM.pdf included with starter kit."
 
-#: ../../012_auto_pickup.md:28
+#: ../../012_auto_pickup.md:42
 msgid ""
-"*ROM* では、動画内で探したいROMの表情をチェックボックスで選択できます。選択した表情を元に、動画内で最も近い表情のフレームをピックアップします。"
+"*ROM* "
+"では、動画内で探したいROMの表情をチェックボックスで選択できます。選択した表情を元に、動画内で最も近い表情のフレームをピックアップします。"
 msgstr ""
-"In the *ROM* method, you can choose what exact facial expression that "
-"you are looking for inside the video. The algorithm will look for the "
+"In the *ROM* method, you can choose what exact facial expression that you"
+" are looking for inside the video. The algorithm will look for the "
 "closest match inside the video."
 
-#: ../../012_auto_pickup.md:30
-msgid ""
-"今後、独自のROMに基づく表情をピックアップできるバージョンをリリース予定です。"
+#: ../../012_auto_pickup.md:44
+msgid "今後、独自のROMに基づく表情をピックアップできるバージョンをリリース予定です。"
 msgstr ""
-"In the future we will release another version where custom ROM sequence can used."
+"In the future we will release another version where custom ROM sequence "
+"can used."
+
+#~ msgid "```{figure} images/012_auto_profiles.jp"
+#~ msgstr "```{figure} images/012_auto_profiles.jp"
+
+#~ msgid "```{figure} images/012_auto_profile_window.jp"
+#~ msgstr "```{figure} images/012_auto_profile_window.jp"
+

@@ -577,116 +577,116 @@ msgstr ""
 
 #~ msgid ""
 #~ "Window&rarr;VideosでVideosウィンドウが開きます。   "
-#~ "Videosウィンドウでは解析したい動画を開いたり、インポートすることができます。 ```{image} "
+#~ "Videosウィンドウでは解析したい動画を開いたり、インポートすることができます。 ```{figure} "
 #~ "images/P26_VideosWindow.PN"
 #~ msgstr ""
 
-#~ msgid "import ```{image} images/P002.pn"
+#~ msgid "import ```{figure} images/P002.pn"
 #~ msgstr ""
 
-#~ msgid "解析したい動画をクリックし開く ```{image} images/P003.pn"
+#~ msgid "解析したい動画をクリックし開く ```{figure} images/P003.pn"
 #~ msgstr ""
 
-#~ msgid "Videosウィンドウに解析したい動画が表示されます。 ```{image} images/P004.pn"
+#~ msgid "Videosウィンドウに解析したい動画が表示されます。 ```{figure} images/P004.pn"
 #~ msgstr ""
 
-#~ msgid "```{image} images/P019.pn"
+#~ msgid "```{figure} images/P019.pn"
 #~ msgstr ""
 
-#~ msgid "```{image} images/P007.pn"
+#~ msgid "```{figure} images/P007.pn"
 #~ msgstr ""
 
-#~ msgid "```{image} images/P008.pn"
+#~ msgid "```{figure} images/P008.pn"
 #~ msgstr ""
 
-#~ msgid "Open ```{image} images/P005.pn"
+#~ msgid "Open ```{figure} images/P005.pn"
 #~ msgstr ""
 
-#~ msgid "VideoPlayerに動画が表示されます。 ```{image} images/P006.pn"
+#~ msgid "VideoPlayerに動画が表示されます。 ```{figure} images/P006.pn"
 #~ msgstr ""
 
-#~ msgid "Galleryに指定したフレームの画像が追加される ```{image} images/P009.pn"
+#~ msgid "Galleryに指定したフレームの画像が追加される ```{figure} images/P009.pn"
 #~ msgstr ""
 
-#~ msgid "Save ```{image} images/P010.pn"
+#~ msgid "Save ```{figure} images/P010.pn"
 #~ msgstr ""
 
-#~ msgid "```{image} images/P011.pn"
+#~ msgid "```{figure} images/P011.pn"
 #~ msgstr ""
 
-#~ msgid "Galleryに指定したフレームの画像が追加されます。 ```{image} images/P012.pn"
+#~ msgid "Galleryに指定したフレームの画像が追加されます。 ```{figure} images/P012.pn"
 #~ msgstr ""
 
-#~ msgid "追加した赤色の画像をクリックし、Editor画面に表示されている画像が同じであることを確認 ```{image} images/P013.pn"
+#~ msgid "追加した赤色の画像をクリックし、Editor画面に表示されている画像が同じであることを確認 ```{figure} images/P013.pn"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Mayaのコントローラーリグで、追加したアクターの表情と同じになるようにキャラクターの表情を調節 ```{image} "
+#~ "Mayaのコントローラーリグで、追加したアクターの表情と同じになるようにキャラクターの表情を調節 ```{figure} "
 #~ "images/image90.pn"
 #~ msgstr ""
 
-#~ msgid "From Mayaをクリック ```{image} images/P014.pn"
+#~ msgid "From Mayaをクリック ```{figure} images/P014.pn"
 #~ msgstr ""
 
-#~ msgid "Save ```{image} images/P015.pn"
+#~ msgid "Save ```{figure} images/P015.pn"
 #~ msgstr ""
 
-#~ msgid "```{image} images/image83.pn"
+#~ msgid "```{figure} images/image83.pn"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Mayaのコントローラーリグで、追加したアクターの表情が同じになるようにキャラクターの表情を調節 ```{image} "
+#~ "Mayaのコントローラーリグで、追加したアクターの表情が同じになるようにキャラクターの表情を調節 ```{figure} "
 #~ "images/P020.pn"
 #~ msgstr ""
 
-#~ msgid "To Mayaをクリック ```{image} images/P016.pn"
+#~ msgid "To Mayaをクリック ```{figure} images/P016.pn"
 #~ msgstr ""
 
-#~ msgid "FCSで調整した内容がMayaに反映されます。 ```{image} images/P017.pn"
+#~ msgid "FCSで調整した内容がMayaに反映されます。 ```{figure} images/P017.pn"
 #~ msgstr ""
 
-#~ msgid "```{image} images/P018.pn"
+#~ msgid "```{figure} images/P018.pn"
 #~ msgstr ""
 
-#~ msgid "Galleryに指定したフレームの画像が追加される ```{image} images/P012.pn"
+#~ msgid "Galleryに指定したフレームの画像が追加される ```{figure} images/P012.pn"
 #~ msgstr ""
 
-#~ msgid "Predict実行   valueの数値が変動します。 ```{image} images/P021.pn"
+#~ msgid "Predict実行   valueの数値が変動します。 ```{figure} images/P021.pn"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "MayaにPredict結果が出るので、   調整が必要な場合は調整し、登録できる内容になったら "
-#~ "```{image} images/P022.pn"
+#~ "```{figure} images/P022.pn"
 #~ msgstr ""
 
-#~ msgid "Save ```{image} images/P023.pn"
+#~ msgid "Save ```{figure} images/P023.pn"
 #~ msgstr ""
 
-#~ msgid "例：眉のぎゅっと絞る動きを作りたい時には ```{image} images/P024.pn"
+#~ msgid "例：眉のぎゅっと絞る動きを作りたい時には ```{figure} images/P024.pn"
 #~ msgstr ""
 
-#~ msgid "表情を調整した上で ```{image} images/P025.pn"
+#~ msgid "表情を調整した上で ```{figure} images/P025.pn"
 #~ msgstr ""
 
-#~ msgid "Regionのgaze/lowerの ☑ を外す ```{image} images/P026.pn"
+#~ msgid "Regionのgaze/lowerの ☑ を外す ```{figure} images/P026.pn"
 #~ msgstr ""
 
-#~ msgid "Videosウィンドウの「Profiles」をご参照ください     ```{image} images/P026-02.pn"
+#~ msgid "Videosウィンドウの「Profiles」をご参照ください     ```{figure} images/P026-02.pn"
 #~ msgstr ""
 
-#~ msgid "「Profiles」に ☑ を入れる   ```{image} images/P026-03.pn"
+#~ msgid "「Profiles」に ☑ を入れる   ```{figure} images/P026-03.pn"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "＋キーを押してもGalleryにProfileが追加されない場合   "
-#~ "Galleryの表示ウィンドウが小さいケースが考えられます。 ```{image} images/P027.pn"
+#~ "Galleryの表示ウィンドウが小さいケースが考えられます。 ```{figure} images/P027.pn"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "その場合、Galleryウィンドウの◀&rarr;をクリックすると追加したProfileが表示されます。 ```{image} "
+#~ "その場合、Galleryウィンドウの◀&rarr;をクリックすると追加したProfileが表示されます。 ```{figure} "
 #~ "images/P028.pn"
 #~ msgstr ""
 
-#~ msgid "```{image} images/P029.pn"
+#~ msgid "```{figure} images/P029.pn"
 #~ msgstr ""
 
