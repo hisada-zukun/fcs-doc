@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-28 12:23+0900\n"
+"POT-Creation-Date: 2024-10-28 16:14+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../008_profile.md:1 ../../008_profile.md:117
+#: ../../008_profile.md:1 ../../008_profile.md:138
 msgid "Profileの作成"
 msgstr ""
 
@@ -32,580 +32,661 @@ msgstr ""
 
 #: ../../008_profile.md:7
 msgid ""
-"Window▶VideosでVideosウィンドウが開きます。   "
-"Videosウィンドウでは解析したい動画を開いたり、インポートすることができます。 "
-"![](images/P26_VideosWindow.PNG)"
-msgstr ""
-
-#: ../../008_profile.md:11
-msgid "import ![](images/P002.png)"
+"Window&rarr;VideosでVideosウィンドウが開きます。   "
+"Videosウィンドウでは解析したい動画を開いたり、インポートすることができます。"
 msgstr ""
 
 #: ../../008_profile.md:14
+msgid "import"
+msgstr ""
+
+#: ../../008_profile.md:20
 msgid "ウィンドウがポップアップされるので"
 msgstr ""
 
-#: ../../008_profile.md:15
-msgid "解析したい動画をクリックし開く ![](images/P003.png)"
-msgstr ""
-
-#: ../../008_profile.md:19
-msgid "Shift+クリックで複数同時にimportできます。"
-msgstr ""
-
-#: ../../008_profile.md:22
-msgid "Videosウィンドウに解析したい動画が表示されます。 ![](images/P004.png)"
-msgstr ""
-
-#: ../../008_profile.md:25
-msgid "Timelineの画面説明"
-msgstr ""
-
-#: ../../008_profile.md:27
-msgid "![](images/P019.png)"
+#: ../../008_profile.md:21
+msgid "解析したい動画をクリックし開く"
 msgstr ""
 
 #: ../../008_profile.md:28
-msgid "Timeline：バーを左右に動かし、ビデオを手動で再生させる"
-msgstr ""
-
-#: ../../008_profile.md:29
-msgid "[0][20130]：ビデオの縮尺を変更できる。"
-msgstr ""
-
-#: ../../008_profile.md:30
-msgid "[7967]：現在のフレーム数"
+msgid "Shift+クリックで複数同時にimportできます。"
 msgstr ""
 
 #: ../../008_profile.md:31
-msgid "|< >|：1フレーム前/後に移動する"
-msgstr ""
-
-#: ../../008_profile.md:32
-msgid "<< >>：登録したprofileにジャンプする"
-msgstr ""
-
-#: ../../008_profile.md:33
-msgid "＞ ||：動画の再生 - 停止（再生すると一時停止ボタンが表示される）"
-msgstr ""
-
-#: ../../008_profile.md:34
-msgid "1:2▼：表示する動画の解像度を変更する（Scaleが小さくなるほどプレビューが鮮明に、大きくなるほど荒くなる）"
-msgstr ""
-
-#: ../../008_profile.md:35
-msgid "Sync：☑ でTimeline操作状況をMayaのTimeSliderと一致させる"
-msgstr ""
-
-#: ../../008_profile.md:36
-msgid "EveryFrame/Realtime：再生速度を変更する"
+msgid "Videosウィンドウに解析したい動画が表示されます。"
 msgstr ""
 
 #: ../../008_profile.md:37
-msgid "Video：Video playerに表示されている動画名"
-msgstr ""
-
-#: ../../008_profile.md:39
-msgid "Editorの画面説明"
-msgstr ""
-
-#: ../../008_profile.md:41
-msgid "![](images/P007.png) Sync:"
+msgid "Timelineの画面説明"
 msgstr ""
 
 #: ../../008_profile.md:43
-msgid "To Maya：登録されているprofile情報をMayaに転送する"
+msgid "Timeline：バーを左右に動かし、ビデオを手動で再生させる"
 msgstr ""
 
 #: ../../008_profile.md:44
-msgid "From Maya at save：saveする際にMaya上での調整データを取得しFCSに反映する"
+msgid "[0][20130]：ビデオの縮尺を変更できる。"
 msgstr ""
 
 #: ../../008_profile.md:45
-msgid "Both：FCSとMayaを双方向で連動させる"
+msgid "[7967]：現在のフレーム数"
 msgstr ""
 
 #: ../../008_profile.md:46
-msgid "No Sync：FCSとMayaを連動させない"
+msgid "|< >|：1フレーム前/後に移動する"
+msgstr ""
+
+#: ../../008_profile.md:47
+msgid "<< >>：登録したprofileにジャンプする"
+msgstr ""
+
+#: ../../008_profile.md:48
+msgid "＞ ||：動画の再生 - 停止（再生すると一時停止ボタンが表示される）"
 msgstr ""
 
 #: ../../008_profile.md:49
+msgid "1:2▼：表示する動画の解像度を変更する（Scaleが小さくなるほどプレビューが鮮明に、大きくなるほど荒くなる）"
+msgstr ""
+
+#: ../../008_profile.md:50
+msgid "Sync：☑ でTimeline操作状況をMayaのTimeSliderと一致させる"
+msgstr ""
+
+#: ../../008_profile.md:51
+msgid "EveryFrame/Realtime：再生速度を変更する"
+msgstr ""
+
+#: ../../008_profile.md:52
+msgid "Video：Video playerに表示されている動画名"
+msgstr ""
+
+#: ../../008_profile.md:54
+msgid "Editorの画面説明"
+msgstr ""
+
+#: ../../008_profile.md:60
+msgid "Sync:"
+msgstr ""
+
+#: ../../008_profile.md:61
+msgid "To Maya：登録されているprofile情報をMayaに転送する"
+msgstr ""
+
+#: ../../008_profile.md:62
+msgid "From Maya at save：saveする際にMaya上での調整データを取得しFCSに反映する"
+msgstr ""
+
+#: ../../008_profile.md:63
+msgid "Both：FCSとMayaを双方向で連動させる"
+msgstr ""
+
+#: ../../008_profile.md:64
+msgid "No Sync：FCSとMayaを連動させない"
+msgstr ""
+
+#: ../../008_profile.md:67
 msgid ""
 "本ページではProfileの追加手順 - 編集手順について記載しております   "
 "Mayaをベースに表情を調整するのか、FCSをベースに表情を調整するのかは任意で使い分けることができますが、   "
 "最初は「Both」での使用をオススメします。"
 msgstr ""
 
-#: ../../008_profile.md:54
+#: ../../008_profile.md:72
 msgid "Neutral：デフォルトの表情として必ず1つ登録する"
 msgstr ""
 
-#: ../../008_profile.md:55
+#: ../../008_profile.md:73
 msgid "Enabled：解析する素材として使用する"
 msgstr ""
 
-#: ../../008_profile.md:57
+#: ../../008_profile.md:75
 msgid "Controller▼"
 msgstr ""
 
-#: ../../008_profile.md:58
+#: ../../008_profile.md:76
 msgid "Controller：コントローラー表示が名前になる"
 msgstr ""
 
-#: ../../008_profile.md:59
+#: ../../008_profile.md:77
 msgid "Value：コントローラー表示が数字になる"
 msgstr ""
 
-#: ../../008_profile.md:61
+#: ../../008_profile.md:79
 msgid "▼Region"
 msgstr ""
 
-#: ../../008_profile.md:62
+#: ../../008_profile.md:80
 msgid "Upper/Eyelid/Gaze/Lower：調整した情報を登録する"
 msgstr ""
 
-#: ../../008_profile.md:64
+#: ../../008_profile.md:82
 msgid "▼Utils"
 msgstr ""
 
-#: ../../008_profile.md:65
+#: ../../008_profile.md:83
 msgid "To Maya：FCS上で操作した値をMayaへ送る"
 msgstr ""
 
-#: ../../008_profile.md:66
+#: ../../008_profile.md:84
 msgid "From Maya：Mayaで操作した値をFCSへ送る"
 msgstr ""
 
-#: ../../008_profile.md:67
+#: ../../008_profile.md:85
 msgid "Predict：画像から表情を解析し、Mayaの3Dモデルに反映する機能"
 msgstr ""
 
-#: ../../008_profile.md:69
+#: ../../008_profile.md:87
 msgid "LM：LandMarkを表示する"
 msgstr ""
 
-#: ../../008_profile.md:71
+#: ../../008_profile.md:89
 msgid "▼Filter"
 msgstr ""
 
-#: ../../008_profile.md:72
+#: ../../008_profile.md:90
 msgid "▼all/Upper/Eyelid/Gaze/Lower：選択した項目でコントローラーを絞り込む"
 msgstr ""
 
-#: ../../008_profile.md:73
+#: ../../008_profile.md:91
 msgid "[ ]：入力した文字でコントローラーを絞り込む"
 msgstr ""
 
-#: ../../008_profile.md:75
+#: ../../008_profile.md:93
 msgid "▼Reset：入力した情報を削除する"
 msgstr ""
 
-#: ../../008_profile.md:76
+#: ../../008_profile.md:94
 msgid "Name：Profileとして登録する名前"
 msgstr ""
 
-#: ../../008_profile.md:77
+#: ../../008_profile.md:95
 msgid "Save：変更した情報を保存する"
 msgstr ""
 
-#: ../../008_profile.md:78
+#: ../../008_profile.md:96
 msgid "画像部分：Timelineから+で追加した画像が表示される"
 msgstr ""
 
-#: ../../008_profile.md:79
+#: ../../008_profile.md:97
 msgid "コントローラー：Controller Infoで登録したコントローラーが表示される"
 msgstr ""
 
-#: ../../008_profile.md:81
+#: ../../008_profile.md:99
 msgid "Galleryの画面説明"
 msgstr ""
 
-#: ../../008_profile.md:83
-msgid "![](images/P008.png) 作成したProfileが表示されるウィンドウ"
-msgstr ""
-
-#: ../../008_profile.md:86
-msgid ""
-"◀▶：1列に表示するprofileの数を変更する。◀を押すと少なく、▶を押すと多くなる。最小3、最大10。 "
-"Count:○○：登録しているprofileの総数"
-msgstr ""
-
-#: ../../008_profile.md:89
-msgid "All▼：該当する項目を絞り込む"
-msgstr ""
-
-#: ../../008_profile.md:90
-msgid "All：すべてのprofileを表示する"
-msgstr ""
-
-#: ../../008_profile.md:91
-msgid "Enabled：解析に使用するprofileを表示する。Enabledに ☑ を入れて登録したprofileが対象となる。"
-msgstr ""
-
-#: ../../008_profile.md:92
-msgid "Disabled：解析に使用しないprofileを表示する。Enabledに ☑ を入れずに登録したprofileが対象となる。"
-msgstr ""
-
-#: ../../008_profile.md:93
-msgid "Default：数値がdefaultのprofileを表示する。"
-msgstr ""
-
-#: ../../008_profile.md:94
-msgid "Not Default：数値がdefaultではないprofileを表示する。"
-msgstr ""
-
-#: ../../008_profile.md:95
-msgid "Neutral：Neutralにチェックを入れて登録したprofileを表示する。"
-msgstr ""
-
-#: ../../008_profile.md:96
-msgid "（Region）Enabled：該当する（Region）に ☑ を入れて登録したprofileを表示する。"
-msgstr ""
-
-#: ../../008_profile.md:97
-msgid "（Region）Disabled：該当する（Region）に ☑ を入れず登録したprofileを表示する。"
-msgstr ""
-
-#: ../../008_profile.md:99
-msgid "Sync timeline ☑ ：登録したprofileと同じ動画を開いた状態でprofileを選択すると、該当するフレームにジャンプする。"
-msgstr ""
-
-#: ../../008_profile.md:101
-msgid "▼▲：ソートの昇順 降順を変更する"
-msgstr ""
-
-#: ../../008_profile.md:103
-msgid "Video▼：ソート機能"
-msgstr ""
-
-#: ../../008_profile.md:104
-msgid "Video：profileのName順にソート"
-msgstr ""
-
 #: ../../008_profile.md:105
-msgid "Created At：profileを作成した日時で順にソート"
-msgstr ""
-
-#: ../../008_profile.md:106
-msgid "Saved At：saveした日時で順にソート"
+msgid "作成したProfileが表示されるウィンドウ"
 msgstr ""
 
 #: ../../008_profile.md:107
-msgid "（controller名）：該当する（controller）に登録した数値でソート"
-msgstr ""
-
-#: ../../008_profile.md:109
-msgid "ピックアップした画像"
+msgid ""
+"◀&rarr;：1列に表示するprofileの数を変更する。◀を押すと少なく、&rarr;を押すと多くなる。最小3、最大10。 "
+"Count:○○：登録しているprofileの総数"
 msgstr ""
 
 #: ../../008_profile.md:110
-msgid "緑：「Neutral」に ☑ を入れて登録したProfile"
+msgid "All▼：該当する項目を絞り込む"
 msgstr ""
 
 #: ../../008_profile.md:111
-msgid "赤：数値がデフォルト状態/未編集のProfile"
+msgid "All：すべてのprofileを表示する"
 msgstr ""
 
 #: ../../008_profile.md:112
-msgid "青：選択中（編集中）のprofile"
+msgid "Enabled：解析に使用するprofileを表示する。Enabledに ☑ を入れて登録したprofileが対象となる。"
 msgstr ""
 
 #: ../../008_profile.md:113
-msgid "黒：「Enabled」の ☑ を外し、「Disabled」で登録したprofile"
+msgid "Disabled：解析に使用しないprofileを表示する。Enabledに ☑ を入れずに登録したprofileが対象となる。"
 msgstr ""
 
 #: ../../008_profile.md:114
+msgid "Default：数値がdefaultのprofileを表示する。"
+msgstr ""
+
+#: ../../008_profile.md:115
+msgid "Not Default：数値がdefaultではないprofileを表示する。"
+msgstr ""
+
+#: ../../008_profile.md:116
+msgid "Neutral：Neutralにチェックを入れて登録したprofileを表示する。"
+msgstr ""
+
+#: ../../008_profile.md:117
+msgid "（Region）Enabled：該当する（Region）に ☑ を入れて登録したprofileを表示する。"
+msgstr ""
+
+#: ../../008_profile.md:118
+msgid "（Region）Disabled：該当する（Region）に ☑ を入れず登録したprofileを表示する。"
+msgstr ""
+
+#: ../../008_profile.md:120
+msgid "Sync timeline ☑ ：登録したprofileと同じ動画を開いた状態でprofileを選択すると、該当するフレームにジャンプする。"
+msgstr ""
+
+#: ../../008_profile.md:122
+msgid "▼▲：ソートの昇順 降順を変更する"
+msgstr ""
+
+#: ../../008_profile.md:124
+msgid "Video▼：ソート機能"
+msgstr ""
+
+#: ../../008_profile.md:125
+msgid "Video：profileのName順にソート"
+msgstr ""
+
+#: ../../008_profile.md:126
+msgid "Created At：profileを作成した日時で順にソート"
+msgstr ""
+
+#: ../../008_profile.md:127
+msgid "Saved At：saveした日時で順にソート"
+msgstr ""
+
+#: ../../008_profile.md:128
+msgid "（controller名）：該当する（controller）に登録した数値でソート"
+msgstr ""
+
+#: ../../008_profile.md:130
+msgid "ピックアップした画像"
+msgstr ""
+
+#: ../../008_profile.md:131
+msgid "緑：「Neutral」に ☑ を入れて登録したProfile"
+msgstr ""
+
+#: ../../008_profile.md:132
+msgid "赤：数値がデフォルト状態/未編集のProfile"
+msgstr ""
+
+#: ../../008_profile.md:133
+msgid "青：選択中（編集中）のprofile"
+msgstr ""
+
+#: ../../008_profile.md:134
+msgid "黒：「Enabled」の ☑ を外し、「Disabled」で登録したprofile"
+msgstr ""
+
+#: ../../008_profile.md:135
 msgid "白：リターゲット後、登録したprofile"
 msgstr ""
 
-#: ../../008_profile.md:119
+#: ../../008_profile.md:140
 msgid ""
 "様々な表示のProfileを追加することで解析の精度が上がっていきます。   "
 "単純に数が多ければ良いわけではなく、似た表情のProfileに対し、コントローラーの数字が違ってしまった場合、ノイズになってしまうため注意が必要です。"
 " また、解析する動画毎にProfileを1つ以上作成する必要があります。"
 msgstr ""
 
-#: ../../008_profile.md:124
+#: ../../008_profile.md:145
 msgid "ROM体操と呼ばれる約50個のProfileの作成をオススメしています ROM体操の表情については、スターターキットをご参照ください"
 msgstr ""
 
-#: ../../008_profile.md:128
+#: ../../008_profile.md:149
 msgid ""
 "profileには基本的に全てのRegionの登録を推奨していますが 一部例外があります。 「Profileを作成するときの注意点 "
 "目を閉じる/薄目の時のGaze登録について」をご参照ください"
 msgstr ""
 
-#: ../../008_profile.md:133
+#: ../../008_profile.md:154
 msgid "解析したい動画の読み込み方法"
 msgstr ""
 
-#: ../../008_profile.md:135
+#: ../../008_profile.md:156
 msgid "開いた動画ファイル名の上で右クリック"
 msgstr ""
 
-#: ../../008_profile.md:136
-msgid "Open ![](images/P005.png)"
+#: ../../008_profile.md:157
+msgid "Open"
 msgstr ""
 
-#: ../../008_profile.md:139
-msgid "VideoPlayerに動画が表示されます。 ![](images/P006.png)"
+#: ../../008_profile.md:163
+msgid "VideoPlayerに動画が表示されます。"
 msgstr ""
 
-#: ../../008_profile.md:142
+#: ../../008_profile.md:169
 msgid "Profileの追加方法"
 msgstr ""
 
-#: ../../008_profile.md:144
+#: ../../008_profile.md:171
 msgid "VideoTimelineウィンドウの"
 msgstr ""
 
-#: ../../008_profile.md:145
+#: ../../008_profile.md:172
 msgid "スライダーを動かし表情の登録を行いたいフレームで止め"
 msgstr ""
 
-#: ../../008_profile.md:146
+#: ../../008_profile.md:173
 msgid "+を押す"
 msgstr ""
 
-#: ../../008_profile.md:147
-msgid "Galleryに指定したフレームの画像が追加される ![](images/P009.png)"
+#: ../../008_profile.md:174 ../../008_profile.md:331
+msgid "Galleryに指定したフレームの画像が追加される"
 msgstr ""
 
-#: ../../008_profile.md:151 ../../008_profile.md:176 ../../008_profile.md:211
-#: ../../008_profile.md:262
+#: ../../008_profile.md:181 ../../008_profile.md:215 ../../008_profile.md:265
+#: ../../008_profile.md:337
 msgid "値が0（未登録）のProfileは赤枠"
 msgstr ""
 
-#: ../../008_profile.md:154
+#: ../../008_profile.md:184
 msgid "Neutralの表情の登録"
 msgstr ""
 
-#: ../../008_profile.md:156
+#: ../../008_profile.md:186
 msgid ""
 "Neutral表情とは、アクターの表情筋に力が入っていないナチュラルな表情のことです。   "
 "セッション内で必ず一つNeutral表情を設定してください。"
 msgstr ""
 
-#: ../../008_profile.md:159
+#: ../../008_profile.md:189
 msgid "Neutralに ☑"
 msgstr ""
 
-#: ../../008_profile.md:160
+#: ../../008_profile.md:190
 msgid "任意の名前に変更"
 msgstr ""
 
-#: ../../008_profile.md:161
-msgid "Save ![](images/P010.png)"
+#: ../../008_profile.md:191 ../../008_profile.md:246 ../../008_profile.md:360
+#: ../../008_profile.md:393
+msgid "Save"
 msgstr ""
 
-#: ../../008_profile.md:165
+#: ../../008_profile.md:198
 msgid "NeutralのProfileは登録が完了すると緑になります。"
 msgstr ""
 
-#: ../../008_profile.md:167
-msgid "![](images/P011.png)"
-msgstr ""
-
-#: ../../008_profile.md:169
+#: ../../008_profile.md:205
 msgid "Mayaで表情を調整する場合"
 msgstr ""
 
-#: ../../008_profile.md:171 ../../008_profile.md:206 ../../008_profile.md:257
+#: ../../008_profile.md:207 ../../008_profile.md:257 ../../008_profile.md:329
 msgid "VideoTimelineウィンドウのスライダーを動かし表情の登録を行いたいフレームで止め+を押す"
 msgstr ""
 
-#: ../../008_profile.md:173 ../../008_profile.md:208
-msgid "Galleryに指定したフレームの画像が追加されます。 ![](images/P012.png)"
+#: ../../008_profile.md:209 ../../008_profile.md:259
+msgid "Galleryに指定したフレームの画像が追加されます。"
 msgstr ""
 
-#: ../../008_profile.md:178 ../../008_profile.md:213 ../../008_profile.md:265
-msgid "追加した赤色の画像をクリックし、Editor画面に表示されている画像が同じであることを確認 ![](images/P013.png)"
+#: ../../008_profile.md:217 ../../008_profile.md:267 ../../008_profile.md:340
+msgid "追加した赤色の画像をクリックし、Editor画面に表示されている画像が同じであることを確認"
 msgstr ""
 
-#: ../../008_profile.md:181
-msgid "Mayaのコントローラーリグで、追加したアクターの表情と同じになるようにキャラクターの表情を調節 ![](images/image90.png)"
+#: ../../008_profile.md:223
+msgid "Mayaのコントローラーリグで、追加したアクターの表情と同じになるようにキャラクターの表情を調節"
 msgstr ""
 
-#: ../../008_profile.md:184
-msgid "From Mayaをクリック ![](images/P014.png) Mayaでの調整情報がFCSに反映されます。"
+#: ../../008_profile.md:229
+msgid "From Mayaをクリック"
 msgstr ""
 
-#: ../../008_profile.md:189
+#: ../../008_profile.md:234
+msgid "Mayaでの調整情報がFCSに反映されます。"
+msgstr ""
+
+#: ../../008_profile.md:237
 msgid "Syncのプルダウンで「From Maya at save」もしくは「Both」にしている場合は、調整した数値が自動で同期されます。"
 msgstr ""
 
-#: ../../008_profile.md:193
+#: ../../008_profile.md:241
 msgid ""
 "コントローラーの登録忘れがあった場合は再度開いたときに作成した表情と異なる場合があります。 "
 "その際は、再度登録し忘れたコントローラーを登録しプロファイルの再登録を行ってください。"
 msgstr ""
 
-#: ../../008_profile.md:197
+#: ../../008_profile.md:245
 msgid "Nameを任意の名前に変更"
 msgstr ""
 
-#: ../../008_profile.md:198
-msgid "Save ![](images/P015.png)"
-msgstr ""
-
-#: ../../008_profile.md:201
+#: ../../008_profile.md:252
 msgid "名前は必ずしも変更する必要はありません。"
 msgstr ""
 
-#: ../../008_profile.md:204
+#: ../../008_profile.md:255
 msgid "FCS上で表情を調整する場合"
 msgstr ""
 
-#: ../../008_profile.md:217
+#: ../../008_profile.md:274
 msgid "Syncが「No Sync」の場合はProfileの自動情報共有が行われないためMaya上は1つ前に登録した表情のままになっています。"
 msgstr ""
 
-#: ../../008_profile.md:219
-msgid "![](images/image83.png)"
-msgstr ""
-
-#: ../../008_profile.md:222
+#: ../../008_profile.md:282
 msgid "Syncを「Both」にした状態で開きなおすと デフォルトの表情になります。   既にしている場合はスキップ"
 msgstr ""
 
-#: ../../008_profile.md:225
-msgid "Mayaのコントローラーリグで、追加したアクターの表情が同じになるようにキャラクターの表情を調節 ![](images/P020.png)"
+#: ../../008_profile.md:285
+msgid "Mayaのコントローラーリグで、追加したアクターの表情が同じになるようにキャラクターの表情を調節"
 msgstr ""
 
-#: ../../008_profile.md:228
-msgid "To Mayaをクリック ![](images/P016.png)"
+#: ../../008_profile.md:291
+msgid "To Mayaをクリック"
 msgstr ""
 
-#: ../../008_profile.md:232
+#: ../../008_profile.md:298
 msgid "Syncのプルダウンで「To Maya」もしくは「Both」にしている場合は、調整した数値が自動で同期されます。"
 msgstr ""
 
-#: ../../008_profile.md:235
-msgid "FCSで調整した内容がMayaに反映されます。 ![](images/P017.png)"
+#: ../../008_profile.md:301
+msgid "FCSで調整した内容がMayaに反映されます。"
 msgstr ""
 
-#: ../../008_profile.md:239
+#: ../../008_profile.md:308
 msgid "絞り込みたい項目（文字含む）のみ表示されるようにするには…"
 msgstr ""
 
-#: ../../008_profile.md:240
+#: ../../008_profile.md:309
 msgid "▼Filterから搾りたい項目をクリック"
 msgstr ""
 
-#: ../../008_profile.md:242
-msgid "![](images/P018.png)"
-msgstr ""
-
-#: ../../008_profile.md:245
+#: ../../008_profile.md:317
 msgid "PredictでProfileを作成する場合"
 msgstr ""
 
-#: ../../008_profile.md:247
+#: ../../008_profile.md:319
 msgid ""
 "本ソフトでは、作成したProfileから自動でリターゲットをしてくる   Predict機能を搭載しています   "
 "ある程度のProfileを登録した後で、追加のProfileを登録する際にPredict機能を使えば、   "
 "登録済のProfileを基に、ソフトが予想した表情を作成してくれます。"
 msgstr ""
 
-#: ../../008_profile.md:253
+#: ../../008_profile.md:325
 msgid "Predictで自動リターゲットする精度は、登録済のProfileの精度と連動します。   また、動画全体を解析するわけではないので注意が必要です。"
 msgstr ""
 
-#: ../../008_profile.md:259
-msgid "Galleryに指定したフレームの画像が追加される ![](images/P012.png)"
+#: ../../008_profile.md:346
+msgid "Predict実行   valueの数値が変動します。"
 msgstr ""
 
-#: ../../008_profile.md:268
-msgid "Predict実行   valueの数値が変動します。 ![](images/P021.png)"
+#: ../../008_profile.md:353
+msgid "MayaにPredict結果が出るので、   調整が必要な場合は調整し、登録できる内容になったら"
 msgstr ""
 
-#: ../../008_profile.md:272
-msgid "MayaにPredict結果が出るので、   調整が必要な場合は調整し、登録できる内容になったら ![](images/P022.png)"
-msgstr ""
-
-#: ../../008_profile.md:276
-msgid "Save ![](images/P023.png)"
-msgstr ""
-
-#: ../../008_profile.md:280
+#: ../../008_profile.md:367
 msgid "Profileを作成するときの注意点"
 msgstr ""
 
-#: ../../008_profile.md:282
+#: ../../008_profile.md:369
 msgid "目を閉じる/薄目の時のGaze登録について"
 msgstr ""
 
-#: ../../008_profile.md:284
+#: ../../008_profile.md:371
 msgid "目を閉じる、薄目のプロファイルで黒目が見えないものは登録する際にGazeの ☑ を外してください   解析結果の精度が低下してしまう可能性があります"
 msgstr ""
 
-#: ../../008_profile.md:288
-msgid "例：眉のぎゅっと絞る動きを作りたい時には ![](images/P024.png)"
+#: ../../008_profile.md:375
+msgid "例：眉のぎゅっと絞る動きを作りたい時には"
 msgstr ""
 
-#: ../../008_profile.md:291
-msgid "表情を調整した上で ![](images/P025.png)"
+#: ../../008_profile.md:381
+msgid "表情を調整した上で"
 msgstr ""
 
-#: ../../008_profile.md:294
-msgid "Regionのgaze/lowerの ☑ を外す ![](images/P026.png)"
+#: ../../008_profile.md:387
+msgid "Regionのgaze/lowerの ☑ を外す"
 msgstr ""
 
-#: ../../008_profile.md:297
-msgid "Save"
-msgstr ""
-
-#: ../../008_profile.md:299
+#: ../../008_profile.md:395
 msgid "解析結果が好ましくない場合"
 msgstr ""
 
-#: ../../008_profile.md:301
+#: ../../008_profile.md:397
 msgid ""
 "解析する動画は、必ず1動画1profile以上作成するようにしてください "
 "Profileを作成していない場合、精度が十分ではない解析結果が出力される可能性があります"
 msgstr ""
 
-#: ../../008_profile.md:304
-msgid "Videosウィンドウの「Profiles」をご参照ください     ![](images/P026-02.png)"
+#: ../../008_profile.md:400
+msgid "Videosウィンドウの「Profiles」をご参照ください"
 msgstr ""
 
-#: ../../008_profile.md:308
+#: ../../008_profile.md:407
 msgid "「Profiles」が表示されない場合"
 msgstr ""
 
-#: ../../008_profile.md:309
+#: ../../008_profile.md:408
 msgid "メニューバー上部で右クリック"
 msgstr ""
 
-#: ../../008_profile.md:310
-msgid "「Profiles」に ☑ を入れる   ![](images/P026-03.png)"
+#: ../../008_profile.md:409
+msgid "「Profiles」に ☑ を入れる"
 msgstr ""
 
-#: ../../008_profile.md:313
+#: ../../008_profile.md:415
 msgid "トラブルシューティング"
 msgstr ""
 
-#: ../../008_profile.md:315
+#: ../../008_profile.md:417
 msgid "＋キーを押してもGalleryにProfileが追加されない場合"
 msgstr ""
 
-#: ../../008_profile.md:316
-msgid ""
-"＋キーを押してもGalleryにProfileが追加されない場合   Galleryの表示ウィンドウが小さいケースが考えられます。 "
-"![](images/P027.png)"
+#: ../../008_profile.md:418
+msgid "＋キーを押してもGalleryにProfileが追加されない場合   Galleryの表示ウィンドウが小さいケースが考えられます。"
 msgstr ""
 
-#: ../../008_profile.md:320
-msgid "その場合、Galleryウィンドウの◀▶をクリックすると追加したProfileが表示されます。 ![](images/P028.png)"
+#: ../../008_profile.md:425
+msgid "その場合、Galleryウィンドウの◀&rarr;をクリックすると追加したProfileが表示されます。"
 msgstr ""
 
-#: ../../008_profile.md:324
+#: ../../008_profile.md:432
 msgid ""
 "FCSでは同一フレームのProfileは重複して追加されないようになっています。   重複した場合、Logウィンドウで   "
 "WARNIG:Frame ○○ already has a Profile associated with it   と表示されます。"
 msgstr ""
 
-#: ../../008_profile.md:329
-msgid "![](images/P029.png)"
-msgstr ""
+#~ msgid ""
+#~ "Window&rarr;VideosでVideosウィンドウが開きます。   "
+#~ "Videosウィンドウでは解析したい動画を開いたり、インポートすることができます。 ```{image} "
+#~ "images/P26_VideosWindow.PN"
+#~ msgstr ""
+
+#~ msgid "import ```{image} images/P002.pn"
+#~ msgstr ""
+
+#~ msgid "解析したい動画をクリックし開く ```{image} images/P003.pn"
+#~ msgstr ""
+
+#~ msgid "Videosウィンドウに解析したい動画が表示されます。 ```{image} images/P004.pn"
+#~ msgstr ""
+
+#~ msgid "```{image} images/P019.pn"
+#~ msgstr ""
+
+#~ msgid "```{image} images/P007.pn"
+#~ msgstr ""
+
+#~ msgid "```{image} images/P008.pn"
+#~ msgstr ""
+
+#~ msgid "Open ```{image} images/P005.pn"
+#~ msgstr ""
+
+#~ msgid "VideoPlayerに動画が表示されます。 ```{image} images/P006.pn"
+#~ msgstr ""
+
+#~ msgid "Galleryに指定したフレームの画像が追加される ```{image} images/P009.pn"
+#~ msgstr ""
+
+#~ msgid "Save ```{image} images/P010.pn"
+#~ msgstr ""
+
+#~ msgid "```{image} images/P011.pn"
+#~ msgstr ""
+
+#~ msgid "Galleryに指定したフレームの画像が追加されます。 ```{image} images/P012.pn"
+#~ msgstr ""
+
+#~ msgid "追加した赤色の画像をクリックし、Editor画面に表示されている画像が同じであることを確認 ```{image} images/P013.pn"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Mayaのコントローラーリグで、追加したアクターの表情と同じになるようにキャラクターの表情を調節 ```{image} "
+#~ "images/image90.pn"
+#~ msgstr ""
+
+#~ msgid "From Mayaをクリック ```{image} images/P014.pn"
+#~ msgstr ""
+
+#~ msgid "Save ```{image} images/P015.pn"
+#~ msgstr ""
+
+#~ msgid "```{image} images/image83.pn"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Mayaのコントローラーリグで、追加したアクターの表情が同じになるようにキャラクターの表情を調節 ```{image} "
+#~ "images/P020.pn"
+#~ msgstr ""
+
+#~ msgid "To Mayaをクリック ```{image} images/P016.pn"
+#~ msgstr ""
+
+#~ msgid "FCSで調整した内容がMayaに反映されます。 ```{image} images/P017.pn"
+#~ msgstr ""
+
+#~ msgid "```{image} images/P018.pn"
+#~ msgstr ""
+
+#~ msgid "Galleryに指定したフレームの画像が追加される ```{image} images/P012.pn"
+#~ msgstr ""
+
+#~ msgid "Predict実行   valueの数値が変動します。 ```{image} images/P021.pn"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "MayaにPredict結果が出るので、   調整が必要な場合は調整し、登録できる内容になったら "
+#~ "```{image} images/P022.pn"
+#~ msgstr ""
+
+#~ msgid "Save ```{image} images/P023.pn"
+#~ msgstr ""
+
+#~ msgid "例：眉のぎゅっと絞る動きを作りたい時には ```{image} images/P024.pn"
+#~ msgstr ""
+
+#~ msgid "表情を調整した上で ```{image} images/P025.pn"
+#~ msgstr ""
+
+#~ msgid "Regionのgaze/lowerの ☑ を外す ```{image} images/P026.pn"
+#~ msgstr ""
+
+#~ msgid "Videosウィンドウの「Profiles」をご参照ください     ```{image} images/P026-02.pn"
+#~ msgstr ""
+
+#~ msgid "「Profiles」に ☑ を入れる   ```{image} images/P026-03.pn"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "＋キーを押してもGalleryにProfileが追加されない場合   "
+#~ "Galleryの表示ウィンドウが小さいケースが考えられます。 ```{image} images/P027.pn"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "その場合、Galleryウィンドウの◀&rarr;をクリックすると追加したProfileが表示されます。 ```{image} "
+#~ "images/P028.pn"
+#~ msgstr ""
+
+#~ msgid "```{image} images/P029.pn"
+#~ msgstr ""
 

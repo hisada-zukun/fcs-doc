@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-28 12:23+0900\n"
+"POT-Creation-Date: 2024-10-28 16:14+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -42,53 +42,51 @@ msgstr ""
 msgid "オートピックアップ機能はVideosウィンドウの動画名右クリックメニューから起動できます。"
 msgstr ""
 
-#: ../../012_auto_pickup.md:14
-msgid "![](images/012_auto_profiles.jpg)"
-msgstr ""
-
-#: ../../012_auto_pickup.md:16
+#: ../../012_auto_pickup.md:19
 msgid "Auto profileボタンを押すとオートプロファイルウィンドウが表示されます。"
 msgstr ""
 
-#: ../../012_auto_pickup.md:18
-msgid "![](images/012_auto_profile_window.jpg)"
-msgstr ""
-
-#: ../../012_auto_pickup.md:20
+#: ../../012_auto_pickup.md:26
 msgid "このウィンドウでは、動画から自動的にフレームを選択できます。"
 msgstr ""
 
-#: ../../012_auto_pickup.md:22
+#: ../../012_auto_pickup.md:28
 msgid "ここでは、動画のパスが正しく選択されているかどうか確認し、どのようなフレームをピックアップするかについてオプションを設定してください。"
 msgstr ""
 
-#: ../../012_auto_pickup.md:25
+#: ../../012_auto_pickup.md:31
 msgid "ピックアップの方法について"
 msgstr ""
 
-#: ../../012_auto_pickup.md:26
+#: ../../012_auto_pickup.md:32
 msgid "現在、オートプロファイルには2つのフレーム抽出モードが実装されています。用途に合わせて「General」と「ROM」で切り替え可能です。"
 msgstr ""
 
-#: ../../012_auto_pickup.md:28
+#: ../../012_auto_pickup.md:34
 msgid "**General** は、どのような動画でも使用できるように設計されています。動画内で顔の表情全体が明瞭に映っているフレームを自動的に抽出します。"
 msgstr ""
 
-#: ../../012_auto_pickup.md:30
+#: ../../012_auto_pickup.md:36
 msgid "*General*では、選択した動画へ追加したいプロファイルの数を自由に設定できます。動画全体を分析し、指定した数の表情を自動的にピックアップします。"
 msgstr ""
 
-#: ../../012_auto_pickup.md:34
+#: ../../012_auto_pickup.md:40
 msgid "**ROM**は、スターターキットに同梱されているPDF一覧表（ROM.pdf）に載っている顔の表情と一致する動画のフレームを自動的に抽出します。"
 msgstr ""
 
-#: ../../012_auto_pickup.md:36
+#: ../../012_auto_pickup.md:42
 msgid ""
 "*ROM* "
 "では、動画内で探したいROMの表情をチェックボックスで選択できます。選択した表情を元に、動画内で最も近い表情のフレームをピックアップします。"
 msgstr ""
 
-#: ../../012_auto_pickup.md:38
+#: ../../012_auto_pickup.md:44
 msgid "今後、独自のROMに基づく表情をピックアップできるバージョンをリリース予定です。"
 msgstr ""
+
+#~ msgid "```{image} images/012_auto_profiles.jp"
+#~ msgstr ""
+
+#~ msgid "```{image} images/012_auto_profile_window.jp"
+#~ msgstr ""
 

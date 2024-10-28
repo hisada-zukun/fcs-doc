@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-28 12:23+0900\n"
+"POT-Creation-Date: 2024-10-28 16:14+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -36,150 +36,146 @@ msgid "Schedule"
 msgstr ""
 
 #: ../../014_release_schedule.md:7
-msgid "![](images/fcs_release_timeline.jpg)"
-msgstr ""
-
-#: ../../014_release_schedule.md
 msgid "Major Version"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "Timeframe"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "Support period"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "24.07 LTS"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "2024/07"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "1 year"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "24.10"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "2024/10"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "3 months"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "25.01 Preview"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "2024/12"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "None"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "25.01"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "2025/01"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "25.04 Preview"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "2025/03"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "25.04"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "2025/04"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "25.07 Preview"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "2025/06"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "25.07 LTS"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "2025/07"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "25.10 Preview"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "25.10"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "2025/10"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "26.01 Preview"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "2025/12"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "26.01"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "2026/01"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "26.04 Preview"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "2026/03"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "26.04"
 msgstr ""
 
-#: ../../014_release_schedule.md
+#: ../../014_release_schedule.md:7
 msgid "2026/04"
 msgstr ""
 
-#: ../../014_release_schedule.md:26
+#: ../../014_release_schedule.md:29
 msgid "Upgrading FCS"
 msgstr ""
 
-#: ../../014_release_schedule.md:27
+#: ../../014_release_schedule.md:30
 msgid "Standard vs LTS vs Preview"
 msgstr ""
 
-#: ../../014_release_schedule.md:28
+#: ../../014_release_schedule.md:31
 msgid ""
 "The main difference between standard and LTS version lies in the support "
 "period, 3 months vs 1 year. During support period we will issue critical "
@@ -195,11 +191,11 @@ msgid ""
 "risk."
 msgstr ""
 
-#: ../../014_release_schedule.md:33
+#: ../../014_release_schedule.md:36
 msgid "Compatibility"
 msgstr ""
 
-#: ../../014_release_schedule.md:34
+#: ../../014_release_schedule.md:37
 msgid ""
 "FCS Sessions are forward compatible unless explicit noted otherwise, "
 "however backward compatibility is not always guaranteed especially across"
@@ -214,15 +210,18 @@ msgid ""
 " to ensure that your team use the same minor version of FCS."
 msgstr ""
 
-#: ../../014_release_schedule.md:38
+#: ../../014_release_schedule.md:41
 msgid "Steps to upgrade"
 msgstr ""
 
-#: ../../014_release_schedule.md:39
+#: ../../014_release_schedule.md:42
 msgid "[Export your data](#export-header-target)."
 msgstr ""
 
-#: ../../014_release_schedule.md:40
+#: ../../014_release_schedule.md:43
 msgid "Open the exported data using the newly downloaded version of FCS."
 msgstr ""
+
+#~ msgid "```{image} images/fcs_release_timeline.jp"
+#~ msgstr ""
 

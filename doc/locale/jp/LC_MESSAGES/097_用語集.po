@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-28 12:23+0900\n"
+"POT-Creation-Date: 2024-10-28 16:14+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -106,63 +106,55 @@ msgstr ""
 msgid "Videos(ビデオウィンドウ)"
 msgstr ""
 
-#: ../../097_用語集.md:33
-msgid "![](images/097_Videos.png)"
-msgstr ""
-
-#: ../../097_用語集.md:34
+#: ../../097_用語集.md:37
 msgid "Processor(プロセッサーウィンドウ)"
 msgstr ""
 
-#: ../../097_用語集.md:35
-msgid "![](images/097_Processor.PNG)"
-msgstr ""
-
-#: ../../097_用語集.md:36
+#: ../../097_用語集.md:42
 msgid "Controllers(コントローラーウィンドウ)"
 msgstr ""
 
-#: ../../097_用語集.md:37
-msgid "![](images/097_Controllers.png)"
-msgstr ""
-
-#: ../../097_用語集.md:38
+#: ../../097_用語集.md:47
 msgid "Gallery(ギャラリーウィンドウ)"
 msgstr ""
 
-#: ../../097_用語集.md:39
-msgid "![](images/097_Gallery.PNG)"
-msgstr ""
-
-#: ../../097_用語集.md:40
+#: ../../097_用語集.md:52
 msgid "Editor(エディターウィンドウ)"
 msgstr ""
 
-#: ../../097_用語集.md:41
-msgid "![](images/097_Editor.PNG)"
-msgstr ""
-
-#: ../../097_用語集.md:42
+#: ../../097_用語集.md:57
 msgid "Solver(ソルバーウィンドウ)"
 msgstr ""
 
-#: ../../097_用語集.md:43
-msgid "![](images/097_Solver.png)"
-msgstr ""
-
-#: ../../097_用語集.md:44
+#: ../../097_用語集.md:62
 msgid "Log(ログウィンドウ)"
 msgstr ""
 
-#: ../../097_用語集.md:45
-msgid "![](images/097_Log.png)"
-msgstr ""
-
-#: ../../097_用語集.md:46
+#: ../../097_用語集.md:67
 msgid "TimeLine(タイムラインウィンドウ)"
 msgstr ""
 
-#: ../../097_用語集.md:47
-msgid "![](images/097_TimeLine.png)"
-msgstr ""
+#~ msgid "```{image} images/097_Videos.pn"
+#~ msgstr ""
+
+#~ msgid "```{image} images/097_Processor.PN"
+#~ msgstr ""
+
+#~ msgid "```{image} images/097_Controllers.pn"
+#~ msgstr ""
+
+#~ msgid "```{image} images/097_Gallery.PN"
+#~ msgstr ""
+
+#~ msgid "```{image} images/097_Editor.PN"
+#~ msgstr ""
+
+#~ msgid "```{image} images/097_Solver.pn"
+#~ msgstr ""
+
+#~ msgid "```{image} images/097_Log.pn"
+#~ msgstr ""
+
+#~ msgid "```{image} images/097_TimeLine.pn"
+#~ msgstr ""
 

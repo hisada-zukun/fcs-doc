@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-28 12:23+0900\n"
+"POT-Creation-Date: 2024-10-28 16:14+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -31,52 +31,83 @@ msgid "**インストールの手順**"
 msgstr ""
 
 #: ../../013_install_fcs.md:6
-msgid "インストーラーで使用する言語を設定します。   ![](images/install_01.png)<br><br>"
-msgstr ""
-
-#: ../../013_install_fcs.md:9
-msgid "インストールを開始します。 ![](images/install_02.png)<br><br>"
+msgid "インストーラーで使用する言語を設定します。"
 msgstr ""
 
 #: ../../013_install_fcs.md:12
-msgid "使用許諾契約書に同意します。   ![](images/install_03.png)<br><br>"
+msgid "インストールを開始します。"
 msgstr ""
 
-#: ../../013_install_fcs.md:15
+#: ../../013_install_fcs.md:18
+msgid "使用許諾契約書に同意します。"
+msgstr ""
+
+#: ../../013_install_fcs.md:24
 msgid ""
-"インストール先を指定します。   デフォルトは、C:\\TOEI\\FCS_\"version\"です。   "
-"変更する場合は、パスを記入、または参照から選択してください。   ![](images/install_04.png)<br><br>"
+"インストール先を指定します。    デフォルトは、C:\\TOEI\\FCS_\"version\"です。   "
+"変更する場合は、パスを記入、または参照から選択してください。"
 msgstr ""
 
-#: ../../013_install_fcs.md:20
-msgid ""
-"スタートメニューフォルダを指定します。   デフォルトはFCSです。   変更する場合は、フォルダ名を記入、または参照から選択してください。   "
-"![](images/install_05.png)<br><br>"
+#: ../../013_install_fcs.md:32
+msgid "スタートメニューフォルダを指定します。   デフォルトはFCSです。   変更する場合は、フォルダ名を記入、または参照から選択してください。"
 msgstr ""
 
-#: ../../013_install_fcs.md:25
-msgid "デスクトップアイコンを作成する場合は、チェックを入れてください。 ![](images/install_06.png)<br><br>"
+#: ../../013_install_fcs.md:40
+msgid "デスクトップアイコンを作成する場合は、チェックを入れてください。"
 msgstr ""
 
-#: ../../013_install_fcs.md:28
-msgid "インストールを設定の確認し、問題がなければインストールしてください。   ![](images/install_07.png)<br><br>"
+#: ../../013_install_fcs.md:46
+msgid "インストールを設定の確認し、問題がなければインストールしてください。"
 msgstr ""
 
-#: ../../013_install_fcs.md:31
-msgid "完了後、すぐ起動する場合は、チェックを入れてください。   ![](images/install_08.png)<br><br>"
+#: ../../013_install_fcs.md:52
+msgid "完了後、すぐ起動する場合は、チェックを入れてください。"
 msgstr ""
 
-#: ../../013_install_fcs.md:35
+#: ../../013_install_fcs.md:59
 msgid "**アンインストールの手順**"
 msgstr ""
 
-#: ../../013_install_fcs.md:36
-msgid ""
-"スタートメニューから、uninstall_FCS_\"version\"を実行します。   "
-"![](images/uninstall_01.png)<br><br>"
+#: ../../013_install_fcs.md:60
+msgid "スタートメニューから、uninstall_FCS_\"version\"を実行します。"
 msgstr ""
 
-#: ../../013_install_fcs.md:39
-msgid "問題がなければOKを選択します。   ![](images/uninstall_02.png)<br><br>"
+#: ../../013_install_fcs.md:66
+msgid "問題がなければOKを選択します。"
 msgstr ""
+
+#~ msgid "インストールを開始します。 ```{image} images/install_02.pn"
+#~ msgstr ""
+
+#~ msgid "使用許諾契約書に同意します。   ```{image} images/install_03.pn"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "インストール先を指定します。   デフォルトは、C:\\TOEI\\FCS_\"version\"です。   "
+#~ "変更する場合は、パスを記入、または参照から選択してください。   ```{image} "
+#~ "images/install_04.pn"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "スタートメニューフォルダを指定します。   デフォルトはFCSです。   "
+#~ "変更する場合は、フォルダ名を記入、または参照から選択してください。   ```{image} "
+#~ "images/install_05.pn"
+#~ msgstr ""
+
+#~ msgid "デスクトップアイコンを作成する場合は、チェックを入れてください。 ```{image} images/install_06.pn"
+#~ msgstr ""
+
+#~ msgid "インストールを設定の確認し、問題がなければインストールしてください。   ```{image} images/install_07.pn"
+#~ msgstr ""
+
+#~ msgid "完了後、すぐ起動する場合は、チェックを入れてください。   ```{image} images/install_08.pn"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "スタートメニューから、uninstall_FCS_\"version\"を実行します。   ```{image} "
+#~ "images/uninstall_01.pn"
+#~ msgstr ""
+
+#~ msgid "問題がなければOKを選択します。   ```{image} images/uninstall_02.pn"
+#~ msgstr ""
 

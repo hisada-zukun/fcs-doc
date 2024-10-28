@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-28 12:23+0900\n"
+"POT-Creation-Date: 2024-10-28 16:14+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -53,7 +53,7 @@ msgstr ""
 msgid "**Mayaが必要です。（Maya 2018/2020/2022/2023/2024に対応）**"
 msgstr ""
 
-#: ../../099_よくある質問.md:56 ../../099_よくある質問.md:208
+#: ../../099_よくある質問.md:56 ../../099_よくある質問.md:214
 msgid "<br><br>"
 msgstr ""
 
@@ -124,66 +124,73 @@ msgid "**できれば明るい場所で撮影してください。また、ア�
 msgstr ""
 
 #: ../../099_よくある質問.md:189
-msgid ""
-"**FCSの File▶Setting にて各種項目を変更できます。   変更した内容は、再起動後に反映されるため、再起動が必要です。** "
-"![](images/Set001.png)"
-msgstr ""
-
-#: ../../099_よくある質問.md:199
-msgid "**FCSの View▶Layout にて登録時のレイアウト情報を保存できます。**"
-msgstr ""
-
-#: ../../099_よくある質問.md:201
-msgid "View▶Layout▶Save current　で　「Layout Registration」ウィンドウを起動<br>"
+msgid "**FCSの File&rarr;Setting にて各種項目を変更できます。   変更した内容は、再起動後に反映されるため、再起動が必要です。**"
 msgstr ""
 
 #: ../../099_よくある質問.md:202
+msgid "**FCSの View&rarr;Layout にて登録時のレイアウト情報を保存できます。**"
+msgstr ""
+
+#: ../../099_よくある質問.md:204
+msgid "View&rarr;Layout&rarr;Save current　で　「Layout Registration」ウィンドウを起動<br>"
+msgstr ""
+
+#: ../../099_よくある質問.md:205
 msgid "「Layout Name」を入力し<br>"
 msgstr ""
 
-#: ../../099_よくある質問.md:203
-msgid "Save<br> で登録することができます ![](images/Layout_02_Open-Save.png)"
+#: ../../099_よくある質問.md:206
+msgid "Save<br> で登録することができます"
 msgstr ""
 
-#: ../../099_よくある質問.md:210
+#: ../../099_よくある質問.md:216
 msgid "ライセンスについて"
 msgstr ""
 
-#: ../../099_よくある質問.md:215
+#: ../../099_よくある質問.md:221
 msgid "**できません。ただし、同時に起動しなければ複数台のPCで作業可能です。**"
 msgstr ""
 
-#: ../../099_よくある質問.md:223
+#: ../../099_よくある質問.md:229
 msgid "**年間サブスクリプションは40万円（税抜き）です。2024年12月末までに購入される方には、1ライセンスにつきもう1ライセンスが無償で付与されます。**"
 msgstr ""
 
-#: ../../099_よくある質問.md:231
+#: ../../099_よくある質問.md:237
 msgid "**購入後、自動的に契約更新は行われません。サブスクリプション終了1ヵ月前にFCSソフト内でポップアップが表示され、更新を希望する場合は弊社担当者にご連絡いただく必要があります。**"
 msgstr ""
 
-#: ../../099_よくある質問.md:239
+#: ../../099_よくある質問.md:245
 msgid "**特別な操作は必要ありません。サブスクリプション終了期間までは使用できますが、終了後は使用できなくなります。**"
 msgstr ""
 
-#: ../../099_よくある質問.md:247
+#: ../../099_よくある質問.md:253
 msgid "**年間でのサブスクリプション契約のため、途中解約での返金はありません。**"
 msgstr ""
 
-#: ../../099_よくある質問.md:255
+#: ../../099_よくある質問.md:261
 msgid ""
 "**トライアルは30日間お試しいただけます。   "
 "詳細は[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。**"
 msgstr ""
 
-#: ../../099_よくある質問.md:264
+#: ../../099_よくある質問.md:270
 msgid ""
 "**トライアル版から製品版への移行には別途購入手続きが必要です。   "
 "詳細は[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。**"
 msgstr ""
 
-#: ../../099_よくある質問.md:273
+#: ../../099_よくある質問.md:279
 msgid ""
 "**ライセンス情報をチェックするサーバーに問題が生じている状況です。   "
 "サーバー側での対応が必要ですので、[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からご連絡ください。**"
 msgstr ""
+
+#~ msgid ""
+#~ "**FCSの File&rarr;Setting にて各種項目を変更できます。   "
+#~ "変更した内容は、再起動後に反映されるため、再起動が必要です。** ```{image} "
+#~ "images/Set001.pn"
+#~ msgstr ""
+
+#~ msgid "Save<br> で登録することができます ```{image} images/Layout_02_Open-Save.pn"
+#~ msgstr ""
 
