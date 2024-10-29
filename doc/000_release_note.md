@@ -1,4 +1,15 @@
 # Release Note
+## FCS 24.10.07
+- Date: 2024/10/29
+- Version: 24.10.07
+- Stage: Stable
+
+### Overview
+1. Fixed program crashes when trying to display LM
+2. Fixed session info profile count shows incorrect value
+3. Fixed an error where the Maya image plane is named incorrectly 
+4. Added a feature to clear all caches when opening session in a different version 
+
 ## FCS 24.10.06
 - Date: 2024/10/16
 - Version: 24.10.06
