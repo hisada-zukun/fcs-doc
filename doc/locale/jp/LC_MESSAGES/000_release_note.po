@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-28 16:14+0900\n"
+"POT-Creation-Date: 2024-11-01 12:44+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -23,52 +23,122 @@ msgid "Release Note"
 msgstr "リリースノート"
 
 #: ../../000_release_note.md:2
-msgid "FCS 24.10.06"
-msgstr ""
+#, fuzzy
+msgid "FCS 24.10.08"
+msgstr "バージョン: 24.10.06"
 
 #: ../../000_release_note.md:3
-msgid "Date: 2024/10/16"
+#, fuzzy
+msgid "Date: 2024/10/30"
 msgstr "日付: 2024/10/16"
 
 #: ../../000_release_note.md:4
-msgid "Version: 24.10.06"
+#, fuzzy
+msgid "Version: 24.10.08"
 msgstr "バージョン: 24.10.06"
 
-#: ../../000_release_note.md:5 ../../000_release_note.md:23
-#: ../../000_release_note.md:34 ../../000_release_note.md:42
+#: ../../000_release_note.md:5 ../../000_release_note.md:17
+#: ../../000_release_note.md:28 ../../000_release_note.md:46
+#: ../../000_release_note.md:57 ../../000_release_note.md:65
 msgid "Stage: Stable"
 msgstr "ステージ：Stable"
 
-#: ../../000_release_note.md:7
+#: ../../000_release_note.md:7 ../../000_release_note.md:19
+#: ../../000_release_note.md:34 ../../000_release_note.md:48
+#: ../../000_release_note.md:59 ../../000_release_note.md:67
+#: ../../000_release_note.md:92 ../../000_release_note.md:131
+msgid "Overview"
+msgstr "概要"
+
+#: ../../000_release_note.md:8
+msgid "Fixed Maya imagePlane is setup incorrectly"
+msgstr ""
+
+#: ../../000_release_note.md:9
+msgid ""
+"Changed default imagePlane and camera name to imagePlane and fcs_cam "
+"respectively"
+msgstr ""
+
+#: ../../000_release_note.md:10
+msgid ""
+"Fixed an error which prevent switching to the newly created Actor and "
+"character when creating new session"
+msgstr ""
+
+#: ../../000_release_note.md:11
+msgid "Fixed prediction result not being sent to Maya even when To maya is ON."
+msgstr ""
+
+#: ../../000_release_note.md:14
+#, fuzzy
+msgid "FCS 24.10.07"
+msgstr "バージョン: 24.10.06"
+
+#: ../../000_release_note.md:15
+#, fuzzy
+msgid "Date: 2024/10/29"
+msgstr "日付: 2024/10/16"
+
+#: ../../000_release_note.md:16
+#, fuzzy
+msgid "Version: 24.10.07"
+msgstr "バージョン: 24.10.06"
+
+#: ../../000_release_note.md:20
+msgid "Fixed program crashes when trying to display LM"
+msgstr ""
+
+#: ../../000_release_note.md:21
+msgid "Fixed session info profile count shows incorrect value"
+msgstr ""
+
+#: ../../000_release_note.md:22
+msgid "Fixed an error where the Maya image plane is named incorrectly"
+msgstr ""
+
+#: ../../000_release_note.md:23
+msgid ""
+"Added a feature to clear all caches when opening session in a different "
+"version"
+msgstr ""
+
+#: ../../000_release_note.md:25
+msgid "FCS 24.10.06"
+msgstr ""
+
+#: ../../000_release_note.md:26
+msgid "Date: 2024/10/16"
+msgstr "日付: 2024/10/16"
+
+#: ../../000_release_note.md:27
+msgid "Version: 24.10.06"
+msgstr "バージョン: 24.10.06"
+
+#: ../../000_release_note.md:30
 msgid "!Cannot be downgraded!"
 msgstr "！ダウングレードできません！"
 
-#: ../../000_release_note.md:8
+#: ../../000_release_note.md:31
 msgid ""
 "** Once opened in this version, your FCS session will not be abled to "
 "downgraded to a previous version of FCS, including FCS 24.10.05. ** We "
 "strongly recommend you to backup your files before using the update."
 msgstr "**このバージョンで作成または開いたセッションを24.10.05を含む、以前のバージョンを開くことができません"
 
-#: ../../000_release_note.md:11 ../../000_release_note.md:25
-#: ../../000_release_note.md:36 ../../000_release_note.md:44
-#: ../../000_release_note.md:69 ../../000_release_note.md:108
-msgid "Overview"
-msgstr "概要"
-
-#: ../../000_release_note.md:12 ../../000_release_note.md:16
+#: ../../000_release_note.md:35 ../../000_release_note.md:39
 msgid "Fixed animation timeline off by 1 frame"
 msgstr "動画表示が１フレームずれていることを修正しました"
 
-#: ../../000_release_note.md:13
+#: ../../000_release_note.md:36
 msgid "Optimized launch spped"
 msgstr "ソフト起動時の最適化"
 
-#: ../../000_release_note.md:14
+#: ../../000_release_note.md:37
 msgid "Improved logging"
 msgstr "ログ方式の改善"
 
-#: ../../000_release_note.md:17
+#: ../../000_release_note.md:40
 msgid ""
 "Fixed a bug where the first frame of a video is used twice (i.e., the "
 "99th frame is presented as the 100th frame). All previously created "
@@ -79,248 +149,248 @@ msgid ""
 "downgrade to use the previous version."
 msgstr "Video/Playerの０フレームが重複して出力されていたことを修正いたしました。 （１００フレーム目が９９フレーム目として表示されていました"
 
-#: ../../000_release_note.md:20
+#: ../../000_release_note.md:43
 msgid "FCS 24.10.05"
 msgstr ""
 
-#: ../../000_release_note.md:21
+#: ../../000_release_note.md:44
 msgid "Date: 2024/10/11"
 msgstr "日付: 2024/10/11"
 
-#: ../../000_release_note.md:22
+#: ../../000_release_note.md:45
 msgid "Version: 24.10.05"
 msgstr "バージョン: 24.10.05"
 
-#: ../../000_release_note.md:26
+#: ../../000_release_note.md:49
 msgid "Fixed a bug where video is not cached when opened for viewing"
 msgstr "動画開く際に、キャッシュされるはずのデータがキャッシュされていないことを修正しました"
 
-#: ../../000_release_note.md:27
+#: ../../000_release_note.md:50
 msgid ""
 "Fixed a bug where the auto profile assigns the wrong name to the profile "
 "in ROM mode"
 msgstr "Auto　Profileのプロファイルの出力番号がずれていることを修正"
 
-#: ../../000_release_note.md:28
+#: ../../000_release_note.md:51
 msgid "Added a new feature for exported solver for real-time use"
 msgstr "リアルタイムアプリへの出力するソルバーの形式を修正"
 
-#: ../../000_release_note.md:29
+#: ../../000_release_note.md:52
 msgid "Added a warning sign for invalid controller info."
 msgstr "コントローラーの可動域が正しくない場合、エラーが表示されるように修正"
 
-#: ../../000_release_note.md:31
+#: ../../000_release_note.md:54
 msgid "FCS 24.10.04"
 msgstr ""
 
-#: ../../000_release_note.md:32
+#: ../../000_release_note.md:55
 msgid "Date: 2024/10/07"
 msgstr ""
 
-#: ../../000_release_note.md:33
+#: ../../000_release_note.md:56
 msgid "Version: 24.10.04"
 msgstr ""
 
-#: ../../000_release_note.md:37
+#: ../../000_release_note.md:60
 msgid ""
 "Fixed a bug where landmark frame output crashes the application under "
 "specific circumstances."
 msgstr "特定の場合において、ランドマーク画像の出力時にアプリケーションがクラッシュするバグを修正しました。"
 
-#: ../../000_release_note.md:39
+#: ../../000_release_note.md:62
 msgid "FCS 24.10.03"
 msgstr ""
 
-#: ../../000_release_note.md:40
+#: ../../000_release_note.md:63
 msgid "Date: 2024/09/25"
 msgstr ""
 
-#: ../../000_release_note.md:41
+#: ../../000_release_note.md:64
 msgid "Version: 24.10.03"
 msgstr ""
 
-#: ../../000_release_note.md:45 ../../000_release_note.md:50
+#: ../../000_release_note.md:68 ../../000_release_note.md:73
 msgid "Fixed gallery issues"
 msgstr "Gallery機能修正"
 
-#: ../../000_release_note.md:46 ../../000_release_note.md:54
+#: ../../000_release_note.md:69 ../../000_release_note.md:77
 msgid "Fixed installer issues"
 msgstr "インストーラ修正"
 
-#: ../../000_release_note.md:47 ../../000_release_note.md:161
+#: ../../000_release_note.md:70 ../../000_release_note.md:184
 msgid "Misc."
 msgstr "その他修正"
 
-#: ../../000_release_note.md:49 ../../000_release_note.md:78
-#: ../../000_release_note.md:121
+#: ../../000_release_note.md:72 ../../000_release_note.md:101
+#: ../../000_release_note.md:144
 msgid "Detail"
 msgstr "詳細"
 
-#: ../../000_release_note.md:51
+#: ../../000_release_note.md:74
 msgid "Fixed an issue where reset on FCS UI doesn't get send to Maya"
 msgstr "Syncにチェックが入っている状態でResetボタンを押すとMayaにも反映されるようになりました"
 
-#: ../../000_release_note.md:52
+#: ../../000_release_note.md:75
 msgid "Fixed a bug where disabled regions' values are still sent to Maya"
 msgstr "Editorにて、To Mayaなどの際にDisabledになっているリージョンの値は送信しないようになりました"
 
-#: ../../000_release_note.md:55
+#: ../../000_release_note.md:78
 msgid "Changed the default install path to C drive"
 msgstr "デフォルトのインストール先をCドライブに変更しました"
 
-#: ../../000_release_note.md:56
+#: ../../000_release_note.md:79
 msgid "Updated the installer icon"
 msgstr "インストーラのアイコンを変更しました"
 
-#: ../../000_release_note.md:57
+#: ../../000_release_note.md:80
 msgid "Added Japanese support"
 msgstr "インストーラが日本語・英語両方に対応しました"
 
-#: ../../000_release_note.md:59
+#: ../../000_release_note.md:82
 msgid "Misc"
 msgstr "その他"
 
-#: ../../000_release_note.md:60
+#: ../../000_release_note.md:83
 msgid "Fixed a bug where controller rename triggers app crashes"
 msgstr "コントローラーをリネームする際にアプリが落ちてしまう問題を修正しました"
 
-#: ../../000_release_note.md:61
+#: ../../000_release_note.md:84
 msgid "Fixed a bug where smoothing is not applied （Fixed in 24.10.01）"
 msgstr "スムージングが適用されていない問題を修正しました（24.10.01にて修正済み）"
 
-#: ../../000_release_note.md:62
+#: ../../000_release_note.md:85
 msgid "Fixed Prioritize Profile"
 msgstr "Prioritize Profileの動作を修正しました  "
 
-#: ../../000_release_note.md:64
+#: ../../000_release_note.md:87
 msgid "FCS 24.10.02"
 msgstr ""
 
-#: ../../000_release_note.md:65
+#: ../../000_release_note.md:88
 msgid "Date: 2024/09/09"
 msgstr ""
 
-#: ../../000_release_note.md:66
+#: ../../000_release_note.md:89
 msgid "Version: 24.10.02"
 msgstr ""
 
-#: ../../000_release_note.md:67 ../../000_release_note.md:106
+#: ../../000_release_note.md:90 ../../000_release_note.md:129
 msgid "Stage: Beta"
 msgstr ""
 
-#: ../../000_release_note.md:70 ../../000_release_note.md:79
+#: ../../000_release_note.md:93 ../../000_release_note.md:102
 msgid "Improved filtering feature in Gallery, allowing batch edit/delete"
 msgstr "Galleryのフィルタリング機能強化（プロフィールの一括変更や削除ができるようになりました）"
 
-#: ../../000_release_note.md:71
+#: ../../000_release_note.md:94
 msgid ""
 "Fixed a bug where editor landmark preview is turned off when opening a "
 "new profile."
 msgstr "EditorのLMの表示がONの場合、別のプロフィールを開いてもONの状態のままにしました（計算済みの場合のみ）  "
 
-#: ../../000_release_note.md:72 ../../000_release_note.md:82
+#: ../../000_release_note.md:95 ../../000_release_note.md:105
 msgid "Fixed a bug where the cursor position does not exactly move to"
 msgstr "Editorのコントローラー値を変更する箇所の表示方式を変更しました"
 
-#: ../../000_release_note.md:73
+#: ../../000_release_note.md:96
 msgid "Optimized gallery render speed"
 msgstr "Galleryの表示方式を改善しました"
 
-#: ../../000_release_note.md:74
+#: ../../000_release_note.md:97
 msgid "Added Prioritize Profile"
 msgstr "プロフィール優先機能(Prioritize Profile)を追加しました"
 
-#: ../../000_release_note.md:75
+#: ../../000_release_note.md:98
 msgid "Added a feature to batch rename all controllers"
 msgstr "コントローラーの名前を一括変更する機能を追加しました"
 
-#: ../../000_release_note.md:76 ../../000_release_note.md:94
+#: ../../000_release_note.md:99 ../../000_release_note.md:117
 msgid "Improved video playback speed"
 msgstr "ビデオ再生の速度を向上させました"
 
-#: ../../000_release_note.md:80
+#: ../../000_release_note.md:103
 msgid "Add filtering by region, video name etc."
 msgstr "動画名、各Regionの状態などでフィルタリングする機能、一括リージョンON/OFF・一括削除などの機能を追加しました"
 
-#: ../../000_release_note.md:83
+#: ../../000_release_note.md:106
 msgid "Ctrl + Left mouse button click to enter value directly"
 msgstr "Ctrl＋クリックで数値を入力"
 
-#: ../../000_release_note.md:84
+#: ../../000_release_note.md:107
 msgid "Cursor position will translate to the value of the slider"
 msgstr "カーソルに合わせて数値が設定されるようになりました"
 
-#: ../../000_release_note.md:86
+#: ../../000_release_note.md:109
 msgid "Prioritize Profile"
 msgstr "プロフィール優先機能"
 
-#: ../../000_release_note.md:87
+#: ../../000_release_note.md:110
 msgid "Added a feature to match the output animation with the defined profiles."
 msgstr "FCSから出力されたアニメーションに関して、プロファイルが存在するフレームにおいて表情を厳密に一致させる機能を追加しました"
 
-#: ../../000_release_note.md:88
+#: ../../000_release_note.md:111
 msgid "Enabled by checking Solver/Post-processing/Prioritize Profile"
 msgstr "有効化するにはSolver/Post-processing/Prioritize ProfileをONにしてください"
 
-#: ../../000_release_note.md:90
+#: ../../000_release_note.md:113
 msgid "Batch rename controller"
 msgstr "コントローラーの名前を一括変更"
 
-#: ../../000_release_note.md:91
+#: ../../000_release_note.md:114
 msgid ""
 "Select controllers in Controller Info to rename, useful for adding "
 "prefix/suffix etc."
 msgstr "Controller Infoでコントローラーを選択し、Renameを押すと、コントローラーのリネームができるようになりました"
 
-#: ../../000_release_note.md:92
+#: ../../000_release_note.md:115
 msgid "The change will propagate to the profiles previously created."
 msgstr "名前の変更に伴い、Galleryで登録された情報も変更されます"
 
-#: ../../000_release_note.md:95
+#: ../../000_release_note.md:118
 msgid ""
 "Added a feature to use RAM to speed up video playback, mostly useful for "
 "legacy computers."
 msgstr "動画をメモリーにコピーすることにより、HDDなどのストレージ媒体より早く再生できるようになります"
 
-#: ../../000_release_note.md:96
+#: ../../000_release_note.md:119
 msgid "Default to enabled."
 msgstr "デフォルトで有効になります"
 
-#: ../../000_release_note.md:97
+#: ../../000_release_note.md:120
 msgid "You can store a maximum of 5 videos to your memory if it allows."
 msgstr "メモリーに余裕があれば開いた動画（5本まで）をメモリーに保存することができます、複数の動画を同時に編集してもメモリーにキャッシュするようになります"
 
-#: ../../000_release_note.md:99
+#: ../../000_release_note.md:122
 msgid "Added a solver export feature for real time use"
 msgstr "リアルタイム版への出力機能を追加しました"
 
-#: ../../000_release_note.md:100
+#: ../../000_release_note.md:123
 msgid "Export a solver file using Solver/Export."
 msgstr "Solver/ExportでFCSで作成されたソルバーが出力されます"
 
-#: ../../000_release_note.md:101
+#: ../../000_release_note.md:124
 msgid ""
 "Import the file into the real time application (WIP) for view your "
 "character moving in real-time"
 msgstr "リアルタイムサーバ（準備中）に読み込むとFCSでオフライン出力に近いクオリティーのアニメーションがリアルタイムで出力できるようになります  "
 
-#: ../../000_release_note.md:103
+#: ../../000_release_note.md:126
 msgid "FCS 24.10.01"
 msgstr ""
 
-#: ../../000_release_note.md:104
+#: ../../000_release_note.md:127
 msgid "Date: 2024/08/29"
 msgstr ""
 
-#: ../../000_release_note.md:105
+#: ../../000_release_note.md:128
 msgid "Version: 24.10.01"
 msgstr ""
 
-#: ../../000_release_note.md:109
+#: ../../000_release_note.md:132
 msgid "Added a language and version switcher for the manual (left bottom)"
 msgstr "24.07, 24.10など、バージョンごとのマニュアルが確認できるようになりました"
 
-#: ../../000_release_note.md:110
+#: ../../000_release_note.md:133
 msgid ""
 "[English manual](https://zukunfcs.github.io/fcs-doc/24.10/en/index.html) "
 "(draft) now available"
@@ -328,19 +398,19 @@ msgstr ""
 "[English manual](https://zukunfcs.github.io/fcs-doc/24.10/en/index.html) "
 "(下書き)が追加されました "
 
-#: ../../000_release_note.md:111
+#: ../../000_release_note.md:134
 msgid "Added experimental linux support"
 msgstr "実験的にLinux対応を始めました"
 
-#: ../../000_release_note.md:112
+#: ../../000_release_note.md:135
 msgid "Added an installer for FCS"
 msgstr "インストーラーからインストールができるようになりました"
 
-#: ../../000_release_note.md:113
+#: ../../000_release_note.md:136
 msgid "Added a feature to download ffmpeg if it doesn't exist on the user system."
 msgstr "ffmpegがシステムにインストールされていない場合、自動的にダウンロードできるようになりました"
 
-#: ../../000_release_note.md:114
+#: ../../000_release_note.md:137
 msgid ""
 "[Added a feature to automatically generate profile from "
 "video](https://zukunfcs.github.io/fcs-doc/latest/en/012_auto_pickup.html)"
@@ -348,40 +418,40 @@ msgstr ""
 "[動画から特定のフレームを自動的にGalleryに追加する機能を実装しました。](https://zukunfcs.github.io/fcs-"
 "doc/latest/en/012_auto_pickup.html"
 
-#: ../../000_release_note.md:115
+#: ../../000_release_note.md:138
 msgid "Added UI elements and download for the new version."
 msgstr "新しいバージョンが発行された際に、FCSのUIから更新内容の表示およびダウンロードができるようになりました"
 
-#: ../../000_release_note.md:117
+#: ../../000_release_note.md:140
 msgid "Info for upgrading from a previous version"
 msgstr "アップデート注意"
 
-#: ../../000_release_note.md:118
+#: ../../000_release_note.md:141
 msgid "You can safely open your session from 24.07."
 msgstr "24.07から： 特になし"
 
-#: ../../000_release_note.md:123
+#: ../../000_release_note.md:146
 msgid "Installer"
 msgstr "インストーラー"
 
-#: ../../000_release_note.md:124
+#: ../../000_release_note.md:147
 msgid ""
 "Changed build method to Themida. Using virtual machine and debugger "
 "together with FCS is unsupported. If you need to allow these for specific"
 " reason please contact us."
 msgstr "ビルド方式をThemidaに変更しました。その際に、バーチャルマシン（VM）やデバッガーとの共同使用が対象外になりました。環境によって利用できなくなった方はご連絡ください。"
 
-#: ../../000_release_note.md:125
+#: ../../000_release_note.md:148
 msgid ""
 "Added installer, default installation path is C:\\FCS. Please ensure the "
 "program has write access to the folder."
 msgstr "インストーラーを追加しました。デフォルトではC:\\FCSで作成されるようになります。インストール先フォルダの書き込み権限が必要になりますので、書き込み権限のないフォルダに入れると問題が発生します。"
 
-#: ../../000_release_note.md:127
+#: ../../000_release_note.md:150
 msgid "FFMPEG"
 msgstr ""
 
-#: ../../000_release_note.md:128
+#: ../../000_release_note.md:151
 msgid ""
 "Pull ffmpeg directly from [github](https://github.com/BtbN/FFmpeg-"
 "Builds/) if it doesn't exist in the user system."
@@ -389,113 +459,113 @@ msgstr ""
 "起動時に、ffmpegがシステムパスに存在しないとき、自動的に[github](https://github.com/BtbN/FFmpeg-"
 "Builds/)からダウンロードするようになっています。"
 
-#: ../../000_release_note.md:129
+#: ../../000_release_note.md:152
 msgid ""
 "If you cannot connect to github please directly install ffmpeg and add it"
 " to path."
 msgstr "Githubへの接続ができないお客様は手動でffmpegをインストールし、pathに追加するようにお願いいたします。"
 
-#: ../../000_release_note.md:131
+#: ../../000_release_note.md:154
 msgid "UI"
 msgstr ""
 
-#: ../../000_release_note.md:132
+#: ../../000_release_note.md:155
 msgid "You can now open and view a video using double click"
 msgstr "ビデオ名をダブルクリックで開けるようになりました  "
 
-#: ../../000_release_note.md:133
+#: ../../000_release_note.md:156
 msgid "Fixed a bug where the layout is not retained"
 msgstr "プログラム終了時のタブのレイアウトが保存されるようになりました  "
 
-#: ../../000_release_note.md:134
+#: ../../000_release_note.md:157
 msgid "Fixed the initial layout of FCS when first launch in a new computer"
 msgstr "FCS初回起動時のタブのレイアウトを整理しました  "
 
-#: ../../000_release_note.md:135
+#: ../../000_release_note.md:158
 msgid "Added timeline drag"
 msgstr "タイムラインをドラッグする際に、範囲からカーソルをずらしても動くようになりました  "
 
-#: ../../000_release_note.md:136
+#: ../../000_release_note.md:159
 msgid ""
 "Added a feature to retain user interface states so it persist between "
 "program launches."
 msgstr "一部のUIから選択できる項目がプログラムを終了しても保存されるようになりました"
 
-#: ../../000_release_note.md:137
+#: ../../000_release_note.md:160
 msgid "Updated japanese translations"
 msgstr "UIの日本語訳を更新しました"
 
-#: ../../000_release_note.md:138
+#: ../../000_release_note.md:161
 msgid "Added support for modifier keys"
 msgstr "キーボードショートカットを修飾キーに対応させました"
 
-#: ../../000_release_note.md:139
+#: ../../000_release_note.md:162
 msgid "Added support for shortcut keys"
 msgstr "一部の機能にキーボードショートカットを対応させました　　"
 
-#: ../../000_release_note.md:140
+#: ../../000_release_note.md:163
 msgid "Save profile"
 msgstr "Profile保存"
 
-#: ../../000_release_note.md:141
+#: ../../000_release_note.md:164
 msgid "Open Profile from video"
 msgstr "Profileから動画を開く"
 
-#: ../../000_release_note.md:142
+#: ../../000_release_note.md:165
 msgid "Send value from Editor to Maya (To Maya)"
 msgstr "Editorの値をMayaへ送信 (To Maya) "
 
-#: ../../000_release_note.md:143
+#: ../../000_release_note.md:166
 msgid "Receive controller value from Maya (From Maya)"
 msgstr "Mayaからリグの値を受信 (From Maya)"
 
-#: ../../000_release_note.md:144
+#: ../../000_release_note.md:167
 msgid "Change layout"
 msgstr "レイアウトの変更 "
 
-#: ../../000_release_note.md:145
+#: ../../000_release_note.md:168
 msgid "Renamed Enforce Annotation to Prioritize Profile"
 msgstr "Enforce AnnotationをPrioritize Profileへ名称変更しました"
 
-#: ../../000_release_note.md:147
+#: ../../000_release_note.md:170
 msgid "Maya"
 msgstr ""
 
-#: ../../000_release_note.md:148
+#: ../../000_release_note.md:171
 msgid "Disabled region values are not sent from FCS to maya"
 msgstr "FCSからmayaへ送信する際に、Disabledされたリージョンを送信しなくなりました "
 
-#: ../../000_release_note.md:150
+#: ../../000_release_note.md:173
 msgid "Updater"
 msgstr "自動更新"
 
-#: ../../000_release_note.md:151
+#: ../../000_release_note.md:174
 msgid "Added a new feature to check for new updates"
 msgstr "プログラム起動時に、新しいアップデータを検出するようになりました"
 
-#: ../../000_release_note.md:152
+#: ../../000_release_note.md:175
 msgid "Update settings are as follow"
 msgstr "アップデートに関しては以下の設定がSettingsウィンドウから変更できます"
 
-#: ../../000_release_note.md:153
+#: ../../000_release_note.md:176
 msgid ""
 "Update channel: All | Patch | None   Decide what kind of updates are "
 "checked for."
 msgstr "すべてをアップデートする、もしくはバグ修正（保守アップデート）のみ、またはアップデートしないことが選択できます"
 
-#: ../../000_release_note.md:155
+#: ../../000_release_note.md:178
 msgid "Use Beta Use the unstable build."
 msgstr "Use Beta 安定しない機能を含めたベータ版の利用ができるようになります"
 
-#: ../../000_release_note.md:158
+#: ../../000_release_note.md:181
 msgid "Linux Support"
 msgstr "Linuxサポート"
 
-#: ../../000_release_note.md:159
+#: ../../000_release_note.md:182
 msgid "FCS supports Fedora 8 now, please contact us if you are interested."
 msgstr "FCSがFedora 8に対応しました。ご興味のある方はご連絡ください。"
 
-#: ../../000_release_note.md:162
+#: ../../000_release_note.md:185
 msgid ""
 "Program data location is changed from `$USER/.fcs/Cortado` to "
 "`$USER/.fcs/Cortado/$version`."

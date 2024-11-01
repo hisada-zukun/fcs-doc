@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-28 16:14+0900\n"
+"POT-Creation-Date: 2024-11-01 12:44+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -38,277 +38,260 @@ msgstr ""
 msgid "また、コントローラーリグの登録時にRegionの最大値最小値も登録できます。"
 msgstr ""
 
-#: ../../007_Controlinfo.md:17
+#: ../../007_Controlinfo.md:14
+msgid "Window&rarr;ControllerでConrollerウィンドウが起動します。"
+msgstr ""
+
+#: ../../007_Controlinfo.md:19
 msgid "最大値最小値は自動で入力されますが、値があまりにも大きすぎる場合は調整を行って下さい。"
 msgstr ""
 
-#: ../../007_Controlinfo.md:20
+#: ../../007_Controlinfo.md:22
 msgid "数値ではない(True/False)アトリビュートがあると正常に動作しないため、登録から除外してください。"
 msgstr ""
 
-#: ../../007_Controlinfo.md:28
+#: ../../007_Controlinfo.md:30
 msgid "一覧   all▼：all/Upper/Eyelid/Gaze/Lower/null　指定した項目（部位の区分）を絞り込んで表示"
 msgstr ""
 
-#: ../../007_Controlinfo.md:31
+#: ../../007_Controlinfo.md:33
 msgid "Maya"
 msgstr ""
 
-#: ../../007_Controlinfo.md:32
+#: ../../007_Controlinfo.md:34
 msgid "Add selected：選択したコントローラーを登録"
 msgstr ""
 
-#: ../../007_Controlinfo.md:33
+#: ../../007_Controlinfo.md:35
 msgid "Sync：☑ 数値操作をMayaと連動する"
 msgstr ""
 
-#: ../../007_Controlinfo.md:35
+#: ../../007_Controlinfo.md:37
 msgid "Selected"
 msgstr ""
 
-#: ../../007_Controlinfo.md:36
+#: ../../007_Controlinfo.md:38
 msgid "Upper/Eyelid/Gaze/Lower：Region　部位の区分ごとにコントローラーを登録"
 msgstr ""
 
-#: ../../007_Controlinfo.md:37
+#: ../../007_Controlinfo.md:39
 msgid "Remove：☑ を入れたコントローラーを削除する"
 msgstr ""
 
-#: ../../007_Controlinfo.md:38
+#: ../../007_Controlinfo.md:40
 msgid "select All/Unselect All：controller上に表示されているコントローラーすべてに ☑ / ☑ 解除"
 msgstr ""
 
-#: ../../007_Controlinfo.md:40
+#: ../../007_Controlinfo.md:42
 msgid "▼Advanced"
 msgstr ""
 
-#: ../../007_Controlinfo.md:41
+#: ../../007_Controlinfo.md:43
 msgid "Remove empty：Regionが登録されていないコントローラー(null)を削除する"
 msgstr ""
 
-#: ../../007_Controlinfo.md:42
+#: ../../007_Controlinfo.md:44
 msgid "Delete all：追加 - 登録したコントローラー情報をすべて削除する"
 msgstr ""
 
-#: ../../007_Controlinfo.md:43
+#: ../../007_Controlinfo.md:45
 msgid "Reset：Saveされているデータの状態に戻す"
 msgstr ""
 
-#: ../../007_Controlinfo.md:45
+#: ../../007_Controlinfo.md:47
 msgid "save：controller Infoを登録。"
 msgstr ""
 
-#: ../../007_Controlinfo.md:47
+#: ../../007_Controlinfo.md:49
 msgid "Controllerの登録"
 msgstr ""
 
-#: ../../007_Controlinfo.md:49
+#: ../../007_Controlinfo.md:51
 msgid "Upperの登録方法"
 msgstr ""
 
-#: ../../007_Controlinfo.md:51
+#: ../../007_Controlinfo.md:57
 msgid "MayaでUpperに登録したいコントローラーを選択"
 msgstr ""
 
-#: ../../007_Controlinfo.md:57 ../../007_Controlinfo.md:88
-msgid "FCSに戻り"
-msgstr ""
-
-#: ../../007_Controlinfo.md:58 ../../007_Controlinfo.md:184
+#: ../../007_Controlinfo.md:64 ../../007_Controlinfo.md:204
 msgid "Add selected"
 msgstr ""
 
-#: ../../007_Controlinfo.md:64
+#: ../../007_Controlinfo.md:67
 msgid "Mayaで選択したコントローラーが「Controller」に表示されるので"
 msgstr ""
 
-#: ../../007_Controlinfo.md:65
-msgid "select All（=全選択）でUpperに登録したいコントローラーを選択   ※null＝Regionが未指定"
+#: ../../007_Controlinfo.md:73
+msgid "select All（=全選択）でUpperに登録したいコントローラーを選択    ※null＝Regionが未指定"
 msgstr ""
 
-#: ../../007_Controlinfo.md:72
+#: ../../007_Controlinfo.md:77
 msgid "今回はUpperに登録したいので"
 msgstr ""
 
-#: ../../007_Controlinfo.md:73
+#: ../../007_Controlinfo.md:82
 msgid "Upperを選択   RegionにUpperと表示されたら登録できます。"
 msgstr ""
 
-#: ../../007_Controlinfo.md:80
+#: ../../007_Controlinfo.md:86
 msgid "Eyelidの登録方法"
 msgstr ""
 
-#: ../../007_Controlinfo.md:82
+#: ../../007_Controlinfo.md:92
 msgid "MayaでEyelidに登録したいコントローラーを選択"
 msgstr ""
 
-#: ../../007_Controlinfo.md:89
+#: ../../007_Controlinfo.md:99
 msgid "Add selected   Upperの下にAdd selectedで追加したコントローラーが表示されます。"
 msgstr ""
 
-#: ../../007_Controlinfo.md:96
+#: ../../007_Controlinfo.md:107
 msgid "右上のall▼のタブを選択し、null▼に変更する   Upperに登録したものを非表示にし、未登録のコントローラーのみ表示させることができます。"
 msgstr ""
 
-#: ../../007_Controlinfo.md:104
+#: ../../007_Controlinfo.md:112
 msgid ""
 "allのままだとUpperも表示されているため、select AllするとUpperも選択されてしまいます。   "
 "間違って全選択してしまった場合はUnselect Allで選択解除が可能です。"
 msgstr ""
 
-#: ../../007_Controlinfo.md:108
-msgid "nullにすることで登録されていない項目が絞り込まれるのでUpperと同様に"
+#: ../../007_Controlinfo.md:120
+msgid ""
+"nullにすることで登録されていない項目が絞り込まれるのでUpperと同様に、Select "
+"All（=全選択）でEyelidに登録したいコントローラーを選択"
 msgstr ""
 
-#: ../../007_Controlinfo.md:109
-msgid "select All（=全選択）でEyelidに登録したいコントローラーを選択"
-msgstr ""
-
-#: ../../007_Controlinfo.md:115
+#: ../../007_Controlinfo.md:127
 msgid "Eyelidを選択"
 msgstr ""
 
-#: ../../007_Controlinfo.md:121 ../../007_Controlinfo.md:172
+#: ../../007_Controlinfo.md:131 ../../007_Controlinfo.md:186
 msgid "nullで絞り込んでいるのでRegionを登録すると非表示になります。"
 msgstr ""
 
-#: ../../007_Controlinfo.md:124
+#: ../../007_Controlinfo.md:134
 msgid "allに戻すとすべて表示されます。"
 msgstr ""
 
-#: ../../007_Controlinfo.md:131
+#: ../../007_Controlinfo.md:141
 msgid "再表示したい場合の例なので、すべて登録するまでnullのままでも問題ありません。   また、登録したRegionで絞り込むこともできます。"
 msgstr ""
 
-#: ../../007_Controlinfo.md:135
+#: ../../007_Controlinfo.md:145
 msgid "gazeの登録方法"
 msgstr ""
 
-#: ../../007_Controlinfo.md:137 ../../007_Controlinfo.md:177
-msgid "同様に"
+#: ../../007_Controlinfo.md:152
+msgid "同様に、gazeに登録したいコントローラーを選択し"
 msgstr ""
 
-#: ../../007_Controlinfo.md:138
-msgid "gazeに登録したいコントローラーを選択し"
-msgstr ""
-
-#: ../../007_Controlinfo.md:144
-msgid "Add selected 登録済みのコントローラーの下に追加したコントローラーが表示されます。"
-msgstr ""
-
-#: ../../007_Controlinfo.md:151
-msgid "右上のall▼のタブを選択し、null▼に変更"
-msgstr ""
-
-#: ../../007_Controlinfo.md:153
-msgid "nullから変更していない場合はこの手順はスキップ"
-msgstr ""
-
-#: ../../007_Controlinfo.md:160 ../../007_Controlinfo.md:193
-msgid "select All"
+#: ../../007_Controlinfo.md:159
+msgid "Add selectedで登録済みのコントローラーの下に追加したコントローラーが表示されます。"
 msgstr ""
 
 #: ../../007_Controlinfo.md:166
+msgid "右上のall▼のタブを選択し、null▼に変更"
+msgstr ""
+
+#: ../../007_Controlinfo.md:174 ../../007_Controlinfo.md:211
+msgid "Select All"
+msgstr ""
+
+#: ../../007_Controlinfo.md:182
 msgid "gaze"
 msgstr ""
 
-#: ../../007_Controlinfo.md:175
+#: ../../007_Controlinfo.md:189
 msgid "lowerの登録方法"
 msgstr ""
 
-#: ../../007_Controlinfo.md:178
+#: ../../007_Controlinfo.md:194
 msgid "Mayaでlowerに登録したいコントローラーを選択"
 msgstr ""
 
-#: ../../007_Controlinfo.md:186
+#: ../../007_Controlinfo.md:198
 msgid "前段でnullで絞り込んでいるのでnullのみが表示されます"
 msgstr ""
 
-#: ../../007_Controlinfo.md:199
+#: ../../007_Controlinfo.md:217
 msgid "lower"
 msgstr ""
 
-#: ../../007_Controlinfo.md:205
+#: ../../007_Controlinfo.md:221
 msgid "nullで絞り込んでいるのでRegionを登録すると非表示になります"
 msgstr ""
 
-#: ../../007_Controlinfo.md:208
+#: ../../007_Controlinfo.md:224
 msgid "Upper/Eyelid/Gaze/Lowerをすべて登録し終えたら"
 msgstr ""
 
-#: ../../007_Controlinfo.md:209
-msgid "save"
+#: ../../007_Controlinfo.md:229 ../../007_Controlinfo.md:284
+msgid "Save"
 msgstr ""
 
-#: ../../007_Controlinfo.md:216
+#: ../../007_Controlinfo.md:233
 msgid "未登録状態のものがあるとSave出来ません"
 msgstr ""
 
-#: ../../007_Controlinfo.md:219
+#: ../../007_Controlinfo.md:236
 msgid "トラブルシューティング"
 msgstr ""
 
-#: ../../007_Controlinfo.md:221
+#: ../../007_Controlinfo.md:238
 msgid "セーブできない場合"
 msgstr ""
 
-#: ../../007_Controlinfo.md:223
+#: ../../007_Controlinfo.md:239
 msgid "登録すべきものか確認後"
 msgstr ""
 
-#: ../../007_Controlinfo.md:224
-msgid "削除したい項目に ☑ →Remove"
-msgstr ""
-
-#: ../../007_Controlinfo.md:229
-msgid "nullのままのコントローラーを一括削除"
-msgstr ""
-
-#: ../../007_Controlinfo.md:235
-msgid "マニュアル以外のコントローラーを登録したい場合"
-msgstr ""
-
-#: ../../007_Controlinfo.md:236
-msgid ""
-"本マニュアルでは、UnrealEngineのMetahumanを使用していますが、   "
-"別の3DCG作成ソフトで作成したものでも、各部位に連携できるコントローラーリグがあれば対応可能です。   "
-"また、必要最低限のコントローラーのみを登録していますので、   任意で登録するコントローラーを増やすことができます。"
-msgstr ""
-
-#: ../../007_Controlinfo.md:242
-msgid "Add selectでコントローラーの追加ができない場合"
-msgstr ""
-
 #: ../../007_Controlinfo.md:244
-msgid "設定したMayaバージョンとsceneを作成したMayaバージョンが一致しているか確認してください。"
-msgstr ""
-
-#: ../../007_Controlinfo.md:246
-msgid "コントローラーの登録順番を変えたい場合"
-msgstr ""
-
-#: ../../007_Controlinfo.md:248
-msgid "例：L/R　blinkが離れていて不便なのでblinkを上下（隣接するよう）に並べたい"
-msgstr ""
-
-#: ../../007_Controlinfo.md:250
-msgid "並び替えたいコントローラーをドラッグしドロップで順番を変更できます。"
+msgid "削除したい項目に ☑ &rarr; Remove"
 msgstr ""
 
 #: ../../007_Controlinfo.md:252
-msgid "コントローラーの登録順番を戻したい場合"
+msgid "nullのままのコントローラーを一括削除"
 msgstr ""
 
-#: ../../007_Controlinfo.md:254
-msgid "Reset   controller info登録時の順番に戻ります。"
+#: ../../007_Controlinfo.md:255
+msgid "マニュアル以外のコントローラーを登録したい場合"
+msgstr ""
+
+#: ../../007_Controlinfo.md:256
+msgid "本マニュアルでは、UnrealEngineのMetahumanを使用していますが、別の3DCG作成ソフトで作成したものでも、各部位に連携できるコントローラーリグがあれば対応可能です。また、必要最低限のコントローラーのみを登録していますので、任意で登録するコントローラーを増やすことができます。"
+msgstr ""
+
+#: ../../007_Controlinfo.md:259
+msgid "Add selectでコントローラーの追加ができない場合"
 msgstr ""
 
 #: ../../007_Controlinfo.md:261
-msgid "作業しやすいように並び替えたら"
+msgid "設定したMayaバージョンとsceneを作成したMayaバージョンが一致しているか確認してください。"
 msgstr ""
 
-#: ../../007_Controlinfo.md:262
-msgid "Save"
+#: ../../007_Controlinfo.md:263
+msgid "コントローラーの登録順番を変えたい場合"
+msgstr ""
+
+#: ../../007_Controlinfo.md:265
+msgid "例：L/R　blinkが離れていて不便なのでblinkを上下（隣接するよう）に並べたい"
+msgstr ""
+
+#: ../../007_Controlinfo.md:267
+msgid "並び替えたいコントローラーをドラッグしドロップで順番を変更できます。"
+msgstr ""
+
+#: ../../007_Controlinfo.md:269
+msgid "コントローラーの登録順番を戻したい場合"
+msgstr ""
+
+#: ../../007_Controlinfo.md:271
+msgid "Reset   controller info登録時の順番に戻ります。"
+msgstr ""
+
+#: ../../007_Controlinfo.md:278
+msgid "作業しやすいように並び替えたら"
 msgstr ""
 
 #~ msgid "また、コントローラーリグの登録時にRegionの最大値最小値も登録できます。 ```{figure} images/C001.pn"
@@ -396,5 +379,44 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Save ```{figure} images/C018.pn"
+#~ msgstr ""
+
+#~ msgid "FCSに戻り"
+#~ msgstr ""
+
+#~ msgid "select All（=全選択）でUpperに登録したいコントローラーを選択   ※null＝Regionが未指定"
+#~ msgstr ""
+
+#~ msgid "nullにすることで登録されていない項目が絞り込まれるのでUpperと同様に"
+#~ msgstr ""
+
+#~ msgid "select All（=全選択）でEyelidに登録したいコントローラーを選択"
+#~ msgstr ""
+
+#~ msgid "同様に"
+#~ msgstr ""
+
+#~ msgid "gazeに登録したいコントローラーを選択し"
+#~ msgstr ""
+
+#~ msgid "Add selected 登録済みのコントローラーの下に追加したコントローラーが表示されます。"
+#~ msgstr ""
+
+#~ msgid "nullから変更していない場合はこの手順はスキップ"
+#~ msgstr ""
+
+#~ msgid "select All"
+#~ msgstr ""
+
+#~ msgid "save"
+#~ msgstr ""
+
+#~ msgid "削除したい項目に ☑ →Remove"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "本マニュアルでは、UnrealEngineのMetahumanを使用していますが、   "
+#~ "別の3DCG作成ソフトで作成したものでも、各部位に連携できるコントローラーリグがあれば対応可能です。   "
+#~ "また、必要最低限のコントローラーのみを登録していますので、   任意で登録するコントローラーを増やすことができます。"
 #~ msgstr ""
 

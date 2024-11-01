@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-28 16:14+0900\n"
+"POT-Creation-Date: 2024-11-01 12:44+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -22,49 +22,51 @@ msgstr ""
 msgid "FCS起動"
 msgstr ""
 
-#: ../../004_launch.md:10
-msgid "ランチャーの指示に沿って、FCSをインストールしてください。"
+#: ../../004_launch.md:9
+msgid ""
+"This session assumes that FCS is already installed in the system. If not "
+"please follow [the instruction](#install-fcs-target)."
 msgstr ""
 
-#: ../../004_launch.md:14
+#: ../../004_launch.md:13
 msgid ""
 "初回起動時、PC環境によってセキュリティソフトでブロックされることがあります。   "
 "その際には、[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。"
 msgstr ""
 
-#: ../../004_launch.md:18
+#: ../../004_launch.md:17
 msgid "ライセンスの入力"
 msgstr ""
 
-#: ../../004_launch.md:20
+#: ../../004_launch.md:19
 msgid "FCS初回起動時ライセンスキーの入力を求められます。"
 msgstr ""
 
-#: ../../004_launch.md:21
+#: ../../004_launch.md:20
 msgid "New Licenseにライセンスキーを入力"
 msgstr ""
 
-#: ../../004_launch.md:22 ../../004_launch.md:35
+#: ../../004_launch.md:21 ../../004_launch.md:34
 msgid "Update"
 msgstr ""
 
-#: ../../004_launch.md:28
+#: ../../004_launch.md:27
 msgid "ライセンス認証完了後FCSを操作できるようになります。"
 msgstr ""
 
-#: ../../004_launch.md:31
+#: ../../004_launch.md:30
 msgid "ライセンスの更新"
 msgstr ""
 
-#: ../../004_launch.md:33
+#: ../../004_launch.md:32
 msgid "FCSを起動後、ライセンスの期限切れだった場合にはLicenseInfoがポップします。"
 msgstr ""
 
-#: ../../004_launch.md:34
+#: ../../004_launch.md:33
 msgid "新しいライセンスキーをNew Licenseに入力"
 msgstr ""
 
-#: ../../004_launch.md:43
+#: ../../004_launch.md:42
 msgid ""
 "Updateを押しても正常に動作しない場合があります。    "
 "その際には、[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。"
@@ -77,5 +79,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Update ```{figure} images/L002.pn"
+#~ msgstr ""
+
+#~ msgid "ランチャーの指示に沿って、FCSをインストールしてください。"
 #~ msgstr ""
 
