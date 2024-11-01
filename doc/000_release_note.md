@@ -1,4 +1,16 @@
 # Release Note
+## FCS 24.10.08
+- Date: 2024/10/30
+- Version: 24.10.08
+- Stage: Stable
+
+### Overview
+1. Fixed Maya imagePlane is setup incorrectly 
+2. Changed default imagePlane and camera name to imagePlane and fcs_cam respectively
+3. Fixed an error which prevent switching to the newly created Actor and character when creating new session
+4. Fixed prediction result not being sent to Maya even when To maya is ON. 
+
+
 ## FCS 24.10.07
 - Date: 2024/10/29
 - Version: 24.10.07
