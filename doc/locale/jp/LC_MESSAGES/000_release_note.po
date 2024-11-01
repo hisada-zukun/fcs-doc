@@ -23,19 +23,16 @@ msgid "Release Note"
 msgstr "リリースノート"
 
 #: ../../000_release_note.md:2
-#, fuzzy
 msgid "FCS 24.10.08"
-msgstr "バージョン: 24.10.06"
+msgstr "バージョン: 24.10.08"
 
 #: ../../000_release_note.md:3
-#, fuzzy
 msgid "Date: 2024/10/30"
-msgstr "日付: 2024/10/16"
+msgstr "日付: 2024/10/30"
 
 #: ../../000_release_note.md:4
-#, fuzzy
 msgid "Version: 24.10.08"
-msgstr "バージョン: 24.10.06"
+msgstr "バージョン: 24.10.08"
 
 #: ../../000_release_note.md:5 ../../000_release_note.md:17
 #: ../../000_release_note.md:28 ../../000_release_note.md:46
@@ -52,42 +49,39 @@ msgstr "概要"
 
 #: ../../000_release_note.md:8
 msgid "Fixed Maya imagePlane is setup incorrectly"
-msgstr ""
+msgstr " MayaのimagePlaneの設定が誤っている問題を修正しました"
 
 #: ../../000_release_note.md:9
 msgid ""
 "Changed default imagePlane and camera name to imagePlane and fcs_cam "
 "respectively"
-msgstr ""
+msgstr "デフォルトのimagePlane名を「imagePlane」に、カメラ名を「fcs_cam」に変更しました"
 
 #: ../../000_release_note.md:10
 msgid ""
 "Fixed an error which prevent switching to the newly created Actor and "
 "character when creating new session"
-msgstr ""
+msgstr "新しいセッション作成時に、新規作成されたアクターとキャラクターに自動的に切り替えられていないエラーを修正しました"
 
 #: ../../000_release_note.md:11
 msgid "Fixed prediction result not being sent to Maya even when To maya is ON."
-msgstr ""
+msgstr "「To Maya」がONになっているにもかかわらず、Predict結果がMayaに送信されない問題を修正しました"
 
 #: ../../000_release_note.md:14
-#, fuzzy
 msgid "FCS 24.10.07"
-msgstr "バージョン: 24.10.06"
+msgstr "バージョン: 24.10.07"
 
 #: ../../000_release_note.md:15
-#, fuzzy
 msgid "Date: 2024/10/29"
-msgstr "日付: 2024/10/16"
+msgstr "日付: 2024/10/29"
 
 #: ../../000_release_note.md:16
-#, fuzzy
 msgid "Version: 24.10.07"
-msgstr "バージョン: 24.10.06"
+msgstr "バージョン: 24.10.07"
 
 #: ../../000_release_note.md:20
 msgid "Fixed program crashes when trying to display LM"
-msgstr ""
+msgstr "LMを表示する際、プログラムが異常終了する問題を修正しました"
 
 #: ../../000_release_note.md:21
 msgid "Fixed session info profile count shows incorrect value"
