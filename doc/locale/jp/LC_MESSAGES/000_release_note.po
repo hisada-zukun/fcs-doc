@@ -85,17 +85,16 @@ msgstr "LMを表示する際、プログラムが異常終了する問題を修�
 
 #: ../../000_release_note.md:21
 msgid "Fixed session info profile count shows incorrect value"
-msgstr ""
+msgstr "セッション情報のプロファイル数に異なった値が表示されている問題を修正しました"
 
 #: ../../000_release_note.md:22
 msgid "Fixed an error where the Maya image plane is named incorrectly"
-msgstr ""
+msgstr "Mayaのイメージプレーン名が誤っているエラーを修正しました"
 
 #: ../../000_release_note.md:23
 msgid ""
-"Added a feature to clear all caches when opening session in a different "
-"version"
-msgstr ""
+"Added a feature to clear all caches when opening session in a different version"
+msgstr "異なるバージョンでセッションを開く際に、すべてのキャッシュをクリアする機能を追加しました。"
 
 #: ../../000_release_note.md:25
 msgid "FCS 24.10.06"
@@ -126,11 +125,11 @@ msgstr "動画表示が１フレームずれていることを修正しました
 
 #: ../../000_release_note.md:36
 msgid "Optimized launch spped"
-msgstr "ソフト起動時の最適化"
+msgstr "ソフト起動時の最適化を行いました"
 
 #: ../../000_release_note.md:37
 msgid "Improved logging"
-msgstr "ログ方式の改善"
+msgstr "ログの改善を行いました"
 
 #: ../../000_release_note.md:40
 msgid ""
@@ -141,7 +140,7 @@ msgid ""
 "incorrect if the fixed profile is imported back to a previous version of "
 "FCS. Therefore, once imported to the new version, it is not possible to "
 "downgrade to use the previous version."
-msgstr "Video/Playerの０フレームが重複して出力されていたことを修正いたしました。 （１００フレーム目が９９フレーム目として表示されていました"
+msgstr "Video/Playerの0フレームが重複して出力されていたことを修正いたしました。 （100フレーム目が99フレーム目として表示されていました）"
 
 #: ../../000_release_note.md:43
 msgid "FCS 24.10.05"
@@ -157,21 +156,21 @@ msgstr "バージョン: 24.10.05"
 
 #: ../../000_release_note.md:49
 msgid "Fixed a bug where video is not cached when opened for viewing"
-msgstr "動画開く際に、キャッシュされるはずのデータがキャッシュされていないことを修正しました"
+msgstr "動画を開く際に、キャッシュされるはずのデータがキャッシュされていないことを修正しました"
 
 #: ../../000_release_note.md:50
 msgid ""
 "Fixed a bug where the auto profile assigns the wrong name to the profile "
 "in ROM mode"
-msgstr "Auto　Profileのプロファイルの出力番号がずれていることを修正"
+msgstr "Auto Profileのプロファイルの出力番号がずれていることを修正しました"
 
 #: ../../000_release_note.md:51
 msgid "Added a new feature for exported solver for real-time use"
-msgstr "リアルタイムアプリへの出力するソルバーの形式を修正"
+msgstr "リアルタイムアプリ用に出力するソルバーの形式を修正しました"
 
 #: ../../000_release_note.md:52
 msgid "Added a warning sign for invalid controller info."
-msgstr "コントローラーの可動域が正しくない場合、エラーが表示されるように修正"
+msgstr "コントローラーの可動域が正しくない場合、エラーが表示されるように修正しました"
 
 #: ../../000_release_note.md:54
 msgid "FCS 24.10.04"
@@ -254,7 +253,7 @@ msgstr "スムージングが適用されていない問題を修正しました
 
 #: ../../000_release_note.md:85
 msgid "Fixed Prioritize Profile"
-msgstr "Prioritize Profileの動作を修正しました  "
+msgstr "Prioritize Profileの動作を修正しました"
 
 #: ../../000_release_note.md:87
 msgid "FCS 24.10.02"
@@ -274,13 +273,13 @@ msgstr ""
 
 #: ../../000_release_note.md:93 ../../000_release_note.md:102
 msgid "Improved filtering feature in Gallery, allowing batch edit/delete"
-msgstr "Galleryのフィルタリング機能強化（プロフィールの一括変更や削除ができるようになりました）"
+msgstr "Galleryのフィルタリング機能を強化しました（プロフィールの一括変更や一括削除ができるようになりました）"
 
 #: ../../000_release_note.md:94
 msgid ""
 "Fixed a bug where editor landmark preview is turned off when opening a "
 "new profile."
-msgstr "EditorのLMの表示がONの場合、別のプロフィールを開いてもONの状態のままにしました（計算済みの場合のみ）  "
+msgstr "EditorのLMの表示がONの場合、別のプロフィールを開いてもONの状態のままにしました（計算済みの場合のみ）"
 
 #: ../../000_release_note.md:95 ../../000_release_note.md:105
 msgid "Fixed a bug where the cursor position does not exactly move to"
@@ -545,7 +544,7 @@ msgstr "アップデートに関しては以下の設定がSettingsウィンド�
 msgid ""
 "Update channel: All | Patch | None   Decide what kind of updates are "
 "checked for."
-msgstr "すべてをアップデートする、もしくはバグ修正（保守アップデート）のみ、またはアップデートしないことが選択できます"
+msgstr "「All：すべてをアップデートする」、「Patch：バグ修正（保守アップデート）のみ」、「None：アップデートしない」から選択できます"
 
 #: ../../000_release_note.md:178
 msgid "Use Beta Use the unstable build."
