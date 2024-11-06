@@ -48,23 +48,23 @@ msgid "Overview"
 msgstr "概要"
 
 #: ../../000_release_note.md:8
-msgid "1. Fixed Maya imagePlane is setup incorrectly "
+msgid "Fixed Maya imagePlane is setup incorrectly "
 msgstr "MayaのimagePlaneの設定が誤っている問題を修正しました"
 
 #: ../../000_release_note.md:9
 msgid ""
-"2. Changed default imagePlane and camera name to imagePlane and fcs_cam respectively"
+"Changed default imagePlane and camera name to imagePlane and fcs_cam respectively"
 msgstr ""
 "デフォルトのimagePlane名を「imagePlane」に、カメラ名を「fcs_cam」に変更しました"
 
 #: ../../000_release_note.md:10
 msgid ""
-"3. Fixed an error which prevent switching to the newly created Actor and character when creating new session"
+"Fixed an error which prevent switching to the newly created Actor and character when creating new session"
 msgstr ""
 "新しいセッション作成時に、新規作成されたアクターとキャラクターに自動的に切り替えられていないエラーを修正しました"
 
 #: ../../000_release_note.md:11
-msgid "4. Fixed prediction result not being sent to Maya even when To maya is ON. "
+msgid "Fixed prediction result not being sent to Maya even when To maya is ON. "
 msgstr "「To Maya」がONになっているにもかかわらず、Predict結果がMayaに送信されない問題を修正しました"
 
 #: ../../000_release_note.md:14
