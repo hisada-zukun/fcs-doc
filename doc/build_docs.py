@@ -51,6 +51,7 @@ for version, details in docs.items():
 	tag = details.get('tag', '')
 	for language in details.get('languages', []): 
 		subprocess.run("rm -rf locale/en/LC_MESSAGES/*.mo", shell=True)
+		subprocess.run("rm -rf locale/jp/LC_MESSAGES/*.mo", shell=True)
 		build_doc(version, language, version)
 		
 
