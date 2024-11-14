@@ -210,7 +210,7 @@ msgstr ""
 
 #: ../../007_Controlinfo.md:134
 msgid "allに戻すとすべて表示されます。"
-msgstr ""
+msgstr "If you select the all tab, all segment parts will be displayed again."
 
 #: ../../007_Controlinfo.md:141
 msgid "再表示したい場合の例なので、すべて登録するまでnullのままでも問題ありません。   また、登録したRegionで絞り込むこともできます。"
