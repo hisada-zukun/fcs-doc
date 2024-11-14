@@ -1,4 +1,14 @@
 # Release Note
+
+## FCS 24.10.09
+- Date: 2024/11/05
+- Version: 24.10.09
+- Stage: Stable
+
+### Overview
+1. Fixed profile image being saved at a different resolution in some cases, introduced at 24.10.06.   
+   This affects the predicted animation's result. If you are using version 24.10.06 - 24.10.08, we recommend upgrading immediately. An automatic update will be applied to fix the resolution of the image.
+
 ## FCS 24.10.08
 - Date: 2024/10/30
 - Version: 24.10.08
