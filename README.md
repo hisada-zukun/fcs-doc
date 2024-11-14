@@ -25,4 +25,5 @@ If you were so kind to contribute, please feel free to do so.
 cd doc
 make gettext
 sphinx-intl update -p _build/gettext -l en
+sphinx-intl update -p _build/gettext -l jp
 ```
