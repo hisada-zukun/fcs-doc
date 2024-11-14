@@ -49,7 +49,6 @@ msgstr ""
 "registering the controller rig."
 
 #: ../../007_Controlinfo.md:14
-#, fuzzy
 msgid "Window&rarr;ControllerでConrollerウィンドウが起動します。"
 msgstr ""
 "Launch controller window from Window&rarr;Controller   \n"
