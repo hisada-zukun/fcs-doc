@@ -23,19 +23,16 @@ msgid "Release Note"
 msgstr "リリースノート"
 
 #: ../../000_release_note.md:3
-#, fuzzy
 msgid "FCS 24.10.09"
-msgstr "バージョン: 24.10.08"
+msgstr "バージョン: 24.10.09"
 
 #: ../../000_release_note.md:4
-#, fuzzy
 msgid "Date: 2024/11/05"
-msgstr "日付: 2024/10/30"
+msgstr "日付: 2024/11/05"
 
 #: ../../000_release_note.md:5
-#, fuzzy
 msgid "Version: 24.10.09"
-msgstr "バージョン: 24.10.08"
+msgstr "バージョン: 24.10.09"
 
 #: ../../000_release_note.md:6 ../../000_release_note.md:15
 #: ../../000_release_note.md:27 ../../000_release_note.md:38
@@ -59,7 +56,9 @@ msgid ""
 " If you are using version 24.10.06 - 24.10.08, we recommend upgrading "
 "immediately. An automatic update will be applied to fix the resolution of"
 " the image."
-msgstr ""
+msgstr "FCS 24.10.06にて異なる解像度でプロファイル画像が保存される問題を修正しました。"
+"バージョン24.10.06から24.10.08までをご使用のお客様につきましては、早急に最新版へとアップデートしていただくようお願いいたします。"
+"セッションを開く際に自動的に画像の解像度を修正するようになっておりますので、そのほかに手動で対応する事柄はございません。どうぞよろしくお願いいたします。"
 
 #: ../../000_release_note.md:12
 msgid "FCS 24.10.08"
@@ -74,7 +73,6 @@ msgid "Version: 24.10.08"
 msgstr "バージョン: 24.10.08"
 
 #: ../../000_release_note.md:18
-#, fuzzy
 msgid "Fixed Maya imagePlane is setup incorrectly"
 msgstr "MayaのimagePlaneの設定が誤っている問題を修正しました"
 
@@ -91,7 +89,6 @@ msgid ""
 msgstr "新しいセッション作成時に、新規作成されたアクターとキャラクターに自動的に切り替えられていないエラーを修正しました"
 
 #: ../../000_release_note.md:21
-#, fuzzy
 msgid "Fixed prediction result not being sent to Maya even when To maya is ON."
 msgstr "「To Maya」がONになっているにもかかわらず、Predict結果がMayaに送信されない問題を修正しました"
 
@@ -143,10 +140,11 @@ msgstr "！ダウングレードできません！"
 
 #: ../../000_release_note.md:41
 msgid ""
-"** Once opened in this version, your FCS session will not be abled to "
-"downgraded to a previous version of FCS, including FCS 24.10.05. ** We "
-"strongly recommend you to backup your files before using the update."
-msgstr "** このバージョンで作成または開いたセッションは、以前のバージョン(～24.10.05)で開くことができなくなります"
+"Once opened in this version, your FCS session will not be abled to "
+"downgraded to a previous version of FCS, including FCS 24.10.05."
+"We strongly recommend you to backup your files before using the update."
+msgstr "このバージョン以降で作成または開いたセッションは、以前のバージョン(～24.10.05)で開くことができなくなります。"
+"アップデートの前にプロジェクトフォルダをバックアップすることを強く推奨いたします。"
 
 #: ../../000_release_note.md:45 ../../000_release_note.md:49
 msgid "Fixed animation timeline off by 1 frame"
