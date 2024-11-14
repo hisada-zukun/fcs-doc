@@ -275,11 +275,9 @@ controller info登録時の順番に戻ります。
 :align: center
 ```
 
-作業しやすいように並び替えたら  
- - 
+#### 作業しやすいように並び替えたら  
+ - Save
 ```{figure} images/C018.png
 :width: 80%
 :align: center
-
-Save
 ```
