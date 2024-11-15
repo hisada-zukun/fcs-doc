@@ -56,8 +56,8 @@ msgid ""
 " If you are using version 24.10.06 - 24.10.08, we recommend upgrading "
 "immediately. An automatic update will be applied to fix the resolution of"
 " the image."
-msgstr "FCS 24.10.06にて異なる解像度でプロファイル画像が保存される問題を修正しました。  "
-"バージョン24.10.06から24.10.08までをご使用のお客様につきましては、早急に最新版へとアップデートしていただくようお願いいたします。"
+msgstr "FCS 24.10.06にて異なる解像度でプロファイル画像が保存される問題を修正しました。<br>"
+"バージョン24.10.06から24.10.08までをご使用のお客様につきましては、早急に最新版へとアップデートしていただくようお願いいたします。<br>"
 "セッションを開く際に自動的に画像の解像度を修正するようになっておりますので、そのほかに手動で対応する事柄はございません。どうぞよろしくお願いいたします。"
 
 #: ../../000_release_note.md:12
@@ -143,7 +143,8 @@ msgid ""
 "Once opened in this version, your FCS session will not be abled to "
 "downgraded to a previous version of FCS, including FCS 24.10.05."
 "We strongly recommend you to backup your files before using the update."
-msgstr "このバージョン以降で作成または開いたセッションは、以前のバージョン(～24.10.05)で開くことができなくなります。"
+msgstr ""
+"このバージョン以降で作成または開いたセッションは、以前のバージョン(～24.10.05)で開くことができなくなります。"
 "アップデートの前にプロジェクトフォルダをバックアップすることを強く推奨いたします。"
 
 #: ../../000_release_note.md:45 ../../000_release_note.md:49
@@ -167,7 +168,9 @@ msgid ""
 "incorrect if the fixed profile is imported back to a previous version of "
 "FCS. Therefore, once imported to the new version, it is not possible to "
 "downgrade to use the previous version."
-msgstr "Video/Playerの0フレームが重複して出力されていたことを修正いたしました。 （100フレーム目が99フレーム目として表示されていました）"
+msgstr ""
+"Video/Playerの0フレームが重複して出力されていたこと、Profileのフレームカウントが1フレームずれていたことを修正いたしました。（100フレーム目が99フレーム目として表示されていました）<br>"
+"以前のバージョンで作成されたセッションについては、現バージョンで開くことにより自動的に修正されますが、修正されたものに関しては、以前のバージョン（24.10.05を含む）で開くことができなくなります。 "
 
 #: ../../000_release_note.md:53
 msgid "FCS 24.10.05"
