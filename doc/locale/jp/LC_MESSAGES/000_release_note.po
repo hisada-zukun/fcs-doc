@@ -56,7 +56,7 @@ msgid ""
 " If you are using version 24.10.06 - 24.10.08, we recommend upgrading "
 "immediately. An automatic update will be applied to fix the resolution of"
 " the image."
-msgstr "FCS 24.10.06にて異なる解像度でプロファイル画像が保存される問題を修正しました。"
+msgstr "FCS 24.10.06にて異なる解像度でプロファイル画像が保存される問題を修正しました。  "
 "バージョン24.10.06から24.10.08までをご使用のお客様につきましては、早急に最新版へとアップデートしていただくようお願いいたします。"
 "セッションを開く際に自動的に画像の解像度を修正するようになっておりますので、そのほかに手動で対応する事柄はございません。どうぞよろしくお願いいたします。"
 
