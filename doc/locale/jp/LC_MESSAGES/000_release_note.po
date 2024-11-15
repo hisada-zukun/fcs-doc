@@ -140,11 +140,11 @@ msgstr "！ダウングレードできません！"
 
 #: ../../000_release_note.md:41
 msgid ""
-"**Once opened in this version, your FCS session will not be abled to downgraded to a previous version of FCS, including FCS 24.10.05.**  "
-"**We strongly recommend you to backup your files before using the update.**"
+"Once opened in this version, your FCS session will not be abled to downgraded to a previous version of FCS, including FCS 24.10.05.  "
+"We strongly recommend you to backup your files before using the update."
 msgstr ""
-"**このバージョン以降で作成または開いたセッションは、以前のバージョン(～24.10.05)で開くことができなくなります。**"
-"**アップデートの前にプロジェクトフォルダをバックアップすることを強く推奨いたします。**"
+"このバージョン以降で作成または開いたセッションは、以前のバージョン(～24.10.05)で開くことができなくなります。"
+"アップデートの前にプロジェクトフォルダをバックアップすることを強く推奨いたします。"
 
 #: ../../000_release_note.md:45 ../../000_release_note.md:49
 msgid "Fixed animation timeline off by 1 frame"
