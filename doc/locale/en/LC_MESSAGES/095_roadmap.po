@@ -37,7 +37,7 @@ msgstr ""
 
 #: ../../095_roadmap.md:5
 msgid ""
-"機能要望の受付も行っております。"
+"機能要望の受付も行っております。<br>"
 msgstr ""
 "We’re happy to take feature requests and can even customize builds to fit your company’s pipeline.[^1] "
 
