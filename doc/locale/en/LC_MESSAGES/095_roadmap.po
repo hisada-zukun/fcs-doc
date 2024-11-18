@@ -36,10 +36,10 @@ msgstr ""
 "understanding."
 
 #: ../../095_roadmap.md:5
-msgid "機能要望の受付も行っております。  "
+msgid ""
+"機能要望の受付も行っております。  "
 "御社のパイプラインに最適化したビルドを作成することも可能[^1]ですので、"
-"質問・要望・不具合などありましたら[HELTECホームページ](https://sensing.heltec.co.jp/product"
-"/zukun-lab/fcs/)までご連絡ください。  "
+"質問・要望・不具合などありましたら[HELTECホームページ](https://sensing.heltec.co.jp/product/zukun-lab/fcs/)までご連絡ください。  "
 msgstr ""
 "We’re happy to take feature requests and can even customize builds to fit your company’s pipeline.[^1] "
 "If you have any questions, requests, or issues, feel free to contact us on the [HELTEC website](https://sensing.heltec.co.jp/product/zukun-lab/fcs/)."
