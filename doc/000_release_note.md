@@ -38,8 +38,7 @@
 - Stage: Stable
 
 ### !Cannot be downgraded!
-**Once opened in this version, your FCS session will not be abled to downgraded to a previous version of FCS, including FCS 24.10.05.**  
-**We strongly recommend you to backup your files before using the update.**
+**Once opened in this version, your FCS session will not be abled to downgraded to a previous version of FCS, including FCS 24.10.05. We strongly recommend you to backup your files before using the update.**
 
 
 ### Overview
