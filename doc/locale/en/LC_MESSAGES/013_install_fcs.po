@@ -21,15 +21,15 @@ msgstr ""
 
 #: ../../013_install_fcs.md:1
 msgid "FCSのインストール"
-msgstr "Installation of FCS"
+msgstr "Installation"
 
 #: ../../013_install_fcs.md:3
 msgid "FCSは、インストーラーを使用してインストールします。"
-msgstr "FCS is installed using an installer."
+msgstr "We provide an installer for x86_64 machines."
 
 #: ../../013_install_fcs.md:5
 msgid "**インストールの手順**"
-msgstr "**Installation procedure**"
+msgstr "**Steps**"
 
 #: ../../013_install_fcs.md:6
 msgid "インストーラーで使用する言語を設定します。"

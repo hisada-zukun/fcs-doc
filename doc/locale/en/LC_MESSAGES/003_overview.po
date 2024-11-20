@@ -28,7 +28,7 @@ msgstr "Launch FCS"
 
 #: ../../003_overview.md:3
 msgid "Session作成もしくはオープン"
-msgstr "Create a session or open a session"
+msgstr "Create or open a session"
 
 #: ../../003_overview.md:4
 msgid "Mayaの起動"

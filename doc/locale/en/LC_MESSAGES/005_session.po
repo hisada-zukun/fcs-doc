@@ -32,7 +32,7 @@ msgstr ""
 #: ../../005_session.md:4
 msgid "FCS起動後、Sessionデータへアクセスするため 「New...（新規作成）」または「Open（開く）」を実行します。"
 msgstr ""
-"After starting FCS, go to “New…(Create new Session)” or “Open” to access "
+"After launching FCS, go to “New…(Create new Session)” or “Open” to access "
 "the Session data."
 
 #: ../../005_session.md:8
