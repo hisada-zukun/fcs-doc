@@ -77,7 +77,7 @@ msgstr ""
 " FCS to Unreal Engine"
 
 #: ../../095_roadmap.md:7
-msgid "一定数以上のライセンス購入などの条件・追加料金が発生する場合がございます。 <br> <br>"
+msgid "一定数以上のライセンス購入などの条件・追加料金が発生する場合がございます。 <br>"
 msgstr "Additional conditions or fees may apply, which may include the need to purchase a minimum number of licenses."
 
 #~ msgid ""
