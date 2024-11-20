@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-14 14:05+0900\n"
+"POT-Creation-Date: 2024-11-20 08:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../000_release_note.md:1
 msgid "Release Note"
@@ -137,9 +137,9 @@ msgstr ""
 
 #: ../../000_release_note.md:41
 msgid ""
-"** Once opened in this version, your FCS session will not be abled to "
-"downgraded to a previous version of FCS, including FCS 24.10.05. ** We "
-"strongly recommend you to backup your files before using the update."
+"**Once opened in this version, your FCS session will not be abled to "
+"downgraded to a previous version of FCS, including FCS 24.10.05. We "
+"strongly recommend you to backup your files before using the update.**"
 msgstr ""
 
 #: ../../000_release_note.md:45 ../../000_release_note.md:49
@@ -580,4 +580,13 @@ msgid ""
 "Program data location is changed from `$USER/.fcs/Cortado` to "
 "`$USER/.fcs/Cortado/$version`."
 msgstr ""
+
+#~ msgid ""
+#~ "** Once opened in this version, "
+#~ "your FCS session will not be abled"
+#~ " to downgraded to a previous version"
+#~ " of FCS, including FCS 24.10.05. **"
+#~ " We strongly recommend you to backup"
+#~ " your files before using the update."
+#~ msgstr ""
 

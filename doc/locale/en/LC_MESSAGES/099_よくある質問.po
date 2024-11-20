@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-28 16:14+0900\n"
+"POT-Creation-Date: 2024-11-20 08:16+0000\n"
 "PO-Revision-Date: 2024-09-26 23:05+0900\n"
 "Last-Translator: \n"
 "Language: en\n"
@@ -168,20 +168,20 @@ msgstr ""
 #, fuzzy
 msgid "**FCSの File&rarr;Setting にて各種項目を変更できます。   変更した内容は、再起動後に反映されるため、再起動が必要です。**"
 msgstr ""
-"**You can change various items in FCS under File &rarr; Settings. Changes will"
-" be reflected after restarting, so a restart is required."
+"**You can change various items in FCS under File &rarr; Settings. Changes"
+" will be reflected after restarting, so a restart is required."
 
 #: ../../099_よくある質問.md:202
 msgid "**FCSの View&rarr;Layout にて登録時のレイアウト情報を保存できます。**"
 msgstr ""
-"**You can save the layout information at registration in FCS under View &rarr;"
-" Layout.**"
+"**You can save the layout information at registration in FCS under View "
+"&rarr; Layout.**"
 
 #: ../../099_よくある質問.md:204
 msgid "View&rarr;Layout&rarr;Save current　で　「Layout Registration」ウィンドウを起動<br>"
 msgstr ""
-"Activate the “Layout Registration” window by selecting View &rarr; Layout &rarr; "
-"Save Current.<br>"
+"Activate the “Layout Registration” window by selecting View &rarr; Layout"
+" &rarr; Save Current.<br>"
 
 #: ../../099_よくある質問.md:205
 msgid "「Layout Name」を入力し<br>"
@@ -236,6 +236,10 @@ msgstr ""
 "through the [HELTEC webpage].(https://sensing.heltec.co.jp/contact/)**"
 
 #: ../../099_よくある質問.md:270
+msgid "**こちらになります: toei-fcs.com, google.com**"
+msgstr ""
+
+#: ../../099_よくある質問.md:278
 msgid ""
 "**トライアル版から製品版への移行には別途購入手続きが必要です。   "
 "詳細は[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。**"
@@ -244,7 +248,7 @@ msgstr ""
 "version to the full version. For more details, please contact us through "
 "the [HELTEC website].(https://sensing.heltec.co.jp/contact/)**"
 
-#: ../../099_よくある質問.md:279
+#: ../../099_よくある質問.md:287
 msgid ""
 "**ライセンス情報をチェックするサーバーに問題が生じている状況です。   "
 "サーバー側での対応が必要ですので、[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からご連絡ください。**"

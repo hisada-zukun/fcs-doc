@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-28 16:14+0900\n"
+"POT-Creation-Date: 2024-11-20 08:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -174,12 +174,16 @@ msgid ""
 msgstr ""
 
 #: ../../099_よくある質問.md:270
+msgid "**こちらになります: toei-fcs.com, google.com**"
+msgstr ""
+
+#: ../../099_よくある質問.md:278
 msgid ""
 "**トライアル版から製品版への移行には別途購入手続きが必要です。   "
 "詳細は[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。**"
 msgstr ""
 
-#: ../../099_よくある質問.md:279
+#: ../../099_よくある質問.md:287
 msgid ""
 "**ライセンス情報をチェックするサーバーに問題が生じている状況です。   "
 "サーバー側での対応が必要ですので、[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からご連絡ください。**"

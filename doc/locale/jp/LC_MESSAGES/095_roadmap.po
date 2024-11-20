@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-28 12:23+0900\n"
+"POT-Creation-Date: 2024-11-20 08:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -30,8 +30,8 @@ msgstr ""
 
 #: ../../095_roadmap.md:5
 msgid ""
-"機能要望の受付も行っております。御社のパイプラインに最適化したビルドを作成することも可能[^1]ですので、   "
-"質問・要望・不具合などありましたら[HELTECホームページ](https://sensing.heltec.co.jp/product"
+"機能要望の受付も行っております。   "
+"御社のパイプラインに最適化したビルドを作成することも可能[^1]ですので、質問・要望・不具合などありましたら[HELTECホームページ](https://sensing.heltec.co.jp/product"
 "/zukun-lab/fcs/)までご連絡ください。"
 msgstr ""
 
@@ -61,7 +61,16 @@ msgstr ""
 msgid "Unreal Engineによるリターゲットへの対応    現在のFCSにおけるMaya機能をUnreal Engineにも対応"
 msgstr ""
 
-#: ../../095_roadmap.md:7
-msgid "一定数以上のライセンス購入などの条件・追加料金が発生する場合がございます。 <br> <br>"
+#: ../../095_roadmap.md:8
+msgid "一定数以上のライセンス購入などの条件・追加料金が発生する場合がございます。 <br>"
 msgstr ""
+
+#~ msgid ""
+#~ "機能要望の受付も行っております。御社のパイプラインに最適化したビルドを作成することも可能[^1]ですので、   "
+#~ "質問・要望・不具合などありましたら[HELTECホームページ](https://sensing.heltec.co.jp/product"
+#~ "/zukun-lab/fcs/)までご連絡ください。"
+#~ msgstr ""
+
+#~ msgid "一定数以上のライセンス購入などの条件・追加料金が発生する場合がございます。 <br> <br>"
+#~ msgstr ""
 
