@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS 24.07 Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-28 16:14+0900\n"
+"POT-Creation-Date: 2024-12-12 04:06+0000\n"
 "PO-Revision-Date: 2024-09-25 10:56+0900\n"
 "Last-Translator: \n"
 "Language: en\n"
@@ -35,7 +35,7 @@ msgstr ""
 msgid "単体のアニメーション出力"
 msgstr "Animation output for a facial expression"
 
-#: ../../009_アニメーション.md:10 ../../009_アニメーション.md:95
+#: ../../009_アニメーション.md:10 ../../009_アニメーション.md:96
 msgid "出力画面説明"
 msgstr "Output screen description"
 
@@ -44,7 +44,7 @@ msgstr "Output screen description"
 msgid "▼Process"
 msgstr "Select ▼Process."
 
-#: ../../009_アニメーション.md:19 ../../009_アニメーション.md:112
+#: ../../009_アニメーション.md:19 ../../009_アニメーション.md:113
 msgid "☑ Reprocess：作成したProfile情報を読み取る"
 msgstr "☑ Reprocess: read the created Profile information"
 
@@ -56,23 +56,23 @@ msgstr "It is recommended to turn it on."
 msgid "Upload Options"
 msgstr "Upload Options"
 
-#: ../../009_アニメーション.md:26 ../../009_アニメーション.md:104
+#: ../../009_アニメーション.md:26 ../../009_アニメーション.md:105
 msgid "☑ Animation：アニメーションデータを生成、Mayaに反映"
 msgstr "☑ Animation: generate animation data and reflect it in Maya"
 
-#: ../../009_アニメーション.md:27 ../../009_アニメーション.md:105
+#: ../../009_アニメーション.md:27 ../../009_アニメーション.md:106
 msgid "☑ Audio：解析する動画の音声データをMayaに反映"
 msgstr ""
 "☑ Audio: generate audio data of the video to be analyzed and reflect it "
 "in Maya"
 
-#: ../../009_アニメーション.md:28 ../../009_アニメーション.md:106
+#: ../../009_アニメーション.md:28 ../../009_アニメーション.md:107
 msgid "☑ Frames：解析する動画の連番画像を生成、Mayaのイメージプレーン上に反映"
 msgstr ""
 "☑ Frames: generate sequentially numbered images of the video to be "
 "analyzed and reflect them on Maya’s image plane."
 
-#: ../../009_アニメーション.md:29 ../../009_アニメーション.md:107
+#: ../../009_アニメーション.md:29 ../../009_アニメーション.md:108
 msgid "☑ Landmark Frames：顔の動きをオートトラッキングする連番画像を生成、Mayaのイメージプレーン上に反映"
 msgstr ""
 "☑ Landmark Frames: generate a series of numbered images for auto-tracking"
@@ -82,11 +82,11 @@ msgstr ""
 msgid "Export Options"
 msgstr "Export Options"
 
-#: ../../009_アニメーション.md:32 ../../009_アニメーション.md:108
+#: ../../009_アニメーション.md:32 ../../009_アニメーション.md:109
 msgid "☑ Playblast：出力されたアニメーションをmov形式の動画で出力、保存する"
 msgstr "☑ Playblast: output and save the output animation in mov format video"
 
-#: ../../009_アニメーション.md:33 ../../009_アニメーション.md:109
+#: ../../009_アニメーション.md:33 ../../009_アニメーション.md:110
 msgid "☑ Scene：出力されたMayaシーンを自動で保存する"
 msgstr "☑ Scene: save the output Maya scene automatically"
 
@@ -98,7 +98,7 @@ msgstr "Start process: start outputting animation"
 msgid "単体のアニメーション出力方法"
 msgstr "Output animation from one video"
 
-#: ../../009_アニメーション.md:39 ../../009_アニメーション.md:120
+#: ../../009_アニメーション.md:39 ../../009_アニメーション.md:121
 msgid "Videoウィンドウで"
 msgstr "In the Video window"
 
@@ -114,7 +114,7 @@ msgstr "The menu shown in the image will appear."
 msgid "▼Process　を選択"
 msgstr "Select ▼Process."
 
-#: ../../009_アニメーション.md:44 ../../009_アニメーション.md:140
+#: ../../009_アニメーション.md:44 ../../009_アニメーション.md:141
 msgid "該当する項目に ☑ を入れ"
 msgstr "Check the box ☑ for the relevant item."
 
@@ -123,125 +123,152 @@ msgstr "Check the box ☑ for the relevant item."
 msgid "Start process"
 msgstr "Select ▼Process."
 
-#: ../../009_アニメーション.md:58
+#: ../../009_アニメーション.md:59
 msgid "解析結果を見てから再度調整を行いたい場合はPlayblastやSceneの ☑ を外しておくと時間短縮できます。"
 msgstr ""
 "If you want to make adjustments after viewing the analysis results, "
 "remove the ☑ buttons from Playblast and Scene so you can shorten the "
 "processing time."
 
-#: ../../009_アニメーション.md:65
+#: ../../009_アニメーション.md:66
 msgid "初回出力時は時間がかかるため待機"
 msgstr ""
 
-#: ../../009_アニメーション.md:71
+#: ../../009_アニメーション.md:72
 msgid "Mayaシーン上に ☑ を入れた項目が反映されていく"
 msgstr "The items with ☑ are reflected on the Maya scene. "
 
-#: ../../009_アニメーション.md:72
+#: ../../009_アニメーション.md:73
 msgid "タイムスライダーに音声データ"
 msgstr "Audio data in the time slider"
 
-#: ../../009_アニメーション.md:73
+#: ../../009_アニメーション.md:74
 msgid "イメージプレーンに連番画像"
 msgstr "Sequentially numbered images on the image plane"
 
-#: ../../009_アニメーション.md:74
+#: ../../009_アニメーション.md:75
 msgid "アニメーションデータ の順で反映される"
 msgstr "Animation data is reflected in this order"
 
-#: ../../009_アニメーション.md:75
+#: ../../009_アニメーション.md:76
 msgid "アニメーションデータ反映時はスライダーが動く"
 msgstr "Slider moves when animation data is reflected."
 
-#: ../../009_アニメーション.md:83
+#: ../../009_アニメーション.md:84
 msgid "【playblastやsceneに ☑ していた場合】"
 msgstr "【If you are selecting playblast or scene with ☑】"
 
-#: ../../009_アニメーション.md:85 ../../009_アニメーション.md:159
+#: ../../009_アニメーション.md:86 ../../009_アニメーション.md:160
 msgid "出力が完了したらエクスプローラーがポップアップします。"
 msgstr "Explorer window will pop up when output is complete."
 
-#: ../../009_アニメーション.md:93
+#: ../../009_アニメーション.md:94
 msgid "複数のアニメーション出力"
 msgstr "Multiple animation output"
 
-#: ../../009_アニメーション.md:101
+#: ../../009_アニメーション.md:102
 msgid "Output Folder：出力先を指定"
 msgstr ""
 
-#: ../../009_アニメーション.md:103
+#: ../../009_アニメーション.md:104
 msgid "Output Targets"
 msgstr "Output Targets"
 
-#: ../../009_アニメーション.md:111
+#: ../../009_アニメーション.md:112
 msgid "Advenced"
 msgstr "Advenced"
 
-#: ../../009_アニメーション.md:114
+#: ../../009_アニメーション.md:115
 msgid "Output Filename：出力されるデータ名。任意の名前に変更可能"
 msgstr ""
 "Output Filename: name of the output data. You can change the file to any "
 "name."
 
-#: ../../009_アニメーション.md:116
+#: ../../009_アニメーション.md:117
 msgid "Start：アニメーションの出力を開始する"
 msgstr "Start process: start outputting animation"
 
-#: ../../009_アニメーション.md:118
+#: ../../009_アニメーション.md:119
 msgid "複数のアニメーション出力方法"
 msgstr "Output animation from multiple videos in batch"
 
-#: ../../009_アニメーション.md:122
+#: ../../009_アニメーション.md:123
 #, fuzzy
 msgid "解析/出力したい動画名の左側の ☑ をつける"
 msgstr ""
 "Click on the ☑ to the left of the name of the video you want to "
 "analyze/output.```{figure} images/A007.pn"
 
-#: ../../009_アニメーション.md:128
+#: ../../009_アニメーション.md:129
 msgid "Processorウインドウを開く"
 msgstr ""
 
-#: ../../009_アニメーション.md:141
+#: ../../009_アニメーション.md:142
 msgid "Output Filename を任意の名前に変更"
 msgstr "Change the Output Filename to any desired name."
 
-#: ../../009_アニメーション.md:143
+#: ../../009_アニメーション.md:144
 msgid "{solver} → solverの名前"
 msgstr "{solver} → solver name"
 
-#: ../../009_アニメーション.md:144
+#: ../../009_アニメーション.md:145
 msgid "{video} → ビデオのファイル名"
 msgstr "{video} → video filename"
 
-#: ../../009_アニメーション.md:145
+#: ../../009_アニメーション.md:146
 msgid "{user} → windows ユーザ名"
 msgstr "{user} → windows user name"
 
-#: ../../009_アニメーション.md:146
+#: ../../009_アニメーション.md:147
 msgid "{project} → 案件フォルダ名"
 msgstr "{project} → project folder name"
 
-#: ../../009_アニメーション.md:147
+#: ../../009_アニメーション.md:148
 msgid "{chara} → キャラクター名"
 msgstr "{chara} → character name"
 
-#: ../../009_アニメーション.md:148
+#: ../../009_アニメーション.md:149
 msgid "{actor} → 役者名"
 msgstr "{actor} → actor name"
 
-#: ../../009_アニメーション.md:149
+#: ../../009_アニメーション.md:150
 #, python-format
 msgid "{%Y%m%d}, {%H%M%S} → 年月日、時間分秒"
 msgstr "{%Y%m%d}, {%H%M%S} → year, month, date, hour, minute, second   If only "
 
-#: ../../009_アニメーション.md:151
+#: ../../009_アニメーション.md:152
 msgid "{video}のみにするとimportした動画名で出力される"
 msgstr "{video} is selected, the imported video name will be used as a file name."
 
-#: ../../009_アニメーション.md:153
+#: ../../009_アニメーション.md:154
 msgid "Start"
+msgstr ""
+
+#: ../../009_アニメーション.md:166
+#, fuzzy
+msgid "カメラ・イメージプレーンについて"
+msgstr "Sequentially numbered images on the image plane"
+
+#: ../../009_アニメーション.md:167
+msgid ""
+"Frames、またはLM Framesにチェックを入れた場合、Maya内のイメージプレーンに連番画像がセットされます。   "
+"連番画像をセットしたいカメラ・イメージプレーンの名前を「Settings/Maya/Camera」「Settings/Maya/ImagePlane」から設定してください。"
+msgstr ""
+
+#: ../../009_アニメーション.md:170
+msgid "デフォルトの設定は以下の通りです。"
+msgstr ""
+
+#: ../../009_アニメーション.md:172
+msgid "イメージプレーン → imagePlane1"
+msgstr ""
+
+#: ../../009_アニメーション.md:173
+msgid "カメラ → fcs_cam1"
+msgstr ""
+
+#: ../../009_アニメーション.md:175
+msgid "指定した名前のカメラ・イメージプレーンがシーン内に無い場合は新しく作成されます。   パイプラインに合わせてカメラの名前を随時設定してください。"
 msgstr ""
 
 #~ msgid ""
