@@ -12,7 +12,9 @@ In the scenario that the output animation does not look as desire, one way to im
 In this show case, 
 We selected 50 profiles from a base video as a baseline. 
 
+
+
 ### Gallery
 | Performance Video | Baseline (50 Profiles) | 
 | ------------- | ------------- |
-| <video src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/references/Gendou_normal_t01.mp4"> | <video src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/baselines/Gendou_normal_t01.mp4"> |
+| <video controls height="300"> <source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/references/Gendou_normal_t01.mp4" type="video/mp4"> </video> | <video controls height="300"> <source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/baselines/Gendou_normal_t01.mp4" type="video/mp4"> </video> | 
