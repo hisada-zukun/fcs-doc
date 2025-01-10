@@ -1,7 +1,17 @@
-# Benchmark
+# Benchmarks (WIP)
+This page contains a collection of benchmarks to showcase more practical aspects of FCS. 
+
+## Processing Profiles
+### Purpose
+FCS provides a selection of carefully crafted processing profiles. They are essentially algorithms that we developed to turn facial captures to character movements. In this benchmark we showcase the differences performance between different algorithms. 
+
+### Scenario Detail
+
+### Gallery
 
 
 
+## Profile Counts
 
 ### Purpose
 This page provides a showcase on the subject of improving the final animation quality by adding profiles from the video that you are processing. 
