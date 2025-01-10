@@ -24,4 +24,4 @@ msgstr "Content:"
 
 #: ../../index.rst:6
 msgid "FCSマニュアル"
-msgstr "FCS Manual"
+msgstr "FCS doc"
