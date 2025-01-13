@@ -1,8 +1,15 @@
 # Benchmarks (WIP)
 This page contains a collection of benchmarks to showcase more practical aspects of FCS. 
+This page serves a few purposes, first and more importantly is to set a realistic expectation regarding the amount of work you need to achieve the animation quality using our software. Second it should also gives you a more visual understanding of different algorithms that are implemented in FCS.  
+
+We reserve all right to all material, including images and videos used on this page. Please contact us if you were to use the material.   
+
+### List of benchmarks
+- [Processing Profiles](#processing-profiles)
+- [Challenging conditions](#challenging-conditions)
 
 ## Processing Profiles
-### Purpose
+### Background
 FCS provides a selection of carefully crafted processing profiles. They are essentially algorithms that we developed to turn facial captures to character movements. In this benchmark we showcase the differences performance between different algorithms. 
 
 ### Scenario Detail
@@ -11,18 +18,19 @@ FCS provides a selection of carefully crafted processing profiles. They are esse
 
 
 
-## Profile Counts
+## Challenging conditions
 
-### Purpose
-This page provides a showcase on the subject of improving the final animation quality by adding profiles from the video that you are processing. 
-In the scenario that the output animation does not look as desire, one way to improve the animation quality is to add profiles from within the video itself. 
-
+### Background
+In the case when you are processing videos that is heavily occluded, by facial hair and other external factors, our tracking will not work as well as it does. This is an area where we are actively working on, nonetheless, you can still improve the final quality of the animation by simply adding more profiles to the gallery. The most effective way to improve the animation quality of a particular video is to add more profiles from within the video itself. 
 
 ### Scenario Detail
-In this show case, We selected and rigged 50 profiles from the base video as a baseline. 
+In this show case, we selected and rigged 50 profiles from the [ROM video](https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/common/roms/nagaki_rom.mp4). The occluded region tends to produce less-than-ideal animation results. This can be mitigated by adding profiles from within the video. We showcases how the performance improve when you add a number of profiles. 
 
 
 ### Gallery
+<details>
+  <summary >Display gallery</summary>
+  
 | Performance Video | Baseline (50+0 Profiles) |
 | --------- | --------- |
 | <video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/common/challenging_reference_set/cheek_pull_both_t01.mp4" type="video/mp4"></video> |<video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/profile_counts/baseline/cheek_pull_both_t01.mp4" type="video/mp4"></video> |
@@ -42,3 +50,4 @@ In this show case, We selected and rigged 50 profiles from the base video as a b
 | <video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/common/challenging_reference_set/tobacco_disgyst_t01.mp4" type="video/mp4"></video> |<video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/profile_counts/baseline/tobacco_disgyst_t01.mp4" type="video/mp4"></video> |
 | <video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/common/challenging_reference_set/tobacco_normal_t03.mp4" type="video/mp4"></video> |<video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/profile_counts/baseline/tobacco_normal_t03.mp4" type="video/mp4"></video> |
 | <video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/common/challenging_reference_set/yubibue_normal_t01.mp4" type="video/mp4"></video> |<video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/profile_counts/baseline/yubibue_normal_t01.mp4" type="video/mp4"></video> |
+<details>
