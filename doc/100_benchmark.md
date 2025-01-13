@@ -3,16 +3,26 @@ This page contains a collection of benchmarks to showcase more practical aspects
 This page serves a few purposes, first and more importantly is to set a realistic expectation regarding the amount of work you need to achieve the animation quality using our software. Second it should also gives you a more visual understanding of different algorithms that are implemented in FCS.  
 
 We reserve all right to all material, including images and videos used on this page. Please contact us if you were to use the material.   
-
-### List of benchmarks
-- [Processing Profiles](#processing-profiles)
-- [Challenging conditions](#challenging-conditions)
+### Table of Contents
+- [Benchmarks (WIP)](#benchmarks-wip)
+    - [Table of Contents](#table-of-contents)
+  - [Processing Profiles](#processing-profiles)
+    - [Background](#background)
+    - [Scenario Detail](#scenario-detail)
+    - [Gallery](#gallery)
+  - [Challenging conditions](#challenging-conditions)
+    - [Background](#background-1)
+    - [Scenario Detail](#scenario-detail-1)
+    - [Gallery](#gallery-1)
+  - [Different Actors](#different-actors)
+    - [Background](#background-2)
 
 ## Processing Profiles
 ### Background
 FCS provides a selection of carefully crafted processing profiles. They are essentially algorithms that we developed to turn facial captures to character movements. In this benchmark we showcase the differences performance between different algorithms. 
 
 ### Scenario Detail
+
 
 ### Gallery
 
@@ -50,4 +60,9 @@ In this show case, we selected and rigged 50 profiles from the [ROM video](https
 | <video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/common/challenging_reference_set/tobacco_disgyst_t01.mp4" type="video/mp4"></video> |<video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/profile_counts/baseline/tobacco_disgyst_t01.mp4" type="video/mp4"></video> |
 | <video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/common/challenging_reference_set/tobacco_normal_t03.mp4" type="video/mp4"></video> |<video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/profile_counts/baseline/tobacco_normal_t03.mp4" type="video/mp4"></video> |
 | <video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/common/challenging_reference_set/yubibue_normal_t01.mp4" type="video/mp4"></video> |<video height="300" controls><source src="https://github.com/ZukunFCS/artifacts/raw/refs/heads/master/benchmarks/profile_counts/baseline/yubibue_normal_t01.mp4" type="video/mp4"></video> |
-<details>
+</details>
+
+## Different Actors
+### Background
+FCS expects you to use the one actor for one character in one session. But we also understand there is demand for a more one-size-fit-all that works across different actors. 
+
