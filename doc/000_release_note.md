@@ -1,4 +1,12 @@
 # Release Note
+## FCS 25.01.04
+- Date: 2025/01/10
+- Version: 25.01.04
+- Stage: Stable
+
+#### General
+1. Fixed a bug related to assigning new controller to a session
+
 ## FCS 25.01.03
 - Date: 2025/01/07
 - Version: 25.01.03
