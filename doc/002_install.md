@@ -21,3 +21,5 @@ FCSを使用するためには、ライセンスキーが必要です。
 また、一ヶ月無料のトライアルライセンスもご用意がございます。  
 [HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。  
 
+**ダウンロード**  
+インストーラーは[こちら](https://github.com/ZukunFCS/fcs-doc/releases)からダウンロードできます。
