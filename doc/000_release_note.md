@@ -1,6 +1,18 @@
 # Release Note
 [Download FCS](https://github.com/ZukunFCS/fcs-doc/releases)
 
+## FCS 25.01.05
+- Date: 2025/02/17
+- Version: 25.01.05
+- Stage: Beta
+
+#### General
+1. Fixed floating point FPS is set incorrectly as int with Maya
+2. Fixed a bug where batch processing stops in some system when processing a large amount of videos
+3. Added a selected video counter in the Batch process window 
+4. Fixed a bug where batch applying range values in Controller Info went to the wrong field
+5. Optimized the loading procedure when opening a session created in a previous version of FCS
+
 ## FCS 25.01.04
 - Date: 2025/01/10
 - Version: 25.01.04
