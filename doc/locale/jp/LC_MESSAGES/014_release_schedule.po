@@ -9,18 +9,19 @@ msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-28 16:14+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: jp\n"
+"PO-Revision-Date: 2025-02-24 10:33+0900\n"
+"Last-Translator: \n"
 "Language-Team: jp <LL@li.org>\n"
+"Language: jp\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
+"X-Generator: Poedit 3.5\n"
 
 #: ../../014_release_schedule.md:1
 msgid "Release Schedule"
-msgstr ""
+msgstr "リリーススケジュール"
 
 #: ../../014_release_schedule.md:2
 msgid ""
@@ -30,150 +31,155 @@ msgid ""
 "version will receive no update beside bug fixes that come as minor "
 "version updates (i.e., 24.07.02~)"
 msgstr ""
+"FCSは、1月、4月、7月、10月の各四半期にリリースされます。各メジャーバー"
+"ジョンは、スタンダード版の場合は3ヶ月間、LTS版（長期サポート版）の場合は1"
+"年間サポートされます。また、一度リリースされたメジャーバージョンには、バ"
+"グ修正のためのマイナーバージョンアップデート（例：24.07.02～）以外の更新"
+"は行われません。"
 
 #: ../../014_release_schedule.md:6
 msgid "Schedule"
-msgstr ""
+msgstr "スケジュール"
 
 #: ../../014_release_schedule.md:7
 msgid "Major Version"
-msgstr ""
+msgstr "メジャーバージョン"
 
 #: ../../014_release_schedule.md:7
 msgid "Timeframe"
-msgstr ""
+msgstr "タイムフレーム"
 
 #: ../../014_release_schedule.md:7
 msgid "Support period"
-msgstr ""
+msgstr "サポート期間"
 
 #: ../../014_release_schedule.md:7
 msgid "24.07 LTS"
-msgstr ""
+msgstr "24.07 LTS"
 
 #: ../../014_release_schedule.md:7
 msgid "2024/07"
-msgstr ""
+msgstr "2024/07"
 
 #: ../../014_release_schedule.md:7
 msgid "1 year"
-msgstr ""
+msgstr "1年"
 
 #: ../../014_release_schedule.md:7
 msgid "24.10"
-msgstr ""
+msgstr "24.10"
 
 #: ../../014_release_schedule.md:7
 msgid "2024/10"
-msgstr ""
+msgstr "2024/10"
 
 #: ../../014_release_schedule.md:7
 msgid "3 months"
-msgstr ""
+msgstr "３ヶ月"
 
 #: ../../014_release_schedule.md:7
 msgid "25.01 Preview"
-msgstr ""
+msgstr "25.01 プレビュー"
 
 #: ../../014_release_schedule.md:7
 msgid "2024/12"
-msgstr ""
+msgstr "2024/12"
 
 #: ../../014_release_schedule.md:7
 msgid "None"
-msgstr ""
+msgstr "なし"
 
 #: ../../014_release_schedule.md:7
 msgid "25.01"
-msgstr ""
+msgstr "25.01"
 
 #: ../../014_release_schedule.md:7
 msgid "2025/01"
-msgstr ""
+msgstr "2025/01"
 
 #: ../../014_release_schedule.md:7
 msgid "25.04 Preview"
-msgstr ""
+msgstr "25.04 プレビュー"
 
 #: ../../014_release_schedule.md:7
 msgid "2025/03"
-msgstr ""
+msgstr "2025/03"
 
 #: ../../014_release_schedule.md:7
 msgid "25.04"
-msgstr ""
+msgstr "25.04"
 
 #: ../../014_release_schedule.md:7
 msgid "2025/04"
-msgstr ""
+msgstr "2025/04"
 
 #: ../../014_release_schedule.md:7
 msgid "25.07 Preview"
-msgstr ""
+msgstr "25.07 プレビュー"
 
 #: ../../014_release_schedule.md:7
 msgid "2025/06"
-msgstr ""
+msgstr "2025/06"
 
 #: ../../014_release_schedule.md:7
 msgid "25.07 LTS"
-msgstr ""
+msgstr "25.07 LTS"
 
 #: ../../014_release_schedule.md:7
 msgid "2025/07"
-msgstr ""
+msgstr "2025/07"
 
 #: ../../014_release_schedule.md:7
 msgid "25.10 Preview"
-msgstr ""
+msgstr "25.10 Preview"
 
 #: ../../014_release_schedule.md:7
 msgid "25.10"
-msgstr ""
+msgstr "25.10"
 
 #: ../../014_release_schedule.md:7
 msgid "2025/10"
-msgstr ""
+msgstr "2025/10"
 
 #: ../../014_release_schedule.md:7
 msgid "26.01 Preview"
-msgstr ""
+msgstr "26.01 プレビュー"
 
 #: ../../014_release_schedule.md:7
 msgid "2025/12"
-msgstr ""
+msgstr "2025/12"
 
 #: ../../014_release_schedule.md:7
 msgid "26.01"
-msgstr ""
+msgstr "26.01"
 
 #: ../../014_release_schedule.md:7
 msgid "2026/01"
-msgstr ""
+msgstr "2026/01"
 
 #: ../../014_release_schedule.md:7
 msgid "26.04 Preview"
-msgstr ""
+msgstr "26.04 Preview"
 
 #: ../../014_release_schedule.md:7
 msgid "2026/03"
-msgstr ""
+msgstr "2026/03"
 
 #: ../../014_release_schedule.md:7
 msgid "26.04"
-msgstr ""
+msgstr "26.04"
 
 #: ../../014_release_schedule.md:7
 msgid "2026/04"
-msgstr ""
+msgstr "2026/04"
 
 #: ../../014_release_schedule.md:29
 msgid "Upgrading FCS"
-msgstr ""
+msgstr "FCSのアップグレード"
 
 #: ../../014_release_schedule.md:30
 msgid "Standard vs LTS vs Preview"
-msgstr ""
+msgstr "スタンダード版 vs LTS版 vs プレビュー版"
 
 #: ../../014_release_schedule.md:31
 msgid ""
@@ -190,38 +196,59 @@ msgid ""
 "preview if and only if you some specific features and you understand the "
 "risk."
 msgstr ""
+"Standard版とLTS版の主な違いはサポート期間にあり、Standard版は3ヶ月間、LTS"
+"版は1年間サポートされます。サポート期間中、クリティカルなバグが修正され次"
+"第、迅速にアップデートとしてリリースされます。もし、現在サポート中のLTS版"
+"がすべての要件を満たしており、かつプロジェクトの期間がStandard版のサポー"
+"ト期間を超える場合は、LTS版の利用が推奨されます。Preview版は、新しいFCS"
+"バージョンの今後の機能を先取りできるとともに、開発者へフィードバックを行"
+"う機会を提供します。この版では、非クリティカルなバグ修正が含まれ、常に変"
+"更が加えられるため、サポートは保証されません。そのため、データのバック"
+"アップを行わずにPreview版を使用することは避けてください。特定の機能が必要"
+"であり、そのリスクを十分に理解している場合にのみ、Preview版の使用を検討し"
+"てください。"
 
 #: ../../014_release_schedule.md:36
 msgid "Compatibility"
-msgstr ""
+msgstr "互換性"
 
 #: ../../014_release_schedule.md:37
 msgid ""
 "FCS Sessions are forward compatible unless explicit noted otherwise, "
-"however backward compatibility is not always guaranteed especially across"
-" major version (e.g., 24.07, 24.10). That means, you can open FCS "
-"sessions created in a previous version of FCS with newer versions of FCS."
-" However, once opened in a newer version, you might not be able to open "
-"the session in an older version of FCS anymore. Hence it is critical for "
-"you to backup your files before moving to a newer version of FCS.  We try"
-" to keep session backward compatible as much as possible within a major "
-"version (e.g., across 24.07.01~24.07.10) however there is no guarantee.  "
-"In case of using the same FCS session with others, it is critical for you"
-" to ensure that your team use the same minor version of FCS."
+"however backward compatibility is not always guaranteed especially "
+"across major version (e.g., 24.07, 24.10). That means, you can open FCS "
+"sessions created in a previous version of FCS with newer versions of "
+"FCS. However, once opened in a newer version, you might not be able to "
+"open the session in an older version of FCS anymore. Hence it is "
+"critical for you to backup your files before moving to a newer version "
+"of FCS.  We try to keep session backward compatible as much as possible "
+"within a major version (e.g., across 24.07.01~24.07.10) however there is "
+"no guarantee.  In case of using the same FCS session with others, it is "
+"critical for you to ensure that your team use the same minor version of "
+"FCS."
 msgstr ""
+"FCSセッションは、特に注意事項が記載されていない限り、フォワード互換性があ"
+"ります。しかし、特にメジャーバージョン間（例：24.07 と 24.10）では、後方"
+"互換性が必ずしも保証されるわけではありません。 以前のFCSバージョンで作成"
+"されたセッションは新しいバージョンのFCSで開くことができますが、一度新しい"
+"バージョンで開いたセッションは、古いバージョンでは再び開けなくなる可能性"
+"があります。そのため、新しいバージョンに移行する前に、必ずファイルのバッ"
+"クアップを取るようにしてください。同一メジャーバージョン内（例：24.07.01"
+"～24.07.10）では、できる限り後方互換性を維持するよう努めていますが、必ず"
+"しも保証されるものではありません。また、複数のユーザーで同じFCSセッション"
+"を利用する場合は、チーム全体で同じマイナーバージョンのFCSを使用することを"
+"推奨します。"
 
 #: ../../014_release_schedule.md:41
 msgid "Steps to upgrade"
-msgstr ""
+msgstr "アップグレード手順"
 
 #: ../../014_release_schedule.md:42
 msgid "[Export your data](#export-header-target)."
-msgstr ""
+msgstr "[Export your data](#export-header-target)."
 
 #: ../../014_release_schedule.md:43
 msgid "Open the exported data using the newly downloaded version of FCS."
 msgstr ""
-
-#~ msgid "```{figure} images/fcs_release_timeline.jp"
-#~ msgstr ""
-
+"新しくダウンロードしたFCSのバージョンを使用し、エクスポートされたデータを"
+"開いてください。"
