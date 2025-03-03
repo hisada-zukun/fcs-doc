@@ -8,366 +8,429 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-01-27 05:39+0000\n"
+"POT-Creation-Date: 2025-03-03 02:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.16.0\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: ../../000_release_note.md:1
 msgid "Release Note"
 msgstr ""
 
 #: ../../000_release_note.md:2
-msgid "FCS 25.01.03"
-msgstr ""
-
-#: ../../000_release_note.md:3
-msgid "Date: 2025/01/07"
+msgid "[Download FCS](https://github.com/ZukunFCS/fcs-doc/releases)"
 msgstr ""
 
 #: ../../000_release_note.md:4
-msgid "Version: 25.01.03"
+msgid "FCS 25.01.05"
 msgstr ""
 
 #: ../../000_release_note.md:5
-msgid "Stage: Stable"
+msgid "Date: 2025/02/17"
 msgstr ""
 
-#: ../../000_release_note.md:7 ../../000_release_note.md:18
-#: ../../000_release_note.md:36
+#: ../../000_release_note.md:6
+msgid "Version: 25.01.05"
+msgstr ""
+
+#: ../../000_release_note.md:7
+msgid "Stage: Beta"
+msgstr ""
+
+#: ../../000_release_note.md:9 ../../000_release_note.md:21
+#: ../../000_release_note.md:29 ../../000_release_note.md:40
+#: ../../000_release_note.md:58
 msgid "General"
 msgstr ""
 
-#: ../../000_release_note.md:8
+#: ../../000_release_note.md:10
+msgid "Fixed floating point FPS is set incorrectly as int with Maya"
+msgstr ""
+
+#: ../../000_release_note.md:11
+msgid ""
+"Fixed a bug where batch processing stops in some system when processing a"
+" large amount of videos"
+msgstr ""
+
+#: ../../000_release_note.md:12
+msgid "Added a selected video counter in the Batch process window"
+msgstr ""
+
+#: ../../000_release_note.md:13
+msgid ""
+"Fixed a bug where batch applying range values in Controller Info went to "
+"the wrong field"
+msgstr ""
+
+#: ../../000_release_note.md:14
+msgid ""
+"Optimized the loading procedure when opening a session created in a "
+"previous version of FCS"
+msgstr ""
+
+#: ../../000_release_note.md:16
+msgid "FCS 25.01.04"
+msgstr ""
+
+#: ../../000_release_note.md:17
+msgid "Date: 2025/01/10"
+msgstr ""
+
+#: ../../000_release_note.md:18
+msgid "Version: 25.01.04"
+msgstr ""
+
+#: ../../000_release_note.md:19 ../../000_release_note.md:27
+msgid "Stage: Stable"
+msgstr ""
+
+#: ../../000_release_note.md:22
+msgid "Fixed a bug related to assigning new controller to a session"
+msgstr ""
+
+#: ../../000_release_note.md:24
+msgid "FCS 25.01.03"
+msgstr ""
+
+#: ../../000_release_note.md:25
+msgid "Date: 2025/01/07"
+msgstr ""
+
+#: ../../000_release_note.md:26
+msgid "Version: 25.01.03"
+msgstr ""
+
+#: ../../000_release_note.md:30
 msgid "Added indicator for right-clickable menu items"
 msgstr ""
 
-#: ../../000_release_note.md:9
+#: ../../000_release_note.md:31
 msgid "Fixed bug that leads to slower session loading"
 msgstr ""
 
-#: ../../000_release_note.md:10
+#: ../../000_release_note.md:32
 msgid ""
 "Fixed bug where Maya animation is not deleted outside the current "
 "timeline range"
 msgstr ""
 
-#: ../../000_release_note.md:11
+#: ../../000_release_note.md:33
 msgid ""
 "Fixed bug where processing video could lead to crashing in some race "
 "condition"
 msgstr ""
 
-#: ../../000_release_note.md:13
+#: ../../000_release_note.md:35
 msgid "FCS 25.01.02"
 msgstr ""
 
-#: ../../000_release_note.md:14
+#: ../../000_release_note.md:36
 msgid "Date: 2024/12/16"
 msgstr ""
 
-#: ../../000_release_note.md:15
+#: ../../000_release_note.md:37
 msgid "Version: 25.01.02"
 msgstr ""
 
-#: ../../000_release_note.md:16 ../../000_release_note.md:30
+#: ../../000_release_note.md:38 ../../000_release_note.md:52
 msgid "Stage: Preview"
 msgstr ""
 
-#: ../../000_release_note.md:19
+#: ../../000_release_note.md:41
 msgid "Made gallery filter case insensitive"
 msgstr ""
 
-#: ../../000_release_note.md:20
+#: ../../000_release_note.md:42
 msgid "Fixed reset in Editor"
 msgstr ""
 
-#: ../../000_release_note.md:21
+#: ../../000_release_note.md:43
 msgid "Fixed UI for batch editing in Gallery"
 msgstr ""
 
-#: ../../000_release_note.md:22
+#: ../../000_release_note.md:44
 msgid "Fixed Maya controller selection issue"
 msgstr ""
 
-#: ../../000_release_note.md:23
+#: ../../000_release_note.md:45
 msgid "Fixed videos opening to single click to double click"
 msgstr ""
 
-#: ../../000_release_note.md:24
+#: ../../000_release_note.md:46
 msgid "Other backend fixes"
 msgstr ""
 
-#: ../../000_release_note.md:27
+#: ../../000_release_note.md:49
 msgid "FCS 25.01.01"
 msgstr ""
 
-#: ../../000_release_note.md:28
+#: ../../000_release_note.md:50
 msgid "Date: 2024/12/01"
 msgstr ""
 
-#: ../../000_release_note.md:29
+#: ../../000_release_note.md:51
 msgid "Version: 25.01.01"
 msgstr ""
 
-#: ../../000_release_note.md:32
+#: ../../000_release_note.md:54
 msgid "！Cannot be downgraded！"
 msgstr ""
 
-#: ../../000_release_note.md:33
+#: ../../000_release_note.md:55
 msgid ""
 "Session opened in 25.01 will not competitable with previous version of "
 "FCS.  As usual, please backup before you upgrade your existing session."
 msgstr ""
 
-#: ../../000_release_note.md:37
+#: ../../000_release_note.md:59
 msgid "Added minor version in the app title bar"
 msgstr ""
 
-#: ../../000_release_note.md:38
+#: ../../000_release_note.md:60
 msgid "Optimized the startup process so it should now be slightly faster"
 msgstr ""
 
-#: ../../000_release_note.md:39
+#: ../../000_release_note.md:61
 msgid "Fixed an error that prevent the third party licenses from loading"
 msgstr ""
 
-#: ../../000_release_note.md:40
+#: ../../000_release_note.md:62
 msgid "Fixed a bug where the right click menu goes outside the screen"
 msgstr ""
 
-#: ../../000_release_note.md:41
+#: ../../000_release_note.md:63
 msgid "Removed custom animations for better performance"
 msgstr ""
 
-#: ../../000_release_note.md:42
+#: ../../000_release_note.md:64
 msgid ""
 "Added a new feature to allow opening a different session even when one is"
 " already open (we just restart the app for you, a more permanent solution"
 " is in discussion)"
 msgstr ""
 
-#: ../../000_release_note.md:43
+#: ../../000_release_note.md:65
 msgid ""
 "Improved the shortcut key handling so when a key is released the function"
 " will stop in the next frame"
 msgstr ""
 
-#: ../../000_release_note.md:44
+#: ../../000_release_note.md:66
 msgid "Added command line launch options"
 msgstr ""
 
-#: ../../000_release_note.md:45
+#: ../../000_release_note.md:67
 msgid "--session: Open a session file (.yaml) after launch"
 msgstr ""
 
-#: ../../000_release_note.md:46
+#: ../../000_release_note.md:68
 msgid ""
 "--maya_command_port: Use a different Maya Command Port instead of the one"
 " specified in Settings"
 msgstr ""
 
-#: ../../000_release_note.md:47
+#: ../../000_release_note.md:69
 msgid "Added User Tag for Profile tagging"
 msgstr ""
 
-#: ../../000_release_note.md:48
+#: ../../000_release_note.md:70
 msgid "Added Video Rotation Support"
 msgstr ""
 
-#: ../../000_release_note.md:50
+#: ../../000_release_note.md:72
 msgid "Controller"
 msgstr ""
 
-#: ../../000_release_note.md:51
+#: ../../000_release_note.md:73
 msgid ""
 "Newly added controllers will have their checkboxes checked so it is "
 "easier if you want to immediately assign a value/region to them."
 msgstr ""
 
-#: ../../000_release_note.md:52
+#: ../../000_release_note.md:74
 msgid ""
 "Rearrange controller is set to disabled by default, you can still "
 "rearrange them if you check the box under Advanced/Rearrange."
 msgstr ""
 
-#: ../../000_release_note.md:53
+#: ../../000_release_note.md:75
 msgid ""
 "Checking the box for controller is now easier, you can left click on the "
 "controller name."
 msgstr ""
 
-#: ../../000_release_note.md:54
+#: ../../000_release_note.md:76
 msgid ""
 "Added validation when trying to save the table, you can no longer save a "
 "table with null region."
 msgstr ""
 
-#: ../../000_release_note.md:55
+#: ../../000_release_note.md:77
 msgid ""
 "Added Value Set so you can change the value of all checked controllers at"
 " once."
 msgstr ""
 
-#: ../../000_release_note.md:57
+#: ../../000_release_note.md:79
 msgid "Creating Session"
 msgstr ""
 
-#: ../../000_release_note.md:58
+#: ../../000_release_note.md:80
 msgid "Hid the loading indicator when the task is in fact done."
 msgstr ""
 
-#: ../../000_release_note.md:59
+#: ../../000_release_note.md:81
 msgid ""
 "Added a feature to automatically fill in Maya base if the workspace.mel "
 "file is found nearby."
 msgstr ""
 
-#: ../../000_release_note.md:61
+#: ../../000_release_note.md:83
 msgid "Maya"
 msgstr ""
 
-#: ../../000_release_note.md:62
+#: ../../000_release_note.md:84
 msgid ""
 "Fixed a bug where not connectable attributes will also be added to "
 "Controller"
 msgstr ""
 
-#: ../../000_release_note.md:64
+#: ../../000_release_note.md:86
 msgid "Timeline"
 msgstr ""
 
-#: ../../000_release_note.md:65
+#: ../../000_release_note.md:87
 msgid ""
 "Fixed a bug where the timeline is not set on Maya side even when Sync is "
 "set to ON."
 msgstr ""
 
-#: ../../000_release_note.md:66
+#: ../../000_release_note.md:88
 msgid ""
 "Fixed a bug where the timeline will still be dragged around even when "
 "dragging outside the timeline."
 msgstr ""
 
-#: ../../000_release_note.md:67
+#: ../../000_release_note.md:89
 msgid "Added a snapping flag to disable snapping"
 msgstr ""
 
-#: ../../000_release_note.md:69
+#: ../../000_release_note.md:91
 msgid "Videos"
 msgstr ""
 
-#: ../../000_release_note.md:70
+#: ../../000_release_note.md:92
 msgid ""
 "Video Processing will now give you a progress bar so you know much longer"
 " it would take."
 msgstr ""
 
-#: ../../000_release_note.md:71
+#: ../../000_release_note.md:93
 msgid ""
 "Fixed a bug when trying to open a video that is invalid (file missing) "
 "crashes the app"
 msgstr ""
 
-#: ../../000_release_note.md:72
+#: ../../000_release_note.md:94
 msgid "Added a feature that allow rotation when importing the video"
 msgstr ""
 
-#: ../../000_release_note.md:73
+#: ../../000_release_note.md:95
 msgid ""
 "Note this rotation happens dynamically, so your original video file is "
 "never altered and no extra disk space will be taken up, but in turn, it "
 "would be more demanding for your local machine to decode on the fly."
 msgstr ""
 
-#: ../../000_release_note.md:74
+#: ../../000_release_note.md:96
 msgid "Changed the behaviour of opening video from single click to double click"
 msgstr ""
 
-#: ../../000_release_note.md:75
+#: ../../000_release_note.md:97
 msgid ""
 "Added a feature that allows you to rotate the video when you import the "
 "video"
 msgstr ""
 
-#: ../../000_release_note.md:77
+#: ../../000_release_note.md:99
 msgid "Solver"
 msgstr ""
 
-#: ../../000_release_note.md:78
+#: ../../000_release_note.md:100
 msgid ""
 "Added a reminder if you try to export a solver for FCSRT but do not have "
 "a solver object yet, you can train one by clicking the button next to it."
 msgstr ""
 
-#: ../../000_release_note.md:79
+#: ../../000_release_note.md:101
 msgid ""
 "Added a new face tracker option for more robust (but less rich) tracking,"
 " more oriented for real-time tracker."
 msgstr ""
 
-#: ../../000_release_note.md:82
+#: ../../000_release_note.md:104
 msgid "Gallery"
 msgstr ""
 
-#: ../../000_release_note.md:83
+#: ../../000_release_note.md:105
 msgid "Added a checkbox to hide the tooltip"
 msgstr ""
 
-#: ../../000_release_note.md:84
+#: ../../000_release_note.md:106
 msgid "Changed the behaviour of predict to only apply to enabled region(s)"
 msgstr ""
 
-#: ../../000_release_note.md:85
+#: ../../000_release_note.md:107
 msgid "Added a filter support based on Tag"
 msgstr ""
 
-#: ../../000_release_note.md:86
+#: ../../000_release_note.md:108
 msgid "Added Confident Sort"
 msgstr ""
 
-#: ../../000_release_note.md:87
+#: ../../000_release_note.md:109
 msgid ""
 "You can now sort your profiles based on how closely it matches the "
 "algorithm prediction, this is useful for debugging when you are trying to"
 " figure out whether you mistakenly created something wrong."
 msgstr ""
 
-#: ../../000_release_note.md:89
+#: ../../000_release_note.md:111
 msgid "Editor"
 msgstr ""
 
-#: ../../000_release_note.md:90
+#: ../../000_release_note.md:112
 msgid "Add User Tag support"
 msgstr ""
 
-#: ../../000_release_note.md:91
+#: ../../000_release_note.md:113
 msgid "You can add/remove custom tag for profile"
 msgstr ""
 
-#: ../../000_release_note.md:92
+#: ../../000_release_note.md:114
 msgid ""
 "You can also add default tags that will be automatically applied to newly"
 " created profiles"
 msgstr ""
 
-#: ../../000_release_note.md:93
+#: ../../000_release_note.md:115
 msgid "Controller value in disabled region(s) will be excluded from"
 msgstr ""
 
-#: ../../000_release_note.md:94
+#: ../../000_release_note.md:116
 msgid "From Maya"
 msgstr ""
 
-#: ../../000_release_note.md:95
+#: ../../000_release_note.md:117
 msgid "To Maya"
 msgstr ""
 
-#: ../../000_release_note.md:96
+#: ../../000_release_note.md:118
 msgid "Predict"
 msgstr ""
 
