@@ -9,14 +9,15 @@ msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 05:39+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: jp\n"
+"PO-Revision-Date: 2025-02-24 09:53+0900\n"
+"Last-Translator: \n"
 "Language-Team: jp <LL@li.org>\n"
+"Language: jp\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
+"X-Generator: Poedit 3.5\n"
 
 #: ../../000_release_note.md:1
 msgid "Release Note"
@@ -24,7 +25,7 @@ msgstr "リリースノート"
 
 #: ../../000_release_note.md:2
 msgid "FCS 25.01.03"
-msgstr ""
+msgstr "FCS 25.01.03"
 
 #: ../../000_release_note.md:3
 #, fuzzy
@@ -40,34 +41,29 @@ msgstr "バージョン: 24.10.09"
 msgid "Stage: Stable"
 msgstr "ステージ：Stable"
 
-#: ../../000_release_note.md:7 ../../000_release_note.md:18
-#: ../../000_release_note.md:36
+#: ../../000_release_note.md:7 ../../000_release_note.md:18 ../../000_release_note.md:36
 msgid "General"
-msgstr ""
+msgstr "一般"
 
 #: ../../000_release_note.md:8
 msgid "Added indicator for right-clickable menu items"
-msgstr ""
+msgstr "右クリックで操作できるメニュー項目に、インジケーターを追加しました。"
 
 #: ../../000_release_note.md:9
 msgid "Fixed bug that leads to slower session loading"
-msgstr ""
+msgstr "セッションの読み込みが遅くなるバグを修正しました。"
 
 #: ../../000_release_note.md:10
-msgid ""
-"Fixed bug where Maya animation is not deleted outside the current "
-"timeline range"
-msgstr ""
+msgid "Fixed bug where Maya animation is not deleted outside the current timeline range"
+msgstr "現在のタイムライン範囲外のMayaアニメーションが削除されないバグを修正しました。"
 
 #: ../../000_release_note.md:11
-msgid ""
-"Fixed bug where processing video could lead to crashing in some race "
-"condition"
-msgstr ""
+msgid "Fixed bug where processing video could lead to crashing in some race condition"
+msgstr "ビデオ処理中に特定のレースコンディションが発生し、クラッシュにつながるバグを修正しました。"
 
 #: ../../000_release_note.md:13
 msgid "FCS 25.01.02"
-msgstr ""
+msgstr "FCS 25.01.02"
 
 #: ../../000_release_note.md:14
 #, fuzzy
@@ -86,32 +82,31 @@ msgstr "Profile保存"
 
 #: ../../000_release_note.md:19
 msgid "Made gallery filter case insensitive"
-msgstr ""
+msgstr "ギャラリーフィルターを大文字・小文字を区別しない仕様にしました。"
 
 #: ../../000_release_note.md:20
 msgid "Fixed reset in Editor"
-msgstr ""
+msgstr "エディタのリセット機能のバグを修正しました。"
 
 #: ../../000_release_note.md:21
 msgid "Fixed UI for batch editing in Gallery"
-msgstr ""
+msgstr "ギャラリーの一括編集用UIを修正しました。"
 
 #: ../../000_release_note.md:22
-#, fuzzy
 msgid "Fixed Maya controller selection issue"
-msgstr "インストーラ修正"
+msgstr "Mayaのコントローラー選択に関する不具合を修正しました。"
 
 #: ../../000_release_note.md:23
 msgid "Fixed videos opening to single click to double click"
-msgstr ""
+msgstr "動画をシングルクリックで開く仕様から、ダブルクリックで開く仕様に修正しました。"
 
 #: ../../000_release_note.md:24
 msgid "Other backend fixes"
-msgstr ""
+msgstr "その他のバックエンドに関する不具合を修正しました。"
 
 #: ../../000_release_note.md:27
 msgid "FCS 25.01.01"
-msgstr ""
+msgstr "FCS 25.01.01"
 
 #: ../../000_release_note.md:28
 #, fuzzy
@@ -130,60 +125,59 @@ msgstr "！ダウングレードできません！"
 
 #: ../../000_release_note.md:33
 msgid ""
-"Session opened in 25.01 will not competitable with previous version of "
-"FCS.  As usual, please backup before you upgrade your existing session."
+"Session opened in 25.01 will not competitable with previous version of FCS.  As usual, please backup before you upgrade "
+"your existing session."
 msgstr ""
+"FCS 25.01で開いたセッションは、以前のバージョンとの互換性がありません。 既存のセッションをアップグレードする前に必ずバック"
+"アップを取ってください。"
 
 #: ../../000_release_note.md:37
 msgid "Added minor version in the app title bar"
-msgstr ""
+msgstr "アプリのタイトルバーにマイナーバージョン番号を表示するようにしました。"
 
 #: ../../000_release_note.md:38
 msgid "Optimized the startup process so it should now be slightly faster"
-msgstr ""
+msgstr "スタートアッププロセスを最適化し、起動が若干速くなりました。"
 
 #: ../../000_release_note.md:39
 msgid "Fixed an error that prevent the third party licenses from loading"
-msgstr ""
+msgstr "サードパーティライセンスが読み込まれない不具合を修正しました。"
 
 #: ../../000_release_note.md:40
 msgid "Fixed a bug where the right click menu goes outside the screen"
-msgstr ""
+msgstr "右クリックメニューが画面外に表示されるバグを修正しました。"
 
 #: ../../000_release_note.md:41
 msgid "Removed custom animations for better performance"
-msgstr ""
+msgstr "パフォーマンス向上のため、カスタムアニメーションを削除しました。"
 
 #: ../../000_release_note.md:42
 msgid ""
-"Added a new feature to allow opening a different session even when one is"
-" already open (we just restart the app for you, a more permanent solution"
-" is in discussion)"
+"Added a new feature to allow opening a different session even when one is already open (we just restart the app for you, "
+"a more permanent solution is in discussion)"
 msgstr ""
+"既にセッションが開かれている場合でも、別のセッションを開ける新機能を追加しました。（現状では、アプリを再起動することで対応"
+"していますが、より恒久的な解決策は現在検討中です。）"
 
 #: ../../000_release_note.md:43
-msgid ""
-"Improved the shortcut key handling so when a key is released the function"
-" will stop in the next frame"
-msgstr ""
+msgid "Improved the shortcut key handling so when a key is released the function will stop in the next frame"
+msgstr "ショートカットキーの処理を改善し、キーを離すと次のフレームでその機能が停止するようになりました。"
 
 #: ../../000_release_note.md:44
 msgid "Added command line launch options"
-msgstr ""
+msgstr "コマンドライン起動オプションを追加しました。"
 
 #: ../../000_release_note.md:45
 msgid "--session: Open a session file (.yaml) after launch"
-msgstr ""
+msgstr "—session: 起動後にセッションファイル (.yaml) を開きます。"
 
 #: ../../000_release_note.md:46
-msgid ""
-"--maya_command_port: Use a different Maya Command Port instead of the one"
-" specified in Settings"
-msgstr ""
+msgid "--maya_command_port: Use a different Maya Command Port instead of the one specified in Settings"
+msgstr "—maya_command_port: 設定で指定されたものではなく、別の Maya のコマンドポートを使用します。"
 
 #: ../../000_release_note.md:47
 msgid "Added User Tag for Profile tagging"
-msgstr ""
+msgstr "プロフィールのタグ付け用に、ユーザータグを追加しました。"
 
 #: ../../000_release_note.md:48
 #, fuzzy
@@ -197,131 +191,119 @@ msgstr "インストーラー"
 
 #: ../../000_release_note.md:51
 msgid ""
-"Newly added controllers will have their checkboxes checked so it is "
-"easier if you want to immediately assign a value/region to them."
+"Newly added controllers will have their checkboxes checked so it is easier if you want to immediately assign a value/"
+"region to them."
 msgstr ""
+"新規に追加されたコントローラーは、初期状態でチェックボックスがオンになっています。すぐに値やリージョンを割り当てる際に便利"
+"です。"
 
 #: ../../000_release_note.md:52
 msgid ""
-"Rearrange controller is set to disabled by default, you can still "
-"rearrange them if you check the box under Advanced/Rearrange."
+"Rearrange controller is set to disabled by default, you can still rearrange them if you check the box under Advanced/"
+"Rearrange."
 msgstr ""
+"コントローラーの並べ替え機能は、デフォルトでは無効になっていますが、詳細設定の「並べ替え」チェックボックスにチェックを入れ"
+"ると、並べ替えを行うことができます。"
 
 #: ../../000_release_note.md:53
-msgid ""
-"Checking the box for controller is now easier, you can left click on the "
-"controller name."
+msgid "Checking the box for controller is now easier, you can left click on the controller name."
 msgstr ""
+"コントローラーのチェックボックス操作がより簡単になりました。コントローラー名を左クリックすると、チェックを入れることができ"
+"ます。"
 
 #: ../../000_release_note.md:54
-msgid ""
-"Added validation when trying to save the table, you can no longer save a "
-"table with null region."
-msgstr ""
+msgid "Added validation when trying to save the table, you can no longer save a table with null region."
+msgstr "テーブルを保存する際の検証機能を追加し、領域が未設定のテーブルは保存できなくなりました。"
 
 #: ../../000_release_note.md:55
-msgid ""
-"Added Value Set so you can change the value of all checked controllers at"
-" once."
-msgstr ""
+msgid "Added Value Set so you can change the value of all checked controllers at once."
+msgstr "チェック済みのすべてのコントローラーの値を一括で変更できる、Value Set機能を追加しました。"
 
 #: ../../000_release_note.md:57
 msgid "Creating Session"
-msgstr ""
+msgstr "セッション作成"
 
 #: ../../000_release_note.md:58
 msgid "Hid the loading indicator when the task is in fact done."
-msgstr ""
+msgstr "タスクが完了した際に、読み込みインジケーターを非表示にしました。"
 
 #: ../../000_release_note.md:59
-msgid ""
-"Added a feature to automatically fill in Maya base if the workspace.mel "
-"file is found nearby."
-msgstr ""
+msgid "Added a feature to automatically fill in Maya base if the workspace.mel file is found nearby."
+msgstr "workspace.melファイルが近くに見つかった場合に、Mayaベースに自動入力される機能を追加しました。"
 
 #: ../../000_release_note.md:61
 msgid "Maya"
-msgstr ""
+msgstr "Maya"
 
 #: ../../000_release_note.md:62
-msgid ""
-"Fixed a bug where not connectable attributes will also be added to "
-"Controller"
-msgstr ""
+msgid "Fixed a bug where not connectable attributes will also be added to Controller"
+msgstr "接続不可能な属性がコントローラーに追加されてしまう不具合を修正しました。"
 
 #: ../../000_release_note.md:64
 msgid "Timeline"
-msgstr ""
+msgstr "タイムライン"
 
 #: ../../000_release_note.md:65
-#, fuzzy
-msgid ""
-"Fixed a bug where the timeline is not set on Maya side even when Sync is "
-"set to ON."
-msgstr "「To Maya」がONになっているにもかかわらず、Predict結果がMayaに送信されない問題を修正しました"
+msgid "Fixed a bug where the timeline is not set on Maya side even when Sync is set to ON."
+msgstr "「To Maya」がONになっているにもかかわらず、Predict結果がMayaに送信されない問題を修正しました。"
 
 #: ../../000_release_note.md:66
-msgid ""
-"Fixed a bug where the timeline will still be dragged around even when "
-"dragging outside the timeline."
-msgstr ""
+msgid "Fixed a bug where the timeline will still be dragged around even when dragging outside the timeline."
+msgstr "タイムラインの外側でドラッグしても、タイムラインが動いてしまうバグを修正しました。"
 
 #: ../../000_release_note.md:67
 msgid "Added a snapping flag to disable snapping"
-msgstr ""
+msgstr "スナップ機能を無効にするためのフラグを追加しました。"
 
 #: ../../000_release_note.md:69
 msgid "Videos"
-msgstr ""
+msgstr "動画"
 
 #: ../../000_release_note.md:70
-msgid ""
-"Video Processing will now give you a progress bar so you know much longer"
-" it would take."
-msgstr ""
+msgid "Video Processing will now give you a progress bar so you know much longer it would take."
+msgstr "ビデオ処理時に、処理が完了するまでの残り時間がわかる進捗バーが表示されるようになりました。"
 
 #: ../../000_release_note.md:71
-msgid ""
-"Fixed a bug when trying to open a video that is invalid (file missing) "
-"crashes the app"
-msgstr ""
+msgid "Fixed a bug when trying to open a video that is invalid (file missing) crashes the app"
+msgstr "ファイルが存在しないなど無効なビデオを開こうとした際に、アプリがクラッシュする不具合を修正しました。"
 
 #: ../../000_release_note.md:72
 msgid "Added a feature that allow rotation when importing the video"
-msgstr ""
+msgstr "動画のインポート時に回転ができる機能を追加しました。"
 
 #: ../../000_release_note.md:73
 msgid ""
-"Note this rotation happens dynamically, so your original video file is "
-"never altered and no extra disk space will be taken up, but in turn, it "
-"would be more demanding for your local machine to decode on the fly."
+"Note this rotation happens dynamically, so your original video file is never altered and no extra disk space will be "
+"taken up, but in turn, it would be more demanding for your local machine to decode on the fly."
 msgstr ""
+"この回転処理は動的に行われるため、元の動画ファイル自体は変更されず、追加のディスク容量も必要ありません。しかし、ローカルマ"
+"シンでのリアルタイムデコードにより負荷がかかる可能性があります。"
 
 #: ../../000_release_note.md:74
 msgid "Changed the behaviour of opening video from single click to double click"
-msgstr ""
+msgstr "ビデオを開く操作を、シングルクリックからダブルクリックに変更しました。"
 
 #: ../../000_release_note.md:75
-msgid ""
-"Added a feature that allows you to rotate the video when you import the "
-"video"
-msgstr ""
+msgid "Added a feature that allows you to rotate the video when you import the video"
+msgstr "動画のインポート時に回転できる機能を追加しました。"
 
 #: ../../000_release_note.md:77
 msgid "Solver"
-msgstr ""
+msgstr "ソルバー"
 
 #: ../../000_release_note.md:78
 msgid ""
-"Added a reminder if you try to export a solver for FCSRT but do not have "
-"a solver object yet, you can train one by clicking the button next to it."
+"Added a reminder if you try to export a solver for FCSRT but do not have a solver object yet, you can train one by "
+"clicking the button next to it."
 msgstr ""
+"FCSRT用のソルバーをエクスポートしようとした際にソルバーオブジェクトが存在しない場合は、隣のボタンをクリックしてトレーニン"
+"グできるというリマインダーを追加しました。"
 
 #: ../../000_release_note.md:79
-msgid ""
-"Added a new face tracker option for more robust (but less rich) tracking,"
-" more oriented for real-time tracker."
+msgid "Added a new face tracker option for more robust (but less rich) tracking, more oriented for real-time tracker."
 msgstr ""
+"安定性が高くリアルタイムトラッキング向けに最適化された新しい顔トラッカーオプション（その代わり情報量は少なめ）を追加しまし"
+"た。"
 
 #: ../../000_release_note.md:82
 #, fuzzy
@@ -330,70 +312,59 @@ msgstr "インストーラー"
 
 #: ../../000_release_note.md:83
 msgid "Added a checkbox to hide the tooltip"
-msgstr ""
+msgstr "ツールチップを非表示にするためのチェックボックスを追加しました。"
 
 #: ../../000_release_note.md:84
 msgid "Changed the behaviour of predict to only apply to enabled region(s)"
-msgstr ""
+msgstr "予測機能の動作を、オンになっている領域のみに適用するよう変更しました。"
 
 #: ../../000_release_note.md:85
 msgid "Added a filter support based on Tag"
-msgstr ""
+msgstr "タグに基づくフィルター機能を追加しました。"
 
 #: ../../000_release_note.md:86
-#, fuzzy
 msgid "Added Confident Sort"
-msgstr "インストーラが日本語・英語両方に対応しました"
+msgstr "日本語・英語両方に対応するインストーラを追加しました。"
 
 #: ../../000_release_note.md:87
 msgid ""
-"You can now sort your profiles based on how closely it matches the "
-"algorithm prediction, this is useful for debugging when you are trying to"
-" figure out whether you mistakenly created something wrong."
+"You can now sort your profiles based on how closely it matches the algorithm prediction, this is useful for debugging "
+"when you are trying to figure out whether you mistakenly created something wrong."
 msgstr ""
+"アルゴリズムの予測との一致度に基づいてプロファイルを並べ替えられるようになりました。誤って何かを作成してしまったかどうかを"
+"確認する際のデバッグが容易になります。"
 
 #: ../../000_release_note.md:89
 msgid "Editor"
-msgstr ""
+msgstr "エディター"
 
 #: ../../000_release_note.md:90
-#, fuzzy
 msgid "Add User Tag support"
-msgstr "インストーラが日本語・英語両方に対応しました"
+msgstr "インストーラが日本語・英語両方に対応しました。"
 
 #: ../../000_release_note.md:91
 msgid "You can add/remove custom tag for profile"
-msgstr ""
+msgstr "プロフィールにカスタムタグを追加・削除できるようになりました。"
 
 #: ../../000_release_note.md:92
-msgid ""
-"You can also add default tags that will be automatically applied to newly"
-" created profiles"
-msgstr ""
+msgid "You can also add default tags that will be automatically applied to newly created profiles"
+msgstr "新規作成したプロフィールに自動的に適用されるデフォルトタグの追加が可能になりました。"
 
 #: ../../000_release_note.md:93
 msgid "Controller value in disabled region(s) will be excluded from"
-msgstr ""
+msgstr "無効な領域にあるコントローラーの値は、対象から除外されるようになりました。"
 
 #: ../../000_release_note.md:94
 msgid "From Maya"
-msgstr ""
+msgstr "Mayaから"
 
 #: ../../000_release_note.md:95
 msgid "To Maya"
-msgstr ""
+msgstr "Mayaへ"
 
 #: ../../000_release_note.md:96
 msgid "Predict"
-msgstr ""
-
-#~ msgid ""
-#~ "Video/Playerの０フレームが重複して出力されていたことを修正いたしました。 "
-#~ "（１００フレーム目が９９フレーム目として表示されていました）   Profileのフレームカウントも1フレームずれていました。"
-#~ " そのため、以前のバージョンンで作成されたセッションについては、現バージョンで開くことにより、自動的に修正されるようになります。"
-#~ " ただし、修正されたものに関しては、以前のバージョン（24.10.05を含む）で開くことができなるなりました。 "
-#~ "お手数をおかけしまして、大変申し訳ございません。"
-#~ msgstr ""
+msgstr "予測"
 
 #~ msgid "FCS 24.10.09"
 #~ msgstr "バージョン: 24.10.09"
@@ -402,18 +373,14 @@ msgstr ""
 #~ msgstr "概要"
 
 #~ msgid ""
-#~ "Fixed profile image being saved at "
-#~ "a different resolution in some cases,"
-#~ " introduced at 24.10.06.    This affects"
-#~ " the predicted animation's result. If "
-#~ "you are using version 24.10.06 - "
-#~ "24.10.08, we recommend upgrading immediately."
-#~ " An automatic update will be applied"
-#~ " to fix the resolution of the "
-#~ "image."
+#~ "Fixed profile image being saved at a different resolution in some cases, introduced at 24.10.06.    This affects the "
+#~ "predicted animation's result. If you are using version 24.10.06 - 24.10.08, we recommend upgrading immediately. An "
+#~ "automatic update will be applied to fix the resolution of the image."
 #~ msgstr ""
-#~ "FCS "
-#~ "24.10.06にて異なる解像度でプロファイル画像が保存される問題を修正しました。<br>バージョン24.10.06から24.10.08までをご使用のお客様につきましては、早急に最新版へとアップデートしていただくようお願いいたします。<br>セッションを開く際に自動的に画像の解像度を修正するようになっておりますので、そのほかに手動で対応する事柄はございません。どうぞよろしくお願いいたします。"
+#~ "FCS 24.10.06にて異なる解像度でプロファイル画像が保存される問題を修正しました。<br>バージョン24.10.06から24.10.08までを"
+#~ "ご使用のお客様につきましては、早急に最新版へとアップデートしていただくようお願いいたします。<br>セッションを開く際に自"
+#~ "動的に画像の解像度を修正するようになっておりますので、そのほかに手動で対応する事柄はございません。どうぞよろしくお願い"
+#~ "いたします。"
 
 #~ msgid "FCS 24.10.08"
 #~ msgstr "バージョン: 24.10.08"
@@ -427,16 +394,10 @@ msgstr ""
 #~ msgid "Fixed Maya imagePlane is setup incorrectly"
 #~ msgstr "MayaのimagePlaneの設定が誤っている問題を修正しました"
 
-#~ msgid ""
-#~ "Changed default imagePlane and camera "
-#~ "name to imagePlane and fcs_cam "
-#~ "respectively"
+#~ msgid "Changed default imagePlane and camera name to imagePlane and fcs_cam respectively"
 #~ msgstr "デフォルトのimagePlane名を「imagePlane」に、カメラ名を「fcs_cam」に変更しました"
 
-#~ msgid ""
-#~ "Fixed an error which prevent switching"
-#~ " to the newly created Actor and "
-#~ "character when creating new session"
+#~ msgid "Fixed an error which prevent switching to the newly created Actor and character when creating new session"
 #~ msgstr "新しいセッション作成時に、新規作成されたアクターとキャラクターに自動的に切り替えられていないエラーを修正しました"
 
 #~ msgid "FCS 24.10.07"
@@ -457,26 +418,18 @@ msgstr ""
 #~ msgid "Fixed an error where the Maya image plane is named incorrectly"
 #~ msgstr "Mayaのイメージプレーン名が誤っているエラーを修正しました"
 
-#~ msgid ""
-#~ "Added a feature to clear all "
-#~ "caches when opening session in a "
-#~ "different version"
+#~ msgid "Added a feature to clear all caches when opening session in a different version"
 #~ msgstr "異なるバージョンでセッションを開く際に、すべてのキャッシュをクリアする機能を追加しました。"
-
-#~ msgid "FCS 24.10.06"
-#~ msgstr ""
 
 #~ msgid "Version: 24.10.06"
 #~ msgstr "バージョン: 24.10.06"
 
 #~ msgid ""
-#~ "**Once opened in this version, your "
-#~ "FCS session will not be abled to"
-#~ " downgraded to a previous version of"
-#~ " FCS, including FCS 24.10.05. We "
-#~ "strongly recommend you to backup your"
-#~ " files before using the update.**"
-#~ msgstr "**このバージョン以降で作成または開いたセッションは、以前のバージョン(～24.10.05)で開くことができなくなります。**<br>**アップデートの前にプロジェクトフォルダをバックアップすることを強く推奨いたします。**"
+#~ "**Once opened in this version, your FCS session will not be abled to downgraded to a previous version of FCS, "
+#~ "including FCS 24.10.05. We strongly recommend you to backup your files before using the update.**"
+#~ msgstr ""
+#~ "**このバージョン以降で作成または開いたセッションは、以前のバージョン(～24.10.05)で開くことができなくなります。**<br>**"
+#~ "アップデートの前にプロジェクトフォルダをバックアップすることを強く推奨いたします。**"
 
 #~ msgid "Fixed animation timeline off by 1 frame"
 #~ msgstr "動画表示が１フレームずれていることを修正しました"
@@ -488,26 +441,15 @@ msgstr ""
 #~ msgstr "ログの改善を行いました"
 
 #~ msgid ""
-#~ "Fixed a bug where the first frame"
-#~ " of a video is used twice "
-#~ "(i.e., the 99th frame is presented "
-#~ "as the 100th frame). All previously "
-#~ "created profiles are all off by "
-#~ "one frame, which will be fixed "
-#~ "once imported using the new version "
-#~ "of FCS. However, it also means "
-#~ "that it will be incorrect if the"
-#~ " fixed profile is imported back to"
-#~ " a previous version of FCS. "
-#~ "Therefore, once imported to the new "
-#~ "version, it is not possible to "
-#~ "downgrade to use the previous version."
+#~ "Fixed a bug where the first frame of a video is used twice (i.e., the 99th frame is presented as the 100th frame). All "
+#~ "previously created profiles are all off by one frame, which will be fixed once imported using the new version of FCS. "
+#~ "However, it also means that it will be incorrect if the fixed profile is imported back to a previous version of FCS. "
+#~ "Therefore, once imported to the new version, it is not possible to downgrade to use the previous version."
 #~ msgstr ""
-#~ "Video/Playerの0フレームが重複して出力されていたこと、Profileのフレームカウントが1フレームずれていたことを修正いたしました。（100フレーム目が99フレーム目として表示されていました）<br>以前のバージョンで作成されたセッションについては、現バージョンで開くことにより自動的に修正されますが、修正されたものに関しては、以前のバージョン（24.10.05を含む）で開くことができなくなります。"
-#~ " "
-
-#~ msgid "FCS 24.10.05"
-#~ msgstr ""
+#~ "Video/Playerの0フレームが重複して出力されていたこと、Profileのフレームカウントが1フレームずれていたことを修正いたしまし"
+#~ "た。（100フレーム目が99フレーム目として表示されていました）<br>以前のバージョンで作成されたセッションについては、現バー"
+#~ "ジョンで開くことにより自動的に修正されますが、修正されたものに関しては、以前のバージョン（24.10.05を含む）で開くことが"
+#~ "できなくなります。 "
 
 #~ msgid "Date: 2024/10/11"
 #~ msgstr "日付: 2024/10/11"
@@ -518,10 +460,7 @@ msgstr ""
 #~ msgid "Fixed a bug where video is not cached when opened for viewing"
 #~ msgstr "動画を開く際に、キャッシュされるはずのデータがキャッシュされていないことを修正しました"
 
-#~ msgid ""
-#~ "Fixed a bug where the auto profile"
-#~ " assigns the wrong name to the "
-#~ "profile in ROM mode"
+#~ msgid "Fixed a bug where the auto profile assigns the wrong name to the profile in ROM mode"
 #~ msgstr "Auto Profileのプロファイルの出力番号がずれていることを修正しました"
 
 #~ msgid "Added a new feature for exported solver for real-time use"
@@ -530,29 +469,8 @@ msgstr ""
 #~ msgid "Added a warning sign for invalid controller info."
 #~ msgstr "コントローラーの可動域が正しくない場合、エラーが表示されるように修正しました"
 
-#~ msgid "FCS 24.10.04"
-#~ msgstr ""
-
-#~ msgid "Date: 2024/10/07"
-#~ msgstr ""
-
-#~ msgid "Version: 24.10.04"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Fixed a bug where landmark frame "
-#~ "output crashes the application under "
-#~ "specific circumstances."
+#~ msgid "Fixed a bug where landmark frame output crashes the application under specific circumstances."
 #~ msgstr "特定の場合において、ランドマーク画像の出力時にアプリケーションがクラッシュするバグを修正しました。"
-
-#~ msgid "FCS 24.10.03"
-#~ msgstr ""
-
-#~ msgid "Date: 2024/09/25"
-#~ msgstr ""
-
-#~ msgid "Version: 24.10.03"
-#~ msgstr ""
 
 #~ msgid "Fixed gallery issues"
 #~ msgstr "Gallery機能修正"
@@ -587,25 +505,10 @@ msgstr ""
 #~ msgid "Fixed Prioritize Profile"
 #~ msgstr "Prioritize Profileの動作を修正しました"
 
-#~ msgid "FCS 24.10.02"
-#~ msgstr ""
-
-#~ msgid "Date: 2024/09/09"
-#~ msgstr ""
-
-#~ msgid "Version: 24.10.02"
-#~ msgstr ""
-
-#~ msgid "Stage: Beta"
-#~ msgstr ""
-
 #~ msgid "Improved filtering feature in Gallery, allowing batch edit/delete"
 #~ msgstr "Galleryのフィルタリング機能を強化しました（プロフィールの一括変更や一括削除ができるようになりました）"
 
-#~ msgid ""
-#~ "Fixed a bug where editor landmark "
-#~ "preview is turned off when opening "
-#~ "a new profile."
+#~ msgid "Fixed a bug where editor landmark preview is turned off when opening a new profile."
 #~ msgstr "EditorのLMの表示がONの場合、別のプロフィールを開いてもONの状態のままにしました（計算済みの場合のみ）"
 
 #~ msgid "Fixed a bug where the cursor position does not exactly move to"
@@ -635,11 +538,9 @@ msgstr ""
 #~ msgid "Prioritize Profile"
 #~ msgstr "プロフィール優先機能"
 
-#~ msgid ""
-#~ "Added a feature to match the "
-#~ "output animation with the defined "
-#~ "profiles."
-#~ msgstr "FCSから出力されたアニメーションに関して、プロファイルが存在するフレームにおいて表情を厳密に一致させる機能を追加しました"
+#~ msgid "Added a feature to match the output animation with the defined profiles."
+#~ msgstr ""
+#~ "FCSから出力されたアニメーションに関して、プロファイルが存在するフレームにおいて表情を厳密に一致させる機能を追加しました"
 
 #~ msgid "Enabled by checking Solver/Post-processing/Prioritize Profile"
 #~ msgstr "有効化するにはSolver/Post-processing/Prioritize ProfileをONにしてください"
@@ -647,26 +548,22 @@ msgstr ""
 #~ msgid "Batch rename controller"
 #~ msgstr "コントローラーの名前を一括変更"
 
-#~ msgid ""
-#~ "Select controllers in Controller Info to"
-#~ " rename, useful for adding prefix/suffix"
-#~ " etc."
+#~ msgid "Select controllers in Controller Info to rename, useful for adding prefix/suffix etc."
 #~ msgstr "Controller Infoでコントローラーを選択し、Renameを押すと、コントローラーのリネームができるようになりました"
 
 #~ msgid "The change will propagate to the profiles previously created."
 #~ msgstr "名前の変更に伴い、Galleryで登録された情報も変更されます"
 
-#~ msgid ""
-#~ "Added a feature to use RAM to "
-#~ "speed up video playback, mostly useful"
-#~ " for legacy computers."
+#~ msgid "Added a feature to use RAM to speed up video playback, mostly useful for legacy computers."
 #~ msgstr "動画をメモリーにコピーすることにより、HDDなどのストレージ媒体より早く再生できるようになります"
 
 #~ msgid "Default to enabled."
 #~ msgstr "デフォルトで有効になります"
 
 #~ msgid "You can store a maximum of 5 videos to your memory if it allows."
-#~ msgstr "メモリーに余裕があれば開いた動画（5本まで）をメモリーに保存することができます、複数の動画を同時に編集してもメモリーにキャッシュするようになります"
+#~ msgstr ""
+#~ "メモリーに余裕があれば開いた動画（5本まで）をメモリーに保存することができます、複数の動画を同時に編集してもメモリーに"
+#~ "キャッシュするようになります"
 
 #~ msgid "Added a solver export feature for real time use"
 #~ msgstr "リアルタイム版への出力機能を追加しました"
@@ -674,48 +571,29 @@ msgstr ""
 #~ msgid "Export a solver file using Solver/Export."
 #~ msgstr "Solver/ExportでFCSで作成されたソルバーが出力されます"
 
-#~ msgid ""
-#~ "Import the file into the real time"
-#~ " application (WIP) for view your "
-#~ "character moving in real-time"
-#~ msgstr "リアルタイムサーバ（準備中）に読み込むとFCSでオフライン出力に近いクオリティーのアニメーションがリアルタイムで出力できるようになります  "
-
-#~ msgid "FCS 24.10.01"
+#~ msgid "Import the file into the real time application (WIP) for view your character moving in real-time"
 #~ msgstr ""
-
-#~ msgid "Date: 2024/08/29"
-#~ msgstr ""
-
-#~ msgid "Version: 24.10.01"
-#~ msgstr ""
+#~ "リアルタイムサーバ（準備中）に読み込むとFCSでオフライン出力に近いクオリティーのアニメーションがリアルタイムで出力できる"
+#~ "ようになります  "
 
 #~ msgid "Added a language and version switcher for the manual (left bottom)"
 #~ msgstr "24.07, 24.10など、バージョンごとのマニュアルが確認できるようになりました"
 
-#~ msgid ""
-#~ "[English manual](https://zukunfcs.github.io/fcs-"
-#~ "doc/24.10/en/index.html) (draft) now available"
-#~ msgstr ""
-#~ "[English manual](https://zukunfcs.github.io/fcs-"
-#~ "doc/24.10/en/index.html) (下書き)が追加されました "
+#~ msgid "[English manual](https://zukunfcs.github.io/fcs-doc/24.10/en/index.html) (draft) now available"
+#~ msgstr "[English manual](https://zukunfcs.github.io/fcs-doc/24.10/en/index.html) (下書き)が追加されました "
 
 #~ msgid "Added an installer for FCS"
 #~ msgstr "インストーラーからインストールができるようになりました"
 
-#~ msgid ""
-#~ "Added a feature to download ffmpeg "
-#~ "if it doesn't exist on the user"
-#~ " system."
+#~ msgid "Added a feature to download ffmpeg if it doesn't exist on the user system."
 #~ msgstr "ffmpegがシステムにインストールされていない場合、自動的にダウンロードできるようになりました"
 
 #~ msgid ""
-#~ "[Added a feature to automatically "
-#~ "generate profile from "
-#~ "video](https://zukunfcs.github.io/fcs-"
-#~ "doc/latest/en/012_auto_pickup.html)"
+#~ "[Added a feature to automatically generate profile from video](https://zukunfcs.github.io/fcs-doc/latest/"
+#~ "en/012_auto_pickup.html)"
 #~ msgstr ""
-#~ "[動画から特定のフレームを自動的にGalleryに追加する機能を実装しました。](https://zukunfcs.github.io"
-#~ "/fcs-doc/latest/en/012_auto_pickup.html"
+#~ "[動画から特定のフレームを自動的にGalleryに追加する機能を実装しました。](https://zukunfcs.github.io/fcs-doc/latest/"
+#~ "en/012_auto_pickup.html"
 
 #~ msgid "Added UI elements and download for the new version."
 #~ msgstr "新しいバージョンが発行された際に、FCSのUIから更新内容の表示およびダウンロードができるようになりました"
@@ -727,39 +605,25 @@ msgstr ""
 #~ msgstr "24.07から： 特になし"
 
 #~ msgid ""
-#~ "Changed build method to Themida. Using"
-#~ " virtual machine and debugger together "
-#~ "with FCS is unsupported. If you "
-#~ "need to allow these for specific "
-#~ "reason please contact us."
-#~ msgstr "ビルド方式をThemidaに変更しました。その際に、バーチャルマシン（VM）やデバッガーとの共同使用が対象外になりました。環境によって利用できなくなった方はご連絡ください。"
-
-#~ msgid ""
-#~ "Added installer, default installation path "
-#~ "is C:\\FCS. Please ensure the program"
-#~ " has write access to the folder."
-#~ msgstr "インストーラーを追加しました。デフォルトではC:\\FCSで作成されるようになります。インストール先フォルダの書き込み権限が必要になりますので、書き込み権限のないフォルダに入れると問題が発生します。"
-
-#~ msgid "FFMPEG"
+#~ "Changed build method to Themida. Using virtual machine and debugger together with FCS is unsupported. If you need to "
+#~ "allow these for specific reason please contact us."
 #~ msgstr ""
+#~ "ビルド方式をThemidaに変更しました。その際に、バーチャルマシン（VM）やデバッガーとの共同使用が対象外になりました。環境に"
+#~ "よって利用できなくなった方はご連絡ください。"
 
-#~ msgid ""
-#~ "Pull ffmpeg directly from "
-#~ "[github](https://github.com/BtbN/FFmpeg-Builds/) if "
-#~ "it doesn't exist in the user "
-#~ "system."
+#~ msgid "Added installer, default installation path is C:\\FCS. Please ensure the program has write access to the folder."
 #~ msgstr ""
-#~ "起動時に、ffmpegがシステムパスに存在しないとき、自動的に[github](https://github.com/BtbN"
-#~ "/FFmpeg-Builds/)からダウンロードするようになっています。"
+#~ "インストーラーを追加しました。デフォルトではC:\\FCSで作成されるようになります。インストール先フォルダの書き込み権限が必"
+#~ "要になりますので、書き込み権限のないフォルダに入れると問題が発生します。"
 
 #~ msgid ""
-#~ "If you cannot connect to github "
-#~ "please directly install ffmpeg and add"
-#~ " it to path."
+#~ "Pull ffmpeg directly from [github](https://github.com/BtbN/FFmpeg-Builds/) if it doesn't exist in the user system."
+#~ msgstr ""
+#~ "起動時に、ffmpegがシステムパスに存在しないとき、自動的に[github](https://github.com/BtbN/FFmpeg-Builds/)からダウンロー"
+#~ "ドするようになっています。"
+
+#~ msgid "If you cannot connect to github please directly install ffmpeg and add it to path."
 #~ msgstr "Githubへの接続ができないお客様は手動でffmpegをインストールし、pathに追加するようにお願いいたします。"
-
-#~ msgid "UI"
-#~ msgstr ""
 
 #~ msgid "You can now open and view a video using double click"
 #~ msgstr "ビデオ名をダブルクリックで開けるようになりました  "
@@ -773,10 +637,7 @@ msgstr ""
 #~ msgid "Added timeline drag"
 #~ msgstr "タイムラインをドラッグする際に、範囲からカーソルをずらしても動くようになりました  "
 
-#~ msgid ""
-#~ "Added a feature to retain user "
-#~ "interface states so it persist between"
-#~ " program launches."
+#~ msgid "Added a feature to retain user interface states so it persist between program launches."
 #~ msgstr "一部のUIから選択できる項目がプログラムを終了しても保存されるようになりました"
 
 #~ msgid "Updated japanese translations"
@@ -815,11 +676,10 @@ msgstr ""
 #~ msgid "Update settings are as follow"
 #~ msgstr "アップデートに関しては以下の設定がSettingsウィンドウから変更できます"
 
-#~ msgid ""
-#~ "Update channel: All | Patch | None"
-#~ "   Decide what kind of updates are"
-#~ " checked for."
-#~ msgstr "「All：すべてをアップデートする」、「Patch：バグ修正（保守アップデート）のみ」、「None：アップデートしない」から選択できます"
+#~ msgid "Update channel: All | Patch | None   Decide what kind of updates are checked for."
+#~ msgstr ""
+#~ "「All：すべてをアップデートする」、「Patch：バグ修正（保守アップデート）のみ」、「None：アップデートしない」から選択で"
+#~ "きます"
 
 #~ msgid "Use Beta Use the unstable build."
 #~ msgstr "Use Beta 安定しない機能を含めたベータ版の利用ができるようになります"
@@ -830,8 +690,5 @@ msgstr ""
 #~ msgid "FCS supports Fedora 8 now, please contact us if you are interested."
 #~ msgstr "FCSがFedora 8に対応しました。ご興味のある方はご連絡ください。"
 
-#~ msgid ""
-#~ "Program data location is changed from"
-#~ " `$USER/.fcs/Cortado` to `$USER/.fcs/Cortado/$version`."
+#~ msgid "Program data location is changed from `$USER/.fcs/Cortado` to `$USER/.fcs/Cortado/$version`."
 #~ msgstr "プログラムデータの保存先を`$USER/.fcs/Cortado`から`$USER/.fcs/Cortado/$version`に変更しました"
-
