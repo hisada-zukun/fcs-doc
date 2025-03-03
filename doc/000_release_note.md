@@ -1,4 +1,6 @@
 # Release Note
+[Download FCS](https://github.com/ZukunFCS/fcs-doc/releases)
+
 ## FCS 25.01.04
 - Date: 2025/01/10
 - Version: 25.01.04
