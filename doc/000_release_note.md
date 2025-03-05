@@ -4,7 +4,7 @@
 ## FCS 25.01.05
 - Date: 2025/02/17
 - Version: 25.01.05
-- Stage: Beta
+- Stage: Stable
 
 #### General
 1. Fixed floating point FPS is set incorrectly as int with Maya
