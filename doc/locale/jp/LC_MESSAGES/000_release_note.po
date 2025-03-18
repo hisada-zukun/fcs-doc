@@ -27,19 +27,16 @@ msgid "[Download FCS](https://github.com/ZukunFCS/fcs-doc/releases)"
 msgstr ""
 
 #: ../../000_release_note.md:4
-#, fuzzy
 msgid "FCS 25.01.05"
-msgstr "FCS 25.01.03"
+msgstr "FCS 25.01.05"
 
 #: ../../000_release_note.md:5
-#, fuzzy
 msgid "Date: 2025/02/17"
-msgstr "日付: 2024/11/05"
+msgstr "日付: 2025/02/17"
 
 #: ../../000_release_note.md:6
-#, fuzzy
 msgid "Version: 25.01.05"
-msgstr "バージョン: 24.10.09"
+msgstr "バージョン: 25.01.05"
 
 #: ../../000_release_note.md:7
 #, fuzzy
@@ -54,44 +51,41 @@ msgstr "一般"
 
 #: ../../000_release_note.md:10
 msgid "Fixed floating point FPS is set incorrectly as int with Maya"
-msgstr ""
+msgstr "浮動小数点のフレームレート(fps)の動画をMayaへ送信する際、fpsが整数になっているバグを解消しました"
 
 #: ../../000_release_note.md:11
 msgid ""
 "Fixed a bug where batch processing stops in some system when processing a"
 " large amount of videos"
-msgstr ""
+msgstr "大量の動画を処理する際、一部システムにおいてUIの不具合が生じる問題を解消しました"
 
 #: ../../000_release_note.md:12
 msgid "Added a selected video counter in the Batch process window"
-msgstr ""
+msgstr "バッチプロセス(Processer)ウィンドウに選択中の動画数を表示する機能を追加しました"
 
 #: ../../000_release_note.md:13
 msgid ""
 "Fixed a bug where batch applying range values in Controller Info went to "
 "the wrong field"
-msgstr ""
+msgstr "コントローラー(Controller)ウィンドウで最大値・最小値を設定する際、違う入力欄に数値が入るバグを修正しました"
 
 #: ../../000_release_note.md:14
 msgid ""
 "Optimized the loading procedure when opening a session created in a "
 "previous version of FCS"
-msgstr ""
+msgstr "以前のバージョンのFCSセッションを読み込む際のプロセスを最適化しました"
 
 #: ../../000_release_note.md:16
-#, fuzzy
 msgid "FCS 25.01.04"
-msgstr "FCS 25.01.03"
+msgstr "FCS 25.01.04"
 
 #: ../../000_release_note.md:17
-#, fuzzy
 msgid "Date: 2025/01/10"
-msgstr "日付: 2024/11/05"
+msgstr "日付: 2025/01/10"
 
 #: ../../000_release_note.md:18
-#, fuzzy
 msgid "Version: 25.01.04"
-msgstr "バージョン: 24.10.09"
+msgstr "バージョン: 25.01.04"
 
 #: ../../000_release_note.md:19 ../../000_release_note.md:27
 msgid "Stage: Stable"
@@ -99,21 +93,19 @@ msgstr "ステージ：Stable"
 
 #: ../../000_release_note.md:22
 msgid "Fixed a bug related to assigning new controller to a session"
-msgstr ""
+msgstr "コントローラーを登録する際、リージョン(Region)を選択できない問題を修正しました"
 
 #: ../../000_release_note.md:24
 msgid "FCS 25.01.03"
 msgstr "FCS 25.01.03"
 
 #: ../../000_release_note.md:25
-#, fuzzy
 msgid "Date: 2025/01/07"
-msgstr "日付: 2024/11/05"
+msgstr "日付: 2025/01/07"
 
 #: ../../000_release_note.md:26
-#, fuzzy
 msgid "Version: 25.01.03"
-msgstr "バージョン: 24.10.09"
+msgstr "バージョン: 25.01.03"
 
 #: ../../000_release_note.md:30
 msgid "Added indicator for right-clickable menu items"
