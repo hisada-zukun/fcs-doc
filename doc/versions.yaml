@@ -3,6 +3,11 @@
   languages: 
     - "jp"
     - "en"
+"25.04":
+  tag: '25.04'  
+  languages: 
+    - "jp"
+    - "en"
 "25.01":
   tag: '25.01'  
   languages: 
