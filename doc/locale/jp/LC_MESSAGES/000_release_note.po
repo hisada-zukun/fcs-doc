@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-03 02:06+0000\n"
+"POT-Creation-Date: 2025-03-24 10:41+0000\n"
 "PO-Revision-Date: 2025-02-24 09:53+0900\n"
 "Last-Translator: \n"
 "Language: jp\n"
@@ -27,425 +27,123 @@ msgid "[Download FCS](https://github.com/ZukunFCS/fcs-doc/releases)"
 msgstr ""
 
 #: ../../000_release_note.md:4
-msgid "FCS 25.01.05"
-msgstr "FCS 25.01.05"
+#, fuzzy
+msgid "FCS 25.04.02"
+msgstr "FCS 25.01.02"
 
 #: ../../000_release_note.md:5
-msgid "Date: 2025/02/17"
+#, fuzzy
+msgid "Date: 2025/03/19"
 msgstr "日付: 2025/02/17"
 
 #: ../../000_release_note.md:6
-msgid "Version: 25.01.05"
-msgstr "バージョン: 25.01.05"
+#, fuzzy
+msgid "Version: 25.04.02"
+msgstr "バージョン: 24.10.09"
 
-#: ../../000_release_note.md:7
+#: ../../000_release_note.md:7 ../../000_release_note.md:21
 #, fuzzy
 msgid "Stage: Beta"
 msgstr "ステージ：Stable"
 
-#: ../../000_release_note.md:9 ../../000_release_note.md:21
-#: ../../000_release_note.md:29 ../../000_release_note.md:40
-#: ../../000_release_note.md:58
-msgid "General"
-msgstr "一般"
-
-#: ../../000_release_note.md:10
-msgid "Fixed floating point FPS is set incorrectly as int with Maya"
-msgstr "浮動小数点のフレームレート(fps)の動画をMayaへ送信する際、fpsが整数になっているバグを解消しました"
-
-#: ../../000_release_note.md:11
-msgid ""
-"Fixed a bug where batch processing stops in some system when processing a"
-" large amount of videos"
-msgstr "大量の動画を処理する際、一部システムにおいてUIの不具合が生じる問題を解消しました"
-
-#: ../../000_release_note.md:12
-msgid "Added a selected video counter in the Batch process window"
-msgstr "バッチプロセス(Processer)ウィンドウに選択中の動画数を表示する機能を追加しました"
-
-#: ../../000_release_note.md:13
-msgid ""
-"Fixed a bug where batch applying range values in Controller Info went to "
-"the wrong field"
-msgstr "コントローラー(Controller)ウィンドウで最大値・最小値を設定する際、違う入力欄に数値が入るバグを修正しました"
-
-#: ../../000_release_note.md:14
-msgid ""
-"Optimized the loading procedure when opening a session created in a "
-"previous version of FCS"
-msgstr "以前のバージョンのFCSセッションを読み込む際のプロセスを最適化しました"
-
-#: ../../000_release_note.md:16
-msgid "FCS 25.01.04"
-msgstr "FCS 25.01.04"
-
-#: ../../000_release_note.md:17
-msgid "Date: 2025/01/10"
-msgstr "日付: 2025/01/10"
-
-#: ../../000_release_note.md:18
-msgid "Version: 25.01.04"
-msgstr "バージョン: 25.01.04"
-
-#: ../../000_release_note.md:19 ../../000_release_note.md:27
-msgid "Stage: Stable"
-msgstr "ステージ：Stable"
-
-#: ../../000_release_note.md:22
-msgid "Fixed a bug related to assigning new controller to a session"
-msgstr "コントローラーを登録する際、リージョン(Region)を選択できない問題を修正しました"
-
-#: ../../000_release_note.md:24
-msgid "FCS 25.01.03"
-msgstr "FCS 25.01.03"
-
-#: ../../000_release_note.md:25
-msgid "Date: 2025/01/07"
-msgstr "日付: 2025/01/07"
-
-#: ../../000_release_note.md:26
-msgid "Version: 25.01.03"
-msgstr "バージョン: 25.01.03"
-
-#: ../../000_release_note.md:30
-msgid "Added indicator for right-clickable menu items"
-msgstr "右クリックで操作できるメニュー項目に、インジケーターを追加しました。"
-
-#: ../../000_release_note.md:31
-msgid "Fixed bug that leads to slower session loading"
-msgstr "セッションの読み込みが遅くなるバグを修正しました。"
-
-#: ../../000_release_note.md:32
-msgid ""
-"Fixed bug where Maya animation is not deleted outside the current "
-"timeline range"
-msgstr "現在のタイムライン範囲外のMayaアニメーションが削除されないバグを修正しました。"
-
-#: ../../000_release_note.md:33
-msgid ""
-"Fixed bug where processing video could lead to crashing in some race "
-"condition"
-msgstr "ビデオ処理中に特定のレースコンディションが発生し、クラッシュにつながるバグを修正しました。"
-
-#: ../../000_release_note.md:35
-msgid "FCS 25.01.02"
-msgstr "FCS 25.01.02"
-
-#: ../../000_release_note.md:36
-#, fuzzy
-msgid "Date: 2024/12/16"
-msgstr "日付: 2024/10/16"
-
-#: ../../000_release_note.md:37
-#, fuzzy
-msgid "Version: 25.01.02"
-msgstr "バージョン: 24.10.09"
-
-#: ../../000_release_note.md:38 ../../000_release_note.md:52
-#, fuzzy
-msgid "Stage: Preview"
-msgstr "Profile保存"
-
-#: ../../000_release_note.md:41
-msgid "Made gallery filter case insensitive"
-msgstr "ギャラリーフィルターを大文字・小文字を区別しない仕様にしました。"
-
-#: ../../000_release_note.md:42
-msgid "Fixed reset in Editor"
-msgstr "エディタのリセット機能のバグを修正しました。"
-
-#: ../../000_release_note.md:43
-msgid "Fixed UI for batch editing in Gallery"
-msgstr "ギャラリーの一括編集用UIを修正しました。"
-
-#: ../../000_release_note.md:44
-msgid "Fixed Maya controller selection issue"
-msgstr "Mayaのコントローラー選択に関する不具合を修正しました。"
-
-#: ../../000_release_note.md:45
-msgid "Fixed videos opening to single click to double click"
-msgstr "動画をシングルクリックで開く仕様から、ダブルクリックで開く仕様に修正しました。"
-
-#: ../../000_release_note.md:46
-msgid "Other backend fixes"
-msgstr "その他のバックエンドに関する不具合を修正しました。"
-
-#: ../../000_release_note.md:49
-msgid "FCS 25.01.01"
-msgstr "FCS 25.01.01"
-
-#: ../../000_release_note.md:50
-#, fuzzy
-msgid "Date: 2024/12/01"
-msgstr "日付: 2024/11/05"
-
-#: ../../000_release_note.md:51
-#, fuzzy
-msgid "Version: 25.01.01"
-msgstr "バージョン: 24.10.09"
-
-#: ../../000_release_note.md:54
-#, fuzzy
-msgid "！Cannot be downgraded！"
-msgstr "！ダウングレードできません！"
-
-#: ../../000_release_note.md:55
-msgid ""
-"Session opened in 25.01 will not competitable with previous version of "
-"FCS.  As usual, please backup before you upgrade your existing session."
+#: ../../000_release_note.md:9 ../../000_release_note.md:30
+msgid "New Features"
 msgstr ""
-"FCS 25.01で開いたセッションは、以前のバージョンとの互換性がありません。 "
-"既存のセッションをアップグレードする前に必ずバックアップを取ってください。"
 
-#: ../../000_release_note.md:59
-msgid "Added minor version in the app title bar"
-msgstr "アプリのタイトルバーにマイナーバージョン番号を表示するようにしました。"
-
-#: ../../000_release_note.md:60
-msgid "Optimized the startup process so it should now be slightly faster"
-msgstr "スタートアッププロセスを最適化し、起動が若干速くなりました。"
-
-#: ../../000_release_note.md:61
-msgid "Fixed an error that prevent the third party licenses from loading"
-msgstr "サードパーティライセンスが読み込まれない不具合を修正しました。"
-
-#: ../../000_release_note.md:62
-msgid "Fixed a bug where the right click menu goes outside the screen"
-msgstr "右クリックメニューが画面外に表示されるバグを修正しました。"
-
-#: ../../000_release_note.md:63
-msgid "Removed custom animations for better performance"
-msgstr "パフォーマンス向上のため、カスタムアニメーションを削除しました。"
-
-#: ../../000_release_note.md:64
-msgid ""
-"Added a new feature to allow opening a different session even when one is"
-" already open (we just restart the app for you, a more permanent solution"
-" is in discussion)"
-msgstr "既にセッションが開かれている場合でも、別のセッションを開ける新機能を追加しました。（現状では、アプリを再起動することで対応していますが、より恒久的な解決策は現在検討中です。）"
-
-#: ../../000_release_note.md:65
-msgid ""
-"Improved the shortcut key handling so when a key is released the function"
-" will stop in the next frame"
-msgstr "ショートカットキーの処理を改善し、キーを離すと次のフレームでその機能が停止するようになりました。"
-
-#: ../../000_release_note.md:66
-msgid "Added command line launch options"
-msgstr "コマンドライン起動オプションを追加しました。"
-
-#: ../../000_release_note.md:67
-msgid "--session: Open a session file (.yaml) after launch"
-msgstr "—session: 起動後にセッションファイル (.yaml) を開きます。"
-
-#: ../../000_release_note.md:68
-msgid ""
-"--maya_command_port: Use a different Maya Command Port instead of the one"
-" specified in Settings"
-msgstr "—maya_command_port: 設定で指定されたものではなく、別の Maya のコマンドポートを使用します。"
-
-#: ../../000_release_note.md:69
-msgid "Added User Tag for Profile tagging"
-msgstr "プロフィールのタグ付け用に、ユーザータグを追加しました。"
-
-#: ../../000_release_note.md:70
-#, fuzzy
-msgid "Added Video Rotation Support"
-msgstr "実験的にLinux対応を始めました"
-
-#: ../../000_release_note.md:72
-#, fuzzy
-msgid "Controller"
-msgstr "インストーラー"
-
-#: ../../000_release_note.md:73
-msgid ""
-"Newly added controllers will have their checkboxes checked so it is "
-"easier if you want to immediately assign a value/region to them."
-msgstr "新規に追加されたコントローラーは、初期状態でチェックボックスがオンになっています。すぐに値やリージョンを割り当てる際に便利です。"
-
-#: ../../000_release_note.md:74
-msgid ""
-"Rearrange controller is set to disabled by default, you can still "
-"rearrange them if you check the box under Advanced/Rearrange."
-msgstr "コントローラーの並べ替え機能は、デフォルトでは無効になっていますが、詳細設定の「並べ替え」チェックボックスにチェックを入れると、並べ替えを行うことができます。"
-
-#: ../../000_release_note.md:75
-msgid ""
-"Checking the box for controller is now easier, you can left click on the "
-"controller name."
-msgstr "コントローラーのチェックボックス操作がより簡単になりました。コントローラー名を左クリックすると、チェックを入れることができます。"
-
-#: ../../000_release_note.md:76
-msgid ""
-"Added validation when trying to save the table, you can no longer save a "
-"table with null region."
-msgstr "テーブルを保存する際の検証機能を追加し、領域が未設定のテーブルは保存できなくなりました。"
-
-#: ../../000_release_note.md:77
-msgid ""
-"Added Value Set so you can change the value of all checked controllers at"
-" once."
-msgstr "チェック済みのすべてのコントローラーの値を一括で変更できる、Value Set機能を追加しました。"
-
-#: ../../000_release_note.md:79
-msgid "Creating Session"
-msgstr "セッション作成"
-
-#: ../../000_release_note.md:80
-msgid "Hid the loading indicator when the task is in fact done."
-msgstr "タスクが完了した際に、読み込みインジケーターを非表示にしました。"
-
-#: ../../000_release_note.md:81
-msgid ""
-"Added a feature to automatically fill in Maya base if the workspace.mel "
-"file is found nearby."
-msgstr "workspace.melファイルが近くに見つかった場合に、Mayaベースに自動入力される機能を追加しました。"
-
-#: ../../000_release_note.md:83
-msgid "Maya"
-msgstr "Maya"
-
-#: ../../000_release_note.md:84
-msgid ""
-"Fixed a bug where not connectable attributes will also be added to "
-"Controller"
-msgstr "接続不可能な属性がコントローラーに追加されてしまう不具合を修正しました。"
-
-#: ../../000_release_note.md:86
+#: ../../000_release_note.md:10 ../../000_release_note.md:24
+#: ../../000_release_note.md:31
 msgid "Timeline"
 msgstr "タイムライン"
 
-#: ../../000_release_note.md:87
-msgid ""
-"Fixed a bug where the timeline is not set on Maya side even when Sync is "
-"set to ON."
-msgstr "「To Maya」がONになっているにもかかわらず、Predict結果がMayaに送信されない問題を修正しました。"
-
-#: ../../000_release_note.md:88
-msgid ""
-"Fixed a bug where the timeline will still be dragged around even when "
-"dragging outside the timeline."
-msgstr "タイムラインの外側でドラッグしても、タイムラインが動いてしまうバグを修正しました。"
-
-#: ../../000_release_note.md:89
-msgid "Added a snapping flag to disable snapping"
-msgstr "スナップ機能を無効にするためのフラグを追加しました。"
-
-#: ../../000_release_note.md:91
-msgid "Videos"
-msgstr "動画"
-
-#: ../../000_release_note.md:92
-msgid ""
-"Video Processing will now give you a progress bar so you know much longer"
-" it would take."
-msgstr "ビデオ処理時に、処理が完了するまでの残り時間がわかる進捗バーが表示されるようになりました。"
-
-#: ../../000_release_note.md:93
-msgid ""
-"Fixed a bug when trying to open a video that is invalid (file missing) "
-"crashes the app"
-msgstr "ファイルが存在しないなど無効なビデオを開こうとした際に、アプリがクラッシュする不具合を修正しました。"
-
-#: ../../000_release_note.md:94
-msgid "Added a feature that allow rotation when importing the video"
+#: ../../000_release_note.md:11
+#, fuzzy
+msgid "Added a new feature that allows processing part of the video"
 msgstr "動画のインポート時に回転ができる機能を追加しました。"
 
-#: ../../000_release_note.md:95
-msgid ""
-"Note this rotation happens dynamically, so your original video file is "
-"never altered and no extra disk space will be taken up, but in turn, it "
-"would be more demanding for your local machine to decode on the fly."
-msgstr "この回転処理は動的に行われるため、元の動画ファイル自体は変更されず、追加のディスク容量も必要ありません。しかし、ローカルマシンでのリアルタイムデコードにより負荷がかかる可能性があります。"
+#: ../../000_release_note.md:13 ../../000_release_note.md:40
+msgid "Bug Fixes"
+msgstr ""
 
-#: ../../000_release_note.md:96
-msgid "Changed the behaviour of opening video from single click to double click"
-msgstr "ビデオを開く操作を、シングルクリックからダブルクリックに変更しました。"
+#: ../../000_release_note.md:14
+msgid "Fix unstable issue with timeline checkboxes"
+msgstr ""
 
-#: ../../000_release_note.md:97
-msgid ""
-"Added a feature that allows you to rotate the video when you import the "
-"video"
-msgstr "動画のインポート時に回転できる機能を追加しました。"
+#: ../../000_release_note.md:15
+msgid "Fix a bug where sorting controller table would not work as intended"
+msgstr ""
 
-#: ../../000_release_note.md:99
-msgid "Solver"
-msgstr "ソルバー"
+#: ../../000_release_note.md:16
+msgid "Fix a bug where shortcut input does not function"
+msgstr ""
 
-#: ../../000_release_note.md:100
-msgid ""
-"Added a reminder if you try to export a solver for FCSRT but do not have "
-"a solver object yet, you can train one by clicking the button next to it."
-msgstr "FCSRT用のソルバーをエクスポートしようとした際にソルバーオブジェクトが存在しない場合は、隣のボタンをクリックしてトレーニングできるというリマインダーを追加しました。"
-
-#: ../../000_release_note.md:101
-msgid ""
-"Added a new face tracker option for more robust (but less rich) tracking,"
-" more oriented for real-time tracker."
-msgstr "安定性が高くリアルタイムトラッキング向けに最適化された新しい顔トラッカーオプション（その代わり情報量は少なめ）を追加しました。"
-
-#: ../../000_release_note.md:104
+#: ../../000_release_note.md:18
 #, fuzzy
-msgid "Gallery"
-msgstr "インストーラー"
+msgid "FCS 25.04.01"
+msgstr "FCS 25.01.01"
 
-#: ../../000_release_note.md:105
-msgid "Added a checkbox to hide the tooltip"
-msgstr "ツールチップを非表示にするためのチェックボックスを追加しました。"
+#: ../../000_release_note.md:19
+#, fuzzy
+msgid "Date: 2025/03/05"
+msgstr "日付: 2025/01/10"
 
-#: ../../000_release_note.md:106
-msgid "Changed the behaviour of predict to only apply to enabled region(s)"
-msgstr "予測機能の動作を、オンになっている領域のみに適用するよう変更しました。"
+#: ../../000_release_note.md:20
+#, fuzzy
+msgid "Version: 25.04.01"
+msgstr "バージョン: 24.10.09"
 
-#: ../../000_release_note.md:107
-msgid "Added a filter support based on Tag"
-msgstr "タグに基づくフィルター機能を追加しました。"
+#: ../../000_release_note.md:23
+msgid "Changes"
+msgstr ""
 
-#: ../../000_release_note.md:108
-msgid "Added Confident Sort"
-msgstr "日本語・英語両方に対応するインストーラを追加しました。"
-
-#: ../../000_release_note.md:109
+#: ../../000_release_note.md:25
 msgid ""
-"You can now sort your profiles based on how closely it matches the "
-"algorithm prediction, this is useful for debugging when you are trying to"
-" figure out whether you mistakenly created something wrong."
-msgstr "アルゴリズムの予測との一致度に基づいてプロファイルを並べ替えられるようになりました。誤って何かを作成してしまったかどうかを確認する際のデバッグが容易になります。"
+"Moved buttons from timeline to right click menu (matching behaviour in "
+"Maya)"
+msgstr ""
 
-#: ../../000_release_note.md:111
-msgid "Editor"
-msgstr "エディター"
+#: ../../000_release_note.md:27
+msgid "Shortcut Key"
+msgstr ""
 
-#: ../../000_release_note.md:112
-msgid "Add User Tag support"
+#: ../../000_release_note.md:28
+msgid "Changed the timeline shortcut keys to match the ones in Maya"
+msgstr ""
+
+#: ../../000_release_note.md:32
+#, fuzzy
+msgid "Added looped playback support"
 msgstr "インストーラが日本語・英語両方に対応しました。"
 
-#: ../../000_release_note.md:113
-msgid "You can add/remove custom tag for profile"
-msgstr "プロフィールにカスタムタグを追加・削除できるようになりました。"
+#: ../../000_release_note.md:33
+#, fuzzy
+msgid "Added audio playback support"
+msgstr "実験的にLinux対応を始めました"
 
-#: ../../000_release_note.md:114
+#: ../../000_release_note.md:35
+msgid "Settings"
+msgstr ""
+
+#: ../../000_release_note.md:36
+msgid "Added a new feature to import user setting from a previous version"
+msgstr ""
+
+#: ../../000_release_note.md:37
+msgid "Added AV1 codec support for better web support"
+msgstr ""
+
+#: ../../000_release_note.md:38
+msgid "Added support for a new set of symbols for shortcut keys"
+msgstr ""
+
+#: ../../000_release_note.md:41
+msgid "Fixed a bug where long video might the process in some systems"
+msgstr ""
+
+#: ../../000_release_note.md:42
 msgid ""
-"You can also add default tags that will be automatically applied to newly"
-" created profiles"
-msgstr "新規作成したプロフィールに自動的に適用されるデフォルトタグの追加が可能になりました。"
-
-#: ../../000_release_note.md:115
-msgid "Controller value in disabled region(s) will be excluded from"
-msgstr "無効な領域にあるコントローラーの値は、対象から除外されるようになりました。"
-
-#: ../../000_release_note.md:116
-msgid "From Maya"
-msgstr "Mayaから"
-
-#: ../../000_release_note.md:117
-msgid "To Maya"
-msgstr "Mayaへ"
-
-#: ../../000_release_note.md:118
-msgid "Predict"
-msgstr "予測"
+"Fixed a bug where batch renaming controllers crashes the application when"
+" there is no profile at all."
+msgstr ""
 
 #~ msgid "FCS 24.10.09"
 #~ msgstr "バージョン: 24.10.09"
@@ -835,4 +533,333 @@ msgstr "予測"
 #~ "Program data location is changed from"
 #~ " `$USER/.fcs/Cortado` to `$USER/.fcs/Cortado/$version`."
 #~ msgstr "プログラムデータの保存先を`$USER/.fcs/Cortado`から`$USER/.fcs/Cortado/$version`に変更しました"
+
+#~ msgid "FCS 25.01.05"
+#~ msgstr "FCS 25.01.05"
+
+#~ msgid "Version: 25.01.05"
+#~ msgstr "バージョン: 25.01.05"
+
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgid "Fixed floating point FPS is set incorrectly as int with Maya"
+#~ msgstr "浮動小数点のフレームレート(fps)の動画をMayaへ送信する際、fpsが整数になっているバグを解消しました"
+
+#~ msgid ""
+#~ "Fixed a bug where batch processing "
+#~ "stops in some system when processing "
+#~ "a large amount of videos"
+#~ msgstr "大量の動画を処理する際、一部システムにおいてUIの不具合が生じる問題を解消しました"
+
+#~ msgid "Added a selected video counter in the Batch process window"
+#~ msgstr "バッチプロセス(Processer)ウィンドウに選択中の動画数を表示する機能を追加しました"
+
+#~ msgid ""
+#~ "Fixed a bug where batch applying "
+#~ "range values in Controller Info went "
+#~ "to the wrong field"
+#~ msgstr "コントローラー(Controller)ウィンドウで最大値・最小値を設定する際、違う入力欄に数値が入るバグを修正しました"
+
+#~ msgid ""
+#~ "Optimized the loading procedure when "
+#~ "opening a session created in a "
+#~ "previous version of FCS"
+#~ msgstr "以前のバージョンのFCSセッションを読み込む際のプロセスを最適化しました"
+
+#~ msgid "FCS 25.01.04"
+#~ msgstr "FCS 25.01.04"
+
+#~ msgid "Version: 25.01.04"
+#~ msgstr "バージョン: 25.01.04"
+
+#~ msgid "Stage: Stable"
+#~ msgstr "ステージ：Stable"
+
+#~ msgid "Fixed a bug related to assigning new controller to a session"
+#~ msgstr "コントローラーを登録する際、リージョン(Region)を選択できない問題を修正しました"
+
+#~ msgid "FCS 25.01.03"
+#~ msgstr "FCS 25.01.03"
+
+#~ msgid "Date: 2025/01/07"
+#~ msgstr "日付: 2025/01/07"
+
+#~ msgid "Version: 25.01.03"
+#~ msgstr "バージョン: 25.01.03"
+
+#~ msgid "Added indicator for right-clickable menu items"
+#~ msgstr "右クリックで操作できるメニュー項目に、インジケーターを追加しました。"
+
+#~ msgid "Fixed bug that leads to slower session loading"
+#~ msgstr "セッションの読み込みが遅くなるバグを修正しました。"
+
+#~ msgid ""
+#~ "Fixed bug where Maya animation is "
+#~ "not deleted outside the current timeline"
+#~ " range"
+#~ msgstr "現在のタイムライン範囲外のMayaアニメーションが削除されないバグを修正しました。"
+
+#~ msgid ""
+#~ "Fixed bug where processing video could"
+#~ " lead to crashing in some race "
+#~ "condition"
+#~ msgstr "ビデオ処理中に特定のレースコンディションが発生し、クラッシュにつながるバグを修正しました。"
+
+#~ msgid "Date: 2024/12/16"
+#~ msgstr "日付: 2024/10/16"
+
+#~ msgid "Stage: Preview"
+#~ msgstr "Profile保存"
+
+#~ msgid "Made gallery filter case insensitive"
+#~ msgstr "ギャラリーフィルターを大文字・小文字を区別しない仕様にしました。"
+
+#~ msgid "Fixed reset in Editor"
+#~ msgstr "エディタのリセット機能のバグを修正しました。"
+
+#~ msgid "Fixed UI for batch editing in Gallery"
+#~ msgstr "ギャラリーの一括編集用UIを修正しました。"
+
+#~ msgid "Fixed Maya controller selection issue"
+#~ msgstr "Mayaのコントローラー選択に関する不具合を修正しました。"
+
+#~ msgid "Fixed videos opening to single click to double click"
+#~ msgstr "動画をシングルクリックで開く仕様から、ダブルクリックで開く仕様に修正しました。"
+
+#~ msgid "Other backend fixes"
+#~ msgstr "その他のバックエンドに関する不具合を修正しました。"
+
+#~ msgid "Date: 2024/12/01"
+#~ msgstr "日付: 2024/11/05"
+
+#~ msgid "！Cannot be downgraded！"
+#~ msgstr "！ダウングレードできません！"
+
+#~ msgid ""
+#~ "Session opened in 25.01 will not "
+#~ "competitable with previous version of "
+#~ "FCS.  As usual, please backup before "
+#~ "you upgrade your existing session."
+#~ msgstr ""
+#~ "FCS 25.01で開いたセッションは、以前のバージョンとの互換性がありません。 "
+#~ "既存のセッションをアップグレードする前に必ずバックアップを取ってください。"
+
+#~ msgid "Added minor version in the app title bar"
+#~ msgstr "アプリのタイトルバーにマイナーバージョン番号を表示するようにしました。"
+
+#~ msgid "Optimized the startup process so it should now be slightly faster"
+#~ msgstr "スタートアッププロセスを最適化し、起動が若干速くなりました。"
+
+#~ msgid "Fixed an error that prevent the third party licenses from loading"
+#~ msgstr "サードパーティライセンスが読み込まれない不具合を修正しました。"
+
+#~ msgid "Fixed a bug where the right click menu goes outside the screen"
+#~ msgstr "右クリックメニューが画面外に表示されるバグを修正しました。"
+
+#~ msgid "Removed custom animations for better performance"
+#~ msgstr "パフォーマンス向上のため、カスタムアニメーションを削除しました。"
+
+#~ msgid ""
+#~ "Added a new feature to allow "
+#~ "opening a different session even when"
+#~ " one is already open (we just "
+#~ "restart the app for you, a more"
+#~ " permanent solution is in discussion)"
+#~ msgstr "既にセッションが開かれている場合でも、別のセッションを開ける新機能を追加しました。（現状では、アプリを再起動することで対応していますが、より恒久的な解決策は現在検討中です。）"
+
+#~ msgid ""
+#~ "Improved the shortcut key handling so"
+#~ " when a key is released the "
+#~ "function will stop in the next "
+#~ "frame"
+#~ msgstr "ショートカットキーの処理を改善し、キーを離すと次のフレームでその機能が停止するようになりました。"
+
+#~ msgid "Added command line launch options"
+#~ msgstr "コマンドライン起動オプションを追加しました。"
+
+#~ msgid "--session: Open a session file (.yaml) after launch"
+#~ msgstr "—session: 起動後にセッションファイル (.yaml) を開きます。"
+
+#~ msgid ""
+#~ "--maya_command_port: Use a different Maya "
+#~ "Command Port instead of the one "
+#~ "specified in Settings"
+#~ msgstr "—maya_command_port: 設定で指定されたものではなく、別の Maya のコマンドポートを使用します。"
+
+#~ msgid "Added User Tag for Profile tagging"
+#~ msgstr "プロフィールのタグ付け用に、ユーザータグを追加しました。"
+
+#~ msgid "Controller"
+#~ msgstr "インストーラー"
+
+#~ msgid ""
+#~ "Newly added controllers will have their"
+#~ " checkboxes checked so it is easier"
+#~ " if you want to immediately assign"
+#~ " a value/region to them."
+#~ msgstr "新規に追加されたコントローラーは、初期状態でチェックボックスがオンになっています。すぐに値やリージョンを割り当てる際に便利です。"
+
+#~ msgid ""
+#~ "Rearrange controller is set to disabled"
+#~ " by default, you can still rearrange"
+#~ " them if you check the box "
+#~ "under Advanced/Rearrange."
+#~ msgstr "コントローラーの並べ替え機能は、デフォルトでは無効になっていますが、詳細設定の「並べ替え」チェックボックスにチェックを入れると、並べ替えを行うことができます。"
+
+#~ msgid ""
+#~ "Checking the box for controller is "
+#~ "now easier, you can left click on"
+#~ " the controller name."
+#~ msgstr "コントローラーのチェックボックス操作がより簡単になりました。コントローラー名を左クリックすると、チェックを入れることができます。"
+
+#~ msgid ""
+#~ "Added validation when trying to save "
+#~ "the table, you can no longer save"
+#~ " a table with null region."
+#~ msgstr "テーブルを保存する際の検証機能を追加し、領域が未設定のテーブルは保存できなくなりました。"
+
+#~ msgid ""
+#~ "Added Value Set so you can change"
+#~ " the value of all checked controllers"
+#~ " at once."
+#~ msgstr "チェック済みのすべてのコントローラーの値を一括で変更できる、Value Set機能を追加しました。"
+
+#~ msgid "Creating Session"
+#~ msgstr "セッション作成"
+
+#~ msgid "Hid the loading indicator when the task is in fact done."
+#~ msgstr "タスクが完了した際に、読み込みインジケーターを非表示にしました。"
+
+#~ msgid ""
+#~ "Added a feature to automatically fill"
+#~ " in Maya base if the workspace.mel"
+#~ " file is found nearby."
+#~ msgstr "workspace.melファイルが近くに見つかった場合に、Mayaベースに自動入力される機能を追加しました。"
+
+#~ msgid "Maya"
+#~ msgstr "Maya"
+
+#~ msgid ""
+#~ "Fixed a bug where not connectable "
+#~ "attributes will also be added to "
+#~ "Controller"
+#~ msgstr "接続不可能な属性がコントローラーに追加されてしまう不具合を修正しました。"
+
+#~ msgid ""
+#~ "Fixed a bug where the timeline is"
+#~ " not set on Maya side even when"
+#~ " Sync is set to ON."
+#~ msgstr "「To Maya」がONになっているにもかかわらず、Predict結果がMayaに送信されない問題を修正しました。"
+
+#~ msgid ""
+#~ "Fixed a bug where the timeline "
+#~ "will still be dragged around even "
+#~ "when dragging outside the timeline."
+#~ msgstr "タイムラインの外側でドラッグしても、タイムラインが動いてしまうバグを修正しました。"
+
+#~ msgid "Added a snapping flag to disable snapping"
+#~ msgstr "スナップ機能を無効にするためのフラグを追加しました。"
+
+#~ msgid "Videos"
+#~ msgstr "動画"
+
+#~ msgid ""
+#~ "Video Processing will now give you "
+#~ "a progress bar so you know much"
+#~ " longer it would take."
+#~ msgstr "ビデオ処理時に、処理が完了するまでの残り時間がわかる進捗バーが表示されるようになりました。"
+
+#~ msgid ""
+#~ "Fixed a bug when trying to open"
+#~ " a video that is invalid (file "
+#~ "missing) crashes the app"
+#~ msgstr "ファイルが存在しないなど無効なビデオを開こうとした際に、アプリがクラッシュする不具合を修正しました。"
+
+#~ msgid ""
+#~ "Note this rotation happens dynamically, "
+#~ "so your original video file is "
+#~ "never altered and no extra disk "
+#~ "space will be taken up, but in "
+#~ "turn, it would be more demanding "
+#~ "for your local machine to decode "
+#~ "on the fly."
+#~ msgstr "この回転処理は動的に行われるため、元の動画ファイル自体は変更されず、追加のディスク容量も必要ありません。しかし、ローカルマシンでのリアルタイムデコードにより負荷がかかる可能性があります。"
+
+#~ msgid ""
+#~ "Changed the behaviour of opening video"
+#~ " from single click to double click"
+#~ msgstr "ビデオを開く操作を、シングルクリックからダブルクリックに変更しました。"
+
+#~ msgid ""
+#~ "Added a feature that allows you to"
+#~ " rotate the video when you import "
+#~ "the video"
+#~ msgstr "動画のインポート時に回転できる機能を追加しました。"
+
+#~ msgid "Solver"
+#~ msgstr "ソルバー"
+
+#~ msgid ""
+#~ "Added a reminder if you try to "
+#~ "export a solver for FCSRT but do"
+#~ " not have a solver object yet, "
+#~ "you can train one by clicking the"
+#~ " button next to it."
+#~ msgstr "FCSRT用のソルバーをエクスポートしようとした際にソルバーオブジェクトが存在しない場合は、隣のボタンをクリックしてトレーニングできるというリマインダーを追加しました。"
+
+#~ msgid ""
+#~ "Added a new face tracker option "
+#~ "for more robust (but less rich) "
+#~ "tracking, more oriented for real-time"
+#~ " tracker."
+#~ msgstr "安定性が高くリアルタイムトラッキング向けに最適化された新しい顔トラッカーオプション（その代わり情報量は少なめ）を追加しました。"
+
+#~ msgid "Gallery"
+#~ msgstr "インストーラー"
+
+#~ msgid "Added a checkbox to hide the tooltip"
+#~ msgstr "ツールチップを非表示にするためのチェックボックスを追加しました。"
+
+#~ msgid "Changed the behaviour of predict to only apply to enabled region(s)"
+#~ msgstr "予測機能の動作を、オンになっている領域のみに適用するよう変更しました。"
+
+#~ msgid "Added a filter support based on Tag"
+#~ msgstr "タグに基づくフィルター機能を追加しました。"
+
+#~ msgid "Added Confident Sort"
+#~ msgstr "日本語・英語両方に対応するインストーラを追加しました。"
+
+#~ msgid ""
+#~ "You can now sort your profiles "
+#~ "based on how closely it matches "
+#~ "the algorithm prediction, this is useful"
+#~ " for debugging when you are trying"
+#~ " to figure out whether you mistakenly"
+#~ " created something wrong."
+#~ msgstr "アルゴリズムの予測との一致度に基づいてプロファイルを並べ替えられるようになりました。誤って何かを作成してしまったかどうかを確認する際のデバッグが容易になります。"
+
+#~ msgid "Editor"
+#~ msgstr "エディター"
+
+#~ msgid "You can add/remove custom tag for profile"
+#~ msgstr "プロフィールにカスタムタグを追加・削除できるようになりました。"
+
+#~ msgid ""
+#~ "You can also add default tags that"
+#~ " will be automatically applied to "
+#~ "newly created profiles"
+#~ msgstr "新規作成したプロフィールに自動的に適用されるデフォルトタグの追加が可能になりました。"
+
+#~ msgid "Controller value in disabled region(s) will be excluded from"
+#~ msgstr "無効な領域にあるコントローラーの値は、対象から除外されるようになりました。"
+
+#~ msgid "From Maya"
+#~ msgstr "Mayaから"
+
+#~ msgid "To Maya"
+#~ msgstr "Mayaへ"
+
+#~ msgid "Predict"
+#~ msgstr "予測"
 
