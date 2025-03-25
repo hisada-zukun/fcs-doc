@@ -27,28 +27,28 @@ msgid "[Download FCS](https://github.com/ZukunFCS/fcs-doc/releases)"
 msgstr ""
 
 #: ../../000_release_note.md:4
-#, fuzzy
+#
 msgid "FCS 25.04.02"
-msgstr "FCS 25.01.02"
+msgstr "FCS 25.04.02"
 
 #: ../../000_release_note.md:5
-#, fuzzy
+#
 msgid "Date: 2025/03/19"
-msgstr "日付: 2025/02/17"
+msgstr "日付: 2025/03/19"
 
 #: ../../000_release_note.md:6
-#, fuzzy
+#
 msgid "Version: 25.04.02"
-msgstr "バージョン: 24.10.09"
+msgstr "バージョン: 25.04.02"
 
 #: ../../000_release_note.md:7 ../../000_release_note.md:21
-#, fuzzy
+#
 msgid "Stage: Beta"
-msgstr "ステージ：Stable"
+msgstr "ステージ：Beta"
 
 #: ../../000_release_note.md:9 ../../000_release_note.md:30
 msgid "New Features"
-msgstr ""
+msgstr "新機能"
 
 #: ../../000_release_note.md:10 ../../000_release_note.md:24
 #: ../../000_release_note.md:31
@@ -56,94 +56,94 @@ msgid "Timeline"
 msgstr "タイムライン"
 
 #: ../../000_release_note.md:11
-#, fuzzy
+#
 msgid "Added a new feature that allows processing part of the video"
-msgstr "動画のインポート時に回転ができる機能を追加しました。"
+msgstr "動画の一部分のみ処理を行う機能を追加しました"
 
 #: ../../000_release_note.md:13 ../../000_release_note.md:40
 msgid "Bug Fixes"
-msgstr ""
+msgstr "バグ修正"
 
 #: ../../000_release_note.md:14
 msgid "Fix unstable issue with timeline checkboxes"
-msgstr ""
+msgstr "タイムラインのチェックボックスにおける不安定な挙動を修正しました"
 
 #: ../../000_release_note.md:15
 msgid "Fix a bug where sorting controller table would not work as intended"
-msgstr ""
+msgstr "コントローラー表をソートした際のズレを修正しました"
 
 #: ../../000_release_note.md:16
 msgid "Fix a bug where shortcut input does not function"
-msgstr ""
+msgstr "ショートカットキーが機能しないバグを修正しました"
 
 #: ../../000_release_note.md:18
-#, fuzzy
+#
 msgid "FCS 25.04.01"
-msgstr "FCS 25.01.01"
+msgstr "FCS 25.04.01"
 
 #: ../../000_release_note.md:19
-#, fuzzy
+#
 msgid "Date: 2025/03/05"
-msgstr "日付: 2025/01/10"
+msgstr "日付: 2025/03/05"
 
 #: ../../000_release_note.md:20
-#, fuzzy
+#
 msgid "Version: 25.04.01"
-msgstr "バージョン: 24.10.09"
+msgstr "バージョン: 25.04.01"
 
 #: ../../000_release_note.md:23
 msgid "Changes"
-msgstr ""
+msgstr "変更点"
 
 #: ../../000_release_note.md:25
 msgid ""
 "Moved buttons from timeline to right click menu (matching behaviour in "
 "Maya)"
-msgstr ""
+msgstr "再生時の設定に関連するボタン類をタイムライン右クリックメニューに移動しました(Mayaに近い挙動になりました)"
 
 #: ../../000_release_note.md:27
 msgid "Shortcut Key"
-msgstr ""
+msgstr "ショートカットキー"
 
 #: ../../000_release_note.md:28
 msgid "Changed the timeline shortcut keys to match the ones in Maya"
-msgstr ""
+msgstr "タイムラインのショートカットキーをMayaと統一しました"
 
 #: ../../000_release_note.md:32
-#, fuzzy
+#
 msgid "Added looped playback support"
-msgstr "インストーラが日本語・英語両方に対応しました。"
+msgstr "ループ再生機能を追加しました"
 
 #: ../../000_release_note.md:33
-#, fuzzy
+#
 msgid "Added audio playback support"
-msgstr "実験的にLinux対応を始めました"
+msgstr "音声の再生機能を追加しました"
 
 #: ../../000_release_note.md:35
 msgid "Settings"
-msgstr ""
+msgstr "設定"
 
 #: ../../000_release_note.md:36
 msgid "Added a new feature to import user setting from a previous version"
-msgstr ""
+msgstr "以前のバージョンからユーザー設定をインポートする機能を追加しました"
 
 #: ../../000_release_note.md:37
 msgid "Added AV1 codec support for better web support"
-msgstr ""
+msgstr "AV1コーデックに対応しました"
 
 #: ../../000_release_note.md:38
 msgid "Added support for a new set of symbols for shortcut keys"
-msgstr ""
+msgstr "ショートカットキーが記号に対応しました"
 
 #: ../../000_release_note.md:41
 msgid "Fixed a bug where long video might the process in some systems"
-msgstr ""
+msgstr "一部の環境で長尺の動画の処理の際にクラッシュするバグを修正しました"
 
 #: ../../000_release_note.md:42
 msgid ""
 "Fixed a bug where batch renaming controllers crashes the application when"
 " there is no profile at all."
-msgstr ""
+msgstr "Profileを登録していない状態でコントローラーのリネームを行おうとするとクラッシュする問題を修正しました"
 
 #~ msgid "FCS 24.10.09"
 #~ msgstr "バージョン: 24.10.09"
