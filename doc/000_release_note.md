@@ -1,5 +1,49 @@
 # Release Note
 [Download FCS](https://github.com/ZukunFCS/fcs-doc/releases)
+## FCS 25.04.05
+- Date: 2025/04/03
+- Version: 25.04.05
+- Stage: Stable
+
+
+#### New features
+1. Gallery 
+   1. Added new sort method: "Randomized"
+   2. Added batch tagging for profiles
+   3. Added a dropdown to limit how many profiles to display at a time
+
+#### Fixes
+1. Fixed gallery sorting order being inconsistent in some cases
+2. Fixed an issue where deleting smoothing profile can crash the app
+3. Fixed an issue where right click menu can stay out of screen
+4. Fix rearranging controller crashes the app
+5. Fix controller renaming crashes the app
+6. Disallow adding empty or duplicated profile tag
+7. Disallow layout with no name
+
+## FCS 25.04.04
+- Date: 2025/03/27
+- Version: 25.04.04
+- Stage: Beta
+
+#### New features
+1. Added support for Maya 2025
+2. Added toggle in Editor to hide the image panel
+
+#### Fixes
+1. Fixed an issue where exporting a session would not work with Assets folder
+2. Fixed an issue where deleting smoothing profile can crash the app
+3. Fixed an issue where right click menu can stay out of screen
+
+## FCS 25.04.03
+- Date: 2025/03/24
+- Version: 25.04.03
+- Stage: Beta
+
+#### Fixes
+1. Fixed controller table bug that causes the application to crash
+2. Optimized keyboard shortcut responsiveness
+3. Modified the text for the process feature that allows the user to re-process only a segment of the video
 
 ## FCS 25.04.02
 - Date: 2025/03/19
