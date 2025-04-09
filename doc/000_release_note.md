@@ -1,10 +1,20 @@
 # Release Note
-[Download FCS](https://github.com/ZukunFCS/fcs-doc/releases)
+[Download FCS here](https://github.com/ZukunFCS/fcs-doc/releases)
+
+## FCS 25.04.06
+- Date: 2025/04/08
+- Version: 25.04.06
+- Stage: Stable
+
+#### Fixes
+1. Fixed a bug where processing videos would take longer time during process spawning
+2. Changed the border color of tabs
+3. Removed old dlls
+
 ## FCS 25.04.05
 - Date: 2025/04/03
 - Version: 25.04.05
 - Stage: Stable
-
 
 #### New features
 1. Gallery 
