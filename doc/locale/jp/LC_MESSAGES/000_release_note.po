@@ -27,28 +27,28 @@ msgid "[Download FCS here](https://github.com/ZukunFCS/fcs-doc/releases)"
 msgstr ""
 
 #: ../../000_release_note.md:4
-#, fuzzy
+#
 msgid "FCS 25.04.06"
-msgstr "FCS 25.04.02"
+msgstr "FCS 25.04.06"
 
 #: ../../000_release_note.md:5
-#, fuzzy
+#
 msgid "Date: 2025/04/08"
-msgstr "日付: 2025/03/05"
+msgstr "日付: 2025/04/08"
 
 #: ../../000_release_note.md:6
-#, fuzzy
+#
 msgid "Version: 25.04.06"
-msgstr "バージョン: 25.04.02"
+msgstr "バージョン: 25.04.06"
 
 #: ../../000_release_note.md:7 ../../000_release_note.md:17
-#, fuzzy
+#
 msgid "Stage: Stable"
-msgstr "ステージ：Beta"
+msgstr "ステージ：Stable"
 
 #: ../../000_release_note.md:9 ../../000_release_note.md:25
 #: ../../000_release_note.md:43 ../../000_release_note.md:53
-#, fuzzy
+#, 
 msgid "Fixes"
 msgstr "バグ修正"
 
@@ -56,33 +56,33 @@ msgstr "バグ修正"
 msgid ""
 "Fixed a bug where processing videos would take longer time during process"
 " spawning"
-msgstr ""
+msgstr " 動画の処理中、子プロセスを実行する際に処理時間が長くなるバグを修正しました"
 
 #: ../../000_release_note.md:11
 msgid "Changed the border color of tabs"
-msgstr ""
+msgstr "タブの枠線の色を変更しました"
 
 #: ../../000_release_note.md:12
 msgid "Removed old dlls"
-msgstr ""
+msgstr "不要なDLLファイルを削除しました"
 
 #: ../../000_release_note.md:14
-#, fuzzy
+#
 msgid "FCS 25.04.05"
-msgstr "FCS 25.04.02"
+msgstr "FCS 25.04.05"
 
 #: ../../000_release_note.md:15
-#, fuzzy
+#
 msgid "Date: 2025/04/03"
-msgstr "日付: 2025/03/05"
+msgstr "日付: 2025/04/03"
 
 #: ../../000_release_note.md:16
-#, fuzzy
+#
 msgid "Version: 25.04.05"
-msgstr "バージョン: 25.04.02"
+msgstr "バージョン: 25.04.05"
 
 #: ../../000_release_note.md:19 ../../000_release_note.md:39
-#, fuzzy
+#
 msgid "New features"
 msgstr "新機能"
 
@@ -92,58 +92,58 @@ msgstr ""
 
 #: ../../000_release_note.md:21
 msgid "Added new sort method: \"Randomized\""
-msgstr ""
+msgstr "新しいソート方法「ランダム」を追加しました"
 
 #: ../../000_release_note.md:22
 msgid "Added batch tagging for profiles"
-msgstr ""
+msgstr "プロファイルの一括タグ付け機能を追加しました"
 
 #: ../../000_release_note.md:23
 msgid "Added a dropdown to limit how many profiles to display at a time"
-msgstr ""
+msgstr "表示するプロファイル数を制限する機能を追加しました"
 
 #: ../../000_release_note.md:26
 msgid "Fixed gallery sorting order being inconsistent in some cases"
-msgstr ""
+msgstr "ギャラリーのソート順が一部の場合にて不安定になる問題を修正しました"
 
 #: ../../000_release_note.md:27 ../../000_release_note.md:45
 msgid "Fixed an issue where deleting smoothing profile can crash the app"
-msgstr ""
+msgstr "スムージングプロファイルを削除するとアプリがクラッシュする問題を修正しました"
 
 #: ../../000_release_note.md:28 ../../000_release_note.md:46
 msgid "Fixed an issue where right click menu can stay out of screen"
-msgstr ""
+msgstr "右クリックメニューが画面外に残ることがある問題を修正しました"
 
 #: ../../000_release_note.md:29
 msgid "Fix rearranging controller crashes the app"
-msgstr ""
+msgstr "コントローラー表の並び替えの際にアプリがクラッシュする問題を修正しました"
 
 #: ../../000_release_note.md:30
 msgid "Fix controller renaming crashes the app"
-msgstr ""
+msgstr "コントローラー表の名前変更の際にアプリがクラッシュする問題を修正しました"
 
 #: ../../000_release_note.md:31
 msgid "Disallow adding empty or duplicated profile tag"
-msgstr ""
+msgstr "空または重複したプロファイルタグの追加を禁止しました"
 
 #: ../../000_release_note.md:32
 msgid "Disallow layout with no name"
-msgstr ""
+msgstr "名前のないレイアウトの作成を禁止しました"
 
 #: ../../000_release_note.md:34
-#, fuzzy
+#
 msgid "FCS 25.04.04"
-msgstr "FCS 25.04.02"
+msgstr "FCS 25.04.04"
 
 #: ../../000_release_note.md:35
-#, fuzzy
+#
 msgid "Date: 2025/03/27"
-msgstr "日付: 2025/03/19"
+msgstr "日付: 2025/03/27"
 
 #: ../../000_release_note.md:36
-#, fuzzy
+#
 msgid "Version: 25.04.04"
-msgstr "バージョン: 25.04.02"
+msgstr "バージョン: 25.04.04"
 
 #: ../../000_release_note.md:37 ../../000_release_note.md:51
 #: ../../000_release_note.md:61 ../../000_release_note.md:75
@@ -152,46 +152,46 @@ msgstr "ステージ：Beta"
 
 #: ../../000_release_note.md:40
 msgid "Added support for Maya 2025"
-msgstr ""
+msgstr "Maya 2025 のサポートを追加しました"
 
 #: ../../000_release_note.md:41
 msgid "Added toggle in Editor to hide the image panel"
-msgstr ""
+msgstr "エディターに画像パネルを非表示にする機能を追加しました"
 
 #: ../../000_release_note.md:44
-#, fuzzy
+#
 msgid "Fixed an issue where exporting a session would not work with Assets folder"
-msgstr "コントローラー表をソートした際のズレを修正しました"
+msgstr "セッションのエクスポートが「Assets」フォルダーで動作しない問題を修正しました"
 
 #: ../../000_release_note.md:48
-#, fuzzy
+#
 msgid "FCS 25.04.03"
-msgstr "FCS 25.04.02"
+msgstr "FCS 25.04.03"
 
 #: ../../000_release_note.md:49
-#, fuzzy
+#
 msgid "Date: 2025/03/24"
-msgstr "日付: 2025/03/19"
+msgstr "日付: 2025/03/24"
 
 #: ../../000_release_note.md:50
-#, fuzzy
+#
 msgid "Version: 25.04.03"
-msgstr "バージョン: 25.04.02"
+msgstr "バージョン: 25.04.03"
 
 #: ../../000_release_note.md:54
 msgid "Fixed controller table bug that causes the application to crash"
-msgstr ""
+msgstr "コントローラー表の一部が機能しない問題を修正しました"
 
 #: ../../000_release_note.md:55
 msgid "Optimized keyboard shortcut responsiveness"
-msgstr ""
+msgstr "キーボードショートカットの反応性を向上させました"
 
 #: ../../000_release_note.md:56
-#, fuzzy
+#
 msgid ""
 "Modified the text for the process feature that allows the user to re-"
 "process only a segment of the video"
-msgstr "動画の一部分のみ処理を行う機能を追加しました"
+msgstr "動画の一部のみ再処理する機能の英語表記を修正しました"
 
 #: ../../000_release_note.md:58
 msgid "FCS 25.04.02"
