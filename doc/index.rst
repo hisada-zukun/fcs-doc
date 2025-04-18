@@ -26,7 +26,7 @@ FCSマニュアル
    014_release_schedule.md
    095_roadmap.md
    096_support.md
-   097_用語集.md
-   098_スターターキット.md
-   099_よくある質問.md
+   097_Glossary.md
+   098_StarterKit.md
+   099_FAQ.md
   
