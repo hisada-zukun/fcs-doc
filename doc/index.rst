@@ -19,7 +19,7 @@ FCSマニュアル
    006_maya.md
    007_Controlinfo.md
    008_profile.md
-   009_アニメーション.md 
+   009_animation.md 
    010_Solver.md
    011_export.rst
    012_auto_pickup.md
