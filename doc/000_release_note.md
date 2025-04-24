@@ -1,6 +1,20 @@
 # Release Note
 [Download FCS here](https://github.com/ZukunFCS/fcs-doc/releases)
 
+## FCS 25.04.07
+- Date: 2025/04/23
+- Version: 25.04.07
+- Stage: Beta
+
+#### Fixes
+1. Fixed a bug where non-HMC(head mount camera) footages are processed as HMC footages. 
+2. Fixed a bug where footages encoded when highly compressed video will drop frames when being processed. There is a very low chance of happening if you ingress raw video footage off your camera prior to processing it with FCS. On the other hand, if you process video footages encoded with libx265 with very few I-frames in between (high b-frames ratio), there might be a chance that you were affected. In which case you might notice the timing of the animation does not match the timing of the footage (the character's blink might happens faster/earlier than it is in the footage). We inherented this memory issues from the library we used to process video footages when using multiprocess. Explicit multiprocessing has since been disabled for footage process, leading to a slightly longer processing time in some systems but more accurate animations. An upcoming fix in 25.07 will speed up the processing. 
+3. Fixed a bug where missing controller in the Maya scene lead to other following controllers to fail to be sent/received.
+4. Fixed a bug where prioritizing profile does not work when profiles are very cloes to each other (within the user-defined window, defaults to 1 second)
+
+#### Update
+1. Updated Terms of Service 
+
 ## FCS 25.04.06
 - Date: 2025/04/08
 - Version: 25.04.06
