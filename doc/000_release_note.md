@@ -1,6 +1,21 @@
 # Release Note
 [Download FCS here](https://github.com/ZukunFCS/fcs-doc/releases)
 
+## FCS 25.04.08
+- Date: 2025/05/13
+- Version: 25.04.08
+- Stage: Beta
+
+#### Fixes
+1. Fixed a bug that create more profiles during Auto Profile than specified  
+2. Prevented the app from crashing when the application does not have read/write access to the $HOME folder, show an error instead.  
+3. Improved app stability
+
+#### Update
+1. Changed the update CDN from AWS to Github. If you are not able to connect to github directly, please consider using a system-wise VPN to download the update via the application, or use a VPN in your browser and download it directly from [Github](https://github.com/ZukunFCS/fcs-doc/releases).  
+2. Optimize the tooltip (hovered text)
+
+
 ## FCS 25.04.07
 - Date: 2025/04/23
 - Version: 25.04.07
