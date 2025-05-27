@@ -78,7 +78,7 @@ msgid ""
 "the update via the application, or use a VPN in your browser and download"
 " it directly from [Github](https://github.com/ZukunFCS/fcs-doc/releases)."
 msgstr ""
-"アップデート時のFCSの配信場所をAWS(Amazon Web Services)からGithubに変更しました**<br>**"
+"アップデート時のFCSの配信場所をAWS(Amazon Web Services)からGithubに変更しました<br>"
 "githubに直接接続できない場合は、システム全体の VPN を使用してFCSアプリケーション経由でアップデートをダウンロードするか、ブラウザでVPNを使用してgithubから直接ダウンロードすることを検討ください"
 
 #: ../../000_release_note.md:16
@@ -86,25 +86,22 @@ msgid "Optimize the tooltip (hovered text)"
 msgstr "ツールチップ（ホバーテキスト,一部機能の注釈や説明）を最適化しました"
 
 #: ../../000_release_note.md:19
-#, fuzzy
 msgid "FCS 25.04.07"
-msgstr "FCS 25.04.06"
+msgstr "FCS 25.04.07"
 
 #: ../../000_release_note.md:20
-#, fuzzy
 msgid "Date: 2025/04/23"
-msgstr "日付: 2025/04/03"
+msgstr "日付: 025/04/23"
 
 #: ../../000_release_note.md:21
-#, fuzzy
 msgid "Version: 25.04.07"
-msgstr "バージョン: 25.04.06"
+msgstr "バージョン: 25.04.07"
 
 #: ../../000_release_note.md:25
 msgid ""
 "Fixed a bug where non-HMC(head mount camera) footages are processed as "
 "HMC footages."
-msgstr ""
+msgstr "HMC(ヘッドマウントカメラ)以外のカメラでの映像がHMCの映像として処理される問題を修正しました"
 
 #: ../../000_release_note.md:26
 msgid ""
@@ -122,23 +119,29 @@ msgid ""
 " processing time in some systems but more accurate animations. An "
 "upcoming fix in 25.07 will speed up the processing."
 msgstr ""
+"高圧縮された動画を処理する際にフレーム落ちが起こる問題を修正しました<br>"
+"ibx265でエンコードされた映像でIフレームの間隔が非常に広く(Bフレーム割合が高く)設定されている映像を使用する場合、アニメーションのタイミングが映像のタイミングと一致しないことがありました"
+"（例：キャラクターのまばたきが動画よりも早い など）"
+"本事象は、マルチプロセスを使用して映像を処理する際に使用していたライブラリ由来のメモリ関連の不具合に起因していたため、映像処理における明示的なマルチプロセスを無効化しました、"
+"一部システムでは処理時間が若干長くなる可能性があります<br>"
+"2025年7月リリース予定のアップデートにて処理速度の改善・向上を予定しております"
 
 #: ../../000_release_note.md:27
 msgid ""
 "Fixed a bug where missing controller in the Maya scene lead to other "
 "following controllers to fail to be sent/received."
-msgstr ""
+msgstr "Mayaシーンでコントローラが見つからなかった場合、他の後続のコントローラの送受信が失敗する問題を修正しました"
 
 #: ../../000_release_note.md:28
 msgid ""
 "Fixed a bug where prioritizing profile does not work when profiles are "
 "very cloes to each other (within the user-defined window, defaults to 1 "
 "second)"
-msgstr ""
+msgstr "Prioritize profile使用時、設定したRange内に複数のプロファイルが存在する場合、登録したプロファイルと一致しないことがあるバグを修正しました（デフォルトでは1秒間）"
 
 #: ../../000_release_note.md:31
 msgid "Updated Terms of Service"
-msgstr ""
+msgstr "利用規約を更新しました"
 
 #: ../../000_release_note.md:33
 msgid "FCS 25.04.06"
