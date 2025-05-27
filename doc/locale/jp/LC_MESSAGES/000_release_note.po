@@ -91,7 +91,7 @@ msgstr "FCS 25.04.07"
 
 #: ../../000_release_note.md:20
 msgid "Date: 2025/04/23"
-msgstr "日付: 025/04/23"
+msgstr "日付: 2025/04/23"
 
 #: ../../000_release_note.md:21
 msgid "Version: 25.04.07"
@@ -137,7 +137,7 @@ msgid ""
 "Fixed a bug where prioritizing profile does not work when profiles are "
 "very cloes to each other (within the user-defined window, defaults to 1 "
 "second)"
-msgstr "Prioritize profile使用時、設定したRange内に複数のプロファイルが存在する場合、登録したプロファイルと一致しないことがあるバグを修正しました（デフォルトでは1秒間）"
+msgstr "Prioritize profile使用時、設定したRange内に複数のプロファイルが存在する場合、登録したプロファイルと一致しないことがあるバグを修正しました(デフォルトでは1秒間)"
 
 #: ../../000_release_note.md:31
 msgid "Updated Terms of Service"
