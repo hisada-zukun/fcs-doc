@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS 24.07 Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-01 12:44+0900\n"
+"POT-Creation-Date: 2025-05-27 09:35+0000\n"
 "PO-Revision-Date: 2024-09-25 07:24+0900\n"
 "Last-Translator: \n"
 "Language: en\n"
@@ -18,7 +18,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.16.0\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: ../../008_profile.md:1 ../../008_profile.md:145
 msgid "Profileの作成"
@@ -363,15 +363,20 @@ msgstr ""
 " profile for each video being analyzed."
 
 #: ../../008_profile.md:152
-msgid "ROM体操と呼ばれる約50個のProfileの作成をオススメしています ROM体操の表情については、スターターキットをご参照ください"
+#, fuzzy
+msgid ""
+"ROM体操と呼ばれる約50個のProfileの作成をオススメしています。 "
+"ROM体操の表情については、スターターキット同梱のPDFファイルをご参照ください"
 msgstr ""
 "We recommend creating about 50 profiles with ROM (Range of Motion). For "
 "the expression of ROM, please refer to the starter kit."
 
 #: ../../008_profile.md:156
+#, fuzzy
 msgid ""
-"profileには基本的に全てのRegionの登録を推奨していますが 一部例外があります。 「Profileを作成するときの注意点 "
-"目を閉じる/薄目の時のGaze登録について」をご参照ください"
+"profileには基本的に全てのRegionの登録を推奨していますが 一部例外があります。 [「Profileを作成するときの注意点 "
+"目を閉じる/薄目の時のGaze登録について」](https://zukunfcs.github.io/fcs-"
+"doc/latest/jp/008_profile.html#id6)をご参照ください"
 msgstr ""
 "It is generally recommended to register all regions in a profile, but "
 "there are some exceptions. Please refer to “Note: When Creating Profiles:"
