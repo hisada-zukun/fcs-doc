@@ -1,6 +1,15 @@
 # Release Note
 [Download FCS here](https://github.com/ZukunFCS/fcs-doc/releases)
 
+## FCS 25.04.09
+- Date: 2025/05/23
+- Version: 25.04.09
+- Stage: Stable
+
+#### Fixes
+1. Fixed the Robust Pipeline
+2. Fixed From Maya causing crashes
+
 ## FCS 25.04.08
 - Date: 2025/05/13
 - Version: 25.04.08
