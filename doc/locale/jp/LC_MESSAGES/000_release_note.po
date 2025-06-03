@@ -53,7 +53,7 @@ msgstr "バグ修正"
 
 #: ../../000_release_note.md:10
 msgid "Fixed the Robust Pipeline"
-msgstr "Robust Pipeline機能の修正を行いました"
+msgstr "Robust Pipeline機能を修正しました"
 
 #: ../../000_release_note.md:11
 msgid "Fixed From Maya causing crashes"
