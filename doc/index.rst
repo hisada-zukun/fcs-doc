@@ -29,4 +29,5 @@ FCSマニュアル
    097_Glossary.md
    098_StarterKit.md
    099_FAQ.md
+   Advanced-doc <https://zukunfcs.github.io/fcs-doc-advanced/latest/en/index.html>
   
