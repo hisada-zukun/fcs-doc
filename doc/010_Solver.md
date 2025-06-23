@@ -2,6 +2,8 @@
 本ページは、おもに解析したアニメーション出力結果を更に細かく調整したい方向けのページになります。  
 必要に応じて、各種設定を自由にカスタマイズすることが可能です。  
 
+さらに詳細な検証や内容は[こちら]。(https://zukunfcs.github.io/fcs-doc-advanced/latest/jp/index.html#)
+
 ### Solverの画面説明
 
 ```{figure} images/Sol001.png
