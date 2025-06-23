@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-20 08:16+0000\n"
+"POT-Creation-Date: 2025-06-23 22:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.16.0\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: ../../010_Solver.md:1
 msgid "Solverの詳細設定（細かな調整が必要な方向け）"
@@ -29,84 +29,90 @@ msgid ""
 msgstr ""
 
 #: ../../010_Solver.md:5
+msgid ""
+"さらに詳細な検証や内容は[こちら](https://zukunfcs.github.io/fcs-doc-"
+"advanced/latest/jp/index.html#)。"
+msgstr ""
+
+#: ../../010_Solver.md:7
 msgid "Solverの画面説明"
 msgstr ""
 
-#: ../../010_Solver.md:13
+#: ../../010_Solver.md:15
 msgid "▼Global：解析時の設定を変更できます。"
 msgstr ""
 
-#: ../../010_Solver.md:14
+#: ../../010_Solver.md:16
 msgid "☑ Fisheye：チェックを入れると、魚眼レンズで撮影された動画を解析する仕様に最適化される"
 msgstr ""
 
-#: ../../010_Solver.md:16
+#: ../../010_Solver.md:18
 msgid "デフォルト設定ではチェックが入っているため、広角レンズで撮影された動画を解析する際はチェックを外してください。"
 msgstr ""
 
-#: ../../010_Solver.md:19
+#: ../../010_Solver.md:21
 msgid "Smoothing：アニメーション出力時にスムージング処理をかける設定を変更できます。各Regionごとに個別に変更可能です。"
 msgstr ""
 
-#: ../../010_Solver.md:20
+#: ../../010_Solver.md:22
 msgid "Smoothing：スムージング処理の有無（基本的には有りを推奨）"
 msgstr ""
 
-#: ../../010_Solver.md:21
+#: ../../010_Solver.md:23
 msgid "Weight：一回あたりのスムージング処理の強度   数値が大きいほどスムージング処理が強くかかる（アニメーションカーブが滑らかになる）"
 msgstr ""
 
-#: ../../010_Solver.md:23
+#: ../../010_Solver.md:25
 msgid "Reps：スムージング処理の回数   回数を多くするほどアニメーションカーブが滑らかになる"
 msgstr ""
 
-#: ../../010_Solver.md:26
+#: ../../010_Solver.md:28
 msgid ""
 "Save current smoothing profile：スムージング設定の保存 "
 "保存したスムージング設定はボタンの下に表示されます(クリックで反映、右クリックでメニュー表示)"
 msgstr ""
 
-#: ../../010_Solver.md:29
+#: ../../010_Solver.md:31
 msgid "▼Post processing：アニメーション出力時にクランプ処理をかける設定などを変更できます。"
 msgstr ""
 
-#: ../../010_Solver.md:30
+#: ../../010_Solver.md:32
 msgid ""
 "Prioritize "
 "profile：アニメーション出力範囲内にProfileを作成したフレームが含まれる場合、チェックを入れると解析による予測値よりもリターゲット値を優先する"
 msgstr ""
 
-#: ../../010_Solver.md:31
+#: ../../010_Solver.md:33
 msgid "Clamp mode：クランプ処理の設定を切り替える"
 msgstr ""
 
-#: ../../010_Solver.md:32
+#: ../../010_Solver.md:34
 msgid "No Clamp：クランプ処理なし"
 msgstr ""
 
-#: ../../010_Solver.md:33
+#: ../../010_Solver.md:35
 msgid ""
 "Hard Clamp：アニメーションカーブを、Controllerウィンドウで設定した最大値 - "
 "最小値でクランプする（クランプされた範囲のスムージング処理なし）"
 msgstr ""
 
-#: ../../010_Solver.md:34
+#: ../../010_Solver.md:36
 msgid ""
 "Soft Clamp：アニメーションカーブを、Controllerウィンドウで設定した最大値 - "
 "最小値でクランプする（クランプされた範囲のスムージング処理あり）"
 msgstr ""
 
-#: ../../010_Solver.md:36
+#: ../../010_Solver.md:38
 msgid ""
 "Train：ユーザーが変更したprofile設定を参照し、Solverを再構築します。   "
 "Solverは動画出力やアニメーション出力などを行う度に自動で再構築されるため、基本的には使用する必要はありません。"
 msgstr ""
 
-#: ../../010_Solver.md:38
+#: ../../010_Solver.md:40
 msgid "Delete cache：ユーザーが変更する前のprofile設定で構築した解析キャッシュを削除します。"
 msgstr ""
 
-#: ../../010_Solver.md:39
+#: ../../010_Solver.md:41
 msgid "Export：リアルタイムアニメーション用のソルバーを出力します。"
 msgstr ""
 
