@@ -37,6 +37,7 @@ msgid ""
 "さらに詳細な検証や内容は[こちら](https://zukunfcs.github.io/fcs-doc-"
 "advanced/latest/jp/index.html#)。"
 msgstr ""
+"More advanced topics including benchmark results are available [here](https://zukunfcs.github.io/fcs-doc-advanced/latest/en/index.html)。"
 
 #: ../../010_Solver.md:7
 msgid "Solverの画面説明"
