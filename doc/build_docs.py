@@ -63,5 +63,5 @@ subprocess.run("git checkout main", shell=True)
 subprocess.run("cp ../src/index.html _build/html/index.html", shell=True)
 legacy_paths = [Path('_build/html/latest/jp'), Path('_build/html/latest/en')]
 for path in legacy_paths:
-	legacy_paths.mkdir(exist_ok=True, parents=True)
-	subprocess.run(f"cp _build/html/index.html {legacy_paths}/index.html", shell=True)
+	path.mkdir(exist_ok=True, parents=True)
+	subprocess.run(f"cp _build/html/index.html {path}/index.html", shell=True)
