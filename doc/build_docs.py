@@ -39,8 +39,8 @@ if Path("./pages").exists():
 if Path("./_build").exists():
     rmtree(Path("./_build"))
 
-build_doc("latest", "jp", "main")
-build_doc("latest", "en", "main")
+# build_doc("latest", "jp", "main")
+# build_doc("latest", "en", "main")
 
 # reading the yaml file
 with open("versions.yaml", "r") as yaml_file:
