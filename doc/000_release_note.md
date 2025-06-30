@@ -4,7 +4,7 @@
 ## FCS 25.07.03
 -Date: 2025/06/25
 - Version: 25.07.03
-- Stage: Beta
+- Stage: Stable
 
 #### Bug fixes
 - Fixed shortcut keys triggering when modifier is active (Triggering Period when Ctrl + Period is pressed)
