@@ -47,7 +47,6 @@ msgid "Stage: Beta"
 msgstr "ステージ：Stable"
 
 #: ../../000_release_note.md:9 ../../000_release_note.md:21
-#, fuzzy
 msgid "Bug fixes"
 msgstr "バグ修正"
 
@@ -114,7 +113,6 @@ msgid "Date: 2025/06/09"
 msgstr "日付: 2025/06/09"
 
 #: ../../000_release_note.md:29
-#, fuzzy
 msgid "Version: 25.07.01"
 msgstr "バージョン: 25.07.01"
 
