@@ -44,7 +44,7 @@ msgstr "バージョン: 25.07.03"
 #: ../../000_release_note.md:136 ../../000_release_note.md:146
 #: ../../000_release_note.md:160
 msgid "Stage: Beta"
-msgstr "ステージ：Stable"
+msgstr "ステージ：Beta"
 
 #: ../../000_release_note.md:9 ../../000_release_note.md:21
 msgid "Bug fixes"
