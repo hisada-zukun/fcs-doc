@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../index.rst:8
 msgid "Advanced-doc"
-msgstr "[Advanced-doc](https://zukunfcs.github.io/fcs-doc-advanced/latest/en/index.html)"
+msgstr "Advanced-doc(https://zukunfcs.github.io/fcs-doc-advanced/latest/en/index.html)"
 
 #: ../../index.rst:8
 msgid "コンテンツ:"
