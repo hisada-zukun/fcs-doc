@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-08 05:52+0000\n"
+"POT-Creation-Date: 2025-07-08 08:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -19,10 +19,6 @@ msgstr ""
 "Generated-By: Babel 2.17.0\n"
 
 #: ../../index.rst:8
-msgid "Advanced-doc"
-msgstr ""
-
-#: ../../index.rst:8
 msgid "コンテンツ:"
 msgstr ""
 
@@ -31,5 +27,8 @@ msgid "FCSマニュアル"
 msgstr ""
 
 #~ msgid "🔗Advanced-doc"
+#~ msgstr ""
+
+#~ msgid "Advanced-doc"
 #~ msgstr ""
 
