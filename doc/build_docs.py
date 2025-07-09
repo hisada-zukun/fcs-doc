@@ -3,7 +3,7 @@ import subprocess
 import yaml
 from pathlib import Path
 from shutil import rmtree, move
-
+import re
 # a single build step, which keeps conf.py and versions.yaml at the main branch
 # in generall we use environment variables to pass values to conf.py, see below
 # and runs the build as we did locally
@@ -21,8 +21,22 @@ def build_doc(version, language, tag=None, ):
 		subprocess.run("git checkout " + tag, shell=True)
 		for filename in ['conf.py', 'versions.yaml', '../.gitignore', 'build_docs.py']:
 			subprocess.run(f"git checkout main -- {filename}", shell=True)
+	external_link_file = Path("doc/advanced_doc_link.rst")
+	if external_link_file.exists() and language == 'en':
+		with open(external_link_file, "r", encoding="utf-8") as f:
+			content = f.read()
+		new_content = re.sub(
+			r'(<meta http-equiv="refresh" content="0; url=https://zukunfcs\.github\.io/fcs-doc-advanced/latest/)(jp)(/index\.html"\s*/?>)',
+			r'\1en\3',
+			content,
+			flags=re.IGNORECASE
+		)
+		if content != new_content:
+			with open(external_link_file, "w", encoding="utf-8") as f:
+				f.write(new_content)
 	os.environ['SPHINXOPTS'] = "-D language='{}'".format(language)
 	subprocess.run("make html", shell=True)
+
 	move('_build/html', f'pages/{version}/{language}')
 
 
