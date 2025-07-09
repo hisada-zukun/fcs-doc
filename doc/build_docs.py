@@ -21,7 +21,7 @@ def build_doc(version, language, tag=None, ):
 		subprocess.run("git checkout " + tag, shell=True)
 		for filename in ['conf.py', 'versions.yaml', '../.gitignore', 'build_docs.py']:
 			subprocess.run(f"git checkout main -- {filename}", shell=True)
-	external_link_file = Path("doc/advanced_doc_link.rst")
+	external_link_file = Path("advanced_doc_link.rst")
 	if external_link_file.exists() and language == 'en':
 		with open(external_link_file, "r", encoding="utf-8") as f:
 			content = f.read()
