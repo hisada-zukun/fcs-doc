@@ -19,7 +19,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          TAG_NAME="25.07"
+          TAG_NAME="25.10"
 
           # Create or update the tag to point to HEAD
           git tag -f "$TAG_NAME"
