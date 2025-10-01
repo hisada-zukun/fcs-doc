@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-10-01 01:44+0000\n"
+"POT-Creation-Date: 2025-10-01 02:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,7 +100,7 @@ msgid ""
 msgstr ""
 
 #: ../../000_release_note.md:26
-msgid "**### Misc.**"
+msgid "Misc"
 msgstr ""
 
 #: ../../000_release_note.md:28
@@ -1383,5 +1383,8 @@ msgstr ""
 #~ "Fixed a bug where batch renaming "
 #~ "controllers crashes the application when "
 #~ "there is no profile at all."
+#~ msgstr ""
+
+#~ msgid "**### Misc.**"
 #~ msgstr ""
 
