@@ -23,7 +23,7 @@ We also fixed a few longstanding bugs in our prediction pipeline. As a result, i
 
 In addition, we also create a new ****experimental**** feature to boost accuracy for retargeting, by allowing the user to create more fine-grain control over the controller beyond the four regions. This is for advanced users who would want to create very accurate, low-noise result. This will be completely optional. The manual will be updated later to provide a more thorough explanation.
 
-**### Misc.**
+### Misc
 
 - Remove Hover text for controller tab, this has been known to cause crashes in some systems and do not provide too much helpful information.
 - Optimize the application launch time
