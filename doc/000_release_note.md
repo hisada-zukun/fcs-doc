@@ -16,7 +16,7 @@ We introduce two new pipelines, RP+ and Robust+. They use a new facial tracking 
 
 We will include more comparison in our [Advanced Manual](https://zukunfcs.github.io/fcs-doc-advanced/latest/en/index.html).
 
-These new pipelines can be edited in a later version of FCS.
+Facial tracking results generated with the new pipelines can be edited in a later version of FCS.
 
 #### Retarget Accuracy
 We also fixed a few longstanding bugs in our prediction pipeline. As a result, it should generate much more stable animation even for older pipelines (Rich, RP, Robust).
