@@ -85,7 +85,7 @@ msgstr ""
 
 #: ../../000_release_note.md:19
 msgid "These new pipelines can be edited in a later version of FCS."
-msgstr "また、これらの新しいパイプラインは、後のFCSバージョンで編集が可能になる予定です。"
+msgstr "また、これらの新しいパイプラインは、後のFCSバージョンでトラッキングの編集が可能になる予定です。"
 
 #: ../../000_release_note.md:21
 msgid "Retarget Accuracy"
@@ -106,7 +106,7 @@ msgid ""
 " users who would want to create very accurate, low-noise result. This "
 "will be completely optional. The manual will be updated later to provide "
 "a more thorough explanation."
-msgstr "さらにリターゲット精度の向上を目的として、実験的機能を追加しました。コントローラー設定においてこれまでの4つの領域設定（）に加えて、より細かいコントローラーの制御を行えるようになります。こちらはより精度の高い、ノイズの少ないアニメーションを求めるユーザー向けのオプション機能です。詳細については今後マニュアルに追加予定です。"
+msgstr "さらにリターゲット精度の向上を目的として、実験的機能を追加しました。コントローラー設定においてこれまでの4つの領域設定（Upper・Eyelid・Gaze・Lower）に加えて、より細かいコントローラーの制御を行えるようになります。こちらはより精度の高い、ノイズの少ないアニメーションを求めるユーザー向けのオプション機能です。詳細については今後マニュアルに追加予定です。"
 
 #: ../../000_release_note.md:26
 msgid "Misc"
