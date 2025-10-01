@@ -27,17 +27,14 @@ msgid "[Download FCS here](https://github.com/ZukunFCS/fcs-doc/releases)"
 msgstr ""
 
 #: ../../000_release_note.md:4
-#, fuzzy
 msgid "FCS 25.10.01"
-msgstr "FCS 25.07.01"
+msgstr "FCS 25.10.01"
 
 #: ../../000_release_note.md:5
-#, fuzzy
 msgid "Date: 2025/09/30"
 msgstr "日付: 2025/09/30"
 
 #: ../../000_release_note.md:6
-#, fuzzy
 msgid "Version: 25.10.01"
 msgstr "バージョン: 25.10.01"
 
@@ -84,7 +81,6 @@ msgstr ""
 "advanced/latest/jp/index.html)に掲載予定です。"
 
 #: ../../000_release_note.md:19
-#, fuzzy
 msgid ""
 "Facial tracking results generated with the new pipelines can be edited in"
 " a later version of FCS."
