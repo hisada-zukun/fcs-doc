@@ -110,7 +110,7 @@ msgstr "さらにリターゲット精度の向上を目的として、実験的
 
 #: ../../000_release_note.md:26
 msgid "Misc"
-msgstr ""
+msgstr "その他"
 
 #: ../../000_release_note.md:28
 msgid ""
