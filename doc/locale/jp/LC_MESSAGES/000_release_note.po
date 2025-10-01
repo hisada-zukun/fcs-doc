@@ -57,9 +57,10 @@ msgstr "新機能"
 msgid ""
 "This version introduces two big main improvement, improved tracking and "
 "improved retargeting."
-msgstr "このバージョンでは下記2点の精度の向上に重点を置いています。<br>
-・トラッキング精度<br>
-・リターゲット精度"
+msgstr ""
+"このバージョンでは下記2点の精度の向上に重点を置いています。<br>"
+"・トラッキング精度<br>"
+"・リターゲット精度"
 
 #: ../../000_release_note.md:14
 msgid "Tracking Accuracy"
