@@ -2,9 +2,11 @@
 [Download FCS here](https://github.com/ZukunFCS/fcs-doc/releases)
 
 ## FCS 25.10.01
--Date: 2025/09/30
+- Date: 2025/09/30
 - Version: 25.10.01
 - Stage: Stable
+
+25.10 mostly focus on accuracy update.
 
 ### New Features
 - This version introduces two big main improvement, improved tracking and improved retargeting.
