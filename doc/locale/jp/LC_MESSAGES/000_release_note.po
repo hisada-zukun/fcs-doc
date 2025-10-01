@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-01 02:17+0000\n"
+"POT-Creation-Date: 2025-10-01 03:46+0000\n"
 "PO-Revision-Date: 2025-02-24 09:53+0900\n"
 "Last-Translator: \n"
 "Language: jp\n"
@@ -84,7 +84,10 @@ msgstr ""
 "advanced/latest/jp/index.html)に掲載予定です。"
 
 #: ../../000_release_note.md:19
-msgid "These new pipelines can be edited in a later version of FCS."
+#, fuzzy
+msgid ""
+"Facial tracking results generated with the new pipelines can be edited in"
+" a later version of FCS."
 msgstr "また、これらの新しいパイプラインは、後のFCSバージョンでトラッキングの編集が可能になる予定です。"
 
 #: ../../000_release_note.md:21
