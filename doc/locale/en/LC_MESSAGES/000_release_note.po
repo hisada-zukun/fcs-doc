@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-06-27 11:16+0000\n"
+"POT-Creation-Date: 2025-10-01 01:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,516 +26,95 @@ msgid "[Download FCS here](https://github.com/ZukunFCS/fcs-doc/releases)"
 msgstr ""
 
 #: ../../000_release_note.md:4
-msgid "FCS 25.07.03"
+msgid "FCS 25.10.01"
 msgstr ""
 
 #: ../../000_release_note.md:5
-msgid "-Date: 2025/06/25"
+msgid "Date: 2025/09/30"
 msgstr ""
 
 #: ../../000_release_note.md:6
-msgid "Version: 25.07.03"
+msgid "Version: 25.10.01"
 msgstr ""
 
-#: ../../000_release_note.md:7 ../../000_release_note.md:19
-#: ../../000_release_note.md:30 ../../000_release_note.md:63
-#: ../../000_release_note.md:78 ../../000_release_note.md:122
-#: ../../000_release_note.md:136 ../../000_release_note.md:146
-#: ../../000_release_note.md:160
-msgid "Stage: Beta"
+#: ../../000_release_note.md:7
+msgid "Stage: Stable"
 msgstr ""
 
-#: ../../000_release_note.md:9 ../../000_release_note.md:21
-msgid "Bug fixes"
-msgstr ""
-
-#: ../../000_release_note.md:10
-msgid ""
-"Fixed shortcut keys triggering when modifier is active (Triggering Period"
-" when Ctrl + Period is pressed)"
+#: ../../000_release_note.md:9
+msgid "25.10 mostly focus on accuracy update."
 msgstr ""
 
 #: ../../000_release_note.md:11
-msgid "Fixed deleting profile leading to app crashing"
+msgid "New Features"
 msgstr ""
 
-#: ../../000_release_note.md:13 ../../000_release_note.md:46
-msgid "Misc"
+#: ../../000_release_note.md:12
+msgid ""
+"This version introduces two big main improvement, improved tracking and "
+"improved retargeting."
 msgstr ""
 
 #: ../../000_release_note.md:14
-msgid ""
-"Remove distribute button in the processor tab (we will release it once "
-"the CLI app is complete)"
+msgid "Tracking Accuracy"
 msgstr ""
 
-#: ../../000_release_note.md:16
-msgid "FCS 25.07.02"
+#: ../../000_release_note.md:15
+msgid ""
+"We introduce two new pipelines, RP+ and Robust+. They use a new facial "
+"tracking algorithm developed by Zukun. They are essentially upgrades over"
+" our existing pipelines, they are specifically designed to improve "
+"animation accuracy for studio with low profiles count (less than 50)."
 msgstr ""
 
 #: ../../000_release_note.md:17
-msgid "Date: 2025/06/16"
+msgid ""
+"We will include more comparison in our [Advanced "
+"Manual](https://zukunfcs.github.io/fcs-doc-"
+"advanced/latest/en/index.html)."
 msgstr ""
 
-#: ../../000_release_note.md:18
-msgid "Version: 25.07.02"
+#: ../../000_release_note.md:19
+msgid "These new pipelines can be edited in a later version of FCS."
+msgstr ""
+
+#: ../../000_release_note.md:21
+msgid "Retarget Accuracy"
 msgstr ""
 
 #: ../../000_release_note.md:22
 msgid ""
-"Fixed Gallery Renders from Maya not getting deleted when renaming a "
-"profile"
-msgstr ""
-
-#: ../../000_release_note.md:23
-msgid "Fixed batch processing generating scene and video even when not checked"
+"We also fixed a few longstanding bugs in our prediction pipeline. As a "
+"result, it should generate much more stable animation even for older "
+"pipelines (Rich, RP, Robust)."
 msgstr ""
 
 #: ../../000_release_note.md:24
-msgid "Fixed certain text input field blocking keyboard shortcuts"
+msgid ""
+"In addition, we also create a new ****experimental**** feature to boost "
+"accuracy for retargeting, by allowing the user to create more fine-grain "
+"control over the controller beyond the four regions. This is for advanced"
+" users who would want to create very accurate, low-noise result. This "
+"will be completely optional. The manual will be updated later to provide "
+"a more thorough explanation."
 msgstr ""
 
-#: ../../000_release_note.md:25
-msgid "Fixed the gallery display mode when switching from picture to render"
-msgstr ""
-
-#: ../../000_release_note.md:27
-msgid "FCS 25.07.01"
+#: ../../000_release_note.md:26
+msgid "**### Misc.**"
 msgstr ""
 
 #: ../../000_release_note.md:28
-msgid "Date: 2025/06/09"
+msgid ""
+"Remove Hover text for controller tab, this has been known to cause "
+"crashes in some systems and do not provide too much helpful information."
 msgstr ""
 
 #: ../../000_release_note.md:29
-msgid "Version: 25.07.01"
+msgid "Optimize the application launch time"
 msgstr ""
 
-#: ../../000_release_note.md:32
-msgid "New manual"
-msgstr ""
-
-#: ../../000_release_note.md:33
-msgid ""
-"Added a [new advanced manual](https://zukunfcs.github.io/fcs-doc-"
-"advanced/latest/en/index.html) for technical artists at fcs-doc-advanced,"
-" with algorithm benchmarks and other evaluations to help you understand "
-"the amount of effort you need to put into to obtain the result you want."
-msgstr ""
-
-#: ../../000_release_note.md:35
-msgid "Character Preview"
-msgstr ""
-
-#: ../../000_release_note.md:36
-msgid ""
-"When you save a profile, FCS will now attemp to save a screenshot of the "
-"character, so you can see double check your profiles without Maya. You "
-"can also change the display of the gallery from showing the HMC image to "
-"showing the character image.   This features is automatically on, but "
-"requires you to have the Maya camera setup (otherwise it would just shows"
-" a blank image). You can turn this off in Settings."
-msgstr ""
-
-#: ../../000_release_note.md:39
-msgid "Denosing (Previously 'Smoothing')"
-msgstr ""
-
-#: ../../000_release_note.md:40
-msgid ""
-"We renamed the feature that generates more animator-friendly curves from "
-"smoothing to denoising.   This more accurately describes what this "
-"feature is supposed to do for the animators.   We also add our first new,"
-" non-smoothing denoising method, peak-preserving denoising.   It "
-"essentially flattens the animation curve while trying to preserve as much"
-" of the peaks as possible.   As a part of the new denosing pipeline, we "
-"added a preview feature, that allows you to see what an animation curve "
-"could look like before and after the denosing operation, and allows you "
-"to quickly play around with the parameters etc."
-msgstr ""
-
-#: ../../000_release_note.md:47
-msgid "Added Maya 2026 support"
-msgstr ""
-
-#: ../../000_release_note.md:48
-msgid ""
-"Added a new postprocessing feature: Gaze-freezing, you can now "
-"automatically freeze gaze animation when the eye is closed."
-msgstr ""
-
-#: ../../000_release_note.md:49
-msgid ""
-"Improved security: We now sign all executables (e.g., exe, dll) not just "
-"the installer. This should make it less likely for security software to "
-"flag FCS. If your anti-virus still flags us, please kindly let us know."
-msgstr ""
-
-#: ../../000_release_note.md:51
-msgid "FCS 25.04.09"
-msgstr ""
-
-#: ../../000_release_note.md:52
-msgid "Date: 2025/05/23"
-msgstr ""
-
-#: ../../000_release_note.md:53
-msgid "Version: 25.04.09"
-msgstr ""
-
-#: ../../000_release_note.md:54 ../../000_release_note.md:92
-#: ../../000_release_note.md:102
-msgid "Stage: Stable"
-msgstr ""
-
-#: ../../000_release_note.md:56 ../../000_release_note.md:65
-#: ../../000_release_note.md:80 ../../000_release_note.md:94
-#: ../../000_release_note.md:110 ../../000_release_note.md:128
-#: ../../000_release_note.md:138
-msgid "Fixes"
-msgstr ""
-
-#: ../../000_release_note.md:57
-msgid "Fixed the Robust Pipeline"
-msgstr ""
-
-#: ../../000_release_note.md:58
-msgid "Fixed From Maya causing crashes"
-msgstr ""
-
-#: ../../000_release_note.md:60
-msgid "FCS 25.04.08"
-msgstr ""
-
-#: ../../000_release_note.md:61
-msgid "Date: 2025/05/13"
-msgstr ""
-
-#: ../../000_release_note.md:62
-msgid "Version: 25.04.08"
-msgstr ""
-
-#: ../../000_release_note.md:66
-msgid "Fixed a bug that create more profiles during Auto Profile than specified"
-msgstr ""
-
-#: ../../000_release_note.md:67
-msgid ""
-"Prevented the app from crashing when the application does not have "
-"read/write access to the $HOME folder, show an error instead."
-msgstr ""
-
-#: ../../000_release_note.md:68
-msgid "Improved app stability"
-msgstr ""
-
-#: ../../000_release_note.md:70 ../../000_release_note.md:86
-msgid "Update"
-msgstr ""
-
-#: ../../000_release_note.md:71
-msgid ""
-"Changed the update CDN from AWS to Github. If you are not able to connect"
-" to github directly, please consider using a system-wise VPN to download "
-"the update via the application, or use a VPN in your browser and download"
-" it directly from [Github](https://github.com/ZukunFCS/fcs-doc/releases)."
-msgstr ""
-
-#: ../../000_release_note.md:72
-msgid "Optimize the tooltip (hovered text)"
-msgstr ""
-
-#: ../../000_release_note.md:75
-msgid "FCS 25.04.07"
-msgstr ""
-
-#: ../../000_release_note.md:76
-msgid "Date: 2025/04/23"
-msgstr ""
-
-#: ../../000_release_note.md:77
-msgid "Version: 25.04.07"
-msgstr ""
-
-#: ../../000_release_note.md:81
-msgid ""
-"Fixed a bug where non-HMC(head mount camera) footages are processed as "
-"HMC footages."
-msgstr ""
-
-#: ../../000_release_note.md:82
-msgid ""
-"Fixed a bug where footages encoded when highly compressed video will drop"
-" frames when being processed. There is a very low chance of happening if "
-"you ingress raw video footage off your camera prior to processing it with"
-" FCS. On the other hand, if you process video footages encoded with "
-"libx265 with very few I-frames in between (high b-frames ratio), there "
-"might be a chance that you were affected. In which case you might notice "
-"the timing of the animation does not match the timing of the footage (the"
-" character's blink might happens faster/earlier than it is in the "
-"footage). We inherented this memory issues from the library we used to "
-"process video footages when using multiprocess. Explicit multiprocessing "
-"has since been disabled for footage process, leading to a slightly longer"
-" processing time in some systems but more accurate animations. An "
-"upcoming fix in 25.07 will speed up the processing."
-msgstr ""
-
-#: ../../000_release_note.md:83
-msgid ""
-"Fixed a bug where missing controller in the Maya scene lead to other "
-"following controllers to fail to be sent/received."
-msgstr ""
-
-#: ../../000_release_note.md:84
-msgid ""
-"Fixed a bug where prioritizing profile does not work when profiles are "
-"very cloes to each other (within the user-defined window, defaults to 1 "
-"second)"
-msgstr ""
-
-#: ../../000_release_note.md:87
-msgid "Updated Terms of Service"
-msgstr ""
-
-#: ../../000_release_note.md:89
-msgid "FCS 25.04.06"
-msgstr ""
-
-#: ../../000_release_note.md:90
-msgid "Date: 2025/04/08"
-msgstr ""
-
-#: ../../000_release_note.md:91
-msgid "Version: 25.04.06"
-msgstr ""
-
-#: ../../000_release_note.md:95
-msgid ""
-"Fixed a bug where processing videos would take longer time during process"
-" spawning"
-msgstr ""
-
-#: ../../000_release_note.md:96
-msgid "Changed the border color of tabs"
-msgstr ""
-
-#: ../../000_release_note.md:97
-msgid "Removed old dlls"
-msgstr ""
-
-#: ../../000_release_note.md:99
-msgid "FCS 25.04.05"
-msgstr ""
-
-#: ../../000_release_note.md:100
-msgid "Date: 2025/04/03"
-msgstr ""
-
-#: ../../000_release_note.md:101
-msgid "Version: 25.04.05"
-msgstr ""
-
-#: ../../000_release_note.md:104 ../../000_release_note.md:124
-msgid "New features"
-msgstr ""
-
-#: ../../000_release_note.md:105
-msgid "Gallery"
-msgstr ""
-
-#: ../../000_release_note.md:106
-msgid "Added new sort method: \"Randomized\""
-msgstr ""
-
-#: ../../000_release_note.md:107
-msgid "Added batch tagging for profiles"
-msgstr ""
-
-#: ../../000_release_note.md:108
-msgid "Added a dropdown to limit how many profiles to display at a time"
-msgstr ""
-
-#: ../../000_release_note.md:111
-msgid "Fixed gallery sorting order being inconsistent in some cases"
-msgstr ""
-
-#: ../../000_release_note.md:112 ../../000_release_note.md:130
-msgid "Fixed an issue where deleting smoothing profile can crash the app"
-msgstr ""
-
-#: ../../000_release_note.md:113 ../../000_release_note.md:131
-msgid "Fixed an issue where right click menu can stay out of screen"
-msgstr ""
-
-#: ../../000_release_note.md:114
-msgid "Fix rearranging controller crashes the app"
-msgstr ""
-
-#: ../../000_release_note.md:115
-msgid "Fix controller renaming crashes the app"
-msgstr ""
-
-#: ../../000_release_note.md:116
-msgid "Disallow adding empty or duplicated profile tag"
-msgstr ""
-
-#: ../../000_release_note.md:117
-msgid "Disallow layout with no name"
-msgstr ""
-
-#: ../../000_release_note.md:119
-msgid "FCS 25.04.04"
-msgstr ""
-
-#: ../../000_release_note.md:120
-msgid "Date: 2025/03/27"
-msgstr ""
-
-#: ../../000_release_note.md:121
-msgid "Version: 25.04.04"
-msgstr ""
-
-#: ../../000_release_note.md:125
-msgid "Added support for Maya 2025"
-msgstr ""
-
-#: ../../000_release_note.md:126
-msgid "Added toggle in Editor to hide the image panel"
-msgstr ""
-
-#: ../../000_release_note.md:129
-msgid "Fixed an issue where exporting a session would not work with Assets folder"
-msgstr ""
-
-#: ../../000_release_note.md:133
-msgid "FCS 25.04.03"
-msgstr ""
-
-#: ../../000_release_note.md:134
-msgid "Date: 2025/03/24"
-msgstr ""
-
-#: ../../000_release_note.md:135
-msgid "Version: 25.04.03"
-msgstr ""
-
-#: ../../000_release_note.md:139
-msgid "Fixed controller table bug that causes the application to crash"
-msgstr ""
-
-#: ../../000_release_note.md:140
-msgid "Optimized keyboard shortcut responsiveness"
-msgstr ""
-
-#: ../../000_release_note.md:141
-msgid ""
-"Modified the text for the process feature that allows the user to re-"
-"process only a segment of the video"
-msgstr ""
-
-#: ../../000_release_note.md:143
-msgid "FCS 25.04.02"
-msgstr ""
-
-#: ../../000_release_note.md:144
-msgid "Date: 2025/03/19"
-msgstr ""
-
-#: ../../000_release_note.md:145
-msgid "Version: 25.04.02"
-msgstr ""
-
-#: ../../000_release_note.md:148 ../../000_release_note.md:169
-msgid "New Features"
-msgstr ""
-
-#: ../../000_release_note.md:149 ../../000_release_note.md:163
-#: ../../000_release_note.md:170
-msgid "Timeline"
-msgstr ""
-
-#: ../../000_release_note.md:150
-msgid "Added a new feature that allows processing part of the video"
-msgstr ""
-
-#: ../../000_release_note.md:152 ../../000_release_note.md:179
-msgid "Bug Fixes"
-msgstr ""
-
-#: ../../000_release_note.md:153
-msgid "Fix unstable issue with timeline checkboxes"
-msgstr ""
-
-#: ../../000_release_note.md:154
-msgid "Fix a bug where sorting controller table would not work as intended"
-msgstr ""
-
-#: ../../000_release_note.md:155
-msgid "Fix a bug where shortcut input does not function"
-msgstr ""
-
-#: ../../000_release_note.md:157
-msgid "FCS 25.04.01"
-msgstr ""
-
-#: ../../000_release_note.md:158
-msgid "Date: 2025/03/05"
-msgstr ""
-
-#: ../../000_release_note.md:159
-msgid "Version: 25.04.01"
-msgstr ""
-
-#: ../../000_release_note.md:162
-msgid "Changes"
-msgstr ""
-
-#: ../../000_release_note.md:164
-msgid ""
-"Moved buttons from timeline to right click menu (matching behaviour in "
-"Maya)"
-msgstr ""
-
-#: ../../000_release_note.md:166
-msgid "Shortcut Key"
-msgstr ""
-
-#: ../../000_release_note.md:167
-msgid "Changed the timeline shortcut keys to match the ones in Maya"
-msgstr ""
-
-#: ../../000_release_note.md:171
-msgid "Added looped playback support"
-msgstr ""
-
-#: ../../000_release_note.md:172
-msgid "Added audio playback support"
-msgstr ""
-
-#: ../../000_release_note.md:174
-msgid "Settings"
-msgstr ""
-
-#: ../../000_release_note.md:175
-msgid "Added a new feature to import user setting from a previous version"
-msgstr ""
-
-#: ../../000_release_note.md:176
-msgid "Added AV1 codec support for better web support"
-msgstr ""
-
-#: ../../000_release_note.md:177
-msgid "Added support for a new set of symbols for shortcut keys"
-msgstr ""
-
-#: ../../000_release_note.md:180
-msgid "Fixed a bug where long video might the process in some systems"
-msgstr ""
-
-#: ../../000_release_note.md:181
-msgid ""
-"Fixed a bug where batch renaming controllers crashes the application when"
-" there is no profile at all."
+#: ../../000_release_note.md:30
+msgid "Optimize controller table saving"
 msgstr ""
 
 #~ msgid ""
@@ -1362,5 +941,447 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "[Download FCS](https://github.com/ZukunFCS/fcs-doc/releases)"
+#~ msgstr ""
+
+#~ msgid "FCS 25.07.03"
+#~ msgstr ""
+
+#~ msgid "-Date: 2025/06/25"
+#~ msgstr ""
+
+#~ msgid "Version: 25.07.03"
+#~ msgstr ""
+
+#~ msgid "Bug fixes"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed shortcut keys triggering when "
+#~ "modifier is active (Triggering Period "
+#~ "when Ctrl + Period is pressed)"
+#~ msgstr ""
+
+#~ msgid "Fixed deleting profile leading to app crashing"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Remove distribute button in the "
+#~ "processor tab (we will release it "
+#~ "once the CLI app is complete)"
+#~ msgstr ""
+
+#~ msgid "FCS 25.07.02"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/06/16"
+#~ msgstr ""
+
+#~ msgid "Version: 25.07.02"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed Gallery Renders from Maya not "
+#~ "getting deleted when renaming a profile"
+#~ msgstr ""
+
+#~ msgid "Fixed batch processing generating scene and video even when not checked"
+#~ msgstr ""
+
+#~ msgid "Fixed certain text input field blocking keyboard shortcuts"
+#~ msgstr ""
+
+#~ msgid "Fixed the gallery display mode when switching from picture to render"
+#~ msgstr ""
+
+#~ msgid "FCS 25.07.01"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/06/09"
+#~ msgstr ""
+
+#~ msgid "Version: 25.07.01"
+#~ msgstr ""
+
+#~ msgid "New manual"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Added a [new advanced "
+#~ "manual](https://zukunfcs.github.io/fcs-doc-"
+#~ "advanced/latest/en/index.html) for technical artists"
+#~ " at fcs-doc-advanced, with algorithm"
+#~ " benchmarks and other evaluations to "
+#~ "help you understand the amount of "
+#~ "effort you need to put into to "
+#~ "obtain the result you want."
+#~ msgstr ""
+
+#~ msgid "Character Preview"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you save a profile, FCS will"
+#~ " now attemp to save a screenshot "
+#~ "of the character, so you can see"
+#~ " double check your profiles without "
+#~ "Maya. You can also change the "
+#~ "display of the gallery from showing "
+#~ "the HMC image to showing the "
+#~ "character image.   This features is "
+#~ "automatically on, but requires you to"
+#~ " have the Maya camera setup "
+#~ "(otherwise it would just shows a "
+#~ "blank image). You can turn this "
+#~ "off in Settings."
+#~ msgstr ""
+
+#~ msgid "Denosing (Previously 'Smoothing')"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We renamed the feature that generates"
+#~ " more animator-friendly curves from "
+#~ "smoothing to denoising.   This more "
+#~ "accurately describes what this feature "
+#~ "is supposed to do for the "
+#~ "animators.   We also add our first "
+#~ "new, non-smoothing denoising method, "
+#~ "peak-preserving denoising.   It essentially "
+#~ "flattens the animation curve while "
+#~ "trying to preserve as much of the"
+#~ " peaks as possible.   As a part "
+#~ "of the new denosing pipeline, we "
+#~ "added a preview feature, that allows "
+#~ "you to see what an animation curve"
+#~ " could look like before and after "
+#~ "the denosing operation, and allows you"
+#~ " to quickly play around with the "
+#~ "parameters etc."
+#~ msgstr ""
+
+#~ msgid "Added Maya 2026 support"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Added a new postprocessing feature: "
+#~ "Gaze-freezing, you can now automatically"
+#~ " freeze gaze animation when the eye"
+#~ " is closed."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Improved security: We now sign all "
+#~ "executables (e.g., exe, dll) not just"
+#~ " the installer. This should make it"
+#~ " less likely for security software to"
+#~ " flag FCS. If your anti-virus "
+#~ "still flags us, please kindly let "
+#~ "us know."
+#~ msgstr ""
+
+#~ msgid "FCS 25.04.09"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/05/23"
+#~ msgstr ""
+
+#~ msgid "Version: 25.04.09"
+#~ msgstr ""
+
+#~ msgid "Fixes"
+#~ msgstr ""
+
+#~ msgid "Fixed the Robust Pipeline"
+#~ msgstr ""
+
+#~ msgid "Fixed From Maya causing crashes"
+#~ msgstr ""
+
+#~ msgid "FCS 25.04.08"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/05/13"
+#~ msgstr ""
+
+#~ msgid "Version: 25.04.08"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug that create more "
+#~ "profiles during Auto Profile than "
+#~ "specified"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Prevented the app from crashing when "
+#~ "the application does not have read/write"
+#~ " access to the $HOME folder, show "
+#~ "an error instead."
+#~ msgstr ""
+
+#~ msgid "Improved app stability"
+#~ msgstr ""
+
+#~ msgid "Update"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Changed the update CDN from AWS to"
+#~ " Github. If you are not able to"
+#~ " connect to github directly, please "
+#~ "consider using a system-wise VPN "
+#~ "to download the update via the "
+#~ "application, or use a VPN in your"
+#~ " browser and download it directly "
+#~ "from [Github](https://github.com/ZukunFCS/fcs-"
+#~ "doc/releases)."
+#~ msgstr ""
+
+#~ msgid "Optimize the tooltip (hovered text)"
+#~ msgstr ""
+
+#~ msgid "FCS 25.04.07"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/04/23"
+#~ msgstr ""
+
+#~ msgid "Version: 25.04.07"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug where non-HMC(head "
+#~ "mount camera) footages are processed as"
+#~ " HMC footages."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug where footages encoded "
+#~ "when highly compressed video will drop"
+#~ " frames when being processed. There "
+#~ "is a very low chance of happening"
+#~ " if you ingress raw video footage "
+#~ "off your camera prior to processing "
+#~ "it with FCS. On the other hand,"
+#~ " if you process video footages "
+#~ "encoded with libx265 with very few "
+#~ "I-frames in between (high b-frames "
+#~ "ratio), there might be a chance "
+#~ "that you were affected. In which "
+#~ "case you might notice the timing "
+#~ "of the animation does not match "
+#~ "the timing of the footage (the "
+#~ "character's blink might happens faster/earlier"
+#~ " than it is in the footage). We"
+#~ " inherented this memory issues from "
+#~ "the library we used to process "
+#~ "video footages when using multiprocess. "
+#~ "Explicit multiprocessing has since been "
+#~ "disabled for footage process, leading to"
+#~ " a slightly longer processing time in"
+#~ " some systems but more accurate "
+#~ "animations. An upcoming fix in 25.07 "
+#~ "will speed up the processing."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug where missing controller "
+#~ "in the Maya scene lead to other"
+#~ " following controllers to fail to be"
+#~ " sent/received."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug where prioritizing profile"
+#~ " does not work when profiles are "
+#~ "very cloes to each other (within "
+#~ "the user-defined window, defaults to "
+#~ "1 second)"
+#~ msgstr ""
+
+#~ msgid "Updated Terms of Service"
+#~ msgstr ""
+
+#~ msgid "FCS 25.04.06"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/04/08"
+#~ msgstr ""
+
+#~ msgid "Version: 25.04.06"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug where processing videos "
+#~ "would take longer time during process"
+#~ " spawning"
+#~ msgstr ""
+
+#~ msgid "Changed the border color of tabs"
+#~ msgstr ""
+
+#~ msgid "Removed old dlls"
+#~ msgstr ""
+
+#~ msgid "FCS 25.04.05"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/04/03"
+#~ msgstr ""
+
+#~ msgid "Version: 25.04.05"
+#~ msgstr ""
+
+#~ msgid "New features"
+#~ msgstr ""
+
+#~ msgid "Added new sort method: \"Randomized\""
+#~ msgstr ""
+
+#~ msgid "Added batch tagging for profiles"
+#~ msgstr ""
+
+#~ msgid "Added a dropdown to limit how many profiles to display at a time"
+#~ msgstr ""
+
+#~ msgid "Fixed gallery sorting order being inconsistent in some cases"
+#~ msgstr ""
+
+#~ msgid "Fixed an issue where deleting smoothing profile can crash the app"
+#~ msgstr ""
+
+#~ msgid "Fixed an issue where right click menu can stay out of screen"
+#~ msgstr ""
+
+#~ msgid "Fix rearranging controller crashes the app"
+#~ msgstr ""
+
+#~ msgid "Fix controller renaming crashes the app"
+#~ msgstr ""
+
+#~ msgid "Disallow adding empty or duplicated profile tag"
+#~ msgstr ""
+
+#~ msgid "Disallow layout with no name"
+#~ msgstr ""
+
+#~ msgid "FCS 25.04.04"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/03/27"
+#~ msgstr ""
+
+#~ msgid "Version: 25.04.04"
+#~ msgstr ""
+
+#~ msgid "Added support for Maya 2025"
+#~ msgstr ""
+
+#~ msgid "Added toggle in Editor to hide the image panel"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed an issue where exporting a "
+#~ "session would not work with Assets "
+#~ "folder"
+#~ msgstr ""
+
+#~ msgid "FCS 25.04.03"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/03/24"
+#~ msgstr ""
+
+#~ msgid "Version: 25.04.03"
+#~ msgstr ""
+
+#~ msgid "Fixed controller table bug that causes the application to crash"
+#~ msgstr ""
+
+#~ msgid "Optimized keyboard shortcut responsiveness"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Modified the text for the process "
+#~ "feature that allows the user to "
+#~ "re-process only a segment of the "
+#~ "video"
+#~ msgstr ""
+
+#~ msgid "FCS 25.04.02"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/03/19"
+#~ msgstr ""
+
+#~ msgid "Version: 25.04.02"
+#~ msgstr ""
+
+#~ msgid "Timeline"
+#~ msgstr ""
+
+#~ msgid "Added a new feature that allows processing part of the video"
+#~ msgstr ""
+
+#~ msgid "Bug Fixes"
+#~ msgstr ""
+
+#~ msgid "Fix unstable issue with timeline checkboxes"
+#~ msgstr ""
+
+#~ msgid "Fix a bug where sorting controller table would not work as intended"
+#~ msgstr ""
+
+#~ msgid "Fix a bug where shortcut input does not function"
+#~ msgstr ""
+
+#~ msgid "FCS 25.04.01"
+#~ msgstr ""
+
+#~ msgid "Date: 2025/03/05"
+#~ msgstr ""
+
+#~ msgid "Version: 25.04.01"
+#~ msgstr ""
+
+#~ msgid "Changes"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Moved buttons from timeline to right "
+#~ "click menu (matching behaviour in Maya)"
+#~ msgstr ""
+
+#~ msgid "Shortcut Key"
+#~ msgstr ""
+
+#~ msgid "Changed the timeline shortcut keys to match the ones in Maya"
+#~ msgstr ""
+
+#~ msgid "Added looped playback support"
+#~ msgstr ""
+
+#~ msgid "Added audio playback support"
+#~ msgstr ""
+
+#~ msgid "Settings"
+#~ msgstr ""
+
+#~ msgid "Added a new feature to import user setting from a previous version"
+#~ msgstr ""
+
+#~ msgid "Added AV1 codec support for better web support"
+#~ msgstr ""
+
+#~ msgid "Added support for a new set of symbols for shortcut keys"
+#~ msgstr ""
+
+#~ msgid "Fixed a bug where long video might the process in some systems"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug where batch renaming "
+#~ "controllers crashes the application when "
+#~ "there is no profile at all."
 #~ msgstr ""
 
