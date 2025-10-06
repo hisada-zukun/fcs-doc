@@ -12,7 +12,7 @@
 - This version introduces two big main improvement, improved tracking and improved retargeting.
 
 #### Tracking Accuracy
-We introduce two new pipelines, RP+ and Robust+. They use a new facial tracking algorithm developed by Zukun. They are essentially upgrades over our existing pipelines, they are specifically designed to improve animation accuracy for studio with low profiles count (less than 50).
+We introduce two new pipelines, RP+ and Robust+. They use a new facial tracking algorithm developed by Zukun. They are essentially upgrades over our existing pipelines, they are specifically designed to improve animation accuracy for studio with low profiles count (less than 50). Results generated using these pipelines cannot be visualized (LM plots are disabled).
 
 We will include more comparison in our [Advanced Manual](https://zukunfcs.github.io/fcs-doc-advanced/latest/en/index.html).
 
