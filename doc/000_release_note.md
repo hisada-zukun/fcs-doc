@@ -2,13 +2,13 @@
 [Download FCS here](https://github.com/ZukunFCS/fcs-doc/releases)
 
 ## FCS 25.10.02
-• Date: 2025/10/06
-• Version: 25.10.02
-• Stage: Stable
+- Date: 2025/10/06
+- Version: 25.10.02
+- Stage: Stable
 
 ### Fix
-• Fixed segmented animation output not being processed properly
-• Fixed release note not being wrapped properly to the window
+- Fixed segmented animation output not being processed properly
+- Fixed release note not being wrapped properly to the window
 
 ## FCS 25.10.01
 - Date: 2025/09/30
