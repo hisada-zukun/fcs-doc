@@ -52,7 +52,7 @@ msgstr "アニメーションを一部のみｍMayaの任意フレームに出�
 
 #: ../../000_release_note.md:11
 msgid "Fixed release note not being wrapped properly to the window"
-msgstr "ソフト上のリリースノートがウィンドウからはみ出てしまっていることを修正しました"
+msgstr "ソフト上のリリースノートのレイアウトを修正しました
 
 #: ../../000_release_note.md:13
 msgid "FCS 25.10.01"
