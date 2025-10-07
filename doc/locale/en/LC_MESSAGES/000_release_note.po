@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-10-06 05:55+0000\n"
+"POT-Creation-Date: 2025-10-07 12:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,40 +26,64 @@ msgid "[Download FCS here](https://github.com/ZukunFCS/fcs-doc/releases)"
 msgstr ""
 
 #: ../../000_release_note.md:4
-msgid "FCS 25.10.01"
+msgid "FCS 25.10.02"
 msgstr ""
 
 #: ../../000_release_note.md:5
-msgid "Date: 2025/09/30"
+msgid "Date: 2025/10/06"
 msgstr ""
 
 #: ../../000_release_note.md:6
-msgid "Version: 25.10.01"
+msgid "Version: 25.10.02"
 msgstr ""
 
-#: ../../000_release_note.md:7
+#: ../../000_release_note.md:7 ../../000_release_note.md:16
 msgid "Stage: Stable"
 msgstr ""
 
 #: ../../000_release_note.md:9
-msgid "25.10 mostly focus on accuracy update."
+msgid "Fix"
+msgstr ""
+
+#: ../../000_release_note.md:10
+msgid "Fixed segmented animation output not being processed properly"
 msgstr ""
 
 #: ../../000_release_note.md:11
+msgid "Fixed release note not being wrapped properly to the window"
+msgstr ""
+
+#: ../../000_release_note.md:13
+msgid "FCS 25.10.01"
+msgstr ""
+
+#: ../../000_release_note.md:14
+msgid "Date: 2025/09/30"
+msgstr ""
+
+#: ../../000_release_note.md:15
+msgid "Version: 25.10.01"
+msgstr ""
+
+#: ../../000_release_note.md:18
+msgid "25.10 mostly focus on accuracy update."
+msgstr ""
+
+#: ../../000_release_note.md:20
 msgid "New Features"
 msgstr ""
 
-#: ../../000_release_note.md:12
+#: ../../000_release_note.md:21
 msgid ""
 "This version introduces two big main improvement, improved tracking and "
 "improved retargeting."
 msgstr ""
 
-#: ../../000_release_note.md:14
+#: ../../000_release_note.md:23
 msgid "Tracking Accuracy"
 msgstr ""
 
-#: ../../000_release_note.md:15
+#: ../../000_release_note.md:24
 msgid ""
 "We introduce two new pipelines, RP+ and Robust+. They use a new facial "
 "tracking algorithm developed by Zukun. They are essentially upgrades over"
@@ -69,31 +93,31 @@ msgid ""
 "are disabled)."
 msgstr ""
 
-#: ../../000_release_note.md:17
+#: ../../000_release_note.md:26
 msgid ""
 "We will include more comparison in our [Advanced "
 "Manual](https://zukunfcs.github.io/fcs-doc-"
 "advanced/latest/en/index.html)."
 msgstr ""
 
-#: ../../000_release_note.md:19
+#: ../../000_release_note.md:28
 msgid ""
 "Facial tracking results generated with the new pipelines can be edited in"
 " a later version of FCS."
 msgstr ""
 
-#: ../../000_release_note.md:21
+#: ../../000_release_note.md:30
 msgid "Retarget Accuracy"
 msgstr ""
 
-#: ../../000_release_note.md:22
+#: ../../000_release_note.md:31
 msgid ""
 "We also fixed a few longstanding bugs in our prediction pipeline. As a "
 "result, it should generate much more stable animation even for older "
 "pipelines (Rich, RP, Robust)."
 msgstr ""
 
-#: ../../000_release_note.md:24
+#: ../../000_release_note.md:33
 msgid ""
 "In addition, we also create a new ****experimental**** feature to boost "
 "accuracy for retargeting, by allowing the user to create more fine-grain "
@@ -103,21 +127,21 @@ msgid ""
 "a more thorough explanation."
 msgstr ""
 
-#: ../../000_release_note.md:26
+#: ../../000_release_note.md:35
 msgid "Misc"
 msgstr ""
 
-#: ../../000_release_note.md:28
+#: ../../000_release_note.md:37
 msgid ""
 "Remove Hover text for controller tab, this has been known to cause "
 "crashes in some systems and do not provide too much helpful information."
 msgstr ""
 
-#: ../../000_release_note.md:29
+#: ../../000_release_note.md:38
 msgid "Optimize the application launch time"
 msgstr ""
 
-#: ../../000_release_note.md:30
+#: ../../000_release_note.md:39
 msgid "Optimize controller table saving"
 msgstr ""
 
