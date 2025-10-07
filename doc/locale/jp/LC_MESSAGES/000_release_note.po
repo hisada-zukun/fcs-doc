@@ -61,7 +61,6 @@ msgid "Tracking Accuracy"
 msgstr "トラッキング精度の向上"
 
 #: ../../000_release_note.md:15
-#, fuzzy
 msgid ""
 "We introduce two new pipelines, RP+ and Robust+. They use a new facial "
 "tracking algorithm developed by Zukun. They are essentially upgrades over"
