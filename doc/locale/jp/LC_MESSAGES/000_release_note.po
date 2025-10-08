@@ -48,7 +48,7 @@ msgstr "修正"
 
 #: ../../000_release_note.md:10
 msgid "Fixed segmented animation output not being processed properly"
-msgstr "アニメーションを一部のみｍMayaの任意フレームに出力する際に違った値が出力される不具合を修正しました"
+msgstr "アニメーションを一部のみMayaの任意フレームに出力する際に違った値が出力される不具合を修正しました"
 
 #: ../../000_release_note.md:11
 msgid "Fixed release note not being wrapped properly to the window"
