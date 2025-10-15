@@ -27,4 +27,4 @@ if Path("./pages").exists():
     rmtree(Path("./pages"))
 if Path("./_build").exists():
     rmtree(Path("./_build"))
-build_doc("latest", "en", "main")
+build_doc("25.07", "en")

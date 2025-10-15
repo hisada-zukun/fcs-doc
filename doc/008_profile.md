@@ -6,14 +6,14 @@
 
 Window&rarr;VideosでVideosウィンドウが開きます。  
 Videosウィンドウでは解析したい動画を開いたり、インポートすることができます。
-```{figure} images/P26_VideosWindow.PNG
+```{figure} images/P26_VideosWindow.jpg
 :width: 80%
 :align: center
 
 Windows&rarr;Videos
 ```
 
-```{figure} images/P002.png
+```{figure} images/P002.jpg
 :width: 80%
 :align: center
 
@@ -22,7 +22,7 @@ Import
 
 ウィンドウがポップアップされるので  
 
-```{figure} images/P003.png
+```{figure} images/P003.jpg
 :width: 80%
 :align: center
 
@@ -34,7 +34,7 @@ Shift+クリックで複数同時にimportできます。
 ```
 
 
-```{figure} images/P004.png
+```{figure} images/P004.jpg
 :width: 80%
 :align: center
 
@@ -43,7 +43,7 @@ Videosウィンドウに解析したい動画が表示されます。
 
 #### Timelineの画面説明
 
-```{figure} images/P019.png
+```{figure} images/P019.jpg
 :width: 80%
 :align: center
 ```
@@ -60,7 +60,7 @@ Videosウィンドウに解析したい動画が表示されます。
 
 #### Editorの画面説明
 
-```{figure} images/P007.png
+```{figure} images/P007.jpg
 :width: 80%
 :align: center
 ```
@@ -105,7 +105,7 @@ LM：LandMarkを表示する
 
 #### Galleryの画面説明
 
-```{figure} images/P008.png
+```{figure} images/P008.jpg
 :width: 80%
 :align: center
 ```
@@ -161,7 +161,7 @@ profileには基本的に全てのRegionの登録を推奨していますが
 #### 解析したい動画の読み込み方法  
 
 開いた動画ファイル名の上で右クリック  
-```{figure} images/P005.png
+```{figure} images/P005.jpg
 :width: 80%
 :align: center
 
@@ -169,7 +169,7 @@ Open
 ```
 
 
-```{figure} images/P006.png
+```{figure} images/P006.jpg
 :width: 80%
 :align: center
 
@@ -182,7 +182,7 @@ VideoTimelineウィンドウの
  - スライダーを動かし表情の登録を行いたいフレームで止め  
  - +を押す  
 
-```{figure} images/P009.png
+```{figure} images/P009.jpg
 :width: 80%
 :align: center
 
@@ -201,7 +201,7 @@ Neutral表情とは、アクターの表情筋に力が入っていないナチ�
  - Neutralに ☑  
  - 任意の名前に変更  
  - Save
-```{figure} images/P010.png
+```{figure} images/P010.jpg
 :width: 80%
 :align: center
 ```
@@ -209,7 +209,7 @@ Neutral表情とは、アクターの表情筋に力が入っていないナチ�
 ```{note}
 NeutralのProfileは登録が完了すると緑になります。
 ```
-```{figure} images/P011.png
+```{figure} images/P011.jpg
 :width: 80%
 :align: center
 ```
@@ -219,28 +219,28 @@ NeutralのProfileは登録が完了すると緑になります。
  - VideoTimelineウィンドウのスライダーを動かし表情の登録を行いたいフレームで止め+を押す
   
 Galleryに指定したフレームの画像が追加されます。
-```{figure} images/P012.png
+```{figure} images/P012.jpg
 :width: 80%
 :align: center
 ```
 ```{note}
 値が0（未登録）のProfileは赤枠
 ```
-```{figure} images/P013.png
+```{figure} images/P013.jpg
 :width: 80%
 :align: center
 
 追加した赤色の画像をクリックし、Editor画面に表示されている画像が同じであることを確認
 ```
 
-```{figure} images/image90.png
+```{figure} images/image90.jpg
 :width: 80%
 :align: center
 
 Mayaのコントローラーリグで、追加したアクターの表情と同じになるようにキャラクターの表情を調節
 ```
 
-```{figure} images/P014.png
+```{figure} images/P014.jpg
 :width: 80%
 :align: center
 
@@ -258,7 +258,7 @@ Syncのプルダウンで「From Maya at save」もしくは「Both」にして�
  
  - Nameを任意の名前に変更
  - Save
-```{figure} images/P015.png
+```{figure} images/P015.jpg
 :width: 80%
 :align: center
 ```
@@ -271,7 +271,7 @@ Syncのプルダウンで「From Maya at save」もしくは「Both」にして�
  - VideoTimelineウィンドウのスライダーを動かし表情の登録を行いたいフレームで止め+を押す
  
 Galleryに指定したフレームの画像が追加されます。
-```{figure} images/P012.png
+```{figure} images/P012.jpg
 :width: 80%
 :align: center
 ```
@@ -279,7 +279,7 @@ Galleryに指定したフレームの画像が追加されます。
 値が0（未登録）のProfileは赤枠
 ```
  - 追加した赤色の画像をクリックし、Editor画面に表示されている画像が同じであることを確認
-```{figure} images/P013.png
+```{figure} images/P013.jpg
 :width: 80%
 :align: center
 ```
@@ -287,7 +287,7 @@ Galleryに指定したフレームの画像が追加されます。
 ```{warning}
 Syncが「No Sync」の場合はProfileの自動情報共有が行われないためMaya上は1つ前に登録した表情のままになっています。
 ```
-```{figure} images/image83.png
+```{figure} images/image83.jpg
 :width: 80%
 :align: center
 ```
@@ -297,13 +297,13 @@ Syncを「Both」にした状態で開きなおすと デフォルトの表情�
 既にしている場合はスキップ
 ```
  - Mayaのコントローラーリグで、追加したアクターの表情が同じになるようにキャラクターの表情を調節
-```{figure} images/P020.png
+```{figure} images/P020.jpg
 :width: 80%
 :align: center
 ```
 
  - To Mayaをクリック
-```{figure} images/P016.png
+```{figure} images/P016.jpg
 :width: 80%
 :align: center
 ```
@@ -313,7 +313,7 @@ Syncのプルダウンで「To Maya」もしくは「Both」にしている場�
 ```
 
 FCSで調整した内容がMayaに反映されます。
-```{figure} images/P017.png
+```{figure} images/P017.jpg
 :width: 80%
 :align: center
 ```
@@ -322,7 +322,7 @@ FCSで調整した内容がMayaに反映されます。
 絞り込みたい項目（文字含む）のみ表示されるようにするには…
  - ▼Filterから搾りたい項目をクリック
 ```
-```{figure} images/P018.png
+```{figure} images/P018.jpg
 :width: 80%
 :align: center
 ```
@@ -343,7 +343,7 @@ Predictで自動リターゲットする精度は、登録済のProfileの精度
 - VideoTimelineウィンドウのスライダーを動かし表情の登録を行いたいフレームで止め+を押す 
  
 Galleryに指定したフレームの画像が追加される
-```{figure} images/P012.png
+```{figure} images/P012.jpg
 :width: 80%
 :align: center
 ```
@@ -352,27 +352,27 @@ Galleryに指定したフレームの画像が追加される
 ```
 
  - 追加した赤色の画像をクリックし、Editor画面に表示されている画像が同じであることを確認
-```{figure} images/P013.png
+```{figure} images/P013.jpg
 :width: 80%
 :align: center
 ```
 
  - Predict実行  
 valueの数値が変動します。
-```{figure} images/P021.png
+```{figure} images/P021.jpg
 :width: 80%
 :align: center
 ```
 
 MayaにPredict結果が出るので、  
 調整が必要な場合は調整し、登録できる内容になったら
-```{figure} images/P022.png
+```{figure} images/P022.jpg
 :width: 80%
 :align: center
 ```
 
  - Save
-```{figure} images/P023.png
+```{figure} images/P023.jpg
 :width: 80%
 :align: center
 ```
@@ -387,19 +387,19 @@ MayaにPredict結果が出るので、
 ```
 
 例：眉のぎゅっと絞る動きを作りたい時には
-```{figure} images/P024.png
+```{figure} images/P024.jpg
 :width: 80%
 :align: center
 ```
 
  - 表情を調整した上で
-```{figure} images/P025.png
+```{figure} images/P025.jpg
 :width: 80%
 :align: center
 ```
 
  - Regionのgaze/lowerの ☑ を外す
-```{figure} images/P026.png
+```{figure} images/P026.jpg
 :width: 80%
 :align: center
 ```
@@ -412,7 +412,7 @@ MayaにPredict結果が出るので、
 Profileを作成していない場合、精度が十分ではない解析結果が出力される可能性があります 
 ```
 Videosウィンドウの「Profiles」をご参照ください    
-```{figure} images/P026-02.png
+```{figure} images/P026-02.jpg
 :width: 80%
 :align: center
 ```
@@ -421,7 +421,7 @@ Videosウィンドウの「Profiles」をご参照ください
 「Profiles」が表示されない場合  
  - メニューバー上部で右クリック  
  - 「Profiles」に ☑ を入れる  
-```{figure} images/P026-03.png
+```{figure} images/P026-03.jpg
 :width: 80%
 :align: center
 ```
@@ -431,13 +431,13 @@ Videosウィンドウの「Profiles」をご参照ください
 #### ＋キーを押してもGalleryにProfileが追加されない場合
 ＋キーを押してもGalleryにProfileが追加されない場合  
 Galleryの表示ウィンドウが小さいケースが考えられます。
-```{figure} images/P027.png
+```{figure} images/P027.jpg
 :width: 80%
 :align: center
 ```
 
 その場合、Galleryウィンドウの◀&rarr;をクリックすると追加したProfileが表示されます。
-```{figure} images/P028.png
+```{figure} images/P028.jpg
 :width: 80%
 :align: center
 ```
@@ -448,7 +448,7 @@ FCSでは同一フレームのProfileは重複して追加されないように�
 WARNIG:Frame ○○ already has a Profile associated with it  
 と表示されます。  
 ```
-```{figure} images/P029.png
+```{figure} images/P029.jpg
 :width: 80%
 :align: center
 ```

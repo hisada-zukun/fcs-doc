@@ -9,7 +9,7 @@
 
 #### 出力画面説明
 
-```{figure} images/A001.png
+```{figure} images/A001.jpg
 :width: 80%
 :align: center
 ```
@@ -43,13 +43,13 @@ Videoウィンドウで
  - ▼Process　を選択
  - 該当する項目に ☑ を入れ
 
-```{figure} images/A002.png
+```{figure} images/A002.jpg
 :width: 80%
 :align: center
 ```
 
  - Start process
-```{figure} images/A004.png
+```{figure} images/A004.jpg
 :width: 80%
 :align: center
 ```
@@ -58,13 +58,13 @@ Videoウィンドウで
 ```{note}
  - 解析結果を見てから再度調整を行いたい場合はPlayblastやSceneの ☑ を外しておくと時間短縮できます。
 ```
-```{figure} images/A003.png
+```{figure} images/A003.jpg
 :width: 80%
 :align: center
 ```
 
  - 初回出力時は時間がかかるため待機
-```{figure} images/A005.png
+```{figure} images/A005.jpg
 :width: 80%
 :align: center
 ```
@@ -75,7 +75,7 @@ Videoウィンドウで
    - アニメーションデータ の順で反映される
    - アニメーションデータ反映時はスライダーが動く
 
-```{figure} images/image133.png
+```{figure} images/image133.jpg
 :width: 80%
 :align: center
 ```
@@ -85,7 +85,7 @@ Videoウィンドウで
 
 出力が完了したらエクスプローラーがポップアップします。
 ```
-```{figure} images/image127.png
+```{figure} images/image127.jpg
 :width: 80%
 :align: center
 ```
@@ -97,13 +97,13 @@ Videoウィンドウで
 タイムラインの一部表示機能を使用して、FCSのタイムラインで表示している範囲のみのアニメーションを出力することができます。
 ```
 
-```{figure} images/Partialprocess_timeline.png
+```{figure} images/Partialprocess_timeline.jpg
 :width: 80%
 :align: center
 ```
 - FCSのタイムライン範囲をアニメーション出力したい部分に設定
 
-```{figure} images/Partialprocess_rightClick.png
+```{figure} images/Partialprocess_rightClick.jpg
 :width: 80%
 :align: center
 ```
@@ -111,7 +111,7 @@ Videoウィンドウで
 - ☑ Partial Process：動画の一部範囲のみ出力、選択項目はアニメーションのみ
 - Start processingで処理開始
 
-```{figure} images/Partialprocess_maya.png
+```{figure} images/Partialprocess_maya.jpg
 :width: 80%
 :align: center
 
@@ -123,7 +123,7 @@ Videoウィンドウで
 
 #### 出力画面説明
 
-```{figure} images/A006.png
+```{figure} images/A006.jpg
 :width: 80%
 :align: center
 ```
@@ -149,19 +149,19 @@ Start：アニメーションの出力を開始する
 Videoウィンドウで
 
  - 解析/出力したい動画名の左側の ☑ をつける
-```{figure} images/A007.png
+```{figure} images/A007.jpg
 :width: 80%
 :align: center
 ```
 
  - Processorウインドウを開く
-```{figure} images/A008.png
+```{figure} images/A008.jpg
 :width: 80%
 :align: center
 ```
 <br>
 
-```{figure} images/P37_processorWindow.PNG
+```{figure} images/P37_processorWindow.jpg
 :width: 80%
 :align: center
 ```
@@ -180,13 +180,13 @@ Videoウィンドウで
 {video}のみにするとimportした動画名で出力される
 ```
  - Start
-```{figure} images/A009.png
+```{figure} images/A009.jpg
 :width: 80%
 :align: center
 ```
 
 出力が完了したらエクスプローラーがポップアップします。
-```{figure} images/image136.png
+```{figure} images/image136.jpg
 :width: 80%
 :align: center
 ```

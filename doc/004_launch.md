@@ -2,7 +2,7 @@
 
 ## FCS起動
 
-```{figure} images/003_downloaded.PNG
+```{figure} images/003_downloaded.jpg
 :width: 80%
 :align: center
 ```
@@ -19,7 +19,7 @@ This session assumes that FCS is already installed in the system. If not please 
 FCS初回起動時ライセンスキーの入力を求められます。  
  - New Licenseにライセンスキーを入力  
  - Update  
-```{figure} images/L001.png
+```{figure} images/L001.jpg
 :width: 80%
 :align: center
 ```
@@ -32,7 +32,7 @@ FCS初回起動時ライセンスキーの入力を求められます。
 FCSを起動後、ライセンスの期限切れだった場合にはLicenseInfoがポップします。  
  - 新しいライセンスキーをNew Licenseに入力  
  - Update
-```{figure} images/L001.png
+```{figure} images/L001.jpg
 :width: 80%
 :align: center
 ```

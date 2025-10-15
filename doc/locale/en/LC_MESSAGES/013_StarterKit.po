@@ -35,11 +35,11 @@ msgid "FCSスターターキットには、以下のコンテンツが含まれ�
 msgstr "The FCS Starter Kit includes the following contents:"
 
 #: ../../013_スターターキット.md:8
-msgid "```{figure} images/013_image001.PNG
+msgid "```{figure} images/013_image001.jpg
 :width: 80%
 :align: center
 ```"
-msgstr "```{figure} images/013_image001.PNG
+msgstr "```{figure} images/013_image001.jpg
 :width: 80%
 :align: center
 ```"
@@ -77,11 +77,11 @@ msgid "DIGITAL NAGAKI"
 msgstr "DIGITAL NAGAKI"
 
 #: ../../013_スターターキット.md:23
-msgid "```{figure} images/013_DIGITALNAGAKI.png
+msgid "```{figure} images/013_DIGITALNAGAKI.jpg
 :width: 80%
 :align: center
 ```"
-msgstr "```{figure} images/013_DIGITALNAGAKI.png
+msgstr "```{figure} images/013_DIGITALNAGAKI.jpg
 :width: 80%
 :align: center
 ```"

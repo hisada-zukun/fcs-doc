@@ -6,7 +6,7 @@
 
 ### Solverの画面説明
 
-```{figure} images/Sol001.png
+```{figure} images/Sol001.jpg
 :width: 80%
 :align: center
 ```

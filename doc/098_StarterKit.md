@@ -5,7 +5,7 @@ FCSスターターキットを使用することで、フェイシャルキャ�
 ### FCSスターターキットのコンテンツ一覧
 FCSスターターキットには、以下のコンテンツが含まれています。  
 
-```{figure} images/013_image001.PNG
+```{figure} images/013_image001.jpg
 :width: 80%
 :align: center
 ```
@@ -25,7 +25,7 @@ Mayaの3Dモデルデータフォルダには、以下の2種類のモデルデ�
 
 #### DIGITAL NAGAKI
 
-```{figure} images/013_DIGITALNAGAKI.png
+```{figure} images/013_DIGITALNAGAKI.jpg
 :width: 80%
 :align: center
 ```
@@ -51,7 +51,7 @@ Mayaでのレンダリングや、Unity*でのご利用はできませんので�
 
 #### NIKE SHIKINO
 
-```{figure} images/013_NIKESHIKINO.png
+```{figure} images/013_NIKESHIKINO.jpg
 :width: 80%
 :align: center
 ```
@@ -114,11 +114,11 @@ Mayaデータについては、FCS上でMaya Sceneパス - Maya Baseパスそれ
 ④．FCS Sessionフォルダ構造内の該当ファイルを選択して、開くボタンをクリックする  
 ⑤．Changeウインドウ内のパスが変更されたことを確認した後、Saveボタンをクリックする
 
-```{figure} images/013_mayaDataRepath_01.png
+```{figure} images/013_mayaDataRepath_01.jpg
 :width: 80%
 :align: center
 ```
-```{figure} images/013_mayaDataRepath_02.png
+```{figure} images/013_mayaDataRepath_02.jpg
 :width: 80%
 :align: center
 ```
@@ -134,7 +134,7 @@ Mayaデータについては、FCS上でMaya Sceneパス - Maya Baseパスそれ
 ②．Importボタンをクリックして、ファイルダイアログを起動する  
 ③．FCS Sessionフォルダ構造内の該当ファイルを選択し、開くボタンをクリックする
 
-```{figure} images/013_movieImport.png
+```{figure} images/013_movieImport.jpg
 :width: 80%
 :align: center
 ```

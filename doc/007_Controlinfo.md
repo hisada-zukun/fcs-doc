@@ -7,7 +7,7 @@ FCSでは顔のパーツ区分のことをRegionと呼びます。
 アニメーション解析のため、Upper、Eyelid、Gaze、Lowerにそれぞれコントローラーリグを１つ以上登録してください。  
 
 また、コントローラーリグの登録時にRegionの最大値最小値も登録できます。
-```{figure} images/C001.png
+```{figure} images/C001.jpg
 :width: 80%
 :align: center
 
@@ -22,7 +22,7 @@ Window&rarr;ControllerでConrollerウィンドウが起動します。
 数値ではない(True/False)アトリビュートがあると正常に動作しないため、登録から除外してください。
 ```
 
-```{figure} images/C002.png
+```{figure} images/C002.jpg
 :width: 80%
 :align: center
 ```
@@ -50,14 +50,14 @@ all▼：all/Upper/Eyelid/Gaze/Lower/null　指定した項目（部位の区分
 
 #### Upperの登録方法 
 
-```{figure} images/image36.png
+```{figure} images/image36.jpg
 :width: 80%
 :align: center
 
 MayaでUpperに登録したいコントローラーを選択
 ```
 
-```{figure} images/C003.png
+```{figure} images/C003.jpg
 :width: 80%
 :align: center
 
@@ -66,7 +66,7 @@ Add selected
 
 Mayaで選択したコントローラーが「Controller」に表示されるので  
 
-```{figure} images/C004.png
+```{figure} images/C004.jpg
 :width: 80%
 :align: center
 
@@ -75,7 +75,7 @@ select All（=全選択）でUpperに登録したいコントローラーを選�
 ```
 
 今回はUpperに登録したいので  
-```{figure} images/C005.png
+```{figure} images/C005.jpg
 :width: 80%
 :align: center
 
@@ -85,14 +85,14 @@ RegionにUpperと表示されたら登録できます。
 
 #### Eyelidの登録方法
 
-```{figure} images/image49.png
+```{figure} images/image49.jpg
 :width: 80%
 :align: center
 
 MayaでEyelidに登録したいコントローラーを選択
 ```
 
-```{figure} images/C006.png
+```{figure} images/C006.jpg
 :width: 80%
 :align: center
 
@@ -100,7 +100,7 @@ Add selected
 Upperの下にAdd selectedで追加したコントローラーが表示されます。
 ```
 
-```{figure} images/C007.png
+```{figure} images/C007.jpg
 :width: 80%
 :align: center
 
@@ -113,14 +113,14 @@ allのままだとUpperも表示されているため、select AllするとUpper
 間違って全選択してしまった場合はUnselect Allで選択解除が可能です。
 ```
 
-```{figure} images/C008.png
+```{figure} images/C008.jpg
 :width: 80%
 :align: center
 
 nullにすることで登録されていない項目が絞り込まれるのでUpperと同様に、Select All（=全選択）でEyelidに登録したいコントローラーを選択    
 ```
 
-```{figure} images/C009.png
+```{figure} images/C009.jpg
 :width: 80%
 :align: center
 
@@ -132,7 +132,7 @@ nullで絞り込んでいるのでRegionを登録すると非表示になりま�
 ```
 
 allに戻すとすべて表示されます。
-```{figure} images/C010.png
+```{figure} images/C010.jpg
 :width: 80%
 :align: center
 ```
@@ -145,21 +145,21 @@ allに戻すとすべて表示されます。
 #### gazeの登録方法
 
 
-```{figure} images/image47.png
+```{figure} images/image47.jpg
 :width: 80%
 :align: center
 
 同様に、gazeに登録したいコントローラーを選択し
 ```
 
-```{figure} images/C011.png
+```{figure} images/C011.jpg
 :width: 80%
 :align: center
 
 Add selectedで登録済みのコントローラーの下に追加したコントローラーが表示されます。
 ```
 
-```{figure} images/C012.png
+```{figure} images/C012.jpg
 :width: 80%
 :align: center
 
@@ -167,7 +167,7 @@ Add selectedで登録済みのコントローラーの下に追加したコン�
 ```
 
 
-```{figure} images/C013.png
+```{figure} images/C013.jpg
 :width: 80%
 :align: center
 
@@ -175,7 +175,7 @@ Select All
 ```
 
 
-```{figure} images/C014.png
+```{figure} images/C014.jpg
 :width: 80%
 :align: center
 
@@ -187,7 +187,7 @@ nullで絞り込んでいるのでRegionを登録すると非表示になりま�
 ```
 
 #### lowerの登録方法
-```{figure} images/image60.png
+```{figure} images/image60.jpg
 :width: 80%
 :align: center
 
@@ -197,20 +197,20 @@ Mayaでlowerに登録したいコントローラーを選択
 ```{note}
 前段でnullで絞り込んでいるのでnullのみが表示されます
 ```
-```{figure} images/C015.png
+```{figure} images/C015.jpg
 :width: 80%
 :align: center
 
 Add selected
 ```
 
-```{figure} images/C016.png
+```{figure} images/C016.jpg
 :width: 80%
 :align: center
 
 Select All
 ```
-```{figure} images/C017.png
+```{figure} images/C017.jpg
 :width: 80%
 :align: center
 
@@ -222,7 +222,7 @@ nullで絞り込んでいるのでRegionを登録すると非表示になりま�
 ```
 
 Upper/Eyelid/Gaze/Lowerをすべて登録し終えたら  
-```{figure} images/C018.png
+```{figure} images/C018.jpg
 :width: 80%
 :align: center
 
@@ -237,7 +237,7 @@ Save
 
 #### セーブできない場合
 登録すべきものか確認後
-```{figure} images/C019.png
+```{figure} images/C019.jpg
 :width: 80%
 :align: center
 
@@ -245,7 +245,7 @@ Save
 ```
 
 
-```{figure} images/C020.png
+```{figure} images/C020.jpg
 :width: 80%
 :align: center
 
@@ -269,7 +269,7 @@ nullのままのコントローラーを一括削除
 #### コントローラーの登録順を戻したい場合
  - Reset  
 controller info登録時の順番に戻ります。
-```{figure} images/C021.png
+```{figure} images/C021.jpg
 :width: 80%
 :align: center
 ```
@@ -277,7 +277,7 @@ controller info登録時の順番に戻ります。
 
 #### 作業しやすいように並び替えたら 
  - Save
-```{figure} images/C018.png
+```{figure} images/C018.jpg
 :width: 80%
 :align: center
 ```

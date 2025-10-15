@@ -41,12 +41,12 @@ FCS起動後、Sessionデータへアクセスするため
 ### Sessionの新規作成   
 
  - File &rarr; Session&rarr;New...を選択
-```{figure} images/S001.png
+```{figure} images/S001.jpg
 :width: 80%
 :align: center
 ```
 
-```{figure} images/S002.png
+```{figure} images/S002.jpg
 :width: 80%
 :align: center
 ```  
@@ -63,7 +63,7 @@ FCS起動後、Sessionデータへアクセスするため
 
     Browseボタンをクリックし、Project Folderを指定するためウィンドウを起動します。  
     
-    ```{figure} images/S003.png
+    ```{figure} images/S003.jpg
     :width: 80%
     :align: center
 
@@ -72,7 +72,7 @@ FCS起動後、Sessionデータへアクセスするため
 
     Project Folderを作成します。  
 
-    ```{figure} images/S004.png
+    ```{figure} images/S004.jpg
     :width: 80%
     :align: center
 
@@ -81,7 +81,7 @@ FCS起動後、Sessionデータへアクセスするため
 
     問題なく作成できたらポップアップが表示されます。  
 
-    ```{figure} images/F001.png
+    ```{figure} images/F001.jpg
     :width: 80%
     :align: center
 
@@ -89,7 +89,7 @@ FCS起動後、Sessionデータへアクセスするため
     ```
 
     エクスプローラーで「Facial」「FCS」のフォルダが作成されます。
-    ```{figure} images/F003.png
+    ```{figure} images/F003.jpg
     :width: 80%
     :align: center
     ```
@@ -99,14 +99,14 @@ FCS起動後、Sessionデータへアクセスするため
     ※別の場所に保存していてもアクセスできます。
     ```
 
-    ```{figure} images/F004.png
+    ```{figure} images/F004.jpg
     :width: 80%
     :align: center
 
     Example assets folder
     ```
 
-    ```{figure} images/F005.png
+    ```{figure} images/F005.jpg
     :width: 80%
     :align: center
     
@@ -122,20 +122,20 @@ FCS起動後、Sessionデータへアクセスするため
     - 「Actor」＝モーションキャプチャアクター名  
 
     - Create
-    ```{figure} images/S006.png
+    ```{figure} images/S006.jpg
     :width: 80%
     :align: center
     ```
 
     問題なく作成できたらポップアップが表示されます。  
     - close
-    ```{figure} images/F006.png
+    ```{figure} images/F006.jpg
     :width: 80%
     :align: center
     ```
 
     エクスプローラーでProject Folderフォルダ直下に入力したActerフォルダが作成されます。
-    ```{figure} images/F007.png
+    ```{figure} images/F007.jpg
     :width: 80%
     :align: center
     ```
@@ -146,13 +146,13 @@ FCS起動後、Sessionデータへアクセスするため
     - 「Character Name」の入力欄に登録したい名前を入力
 
     - Create
-    ```{figure} images/S008.png
+    ```{figure} images/S008.jpg
     :width: 80%
     :align: center
     ```
 
     エクスプローラーでActorフォルダ直下に入力したCharacterフォルダが作成されます。
-    ```{figure} images/F008.png
+    ```{figure} images/F008.jpg
     :width: 80%
     :align: center
     ```
@@ -162,7 +162,7 @@ FCS起動後、Sessionデータへアクセスするため
 
     Browseボタンをクリックし、MayaSceneを指定するためウィンドウを起動します。  
     - MayaSceneデータのパスを指定
-    ```{figure} images/S009.png
+    ```{figure} images/S009.jpg
     :width: 80%
     :align: center
     ```
@@ -174,14 +174,14 @@ FCS起動後、Sessionデータへアクセスするため
     ```{attention}
     FCS上でポップアップするウィンドウにはworkspace.melが表示されません  
     ``` 
-    ```{figure} images/S010.png
+    ```{figure} images/S010.jpg
     :width: 80%
     :align: center
     ```
 
 6. MayaVerの設定
 
-    ```{figure} images/S011.png
+    ```{figure} images/S011.jpg
     :width: 80%
     :align: center
 
@@ -189,7 +189,7 @@ FCS起動後、Sessionデータへアクセスするため
     ```
 
     全て入力を終えたらSaveボタンを押してください。  
-    ```{figure} images/S012.png
+    ```{figure} images/S012.jpg
     :width: 80%
     :align: center
 
@@ -198,7 +198,7 @@ FCS起動後、Sessionデータへアクセスするため
 
 
     
-    ```{figure} images/F009.png
+    ```{figure} images/F009.jpg
     :width: 80%
     :align: center
     
@@ -225,7 +225,7 @@ FCS起動後、Sessionデータへアクセスするため
 
 以前にSessionを起動している場合、File&rarr;Session&rarr;Openの下に履歴が表示されます。  
  - 作業したいデータをクリック
-```{figure} images/P16_Session_log.PNG
+```{figure} images/P16_Session_log.jpg
 :width: 80%
 :align: center
 ```
@@ -236,7 +236,7 @@ FCS起動後、Sessionデータへアクセスするため
 OpenSessionウィンドウが開かれたらローカルとネットワークドライブが表示されます。  
 
  - Characterフォルダ直下にあるfcs_session.yamlファイルを選択し、開く
-```{figure} images/S017.png
+```{figure} images/S017.jpg
 :width: 80%
 :align: center
 ```
@@ -253,17 +253,17 @@ Sessionの新規作成/Open後、続けて別のSession作成や起動は出来�
 #### 「Maya Verの設定」をしても反映されない場合
 
 Session作成時に設定した項目は File&rarr;Session&rarr;info で確認することができます。
-```{figure} images/S014.png
+```{figure} images/S014.jpg
 :width: 80%
 :align: center
 ```
 
 New Sessionで設定したMayaVerがinfoで反映されていない場合は、info画面のMaya Versionを右クリックし、Editから変更ができます。
-```{figure} images/S015.png
+```{figure} images/S015.jpg
 :width: 80%
 :align: center
 ```
-```{figure} images/S016.png
+```{figure} images/S016.jpg
 :width: 80%
 :align: center
 ```

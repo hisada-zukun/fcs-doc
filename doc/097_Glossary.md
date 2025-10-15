@@ -30,42 +30,42 @@
 
 ウィンドウのレイアウトは変更・保存することが可能
 #### Videos(ビデオウィンドウ)
-```{figure} images/097_Videos.png
+```{figure} images/097_Videos.jpg
 :width: 80%
 :align: center
 ```
 #### Processor(プロセッサーウィンドウ)
-```{figure} images/097_Processor.PNG
+```{figure} images/097_Processor.jpg
 :width: 80%
 :align: center
 ```
 #### Controllers(コントローラーウィンドウ)
-```{figure} images/097_Controllers.png
+```{figure} images/097_Controllers.jpg
 :width: 80%
 :align: center
 ```
 #### Gallery(ギャラリーウィンドウ)
-```{figure} images/097_Gallery.PNG
+```{figure} images/097_Gallery.jpg
 :width: 80%
 :align: center
 ```
 #### Editor(エディターウィンドウ)
-```{figure} images/097_Editor.PNG
+```{figure} images/097_Editor.jpg
 :width: 80%
 :align: center
 ```
 #### Solver(ソルバーウィンドウ)
-```{figure} images/097_Solver.png
+```{figure} images/097_Solver.jpg
 :width: 80%
 :align: center
 ```
 #### Log(ログウィンドウ)
-```{figure} images/097_Log.png
+```{figure} images/097_Log.jpg
 :width: 80%
 :align: center
 ```
 #### TimeLine(タイムラインウィンドウ)
-```{figure} images/097_TimeLine.png
+```{figure} images/097_TimeLine.jpg
 :width: 80%
 :align: center
 ```
