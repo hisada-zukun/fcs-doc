@@ -6,8 +6,9 @@ Session(セッション)ファイルに関連したメニューです。
 ### New…
 セッションを新規で作成します。Create new Sessionウィンドウを開きます。
 
-#### Create new Sessionウィンドウ
 ![CreateNewSession](https://github.com/user-attachments/assets/0aa461c3-0db5-4335-85a0-d930d7da465e)
+
+#### Create new Sessionウィンドウ
 
 | 項目 | ボタン |説明| 
 |:-------------:|:--------------:|:--------------|
@@ -154,7 +155,7 @@ FullHDサイズだと10000fごとに約64GB使用される目安です。
 ||Percent|100|プレイブラストの解像度||
 
 ### ▼Keyboard Shortcuts
-同時押しはキー1種+修飾キー2種の3ボタンまで登録可能です
+同時押しはキー1種+修飾キー2種の3ボタンまで登録可能です。
 
 <img width="928" height="668" alt="image" src="https://github.com/user-attachments/assets/4374192f-be47-4b9f-a8e2-b00092e35d1e" />
 
