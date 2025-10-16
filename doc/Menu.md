@@ -219,3 +219,68 @@ FullHDサイズだと10000fごとに約64GB使用される目安です。
 ## Quit
 
 FCSを終了します。「.Lockファイル」を削除します。
+
+<BR><BR><BR>
+
+# Window
+ウィンドウを表示するメニューです。ここでは各ウィンドウの説明を行います。
+
+## Videos
+Videosウィンドウが開きます。<BR>
+Videosウィンドウでは読み込んだHMC動画を一覧で表示します。読み込んだ動画に対しての処理も右クリックから可能です。
+
+![videos](https://github.com/user-attachments/assets/9efd43b0-5951-4b55-9050-0449e1ee2d33)
+
+① Filter入力欄<BR>
+動画名を文字列でフィルターします。
+
+② Importボタン<BR>
+ダイアログを開いて新しい動画をインポートします。シフトキーで複数選択が可能です。
+
+③ Video表見出し<BR>
+右クリックメニューで表示する内容を変更することができます。
+
+④ 選択ON/OFF切り替え<BR>
+バッチ処理の対象にするかどうか切り替えます。
+
+⑤ 動画名<BR>
+動画名を右クリックでメニューが表示されます。メニューから単体のアニメーション出力を行うことができます。
+
+⑥ 全選択ON/OFF切り替え<BR>
+
+⑦*確認*<BR>
+⑧Removeボタン<BR>
+
+### Videos 右クリックメニュー
+<img width="207" height="183" alt="image" src="https://github.com/user-attachments/assets/f8394235-8334-430d-b575-39d0daf818f0" />
+
+- 動画名
+- Open  
+  動画を開く（PlayerとTimelineに表示されます）
+- Remove  
+  Remove Videos and Sequencesウィンドウを表示します。
+
+#### Remove Videos and Sequencesウィンドウ
+オプションを指定して動画をFCSから削除します。
+Video：動画名
+Delete caches option：
+☑ SetData
+☑ Tracking Sequence
+Profiles▼
+Keep　削除する動画のプロファイルはそのまま維持します
+Keep but unlink　削除する動画のプロファイルは維持しますが、動画との
+Delete
+
+
+## Processer
+## Controllers
+## Profiles
+### Gallery
+### Editor
+## Solver
+## Log
+```{info}
+以下のウィンドウは初めから表示されており、メニューの中に含まれません。
+```
+## Player
+## Timeline
