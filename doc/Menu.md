@@ -284,3 +284,87 @@ Delete
 ```
 ## Player
 ## Timeline
+
+<BR><BR><BR>
+
+# Maya
+## Status
+Mayaとの接続状況を確認、クリックで接続をテストします。
+## OpenScene
+セッションに登録しているMayaシーンを開きます。
+## Remove Animation
+配布版には無し？
+
+## Launch
+	2018 - 2026　セッションに登録しているバージョンのMayaを新規で開きます。
+	SettingsでOpen maya scene at launchをONにしている場合、Mayaシーンも開きます。
+  
+## GenerateMesh for Tracking Edits
+
+<BR><BR><BR>
+
+#View
+## ☑ Fullscreen
+全画面表示
+
+## ☑ VSync　
+## Scale
+UI表示の拡大率
+
+## ☑ Always on Top
+FCSを常に最前面に表示する
+
+## Layout▶
+プリセットのレイアウトに切り替えます。
+
+### Pickup
+### Process
+### Register
+### Retarget
+### Savecurrent 
+現在のレイアウトに名前をつけて保存します。
+
+### (Layout名)▶
+#### Apply
+保存したレイアウトに変更します。
+
+#### Delete
+保存したレイアウトを削除します。
+
+
+<BR><BR><BR>
+
+# Explore
+Windowsエクスプローラーを開きます。
+
+## Project
+## FCS
+### Actor
+### Character
+### Retarget Folder
+### Video Data
+## Facial
+### Actor
+### Assets
+### Scenes
+### RecData
+### SetData
+### Output Scene
+## tmp
+Logなどが格納されているフォルダ
+
+<BR><BR><BR>
+
+# Info
+## License
+ライセンスの管理
+
+## About
+FCSについて
+
+## Help
+FCSマニュアルの表示
+
+## 3rd party licenses
+サードパーティーライセンスについて
+
