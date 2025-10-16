@@ -3,7 +3,7 @@
 Session(セッション)ファイルに関連したメニューです。
 セッションを開く、設定の変更、新規セッションの作成などを実行することができます。
 ## Session
-### ・New…
+### New…
 セッションを新規で作成します。Create new Sessionウィンドウを開きます。
 
 #### Create new Sessionウィンドウ
@@ -27,7 +27,7 @@ Session(セッション)ファイルに関連したメニューです。
 |Save||入力した内容で新規Session(セッション)を作成します。|
 ||Save|characterフォルダ直下にfcs_session.yaml(FCSファイル)が作成されます。<BR>*現時点のセッション作成後の正式な挙動確認　プロジェクトが開く？*|
 
-##### Create new Sessionで作成されるフォルダ構造  
+#### Create new Sessionで作成されるフォルダ構造  
 
 | 色 | 内容 | 
 |:-------------:|:--------------:|
@@ -38,7 +38,7 @@ Session(セッション)ファイルに関連したメニューです。
 ![folder](doc/images/folder.jpg)
 
 | フォルダ | 子フォルダ | 説明 | 
-|:-------------:|:--------------:|:--------------:|
+|:-------------:|:--------------:|:--------------|
 | Facial |       | 動画やMayaシーンデータ等の素材を保存するフォルダ           |
 |     | Assets  |モデル・テクスチャなど、Mayaのプロジェクトファイル(Assets以下)を保存するフォルダ |
 |     | RecData | ROM動画やFCSで解析・出力したい動画を保存するフォルダ |
@@ -54,7 +54,7 @@ Session(セッション)ファイルに関連したメニューです。
 
 <BR>
 
-### ・Open▶
+### Open▶
 #### Open…
 ダイアログから.yamlファイルを選択してセッションを開きます。
 #### [パス]
@@ -62,14 +62,14 @@ Session(セッション)ファイルに関連したメニューです。
 
 <BR>
 
-### ・Info
+### Info
 Session Dataウィンドウが開きます。
 <img width="1151" height="478" alt="image" src="https://github.com/user-attachments/assets/d30863da-b3c2-4971-8b30-108ca4043546" />
 #### Session Dataウィンドウ
 右クリックメニューから内容のコピーや編集を行うことができます。
 
 | 項目 | 説明 | 右クリックメニュー| 
-|:-------------:|:--------------:|:--------------:|
+|:-------------:|:--------------|:--------------|
 |Project Folder|プロジェクトフォルダのパス|パスのコピー|
 |Actor|アクター名|リネーム・コピー|
 |Character|キャラクター名|リネーム・コピー |
@@ -85,7 +85,7 @@ Session Dataウィンドウが開きます。
 
 <BR>
 
-### ・Save ▶
+### Save ▶
 #### Session
 *セッションを保存するとは?*
 #### Profiles
@@ -95,11 +95,12 @@ Editウィンドウのプロファイルを保存します。
 
 <BR>
 
-### ・Export
+### Export
 Export Sessionウィンドウが開きます。
 <img width="795" height="322" alt="image" src="https://github.com/user-attachments/assets/00fb49e7-d1f5-47d7-9478-7120e0ddf660" />
+#### Export Sessionウィンドウ
 | 項目 |プルダウン内容| 説明 | 
-|:-------------:|:--------------:|:--------------:|
+|:-------------:|:--------------:|:--------------|
 |Project Folder||エクスポート先のフォルダパス入力欄（フルパスで指定）|
 |Actor||エクスポート後のアクター名入力欄|
 |Character||エクスポート後のキャラクター名入力欄|
@@ -113,70 +114,107 @@ Export Sessionウィンドウが開きます。
 <BR><BR>
 
 ## Settings
+FCS全般の設定メニューです。
 ### ▼ UI
-Global
-Font Size　10 - 50　文字の大きさ　設定変更後はFCS再起動で切り替え
-Language　en / jp　言語設定　設定変更後はFCS再起動で切り替え
-Gallery
-	Thumbnail width　ギャラリーに表示されるプロファイル画像の横幅
-Default Cols　ギャラリーのデフォルトの列数
-Video Player
-	Cache Frame Max　メモリにキャッシュするフレームの最大値
-note
+<img width="781" height="458" alt="image" src="https://github.com/user-attachments/assets/4654b5ab-ff4e-4148-9caf-66d6e3059fd2" />
+
+#### Settings > UI
+
+|対象| 項目 |デフォルト| 説明 |要 再起動| 
+|:--------------|:--------------|:--------------:|:--------------|:--------------:|
+|Global|Font Size|25|文字の大きさ|〇|
+||Language|en|言語設定|〇|
+|Gallery|Thumbnail width|200|ギャラリーに表示されるプロファイル画像の横幅||
+||Default Cols|3|ギャラリーのデフォルトの列数||
+|Video Player|Cache Frame Max|2000|メモリにキャッシュするフレームの最大値||
+||Default Tags||デフォルトで付与するタグ名||
+|Video Library| Skip rotation prompt|☐|Videoインポートで回転処理の設定画面を表示するかどうか||
+||Default Rotation|0|Videoインポートの際のデフォルトの回転値（0で回転しない）||
+
+```{note}
 Cache Frame Maxは数値を上げるほど多くのメモリ容量を消費します。
 FullHDサイズだと10000fごとに約64GB使用される目安です。
--1を指定すると無制限にキャッシュを保存します。これは十分なメモリがある場合のみ使用してください。
-	Default Tags　デフォルトで付与するタグ名
-Video Library
-☑ Skip rotation prompt　Videoインポートで回転処理の設定画面を表示するかどうか
-	Default Rotation　Videoインポートの際のデフォルトの回転値（0で回転しない）
-▼Output
-Default	 output options
-	Default Folder　デフォルトの出力先フォルダ
-Default Filename　デフォルトのファイル名
-Default Filename (Batch)　バッチ出力時のデフォルトファイル名
-Default Maya scene format　デフォルトのMaya保存形式
-Playblast
-	Encoder　プレイブラストのエンコード設定
-	Width　プレイブラストの横幅
-	Height　プレイブラストの立幅
-	Quality　プレイブラストの画質
-	Percent　プレイブラストの解像度
-▼Keyboard Shortcuts
-同時押しはキー1種+修飾キー2種の3ボタンまで登録可能です
-・Timeline
-Next Frame　次のフレームへ　デフォルト「.+Alt」
-Previous Frame　前のフレームへ　デフォルト「,+Alt」
-Next ROM　次のプロファイルへ　デフォルト「.」
-Previous ROM　前のプロファイルへ　デフォルト「,」
-Play / Pause Timeline　タイムラインの再生 / 一時停止　デフォルト「v+Alt」
-Add current frame to ROM　現在のフレームをプロファイルとして追加　デフォルト「Q」
-Open profile on timeline　タイムラインのプロファイルを開く？　デフォルト「E」
-・Editor
-Save ROM edits　プロファイルの保存　デフォルト「S+Ctrl」
-From Maya　表情の値をMayaから読み込み　デフォルト「V+Ctrl」
-To Maya　表情の値をMayaへ送信　デフォルト「C+Ctrl」
-・Layout
-Active Pickup　Pickupのレイアウトに変更　デフォルト「1+Ctrl」
-Active Process　Processのレイアウトに変更　デフォルト「2+Ctrl」
-Active Register　Registerのレイアウトに変更　デフォルト「3+Ctrl」
-Active Retarget　Retargetのレイアウトに変更　デフォルト「4+Ctrl」
-▼Maya
-CommandPort　Mayaとの接続に使用するコマンドポート
-SliderSyncPort　Mayaのタイムラインを取得するコマンドポート
-☑ Open maya scene at launch　Launch Maya時に登録したMayaシーンも開く
-☑ Use gallery character preview　
-Image Plane　イメージプレーン名
-Camera　カメラ名
-Install path　Mayaのインストール先
-▼Misk
-Keep max N video in memory
-Backend　cpu / cuda
-Update Channel　All / Patch / None　
-☑ Use Beta　ベータ版機能を使用する
+-1を指定すると無制限にキャッシュを保存します。この設定は十分なメモリがある場合のみ使用してください。
+```
+### ▼Output
+<img width="1091" height="421" alt="image" src="https://github.com/user-attachments/assets/0618dda2-88c4-4a0f-85ea-7c88bef60d93" />
 
-Save　設定を保存する（設定によってはFCSの再起動で反映されます）
-Restore　設定をデフォルトに戻す
-Import　
-Quit
+#### Settings > Output
+
+|対象| 項目 |デフォルト| 説明 |再起動| 
+|:--------------|:--------------|:--------------:|:--------------|:--------------:|
+|Default output options|Default Folder|Facial/Scenes/_Outputs/<BR>%Y%m%d_%H%M%S_{user}|デフォルトの出力先フォルダ||
+||Default Filename|{video}|デフォルトのファイル名|||
+||Default Filename (Batch)|{video}|バッチ出力時のデフォルトファイル名|||
+||Default Maya scene format|.mb|デフォルトのMaya保存形式|||
+|Playblast|Encoder|H.265/HEVC|プレイブラストのエンコード設定||
+||Width|1920|プレイブラストの横幅||
+||Height|1080|プレイブラストの立幅||
+||Quality|100|プレイブラストの画質||
+||Percent|100|プレイブラストの解像度||
+
+### ▼Keyboard Shortcuts
+同時押しはキー1種+修飾キー2種の3ボタンまで登録可能です
+
+<img width="928" height="668" alt="image" src="https://github.com/user-attachments/assets/4374192f-be47-4b9f-a8e2-b00092e35d1e" />
+
+#### Settings > Keyboard Shortcuts
+|対象|項目 | デフォルト |説明|
+|:--------------|:--------------|:--------------:|:--------------|
+|・Timeline|Next Frame|.+Alt|次のフレームへ|
+||Previous Frame|,+Alt|前のフレームへ|
+||Next ROM|.|次のプロファイルへ|
+||Previous ROM|,|前のプロファイルへ|
+||Play / Pause Timeline|v+Alt|タイムラインの再生 / 一時停止|
+||Add current frame to ROM|Q|現在のフレームをプロファイルとして追加|
+||Open profile on timeline|E|*タイムラインのプロファイルを開く？*|
+|・Editor|Save ROM edits|S+Ctrl|プロファイルの保存|
+||From Maya|V+Ctrl|表情の値をMayaから読み込み|
+||To Maya|C+Ctrl|表情の値をMayaへ送信|
+|・Layout|Active Pickup|1+Ctrl|Pickupのプリセットレイアウトに変更|
+||Active Process|2+Ctrl|Processのプリセットレイアウトに変更|
+||Active Register|3+Ctrl|Registerのプリセットレイアウトに変更|
+||Active Retarget|4+Ctrl|Retargetのプリセットレイアウトに変更|
+
+### ▼Maya
+<img width="938" height="280" alt="image" src="https://github.com/user-attachments/assets/f96e06e8-7fb1-4828-a06d-e62b1b09318c" />
+
+#### Settings > Maya
+|項目| デフォルト |説明|
+|:--------------|:--------------:|:--------------|
+|CommandPort|42069|Mayaとの接続に使用するコマンドポート|
+|SliderSyncPort|42070|Mayaのタイムラインを取得するコマンドポート|
+|Open maya scene at launch|☑|Launch Maya時に登録したMayaシーンも開く|
+|Use gallery character preview|☑|*確認*
+|Image Plane|imagePlane|イメージプレーン名|
+|Camera|fcs_cam|カメラ名|
+|Install path||C:/Program Files/Autodesk/|Mayaのインストール先|
+
+### ▼Misk
+<img width="783" height="178" alt="image" src="https://github.com/user-attachments/assets/0bd70e1e-8fba-4116-962f-8fba63743aab" />
+
+#### Settings > Misk
+|項目| デフォルト |説明|
+|:--------------|:--------------:|:--------------|
+|Keep max N video in memory|1|*確認*|
+|Backend|cpu|データの処理方法|
+|Update Channel|Patch|アップデート*確認*|
+||All||
+||Patch||
+||None||
+|Use Beta|☐|ベータ版機能を使用する|
+
+### Save
+
+設定を保存します。設定によってはFCSを再起動することで反映されます。
+
+### Restore　
+
+設定をデフォルトに戻し、FCSを再起動します。
+
+### Import　
+*確認*
+
+## Quit
+
 FCSを終了します。「.Lockファイル」を削除します。
