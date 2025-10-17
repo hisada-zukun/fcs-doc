@@ -1,14 +1,16 @@
-# File
+# Menu
+
+## File
 
 Session(セッション)ファイルに関連したメニューです。
 セッションを開く、設定の変更、新規セッションの作成などを実行することができます。
-## Session
-### New…
+### Session
+#### New…
 セッションを新規で作成します。Create new Sessionウィンドウを開きます。
 
 ![CreateNewSession](https://github.com/user-attachments/assets/0aa461c3-0db5-4335-85a0-d930d7da465e)
 
-#### Create new Sessionウィンドウ
+##### Create new Sessionウィンドウ
 
 | 項目 | ボタン |説明| 
 |:-------------:|:--------------:|:--------------|
@@ -28,7 +30,7 @@ Session(セッション)ファイルに関連したメニューです。
 |Save||入力した内容で新規Session(セッション)を作成します。|
 ||Save|characterフォルダ直下にfcs_session.yaml(FCSファイル)が作成されます。<BR>*現時点のセッション作成後の正式な挙動確認　プロジェクトが開く？*|
 
-#### Create new Sessionで作成されるフォルダ構造  
+##### Create new Sessionで作成されるフォルダ構造  
 
 | 色 | 内容 | 
 |:-------------:|:--------------:|
@@ -55,18 +57,18 @@ Session(セッション)ファイルに関連したメニューです。
 
 <BR>
 
-### Open▶
-#### Open…
+#### Open▶
+##### Open…
 ダイアログから.yamlファイルを選択してセッションを開きます。
-#### [パス]
+##### [パス]
 最近使用したセッションのパスが表示されます。
 
 <BR>
 
-### Info
+#### Info
 Session Dataウィンドウが開きます。
 <img width="1151" height="478" alt="image" src="https://github.com/user-attachments/assets/d30863da-b3c2-4971-8b30-108ca4043546" />
-#### Session Dataウィンドウ
+##### Session Dataウィンドウ
 右クリックメニューから内容のコピーや編集を行うことができます。
 
 | 項目 | 説明 | 右クリックメニュー| 
@@ -86,20 +88,20 @@ Session Dataウィンドウが開きます。
 
 <BR>
 
-### Save ▶
-#### Session
+#### Save ▶
+##### Session
 *セッションを保存するとは?*
-#### Profiles
+##### Profiles
 Editウィンドウのプロファイルを保存します。
-#### Controller
+##### Controller
 コントローラーウィンドウの表を保存します。
 
 <BR>
 
-### Export
+#### Export
 Export Sessionウィンドウが開きます。
 <img width="795" height="322" alt="image" src="https://github.com/user-attachments/assets/00fb49e7-d1f5-47d7-9478-7120e0ddf660" />
-#### Export Sessionウィンドウ
+##### Export Sessionウィンドウ
 | 項目 |プルダウン内容| 説明 | 
 |:-------------:|:--------------:|:--------------|
 |Project Folder||エクスポート先のフォルダパス入力欄（フルパスで指定）|
@@ -114,12 +116,12 @@ Export Sessionウィンドウが開きます。
 
 <BR><BR>
 
-## Settings
+### Settings
 FCS全般の設定メニューです。
-### ▼ UI
+#### ▼ UI
 <img width="781" height="458" alt="image" src="https://github.com/user-attachments/assets/4654b5ab-ff4e-4148-9caf-66d6e3059fd2" />
 
-#### Settings > UI
+##### Settings > UI
 
 |対象| 項目 |デフォルト| 説明 |要 再起動| 
 |:--------------|:--------------|:--------------:|:--------------|:--------------:|
@@ -137,10 +139,10 @@ Cache Frame Maxは数値を上げるほど多くのメモリ容量を消費し�
 FullHDサイズだと10000fごとに約64GB使用される目安です。
 -1を指定すると無制限にキャッシュを保存します。この設定は十分なメモリがある場合のみ使用してください。
 ```
-### ▼Output
+#### ▼Output
 <img width="1091" height="421" alt="image" src="https://github.com/user-attachments/assets/0618dda2-88c4-4a0f-85ea-7c88bef60d93" />
 
-#### Settings > Output
+##### Settings > Output
 
 |対象| 項目 |デフォルト| 説明 |再起動| 
 |:--------------|:--------------|:--------------:|:--------------|:--------------:|
@@ -154,12 +156,12 @@ FullHDサイズだと10000fごとに約64GB使用される目安です。
 ||Quality|100|プレイブラストの画質||
 ||Percent|100|プレイブラストの解像度||
 
-### ▼Keyboard Shortcuts
+#### ▼Keyboard Shortcuts
 同時押しはキー1種+修飾キー2種の3ボタンまで登録可能です。
 
 <img width="928" height="668" alt="image" src="https://github.com/user-attachments/assets/4374192f-be47-4b9f-a8e2-b00092e35d1e" />
 
-#### Settings > Keyboard Shortcuts
+##### Settings > Keyboard Shortcuts
 |対象|項目 | デフォルト |説明|
 |:--------------|:--------------|:--------------:|:--------------|
 |・Timeline|Next Frame|.+Alt|次のフレームへ|
@@ -177,10 +179,10 @@ FullHDサイズだと10000fごとに約64GB使用される目安です。
 ||Active Register|3+Ctrl|Registerのプリセットレイアウトに変更|
 ||Active Retarget|4+Ctrl|Retargetのプリセットレイアウトに変更|
 
-### ▼Maya
+#### ▼Maya
 <img width="938" height="280" alt="image" src="https://github.com/user-attachments/assets/f96e06e8-7fb1-4828-a06d-e62b1b09318c" />
 
-#### Settings > Maya
+##### Settings > Maya
 |項目| デフォルト |説明|
 |:--------------|:--------------:|:--------------|
 |CommandPort|42069|Mayaとの接続に使用するコマンドポート|
@@ -191,7 +193,7 @@ FullHDサイズだと10000fごとに約64GB使用される目安です。
 |Camera|fcs_cam|カメラ名|
 |Install path||C:/Program Files/Autodesk/|Mayaのインストール先|
 
-### ▼Misk
+#### ▼Misk
 <img width="783" height="178" alt="image" src="https://github.com/user-attachments/assets/0bd70e1e-8fba-4116-962f-8fba63743aab" />
 
 #### Settings > Misk
@@ -205,29 +207,29 @@ FullHDサイズだと10000fごとに約64GB使用される目安です。
 ||None||
 |Use Beta|☐|ベータ版機能を使用する|
 
-### Save
+#### Save
 
 設定を保存します。設定によってはFCSを再起動することで反映されます。
 
-### Restore　
+#### Restore　
 
 設定をデフォルトに戻し、FCSを再起動します。
 
-### Import　
+#### Import　
 *確認*
 
 <BR><BR>
 
-## Quit
+### Quit
 
 FCSを終了します。「.Lockファイル」を削除します。
 
 <BR><BR><BR>
 
-# Window
+## Window
 ウィンドウを表示するメニューです。ここでは各ウィンドウの説明を行います。
 
-## Videos
+### Videos
 Videosウィンドウが開きます。<BR>
 Videosウィンドウでは読み込んだHMC動画を一覧で表示します。読み込んだ動画に対しての処理も右クリックから可能です。
 
@@ -244,7 +246,7 @@ Videosウィンドウでは読み込んだHMC動画を一覧で表示します�
 ⑦|*確認*|
 ⑧|Removeボタン||
 
-### Videos 右クリックメニュー
+#### Videos 右クリックメニュー
 <img width="207" height="183" alt="image" src="https://github.com/user-attachments/assets/f8394235-8334-430d-b575-39d0daf818f0" />
 
 - 動画名
@@ -255,7 +257,7 @@ Videosウィンドウでは読み込んだHMC動画を一覧で表示します�
 
 <img width="612" height="280" alt="image" src="https://github.com/user-attachments/assets/b97ca6a0-5d4b-4727-942a-48eefe0da38e" />
 
-#### Remove Videos and Sequencesウィンドウ
+##### Remove Videos and Sequencesウィンドウ
 オプションを指定して動画をFCSから削除します。
 
 |項目| プルダウン |説明|
@@ -271,7 +273,7 @@ Videosウィンドウでは読み込んだHMC動画を一覧で表示します�
 |Execute||実行|
 |Cancel||キャンセル|
 
-#### ▼Process
+##### ▼Process
 ![Process](https://github.com/user-attachments/assets/03c9170b-9c75-4ede-896a-6c109dd82f47)
 
 ||項目|説明|
@@ -286,7 +288,7 @@ Export Options|☑ Playblast|プレイブラストをmov形式の動画で出力
 ||☑ Scene|Mayaシーンを出力、保存する|
 ||Start processing|上記の設定で処理を実行する|
 
-#### Copy
+##### Copy
 <img width="206" height="141" alt="image" src="https://github.com/user-attachments/assets/27c39e0a-c523-454d-91db-fdf57206003e" />
 
 |項目|説明|
@@ -297,7 +299,7 @@ Parent|動画の親ディレクトリのパスをクリップボードにコピ�
 
 <BR>
 
-## Processer
+### Processer
 Processerウィンドウが開きます。<BR>
 Processerウィンドウでは複数の動画を一括で処理するバッチ機能が使用できます。VideosウィンドウでチェックボックスがONになっている動画が処理の対象になります。
 
@@ -323,7 +325,7 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 |⑤|プログレスバー|処理状況の表示をします|
 |⑥|Log|処理状況のログが表示されます|
 
-#### フォルダ名・動画名を指定するパラメータについて
+##### フォルダ名・動画名を指定するパラメータについて
 |項目|説明|
 |:--------------:|:--------------|
 |{solver}|solverの名前|
@@ -339,7 +341,7 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 
 <BR>
 
-## Controllers
+### Controllers
 コントローラーの登録を行うためのウィンドウです。
 
 all▼：all/Upper/Eyelid/Gaze/Lower/null　指定した項目（部位の領域区分）を絞り込んで表示
@@ -365,97 +367,97 @@ Reset：以前Saveした際のデータの状態に戻す
 
 save：コントローラー設定を登録・保存する
 
-## Profiles
-### Gallery
-### Editor
-## Solver
-## Log
+### Profiles
+#### Gallery
+#### Editor
+### Solver
+### Log
 ```{info}
 以下のウィンドウは初めから表示されており、メニューの中に含まれません。
 ```
-## Player
-## Timeline
+### Player
+### Timeline
 
 <BR><BR><BR>
 
-# Maya
-## Status
+## Maya
+### Status
 Mayaとの接続状況を確認、クリックで接続をテストします。
-## OpenScene
+### OpenScene
 セッションに登録しているMayaシーンを開きます。
-## Remove Animation
+### Remove Animation
 配布版には無し？
 
-## Launch
+### Launch
 	2018 - 2026　セッションに登録しているバージョンのMayaを新規で開きます。
 	SettingsでOpen maya scene at launchをONにしている場合、Mayaシーンも開きます。
   
-## GenerateMesh for Tracking Edits
+### GenerateMesh for Tracking Edits
 
 <BR><BR><BR>
 
-#View
-## ☑ Fullscreen
+## View
+### ☑ Fullscreen
 全画面表示
 
-## ☑ VSync　
-## Scale
+### ☑ VSync　
+### Scale
 UI表示の拡大率
 
-## ☑ Always on Top
+### ☑ Always on Top
 FCSを常に最前面に表示する
 
-## Layout▶
+### Layout▶
 プリセットのレイアウトに切り替えます。
 
-### Pickup
-### Process
-### Register
-### Retarget
-### Savecurrent 
+#### Pickup
+#### Process
+#### Register
+#### Retarget
+#### Savecurrent 
 現在のレイアウトに名前をつけて保存します。
 
-### (Layout名)▶
-#### Apply
+#### (Layout名)▶
+##### Apply
 保存したレイアウトに変更します。
 
-#### Delete
+##### Delete
 保存したレイアウトを削除します。
 
 
 <BR><BR><BR>
 
-# Explore
+## Explore
 Windowsエクスプローラーを開きます。
 
-## Project
-## FCS
-### Actor
-### Character
-### Retarget Folder
-### Video Data
-## Facial
-### Actor
-### Assets
-### Scenes
-### RecData
-### SetData
-### Output Scene
-## tmp
+### Project
+### FCS
+#### Actor
+#### Character
+#### Retarget Folder
+#### Video Data
+### Facial
+#### Actor
+#### Assets
+#### Scenes
+#### RecData
+#### SetData
+#### Output Scene
+### tmp
 Logなどが格納されているフォルダ
 
 <BR><BR><BR>
 
-# Info
-## License
+## Info
+### License
 ライセンスの管理
 
-## About
+### About
 FCSについて
 
-## Help
+### Help
 FCSマニュアルの表示
 
-## 3rd party licenses
+### 3rd party licenses
 サードパーティーライセンスについて
 
