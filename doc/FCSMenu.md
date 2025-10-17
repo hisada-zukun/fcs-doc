@@ -10,7 +10,7 @@ Session(セッション)ファイルに関連したメニューです。<BR>
 <img width="381" height="196" alt="image" src="https://github.com/user-attachments/assets/38d2e654-a72b-4c2a-84a0-b06022bc4a6a" />
 
 
-### Session
+### Session ▶
 #### New…
 セッションを新規で作成します。Create new Sessionウィンドウを開きます。
 
@@ -343,7 +343,9 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 |{%Y%m%d}|年 月 日|
 |{%H%M%S}|時間 分 秒|
 
+```{note}
 %Y%m%d_%H%M%S_{user}では「年月日_時間分秒_ユーザー名」が、{video}のみにすると動画名単体が指定されます。
+```
 
 <BR>
 
