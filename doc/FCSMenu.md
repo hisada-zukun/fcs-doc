@@ -44,7 +44,7 @@ Session(セッション)ファイルに関連したメニューです。<BR>
 | 青枠      | Actorで作成されるフォルダ           |
 | 緑枠      | Characterで作成されるフォルダ             |
 
-![folder](doc/images/folder.jpg)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/26da13c1-8cbf-46f3-856a-5975adeb040d" />
 
 | フォルダ | 子フォルダ | 説明 | 
 |:-------------:|:--------------:|:--------------|
@@ -61,6 +61,10 @@ Session(セッション)ファイルに関連したメニューです。<BR>
 |     | VideoData \ .lock      | 作業の競合を防ぐためのロックファイル<BR>セッションの起動・終了時に、自動で作成・消去される   |
 |     | VideoData \ fcs_session.yaml      | セッション情報を保存しているファイル |
 
+```{note}
+エクスプローラーからフォルダ名を直接変更してしまうと、FCSは各フォルダ内のデータをうまく取得できません。<BR>
+フォルダ名を変更したい場合、File＞Session▶＞Info…から各項目の設定を変更してください。入力確定後、フォルダ名は自動的に変更されます。
+```
 <BR>
 
 #### Open▶
