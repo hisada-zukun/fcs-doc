@@ -30,4 +30,4 @@ FCSマニュアル
    098_StarterKit.md
    099_FAQ.md
    advanced_doc_link.rst
-   Menu.md
+   FCSMenu.md
