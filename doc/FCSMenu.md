@@ -340,6 +340,31 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 <BR>
 
 ## Controllers
+コントローラーの登録を行うためのウィンドウです。
+
+all▼：all/Upper/Eyelid/Gaze/Lower/null　指定した項目（部位の領域区分）を絞り込んで表示
+
+Maya
+Add selected：選択したコントローラーを登録
+☑ Sync ：表の数値の操作をMayaと同期させる
+
+▼Value
+Min / Max / Default：☑ を入れたコントローラーのどの値に対しての処理か指定
+0.000：入力する数値
+Apply：実行ボタン
+
+▼Region
+Upper / Lower / Gaze / Eyelid：☑ を入れたコントローラーのRegionを設定する
+Remove：☑ を入れたコントローラーを削除する
+select All/Unselect All：controller上に表示されているコントローラーすべてに ☑ / ☑ 解除
+
+▼Advanced
+Remove empty：Regionが登録されていないコントローラー(null)を削除する
+Delete all：登録したコントローラー情報をすべて削除する
+Reset：以前Saveした際のデータの状態に戻す
+
+save：コントローラー設定を登録・保存する
+
 ## Profiles
 ### Gallery
 ### Editor
