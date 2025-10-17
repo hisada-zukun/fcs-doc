@@ -1,9 +1,15 @@
 # Menu
+ここではFCSの各メニュー項目について説明します。
+
+<img width="386" height="29" alt="image" src="https://github.com/user-attachments/assets/853c25f2-ec90-4ca9-9886-5c786e96172c" />
 
 ## File
-
-Session(セッション)ファイルに関連したメニューです。
+Session(セッション)ファイルに関連したメニューです。<BR>
 セッションを開く、設定の変更、新規セッションの作成などを実行することができます。
+
+<img width="381" height="196" alt="image" src="https://github.com/user-attachments/assets/38d2e654-a72b-4c2a-84a0-b06022bc4a6a" />
+
+
 ### Session
 #### New…
 セッションを新規で作成します。Create new Sessionウィンドウを開きます。
