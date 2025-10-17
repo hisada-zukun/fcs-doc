@@ -216,6 +216,8 @@ FullHDサイズだと10000fごとに約64GB使用される目安です。
 ### Import　
 *確認*
 
+<BR><BR>
+
 ## Quit
 
 FCSを終了します。「.Lockファイル」を削除します。
@@ -231,25 +233,16 @@ Videosウィンドウでは読み込んだHMC動画を一覧で表示します�
 
 ![videos](https://github.com/user-attachments/assets/9efd43b0-5951-4b55-9050-0449e1ee2d33)
 
-① Filter入力欄<BR>
-動画名を文字列でフィルターします。
-
-② Importボタン<BR>
-ダイアログを開いて新しい動画をインポートします。シフトキーで複数選択が可能です。
-
-③ Video表見出し<BR>
-右クリックメニューで表示する内容を変更することができます。
-
-④ 選択ON/OFF切り替え<BR>
-バッチ処理の対象にするかどうか切り替えます。
-
-⑤ 動画名<BR>
-動画名を右クリックでメニューが表示されます。メニューから単体のアニメーション出力を行うことができます。
-
-⑥ 全選択ON/OFF切り替え<BR>
-
-⑦*確認*<BR>
-⑧Removeボタン<BR>
+|| 項目 |説明|
+|:--------------|:--------------:|:--------------|
+① |Filter入力欄|動画名を文字列でフィルターします。|
+②| Importボタン|ダイアログを開いて新しい動画をインポートします。シフトキーで複数選択が可能です。|
+③ |Video表見出し|右クリックメニューで表示する内容を変更することができます。|
+④| 選択ON/OFF|バッチ処理の対象にするかどうか切り替えます。|
+⑤|動画名|動画名を右クリックでメニューが表示されます。メニューから単体のアニメーション出力などを行うことができます。|
+⑥|選択ON/OFF(全)|Videosウィンドウのすべての動画に対して選択のON/OFFを切り替えます。|
+⑦|*確認*|
+⑧|Removeボタン||
 
 ### Videos 右クリックメニュー
 <img width="207" height="183" alt="image" src="https://github.com/user-attachments/assets/f8394235-8334-430d-b575-39d0daf818f0" />
@@ -260,19 +253,92 @@ Videosウィンドウでは読み込んだHMC動画を一覧で表示します�
 - Remove  
   Remove Videos and Sequencesウィンドウを表示します。
 
+<img width="612" height="280" alt="image" src="https://github.com/user-attachments/assets/b97ca6a0-5d4b-4727-942a-48eefe0da38e" />
+
 #### Remove Videos and Sequencesウィンドウ
 オプションを指定して動画をFCSから削除します。
-Video：動画名
-Delete caches option：
-☑ SetData
-☑ Tracking Sequence
-Profiles▼
-Keep　削除する動画のプロファイルはそのまま維持します
-Keep but unlink　削除する動画のプロファイルは維持しますが、動画との
-Delete
 
+|項目| プルダウン |説明|
+|:--------------|:--------------:|:--------------|
+|Video||動画名|
+|Delete caches option：||キャッシュデータについて|
+|☑ SetData||セットデータ内のファイル（音声・静止画連番）も削除するかどうか|
+|☑ Tracking Sequence||動画のトラッキングデータも削除するかどうか|
+|Profiles|▼|削除対象の動画から追加したプロファイルについて|
+||Keep|プロファイルはそのまま維持します|
+||Keep but unlink|プロファイルは維持しますが、動画との関連付けは削除します*確認*|
+||Delete|すべて削除します|
+|Execute||実行|
+|Cancel||キャンセル|
+
+#### ▼Process
+![Process](https://github.com/user-attachments/assets/03c9170b-9c75-4ede-896a-6c109dd82f47)
+
+||項目|説明|
+|:--------------:|:--------------|:--------------|
+||☑ Reprocess|キャッシュが既に存在する場合も一から解析する|
+Sequence Options|Sequence Name|シーケンスの名前を設定する|
+Upload Options|☑ Animation|アニメーションデータを出力する|
+||☑ Audio|音声データをMayaに読み込む|
+||☑ Frames|動画の連番画像を出力、Mayaのイメージプレーンに読み込む|
+||☑ LM Frames|ランドマーク付の連番画像を生成、Mayaのイメージプレーンに読み込む（+パイプラインでは使用不可）|
+Export Options|☑ Playblast|プレイブラストをmov形式の動画で出力、保存する|
+||☑ Scene|Mayaシーンを出力、保存する|
+||Start processing|上記の設定で処理を実行する|
+
+#### Copy
+<img width="206" height="141" alt="image" src="https://github.com/user-attachments/assets/27c39e0a-c523-454d-91db-fdf57206003e" />
+
+|項目|説明|
+|:--------------|:--------------|
+Filename|動画のファイル名をクリップボードにコピーします|
+Full path|動画のフルパスをクリップボードにコピーします|
+Parent|動画の親ディレクトリのパスをクリップボードにコピーします|
+
+<BR>
 
 ## Processer
+Processerウィンドウが開きます。<BR>
+Processerウィンドウでは複数の動画を一括で処理するバッチ機能が使用できます。VideosウィンドウでチェックボックスがONになっている動画が処理の対象になります。
+
+![Processer](https://github.com/user-attachments/assets/725a26ec-501c-4c05-b730-a8583014b603)
+
+
+||項目|説明|
+|:--------------:|:--------------|:--------------|
+|①|Output Folder|出力先を指定します|
+|②|Output Targets|出力する内容を指定します|
+||☑ Animation|アニメーションデータを出力する|
+||☑ Audio|音声データをMayaに読み込む|
+||☑ Frames|動画の連番画像を出力、Mayaのイメージプレーンに読み込む|
+||☑ Landmark Frames|ランドマーク付の連番画像を生成、Mayaのイメージプレーンに読み込む（+パイプラインでは使用不可）|
+||☑ Playblast|プレイブラストをmov形式の動画で出力、保存する|
+||☑ Scene|Mayaシーンを保存する|
+||Format|出力するMayaの保存形式(.mb / .ma)|
+||☑ Distribute|配布用YAMLファイルを出力する？、出力ファイル名|
+|③|Advanced||詳細な設定を行います|
+||☑ Reprocess|キャッシュが既に存在する場合も一から解析する|
+||Output Filename|出力されるデータ名|
+|④|Start|アニメーションの出力を開始する|
+|⑤|プログレスバー|処理状況の表示をします|
+|⑥|Log|処理状況のログが表示されます|
+
+#### フォルダ名・動画名を指定するパラメータについて
+|項目|説明|
+|:--------------:|:--------------|
+|{solver}|solverの名前|
+|{video}|ビデオのファイル名|
+|{user}|windowsユーザ名|
+|{project}|案件フォルダ名|
+|{chara}|キャラクター名|
+|{actor}|役者名|
+|{%Y%m%d}|年 月 日|
+|{%H%M%S}|時間 分 秒|
+
+%Y%m%d_%H%M%S_{user}では「年月日_時間分秒_ユーザー名」が、{video}のみにすると動画名単体が指定されます。
+
+<BR>
+
 ## Controllers
 ## Profiles
 ### Gallery
