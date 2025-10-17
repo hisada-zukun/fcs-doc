@@ -135,8 +135,8 @@ FCS全般の設定メニューです。
 ||Default Rotation|0|Videoインポートの際のデフォルトの回転値（0で回転しない）||
 
 ```{note}
-Cache Frame Maxは数値を上げるほど多くのメモリ容量を消費します。
-FullHDサイズだと10000fごとに約64GB使用される目安です。
+Cache Frame Maxは数値を上げるほど多くのメモリ容量を消費します。<BR>
+FullHDサイズだと10000fごとに約64GB使用される目安です。<BR>
 -1を指定すると無制限にキャッシュを保存します。この設定は十分なメモリがある場合のみ使用してください。
 ```
 #### ▼Output
@@ -191,7 +191,7 @@ FullHDサイズだと10000fごとに約64GB使用される目安です。
 |Use gallery character preview|☑|*確認*
 |Image Plane|imagePlane|イメージプレーン名|
 |Camera|fcs_cam|カメラ名|
-|Install path||C:/Program Files/Autodesk/|Mayaのインストール先|
+|Install path|C:/Program Files/Autodesk/|Mayaのインストール先|
 
 #### ▼Misk
 <img width="783" height="178" alt="image" src="https://github.com/user-attachments/assets/0bd70e1e-8fba-4116-962f-8fba63743aab" />
@@ -369,14 +369,64 @@ save：コントローラー設定を登録・保存する
 
 ### Profiles
 #### Gallery
+プロファイルの一覧が表示されるウィンドウです。
+
 #### Editor
+プロファイルを登録するウィンドウです。<BR>
+画像に対応する表情をMayaで作成し、FCSに読み込みます。
+
 ### Solver
+アニメーション出力についての設定を行うウィンドウです。
+基本的にはデフォルトの設定のまま使用します。
+
+デフォルト設定
+▼Global
+Fisheye：☑
+Processing Pipeline：RP＋
+▼Denoising
+Type：Smoothing
+Weight：-2
+Reps：5
+▼Post processing
+Prioritize profile：☐
+Clamp mode：Hard Clamp
+
 ### Log
-```{info}
+ログが表示されます。
+最新のログは常にFCS上部に表示されるため、普段はあまり使用しません。
+
+```{note}
 以下のウィンドウは初めから表示されており、メニューの中に含まれません。
 ```
+
 ### Player
+現在開いている動画を表示します。
+
 ### Timeline
+タイムラインの操作を行います。
+[0][20130]　動画の再生範囲を変更する
+
+[7967]　現在のフレーム
+|<  / >|　1フレーム前 / 後に移動する
+<<  / >>　次のprofileにジャンプする
+＞ / ||　動画の再生 / 停止（再生すると一時停止ボタンが、一時停止すると再生ボタンが表示されます）
+Video　動画名が表示される（Videosウィンドウと同じ右クリックメニューが使用できる）
+
+タイムライン右クリックメニュー（Playback Settings）
+Snap　タイムラインをドラッグした際にプロファイルにスナップする
+Loop　タイムラインをループ再生する
+Mute　タイムライン再生時に音声をミュートする
+
+▼Resolution
+1 : 1 - 1 : 8　表示している動画の解像度を変更する
+▼Sync
+No Sync　タイムラインをMayaと同期しない
+To Maya　FCSのタイムラインの値をMayaのタイムスライダーへ送信する
+From Maya　Mayaのタイムスライダーの値をFCSのタイムラインへ送信する　※要プラグイン
+Both　FCSとMayaのタイムラインを相互に同期する
+▼Speed
+Every Frame　すべてのフレームを再生
+Real Time　リアルタイム再生
 
 <BR><BR><BR>
 
@@ -389,8 +439,8 @@ Mayaとの接続状況を確認、クリックで接続をテストします。
 配布版には無し？
 
 ### Launch
-	2018 - 2026　セッションに登録しているバージョンのMayaを新規で開きます。
-	SettingsでOpen maya scene at launchをONにしている場合、Mayaシーンも開きます。
+2018 - 2026　セッションに登録しているバージョンのMayaを新規で開きます。
+SettingsでOpen maya scene at launchをONにしている場合、Mayaシーンも開きます。
   
 ### GenerateMesh for Tracking Edits
 
@@ -411,11 +461,16 @@ FCSを常に最前面に表示する
 プリセットのレイアウトに切り替えます。
 
 #### Pickup
+<img width="1786" height="919" alt="image" src="https://github.com/user-attachments/assets/cd138494-a757-4688-b97a-200810df2ec8" />
+
 #### Process
+<img width="1786" height="919" alt="image" src="https://github.com/user-attachments/assets/7bc3f3b4-71e5-40df-b63e-5fd9b34798fa" />
+
 #### Register
+<img width="1786" height="919" alt="image" src="https://github.com/user-attachments/assets/77d12052-452f-4ec3-8797-5ae233939d9e" />
+
 #### Retarget
-#### Savecurrent 
-現在のレイアウトに名前をつけて保存します。
+<img width="1786" height="919" alt="image" src="https://github.com/user-attachments/assets/c45d77d0-e955-4205-9313-6df3403f7839" />
 
 #### (Layout名)▶
 ##### Apply
@@ -423,6 +478,9 @@ FCSを常に最前面に表示する
 
 ##### Delete
 保存したレイアウトを削除します。
+
+#### Save current 
+現在のレイアウトに名前をつけて保存します。
 
 
 <BR><BR><BR>
