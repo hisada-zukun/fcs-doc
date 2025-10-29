@@ -259,11 +259,11 @@ Videosウィンドウでは読み込んだHMC動画を一覧で表示します�
 #### Videos 右クリックメニュー
 <img width="207" height="183" alt="image" src="https://github.com/user-attachments/assets/f8394235-8334-430d-b575-39d0daf818f0" />
 
-- 動画名
-- Open  
-  動画を開く（PlayerとTimelineに表示されます）
-- Remove  
-  Remove Videos and Sequencesウィンドウを表示します。
+|項目|説明|
+|:--------------:|:--------------|
+|動画名||
+|Open| 動画を開く（PlayerとTimelineに表示されます）|
+|Remove|Remove Videos and Sequencesウィンドウを表示します。|
 
 <img width="612" height="280" alt="image" src="https://github.com/user-attachments/assets/b97ca6a0-5d4b-4727-942a-48eefe0da38e" />
 
@@ -288,15 +288,15 @@ Videosウィンドウでは読み込んだHMC動画を一覧で表示します�
 
 ||項目|説明|
 |:--------------:|:--------------|:--------------|
-||☑ Reprocess|キャッシュが既に存在する場合も一から解析する|
-Sequence Options|Sequence Name|シーケンスの名前を設定する|
-Upload Options|☑ Animation|アニメーションデータを出力する|
-||☑ Audio|音声データをMayaに読み込む|
-||☑ Frames|動画の連番画像を出力、Mayaのイメージプレーンに読み込む|
-||☑ LM Frames|ランドマーク付の連番画像を生成、Mayaのイメージプレーンに読み込む（+パイプラインでは使用不可）|
-Export Options|☑ Playblast|プレイブラストをmov形式の動画で出力、保存する|
-||☑ Scene|Mayaシーンを出力、保存する|
-||Start processing|上記の設定で処理を実行する|
+||☑ Reprocess|キャッシュが既に存在する場合も一から解析します|
+Sequence Options|Sequence Name|シーケンスの名前を設定します|
+Upload Options|☑ Animation|アニメーションデータを出力します|
+||☑ Audio|音声データをMayaに読み込みます|
+||☑ Frames|動画の連番画像を出力、Mayaのイメージプレーンに読み込みます|
+||☑ LM Frames|ランドマーク付の連番画像を生成、Mayaのイメージプレーンに読み込みます（+パイプラインでは使用不可）|
+Export Options|☑ Playblast|プレイブラストをmov形式の動画で出力、保存します|
+||☑ Scene|Mayaシーンを出力、保存します|
+||Start processing|上記の設定で処理を実行します|
 
 ##### Copy
 <img width="206" height="141" alt="image" src="https://github.com/user-attachments/assets/27c39e0a-c523-454d-91db-fdf57206003e" />
@@ -353,39 +353,40 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 
 <BR>
 
-### Controllers
+### Controller
 コントローラーの登録を行うためのウィンドウです。
 
-all▼：all/Upper/Eyelid/Gaze/Lower/null　指定した項目（部位の領域区分）を絞り込んで表示
+##### Controllerウィンドウ
 
-Maya
-Add selected：選択したコントローラーを登録
-☑ Sync ：表の数値の操作をMayaと同期させる
+|項目|内容|説明|
+|:--------------:|:--------------|:--------------|
+|Filter||入力したコントローラー名でコントローラー表にフィルターをかけます|
+|all▼|all / Upper / Eyelid / Gaze / Lower / null|指定した項目（Region）を絞り込んで表示します
+|save||コントローラー設定を登録・保存します
 
-▼Value
-Min / Max / Default：☑ を入れたコントローラーのどの値に対しての処理か指定
-0.000：入力する数値
-Apply：実行ボタン
 
-▼Region
-Upper / Lower / Gaze / Eyelid：☑ を入れたコントローラーのRegionを設定する
-Remove：☑ を入れたコントローラーを削除する
-select All/Unselect All：controller上に表示されているコントローラーすべてに ☑ / ☑ 解除
+|　|項目|説明|
+|:--------------|:--------------:|:--------------|
+|Maya|Add selected|選択したコントローラーを登録します|
+||☑ Sync|表の数値の操作をMayaと同期させます|
+|▼Value|Min / Max / Default|☑ を入れたコントローラーのどの値に対しての処理か指定します|
+||0.000|入力する数値|
+||Apply|実行ボタン|
+|▼Region|Upper / Lower / Gaze / Eyelid|☑ を入れたコントローラーのRegionを設定します|
+||Remove|☑ を入れたコントローラーを表から削除します|
+||select All/Unselect All|controller上に表示されているコントローラーすべての ☑ / ☑ を切り替えます|
+|▼Advanced|Remove empty|Regionが登録されていないコントローラー(null)を表から削除します|
+||Delete all|登録したコントローラー情報をすべて削除します|
+||Reset|以前Saveした際のデータの状態に戻します|
 
-▼Advanced
-Remove empty：Regionが登録されていないコントローラー(null)を削除する
-Delete all：登録したコントローラー情報をすべて削除する
-Reset：以前Saveした際のデータの状態に戻す
 
-save：コントローラー設定を登録・保存する
-
-note
+```{note}
 プルダウンメニューについて：
-- Region（リージョン）名 … 現在登録しているRegion(リージョン)のコントローラーが表示されます。プルダウンがRegion（リージョン）の状態でAdd Selectedを押すと、コントローラーをそのRegion（リージョン）に設定された状態で読み込むことができます。
-- all … すべてのRegion(リージョン)のコントローラーが表示されます。allの状態でコントローラーを読み込むとRegion(リージョン)にはnull(ヌル)(リージョン未設定)が設定されます。
-- null(ヌル) … リージョンが設定されていないコントローラーが表示されます。
+- Region名 … 現在登録しているRegionのコントローラーが表示されます。プルダウンがRegionの状態でAdd Selectedを押すと、コントローラーをそのRegionに設定された状態で読み込むことができます。
+- all … すべてのRegionのコントローラーが表示されます。allの状態でコントローラーを読み込むとRegionにはnull(リージョン未設定)が設定されます。
+- null … リージョンが設定されていないコントローラーが表示されます。
 コントローラー表に一つでもnullがあると登録したコントローラーを保存できないため、Save前にリージョンがnullになっているコントローラーがないか確認してください。
-
+```
 ```{note}
 最大値最小値は自動で入力されますが、値があまりにも大きすぎる場合は調整を行って下さい。
 ```
@@ -400,6 +401,11 @@ note
 #### Editor
 プロファイルを登録するウィンドウです。<BR>
 画像に対応する表情をMayaで作成し、FCSに読み込みます。
+Sync:
+To Maya：現在登録されているprofile情報をMayaに転送する
+From Maya at save ：saveボタンを押す際にMaya上での表情データを取得しFCSに反映・登録する
+Both：「To Maya」と「From Maya at save」をどちらも行い、FCSとMayaを双方向で同期させる
+No Sync：FCSとMayaを同期させない
 
 ### Solver
 アニメーション出力についての設定を行うウィンドウです。
