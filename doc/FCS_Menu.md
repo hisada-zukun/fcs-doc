@@ -364,23 +364,24 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 |項目|内容|説明|
 |:--------------:|:--------------|:--------------|
 |Filter||入力したコントローラー名でコントローラー表にフィルターをかけます|
-|all▼|all / Upper / Eyelid / Gaze / Lower / null|指定した項目（Region）を絞り込んで表示します
-|save||コントローラー設定を登録・保存します
+|all▼|all / null / upper / lower / gaze / eyelid |指定した項目（Region）を絞り込んで表示します|
+|save||コントローラー設定を登録・保存します|
 
 
 |　|項目|説明|
 |:--------------|:--------------:|:--------------|
 |Maya|Add selected|選択したコントローラーを登録します|
 ||☑ Sync|表の数値の操作をMayaと同期させます|
-|▼Value|Min / Max / Default|☑ を入れたコントローラーのどの値に対しての処理か指定します|
+|▼Value|▼Min / Max / Default|☑ を入れたコントローラーのどの値に対しての処理か指定します|
 ||0.000|入力する数値|
 ||Apply|実行ボタン|
 |▼Region|Upper / Lower / Gaze / Eyelid|☑ を入れたコントローラーのRegionを設定します|
 ||Remove|☑ を入れたコントローラーを表から削除します|
-||select All/Unselect All|controller上に表示されているコントローラーすべての ☑ / ☑ を切り替えます|
+||Select All/Unselect All|controller上に表示されているコントローラーすべての ☑ / □ を切り替えます|
 |▼Advanced|Remove empty|Regionが登録されていないコントローラー(null)を表から削除します|
 ||Delete all|登録したコントローラー情報をすべて削除します|
 ||Reset|以前Saveした際のデータの状態に戻します|
+||Rearrange|*確認*|
 
 
 ```{note}
@@ -405,8 +406,8 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 
 | 項目 |プルダウン内容| 説明 | 
 |:-------------:|:--------------:|:--------------|
-|Project Folder||*確認*|
-||▼||
+|Count||pプロファイルの登録数を表示します*確認*|
+|*確認*|▼|フィルターをかけます*確認*|
 ||Enabled|*確認*|
 ||Disabled|*確認*|
 ||Default|*確認*|
@@ -417,7 +418,12 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 |Sync timeline||*確認*|
 |Adbanced||*確認*|
 
-
+####  Misk
+|項目| デフォルト |説明|
+|:--------------|:--------------:|:--------------|
+|Hide Tooltip|□|*確認*|
+|Display Mode|Image|*確認*|
+|Refresh Renders||*確認*|
 
 #### Editor
 プロファイルを登録するウィンドウです。<BR>
@@ -425,15 +431,26 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 
 <img height="668" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor01.png">
 
-##### Sync
+##### Editorウィンドウ
+
+|項目|内容|説明|
+|:--------------|:--------------:|:--------------|
+|No Sync▼||数値の操作をMayaと同期させます　*確認*|
+||To Maya|現在登録されているprofile情報をMayaに転送する|
+||From Maya|saveボタンを押す際にMaya上での表情データを取得しFCSに反映・登録する|
+||Both|「To Maya」と「From Maya」をどちらも行い、FCSとMayaを双方向で同期させる|
+||No Sync|FCSとMayaを同期させない|
+|Neutral||*確認*|
+|Enabled||*確認*|
+|Controller▼||*確認*|
+||controller|*確認*|
+||Value|*確認*|
+|Name|プロファイル名|
+|save|プロファイルを登録・保存します|
+
+##### Region
 <img width="206" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor02.png">
 
-|項目|説明|
-|:--------------|:--------------|
-|To Maya|現在登録されているprofile情報をMayaに転送する|
-|From Maya|saveボタンを押す際にMaya上での表情データを取得しFCSに反映・登録する|
-|Both|「To Maya」と「From Maya」をどちらも行い、FCSとMayaを双方向で同期させる|
-|No Sync|FCSとMayaを同期させない|
 
 ### Solver
 アニメーション出力についての設定を行うウィンドウです。
@@ -461,48 +478,85 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 ログが表示されます。
 最新のログは常にFCS上部に表示されるため、普段はあまり使用しません。
 
+<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Log01.png">
+
+|項目|説明|
+|:--------------:|:--------------|
+|INFO|*確認*|
+|WARNING|*確認*|
+|ERROR|*確認*|
+
 ```{note}
 以下のウィンドウは初めから表示されており、メニューの中に含まれません。
 ```
 
+
 ### Player
 現在開いている動画を表示します。
 
+<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_player01.png">
+
 ### Timeline
 タイムラインの操作を行います。
-[0][20130]　動画の再生範囲を変更する
 
-[7967]　現在のフレーム
-|<  / >|　1フレーム前 / 後に移動する
-<<  / >>　次のprofileにジャンプする
-＞ / ||　動画の再生 / 停止（再生すると一時停止ボタンが、一時停止すると再生ボタンが表示されます）
-Video　動画名が表示される（Videosウィンドウと同じ右クリックメニューが使用できる）
+<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Timeline001.png">
 
-タイムライン右クリックメニュー（Playback Settings）
-Snap　タイムラインをドラッグした際にプロファイルにスナップする
-Loop　タイムラインをループ再生する
-Mute　タイムライン再生時に音声をミュートする
+|項目|説明|
+|:--------------:|:--------------|
+|[0]/[100]|　動画の再生範囲を変更します|
+|[0]|現在のフレーム|
+| \|<  / >\| |1フレーム前 / 後に移動します|
+|<<  / >>|　次のプロファイルにジャンプします|
+|＞ / \|\| |　動画の再生 / 停止（再生すると一時停止ボタンが、一時停止すると再生ボタンが表示されます）|
+|Video|動画名が表示されます（Videosウィンドウと同じ右クリックメニューが使用できる）|
+|Profile|プロファイル名が表示されます？*確認*|
 
-▼Resolution
-1 : 1 - 1 : 8　表示している動画の解像度を変更する
-▼Sync
-No Sync　タイムラインをMayaと同期しない
-To Maya　FCSのタイムラインの値をMayaのタイムスライダーへ送信する
-From Maya　Mayaのタイムスライダーの値をFCSのタイムラインへ送信する　※要プラグイン
-Both　FCSとMayaのタイムラインを相互に同期する
+
+##### タイムライン右クリックメニュー（Playback Settings）
+<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Timeline002.png">
+
+|項目|説明|
+|:--------------:|:--------------|
+|Snap|タイムラインをドラッグした際にプロファイルにスナップする|
+|Loop|タイムラインをループ再生する|
+|Mute|タイムライン再生時に音声をミュートする|
+
+##### ▼Resolution
+
+<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Timeline003.png">
+
+|項目|説明|
+|:--------------:|:--------------|
+|1 : 1 - 1 : 8|表示している動画の解像度を変更する|
+
+<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Timeline004.png">
+
+##### ▼Sync
+|項目|説明|
+|:--------------:|:--------------|
+|No Sync|タイムラインをMayaと同期しない|
+|To Maya|FCSのタイムラインの値をMayaのタイムスライダーへ送信する|
+|From Maya|Mayaのタイムスライダーの値をFCSのタイムラインへ送信する　※要プラグイン|
+|Both|FCSとMayaのタイムラインを相互に同期する|
+
+<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Timeline005.png">
 ▼Speed
-Every Frame　すべてのフレームを再生
-Real Time　リアルタイム再生
+
+|項目|説明|
+|:--------------:|:--------------|
+|Every Frame|すべてのフレームを再生|
+|Real Time|リアルタイム再生|
 
 <BR><BR><BR>
 
 ## Maya
+<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Maya001.png">
+
 ### Status
 Mayaとの接続状況を確認、クリックで接続をテストします。
+
 ### OpenScene
 セッションに登録しているMayaシーンを開きます。
-### Remove Animation
-配布版には無し？
 
 ### Launch
 2018 - 2026　セッションに登録しているバージョンのMayaを新規で開きます。
@@ -513,6 +567,8 @@ SettingsでOpen maya scene at launchをONにしている場合、Mayaシーン�
 <BR><BR><BR>
 
 ## View
+<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_View001.png">
+
 ### ☑ Fullscreen
 全画面表示
 
@@ -538,12 +594,14 @@ FCSを常に最前面に表示する
 #### Retarget
 <img width="1786" height="919" alt="image" src="https://github.com/user-attachments/assets/c45d77d0-e955-4205-9313-6df3403f7839" />
 
+*無くなったかも…？確認▼*
 #### (Layout名)▶
 ##### Apply
 保存したレイアウトに変更します。
 
 ##### Delete
 保存したレイアウトを削除します。
+*無くなったかも…？確認▲*
 
 #### Save current 
 現在のレイアウトに名前をつけて保存します。
@@ -573,6 +631,8 @@ Logなどが格納されているフォルダ
 <BR><BR><BR>
 
 ## Info
+<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Info001.png">
+
 ### License
 ライセンスの管理
 
