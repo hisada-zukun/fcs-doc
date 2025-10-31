@@ -356,6 +356,9 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 ### Controller
 コントローラーの登録を行うためのウィンドウです。
 
+<img height="668" alt="image" src=https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_controller01.png>
+
+
 ##### Controllerウィンドウ
 
 |項目|内容|説明|
@@ -398,30 +401,61 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 #### Gallery
 プロファイルの一覧が表示されるウィンドウです。
 
+<img alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_gallery01.png">
+
+| 項目 |プルダウン内容| 説明 | 
+|:-------------:|:--------------:|:--------------|
+|Project Folder||*確認*|
+||▼||
+||Enabled|*確認*|
+||Disabled|*確認*|
+||Default|*確認*|
+||Not Default|*確認*|
+||Neutral|*確認*|
+||No Tags|*確認*|
+||Upper Enabled|*確認*|
+|Sync timeline||*確認*|
+|Adbanced||*確認*|
+
+
+
 #### Editor
 プロファイルを登録するウィンドウです。<BR>
 画像に対応する表情をMayaで作成し、FCSに読み込みます。
-Sync:
-To Maya：現在登録されているprofile情報をMayaに転送する
-From Maya at save ：saveボタンを押す際にMaya上での表情データを取得しFCSに反映・登録する
-Both：「To Maya」と「From Maya at save」をどちらも行い、FCSとMayaを双方向で同期させる
-No Sync：FCSとMayaを同期させない
+
+<img height="668" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor01.png">
+
+##### Sync
+<img width="206" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor02.png">
+
+|項目|説明|
+|:--------------|:--------------|
+|To Maya|現在登録されているprofile情報をMayaに転送する|
+|From Maya|saveボタンを押す際にMaya上での表情データを取得しFCSに反映・登録する|
+|Both|「To Maya」と「From Maya」をどちらも行い、FCSとMayaを双方向で同期させる|
+|No Sync|FCSとMayaを同期させない|
 
 ### Solver
 アニメーション出力についての設定を行うウィンドウです。
 基本的にはデフォルトの設定のまま使用します。
 
-デフォルト設定
-▼Global
-Fisheye：☑
-Processing Pipeline：RP＋
-▼Denoising
-Type：Smoothing
-Weight：-2
-Reps：5
-▼Post processing
-Prioritize profile：☐
-Clamp mode：Hard Clamp
+<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Solver01.png">
+
+|対象|項目| デフォルト |説明|
+|:--------------|:--------------:|:--------------:|:--------------|
+|▼Global|Fisheye|☑||
+||Processing Pipeline|RP＋|*確認*|
+|▼Denoising|Type|Smoothing|*確認*|
+||Weight|-2|*確認*|
+||Reps|5|*確認*|
+|▼Denoising Preview|Raw|☑||*確認*
+||Denoising|☑|*確認*|
+|Save current denoising profile|||*確認*|
+|▼Post processing|Gaze Freezing|☐|*確認*|
+||Prioritize profile|☐|*確認*|
+||Clamp mode|Hard Clamp|*確認*|
+|Train|||*確認*|
+|Delete cache|||*確認*|
 
 ### Log
 ログが表示されます。
