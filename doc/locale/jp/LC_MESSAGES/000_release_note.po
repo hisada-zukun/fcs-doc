@@ -125,7 +125,6 @@ msgid ""
 msgstr "予測パイプラインに長期間存在していたバグを修正しました。これにより、旧来のパイプライン（Rich、RP、Robust）でも安定したアニメーションが生成されやすくなります。"
 
 #: ../../000_release_note.md:33
-#, fuzzy
 msgid ""
 "In addition, we also create a new ****experimental**** feature to boost "
 "accuracy for retargeting, by allowing the user to create more fine-grain "
