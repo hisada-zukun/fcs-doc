@@ -135,7 +135,7 @@ msgid ""
 "://ryota-nakajima-toei.github.io/fcs-doc-"
 "advanced/25.10/en/002_processing.html) here for instructions on how to "
 "use it."
-msgstr "さらにリターゲット精度の向上を目的として、実験的機能を追加しました。コントローラー設定においてこれまでの4つの領域設定（Upper・Eyelid・Gaze・Lower）に加えて、より細かいコントローラーの制御を行えるようになります。こちらはより精度の高い、ノイズの少ないアニメーションを求めるユーザー向けのオプション機能です。詳細については今後マニュアルに追加予定です。"
+msgstr "さらにリターゲット精度の向上を目的として、実験的機能を追加しました。コントローラー設定においてこれまでの4つの領域設定（Upper・Eyelid・Gaze・Lower）に加えて、より細かいコントローラーの制御を行えるようになります。こちらはより精度の高い、ノイズの少ないアニメーションを求めるユーザー向けのオプション機能です。こちらの詳細についてはマニュアルサイト[fcs-doc-advanced](https://ryota-nakajima-toei.github.io/fcs-doc-advanced/25.10/jp/002_processing.html)をご参照ください。"
 
 #: ../../000_release_note.md:35
 msgid "Misc"
