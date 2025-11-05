@@ -445,8 +445,8 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 |Controller▼||*確認*|
 ||controller|*確認*|
 ||Value|*確認*|
-|Name|プロファイル名|
-|save|プロファイルを登録・保存します|
+|Name||プロファイル名|
+|save||プロファイルを登録・保存します|
 
 ##### Region
 <img width="206" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor02.png">
@@ -471,8 +471,8 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 |▼Post processing|Gaze Freezing|☐|*確認*|
 ||Prioritize profile|☐|*確認*|
 ||Clamp mode|Hard Clamp|*確認*|
-|Train|||*確認*|
-|Delete cache|||*確認*|
+|Train|||実行します*確認*|
+|Delete cache|||キャッシュを削除します*確認*|
 
 ### Log
 ログが表示されます。
