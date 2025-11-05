@@ -563,7 +563,7 @@ Mayaとの接続状況を確認、クリックで接続をテストします。
 SettingsでOpen maya scene at launchをONにしている場合、Mayaシーンも開きます。
   
 ### GenerateMesh for Tracking Edits
-
+*確認*
 <BR><BR><BR>
 
 ## View
@@ -601,6 +601,7 @@ FCSを常に最前面に表示する
 
 ##### Delete
 保存したレイアウトを削除します。
+
 *無くなったかも…？確認▲*
 
 #### Save current 
@@ -612,13 +613,44 @@ FCSを常に最前面に表示する
 ## Explore
 Windowsエクスプローラーを開きます。
 
+<img alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Explorer001.png">
+
+|項目|説明|
+|:--------------:|:--------------|
+|Project|プロジェクトフォルダを開きます|
+|FCS|FCSフォルダを開きます|
+|Facial|Facialフォルダを開きます|
+|tmp|Logなどが格納されているフォルダを開きます　*確認*|
+
+<img alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Explorer002.png">
+
+||項目|説明|
+|:--------------|:--------------:|:--------------|
+|FCS▶|Actor|Actorフォルダを開きます|
+||Character|Characterフォルダを開きます|
+||Retarget Folder|RetargetDataフォルダを開きます|
+||Video Data|VideoDataフォルダを開きます|
+
 ### Project
 ### FCS
 #### Actor
 #### Character
 #### Retarget Folder
 #### Video Data
+
 ### Facial
+<img alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Explorer003.png">
+
+||項目|説明|
+|:--------------|:--------------:|:--------------|
+|Facial▶|Actor|Facialフォルダを開きます*確認*|
+||Assets|Assetsフォルダを開きます|
+||RecData|RecDataフォルダを開きます|
+||Scenes|Scenesフォルダを開きます|
+||SetData|SetDataフォルダを開きます|
+||Output Scene|フォルダを開きます*確認*|
+
+
 #### Actor
 #### Assets
 #### Scenes
