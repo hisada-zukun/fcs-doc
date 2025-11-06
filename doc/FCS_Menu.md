@@ -449,7 +449,24 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 |save||プロファイルを登録・保存します|
 
 ##### Region
-<img width="206" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor02.png">
+||||||||
+|:--------------|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------|
+|<img width="206" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor10.png">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor04.png">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor05.png">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor06.png">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor07.png">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor08.png">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor09.png">|
+
+||項目|デフォルト|説明|
+|:--------------|:--------------:|:--------------:|:--------------|
+|Region▶|Upper/ Lower / Gaze / Eyelid|☑|*確認*|
+|Utils▶|To Maya||*確認*|
+||From Maya||*確認*|
+||Predict||*確認*|
+||LM|□|*確認*|
+||Image|☑|*確認*|
+|Filter▶|Upper/ Lower / Gaze / Eyelid / all |all|*確認*|
+|Reset▶|Upper/ Lower / Gaze / Eyelid / all||*確認*|
+|Tracking▶|Edit in Maya||*確認*|
+||Save Edited||*確認*|
+|Tags▶|||*確認*|
+|Info▶|Video/Frame/Time/Create/Create||*確認*|
 
 
 ### Solver
@@ -552,35 +569,37 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 ## Maya
 <img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Maya001.png">
 
-### Status
-Mayaとの接続状況を確認、クリックで接続をテストします。
+|項目||説明|
+|:--------------:|:--------------:|:--------------|
+|Status||Mayaとの接続状況を確認、クリックで接続をテストします。|
+|Open Scene||セッションに登録しているMayaシーンを開きます。|
+|Launch▶|2018 - 2026|セッションに登録しているバージョンのMayaを新規で開きます。<br>SettingsでOpen maya scene at launchをONにしている場合、Mayaシーンも開きます。|
+|GenerateMesh for Tracking Edits||*確認*|
 
-### OpenScene
-セッションに登録しているMayaシーンを開きます。
-
-### Launch
-2018 - 2026　セッションに登録しているバージョンのMayaを新規で開きます。
-SettingsでOpen maya scene at launchをONにしている場合、Mayaシーンも開きます。
-  
-### GenerateMesh for Tracking Edits
-*確認*
 <BR><BR><BR>
 
 ## View
 <img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_View001.png">
 
-### ☑ Fullscreen
-全画面表示
+|項目|説明|
+|:--------------:|:--------------|
+|☑ Fullscreen|全画面表示|
+|☑ VSync|**確認|
+|Scale|UI表示の拡大率|
+|☑ Always on Top|FCSを常に最前面に表示する|
+|Layout▶|プリセットのレイアウトに切り替える|
 
-### ☑ VSync　
-### Scale
-UI表示の拡大率
+<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_View002.png">
 
-### ☑ Always on Top
-FCSを常に最前面に表示する
-
-### Layout▶
-プリセットのレイアウトに切り替えます。
+|項目||説明|
+|:--------------:|:--------------:|:--------------|
+|Pickup||Pickupレイアウトに切り替える|
+|Process||Processレイアウトに切り替える|
+|Register||Registerレイアウトに切り替える|
+|Retarget||Retargetレイアウトに切り替える|
+|sample_Layout(Layout名)▶|Apply|保存したレイアウトに変更する|
+||Delete|保存したレイアウトを削除する|
+|Save current||現在のレイアウトに名前を付けて保存する|
 
 #### Pickup
 <img width="1786" height="919" alt="image" src="https://github.com/user-attachments/assets/cd138494-a757-4688-b97a-200810df2ec8" />
@@ -593,19 +612,6 @@ FCSを常に最前面に表示する
 
 #### Retarget
 <img width="1786" height="919" alt="image" src="https://github.com/user-attachments/assets/c45d77d0-e955-4205-9313-6df3403f7839" />
-
-*無くなったかも…？確認▼*
-#### (Layout名)▶
-##### Apply
-保存したレイアウトに変更します。
-
-##### Delete
-保存したレイアウトを削除します。
-
-*無くなったかも…？確認▲*
-
-#### Save current 
-現在のレイアウトに名前をつけて保存します。
 
 
 <BR><BR><BR>
@@ -624,19 +630,13 @@ Windowsエクスプローラーを開きます。
 
 <img alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Explorer002.png">
 
+### FCS
 ||項目|説明|
 |:--------------|:--------------:|:--------------|
 |FCS▶|Actor|Actorフォルダを開きます|
 ||Character|Characterフォルダを開きます|
 ||Retarget Folder|RetargetDataフォルダを開きます|
 ||Video Data|VideoDataフォルダを開きます|
-
-### Project
-### FCS
-#### Actor
-#### Character
-#### Retarget Folder
-#### Video Data
 
 ### Facial
 <img alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Explorer003.png">
@@ -651,29 +651,16 @@ Windowsエクスプローラーを開きます。
 ||Output Scene|フォルダを開きます*確認*|
 
 
-#### Actor
-#### Assets
-#### Scenes
-#### RecData
-#### SetData
-#### Output Scene
-### tmp
-Logなどが格納されているフォルダ
-
 <BR><BR><BR>
 
 ## Info
 <img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Info001.png">
 
-### License
-ライセンスの管理
+|項目|説明|
+|:--------------:|:--------------|
+|License|ライセンスの管理|
+|About|FCSについて|
+|Help|FCSマニュアルの表示|
+|3rd party licenses|サードパーティーライセンスについて|
 
-### About
-FCSについて
-
-### Help
-FCSマニュアルの表示
-
-### 3rd party licenses
-サードパーティーライセンスについて
-
+<BR><BR><BR>
