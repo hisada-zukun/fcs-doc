@@ -34,31 +34,31 @@ Session(セッション)ファイルに関連したメニューです。<BR>
 |Maya Ver||3Dモデルに対応するMayaのバージョン入力欄|
 ||▼|2018 - 2026の範囲のバージョンを選択できます。|
 |Save||入力した内容で新規Session(セッション)を作成します。|
-||Save|characterフォルダ直下にfcs_session.yaml(FCSファイル)が作成されます。<BR>*現時点のセッション作成後の正式な挙動確認　プロジェクトが開く？*|
+||Save|characterフォルダ直下にfcs_session.yaml(FCSファイル)が作成されます。<BR>現在開いているセッションを閉じ、新しいセッションを開きます。<BR>FCSの再起動が完了するまでしばらくお待ちください。|
 
 ##### Create new Sessionで作成されるフォルダ構造  
 
 | 色 | 内容 | 
 |:-------------:|:--------------:|
-| 赤枠      | Project Folderで作成されるフォルダ           |
-| 青枠      | Actorで作成されるフォルダ           |
-| 緑枠      | Characterで作成されるフォルダ             |
+|赤枠|Project Folderで作成されるフォルダ|
+|青枠|Actorで作成されるフォルダ|
+|緑枠|Characterで作成されるフォルダ|
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/26da13c1-8cbf-46f3-856a-5975adeb040d" />
 
 | フォルダ | 子フォルダ | 説明 | 
 |:-------------:|:--------------:|:--------------|
-| Facial |       | 動画やMayaシーンデータ等の素材を保存するフォルダ           |
+| Facial |       | 動画やMayaシーンデータ等の素材を保存するフォルダ|
 |     | Assets  |モデル・テクスチャなど、Mayaのプロジェクトファイル(Assets以下)を保存するフォルダ |
 |     | RecData | ROM動画やFCSで解析・出力したい動画を保存するフォルダ |
-|     | Scene   |  FCSでアニメーションを出力する際のMayaシーンのデフォルト出力先  |
-|     | SetData | FCSでアニメーションを出力する際のwavファイルや連番画像の出力先    |
-| FCS |          | Project Folderで作成したフォルダ<BR>解析に使用するデータが保存されるプロジェクトフォルダ            |
+|     | Scene   |  FCSでアニメーションを出力する際のMayaシーンのデフォルト出力先|
+|     | SetData | FCSでアニメーションを出力する際のwavファイルや連番画像の出力先|
+| FCS |          | Project Folderで作成したフォルダ<BR>解析に使用するデータが保存されるプロジェクトフォルダ|
 |     | Actor    | Actorで作成したフォルダ<BR>Actorで入力した名前がフォルダ名になる   |
 |     | Character| Characterで作成したフォルダ<BR>Characterで入力した名前がフォルダ名になる |
-|     | RetargetData（IMG/PARAM）| 作成したProfileの編集データ（画像や数値情報）が保存されるフォルダ  |
+|     | RetargetData（IMG/PARAM）| 作成したProfileの編集データ（画像や数値情報）が保存されるフォルダ|
 |     | VideoData| 解析する動画のキャッシュファイルが保存されるフォルダ |
-|     | VideoData \ .lock      | 作業の競合を防ぐためのロックファイル<BR>セッションの起動・終了時に、自動で作成・消去される   |
+|     | VideoData \ .lock      | 作業の競合を防ぐためのロックファイル<BR>セッションの起動・終了時に、自動で作成・消去される|
 |     | VideoData \ fcs_session.yaml      | セッション情報を保存しているファイル |
 
 ```{note}
@@ -99,8 +99,10 @@ Session Dataウィンドウが開きます。
 <BR>
 
 #### Save ▶
-##### Session
-*セッションを保存するとは?*
+<!--
+##### Session\
+*セッションを保存するとは?*保存される内容が特にないため削除25/11/11
+-->
 ##### Profiles
 Editウィンドウのプロファイルを保存します。
 ##### Controller
@@ -139,16 +141,16 @@ FCS全般の設定メニューです。
 
 ##### Settings > UI
 
-|対象| 項目 |デフォルト| 説明 |要 再起動| 
-|:--------------|:--------------|:--------------:|:--------------|:--------------:|
-|Global|Font Size|25|文字の大きさ|〇|
-||Language|en|言語設定|〇|
-|Gallery|Thumbnail width|200|ギャラリーに表示されるプロファイル画像の横幅||
-||Default Cols|3|ギャラリーのデフォルトの列数||
-|Video Player|Cache Frame Max|2000|メモリにキャッシュするフレームの最大値||
-||Default Tags||デフォルトで付与するタグ名||
-|Video Library| Skip rotation prompt|☐|Videoインポートで回転処理の設定画面を表示するかどうか||
-||Default Rotation|0|Videoインポートの際のデフォルトの回転値（0で回転しない）||
+|対象| 項目 |デフォルト| 説明 |
+|:--------------|:--------------|:--------------:|:--------------|
+|Global|Font Size|25|文字の大きさ|
+||Language|en|言語設定|
+|Gallery|Thumbnail width|200|ギャラリーに表示されるプロファイル画像の横幅|
+||Default Cols|3|ギャラリーのデフォルトの列数|
+|Video Player|Cache Frame Max|2000|メモリにキャッシュするフレームの最大値|
+||Default Tags||デフォルトで付与するタグ名|
+|Video Library| Skip rotation prompt|☐|Videoインポートで回転処理の設定画面を表示するかどうか|
+||Default Rotation|0|Videoインポートの際のデフォルトの回転値（0で回転しない）|
 
 ```{note}
 Cache Frame Maxは数値を上げるほど多くのメモリ容量を消費します。<BR>
@@ -160,17 +162,17 @@ FullHDサイズだと10000fごとに約64GB使用される目安です。<BR>
 
 ##### Settings > Output
 
-|対象| 項目 |デフォルト| 説明 |再起動| 
-|:--------------|:--------------|:--------------:|:--------------|:--------------:|
-|Default output options|Default Folder|Facial/Scenes/_Outputs/<BR>%Y%m%d_%H%M%S_{user}|デフォルトの出力先フォルダ||
-||Default Filename|{video}|デフォルトのファイル名|||
-||Default Filename (Batch)|{video}|バッチ出力時のデフォルトファイル名|||
-||Default Maya scene format|.mb|デフォルトのMaya保存形式|||
-|Playblast|Encoder|H.265/HEVC|プレイブラストのエンコード設定||
-||Width|1920|プレイブラストの横幅||
-||Height|1080|プレイブラストの立幅||
-||Quality|100|プレイブラストの画質||
-||Percent|100|プレイブラストの解像度||
+|対象| 項目 |デフォルト| 説明 |
+|:--------------|:--------------|:--------------:|:--------------|
+|Default output options|Default Folder|Facial/Scenes/_Outputs/<BR>%Y%m%d_%H%M%S_{user}|デフォルトの出力先フォルダ|
+||Default Filename|{video}|デフォルトのファイル名||
+||Default Filename (Batch)|{video}|バッチ出力時のデフォルトファイル名||
+||Default Maya scene format|.mb|デフォルトのMaya保存形式||
+|Playblast|Encoder|H.265/HEVC|プレイブラストのエンコード設定|
+||Width|1920|プレイブラストの横幅|
+||Height|1080|プレイブラストの立幅|
+||Quality|100|プレイブラストの画質|
+||Percent|100|プレイブラストの解像度|
 
 #### ▼Keyboard Shortcuts
 同時押しはキー1種+修飾キー2種の3ボタンまで登録可能です。
@@ -199,15 +201,15 @@ FullHDサイズだと10000fごとに約64GB使用される目安です。<BR>
 <img width="938" height="280" alt="image" src="https://github.com/user-attachments/assets/f96e06e8-7fb1-4828-a06d-e62b1b09318c" />
 
 ##### Settings > Maya
-|項目| デフォルト |説明|
-|:--------------|:--------------:|:--------------|
-|CommandPort|42069|Mayaとの接続に使用するコマンドポート|
-|SliderSyncPort|42070|Mayaのタイムラインを取得するコマンドポート|
-|Open maya scene at launch|☑|Launch Maya時に登録したMayaシーンも開く|
-|Use gallery character preview|☑|*確認*
-|Image Plane|imagePlane|イメージプレーン名|
-|Camera|fcs_cam|カメラ名|
-|Install path|C:/Program Files/Autodesk/|Mayaのインストール先|
+|項目| デフォルト |説明|再起動不要|
+|:--------------|:--------------:|:--------------|:--------------:|
+|CommandPort|42069|Mayaとの接続に使用するコマンドポート||
+|SliderSyncPort|42070|Mayaのタイムラインを取得するコマンドポート||
+|Open maya scene at launch|☑|Launch Maya時に登録したMayaシーンも開く|〇|
+|Use gallery character preview|☑|ギャラリーウィンドウのキャラクター表示切替機能を使用する|〇|
+|Image Plane|imagePlane|イメージプレーン名|〇|
+|Camera|fcs_cam|カメラ名|〇|
+|Install path|C:/Program Files/Autodesk/|Mayaのインストール先|〇|
 
 #### ▼Misk
 <img width="783" height="178" alt="image" src="https://github.com/user-attachments/assets/0bd70e1e-8fba-4116-962f-8fba63743aab" />
@@ -217,28 +219,28 @@ FullHDサイズだと10000fごとに約64GB使用される目安です。<BR>
 |:--------------|:--------------:|:--------------|
 |Keep max N video in memory|1|*確認*|
 |Backend|cpu|データの処理方法|
-|Update Channel|Patch|アップデート*確認*|
-||All||
-||Patch||
-||None||
+|Update Channel|Patch|アップデート通知設定|
+||All|メジャーバージョンアップ・マイナーバージョンアップ両方のアップデート通知を受け取る|
+||Patch|マイナーバージョンアップ通知のみ受け取る|
+||None|バージョンアップ通知を受け取らない|
 |Use Beta|☐|ベータ版機能を使用する|
 
 #### Save
 
-設定を保存します。設定によってはFCSを再起動することで反映されます。
+設定を保存します。設定は基本的にFCSを再起動することで反映されます。
 
 #### Restore　
 
 設定をデフォルトに戻し、FCSを再起動します。
 
 #### Import　
-*確認*
+他のバージョンなどから設定をインポートします。C:\Users\[ユーザー名]\.fcs\Cortado\[FCSバージョン]にあるmy_conf.yamlを読み込んでください。
 
 <BR><BR>
 
 ### Quit
 
-FCSを終了します。「.Lockファイル」を削除します。
+FCSを終了します。「.Lockファイル」を削除します。UI設定なども
 
 <BR><BR><BR>
 
@@ -253,14 +255,13 @@ Videosウィンドウでは読み込んだHMC動画を一覧で表示します�
 
 || 項目 |説明|
 |:--------------|:--------------:|:--------------|
-① |Filter入力欄|動画名を文字列でフィルターします。|
-②| Importボタン|ダイアログを開いて新しい動画をインポートします。シフトキーで複数選択が可能です。|
-③ |Video表見出し|右クリックメニューで表示する内容を変更することができます。|
-④| 選択ON/OFF|バッチ処理の対象にするかどうか切り替えます。|
+①|Filter入力欄|動画名を文字列でフィルターします。|
+②|Importボタン|ダイアログを開いて新しい動画をインポートします。シフトキーで複数選択が可能です。|
+③|Video表見出し|右クリックメニューから表示する内容を変更することができます。|
+④|選択ON/OFF|バッチ処理の対象にするかどうか切り替えます。|
 ⑤|動画名|動画名を右クリックでメニューが表示されます。メニューから単体のアニメーション出力などを行うことができます。|
 ⑥|選択ON/OFF(全)|Videosウィンドウのすべての動画に対して選択のON/OFFを切り替えます。|
-⑦|*確認*|
-⑧|Removeボタン||
+⑦|Removeボタン|Remove Videos and Sequencesウィンドウを表示します。|
 
 #### Videos 右クリックメニュー
 <img width="207" height="183" alt="image" src="https://github.com/user-attachments/assets/f8394235-8334-430d-b575-39d0daf818f0" />
@@ -376,18 +377,18 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 
 |　|項目|説明|
 |:--------------|:--------------:|:--------------|
-|Maya|Add selected|選択したコントローラーを登録します|
-||☑ Sync|表の数値の操作をMayaと同期させます|
-|▼Value|▼Min / Max / Default|☑ を入れたコントローラーのどの値に対しての処理か指定します|
+|Maya|Add selected|選択したコントローラーを登録します。|
+||☑ Sync|表の数値の操作をMayaと同期させます。|
+|▼Value|▼Min / Max / Default|☑ を入れたコントローラーのどの値に対しての処理か指定します。|
 ||0.000|入力する数値|
 ||Apply|実行ボタン|
-|▼Region|Upper / Lower / Gaze / Eyelid|☑ を入れたコントローラーのRegionを設定します|
-||Remove|☑ を入れたコントローラーを表から削除します|
-||Select All/Unselect All|controller上に表示されているコントローラーすべての ☑ / □ を切り替えます|
-|▼Advanced|Remove empty|Regionが登録されていないコントローラー(null)を表から削除します|
-||Delete all|登録したコントローラー情報をすべて削除します|
-||Reset|以前Saveした際のデータの状態に戻します|
-||Rearrange|*確認*|
+|▼Region|Upper / Lower / Gaze / Eyelid|☑ を入れたコントローラーのRegionを設定します。|
+||Remove|☑ を入れたコントローラーを表から削除します。|
+||Select All/Unselect All|controller上に表示されているコントローラーすべての ☑ / □ を切り替えます。|
+|▼Advanced|Remove empty|Regionが登録されていないコントローラー(null)を表から削除します。|
+||Delete all|登録したコントローラー情報をすべて削除します。|
+||Reset|以前Saveした際のデータの状態に戻します。|
+||Rearrange|コントローラー表の順番をドラッグ＆ドロップで変更できるようにします。|
 
 
 ```{note}
@@ -412,24 +413,25 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 
 | 項目 |プルダウン内容| 説明 | 
 |:-------------:|:--------------:|:--------------|
-|Count||pプロファイルの登録数を表示します*確認*|
-|*確認*|▼|フィルターをかけます*確認*|
-||Enabled|*確認*|
-||Disabled|*確認*|
-||Default|*確認*|
-||Not Default|*確認*|
-||Neutral|*確認*|
-||No Tags|*確認*|
-||Upper Enabled|*確認*|
-|Sync timeline||*確認*|
-|Adbanced||*確認*|
+|Count||現在表示されているプロファイル数を表示します。|
+|[  ]|▼|フィルターをかけます|
+||Enabled|Enabled状態のプロファイルを表示します。|
+||Disabled|Disabled状態のプロファイルを表示します。|
+||Default|数値未設定含む、すべてのRegionがデフォルトの値のプロファイルを表示します。|
+||Not Default|デフォルトの値ではないプロファイルを表示します。|
+||Neutral|ニュートラルのプロファイルを表示します。|
+||No Tags|タグのついていないプロファイルを表示します。|
+||[Region名] Enabled|そのRegionに値が登録されているプロファイルを表示します。|
+|Sync timeline||選択したプロファイルが含まれる動画を開いている場合、そのプロファイルのフレームに移動します。|
+|Adbanced||詳細機能を表示します。（授業では使用しません）|
 
 ####  Misk
 |項目| デフォルト |説明|
 |:--------------|:--------------:|:--------------|
-|Hide Tooltip|□|*確認*|
-|Display Mode|Image|*確認*|
-|Refresh Renders||*確認*|
+|Hide Tooltip|□|登録されているRegionの図の表示 / 非表示を切り替えます。|
+|Display Mode|Image|プロファイルをアクターの写真で表示します。|
+||Render|プロファイルをキャラクターモデルのスクリーンショットで表示します。|
+|Refresh Renders||Display Mode＞Render表示用にスクリーンショットを現在のMayaの設定で再出力します。|
 
 #### Editor
 プロファイルを登録するウィンドウです。<BR>
@@ -441,18 +443,22 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 
 |項目|内容|説明|
 |:--------------|:--------------:|:--------------|
-|No Sync▼||数値の操作をMayaと同期させます　*確認*|
-||To Maya|現在登録されているprofile情報をMayaに転送する|
-||From Maya|saveボタンを押す際にMaya上での表情データを取得しFCSに反映・登録する|
-||Both|「To Maya」と「From Maya」をどちらも行い、FCSとMayaを双方向で同期させる|
-||No Sync|FCSとMayaを同期させない|
-|Neutral||*確認*|
-|Enabled||*確認*|
-|Controller▼||*確認*|
-||controller|*確認*|
-||Value|*確認*|
-|Name||プロファイル名|
-|save||プロファイルを登録・保存します|
+|No Sync▼||数値の操作をMayaと同期させるかの設定です。|
+||To Maya|FCSのスライダー上でのプロファイルの数値変更をMayaに転送します。|
+||From Maya|saveボタンを押す際にMaya上での表情データを取得しFCSに反映させてから登録します。|
+||Both|「To Maya」と「From Maya」をどちらも行い、FCSとMayaを双方向で同期させます。|
+||No Sync|FCSとMayaを同期させません。|
+|Neutral||Neutral表情かどうかを設定します。|
+|Enabled||このプロファイルを表情推定の計算に含めるかどうか設定します。|
+|Controller▼||プロファイル画像右のスライダー表記を切り替えます。|
+||controller|スライダーにコントローラー名を表示します。|
+||Value|スライダーに値を表示します。|
+|Name||プロファイル名を表示します。任意の名前に変更することも可能です。|
+|save||現在の設定でプロファイルを登録・保存します。|
+
+```{note}
+コントローラーウィンドウ右部のスライダーはCtrl＋クリックで直接数値を入力することが可能です。
+```
 
 ##### Region
 ||||||||
