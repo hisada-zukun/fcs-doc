@@ -101,10 +101,14 @@ Session Dataウィンドウが開きます。
 #### Save ▶
 <!--
 ##### Session\
-*セッションを保存するとは?*保存される内容が特にないため削除25/11/11
+*セッションを保存するとは?*保存される内容が特にないため削除したいが渡すバージョンにはあるため記述25/11/11
 -->
+##### Session
+セッションデータを保存します。随時操作の度に保存されているため基本的には使用しません。
+
 ##### Profiles
 Editウィンドウのプロファイルを保存します。
+
 ##### Controller
 コントローラーウィンドウの表を保存します。
 
@@ -188,7 +192,7 @@ FullHDサイズだと10000fごとに約64GB使用される目安です。<BR>
 ||Previous ROM|,|前のプロファイルへ|
 ||Play / Pause Timeline|v+Alt|タイムラインの再生 / 一時停止|
 ||Add current frame to ROM|Q|現在のフレームをプロファイルとして追加|
-||Open profile on timeline|E|*タイムラインのプロファイルを開く？*|
+||Open profile on timeline|E|*タイムラインのプロファイルを開く*確認|
 |・Editor|Save ROM edits|S+Ctrl|プロファイルの保存|
 ||From Maya|V+Ctrl|表情の値をMayaから読み込み|
 ||To Maya|C+Ctrl|表情の値をMayaへ送信|
@@ -211,10 +215,10 @@ FullHDサイズだと10000fごとに約64GB使用される目安です。<BR>
 |Camera|fcs_cam|カメラ名|〇|
 |Install path|C:/Program Files/Autodesk/|Mayaのインストール先|〇|
 
-#### ▼Misk
+#### ▼Misc
 <img width="783" height="178" alt="image" src="https://github.com/user-attachments/assets/0bd70e1e-8fba-4116-962f-8fba63743aab" />
 
-#### Settings > Misk
+#### Settings > Misc
 |項目| デフォルト |説明|
 |:--------------|:--------------:|:--------------|
 |Keep max N video in memory|1|*確認*|
@@ -370,9 +374,9 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 
 |項目|内容|説明|
 |:--------------:|:--------------|:--------------|
-|Filter||入力したコントローラー名でコントローラー表にフィルターをかけます|
-|all▼|all / null / upper / lower / gaze / eyelid |指定した項目（Region）を絞り込んで表示します|
-|save||コントローラー設定を登録・保存します|
+|Filter||入力したコントローラー名でコントローラー表にフィルターをかけます。|
+|all▼|all / null / upper / lower / gaze / eyelid |指定した項目（Region）を絞り込んで表示します。|
+|save||コントローラー設定を登録・保存します。|
 
 
 |　|項目|説明|
@@ -414,7 +418,7 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 | 項目 |プルダウン内容| 説明 | 
 |:-------------:|:--------------:|:--------------|
 |Count||現在表示されているプロファイル数を表示します。|
-|[  ]|▼|フィルターをかけます|
+|[  ]|▼|フィルターをかけます。|
 ||Enabled|Enabled状態のプロファイルを表示します。|
 ||Disabled|Disabled状態のプロファイルを表示します。|
 ||Default|数値未設定含む、すべてのRegionがデフォルトの値のプロファイルを表示します。|
@@ -423,9 +427,9 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 ||No Tags|タグのついていないプロファイルを表示します。|
 ||[Region名] Enabled|そのRegionに値が登録されているプロファイルを表示します。|
 |Sync timeline||選択したプロファイルが含まれる動画を開いている場合、そのプロファイルのフレームに移動します。|
-|Adbanced||詳細機能を表示します。（授業では使用しません）|
+|Adbanced||詳細機能を表示します。（今授業では使用しません）|
 
-####  Misk
+####  Misc
 |項目| デフォルト |説明|
 |:--------------|:--------------:|:--------------|
 |Hide Tooltip|□|登録されているRegionの図の表示 / 非表示を切り替えます。|
@@ -443,7 +447,7 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 
 |項目|内容|説明|
 |:--------------|:--------------:|:--------------|
-|No Sync▼||数値の操作をMayaと同期させるかの設定です。|
+|No Sync▼||数値の操作をMayaと同期させるかどうかの設定です。|
 ||To Maya|FCSのスライダー上でのプロファイルの数値変更をMayaに転送します。|
 ||From Maya|saveボタンを押す際にMaya上での表情データを取得しFCSに反映させてから登録します。|
 ||Both|「To Maya」と「From Maya」をどちらも行い、FCSとMayaを双方向で同期させます。|
@@ -461,25 +465,28 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 ```
 
 ##### Region
-||||||||
+|Region|Utils|Filter|Reset|Tracking|Tags|Info|
 |:--------------|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------|
 |<img width="206" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor10.png">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor04.png">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor05.png">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor06.png">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor07.png">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor08.png">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor09.png">|
 
 ||項目|デフォルト|説明|
 |:--------------|:--------------:|:--------------:|:--------------|
-|Region▶|Upper/ Lower / Gaze / Eyelid|☑|*確認*|
-|Utils▶|To Maya||*確認*|
-||From Maya||*確認*|
-||Predict||*確認*|
-||LM|□|*確認*|
-||Image|☑|*確認*|
-|Filter▶|Upper/ Lower / Gaze / Eyelid / all |all|*確認*|
-|Reset▶|Upper/ Lower / Gaze / Eyelid / all||*確認*|
-|Tracking▶|Edit in Maya||*確認*|
-||Save Edited||*確認*|
-|Tags▶|||*確認*|
-|Info▶|Video/Frame/Time/Create/Create||*確認*|
+|Region▶|Upper/ Lower / Gaze / Eyelid|☑|このプロファイルにどのRegionの表情が含まれるか指定します。|
+|Utils▶|To Maya||FCSのプロファイルの値をMayaのコントローラーに送信します。|
+||From Maya||Mayaのコントローラーの値をFCSのプロファイルに送信します。|
+||Predict||プレディクト機能でプロファイルの表情を推定します。|
+||LM|□|顔のランドマークを表示します。デフォルトのパイプラインでは使用しません。|
+||Image|☑|プロファイルの画像を表示します。|
+|Filter▶|Upper/ Lower / Gaze / Eyelid / all |all|対応するRegionのコントローラーのみ表示します。|
+|Reset▶|Upper/ Lower / Gaze / Eyelid / all||対応するコントローラーの値を0にリセットします。|
+|Tracking▶|||この機能は今授業では使用しません。|
+|Tags▶|||プロファイルにタグを追加します。|
+|Info▶|Video/Frame/Time/Create/Create||各情報を表示します。|
 
+<!--
+|Tracking▶|Edit in Maya||今授業では使用しません。|
+||Save Edited||*確認*|
+-->
 
 ### Solver
 アニメーション出力についての設定を行うウィンドウです。
@@ -490,18 +497,18 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 |対象|項目| デフォルト |説明|
 |:--------------|:--------------:|:--------------:|:--------------|
 |▼Global|Fisheye|☑||
-||Processing Pipeline|RP＋|*確認*|
-|▼Denoising|Type|Smoothing|*確認*|
-||Weight|-2|*確認*|
-||Reps|5|*確認*|
-|▼Denoising Preview|Raw|☑||*確認*
-||Denoising|☑|*確認*|
-|Save current denoising profile|||*確認*|
-|▼Post processing|Gaze Freezing|☐|*確認*|
-||Prioritize profile|☐|*確認*|
-||Clamp mode|Hard Clamp|*確認*|
+||Processing Pipeline|RP＋|動画を処理するためのパイプラインを指定します。|
+|▼Denoising|Type|Smoothing|スムージング機能の設定を行います。|
+||Weight|-2|スムージングの強さ|
+||Reps|5|スムージングの回数|
+|▼Denoising Preview|Raw|☑|スムージングをかけた後のカーブの形状を推測します。|
+||Raw / Denoising|☑|スムージング前 / スムージング後|
+|Save current denoising profile|||現在のスムージング設定をプリセットとして保存します。|
+|▼Post processing|Gaze Freezing|☐|今授業では使用しません。|
+||Prioritize profile|☐|プロファイルのあるフレームでプロファイル表情を100％使用します。|
+||Clamp mode|Hard Clamp|アニメーションカーブにクランプをかけます。|
 |Train|||Solverの計算を実行します。通常はアニメーション出力の際に自動で計算されるため、このボタンを敢えて押す必要はありません。|
-|Delete cache|||キャッシュを削除します。*確認*|
+|Delete cache|||キャッシュを削除します。今授業では使用しません。|
 
 ### Log
 ログが表示されます。
@@ -511,14 +518,15 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 
 |項目|説明|
 |:--------------:|:--------------|
-|INFO|*確認*|
-|WARNING|*確認*|
-|ERROR|*確認*|
+|INFO|インフォメーションログを表示します。|
+|WARNING|警告ログを表示します。|
+|ERROR|エラーログを表示します。|
 
+<BR>
 ```{note}
 以下のウィンドウは初めから表示されており、メニューの中に含まれません。
 ```
-
+<BR>
 
 ### Player
 現在開いている動画を表示します。
@@ -547,9 +555,9 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 
 |項目|説明|
 |:--------------:|:--------------|
-|Snap|タイムラインをドラッグした際にプロファイルにスナップする|
-|Loop|タイムラインをループ再生する|
-|Mute|タイムライン再生時に音声をミュートする|
+|Snap|タイムラインをドラッグした際にプロファイルにスナップします。|
+|Loop|タイムラインをループ再生します。|
+|Mute|タイムライン再生時に音声をミュートします。|
 
 ##### ▼Resolution
 
@@ -557,17 +565,17 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 
 |項目|説明|
 |:--------------:|:--------------|
-|1 : 1 - 1 : 8|表示している動画の解像度を変更する|
+|1 : 1 - 1 : 8|表示している動画の解像度を変更します。|
 
 <img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Timeline004.png">
 
 ##### ▼Sync
 |項目|説明|
 |:--------------:|:--------------|
-|No Sync|タイムラインをMayaと同期しない|
-|To Maya|FCSのタイムラインの値をMayaのタイムスライダーへ送信する|
-|From Maya|Mayaのタイムスライダーの値をFCSのタイムラインへ送信する　※要プラグイン|
-|Both|FCSとMayaのタイムラインを相互に同期する|
+|No Sync|タイムラインをMayaと同期しません。|
+|To Maya|FCSのタイムラインの値をMayaのタイムスライダーへ送信します。|
+|From Maya|Mayaのタイムスライダーの値をFCSのタイムラインへ送信します。　※要プラグイン|
+|Both|FCSとMayaのタイムラインを相互に同期します。　※要プラグイン|
 
 <img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Timeline005.png">
 ▼Speed
@@ -587,7 +595,7 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 |Status||Mayaとの接続状況を確認、クリックで接続をテストします。|
 |Open Scene||セッションに登録しているMayaシーンを開きます。|
 |Launch▶|2018 - 2026|セッションに登録しているバージョンのMayaを新規で開きます。<br>SettingsでOpen maya scene at launchをONにしている場合、Mayaシーンも開きます。|
-|GenerateMesh for Tracking Edits||*確認*|
+|GenerateMesh for Tracking Edits||今授業では使用しません。|
 
 <BR><BR><BR>
 
@@ -597,10 +605,10 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 |項目|説明|
 |:--------------:|:--------------|
 |☑ Fullscreen|全画面表示|
-|☑ VSync|**確認|
-|Scale|UI表示の拡大率|
-|☑ Always on Top|FCSを常に最前面に表示する|
-|Layout▶|プリセットのレイアウトに切り替える|
+|☑ VSync|垂直同期を設定します。基本的にはONにしてください。|
+|Scale|UI表示の拡大率を変更します。|
+|☑ Always on Top|FCSを常に最前面に表示します。|
+|Layout▶|プリセットのレイアウトに切り替えます。プリセットは以下の通りです。|
 
 <img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_View002.png">
 
@@ -636,32 +644,32 @@ Windowsエクスプローラーを開きます。
 
 |項目|説明|
 |:--------------:|:--------------|
-|Project|プロジェクトフォルダを開きます|
-|FCS|FCSフォルダを開きます|
-|Facial|Facialフォルダを開きます|
-|tmp|Logなどが格納されているフォルダを開きます　*確認*|
+|Project|プロジェクトフォルダを開きます。|
+|FCS|FCSフォルダを開きます。|
+|Facial|Facialフォルダを開きます。|
+|tmp|Logなどが格納されているユーザー設定フォルダを開きます。|
 
 <img alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Explorer002.png">
 
 ### FCS
 ||項目|説明|
 |:--------------|:--------------:|:--------------|
-|FCS▶|Actor|Actorフォルダを開きます|
-||Character|Characterフォルダを開きます|
-||Retarget Folder|RetargetDataフォルダを開きます|
-||Video Data|VideoDataフォルダを開きます|
+|FCS▶|Actor|Actorフォルダを開きます。|
+||Character|Characterフォルダを開きます。|
+||Retarget Folder|RetargetDataフォルダを開きます。|
+||Video Data|VideoDataフォルダを開きます。|
 
 ### Facial
 <img alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Explorer003.png">
 
 ||項目|説明|
 |:--------------|:--------------:|:--------------|
-|Facial▶|Actor|Facialフォルダを開きます*確認*|
-||Assets|Assetsフォルダを開きます|
-||RecData|RecDataフォルダを開きます|
-||Scenes|Scenesフォルダを開きます|
-||SetData|SetDataフォルダを開きます|
-||Output Scene|フォルダを開きます*確認*|
+|Facial▶|Actor|Facialフォルダを開きます。|
+||Assets|workspaceフォルダを開きます。|
+||RecData|RecDataフォルダを開きます。|
+||Scenes|Scenesフォルダを開きます。|
+||SetData|SetDataフォルダを開きます。|
+||Output Scene|_Outputsフォルダを開きます。|
 
 
 <BR><BR><BR>
