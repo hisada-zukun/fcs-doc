@@ -131,7 +131,7 @@ Export Sessionウィンドウが開きます。
 |Facial/Assets Folder ☑||出力先にFacial/Assets以下のフォルダー・ファイルをコピーするかを指定|
 
 ```{note}
-Project Folderの項目ではエクスポート先のプロジェクトフォルダのパスを指定します。
+Project Folderの項目ではエクスポート先のプロジェクトフォルダのパスを指定します。<BR>
 このときプロジェクトフォルダ以下のフォルダ構造が存在しない場合は新しくフォルダが作成されるので、
 例えばE:\test\FCS\testActor\testCharacterと同じ階層にtestCharacter2をエクスポートしたい場合には
 Project Folderの項目に「E:\test」を指定し、Characterの項目に「testCharacter2」と入れてください。
@@ -192,7 +192,7 @@ FullHDサイズだと10000fごとに約64GB使用される目安です。<BR>
 ||Previous ROM|,|前のプロファイルへ|
 ||Play / Pause Timeline|v+Alt|タイムラインの再生 / 一時停止|
 ||Add current frame to ROM|Q|現在のフレームをプロファイルとして追加|
-||Open profile on timeline|E|*タイムラインのプロファイルを開く*確認|
+||Open profile on timeline|E|現在選択しているプロファイルの動画を開く|
 |・Editor|Save ROM edits|S+Ctrl|プロファイルの保存|
 ||From Maya|V+Ctrl|表情の値をMayaから読み込み|
 ||To Maya|C+Ctrl|表情の値をMayaへ送信|
@@ -205,7 +205,7 @@ FullHDサイズだと10000fごとに約64GB使用される目安です。<BR>
 <img width="938" height="280" alt="image" src="https://github.com/user-attachments/assets/f96e06e8-7fb1-4828-a06d-e62b1b09318c" />
 
 ##### Settings > Maya
-|項目| デフォルト |説明|再起動不要|
+|項目|デフォルト|説明|再起動不要|
 |:--------------|:--------------:|:--------------|:--------------:|
 |CommandPort|42069|Mayaとの接続に使用するコマンドポート||
 |SliderSyncPort|42070|Mayaのタイムラインを取得するコマンドポート||
@@ -221,7 +221,7 @@ FullHDサイズだと10000fごとに約64GB使用される目安です。<BR>
 #### Settings > Misc
 |項目| デフォルト |説明|
 |:--------------|:--------------:|:--------------|
-|Keep max N video in memory|1|*確認*|
+|Keep max N video in memory|1|Playerウィンドウに表示するためにキャッシュする動画の本数|
 |Backend|cpu|データの処理方法|
 |Update Channel|Patch|アップデート通知設定|
 ||All|メジャーバージョンアップ・マイナーバージョンアップ両方のアップデート通知を受け取る|
@@ -238,13 +238,14 @@ FullHDサイズだと10000fごとに約64GB使用される目安です。<BR>
 設定をデフォルトに戻し、FCSを再起動します。
 
 #### Import　
-他のバージョンなどから設定をインポートします。C:\Users\[ユーザー名]\.fcs\Cortado\[FCSバージョン]にあるmy_conf.yamlを読み込んでください。
+他のバージョンなどから設定をインポートします。<BR>
+C:\Users\[ユーザー名]\.fcs\Cortado\[FCSバージョン]にあるmy_conf.yamlを読み込んでください。
 
 <BR><BR>
 
 ### Quit
 
-FCSを終了します。「.Lockファイル」を削除します。UI設定なども
+FCSを終了し、「.Lockファイル」を削除します。
 
 <BR><BR><BR>
 
@@ -289,10 +290,16 @@ Videosウィンドウでは読み込んだHMC動画を一覧で表示します�
 |☑ Tracking Sequence||動画のトラッキングデータも削除するかどうか|
 |Profiles|▼|削除対象の動画から追加したプロファイルについて|
 ||Keep|プロファイルはそのまま維持します|
-||Keep but unlink|プロファイルは維持しますが、動画との関連付けは削除します*確認*|
+||Keep but unlink|プロファイルは維持しますが、動画との関連付けは削除します<BR>（プロファイルの動画名がUnkownになります）|
 ||Delete|すべて削除します|
 |Execute||実行|
 |Cancel||キャンセル|
+
+```{note}
+動画の尺変更などが原因で同じ名前の違う内容の動画を読み込みたいとき、
+Keep＞再読み込みとするとピックアップしたフレーム位置にずれが発生し想定していないアニメーション結果になる場合があります。<BR>
+適宜DeleteやKeep but unlinkで以前の動画との連携を解除してください。
+```
 
 ##### ▼Process
 ![Process](https://github.com/user-attachments/assets/03c9170b-9c75-4ede-896a-6c109dd82f47)
@@ -304,7 +311,7 @@ Sequence Options|Sequence Name|シーケンスの名前を設定します|
 Upload Options|☑ Animation|アニメーションデータを出力します|
 ||☑ Audio|音声データをMayaに読み込みます|
 ||☑ Frames|動画の連番画像を出力、Mayaのイメージプレーンに読み込みます|
-||☑ LM Frames|ランドマーク付の連番画像を生成、Mayaのイメージプレーンに読み込みます（+パイプラインでは使用不可）|
+||☑ LM Frames|ランドマーク付の連番画像を生成、Mayaのイメージプレーンに読み込みます<BR>（+パイプラインでは使用不可）|
 Export Options|☑ Playblast|プレイブラストをmov形式の動画で出力、保存します|
 ||☑ Scene|Mayaシーンを出力、保存します|
 ||Start processing|上記の設定で処理を実行します|
@@ -338,7 +345,7 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 ||☑ Playblast|プレイブラストをmov形式の動画で出力、保存する|
 ||☑ Scene|Mayaシーンを保存する|
 ||Format|出力するMayaの保存形式(.mb / .ma)|
-||☑ Distribute|配布用YAMLファイルを出力する？、出力ファイル名|
+||☑ Distribute|※今授業では使用しません|
 |③|Advanced||詳細な設定を行います|
 ||☑ Reprocess|キャッシュが既に存在する場合も一から解析する|
 ||Output Filename|出力されるデータ名|
@@ -418,7 +425,7 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 | 項目 |プルダウン内容| 説明 | 
 |:-------------:|:--------------:|:--------------|
 |Count||現在表示されているプロファイル数を表示します。|
-|[  ]|▼|フィルターをかけます。|
+|[ 　 ]▼||フィルターをかけます。|
 ||Enabled|Enabled状態のプロファイルを表示します。|
 ||Disabled|Disabled状態のプロファイルを表示します。|
 ||Default|数値未設定含む、すべてのRegionがデフォルトの値のプロファイルを表示します。|
@@ -523,9 +530,11 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 |ERROR|エラーログを表示します。|
 
 <BR>
+
 ```{note}
 以下のウィンドウは初めから表示されており、メニューの中に含まれません。
 ```
+
 <BR>
 
 ### Player
@@ -622,17 +631,13 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 ||Delete|保存したレイアウトを削除する|
 |Save current||現在のレイアウトに名前を付けて保存する|
 
-#### Pickup
-<img width="1786" height="919" alt="image" src="https://github.com/user-attachments/assets/cd138494-a757-4688-b97a-200810df2ec8" />
+|Pickup|Process|
+|:-------------:|:-------------:|
+|<img width="1786" height="919" alt="image" src="https://github.com/user-attachments/assets/cd138494-a757-4688-b97a-200810df2ec8" />|<img width="1786" height="919" alt="image" src="https://github.com/user-attachments/assets/7bc3f3b4-71e5-40df-b63e-5fd9b34798fa" />|
 
-#### Process
-<img width="1786" height="919" alt="image" src="https://github.com/user-attachments/assets/7bc3f3b4-71e5-40df-b63e-5fd9b34798fa" />
-
-#### Register
-<img width="1786" height="919" alt="image" src="https://github.com/user-attachments/assets/77d12052-452f-4ec3-8797-5ae233939d9e" />
-
-#### Retarget
-<img width="1786" height="919" alt="image" src="https://github.com/user-attachments/assets/c45d77d0-e955-4205-9313-6df3403f7839" />
+|Register|Retarget|
+|:-------------:|:-------------:|
+|<img width="1786" height="919" alt="image" src="https://github.com/user-attachments/assets/77d12052-452f-4ec3-8797-5ae233939d9e" />|<img width="1786" height="919" alt="image" src="https://github.com/user-attachments/assets/c45d77d0-e955-4205-9313-6df3403f7839" />|
 
 
 <BR><BR><BR>
@@ -683,5 +688,3 @@ Windowsエクスプローラーを開きます。
 |About|FCSについて|
 |Help|FCSマニュアルの表示|
 |3rd party licenses|サードパーティーライセンスについて|
-
-<BR><BR><BR>
