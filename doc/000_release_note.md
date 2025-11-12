@@ -30,7 +30,7 @@ Facial tracking results generated with the new pipelines can be edited in a late
 #### Retarget Accuracy
 We also fixed a few longstanding bugs in our prediction pipeline. As a result, it should generate much more stable animation even for older pipelines (Rich, RP, Robust).
 
-In addition, we also create a new ****experimental**** feature to boost accuracy for retargeting, by allowing the user to create more fine-grain control over the controller beyond the four regions. This is for advanced users who would want to create very accurate, low-noise result. This will be completely optional. The manual will be updated later to provide a more thorough explanation.
+In addition, we also create a new ****experimental**** feature to boost accuracy for retargeting, by allowing the user to create more fine-grain control over the controller beyond the four regions. This is for advanced users who would want to create very accurate, low-noise result. This will be completely optional. Please see the [Advanced manual](https://ryota-nakajima-toei.github.io/fcs-doc-advanced/25.10/en/002_processing.html) here for instructions on how to use it.
 
 ### Misc
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-07 12:09+0000\n"
+"POT-Creation-Date: 2025-11-04 07:39+0000\n"
 "PO-Revision-Date: 2025-02-24 09:53+0900\n"
 "Last-Translator: \n"
 "Language: jp\n"
@@ -52,7 +52,7 @@ msgstr "アニメーションを一部のみMayaの任意フレームに出力�
 
 #: ../../000_release_note.md:11
 msgid "Fixed release note not being wrapped properly to the window"
-msgstr "ソフト上のリリースノートのレイアウトを修正しました
+msgstr "ソフト上のリリースノートのレイアウトを修正しまし"
 
 #: ../../000_release_note.md:13
 msgid "FCS 25.10.01"
@@ -130,9 +130,11 @@ msgid ""
 "accuracy for retargeting, by allowing the user to create more fine-grain "
 "control over the controller beyond the four regions. This is for advanced"
 " users who would want to create very accurate, low-noise result. This "
-"will be completely optional. The manual will be updated later to provide "
-"a more thorough explanation."
-msgstr "さらにリターゲット精度の向上を目的として、実験的機能を追加しました。コントローラー設定においてこれまでの4つの領域設定（Upper・Eyelid・Gaze・Lower）に加えて、より細かいコントローラーの制御を行えるようになります。こちらはより精度の高い、ノイズの少ないアニメーションを求めるユーザー向けのオプション機能です。詳細については今後マニュアルに追加予定です。"
+"will be completely optional. Please see the [Advanced manual](https"
+"://ryota-nakajima-toei.github.io/fcs-doc-"
+"advanced/25.10/en/002_processing.html) here for instructions on how to "
+"use it."
+msgstr "さらにリターゲット精度の向上を目的として、実験的機能を追加しました。コントローラー設定においてこれまでの4つの領域設定（Upper・Eyelid・Gaze・Lower）に加えて、より細かいコントローラーの制御を行えるようになります。こちらはより精度の高い、ノイズの少ないアニメーションを求めるユーザー向けのオプション機能です。こちらの詳細についてはマニュアルサイト[fcs-doc-advanced](https://ryota-nakajima-toei.github.io/fcs-doc-advanced/25.10/jp/002_processing.html)をご参照ください。"
 
 #: ../../000_release_note.md:35
 msgid "Misc"
