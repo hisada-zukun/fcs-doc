@@ -36,11 +36,11 @@ FCSは、シーン内にFCS用のカメラが無い場合、perspのカメラの
 ①FCS用のカメラを顔のモデルが中心に来るように配置します。<BR>
 使用アトリビュート例：fcs_cam.translateY、fcs_cam.translateZ、fcs_camShape.focalLength
 
-<img width="269" height="379" alt="image" src="https://github.com/user-attachments/assets/cbf2e24d-b4a6-43e1-b138-8780fb67f8b4" />
+<img width="269" height="379" alt="image" src="https://github.com/user-attachments/assets/cbf2e24d-b4a6-43e1-b138-8780fb67f8b4"/>
 
-<BR>
+<BR><BR>
 
-②FCS用のカメラを使用した状態でView ＞ Image Plane ＞ Import Image...から静止画用イメージプレーンを配置します。
+②FCS用のカメラを使用した状態でView ＞ Image Plane ＞ Import Image...から静止画用イメージプレーンを配置します。<BR>
 ![basescene2](https://github.com/user-attachments/assets/09d31116-7ed4-4678-8f73-8613f409b28b)
 
 <BR>
