@@ -22,7 +22,21 @@ View＞Layout＞Save current
 ```
 C:\Users\[ユーザー名]\.fcs\Cortado\[FCSバージョン]\layouts\saved
 ```
- 
+<BR><BR><BR>
+
+## .lockファイルについて
+FCSでは複数人の作業者による作業が競合しないよう、現在どの作業者がこのセッションを開いているかを識別する機能があります。<BR>
+既にほかの作業者がセッションを開いている場合、以下のようなWARNINGがポップアップするので、Yesでそのままセッションを開くかCancelしてセッションを閉じるか選択してください。<BR>
+
+![lock](https://github.com/user-attachments/assets/fa750f4d-9dec-4094-8eeb-0ccaa0217a75)
+
+FCSではセッションを開く際、セッション名.yamlファイルと同じ階層に「.lock」ファイルが自動で作成されます。<BR>
+このファイルには作業者名とセッションファイルを開いた時刻の情報が含まれており、セッションを閉じる際に自動で削除されることでセッションが使用中か判別される仕組みとなっています。<BR>
+しかし、セッションがエラーなどで不正終了した場合、この.lockファイルが削除されずに残る場合があります。<BR>
+その場合、たとえ最後に使ったユーザーが自分であってもWARNINGが出るため、ポップアップのYesボタンを押すか、手動で.lockファイルを削除して作業を続けてください。<BR>
+.lockファイルをWindowsエクスプローラーの標準機能から削除してもセッションへの影響はありません。
+
+
 <BR><BR><BR>
 
 ## ベースシーンについて
@@ -38,7 +52,7 @@ FCSは、シーン内にFCS用のカメラが無い場合、perspのカメラの
 
 <img width="269" height="379" alt="image" src="https://github.com/user-attachments/assets/cbf2e24d-b4a6-43e1-b138-8780fb67f8b4"/>
 
-<BR><BR>
+<BR>
 
 ②FCS用のカメラを使用した状態でView ＞ Image Plane ＞ Import Image...から静止画用イメージプレーンを配置します。<BR>
 ![basescene2](https://github.com/user-attachments/assets/09d31116-7ed4-4678-8f73-8613f409b28b)
