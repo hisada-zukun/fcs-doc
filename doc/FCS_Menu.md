@@ -375,7 +375,7 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 ### Controller
 コントローラーの登録を行うためのウィンドウです。
 
-<img height="668" alt="image" src=https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_controller01.jpg>
+<img src="https://github.com/hisada-zukun/fcs-doc/blob/main/doc/images/controller_nike_10_03.jpg">
 
 
 ##### Controllerウィンドウ
@@ -386,6 +386,21 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 |all▼|all / null / upper / lower / gaze / eyelid |指定した項目（Region）を絞り込んで表示します。|
 |save||コントローラー設定を登録・保存します。|
 
+```{note}
+プルダウンメニューについて：
+- Region名 … 現在登録しているRegionのコントローラーが表示されます。プルダウンがRegionの状態でAdd Selectedを押すと、コントローラーをそのRegionに設定された状態で読み込むことができます。
+- all … すべてのRegionのコントローラーが表示されます。allの状態でコントローラーを読み込むとRegionにはnull(リージョン未設定)が設定されます。
+- null … リージョンが設定されていないコントローラーが表示されます。
+コントローラー表に一つでもnullがあると登録したコントローラーを保存できないため、Save前にリージョンがnullになっているコントローラーがないか確認してください。
+```
+
+<table>
+<tr>
+<td><img src="https://github.com/user-attachments/assets/36f7dfe0-437f-4c82-8703-dccc7e3444d1"></td>
+<td><img src="https://github.com/user-attachments/assets/8f3f2e84-65e1-484b-b92a-ae6ed4da7768"></td>
+<td><img src="https://github.com/user-attachments/assets/1297f343-3124-433d-8cf2-b3314daf047a"></td>
+</tr>
+</table>
 
 |　|項目|説明|
 |:--------------|:--------------:|:--------------|
@@ -402,19 +417,26 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 ||Reset|以前Saveした際のデータの状態に戻します。|
 ||Rearrange|コントローラー表の順番をドラッグ＆ドロップで変更できるようにします。|
 
+##### Controller表 右クリックメニュー
+<img src="https://github.com/user-attachments/assets/ff91a1e0-fba0-4f46-9511-1007c298fa5e" />
+<img src="https://github.com/user-attachments/assets/99ee1049-1bb0-476a-b396-a43dbfe3ba6c" />
+
+|　|項目|説明|
+|:--------------|:--------------:|:--------------|
+|▼ Copy & Paste|Copy Name|コントローラー名をクリップボードにコピーします。|
+||Copy Values|min,max,defaultの値をクリップボードにコピーします。|
+||Copy Blendshapes|今授業では使用しません。|
+||Paste Values|min,max,defaultの値をクリップボードから貼り付けます。|
+||Paste Blendshapes|今授業では使用しません。|
+|▼ Reset|To Saved|min,max,defaultの値を最後に保存した時の値にリセットします。|
+||To Maya|min,max,defaultの値をMayaシーンから再取得します。|
+|Rename||コントローラー名を変更します。|
 
 ```{note}
-プルダウンメニューについて：
-- Region名 … 現在登録しているRegionのコントローラーが表示されます。プルダウンがRegionの状態でAdd Selectedを押すと、コントローラーをそのRegionに設定された状態で読み込むことができます。
-- all … すべてのRegionのコントローラーが表示されます。allの状態でコントローラーを読み込むとRegionにはnull(リージョン未設定)が設定されます。
-- null … リージョンが設定されていないコントローラーが表示されます。
-コントローラー表に一つでもnullがあると登録したコントローラーを保存できないため、Save前にリージョンがnullになっているコントローラーがないか確認してください。
-```
-```{note}
-最大値最小値は自動で入力されますが、値があまりにも大きすぎる場合は調整を行って下さい。
+コントローラー表の最大値最小値は自動で入力されますが、値があまりにも大きすぎる場合は調整を行って下さい。
 ```
 ```{Warning}
-数値ではない(True/False)アトリビュートがあると正常に動作しないため、登録から除外してください。
+コントローラー表に数値ではない(True/False)アトリビュートがあると正常に動作しないため、登録から除外してください。
 ```
 
 ### Profiles
