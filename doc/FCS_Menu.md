@@ -394,13 +394,9 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 コントローラー表に一つでもnullがあると登録したコントローラーを保存できないため、Save前にリージョンがnullになっているコントローラーがないか確認してください。
 ```
 
-<table>
-<tr>
-<td><img src="https://github.com/user-attachments/assets/36f7dfe0-437f-4c82-8703-dccc7e3444d1"></td>
-<td><img src="https://github.com/user-attachments/assets/8f3f2e84-65e1-484b-b92a-ae6ed4da7768"></td>
-<td><img src="https://github.com/user-attachments/assets/1297f343-3124-433d-8cf2-b3314daf047a"></td>
-</tr>
-</table>
+<img src="https://github.com/user-attachments/assets/36f7dfe0-437f-4c82-8703-dccc7e3444d1">
+<img src="https://github.com/user-attachments/assets/1297f343-3124-433d-8cf2-b3314daf047a">
+<img src="https://github.com/user-attachments/assets/8f3f2e84-65e1-484b-b92a-ae6ed4da7768">
 
 |　|項目|説明|
 |:--------------|:--------------:|:--------------|
@@ -495,9 +491,32 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 ```
 
 ##### Region
-|Region|Utils|Filter|Reset|Tracking|Tags|Info|
-|:--------------|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------|
-|<img width="206" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor10.jpg">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor04.jpg">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor05.jpg">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor06.jpg">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor07.jpg">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor08.jpg">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor09.jpg">|
+<p>
+<img src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor10.jpg">
+<img src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor04.jpg">
+<img src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor05.jpg">
+<img src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor06.jpg">
+<img src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor07.jpg">
+<img src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor08.jpg"/>
+<img src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor09.jpg"></p>
+
+<!--
+##### Session\
+*テーブルなしで並べてみる
+<table>
+<tr>
+<td><img src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor10.jpg"></td>
+<td><img src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor04.jpg"></td>
+<td><img src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor05.jpg"></td>
+<td><img src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor06.jpg"></td>
+<td><img src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor07.jpg"></td>
+</tr>
+<tr>
+<td><img src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor08.jpg"/></td>
+<td><img src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor09.jpg"></td>
+</tr>
+</table>
+-->
 
 ||項目|デフォルト|説明|
 |:--------------|:--------------:|:--------------:|:--------------|
@@ -654,14 +673,37 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 ||Delete|保存したレイアウトを削除する|
 |Save current||現在のレイアウトに名前を付けて保存する|
 
-|Pickup|Process|
-|:-------------:|:-------------:|
-|<img width="1786" height="919" alt="image" src="https://github.com/user-attachments/assets/cd138494-a757-4688-b97a-200810df2ec8" />|<img width="1786" height="919" alt="image" src="https://github.com/user-attachments/assets/7bc3f3b4-71e5-40df-b63e-5fd9b34798fa" />|
 
-|Register|Retarget|
-|:-------------:|:-------------:|
-|<img width="1786" height="919" alt="image" src="https://github.com/user-attachments/assets/77d12052-452f-4ec3-8797-5ae233939d9e" />|<img width="1786" height="919" alt="image" src="https://github.com/user-attachments/assets/c45d77d0-e955-4205-9313-6df3403f7839" />|
-
+<table>
+<tr>
+<td>
+  <figure>
+    <img src="https://github.com/user-attachments/assets/cd138494-a757-4688-b97a-200810df2ec8"/>
+    <figcaption>Pickup</figcaption>
+  </figure>
+</td>
+<td>
+  <figure>
+  <img src="https://github.com/user-attachments/assets/7bc3f3b4-71e5-40df-b63e-5fd9b34798fa">
+  <figcaption>Process</figcaption>
+  </figure>
+</td>
+</tr>
+<tr>
+<td>
+  <figure>
+  <img src="https://github.com/user-attachments/assets/77d12052-452f-4ec3-8797-5ae233939d9e">
+  <figcaption>Register</figcaption>
+  </figure>
+</td>
+<td>
+  <figure>
+      <img src="https://github.com/user-attachments/assets/c45d77d0-e955-4205-9313-6df3403f7839"/>
+      <figcaption>Retarget</figcaption>
+  </figure>
+</td>
+</tr>
+</table>
 
 <BR><BR><BR>
 
@@ -676,6 +718,7 @@ Windowsエクスプローラーを開きます。
 |FCS|FCSフォルダを開きます。|
 |Facial|Facialフォルダを開きます。|
 |tmp|Logなどが格納されているユーザー設定フォルダを開きます。|
+<BR>
 
 <img alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Explorer002.jpg">
 
